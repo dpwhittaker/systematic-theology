@@ -32,9 +32,17 @@ We will use a **Lattice** structure (a Directed Acyclic Graph).
 
 ### UX Implications
 This structure unlocks specific user interactions unavailable in a strict tree:
-1.  **The "Thread" Pivot:** Users can "pivot" laterally. While viewing "The Cross" (Christology), they can see the "Covenant" thread and jump to "Abraham" (Israel) without going back up the menu tree.
-2.  **Contextual Inheritance:** A verse displayed under "Sin" can inherit context from "Exodus" if the lattice path connects them, showing how the definition of sin shifts based on the narrative era.
-3.  **Multi-Perspective Toggle:** A topic can be viewed from a "Greek" parent (abstract definition) or a "Hebrew" parent (narrative function) instantly.
+1.  **The "Thread" Pivot:** Users can "pivot" laterally to related topics.
+2.  **Contextual Inheritance:** A verse displays context based on its active lattice path.
+
+### Directional Semantics
+We map physical navigation input (D-Pad/Arrow Keys) to theological dimensions:
+-   **UP (Abstraction):** Move towards the parent category (e.g., from "Blood" to "Soteriology").
+-   **DOWN (Detail):** Drill down into evidence (e.g., from "Blood" to "Leviticus 17:11").
+-   **LEFT (Hebraic - Concrete):** Pivot the view towards the narrative/concrete function.
+    -   *Example:* Focus shifts to the "Covenant" aspect of the topic.
+-   **RIGHT (Hellenistic - Abstract):** Pivot the view towards the categorical/philosophical definition.
+    -   *Example:* Focus shifts to the "Satisfaction Theory" aspect of the topic.
 
 ### The "Question" Overlay
 Every page should have a toggleable "Critique" layer that highlights where the current theological category might be imposing a foreign structure on the text.
@@ -63,18 +71,20 @@ To visualize the Lattice, we introduce **"Threads"** (Lateral Links) alongside t
 
 ```
 +--------------------------------------------------+
-|  [PARENT: ESCHATOLOGY]                 [HEBREW]  | <- Context
+|  < [HEBREW: COVENANT]      [GREEK: SATISFACTION] > | <- Horizontal Axis
 +--------------------------------------------------+
+|  [PARENT: SOTERIOLOGY]                           | <- Vertical Axis (Up)
 |                                                  |
-|   "The Day of the Lord"                          | <- Main Focus
+|   "The Blood"                                    | <- Current Node
 |                                                  |
-|   > Amos 5:18                                    | <- Hierarchy (Child)
-|   > 1 Thess 5:2                                  |
+|   v Leviticus 17:11                              | <- Vertical Axis (Down)
+|   v Hebrews 9:22                                 |
 |                                                  |
 +--------------------------------------------------+
-|  THREADS: [Judgment]  [Babylon]  [Creation]      | <- LATTICE LINKS
+|  THREADS: [Life]  [Sacrifice]  [Purity]          |
 +--------------------------------------------------+
-|  [NAV: Arrows Move | Space: Select]              |
+|  [NAV: Arrows Navigate | Space: Select]          |
 +--------------------------------------------------+
 ```
-*   **Threads:** These are horizontal pills/tags. Selecting one pivots the user to that topic's context, effectively "changing the subject" without losing the connection.
+*   **Horizontal Axis:** Left Arrow shifts context to Hebraic (Concrete), Right Arrow shifts to Hellenistic (Abstract).
+*   **Vertical Axis:** Up goes to Parent Category, Down goes to Verse Evidence.
