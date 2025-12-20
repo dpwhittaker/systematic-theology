@@ -67,33 +67,42 @@ Every page should have a toggleable "Critique" layer that highlights where the c
 
 ## 5. Prototype Layout (Single Screen)
 
-The layout is split into a top **Context Card** and a bottom **Navigation Grid**.
+The layout features a dynamic **Context Card** whose content drives the **Navigation Area**.
 
 ```
 +--------------------------------------------------+
-|  [PARENT: SOTERIOLOGY]                           | <- Header (Up Navigation)
+|  Salvation > Blood                               | <- Header (Hierarchical Breadcrumbs)
 +--------------------------------------------------+
-|  TOPIC: THE BLOOD                                | <- Context Panel (Main Body)
+|  - Seals *Covenants* (Ex 24:8)                   | <- Card Body (Dynamic Content)
+|  - *Atones* for *Sin* (Lev 17:11)                |    - Bullet points for Concepts
+|  - *Lord's Supper* (Matt 26:28)                  |    - Full text for Verses
 |                                                  |
-|  "For the life of the flesh is in the blood..."  | <- Verse / Quote
-|   - Lev 17:11                                    |
-|                                                  |
-|  [!] Life  [!] Atonement  [!] Altar              | <- Highlighted Keywords
+|  H [               *             ] G  [more...]  | <- Spectrum & Article Indicator
 +--------------------------------------------------+
-|  < HEBRAIC      |      DRILL DOWN      | GREEK > | <- Navigation Area
-|                 |                      |         |
-|  [ ] Covenant   |  [x] Lev 17:11       | [ ] Sat |
-|  [ ] Sacrifice  |  [ ] Heb 9:22        | [ ] Pen |
-|  [ ] Life       |  [ ] Hist. Ctxt      | [ ] Abs |
-|                 |                      |         |
-+--------------------------------------------------+
-|  [NAV: Arrows Cycle Focus | Space: Select]       |
+|  [x] Covenant     [ ] Sin         [ ] Lord's Sup | <- Nav Area (Generated from Highlights)
+|  [ ] Ex 24:8      [ ] Lev 17:11   [ ] Matt 26:28 |
 +--------------------------------------------------+
 ```
+
+### Component Breakdown
+
+**1. Context Card (Body):**
+*   **Theology Concept:** Displays specific "talking points" as bullet points. Key terms are highlighted inline.
+*   **Verse:** Displays the full verse text. Words relevant to the current *lattice path* are highlighted.
+*   **Context:** Explains the historical or linguistic relevance to the current topic.
+
+**2. The Spectrum (Footer):**
+*   A visual slider `H [---*---] G` indicating the concept's position between **Hebraic** (Concrete, Functional, Narrative) and **Greek** (Abstract, Static, Categorical).
+
+**3. Navigation Area (Drill Down):**
+*   **Auto-Generated:** The links presented here are extracted directly from the *highlights* and *references* in the Context Card.
+*   **Interaction:** Selecting a link navigates to that Concept or Verse.
+
+**4. "[more...]" Indicator:**
+*   Visible if a full-length article is available.
+*   **Action:** Pressing `Space` (before any directional nav) opens the full article overlay.
+
 **Interaction Model:**
--   **UP:** Immediately navigates to the Parent Category.
--   **Context Panel:** Displays the core concept definition, key verse, and highlighted keywords for glanceability.
--   **Navigation Area:** 3-Column grid for drilling down or pivoting perspective.
--   **LEFT/RIGHT/DOWN:** Moves the "focus cursor" `[x]` to the next item in that column/direction.
-    -   *Example:* Pressing Left moves focus to the Hebraic column. Subsequent Left presses cycle through Hebraic concepts.
--   **SPACE:** Activates the currently focused item (navigates to that Concept or opens that Verse).
+-   **UP:** Navigates to the Parent Category.
+-   **LEFT/RIGHT/DOWN:** Navigates the focus cursor through the generated links in the Nav Area.
+-   **SPACE:** Activates the focused link OR opens the full article if focus is on the card.

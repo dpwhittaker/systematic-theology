@@ -10,3 +10,7 @@ Updated design.md Section 5 to a 3-column grid layout (Hebraic | Detail | Hellen
 - Updated 'design.md' with new layout spec.
 - Updated 'data/theology.json' with rich content fields.
 - Updated 'index.html', 'js/app.js', 'css/style.css' to implement the new card design.
+- Redesigned HUD to use a dynamic 'Card' + 'Spectrum' + 'Nav Grid' layout.
+- Implemented Markdown-style highlighting in JS.
+- Implemented Spectrum Slider logic.
+- Implemented Graph-based navigation logic.

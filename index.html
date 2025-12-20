@@ -9,29 +9,27 @@
 <body>
     <div id="app" class="hud-container">
         <header class="hud-header">
-            <span id="topic-title">LOADING...</span>
-            <span id="view-mode" class="badge">HEBREW</span>
+            <span id="breadcrumb">LOADING...</span>
         </header>
 
-        <section id="context-panel" class="hud-context-card">
-            <h1 id="main-concept">TOPIC TITLE</h1>
-            <p id="topic-def">Definition goes here...</p>
-            <div class="verse-block">
-                <p id="topic-verse">"Verse text..."</p>
-                <span id="topic-ref">- Reference</span>
+        <section class="hud-card">
+            <div id="card-body">
+                <!-- Dynamic Content Injected Here -->
             </div>
-            <div id="topic-keywords" class="keyword-cloud">
-                <!-- Keywords injected here -->
+            <div id="card-footer">
+                <div class="spectrum-wrapper">
+                    <span class="spec-label">H</span>
+                    <div id="spectrum-track">
+                        <div id="spectrum-indicator"></div>
+                    </div>
+                    <span class="spec-label">G</span>
+                </div>
+                <div id="more-indicator" class="hidden">[more...]</div>
             </div>
         </section>
         
-        <nav class="hud-navigation">
-            <div class="nav-column">
-                <div class="column-header">DRILL DOWN</div>
-                <div id="details-list" class="link-list">
-                    <!-- Content injected here -->
-                </div>
-            </div>
+        <nav id="nav-grid" class="hud-navigation">
+            <!-- Dynamic Links Injected Here -->
         </nav>
 
         <footer class="hud-footer">

@@ -1,45 +1,60 @@
 {
     "topics": [
         {
+            "id": "intro",
+            "type": "concept",
             "category": "INTRO",
-            "mindset": "NEUTRAL",
             "title": "Systematic Theology?",
-            "definition": "The attempt to arrange religious truths in a self-consistent whole.",
-            "verse": "See to it that no one takes you captive by philosophy...",
-            "reference": "Colossians 2:8",
-            "keywords": ["System", "Philosophy", "Truth"],
-            "points": [
-                { "text": "Is the 'System' the message?" },
-                { "text": "Greek: Abstraction & Definition" },
-                { "text": "Hebrew: Narrative & Relation" }
+            "spectrum": 5,
+            "hasArticle": true,
+            "content": [
+                "Is the *System* itself the message?",
+                "Greek thinking favors *Abstraction* & *Definition*.",
+                "Hebrew thinking favors *Narrative* & *Relation*."
+            ],
+            "links": [
+                { "label": "System", "target": "system" },
+                { "label": "Abstraction", "target": "abstraction" },
+                { "label": "Narrative", "target": "narrative" }
             ]
         },
         {
+            "id": "blood_concept",
+            "type": "concept",
             "category": "SOTERIOLOGY",
-            "mindset": "GREEK",
-            "title": "Faith (Pistis)",
-            "definition": "Intellectual assent to a set of propositions; a state of mind.",
-            "verse": "Now faith is the substance of things hoped for...",
-            "reference": "Hebrews 11:1",
-            "keywords": ["Assent", "Belief", "Mind"],
-            "points": [
-                { "text": "Intellectual Assent" },
-                { "text": "Belief in a set of propositions" },
-                { "text": "Internal state of mind" }
+            "title": "The Blood",
+            "spectrum": -8,
+            "hasArticle": false,
+            "content": [
+                "Seals *Covenants* (Ex 24:8)",
+                "Means of *Atonement* (Lev 17:11)",
+                "Remembered in *Lord's Supper* (Matt 26:28)"
+            ],
+            "links": [
+                { "label": "Covenants", "target": "covenant" },
+                { "label": "Ex 24:8", "target": "ex_24_8" },
+                { "label": "Atonement", "target": "atonement" },
+                { "label": "Lev 17:11", "target": "lev_17_11" },
+                { "label": "Lord's Supper", "target": "lords_supper" },
+                { "label": "Matt 26:28", "target": "matt_26_28" }
             ]
         },
         {
+            "id": "lev_17_11",
+            "type": "verse",
             "category": "SOTERIOLOGY",
-            "mindset": "HEBREW",
-            "title": "Faith (Emunah)",
-            "definition": "Firmness, steadfastness, fidelity. An action of support.",
-            "verse": "And his hands were steady (emunah) until the going down of the sun.",
-            "reference": "Exodus 17:12",
-            "keywords": ["Steadfast", "Action", "Support"],
-            "points": [
-                { "text": "Faithfulness / Steadfastness" },
-                { "text": "Physical Action (Exodus 17:12)" },
-                { "text": "Relational Trust (Gen 15:6)" }
+            "title": "Leviticus 17:11",
+            "spectrum": -10,
+            "hasArticle": false,
+            "content": [
+                "For the *life* of the flesh is in the *blood*, and I have given it for you on the *altar* to make *atonement* for your *souls*."
+            ],
+            "links": [
+                { "label": "Life", "target": "life" },
+                { "label": "Blood", "target": "blood_concept" },
+                { "label": "Altar", "target": "altar" },
+                { "label": "Atonement", "target": "atonement" },
+                { "label": "Souls", "target": "soul" }
             ]
         }
     ]
