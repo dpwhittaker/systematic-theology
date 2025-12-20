@@ -73,12 +73,8 @@ Refined navigation and layout:
 - Changed card-body justify-content from center to flex-start (top-aligned)
 - Content now starts at top of viewport instead of being vertically centered
 
-Removed top gap:
-- Changed .hud-container padding from 1rem to 0 1rem 1rem 1rem (no top padding)
-- Title now starts at the very top of the viewport
-- Maximizes vertical space for content
-
-Fixed header gap:
-- Added explicit padding: 0 0 0.25rem 0 to .hud-header (no top padding)
-- Added explicit margin: 0 0 0.5rem 0 to .hud-header (no top margin)
-- Ensures header starts at absolute top of container with no gap
+Fixed large top gap (25% viewport height):
+- Changed #viewport-wrapper align-items from center to flex-start
+- This was vertically centering the entire #app container
+- Reverted previous padding/margin changes to .hud-container and .hud-header
+- Content now starts at top of viewport without large gap
