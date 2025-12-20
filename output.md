@@ -77,3 +77,8 @@ Removed top gap:
 - Changed .hud-container padding from 1rem to 0 1rem 1rem 1rem (no top padding)
 - Title now starts at the very top of the viewport
 - Maximizes vertical space for content
+
+Fixed header gap:
+- Added explicit padding: 0 0 0.25rem 0 to .hud-header (no top padding)
+- Added explicit margin: 0 0 0.5rem 0 to .hud-header (no top margin)
+- Ensures header starts at absolute top of container with no gap
