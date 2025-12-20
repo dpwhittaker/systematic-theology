@@ -1,0 +1,34 @@
+{
+    "topics": [
+        {
+            "category": "INTRO",
+            "mindset": "NEUTRAL",
+            "title": "Systematic Theology?",
+            "points": [
+                { "text": "Is the 'System' the message?" },
+                { "text": "Greek: Abstraction & Definition" },
+                { "text": "Hebrew: Narrative & Relation" }
+            ]
+        },
+        {
+            "category": "SOTERIOLOGY",
+            "mindset": "GREEK",
+            "title": "Faith (Pistis)",
+            "points": [
+                { "text": "Intellectual Assent" },
+                { "text": "Belief in a set of propositions" },
+                { "text": "Internal state of mind" }
+            ]
+        },
+        {
+            "category": "SOTERIOLOGY",
+            "mindset": "HEBREW",
+            "title": "Faith (Emunah)",
+            "points": [
+                { "text": "Faithfulness / Steadfastness" },
+                { "text": "Physical Action (Exodus 17:12)" },
+                { "text": "Relational Trust (Gen 15:6)" }
+            ]
+        }
+    ]
+}

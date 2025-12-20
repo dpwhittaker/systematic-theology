@@ -1,0 +1,112 @@
+:root {
+    --bg-color: #000000;
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --accent-color: #00ff00; /* Terminal Green for active elements */
+    --accent-warning: #ffaa00; /* For Greek/Hebrew contrast alerts */
+    --font-mono: 'Courier New', Courier, monospace; /* Placeholder for a better mono font */
+    --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* No scrolling allowed */
+    display: flex;
+    flex-direction: column;
+}
+
+.hud-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* HEADER */
+.hud-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--text-secondary);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.badge {
+    background: var(--text-secondary);
+    color: var(--bg-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* MAIN CONTENT */
+.hud-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#main-concept {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1rem;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.list-item {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.list-item.active {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    background: rgba(0, 255, 0, 0.1);
+}
+
+/* FOOTER */
+.hud-footer {
+    border-top: 1px solid var(--text-secondary);
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.divider {
+    margin: 0 1rem;
+    opacity: 0.5;
+}
+
+/* UTILS */
+.hidden {
+    display: none;
+}
