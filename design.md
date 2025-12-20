@@ -67,24 +67,25 @@ Every page should have a toggleable "Critique" layer that highlights where the c
 
 ## 5. Prototype Layout (Single Screen)
 
-To visualize the Lattice, we introduce **"Threads"** (Lateral Links) alongside the standard hierarchy.
+The main view is a **3-Column Grid** representing the directional lattice.
 
 ```
 +--------------------------------------------------+
-|  < [HEBREW: COVENANT]      [GREEK: SATISFACTION] > | <- Horizontal Axis
+|  [PARENT: SOTERIOLOGY]                           | <- Header (Up Navigation)
+|  Current Topic: "THE BLOOD"                      |
 +--------------------------------------------------+
-|  [PARENT: SOTERIOLOGY]                           | <- Vertical Axis (Up)
-|                                                  |
-|   "The Blood"                                    | <- Current Node
-|                                                  |
-|   v Leviticus 17:11                              | <- Vertical Axis (Down)
-|   v Hebrews 9:22                                 |
-|                                                  |
+|  < HEBRAIC      |      DRILL DOWN      | GREEK > |
+|                 |                      |         |
+|  [ ] Covenant   |  [x] Lev 17:11       | [ ] Sat |
+|  [ ] Sacrifice  |  [ ] Heb 9:22        | [ ] Pen |
+|  [ ] Life       |  [ ] Hist. Ctxt      | [ ] Abs |
+|                 |                      |         |
 +--------------------------------------------------+
-|  THREADS: [Life]  [Sacrifice]  [Purity]          |
-+--------------------------------------------------+
-|  [NAV: Arrows Navigate | Space: Select]          |
+|  [NAV: Arrows Cycle Focus | Space: Select]       |
 +--------------------------------------------------+
 ```
-*   **Horizontal Axis:** Left Arrow shifts context to Hebraic (Concrete), Right Arrow shifts to Hellenistic (Abstract).
-*   **Vertical Axis:** Up goes to Parent Category, Down goes to Verse Evidence.
+**Interaction Model:**
+-   **UP:** Immediately navigates to the Parent Category.
+-   **LEFT/RIGHT/DOWN:** Moves the "focus cursor" `[x]` to the next item in that column/direction.
+    -   *Example:* Pressing Left moves focus to the Hebraic column. Subsequent Left presses cycle through Hebraic concepts.
+-   **SPACE:** Activates the currently focused item (navigates to that Concept or opens that Verse).
