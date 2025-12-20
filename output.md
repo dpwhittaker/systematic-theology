@@ -40,3 +40,12 @@ Implemented font and viewport improvements:
 - Added event listeners in JS to wire buttons to existing navigation functions
 - Controls hidden on very small screens where keyboard is primary input
 - Buttons styled with semi-transparent backgrounds and accent color on hover/active
+
+Updated workflow documentation and browser controls:
+- Clarified in CLAUDE.md that reading prompts.md/output.md is only needed at session start
+- Redesigned browser buttons to fill entire remaining space (left/right side or top/bottom)
+- Changed button layout from grouped to linear: left, right, ok, up, down
+- Made buttons square by using flex:1 to fill available space equally
+- Increased font size to 2rem for better visibility
+- Removed fixed width/height, buttons now scale with available space
+- Buttons now properly expand to fill the margin area outside the 16:9 viewport

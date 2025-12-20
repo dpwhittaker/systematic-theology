@@ -44,12 +44,13 @@ body {
     }
     #browser-controls {
         display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        gap: 0;
         position: absolute;
-        right: calc((100vw - 100vh * 16 / 9) / 2 - 120px);
-        top: 50%;
-        transform: translateY(-50%);
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: calc((100vw - 100vh * 16 / 9) / 2);
     }
 }
 
@@ -61,12 +62,13 @@ body {
     }
     #browser-controls {
         display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        gap: 0;
         position: absolute;
-        bottom: calc((100vh - 100vw * 9 / 16) / 2 - 120px);
-        left: 50%;
-        transform: translateX(-50%);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc((100vh - 100vw * 9 / 16) / 2);
     }
 }
 
@@ -239,26 +241,23 @@ body {
 
 /* BROWSER CONTROLS */
 #browser-controls {
-    align-items: center;
+    align-items: stretch;
     z-index: 1000;
-}
-
-.nav-row {
-    display: flex;
-    gap: 0.5rem;
 }
 
 .nav-btn {
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid var(--text-secondary);
+    border: 1px solid var(--text-secondary);
     color: var(--text-primary);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--font-sans);
     font-weight: bold;
-    width: 60px;
-    height: 60px;
+    flex: 1;
     cursor: pointer;
     transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-btn:hover {
@@ -283,7 +282,7 @@ body {
 /* Hide controls on very small screens or when keyboard is primary */
 @media (max-width: 600px) and (max-height: 400px) {
     #browser-controls {
-        display: none;
+        display: none !important;
     }
 }
 

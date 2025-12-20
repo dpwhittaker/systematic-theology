@@ -13,3 +13,5 @@ ok, so the UX needs three columns: to the left, the most-related Hebrew concepts
 Follow the same operating procedure mentioned in gemini.md - track my prompts in prompts.md and your outputs (that aren't written to a file) in outputs.md.  commit and push on every turn where edits are made.  this will allow me and others to see how the site was built.  add these instructions to claude.md
 
 Now lets make some minor modifications.  First, yes lets make the switch to Atkinson Hyperlegible.  Also, ensure the viewport is 16:9 aspect ratio.  When it is not, display the content in a 16:9 box.  Use the extra space for up/down/left/right/ok buttons for browser access.
+
+You can also update the instruction to read prompts.md and outputs.md to mention this is only necessary at the beginning of a session (the rest of time they will already be in your context).  The browser buttons are too small and dont seem to work.  make them square, fill the remaining space with them, and make them linear: left, right, ok, up, down.

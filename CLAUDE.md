@@ -152,7 +152,7 @@ When working in this repository, follow these procedures to maintain conversatio
 
 ### Prompt and Output Logging
 
-- **Read Context First:** At the start of each turn, read `prompts.md` and `output.md` to restore conversational context
+- **Read Context First:** At the beginning of a new session, read `prompts.md` and `output.md` to restore conversational context (they will remain in context for the rest of the session)
 - **Log User Prompts:** Append every user prompt to `prompts.md`
 - **Log Agent Outputs:** Append text outputs (that aren't direct file content) to `output.md`
 - **Purpose:** This allows exploring alternate threads via git branches and resuming work after checkouts
