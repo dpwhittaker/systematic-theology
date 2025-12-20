@@ -92,3 +92,11 @@ Final nav column and button refinements:
 - Changed column-gap to 0, row-gap to 0.5rem for proper spacing with borders
 - Set browser controls to fixed 2rem height (tall viewports) and 2rem width (wide viewports)
 - Changed wide viewport controls back to flex-direction: column for vertical layout
+
+Restructured nav grid with proper column containers:
+- Created .nav-column containers (3 total) as children of #nav-grid
+- Nav items now added to their respective column containers
+- Columns use flexbox to stack items vertically with gap: 0.5rem
+- Border-right on .nav-column instead of complex nth-child logic
+- Simplified CSS structure: grid for horizontal, flex for vertical
+- Items now properly positioned vertically within horizontally arranged columns

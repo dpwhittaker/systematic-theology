@@ -29,3 +29,5 @@ still not it.  its about 8 rem of blank space, 25% of the viewport height.  reve
 ok, that fixed the viewport, but the browser buttons are still cut off at the bottom of the screen.  also, in the nav area, the left column is larger than the other two.
 
 The nav columns still seem to be adjusting to the size of the their contents rather than fixed width.  Lets also draw a vertical line between the columns.  finally the browser buttons are much taller than they need to be.  lets try 2rem.
+
+ok I think I see whats going on.  you are adding the nav-items directly to the nav-grid.  there should be 3 nav-columns inside the nav-grid, and the items should be added to their column.  this will let you position the buttons vertically within the horizontally arranged columns.

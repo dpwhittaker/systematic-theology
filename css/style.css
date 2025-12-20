@@ -198,13 +198,22 @@ body {
     flex: 0 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: column;
-    column-gap: 0;
-    row-gap: 0.5rem;
+    gap: 0;
     padding: 0 1rem;
     max-height: 25vh;
     overflow-y: auto;
-    align-items: start;
+}
+
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-right: 1px solid var(--text-secondary);
+    padding: 0 0.5rem;
+}
+
+.nav-column:last-child {
+    border-right: none;
 }
 
 .nav-item {
@@ -213,17 +222,11 @@ body {
     color: var(--text-secondary);
     padding: 0.4rem 0.3rem;
     border: 1px solid transparent;
-    border-right: 1px solid var(--text-secondary);
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
-    min-width: 0;
-}
-
-.nav-item:nth-child(3n) {
-    border-right: none;
 }
 
 .nav-item.active {

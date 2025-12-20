@@ -85,14 +85,19 @@ function render() {
     ];
 
     columns.forEach(col => {
+        const colDiv = document.createElement('div');
+        colDiv.className = 'nav-column';
+
         col.links.forEach((link, index) => {
             const div = document.createElement('div');
             const isActive = (col.name === state.focusedColumn && index === state.focusedLinkIndex);
             div.className = `nav-item ${isActive ? 'active' : ''}`;
             div.innerText = `[${isActive ? 'x' : ' '}] ${link.label}`;
             div.onclick = () => activateLinkInColumn(col.name, index);
-            els.navGrid.appendChild(div);
+            colDiv.appendChild(div);
         });
+
+        els.navGrid.appendChild(colDiv);
     });
 }
 
