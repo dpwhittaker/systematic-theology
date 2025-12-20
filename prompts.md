@@ -27,3 +27,5 @@ That wasn't it.  it maybe inside the header container
 still not it.  its about 8 rem of blank space, 25% of the viewport height.  revert the previous changes and look for something else.
 
 ok, that fixed the viewport, but the browser buttons are still cut off at the bottom of the screen.  also, in the nav area, the left column is larger than the other two.
+
+The nav columns still seem to be adjusting to the size of the their contents rather than fixed width.  Lets also draw a vertical line between the columns.  finally the browser buttons are much taller than they need to be.  lets try 2rem.

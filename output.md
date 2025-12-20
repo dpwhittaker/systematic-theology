@@ -84,3 +84,11 @@ Fixed browser buttons cutoff and nav column width:
 - Now positioned from top: calc(100vw * 9 / 16) to bottom: 0 (uses all remaining space)
 - Fixed nav grid columns from repeat(3, 1fr) to explicit 1fr 1fr 1fr for equal widths
 - Added align-items: start to nav-grid to prevent column stretching
+
+Final nav column and button refinements:
+- Added min-width: 0 to nav-item to prevent content from expanding columns
+- Added border-right to nav items to create vertical dividers between columns
+- Removed border-right from every 3rd item (last in each column) using nth-child(3n)
+- Changed column-gap to 0, row-gap to 0.5rem for proper spacing with borders
+- Set browser controls to fixed 2rem height (tall viewports) and 2rem width (wide viewports)
+- Changed wide viewport controls back to flex-direction: column for vertical layout

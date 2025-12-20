@@ -44,13 +44,13 @@ body {
     }
     #browser-controls {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 0;
         position: absolute;
         right: 0;
         top: 0;
-        bottom: 0;
-        width: calc((100vw - 100vh * 16 / 9) / 2);
+        height: 100vh;
+        width: 2rem;
     }
 }
 
@@ -68,7 +68,7 @@ body {
         top: calc(100vw * 9 / 16);
         left: 0;
         right: 0;
-        bottom: 0;
+        height: 2rem;
     }
 }
 
@@ -199,7 +199,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: column;
-    gap: 0.5rem;
+    column-gap: 0;
+    row-gap: 0.5rem;
     padding: 0 1rem;
     max-height: 25vh;
     overflow-y: auto;
@@ -212,11 +213,17 @@ body {
     color: var(--text-secondary);
     padding: 0.4rem 0.3rem;
     border: 1px solid transparent;
+    border-right: 1px solid var(--text-secondary);
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
+    min-width: 0;
+}
+
+.nav-item:nth-child(3n) {
+    border-right: none;
 }
 
 .nav-item.active {
