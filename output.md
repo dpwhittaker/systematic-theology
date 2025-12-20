@@ -72,3 +72,8 @@ Refined navigation and layout:
 - Reordered browser buttons to: left, up, ok, down, right
 - Changed card-body justify-content from center to flex-start (top-aligned)
 - Content now starts at top of viewport instead of being vertically centered
+
+Removed top gap:
+- Changed .hud-container padding from 1rem to 0 1rem 1rem 1rem (no top padding)
+- Title now starts at the very top of the viewport
+- Maximizes vertical space for content

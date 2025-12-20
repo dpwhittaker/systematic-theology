@@ -19,3 +19,5 @@ You can also update the instruction to read prompts.md and outputs.md to mention
 The green highlight on the bottom is too large, highlighting the whole bottom area.  The title bar also has a lot of empty space above the title, leaving no space for the main content.  finally, the arrows are not working as expected.  Left should cycle through the left/hebrew links, right should cycle the the right/greek links, down through drill-down links in the middle.  also add content for the linked pages so I can test the navigation.
 
 left and right arrow need to also cycle through their respective columns.  they are also showing up in rows instead of columns.  the labels at the bottom should be Hebrew, Drill, and Greek and centered under their column, and the columns should be in that order.  also make the font the same as the body everywhere.  change the order of the browser buttons to left, up, ok, down, right to match.  finally, dont try to center the slide, let it start at the top of the viewport.  this leaves more room for the buttons at the bottom.
+
+there is still a gap at the top before the title starts.
