@@ -9,6 +9,8 @@ const state = {
 const els = {
     topicTitle: document.getElementById('topic-title'),
     viewMode: document.getElementById('view-mode'),
+    breadcrumb: document.getElementById('breadcrumb'),
+    contextDesc: document.getElementById('context-desc'),
     mainConcept: document.getElementById('main-concept'),
     detailsList: document.getElementById('details-list'),
 };
@@ -36,6 +38,10 @@ function render() {
     // Header
     els.topicTitle.innerText = topic.category;
     els.viewMode.innerText = topic.mindset || "GENERAL";
+
+    // Context Panel
+    els.breadcrumb.innerText = `SYSTEM > ${topic.category} > ${topic.title}`;
+    els.contextDesc.innerText = `Perspective: ${topic.mindset}`;
     
     // Main
     els.mainConcept.innerText = topic.title;

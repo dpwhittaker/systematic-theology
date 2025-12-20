@@ -5,3 +5,5 @@ now that we have defined the rules of engagement, lets start working on design.m
 Ok, that is interesting.  So a tree only deals with parent-child relationships, but a lattice includes horizontal relationships.  I wonder if there is a useful left-right concept we could define, similar to up being parent and down being child?  I'm thinking Hebraic<->Hellenistic might be a cool way to define the horizontal direction for this project.
 
 ok, so the UX needs three columns: to the left, the most-related Hebrew concepts.  in the center, the drill-down details to go deeper on the current concept, and and to the right, the Hellenistic related concepts.  the header remains, with the parent topic and current topic.  pressing up immediately takes you to the parent.  pressing left, down, or right cycles through the concepts in that direction, and pressing space navigates you to that concept.
+- the main panel still needs an area to describe the current context.  Between the header and navigation areas there should be a panel describing the current context.  Update the design.md
+- Did you read gemini.md?  are you forgetting something?

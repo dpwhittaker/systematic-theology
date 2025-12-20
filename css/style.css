@@ -54,6 +54,28 @@ body {
     font-weight: bold;
 }
 
+/* CONTEXT PANEL */
+.hud-context {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 2px solid var(--accent-warning);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+#breadcrumb {
+    color: var(--accent-warning);
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+#context-desc {
+    font-style: italic;
+}
+
 /* MAIN CONTENT */
 .hud-content {
     display: flex;
