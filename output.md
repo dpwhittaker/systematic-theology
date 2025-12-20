@@ -14,3 +14,19 @@ Updated design.md Section 5 to a 3-column grid layout (Hebraic | Detail | Hellen
 - Implemented Markdown-style highlighting in JS.
 - Implemented Spectrum Slider logic.
 - Implemented Graph-based navigation logic.
+
+Created comprehensive CLAUDE.md file documenting:
+- Project overview and core thesis
+- Lattice structure architecture (vs tree hierarchy)
+- Navigation model with directional semantics
+- Data structure for theology.json
+- HUD requirements and design constraints
+- Common development tasks
+- Theological integrity considerations
+
+Updated CLAUDE.md to include workflow management section:
+- Instructions to read prompts.md and output.md at start of each turn
+- Requirement to log user prompts to prompts.md
+- Requirement to log agent outputs to output.md
+- Requirement to commit and push on every turn with file modifications
+- Purpose: Enable git branch exploration and complete development history tracking
