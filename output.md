@@ -49,3 +49,16 @@ Updated workflow documentation and browser controls:
 - Increased font size to 2rem for better visibility
 - Removed fixed width/height, buttons now scale with available space
 - Buttons now properly expand to fill the margin area outside the 16:9 viewport
+
+Fixed navigation, styling, and added content:
+- Restructured data model: replaced single 'links' array with hebraicLinks, detailLinks, hellenisticLinks
+- Added 5 new topics: narrative, abstraction, system, covenant, atonement
+- Rewrote navigation logic to understand 3-column layout
+- Left arrow switches to hebraic column, right to hellenistic, down to detail (or cycles within detail)
+- Navigation now properly tracks focusedColumn and focusedLinkIndex separately
+- Fixed green highlight issue: changed active nav-item from filled background to border-only
+- Reduced header margins and font size (0.9rem, 0.25rem padding)
+- Reduced card margins (0.5rem instead of 1rem)
+- Changed nav-grid from fixed 30vh height to max-height 25vh
+- Reduced nav-item padding and font size for better fit
+- Reduced footer spacing to give more room to main content area

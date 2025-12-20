@@ -1,6 +1,7 @@
 // State management
 const state = {
     currentTopicId: 'intro',
+    focusedColumn: 'detail', // 'hebraic', 'detail', or 'hellenistic'
     focusedLinkIndex: 0,
     topics: {}, // Map of id -> topic
     history: [], // For Back navigation
@@ -74,17 +75,25 @@ function render() {
     // More Indicator
     els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
 
-    // Navigation Grid
+    // Navigation Grid - 3 columns
     els.navGrid.innerHTML = '';
-    if (topic.links) {
-        topic.links.forEach((link, index) => {
+
+    const columns = [
+        { name: 'hebraic', links: topic.hebraicLinks || [] },
+        { name: 'detail', links: topic.detailLinks || [] },
+        { name: 'hellenistic', links: topic.hellenisticLinks || [] }
+    ];
+
+    columns.forEach(col => {
+        col.links.forEach((link, index) => {
             const div = document.createElement('div');
-            div.className = `nav-item ${index === state.focusedLinkIndex ? 'active' : ''}`;
-            div.innerText = `[${index === state.focusedLinkIndex ? 'x' : ' '}] ${link.label}`;
-            div.onclick = () => activateLink(index);
+            const isActive = (col.name === state.focusedColumn && index === state.focusedLinkIndex);
+            div.className = `nav-item ${isActive ? 'active' : ''}`;
+            div.innerText = `[${isActive ? 'x' : ' '}] ${link.label}`;
+            div.onclick = () => activateLinkInColumn(col.name, index);
             els.navGrid.appendChild(div);
         });
-    }
+    });
 }
 
 // Actions
@@ -92,6 +101,7 @@ function navigateTo(id) {
     if (state.topics[id]) {
         state.history.push(state.currentTopicId);
         state.currentTopicId = id;
+        state.focusedColumn = 'detail'; // Reset to center column
         state.focusedLinkIndex = 0; // Reset focus
         window.location.hash = id;
         render();
@@ -101,48 +111,86 @@ function navigateTo(id) {
 function navigateBack() {
     if (state.history.length > 0) {
         state.currentTopicId = state.history.pop();
+        state.focusedColumn = 'detail';
         state.focusedLinkIndex = 0;
         window.location.hash = state.currentTopicId;
         render();
     }
 }
 
-function moveFocus(delta) {
+function moveFocusInColumn(direction) {
     const topic = state.topics[state.currentTopicId];
-    if (!topic.links) return;
-    
-    const count = topic.links.length;
-    state.focusedLinkIndex = (state.focusedLinkIndex + delta + count) % count;
+    const columnMap = {
+        'hebraic': topic.hebraicLinks || [],
+        'detail': topic.detailLinks || [],
+        'hellenistic': topic.hellenisticLinks || []
+    };
+
+    const currentLinks = columnMap[state.focusedColumn];
+    if (!currentLinks || currentLinks.length === 0) return;
+
+    const count = currentLinks.length;
+    state.focusedLinkIndex = (state.focusedLinkIndex + direction + count) % count;
     render();
 }
 
-function activateLink(index) {
+function switchColumn(column) {
     const topic = state.topics[state.currentTopicId];
-    if (topic.links && topic.links[index]) {
-        navigateTo(topic.links[index].target);
+    const columnMap = {
+        'hebraic': topic.hebraicLinks || [],
+        'detail': topic.detailLinks || [],
+        'hellenistic': topic.hellenisticLinks || []
+    };
+
+    // Only switch if target column has links
+    if (columnMap[column] && columnMap[column].length > 0) {
+        state.focusedColumn = column;
+        state.focusedLinkIndex = 0;
+        render();
     }
+}
+
+function activateLinkInColumn(column, index) {
+    const topic = state.topics[state.currentTopicId];
+    const columnMap = {
+        'hebraic': topic.hebraicLinks || [],
+        'detail': topic.detailLinks || [],
+        'hellenistic': topic.hellenisticLinks || []
+    };
+
+    const links = columnMap[column];
+    if (links && links[index]) {
+        navigateTo(links[index].target);
+    }
+}
+
+function activateCurrentLink() {
+    activateLinkInColumn(state.focusedColumn, state.focusedLinkIndex);
 }
 
 // Input Handling
 document.addEventListener('keydown', (e) => {
     switch(e.key) {
-        case "ArrowRight":
-            moveFocus(1);
-            break;
         case "ArrowLeft":
-            moveFocus(-1);
+            switchColumn('hebraic');
+            break;
+        case "ArrowRight":
+            switchColumn('hellenistic');
             break;
         case "ArrowDown":
-            moveFocus(3); // Jump row in 3-col grid
+            if (state.focusedColumn === 'detail') {
+                moveFocusInColumn(1);
+            } else {
+                switchColumn('detail');
+            }
             break;
         case "ArrowUp":
-            // Check if we want to move focus up or nav back
-            // For now, Up is Nav Back as per spec "UP: Immediately navigates to Parent"
             navigateBack();
             break;
         case " ":
         case "Enter":
-            activateLink(state.focusedLinkIndex);
+            e.preventDefault();
+            activateCurrentLink();
             break;
     }
 });
@@ -153,19 +201,23 @@ document.getElementById('btn-up')?.addEventListener('click', () => {
 });
 
 document.getElementById('btn-down')?.addEventListener('click', () => {
-    moveFocus(3);
+    if (state.focusedColumn === 'detail') {
+        moveFocusInColumn(1);
+    } else {
+        switchColumn('detail');
+    }
 });
 
 document.getElementById('btn-left')?.addEventListener('click', () => {
-    moveFocus(-1);
+    switchColumn('hebraic');
 });
 
 document.getElementById('btn-right')?.addEventListener('click', () => {
-    moveFocus(1);
+    switchColumn('hellenistic');
 });
 
 document.getElementById('btn-ok')?.addEventListener('click', () => {
-    activateLink(state.focusedLinkIndex);
+    activateCurrentLink();
 });
 
 // Start

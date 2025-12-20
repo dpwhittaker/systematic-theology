@@ -15,3 +15,5 @@ Follow the same operating procedure mentioned in gemini.md - track my prompts in
 Now lets make some minor modifications.  First, yes lets make the switch to Atkinson Hyperlegible.  Also, ensure the viewport is 16:9 aspect ratio.  When it is not, display the content in a 16:9 box.  Use the extra space for up/down/left/right/ok buttons for browser access.
 
 You can also update the instruction to read prompts.md and outputs.md to mention this is only necessary at the beginning of a session (the rest of time they will already be in your context).  The browser buttons are too small and dont seem to work.  make them square, fill the remaining space with them, and make them linear: left, right, ok, up, down.
+
+The green highlight on the bottom is too large, highlighting the whole bottom area.  The title bar also has a lot of empty space above the title, leaving no space for the main content.  finally, the arrows are not working as expected.  Left should cycle through the left/hebrew links, right should cycle the the right/greek links, down through drill-down links in the middle.  also add content for the linked pages so I can test the navigation.
