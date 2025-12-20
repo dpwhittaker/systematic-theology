@@ -6,3 +6,7 @@ Updated design.md Section 5 to a 3-column grid layout (Hebraic | Detail | Hellen
 - Updated index.html to add the .hud-context section.
 - Updated css/style.css to style the context panel.
 - Updated js/app.js to dynamically populate the breadcrumb and context description.
+- Redesigned 'Context Panel' to be the main content card.
+- Updated 'design.md' with new layout spec.
+- Updated 'data/theology.json' with rich content fields.
+- Updated 'index.html', 'js/app.js', 'css/style.css' to implement the new card design.

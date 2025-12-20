@@ -4,6 +4,10 @@
             "category": "INTRO",
             "mindset": "NEUTRAL",
             "title": "Systematic Theology?",
+            "definition": "The attempt to arrange religious truths in a self-consistent whole.",
+            "verse": "See to it that no one takes you captive by philosophy...",
+            "reference": "Colossians 2:8",
+            "keywords": ["System", "Philosophy", "Truth"],
             "points": [
                 { "text": "Is the 'System' the message?" },
                 { "text": "Greek: Abstraction & Definition" },
@@ -14,6 +18,10 @@
             "category": "SOTERIOLOGY",
             "mindset": "GREEK",
             "title": "Faith (Pistis)",
+            "definition": "Intellectual assent to a set of propositions; a state of mind.",
+            "verse": "Now faith is the substance of things hoped for...",
+            "reference": "Hebrews 11:1",
+            "keywords": ["Assent", "Belief", "Mind"],
             "points": [
                 { "text": "Intellectual Assent" },
                 { "text": "Belief in a set of propositions" },
@@ -24,6 +32,10 @@
             "category": "SOTERIOLOGY",
             "mindset": "HEBREW",
             "title": "Faith (Emunah)",
+            "definition": "Firmness, steadfastness, fidelity. An action of support.",
+            "verse": "And his hands were steady (emunah) until the going down of the sun.",
+            "reference": "Exodus 17:12",
+            "keywords": ["Steadfast", "Action", "Support"],
             "points": [
                 { "text": "Faithfulness / Steadfastness" },
                 { "text": "Physical Action (Exodus 17:12)" },

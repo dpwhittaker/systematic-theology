@@ -67,16 +67,20 @@ Every page should have a toggleable "Critique" layer that highlights where the c
 
 ## 5. Prototype Layout (Single Screen)
 
-The main view is a **3-Column Grid** representing the directional lattice.
+The layout is split into a top **Context Card** and a bottom **Navigation Grid**.
 
 ```
 +--------------------------------------------------+
 |  [PARENT: SOTERIOLOGY]                           | <- Header (Up Navigation)
 +--------------------------------------------------+
-|  CONTEXT: Path > Soteriology > Atonement         | <- Context Panel
-|           Current Topic: "THE BLOOD"             |
+|  TOPIC: THE BLOOD                                | <- Context Panel (Main Body)
+|                                                  |
+|  "For the life of the flesh is in the blood..."  | <- Verse / Quote
+|   - Lev 17:11                                    |
+|                                                  |
+|  [!] Life  [!] Atonement  [!] Altar              | <- Highlighted Keywords
 +--------------------------------------------------+
-|  < HEBRAIC      |      DRILL DOWN      | GREEK > |
+|  < HEBRAIC      |      DRILL DOWN      | GREEK > | <- Navigation Area
 |                 |                      |         |
 |  [ ] Covenant   |  [x] Lev 17:11       | [ ] Sat |
 |  [ ] Sacrifice  |  [ ] Heb 9:22        | [ ] Pen |
@@ -88,7 +92,8 @@ The main view is a **3-Column Grid** representing the directional lattice.
 ```
 **Interaction Model:**
 -   **UP:** Immediately navigates to the Parent Category.
--   **Context Panel:** Displays the current breadcrumb/path and active topic description.
+-   **Context Panel:** Displays the core concept definition, key verse, and highlighted keywords for glanceability.
+-   **Navigation Area:** 3-Column grid for drilling down or pivoting perspective.
 -   **LEFT/RIGHT/DOWN:** Moves the "focus cursor" `[x]` to the next item in that column/direction.
     -   *Example:* Pressing Left moves focus to the Hebraic column. Subsequent Left presses cycle through Hebraic concepts.
 -   **SPACE:** Activates the currently focused item (navigates to that Concept or opens that Verse).

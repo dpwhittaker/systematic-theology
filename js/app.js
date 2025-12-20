@@ -9,9 +9,11 @@ const state = {
 const els = {
     topicTitle: document.getElementById('topic-title'),
     viewMode: document.getElementById('view-mode'),
-    breadcrumb: document.getElementById('breadcrumb'),
-    contextDesc: document.getElementById('context-desc'),
     mainConcept: document.getElementById('main-concept'),
+    topicDef: document.getElementById('topic-def'),
+    topicVerse: document.getElementById('topic-verse'),
+    topicRef: document.getElementById('topic-ref'),
+    topicKeywords: document.getElementById('topic-keywords'),
     detailsList: document.getElementById('details-list'),
 };
 
@@ -39,14 +41,24 @@ function render() {
     els.topicTitle.innerText = topic.category;
     els.viewMode.innerText = topic.mindset || "GENERAL";
 
-    // Context Panel
-    els.breadcrumb.innerText = `SYSTEM > ${topic.category} > ${topic.title}`;
-    els.contextDesc.innerText = `Perspective: ${topic.mindset}`;
-    
-    // Main
+    // Context Card
     els.mainConcept.innerText = topic.title;
+    els.topicDef.innerText = topic.definition;
+    els.topicVerse.innerText = `"${topic.verse}"`;
+    els.topicRef.innerText = `- ${topic.reference}`;
     
-    // List
+    // Keywords
+    els.topicKeywords.innerHTML = '';
+    if (topic.keywords) {
+        topic.keywords.forEach(kw => {
+            const span = document.createElement('span');
+            span.className = 'keyword';
+            span.innerText = `[!] ${kw}`;
+            els.topicKeywords.appendChild(span);
+        });
+    }
+    
+    // Navigation List
     els.detailsList.innerHTML = '';
     topic.points.forEach((point, index) => {
         const div = document.createElement('div');

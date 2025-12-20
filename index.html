@@ -13,17 +13,26 @@
             <span id="view-mode" class="badge">HEBREW</span>
         </header>
 
-        <section id="context-panel" class="hud-context">
-            <div id="breadcrumb">ROOT > ...</div>
-            <div id="context-desc">Initializing systematic lattice...</div>
+        <section id="context-panel" class="hud-context-card">
+            <h1 id="main-concept">TOPIC TITLE</h1>
+            <p id="topic-def">Definition goes here...</p>
+            <div class="verse-block">
+                <p id="topic-verse">"Verse text..."</p>
+                <span id="topic-ref">- Reference</span>
+            </div>
+            <div id="topic-keywords" class="keyword-cloud">
+                <!-- Keywords injected here -->
+            </div>
         </section>
         
-        <main class="hud-content">
-            <h1 id="main-concept">Systematic Theology</h1>
-            <div id="details-list" class="link-list">
-                <!-- Content injected here -->
+        <nav class="hud-navigation">
+            <div class="nav-column">
+                <div class="column-header">DRILL DOWN</div>
+                <div id="details-list" class="link-list">
+                    <!-- Content injected here -->
+                </div>
             </div>
-        </main>
+        </nav>
 
         <footer class="hud-footer">
             <div id="nav-hint">
