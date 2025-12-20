@@ -172,10 +172,18 @@ function activateCurrentLink() {
 document.addEventListener('keydown', (e) => {
     switch(e.key) {
         case "ArrowLeft":
-            switchColumn('hebraic');
+            if (state.focusedColumn === 'hebraic') {
+                moveFocusInColumn(1);
+            } else {
+                switchColumn('hebraic');
+            }
             break;
         case "ArrowRight":
-            switchColumn('hellenistic');
+            if (state.focusedColumn === 'hellenistic') {
+                moveFocusInColumn(1);
+            } else {
+                switchColumn('hellenistic');
+            }
             break;
         case "ArrowDown":
             if (state.focusedColumn === 'detail') {
@@ -209,11 +217,19 @@ document.getElementById('btn-down')?.addEventListener('click', () => {
 });
 
 document.getElementById('btn-left')?.addEventListener('click', () => {
-    switchColumn('hebraic');
+    if (state.focusedColumn === 'hebraic') {
+        moveFocusInColumn(1);
+    } else {
+        switchColumn('hebraic');
+    }
 });
 
 document.getElementById('btn-right')?.addEventListener('click', () => {
-    switchColumn('hellenistic');
+    if (state.focusedColumn === 'hellenistic') {
+        moveFocusInColumn(1);
+    } else {
+        switchColumn('hellenistic');
+    }
 });
 
 document.getElementById('btn-ok')?.addEventListener('click', () => {

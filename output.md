@@ -62,3 +62,13 @@ Fixed navigation, styling, and added content:
 - Changed nav-grid from fixed 30vh height to max-height 25vh
 - Reduced nav-item padding and font size for better fit
 - Reduced footer spacing to give more room to main content area
+
+Refined navigation and layout:
+- Left/right arrows now cycle through their respective columns when already in that column
+- Added grid-auto-flow: column to nav-grid to display items in columns not rows
+- Replaced footer text with column labels: HEBREW, DRILL, GREEK
+- Labels are centered under their respective columns using 3-column grid
+- Changed all font-family from var(--font-mono) to var(--font-sans) (Atkinson Hyperlegible)
+- Reordered browser buttons to: left, up, ok, down, right
+- Changed card-body justify-content from center to flex-start (top-aligned)
+- Content now starts at top of viewport instead of being vertically centered
