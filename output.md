@@ -78,3 +78,9 @@ Fixed large top gap (25% viewport height):
 - This was vertically centering the entire #app container
 - Reverted previous padding/margin changes to .hud-container and .hud-header
 - Content now starts at top of viewport without large gap
+
+Fixed browser buttons cutoff and nav column width:
+- Changed browser controls positioning in tall viewports to use top + bottom instead of bottom + height
+- Now positioned from top: calc(100vw * 9 / 16) to bottom: 0 (uses all remaining space)
+- Fixed nav grid columns from repeat(3, 1fr) to explicit 1fr 1fr 1fr for equal widths
+- Added align-items: start to nav-grid to prevent column stretching

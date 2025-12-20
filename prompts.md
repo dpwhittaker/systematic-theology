@@ -25,3 +25,5 @@ there is still a gap at the top before the title starts.
 That wasn't it.  it maybe inside the header container
 
 still not it.  its about 8 rem of blank space, 25% of the viewport height.  revert the previous changes and look for something else.
+
+ok, that fixed the viewport, but the browser buttons are still cut off at the bottom of the screen.  also, in the nav area, the left column is larger than the other two.
