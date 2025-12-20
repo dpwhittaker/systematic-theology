@@ -11,3 +11,5 @@ ok, so the UX needs three columns: to the left, the most-related Hebrew concepts
 - Ok, let me give a better example... (redesign request details)
 
 Follow the same operating procedure mentioned in gemini.md - track my prompts in prompts.md and your outputs (that aren't written to a file) in outputs.md.  commit and push on every turn where edits are made.  this will allow me and others to see how the site was built.  add these instructions to claude.md
+
+Now lets make some minor modifications.  First, yes lets make the switch to Atkinson Hyperlegible.  Also, ensure the viewport is 16:9 aspect ratio.  When it is not, display the content in a 16:9 box.  Use the extra space for up/down/left/right/ok buttons for browser access.

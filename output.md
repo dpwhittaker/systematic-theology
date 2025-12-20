@@ -30,3 +30,13 @@ Updated CLAUDE.md to include workflow management section:
 - Requirement to log agent outputs to output.md
 - Requirement to commit and push on every turn with file modifications
 - Purpose: Enable git branch exploration and complete development history tracking
+
+Implemented font and viewport improvements:
+- Switched to Atkinson Hyperlegible font (loaded from Google Fonts)
+- Constrained HUD to 16:9 aspect ratio using CSS media queries
+- Added viewport wrapper to center content and calculate aspect ratio
+- Created browser navigation controls (↑↓←→ OK buttons) positioned in extra space
+- Buttons appear to the right (wide viewports) or bottom (tall viewports)
+- Added event listeners in JS to wire buttons to existing navigation functions
+- Controls hidden on very small screens where keyboard is primary input
+- Buttons styled with semi-transparent backgrounds and accent color on hover/active

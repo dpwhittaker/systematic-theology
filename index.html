@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Systematic Theology HUD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="app" class="hud-container">
+    <div id="viewport-wrapper">
+        <div id="app" class="hud-container">
         <header class="hud-header">
             <span id="breadcrumb">LOADING...</span>
         </header>
@@ -41,6 +45,17 @@
                 <span>&darr; DRILL</span>
             </div>
         </footer>
+        </div>
+
+        <div id="browser-controls">
+            <button id="btn-up" class="nav-btn" aria-label="Up">↑</button>
+            <div class="nav-row">
+                <button id="btn-left" class="nav-btn" aria-label="Left">←</button>
+                <button id="btn-ok" class="nav-btn nav-btn-ok" aria-label="OK">OK</button>
+                <button id="btn-right" class="nav-btn" aria-label="Right">→</button>
+            </div>
+            <button id="btn-down" class="nav-btn" aria-label="Down">↓</button>
+        </div>
     </div>
     <script src="js/app.js"></script>
 </body>

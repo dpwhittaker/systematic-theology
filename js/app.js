@@ -147,5 +147,26 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Browser button handlers
+document.getElementById('btn-up')?.addEventListener('click', () => {
+    navigateBack();
+});
+
+document.getElementById('btn-down')?.addEventListener('click', () => {
+    moveFocus(3);
+});
+
+document.getElementById('btn-left')?.addEventListener('click', () => {
+    moveFocus(-1);
+});
+
+document.getElementById('btn-right')?.addEventListener('click', () => {
+    moveFocus(1);
+});
+
+document.getElementById('btn-ok')?.addEventListener('click', () => {
+    activateLink(state.focusedLinkIndex);
+});
+
 // Start
 init();
