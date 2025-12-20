@@ -14,16 +14,27 @@ The primary consumption device is a pair of smart glasses. This dictates strict 
     - Vertical swipe/action to drill down into details/references.
     - Keyboard shortcuts mapping to simple remotes (Arrow keys, Space, Enter).
 
-## 2. Information Architecture
+## 2. Information Architecture: The Lattice
 
-We need to map a traditional Systematic Theology outline to a Hebraic critique.
+### The Problem with Trees
+Systematic Theology is traditionally structured as a **Tree**: a rigid hierarchy where a concept belongs to only one category (e.g., "Sin" is under "Anthropology"). This enforces a Hellenistic worldview of categorization and separation, often stripping concepts of their relational context.
 
-### Structure Idea: The Lattice
-Instead of a tree, we use a lattice where nodes are theological topics.
-- **Node:** "Soteriology" (Salvation)
-    - **Greek View:** Ordo Salutis, Predestination vs Free Will (Abstract concepts).
-    - **Hebrew View:** Exodus, Covenant, "Yasha" (Concrete deliverance).
-    - **Drill Down:** Verse list -> Interlinear text -> Historical Context.
+### The Solution: A Lattice
+We will use a **Lattice** structure (a Directed Acyclic Graph).
+- **Definition:** A node can have multiple parents and multiple children.
+- **Application:** The concept of "Blood" isn't just a sub-point of "Atonement."
+    - In a **Tree**, you find "Blood" only under *Soteriology*.
+    - In a **Lattice**, "Blood" connects simultaneously to:
+        - *Theology Proper* (God as Life-Giver).
+        - *Anthropology* (Life is in the blood).
+        - *Christology* (The Cross).
+        - *Ecclesiology* (Covenant sealing).
+
+### UX Implications
+This structure unlocks specific user interactions unavailable in a strict tree:
+1.  **The "Thread" Pivot:** Users can "pivot" laterally. While viewing "The Cross" (Christology), they can see the "Covenant" thread and jump to "Abraham" (Israel) without going back up the menu tree.
+2.  **Contextual Inheritance:** A verse displayed under "Sin" can inherit context from "Exodus" if the lattice path connects them, showing how the definition of sin shifts based on the narrative era.
+3.  **Multi-Perspective Toggle:** A topic can be viewed from a "Greek" parent (abstract definition) or a "Hebrew" parent (narrative function) instantly.
 
 ### The "Question" Overlay
 Every page should have a toggleable "Critique" layer that highlights where the current theological category might be imposing a foreign structure on the text.
@@ -48,17 +59,22 @@ Every page should have a toggleable "Critique" layer that highlights where the c
 
 ## 5. Prototype Layout (Single Screen)
 
+To visualize the Lattice, we introduce **"Threads"** (Lateral Links) alongside the standard hierarchy.
+
 ```
 +--------------------------------------------------+
-|  [TOPIC: ESCHATOLOGY]                  [HEBREW]  | <- Header
+|  [PARENT: ESCHATOLOGY]                 [HEBREW]  | <- Context
 +--------------------------------------------------+
 |                                                  |
-|   "The Day of the Lord"                          | <- Main Focus (Large)
+|   "The Day of the Lord"                          | <- Main Focus
 |                                                  |
-|   > Amos 5:18                                    | <- Actionable Link
+|   > Amos 5:18                                    | <- Hierarchy (Child)
 |   > 1 Thess 5:2                                  |
 |                                                  |
 +--------------------------------------------------+
-|  [NAV: > Next Topic | v Drill Down]              | <- Footer hints
+|  THREADS: [Judgment]  [Babylon]  [Creation]      | <- LATTICE LINKS
++--------------------------------------------------+
+|  [NAV: Arrows Move | Space: Select]              |
 +--------------------------------------------------+
 ```
+*   **Threads:** These are horizontal pills/tags. Selecting one pivots the user to that topic's context, effectively "changing the subject" without losing the connection.
