@@ -257,6 +257,7 @@ body {
 .nav-item {
     font-family: var(--font-sans);
     font-size: 0.9rem;
+    line-height: 1.0;
     color: var(--text-secondary);
     padding: 0 0.15rem;
     margin: 0;

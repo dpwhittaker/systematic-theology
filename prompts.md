@@ -68,3 +68,5 @@ Add a link from the top-level intro.md to the categories so most developers aren
 remove the padding around the links in the footer.  the footer is dominating the space on pages with lots odf links like categories.
 
 remove the vertical nav-item padding and margin completely.
+
+set the nav-item line-height to 1.0
