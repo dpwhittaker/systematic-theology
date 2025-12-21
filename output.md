@@ -262,3 +262,9 @@ Updated content fitting to enable scrolling as last resort:
 - Vertical swipes in scrollable content trigger native scrolling, not navigation
 - Allows ring input devices to scroll content when needed
 - Ensures all content is accessible even when it doesn't fit
+
+Added direct link to categories from intro page:
+- Updated intro.md to include link to categories in summary section
+- Makes major theology categories immediately accessible from landing page
+- Reduces interaction needed for developers to explore content
+- Link text: "Browse Categories of systematic theology"
