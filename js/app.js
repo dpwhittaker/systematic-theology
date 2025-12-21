@@ -117,7 +117,9 @@ function fitContentToViewport() {
 
     // Reset to defaults
     cardBody.classList.remove('two-column');
+    cardBody.classList.remove('scrollable');
     cardBody.style.fontSize = '';
+    cardBody.style.overflowY = '';
     contentLines.forEach(line => line.style.fontSize = '');
 
     // Check if content overflows
@@ -134,7 +136,8 @@ function fitContentToViewport() {
         { fontSize: '1.1rem', columns: 2 },
         { fontSize: '0.9rem', columns: 1 },
         { fontSize: '1.0rem', columns: 2 },
-        { fontSize: '0.8rem', columns: 1 }
+        { fontSize: '0.9rem', columns: 2 },
+        { fontSize: '0.8rem', columns: 2 }
     ];
 
     for (const config of configs) {
@@ -149,6 +152,9 @@ function fitContentToViewport() {
             line.style.fontSize = config.fontSize;
         });
 
+        // Disable scrolling while testing
+        cardBody.style.overflowY = 'hidden';
+
         // Check if it fits
         if (!isOverflowing()) {
             // Found a configuration that works!
@@ -156,7 +162,9 @@ function fitContentToViewport() {
         }
     }
 
-    // If nothing works, use the smallest option (already applied)
+    // If nothing works, enable scrolling so user can see all content
+    cardBody.style.overflowY = 'auto';
+    cardBody.classList.add('scrollable');
 }
 
 // Render
@@ -452,6 +460,9 @@ document.addEventListener('touchend', (e) => {
         return;
     }
 
+    // If target is inside scrollable content, allow native scrolling for vertical swipes
+    const isInScrollableContent = target.closest('#card-body.scrollable');
+
     touchEndX = e.changedTouches[0].screenX;
     touchEndY = e.changedTouches[0].screenY;
 
@@ -488,6 +499,11 @@ document.addEventListener('touchend', (e) => {
     } else {
         // Vertical swipe
         if (Math.abs(deltaY) > minSwipeDistance) {
+            // If in scrollable content, don't navigate - let native scrolling handle it
+            if (isInScrollableContent) {
+                return;
+            }
+
             if (deltaY > 0) {
                 // Swipe down
                 if (state.focusedColumn === 'detail') {

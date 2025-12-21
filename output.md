@@ -250,3 +250,15 @@ Implemented dynamic content fitting with 2-column layout:
 - Configuration options: 1.5rem/1col, 1.3rem/1col, 1.5rem/2col, 1.1rem/1col, 1.3rem/2col, etc.
 - Automatically selects first configuration where content fits without overflow
 - Ensures content is always readable and fits within viewport
+
+Updated content fitting to enable scrolling as last resort:
+- Changed last two configurations to 0.9rem/2col and 0.8rem/2col (both 2-column)
+- Removed static overflow: hidden from #card-body CSS
+- JavaScript now dynamically controls overflow-y during testing
+- If all configurations still overflow, sets overflow-y: auto to enable scrolling
+- Added .scrollable class when scrolling is enabled
+- Added visual indicator (⋮) at bottom-right when content is scrollable
+- Updated touch gesture handling to detect scrollable content
+- Vertical swipes in scrollable content trigger native scrolling, not navigation
+- Allows ring input devices to scroll content when needed
+- Ensures all content is accessible even when it doesn't fit

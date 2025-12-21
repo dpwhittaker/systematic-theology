@@ -132,7 +132,7 @@ body {
     justify-content: flex-start;
     gap: 1rem;
     padding: 0 1rem;
-    overflow: hidden;
+    /* overflow controlled dynamically by JavaScript */
 }
 
 #card-body.two-column {
@@ -149,6 +149,21 @@ body {
 
 #card-body.two-column .content-line {
     break-inside: avoid;
+}
+
+#card-body.scrollable {
+    position: relative;
+}
+
+#card-body.scrollable::after {
+    content: '⋮';
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 .content-line.verse-text {

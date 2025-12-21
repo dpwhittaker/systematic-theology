@@ -60,3 +60,5 @@ if the initial load is into a path other than #intro, the app should create an a
 great, all nav functions seem to work correctly.  Now complete all the intro topics so all the links work.  If any page mentions a topic that isn't linked, add the link.  The categories topic should drill down to the major points of systematic theology.  Reminder: high school vocabulary.  So rename the soteriology folder and topics to "salvation".  other major categories include Bible (bibliology), God (theology), Jesus (christology), baptism, predestination/free will, etc.  create the top-level topic in each of these categories (in their own folder), but just mention the potential drill-downs without actually linking and creating tbem.
 
 ok, the body area sometimes overflows.  Reduce the font size until it fits.  if a 2-column layout allows the content to fit with a larger font size, use that.
+
+The last resort should be a 0.8 rem, 2 column layout.  if the content still overflows, scroll events should still allow the user to see the hidden content, even if that requires me to add awkward scroll events to my ring input device.
