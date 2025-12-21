@@ -222,3 +222,19 @@ Implemented artificial history for deep link navigation:
 - Limits history to last 6 items if path is longer
 - Allows proper up navigation even when deep-linking
 - Enables breadcrumb trail showing how you got to the current page
+
+Completed intro topics and created major category structure:
+- Renamed soteriology folder to salvation (updated all internal links)
+- Updated intro.md to link Definition and Relation
+- Updated narrative.md to link proposition and definitions
+- Created intro topics: definition, relation, story, proposition, events, universal, essence, acts, structure
+- Created intro/categories.md with links to major theology areas
+- Created bible/bible.md - Scripture, inspiration, authority, interpretation
+- Created god/god.md - Trinity, attributes, sovereignty, providence
+- Created jesus/jesus.md - Incarnation, atonement, resurrection, ascension
+- Created salvation/salvation.md - Grace, faith, justification, sanctification
+- Created baptism/baptism.md - Mode, meaning, timing, necessity
+- Created freewill/freewill.md - Predestination, election, free will, responsibility
+- All topics use high school vocabulary
+- Major categories mention potential drill-downs without creating them yet
+- All intro links now functional
