@@ -166,3 +166,12 @@ Made links clickable and fixed history truncation:
 - If target in recent history, truncate history at that point (multi-back behavior)
 - If target is new, add current page to history as before
 - Prevents adding duplicate history entries when clicking parents already in history
+
+Fixed up arrow navigation and made header clickable:
+- Changed navigateBack() to highlight previous page instead of current page
+- Modified initial focus from historyToShow.length - 1 to Math.max(0, historyToShow.length - 2)
+- Added click handlers to history-item spans for mouse/touch navigation
+- Added click handlers to parent-item spans for mouse/touch navigation
+- History items call activateLinkInColumn('parent', index) on click
+- Parent items call navigateTo(target) on click
+- Both history and parent rows now fully clickable like navigation grid

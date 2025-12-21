@@ -132,6 +132,21 @@ function render() {
         return `<span class="parent-item ${isActive ? 'active' : ''}" data-target="${link.target}" data-index="${parentOffset + index}">${link.label}</span>`;
     }).join(' | ');
 
+    // Add click handlers to history items
+    els.historyRow.querySelectorAll('.history-item').forEach(span => {
+        span.style.cursor = 'pointer';
+        span.onclick = () => {
+            const index = parseInt(span.dataset.index);
+            activateLinkInColumn('parent', index);
+        };
+    });
+
+    // Add click handlers to parent items
+    els.parentRow.querySelectorAll('.parent-item').forEach(span => {
+        span.style.cursor = 'pointer';
+        span.onclick = () => navigateTo(span.dataset.target);
+    });
+
     // Spectrum Indicator
     const percent = ((topic.spectrum + 10) / 20) * 100;
     els.spectrumIndicator.style.left = `${percent}%`;
@@ -231,7 +246,7 @@ function navigateBack() {
     if (state.focusedColumn !== 'parent') {
         // Switch to parent column
         state.focusedColumn = 'parent';
-        state.focusedLinkIndex = historyToShow.length - 1; // Start at most recent history
+        state.focusedLinkIndex = Math.max(0, historyToShow.length - 2); // Start at previous page
     } else {
         // Cycle through parent items
         state.focusedLinkIndex = (state.focusedLinkIndex + 1) % totalParentItems;
