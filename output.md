@@ -280,3 +280,10 @@ Reduced padding in navigation footer to save space:
 - Reduced nav-hint padding from 1rem to 0.5rem
 - Saves vertical space on pages with many links like categories
 - Allows more content to be visible in main card area
+
+Removed vertical padding and margin from nav-items:
+- Changed nav-item padding from 0.2rem/0.15rem to 0/0.15rem (no vertical padding)
+- Added margin: 0 to ensure no vertical margin
+- Keeps horizontal padding of 0.15rem for readability
+- Maximizes vertical space efficiency in navigation footer
+- Navigation items now packed tightly with only gap between them (0.25rem)
