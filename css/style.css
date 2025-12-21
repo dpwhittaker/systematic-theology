@@ -132,12 +132,23 @@ body {
     justify-content: flex-start;
     gap: 1rem;
     padding: 0 1rem;
+    overflow: hidden;
+}
+
+#card-body.two-column {
+    display: block;
+    columns: 2;
+    column-gap: 2rem;
 }
 
 .content-line {
     font-size: 1.5rem;
     line-height: 1.4;
     color: var(--text-secondary);
+}
+
+#card-body.two-column .content-line {
+    break-inside: avoid;
 }
 
 .content-line.verse-text {

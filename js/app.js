@@ -108,6 +108,57 @@ async function loadTopic(id) {
     }
 }
 
+// Fit content to viewport by adjusting font size and layout
+function fitContentToViewport() {
+    const cardBody = els.cardBody;
+    const contentLines = cardBody.querySelectorAll('.content-line');
+
+    if (contentLines.length === 0) return;
+
+    // Reset to defaults
+    cardBody.classList.remove('two-column');
+    cardBody.style.fontSize = '';
+    contentLines.forEach(line => line.style.fontSize = '');
+
+    // Check if content overflows
+    const isOverflowing = () => cardBody.scrollHeight > cardBody.clientHeight;
+
+    // Try different configurations, from best to worst
+    const configs = [
+        { fontSize: '1.5rem', columns: 1 },
+        { fontSize: '1.3rem', columns: 1 },
+        { fontSize: '1.5rem', columns: 2 },
+        { fontSize: '1.1rem', columns: 1 },
+        { fontSize: '1.3rem', columns: 2 },
+        { fontSize: '1.0rem', columns: 1 },
+        { fontSize: '1.1rem', columns: 2 },
+        { fontSize: '0.9rem', columns: 1 },
+        { fontSize: '1.0rem', columns: 2 },
+        { fontSize: '0.8rem', columns: 1 }
+    ];
+
+    for (const config of configs) {
+        // Apply configuration
+        if (config.columns === 2) {
+            cardBody.classList.add('two-column');
+        } else {
+            cardBody.classList.remove('two-column');
+        }
+
+        contentLines.forEach(line => {
+            line.style.fontSize = config.fontSize;
+        });
+
+        // Check if it fits
+        if (!isOverflowing()) {
+            // Found a configuration that works!
+            return;
+        }
+    }
+
+    // If nothing works, use the smallest option (already applied)
+}
+
 // Render
 function render() {
     if (state.loading) return;
@@ -173,6 +224,9 @@ function render() {
         span.style.cursor = 'pointer';
         span.onclick = () => navigateTo(span.dataset.target);
     });
+
+    // Adjust font size to fit content
+    fitContentToViewport();
 
     // More Indicator
     els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
