@@ -27,9 +27,12 @@ async function loadTopic(id) {
         const text = await response.text();
 
         // Split by ---
-        const sections = text.split(/^---$/m).map(s => s.trim()).filter(s => s);
+        const sections = text.split(/^---$/m).map(s => s.trim());
 
-        if (sections.length < 3) throw new Error(`Invalid format in ${path}`);
+        // Remove first empty section (before first ---)
+        if (sections[0] === '') sections.shift();
+
+        if (sections.length < 3) throw new Error(`Invalid format in ${path}: only ${sections.length} sections found`);
 
         // Parse YAML front matter
         const frontMatter = {};
