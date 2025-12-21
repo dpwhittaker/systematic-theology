@@ -1,11 +1,12 @@
 // State management
 const state = {
     currentTopicId: 'intro',
-    focusedColumn: 'detail', // 'parent', 'hebraic', 'detail', or 'hellenistic'
+    focusedColumn: 'article', // 'article', 'parent', 'hebraic', 'detail', or 'hellenistic'
     focusedLinkIndex: 0,
     topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
-    loading: true
+    loading: true,
+    showingArticle: false
 };
 
 // DOM Elements
@@ -151,8 +152,9 @@ function render() {
     const percent = ((topic.spectrum + 10) / 20) * 100;
     els.spectrumIndicator.style.left = `${percent}%`;
 
-    // Card body: render summary (convert markdown links to clickable highlights)
-    let processed = topic.summary;
+    // Card body: render summary or article
+    const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
+    let processed = contentToShow;
 
     // First, convert markdown links to clickable spans
     processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'[^']+')?\)/g, (match, text, target) => {
@@ -175,6 +177,10 @@ function render() {
     // More Indicator
     els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
 
+    // Add click handler to more indicator
+    els.moreIndicator.style.cursor = topic.hasArticle ? 'pointer' : 'default';
+    els.moreIndicator.onclick = topic.hasArticle ? () => toggleArticle() : null;
+
     // Navigation Grid - 3 columns
     els.navGrid.innerHTML = '';
 
@@ -190,7 +196,7 @@ function render() {
 
         col.links.forEach((link, index) => {
             const div = document.createElement('div');
-            const isActive = (col.name === state.focusedColumn && index === state.focusedLinkIndex);
+            const isActive = (state.focusedColumn !== 'article' && col.name === state.focusedColumn && index === state.focusedLinkIndex);
             div.className = `nav-item ${isActive ? 'active' : ''}`;
             div.innerText = `[${isActive ? 'x' : ' '}] ${link.label}`;
             div.onclick = () => activateLinkInColumn(col.name, index);
@@ -229,8 +235,9 @@ async function navigateTo(id, skipHistory = false) {
     }
 
     state.currentTopicId = id;
-    state.focusedColumn = 'detail';
+    state.focusedColumn = 'article';
     state.focusedLinkIndex = 0;
+    state.showingArticle = false;
     window.location.hash = id;
     render();
 }
@@ -317,8 +324,20 @@ function activateLinkInColumn(column, index) {
     }
 }
 
+function toggleArticle() {
+    state.showingArticle = !state.showingArticle;
+    render();
+}
+
 function activateCurrentLink() {
-    activateLinkInColumn(state.focusedColumn, state.focusedLinkIndex);
+    if (state.focusedColumn === 'article') {
+        const topic = state.topics[state.currentTopicId];
+        if (topic && topic.hasArticle) {
+            toggleArticle();
+        }
+    } else {
+        activateLinkInColumn(state.focusedColumn, state.focusedLinkIndex);
+    }
 }
 
 // Input Handling

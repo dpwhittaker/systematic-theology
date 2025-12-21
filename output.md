@@ -175,3 +175,15 @@ Fixed up arrow navigation and made header clickable:
 - History items call activateLinkInColumn('parent', index) on click
 - Parent items call navigateTo(target) on click
 - Both history and parent rows now fully clickable like navigation grid
+
+Implemented article focus mode and clickable more indicator:
+- Added 'article' as a focusedColumn state value
+- Added showingArticle boolean to state
+- Changed initial focus from 'detail' to 'article' when navigating to a topic
+- When focusedColumn is 'article', no nav items are highlighted
+- Pressing enter/ok in 'article' mode toggles the article display
+- Pressing any arrow key switches from 'article' mode to navigation
+- Added toggleArticle() function to switch between summary and article
+- Made more... indicator clickable for mouse/touch
+- Article content replaces summary when showing article
+- Reset to article mode and hide article when navigating to new topic

@@ -48,3 +48,5 @@ ok that is better.  2 issues though: the content area is displaying the links as
 The links are not highlighted within the main text.  they should also function as links you can click on mouse and touch environments.  clicking a parent in the parents area is still adding that to the history row, even when it is in the recent history.  Any navigation that happens to return to a page in the last six recent history should be treated as a multi-back button and truncate the remaining history rather than adding a new history entry.
 
 The first up arrow is highlighting the current page rather than the previous page in the history area. Also, the parents area should be clickable in touch/mouse contexts, similar to the bottom navigation.
+
+Good.  One issue remains.  It seems to be auto-focusing the first drill-down child, making an enter/ok navigate there rather than showing the more... article.  also, clicking the more... indicator should display the article.
