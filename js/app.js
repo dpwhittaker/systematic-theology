@@ -1,8 +1,8 @@
 // State management
 const state = {
     currentTopicId: 'intro',
-    focusedColumn: 'article', // 'article', 'parent', 'hebraic', 'detail', or 'hellenistic'
-    focusedLinkIndex: 0,
+    focusedLinkIndex: -1, // Index of focused inline link (-1 = article mode)
+    inlineLinks: [], // Array of {element, target, column} for navigation
     topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
     loading: true,
@@ -15,8 +15,7 @@ const els = {
     parentRow: document.getElementById('parent-row'),
     cardBody: document.getElementById('card-body'),
     spectrumIndicator: document.getElementById('spectrum-indicator'),
-    moreIndicator: document.getElementById('more-indicator'),
-    navGrid: document.getElementById('nav-grid')
+    moreIndicator: document.getElementById('more-indicator')
 };
 
 // Parse markdown file
@@ -215,9 +214,11 @@ function render() {
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
 
-    // First, convert markdown links to clickable spans
-    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'[^']+')?\)/g, (match, text, target) => {
-        return `<span class="highlight link" data-target="${target}">${text}</span>`;
+    // First, convert markdown links to clickable spans with color classes
+    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, target, column) => {
+        const col = (column || 'Drill').toLowerCase();
+        const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
+        return `<span class="link ${columnClass}" data-target="${target}" data-column="${columnClass}">${text}</span>`;
     });
 
     // Then highlight *text* that isn't already in a link
@@ -227,11 +228,21 @@ function render() {
         line.trim() ? `<div class="content-line">${line}</div>` : ''
     ).join('');
 
-    // Add click handlers to link spans
-    els.cardBody.querySelectorAll('.link').forEach(span => {
+    // Build inline links array and add click handlers
+    state.inlineLinks = [];
+    els.cardBody.querySelectorAll('.link').forEach((span, index) => {
         span.style.cursor = 'pointer';
         span.onclick = () => navigateTo(span.dataset.target);
+        state.inlineLinks.push({
+            element: span,
+            target: span.dataset.target,
+            column: span.dataset.column,
+            index: index
+        });
     });
+
+    // Reset focused link
+    state.focusedLinkIndex = -1;
 
     // Adjust font size to fit content
     fitContentToViewport();
@@ -242,31 +253,6 @@ function render() {
     // Add click handler to more indicator
     els.moreIndicator.style.cursor = topic.hasArticle ? 'pointer' : 'default';
     els.moreIndicator.onclick = topic.hasArticle ? () => toggleArticle() : null;
-
-    // Navigation Grid - 3 columns
-    els.navGrid.innerHTML = '';
-
-    const columns = [
-        { name: 'hebraic', links: topic.hebraicLinks || [] },
-        { name: 'detail', links: topic.detailLinks || [] },
-        { name: 'hellenistic', links: topic.hellenisticLinks || [] }
-    ];
-
-    columns.forEach(col => {
-        const colDiv = document.createElement('div');
-        colDiv.className = 'nav-column';
-
-        col.links.forEach((link, index) => {
-            const div = document.createElement('div');
-            const isActive = (state.focusedColumn !== 'article' && col.name === state.focusedColumn && index === state.focusedLinkIndex);
-            div.className = `nav-item ${isActive ? 'active' : ''}`;
-            div.innerText = `[${isActive ? 'x' : ' '}] ${link.label}`;
-            div.onclick = () => activateLinkInColumn(col.name, index);
-            colDiv.appendChild(div);
-        });
-
-        els.navGrid.appendChild(colDiv);
-    });
 }
 
 // Actions
@@ -297,93 +283,52 @@ async function navigateTo(id, skipHistory = false) {
     }
 
     state.currentTopicId = id;
-    state.focusedColumn = 'article';
-    state.focusedLinkIndex = 0;
+    state.focusedLinkIndex = -1;
     state.showingArticle = false;
     window.location.hash = id;
     render();
 }
 
 function navigateBack() {
-    // Up arrow now cycles through parent links
-    const topic = state.topics[state.currentTopicId];
-    if (!topic) return;
-
-    const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-    const totalParentItems = historyToShow.length + topic.parentLinks.length;
-
-    if (state.focusedColumn !== 'parent') {
-        // Switch to parent column
-        state.focusedColumn = 'parent';
-        state.focusedLinkIndex = Math.max(0, historyToShow.length - 2); // Start at previous page
-    } else {
-        // Cycle through parent items
-        state.focusedLinkIndex = (state.focusedLinkIndex + 1) % totalParentItems;
-    }
-    render();
-}
-
-function moveFocusInColumn(direction) {
-    const topic = state.topics[state.currentTopicId];
-    const columnMap = {
-        'hebraic': topic.hebraicLinks || [],
-        'detail': topic.detailLinks || [],
-        'hellenistic': topic.hellenisticLinks || []
-    };
-
-    const currentLinks = columnMap[state.focusedColumn];
-    if (!currentLinks || currentLinks.length === 0) return;
-
-    const count = currentLinks.length;
-    state.focusedLinkIndex = (state.focusedLinkIndex + direction + count) % count;
-    render();
-}
-
-function switchColumn(column) {
-    const topic = state.topics[state.currentTopicId];
-    const columnMap = {
-        'hebraic': topic.hebraicLinks || [],
-        'detail': topic.detailLinks || [],
-        'hellenistic': topic.hellenisticLinks || []
-    };
-
-    if (columnMap[column] && columnMap[column].length > 0) {
-        state.focusedColumn = column;
-        state.focusedLinkIndex = 0;
-        render();
+    // Up arrow goes to parent
+    if (state.history.length > 0) {
+        const previousId = state.history[state.history.length - 1];
+        state.history.pop();
+        navigateTo(previousId, true);
     }
 }
 
-function activateLinkInColumn(column, index) {
-    const topic = state.topics[state.currentTopicId];
+// Update active link highlighting
+function updateActiveLinkHighlight() {
+    // Remove active class from all links
+    state.inlineLinks.forEach(link => link.element.classList.remove('active'));
 
-    if (column === 'parent') {
-        const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-        if (index < historyToShow.length) {
-            // Navigate to history item - truncate history at that point
-            const targetId = historyToShow[index];
-            state.history = state.history.slice(0, state.history.indexOf(targetId));
-            navigateTo(targetId, true); // Skip adding to history
-        } else {
-            // Navigate to parent link
-            const parentIndex = index - historyToShow.length;
-            if (topic.parentLinks[parentIndex]) {
-                navigateTo(topic.parentLinks[parentIndex].target);
-            }
-        }
-        return;
+    // Add active class to focused link
+    if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
+        state.inlineLinks[state.focusedLinkIndex].element.classList.add('active');
     }
+}
 
-    const columnMap = {
-        'hebraic': topic.hebraicLinks || [],
-        'detail': topic.detailLinks || [],
-        'hellenistic': topic.hellenisticLinks || []
-    };
+// Cycle through links by column type
+function cycleLinks(columnFilter) {
+    if (state.inlineLinks.length === 0) return;
 
-    const links = columnMap[column];
-    if (links && links[index]) {
-        navigateTo(links[index].target);
-    }
+    // Filter links by column
+    const filteredIndices = state.inlineLinks
+        .map((link, idx) => ({ link, idx }))
+        .filter(item => item.link.column === columnFilter)
+        .map(item => item.idx);
+
+    if (filteredIndices.length === 0) return;
+
+    // Find current index in filtered list
+    const currentFilteredIndex = filteredIndices.indexOf(state.focusedLinkIndex);
+
+    // Move to next link in this column
+    const nextFilteredIndex = (currentFilteredIndex + 1) % filteredIndices.length;
+    state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
+
+    updateActiveLinkHighlight();
 }
 
 function toggleArticle() {
@@ -392,13 +337,15 @@ function toggleArticle() {
 }
 
 function activateCurrentLink() {
-    if (state.focusedColumn === 'article') {
+    if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
+        const link = state.inlineLinks[state.focusedLinkIndex];
+        navigateTo(link.target);
+    } else {
+        // No link focused, toggle article if available
         const topic = state.topics[state.currentTopicId];
         if (topic && topic.hasArticle) {
             toggleArticle();
         }
-    } else {
-        activateLinkInColumn(state.focusedColumn, state.focusedLinkIndex);
     }
 }
 
@@ -406,25 +353,13 @@ function activateCurrentLink() {
 document.addEventListener('keydown', (e) => {
     switch(e.key) {
         case "ArrowLeft":
-            if (state.focusedColumn === 'hebraic') {
-                moveFocusInColumn(1);
-            } else {
-                switchColumn('hebraic');
-            }
+            cycleLinks('hebrew');
             break;
         case "ArrowRight":
-            if (state.focusedColumn === 'hellenistic') {
-                moveFocusInColumn(1);
-            } else {
-                switchColumn('hellenistic');
-            }
+            cycleLinks('greek');
             break;
         case "ArrowDown":
-            if (state.focusedColumn === 'detail') {
-                moveFocusInColumn(1);
-            } else {
-                switchColumn('detail');
-            }
+            cycleLinks('drill');
             break;
         case "ArrowUp":
             navigateBack();
@@ -482,18 +417,10 @@ document.addEventListener('touchend', (e) => {
         if (Math.abs(deltaX) > minSwipeDistance) {
             if (deltaX > 0) {
                 // Swipe right
-                if (state.focusedColumn === 'hellenistic') {
-                    moveFocusInColumn(1);
-                } else {
-                    switchColumn('hellenistic');
-                }
+                cycleLinks('greek');
             } else {
                 // Swipe left
-                if (state.focusedColumn === 'hebraic') {
-                    moveFocusInColumn(1);
-                } else {
-                    switchColumn('hebraic');
-                }
+                cycleLinks('hebrew');
             }
         }
     } else {
@@ -506,11 +433,7 @@ document.addEventListener('touchend', (e) => {
 
             if (deltaY > 0) {
                 // Swipe down
-                if (state.focusedColumn === 'detail') {
-                    moveFocusInColumn(1);
-                } else {
-                    switchColumn('detail');
-                }
+                cycleLinks('drill');
             } else {
                 // Swipe up
                 navigateBack();

@@ -301,3 +301,37 @@ Removed nav-column gap:
 - Items are packed as tightly as possible
 - Only line-height affects vertical spacing
 - Maximum space efficiency for navigation footer
+
+MAJOR REDESIGN - Removed nav-grid, implemented color-coded inline links:
+HTML changes:
+- Removed entire nav-grid section from index.html
+- Removed hud-footer with nav-hint labels
+- Freed significant vertical space
+
+CSS changes:
+- Removed all nav-grid, nav-column, nav-item, hud-footer CSS
+- Added color-coded link classes: .link.hebrew (yellow #ffdd00), .link.drill (green #00ff00), .link.greek (cyan #00ddff), .link.parent (magenta #ff00ff)
+- Added .link.active with 2px border, padding, and border-radius
+- Each link type has custom text-shadow with matching color
+
+JavaScript changes:
+- Replaced focusedColumn with focusedLinkIndex (-1 = article mode)
+- Added state.inlineLinks array to track all inline links
+- Updated link rendering to extract column from markdown and add color class
+- Links render with data-column attribute and appropriate color class
+- Built inlineLinks array with {element, target, column, index} objects
+- Removed all nav-grid rendering code
+- Added updateActiveLinkHighlight() to add/remove active class
+- Added cycleLinks(columnFilter) to cycle through links by column type
+- Arrow left cycles through hebrew links, down cycles drill, right cycles greek
+- Arrow up navigates back in history
+- Enter/space activates focused link or toggles article
+- Updated touch gestures to use cycleLinks()
+- Simplified navigateBack() to pop from history
+
+Result:
+- No separate navigation footer taking vertical space
+- All navigation through color-coded inline links
+- Hebrew links in yellow, Drill in green, Greek in cyan
+- Active link shows border
+- Much more space for main content
