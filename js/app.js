@@ -136,8 +136,9 @@ function render() {
     const percent = ((topic.spectrum + 10) / 20) * 100;
     els.spectrumIndicator.style.left = `${percent}%`;
 
-    // Card body: render summary
-    const highlighted = topic.summary.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
+    // Card body: render summary (strip markdown links, then highlight)
+    const withoutLinks = topic.summary.replace(/\[([^\]]+)\]\(#[^\s)]+(?:\s+'[^']+')?\)/g, '$1');
+    const highlighted = withoutLinks.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
     els.cardBody.innerHTML = highlighted.split('\n').map(line =>
         line.trim() ? `<div class="content-line">${line}</div>` : ''
     ).join('');
@@ -249,8 +250,10 @@ function activateLinkInColumn(column, index) {
     if (column === 'parent') {
         const historyToShow = [...state.history.slice(-5), state.currentTopicId];
         if (index < historyToShow.length) {
-            // Navigate to history item
-            navigateTo(historyToShow[index]);
+            // Navigate to history item - truncate history at that point
+            const targetId = historyToShow[index];
+            state.history = state.history.slice(0, state.history.indexOf(targetId));
+            navigateTo(targetId, true); // Skip adding to history
         } else {
             // Navigate to parent link
             const parentIndex = index - historyToShow.length;

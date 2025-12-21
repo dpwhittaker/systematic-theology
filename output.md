@@ -147,3 +147,12 @@ Fixed markdown parsing bug:
 - Solution: Preserve all sections, only remove leading empty before first ---
 - Now correctly handles empty parent sections
 - Improved error message to show section count for debugging
+
+Fixed content display and history navigation:
+- Strip markdown link syntax from summary before rendering
+- Regex replaces [text](#path 'column') with just text
+- Then apply *text* highlighting as before
+- Fixed history navigation to truncate history when going back
+- Clicking history item now removes forward history (like browser back)
+- Prevents weird breadcrumb like "Parent > child > parent"
+- History navigation uses skipHistory flag to avoid re-adding

@@ -42,3 +42,5 @@ This prevents duplicate link definition inline and in links arrays (parent links
 We have been talking about a concept having multiple parents but the nav hasn't supported that.  let's fix that now. The top title area should have two rows.  in the top row, a history of the last 6 topics visited, arranged horizontally oldest to most recent, ending with current topic.  The second row is all the parent links.  Pressing up should no longer immediately navigate, but cycle through the single most recent history item, then the parent links, then the rest of history, ok/enter to navigate.
 
 The page just shows Loading... in the title bar and never loads the intro.
+
+ok that is better.  2 issues though: the content area is displaying the links as raw markdown rather than the green highlights we had.  When I navigate to a topic in the recent history list, it should be as if I had backed out to that page, but its showing something like Parent > child > parent.
