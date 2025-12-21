@@ -479,12 +479,71 @@ document.addEventListener('touchend', () => {
     }
 }, { once: true });
 
+// Find shortest path from one topic to another using BFS
+async function findShortestPath(fromId, toId) {
+    if (fromId === toId) return [fromId];
+
+    const visited = new Set();
+    const queue = [[fromId]]; // Queue of paths
+
+    while (queue.length > 0) {
+        const path = queue.shift();
+        const currentId = path[path.length - 1];
+
+        if (visited.has(currentId)) continue;
+        visited.add(currentId);
+
+        // Load the current topic
+        const topic = state.topics[currentId] || await loadTopic(currentId);
+        if (!topic) continue;
+        state.topics[currentId] = topic;
+
+        // Get all links from this topic
+        const allLinks = [
+            ...(topic.parentLinks || []),
+            ...(topic.hebraicLinks || []),
+            ...(topic.detailLinks || []),
+            ...(topic.hellenisticLinks || [])
+        ];
+
+        for (const link of allLinks) {
+            if (link.target === toId) {
+                // Found the target!
+                return [...path, toId];
+            }
+
+            if (!visited.has(link.target)) {
+                queue.push([...path, link.target]);
+            }
+        }
+    }
+
+    // No path found
+    return null;
+}
+
 // Init
 async function init() {
     try {
         state.loading = false;
 
         const hashId = window.location.hash.replace('#', '') || 'intro';
+
+        if (hashId !== 'intro') {
+            // Build artificial history from intro to this node
+            const path = await findShortestPath('intro', hashId);
+            if (path && path.length > 1) {
+                // path is [intro, ..., hashId]
+                // We want history to be [intro, ..., parent_of_hashId]
+                // So we exclude the last item (which will be the current topic)
+                state.history = path.slice(0, -1);
+                // Keep only last 6 in history
+                if (state.history.length > 6) {
+                    state.history = state.history.slice(-6);
+                }
+            }
+        }
+
         await navigateTo(hashId, true);
     } catch (e) {
         console.error("Failed to load data", e);

@@ -54,3 +54,5 @@ Good.  One issue remains.  It seems to be auto-focusing the first drill-down chi
 Nav looks good.  now create md files for the remaining topics in data.json and delete data.json.
 
 now lets remove the browser buttons at the bottom.  To support phone/tablets without keyboards, add swipe up/down/left/right gestures to replace the arrow keys.  A tap on any part of the screen that isn't handled by a link or other action should be interpreted as the enter/ok action.  Also, lets make the page load in full-screen mode, or at least make the first interaction of any kind trigger a switch to full screen
+
+if the initial load is into a path other than #intro, the app should create an artificial history containing the shortest path from #intro to the current node.

@@ -212,3 +212,13 @@ Removed browser buttons and added touch gesture support:
 - Added fullscreen support with cross-browser compatibility
 - Fullscreen triggered on first click or touch interaction
 - Updated viewport to use full screen (removed extra space for buttons)
+
+Implemented artificial history for deep link navigation:
+- Added findShortestPath() function using breadth-first search (BFS)
+- When loading a page with hash other than #intro (e.g., #soteriology/blood)
+- BFS traverses all links (parent, hebraic, detail, hellenistic) from intro
+- Finds shortest path from intro to the target topic
+- Populates state.history with the path (excluding the current topic)
+- Limits history to last 6 items if path is longer
+- Allows proper up navigation even when deep-linking
+- Enables breadcrumb trail showing how you got to the current page
