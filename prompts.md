@@ -74,3 +74,5 @@ set the nav-item line-height to 1.0
 remove tbe nav-column gap
 
 Alright, this nav section isnt worth the space it takes.  lets take a different path.  remove the entire nav-grid.  highlight links within the text in 3 colors: Hebrew yellow, Drill green, Greek cyan.  The left, down, and right arrows should cycle through the links with the text, adding a border around the active link.
+
+add the parent link row and up cycle logic back. pages won't necessarily include text about their parents. Also add small navigation hints with arrow icons and color coding in the footer, like <yellow>[left icon] Hebrew</yellow>

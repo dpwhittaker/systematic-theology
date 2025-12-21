@@ -2,7 +2,9 @@
 const state = {
     currentTopicId: 'intro',
     focusedLinkIndex: -1, // Index of focused inline link (-1 = article mode)
+    focusedParentIndex: -1, // Index of focused parent link (-1 = none)
     inlineLinks: [], // Array of {element, target, column} for navigation
+    parentLinks: [], // Array of {element, target} for parent navigation
     topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
     loading: true,
@@ -185,25 +187,35 @@ function render() {
     els.historyRow.innerHTML = historyItems;
 
     // Parent row
-    const parentOffset = historyToShow.length;
     els.parentRow.innerHTML = topic.parentLinks.map((link, index) => {
-        const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === parentOffset + index;
-        return `<span class="parent-item ${isActive ? 'active' : ''}" data-target="${link.target}" data-index="${parentOffset + index}">${link.label}</span>`;
+        const isActive = state.focusedParentIndex === index;
+        return `<span class="link parent ${isActive ? 'active' : ''}" data-target="${link.target}" data-index="${index}">${link.label}</span>`;
     }).join(' | ');
+
+    // Build parent links array and add click handlers
+    state.parentLinks = [];
+    els.parentRow.querySelectorAll('.link.parent').forEach((span, index) => {
+        span.style.cursor = 'pointer';
+        span.onclick = () => navigateTo(span.dataset.target);
+        state.parentLinks.push({
+            element: span,
+            target: span.dataset.target,
+            index: index
+        });
+    });
 
     // Add click handlers to history items
     els.historyRow.querySelectorAll('.history-item').forEach(span => {
         span.style.cursor = 'pointer';
         span.onclick = () => {
             const index = parseInt(span.dataset.index);
-            activateLinkInColumn('parent', index);
+            const historyToShow = [...state.history.slice(-5), state.currentTopicId];
+            if (index < historyToShow.length) {
+                const targetId = historyToShow[index];
+                state.history = state.history.slice(0, state.history.indexOf(targetId));
+                navigateTo(targetId, true);
+            }
         };
-    });
-
-    // Add click handlers to parent items
-    els.parentRow.querySelectorAll('.parent-item').forEach(span => {
-        span.style.cursor = 'pointer';
-        span.onclick = () => navigateTo(span.dataset.target);
     });
 
     // Spectrum Indicator
@@ -284,14 +296,27 @@ async function navigateTo(id, skipHistory = false) {
 
     state.currentTopicId = id;
     state.focusedLinkIndex = -1;
+    state.focusedParentIndex = -1;
     state.showingArticle = false;
     window.location.hash = id;
     render();
 }
 
 function navigateBack() {
-    // Up arrow goes to parent
-    if (state.history.length > 0) {
+    // Up arrow cycles through parent links
+    if (state.parentLinks.length > 0) {
+        if (state.focusedParentIndex === -1) {
+            // First up press - focus first parent
+            state.focusedParentIndex = 0;
+        } else {
+            // Subsequent presses - cycle through parents
+            state.focusedParentIndex = (state.focusedParentIndex + 1) % state.parentLinks.length;
+        }
+        // Clear inline link focus when focusing parent
+        state.focusedLinkIndex = -1;
+        updateActiveLinkHighlight();
+    } else if (state.history.length > 0) {
+        // No parents, navigate back in history
         const previousId = state.history[state.history.length - 1];
         state.history.pop();
         navigateTo(previousId, true);
@@ -302,10 +327,16 @@ function navigateBack() {
 function updateActiveLinkHighlight() {
     // Remove active class from all links
     state.inlineLinks.forEach(link => link.element.classList.remove('active'));
+    state.parentLinks.forEach(link => link.element.classList.remove('active'));
 
-    // Add active class to focused link
+    // Add active class to focused inline link
     if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
         state.inlineLinks[state.focusedLinkIndex].element.classList.add('active');
+    }
+
+    // Add active class to focused parent link
+    if (state.focusedParentIndex >= 0 && state.focusedParentIndex < state.parentLinks.length) {
+        state.parentLinks[state.focusedParentIndex].element.classList.add('active');
     }
 }
 
@@ -328,6 +359,9 @@ function cycleLinks(columnFilter) {
     const nextFilteredIndex = (currentFilteredIndex + 1) % filteredIndices.length;
     state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
 
+    // Clear parent focus when cycling inline links
+    state.focusedParentIndex = -1;
+
     updateActiveLinkHighlight();
 }
 
@@ -337,7 +371,12 @@ function toggleArticle() {
 }
 
 function activateCurrentLink() {
-    if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
+    // Check if a parent link is focused
+    if (state.focusedParentIndex >= 0 && state.focusedParentIndex < state.parentLinks.length) {
+        const link = state.parentLinks[state.focusedParentIndex];
+        navigateTo(link.target);
+    } else if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
+        // Check if an inline link is focused
         const link = state.inlineLinks[state.focusedLinkIndex];
         navigateTo(link.target);
     } else {

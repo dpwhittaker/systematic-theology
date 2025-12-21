@@ -258,6 +258,39 @@ body {
     border-radius: 3px;
 }
 
+/* FOOTER */
+.hud-footer {
+    border-top: 1px solid var(--text-secondary);
+    padding-top: 0.25rem;
+    margin-top: 0.25rem;
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+}
+
+#nav-hint {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.hint-item {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.hint-hebrew {
+    color: #ffdd00;
+}
+
+.hint-drill {
+    color: #00ff00;
+}
+
+.hint-greek {
+    color: #00ddff;
+}
+
 /* UTILS */
 .hidden {
     display: none;

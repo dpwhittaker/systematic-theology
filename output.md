@@ -335,3 +335,33 @@ Result:
 - Hebrew links in yellow, Drill in green, Greek in cyan
 - Active link shows border
 - Much more space for main content
+
+Restored parent link navigation with up arrow cycling:
+HTML changes:
+- Added footer with color-coded navigation hints (← Hebrew, ↓ Drill, → Greek)
+- Footer uses .hint-hebrew, .hint-drill, .hint-greek classes
+
+CSS changes:
+- Added .hint-item styling with color coding matching link colors
+
+JavaScript changes:
+- Updated navigateTo() to reset focusedParentIndex to -1 when navigating
+- Updated navigateBack() to cycle through parent links before falling back to history
+  - First up press focuses first parent link
+  - Subsequent presses cycle through parent links
+  - If no parents, navigates back in history as before
+- Updated updateActiveLinkHighlight() to handle both inline and parent links
+  - Removes active class from all inline and parent links
+  - Adds active class to focused inline link or parent link
+- Updated cycleLinks() to clear parent focus when cycling inline links
+- Updated activateCurrentLink() to check parent link focus first
+  - If parent link focused, navigate to that parent
+  - Otherwise check inline link focus
+  - Otherwise toggle article if available
+
+Result:
+- Up arrow now cycles through parent links (magenta colored)
+- Enter/space activates the focused parent link
+- Parent links shown in header row 2
+- Clear separation between parent navigation and inline link navigation
+- Footer hints guide users on navigation directions
