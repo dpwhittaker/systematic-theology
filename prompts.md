@@ -50,3 +50,5 @@ The links are not highlighted within the main text.  they should also function a
 The first up arrow is highlighting the current page rather than the previous page in the history area. Also, the parents area should be clickable in touch/mouse contexts, similar to the bottom navigation.
 
 Good.  One issue remains.  It seems to be auto-focusing the first drill-down child, making an enter/ok navigate there rather than showing the more... article.  also, clicking the more... indicator should display the article.
+
+Nav looks good.  now create md files for the remaining topics in data.json and delete data.json.

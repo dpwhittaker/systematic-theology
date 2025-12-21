@@ -187,3 +187,12 @@ Implemented article focus mode and clickable more indicator:
 - Made more... indicator clickable for mouse/touch
 - Article content replaces summary when showing article
 - Reset to article mode and hide article when navigating to new topic
+
+Converted remaining topics from theology.json to markdown files:
+- Created data/soteriology/ directory for SOTERIOLOGY category topics
+- Created data/soteriology/blood.md (The Blood, spectrum: -8)
+- Created data/soteriology/lev_17_11.md (Leviticus 17:11, spectrum: -10)
+- Created data/soteriology/covenant.md (Covenant, spectrum: -9)
+- Created data/soteriology/atonement.md (Atonement, spectrum: 6)
+- All topics converted with proper YAML front matter and markdown link format
+- Deleted data/theology.json (no longer needed)
