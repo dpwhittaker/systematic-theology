@@ -156,3 +156,13 @@ Fixed content display and history navigation:
 - Clicking history item now removes forward history (like browser back)
 - Prevents weird breadcrumb like "Parent > child > parent"
 - History navigation uses skipHistory flag to avoid re-adding
+
+Made links clickable and fixed history truncation:
+- Convert markdown links to clickable <span class="highlight link"> elements
+- Store target in data-target attribute
+- Add click handlers to all link spans (works for mouse and touch)
+- Links are highlighted with green color and clickable cursor
+- Updated navigateTo to check if target is in recent history (last 6)
+- If target in recent history, truncate history at that point (multi-back behavior)
+- If target is new, add current page to history as before
+- Prevents adding duplicate history entries when clicking parents already in history

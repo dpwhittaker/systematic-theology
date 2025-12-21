@@ -136,12 +136,26 @@ function render() {
     const percent = ((topic.spectrum + 10) / 20) * 100;
     els.spectrumIndicator.style.left = `${percent}%`;
 
-    // Card body: render summary (strip markdown links, then highlight)
-    const withoutLinks = topic.summary.replace(/\[([^\]]+)\]\(#[^\s)]+(?:\s+'[^']+')?\)/g, '$1');
-    const highlighted = withoutLinks.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
-    els.cardBody.innerHTML = highlighted.split('\n').map(line =>
+    // Card body: render summary (convert markdown links to clickable highlights)
+    let processed = topic.summary;
+
+    // First, convert markdown links to clickable spans
+    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'[^']+')?\)/g, (match, text, target) => {
+        return `<span class="highlight link" data-target="${target}">${text}</span>`;
+    });
+
+    // Then highlight *text* that isn't already in a link
+    processed = processed.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
+
+    els.cardBody.innerHTML = processed.split('\n').map(line =>
         line.trim() ? `<div class="content-line">${line}</div>` : ''
     ).join('');
+
+    // Add click handlers to link spans
+    els.cardBody.querySelectorAll('.link').forEach(span => {
+        span.style.cursor = 'pointer';
+        span.onclick = () => navigateTo(span.dataset.target);
+    });
 
     // More Indicator
     els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
@@ -180,10 +194,22 @@ async function navigateTo(id, skipHistory = false) {
     state.topics[id] = topic;
 
     if (!skipHistory && state.currentTopicId !== id) {
-        // Add current to history before navigating
-        if (!state.history.includes(state.currentTopicId)) {
-            state.history.push(state.currentTopicId);
-            if (state.history.length > 6) state.history.shift();
+        // Check if target is in recent history (last 6)
+        const recentHistory = [...state.history.slice(-5), state.currentTopicId];
+        const indexInHistory = recentHistory.indexOf(id);
+
+        if (indexInHistory >= 0) {
+            // Target is in recent history - truncate history at that point (multi-back)
+            const fullHistoryIndex = state.history.indexOf(id);
+            if (fullHistoryIndex >= 0) {
+                state.history = state.history.slice(0, fullHistoryIndex);
+            }
+        } else {
+            // Target is new - add current to history
+            if (!state.history.includes(state.currentTopicId)) {
+                state.history.push(state.currentTopicId);
+                if (state.history.length > 6) state.history.shift();
+            }
         }
     }
 

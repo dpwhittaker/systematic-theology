@@ -44,3 +44,5 @@ We have been talking about a concept having multiple parents but the nav hasn't 
 The page just shows Loading... in the title bar and never loads the intro.
 
 ok that is better.  2 issues though: the content area is displaying the links as raw markdown rather than the green highlights we had.  When I navigate to a topic in the recent history list, it should be as if I had backed out to that page, but its showing something like Parent > child > parent.
+
+The links are not highlighted within the main text.  they should also function as links you can click on mouse and touch environments.  clicking a parent in the parents area is still adding that to the history row, even when it is in the recent history.  Any navigation that happens to return to a page in the last six recent history should be treated as a multi-back button and truncate the remaining history rather than adding a new history entry.
