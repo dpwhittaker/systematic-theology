@@ -268,3 +268,15 @@ Added direct link to categories from intro page:
 - Makes major theology categories immediately accessible from landing page
 - Reduces interaction needed for developers to explore content
 - Link text: "Browse Categories of systematic theology"
+
+Reduced padding in navigation footer to save space:
+- Reduced nav-item padding from 0.4rem/0.3rem to 0.2rem/0.15rem
+- Reduced nav-column gap from 0.5rem to 0.25rem
+- Reduced nav-column padding from 0.5rem to 0.25rem
+- Reduced nav-grid padding from 1rem to 0.5rem
+- Reduced hud-footer padding-top from 0.25rem to 0.15rem
+- Reduced hud-footer margin-top from 0.5rem to 0.25rem
+- Reduced nav-hint gap from 0.5rem to 0.25rem
+- Reduced nav-hint padding from 1rem to 0.5rem
+- Saves vertical space on pages with many links like categories
+- Allows more content to be visible in main card area

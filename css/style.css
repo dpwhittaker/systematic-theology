@@ -237,7 +237,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     max-height: 25vh;
     overflow-y: auto;
 }
@@ -245,9 +245,9 @@ body {
 .nav-column {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.25rem;
     border-right: 1px solid var(--text-secondary);
-    padding: 0 0.5rem;
+    padding: 0 0.25rem;
 }
 
 .nav-column:last-child {
@@ -258,7 +258,7 @@ body {
     font-family: var(--font-sans);
     font-size: 0.9rem;
     color: var(--text-secondary);
-    padding: 0.4rem 0.3rem;
+    padding: 0.2rem 0.15rem;
     border: 1px solid transparent;
     text-align: center;
     white-space: nowrap;
@@ -276,8 +276,8 @@ body {
 /* FOOTER */
 .hud-footer {
     border-top: 1px solid var(--text-secondary);
-    padding-top: 0.25rem;
-    margin-top: 0.5rem;
+    padding-top: 0.15rem;
+    margin-top: 0.25rem;
     font-family: var(--font-sans);
     font-size: 0.7rem;
     color: var(--text-secondary);
@@ -286,8 +286,8 @@ body {
 #nav-hint {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-    padding: 0 1rem;
+    gap: 0.25rem;
+    padding: 0 0.5rem;
 }
 
 .col-label {

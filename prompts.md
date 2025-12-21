@@ -64,3 +64,5 @@ ok, the body area sometimes overflows.  Reduce the font size until it fits.  if 
 The last resort should be a 0.8 rem, 2 column layout.  if the content still overflows, scroll events should still allow the user to see the hidden content, even if that requires me to add awkward scroll events to my ring input device.
 
 Add a link from the top-level intro.md to the categories so most developers aren't interactive
+
+remove the padding around the links in the footer.  the footer is dominating the space on pages with lots odf links like categories.
