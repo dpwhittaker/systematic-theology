@@ -140,3 +140,10 @@ Created Markdown Files:
 - data/intro/narrative.md
 - data/intro/abstraction.md
 - data/intro/system.md
+
+Fixed markdown parsing bug:
+- Issue: .filter(s => s) was removing empty sections, breaking indexing
+- Empty parent section caused sections[1] to be summary instead of parents
+- Solution: Preserve all sections, only remove leading empty before first ---
+- Now correctly handles empty parent sections
+- Improved error message to show section count for debugging

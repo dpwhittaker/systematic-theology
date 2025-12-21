@@ -40,3 +40,5 @@ Ok next update - that data.json is going to become too large.  Lets switch to on
 'Parent' title is default in section 2 (Parents).
 This prevents duplicate link definition inline and in links arrays (parent links mentioned in Summary or Article do not need to be included in Parent section, and show up first in Parent nav area.  All the existing concepts would belong in the intro folder except for intro itself, which should be in data/intro.md.
 We have been talking about a concept having multiple parents but the nav hasn't supported that.  let's fix that now. The top title area should have two rows.  in the top row, a history of the last 6 topics visited, arranged horizontally oldest to most recent, ending with current topic.  The second row is all the parent links.  Pressing up should no longer immediately navigate, but cycle through the single most recent history item, then the parent links, then the rest of history, ok/enter to navigate.
+
+The page just shows Loading... in the title bar and never loads the intro.
