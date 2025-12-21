@@ -31,3 +31,12 @@ ok, that fixed the viewport, but the browser buttons are still cut off at the bo
 The nav columns still seem to be adjusting to the size of the their contents rather than fixed width.  Lets also draw a vertical line between the columns.  finally the browser buttons are much taller than they need to be.  lets try 2rem.
 
 ok I think I see whats going on.  you are adding the nav-items directly to the nav-grid.  there should be 3 nav-columns inside the nav-grid, and the items should be added to their column.  this will let you position the buttons vertically within the horizontally arranged columns.
+
+Ok next update - that data.json is going to become too large.  Lets switch to one md file per topic, named <topic>.md, with yaml front matter, parents, summary, and article in 4 sections separated by ---.  The category and type fields are not adding value, so the only front matter fields should be title and spectrum.  The summary is the current main content area, and the article 4th section is optional and determines the visibility of the more... button and what should be displaydd when you interact with it by pressing enter before any arrow key.  For links, lets use md format inline to define them, e.g.:
+[atone](#atonement 'Hebrew') -> highlighted word atone, points to data/atonement.md, Hebrew nav column
+[sin](#man/sin) or [sin](#man/sin 'Drill') -> data/man/sin.md, Drill nav column is default in section 3 (Summary) and 4 (Article).
+[perfect](#plato/ideal 'Greek') -> data/plato/ideal.md, Greek nav column
+[salvation](#system/salvation 'Parent') -> data/system/salvation.md, displayed in top parent area,
+'Parent' title is default in section 2 (Parents).
+This prevents duplicate link definition inline and in links arrays (parent links mentioned in Summary or Article do not need to be included in Parent section, and show up first in Parent nav area.  All the existing concepts would belong in the intro folder except for intro itself, which should be in data/intro.md.
+We have been talking about a concept having multiple parents but the nav hasn't supported that.  let's fix that now. The top title area should have two rows.  in the top row, a history of the last 6 topics visited, arranged horizontally oldest to most recent, ending with current topic.  The second row is all the parent links.  Pressing up should no longer immediately navigate, but cycle through the single most recent history item, then the parent links, then the rest of history, ok/enter to navigate.

@@ -100,3 +100,43 @@ Restructured nav grid with proper column containers:
 - Border-right on .nav-column instead of complex nth-child logic
 - Simplified CSS structure: grid for horizontal, flex for vertical
 - Items now properly positioned vertically within horizontally arranged columns
+
+MAJOR REFACTOR - Markdown-based data structure:
+Data Model Changes:
+- Replaced theology.json with individual .md files (one per topic)
+- File structure: data/<topic>.md or data/<folder>/<topic>.md
+- 4 sections separated by ---: front matter, parents, summary, article
+- YAML front matter with only title and spectrum fields
+- Links embedded in markdown using [text](#path 'column') format
+- Default column: Parent for section 2, Drill for sections 3 & 4
+- Link columns: Hebrew, Drill, Greek, Parent
+- Duplicate parent detection (parents in summary/article auto-deduplicated)
+
+JavaScript Rewrite:
+- loadTopic() function parses markdown files and YAML front matter
+- extractLinks() regex parser for markdown link format
+- Automatic link categorization based on column attribute
+- Topic caching in state.topics
+- History tracking (last 6 topics visited)
+- New navigation: Up cycles through history + parents (not immediate navigation)
+
+Header Redesign:
+- Two-row header structure
+- Row 1: History breadcrumb (last 5 + current topic)
+- Row 2: Parent links
+- Both rows clickable with keyboard navigation
+- focusedColumn now includes 'parent' option
+- Active state highlighting for both history and parent items
+
+CSS Updates:
+- Updated .hud-header for flexbox column layout
+- Styled #history-row and #parent-row
+- Added .history-item and .parent-item styles
+- Current topic highlighted in history
+- Active item shows green border when focused
+
+Created Markdown Files:
+- data/intro.md
+- data/intro/narrative.md
+- data/intro/abstraction.md
+- data/intro/system.md

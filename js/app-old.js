@@ -1,10 +1,11 @@
 // State management
 const state = {
     currentTopicId: 'intro',
-    focusedColumn: 'detail', // 'parent', 'hebraic', 'detail', or 'hellenistic'
+    focusedColumn: 'parent', // 'parent', 'hebraic', 'detail', or 'hellenistic'
     focusedLinkIndex: 0,
     topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
+    parentLinks: [], // Current topic's parent links
     loading: true
 };
 
@@ -67,7 +68,7 @@ async function loadTopic(id) {
         const summaryLinks = extractLinks(sections[2], 'Drill');
         const articleLinks = sections[3] ? extractLinks(sections[3], 'Drill') : { parent: [], hebraic: [], detail: [], hellenistic: [] };
 
-        // Merge links
+        // Merge links (parents from all sections, others from summary+article)
         const mergeLinks = (a, b) => {
             return {
                 parent: [...a.parent, ...b.parent],
@@ -80,7 +81,7 @@ async function loadTopic(id) {
         let allLinks = mergeLinks(parentLinks, summaryLinks);
         if (sections[3]) allLinks = mergeLinks(allLinks, articleLinks);
 
-        // Remove duplicate parents
+        // Remove duplicate parents (parents mentioned in summary/article are already in parent section)
         allLinks.parent = allLinks.parent.filter((link, index, self) =>
             index === self.findIndex(l => l.target === link.target)
         );
@@ -104,6 +105,20 @@ async function loadTopic(id) {
     }
 }
 
+// Init
+async function init() {
+    try {
+        state.loading = false;
+
+        // Load initial topic (from hash or default)
+        const hashId = window.location.hash.replace('#', '') || 'intro';
+        await navigateTo(hashId, true);
+    } catch (e) {
+        console.error("Failed to load data", e);
+        if (els.historyRow) els.historyRow.innerText = "ERROR LOADING DATA";
+    }
+}
+
 // Render
 function render() {
     if (state.loading) return;
@@ -111,33 +126,27 @@ function render() {
     const topic = state.topics[state.currentTopicId];
     if (!topic) return;
 
-    // History row (last 6 topics, ending with current)
-    const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-    const historyItems = historyToShow.map((id, index) => {
-        const t = state.topics[id];
-        if (!t) return '';
-        const isCurrent = id === state.currentTopicId;
-        const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === index;
-        return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${t.title}</span>`;
-    }).join(' > ');
-    els.historyRow.innerHTML = historyItems;
+    // Header
+    els.breadcrumb.innerText = `${topic.category} > ${topic.title}`;
 
-    // Parent row
-    const parentOffset = historyToShow.length;
-    els.parentRow.innerHTML = topic.parentLinks.map((link, index) => {
-        const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === parentOffset + index;
-        return `<span class="parent-item ${isActive ? 'active' : ''}" data-target="${link.target}" data-index="${parentOffset + index}">${link.label}</span>`;
-    }).join(' | ');
+    // Body Content
+    els.cardBody.innerHTML = '';
+    topic.content.forEach(line => {
+        const p = document.createElement('div');
+        p.className = 'content-line';
+        if (topic.type === 'verse') p.classList.add('verse-text');
+        
+        // Markdown parsing: *text* -> <span class="highlight">text</span>
+        const html = line.replace(/\*(.*?)\*/g, '<span class="highlight">$1</span>');
+        p.innerHTML = topic.type === 'concept' ? `> ${html}` : html;
+        
+        els.cardBody.appendChild(p);
+    });
 
-    // Spectrum Indicator
-    const percent = ((topic.spectrum + 10) / 20) * 100;
-    els.spectrumIndicator.style.left = `${percent}%`;
-
-    // Card body: render summary
-    const highlighted = topic.summary.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
-    els.cardBody.innerHTML = highlighted.split('\n').map(line =>
-        line.trim() ? `<div class="content-line">${line}</div>` : ''
-    ).join('');
+    // Spectrum (-10 to 10 mapped to 0% to 100%)
+    // -10 = 0%, 0 = 50%, 10 = 100%
+    const spectrumPercent = ((topic.spectrum + 10) / 20) * 100;
+    els.spectrumIndicator.style.left = `${Math.max(0, Math.min(100, spectrumPercent))}%`;
 
     // More Indicator
     els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
@@ -169,44 +178,25 @@ function render() {
 }
 
 // Actions
-async function navigateTo(id, skipHistory = false) {
-    const topic = state.topics[id] || await loadTopic(id);
-    if (!topic) return;
-
-    state.topics[id] = topic;
-
-    if (!skipHistory && state.currentTopicId !== id) {
-        // Add current to history before navigating
-        if (!state.history.includes(state.currentTopicId)) {
-            state.history.push(state.currentTopicId);
-            if (state.history.length > 6) state.history.shift();
-        }
+function navigateTo(id) {
+    if (state.topics[id]) {
+        state.history.push(state.currentTopicId);
+        state.currentTopicId = id;
+        state.focusedColumn = 'detail'; // Reset to center column
+        state.focusedLinkIndex = 0; // Reset focus
+        window.location.hash = id;
+        render();
     }
-
-    state.currentTopicId = id;
-    state.focusedColumn = 'detail';
-    state.focusedLinkIndex = 0;
-    window.location.hash = id;
-    render();
 }
 
 function navigateBack() {
-    // Up arrow now cycles through parent links
-    const topic = state.topics[state.currentTopicId];
-    if (!topic) return;
-
-    const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-    const totalParentItems = historyToShow.length + topic.parentLinks.length;
-
-    if (state.focusedColumn !== 'parent') {
-        // Switch to parent column
-        state.focusedColumn = 'parent';
-        state.focusedLinkIndex = historyToShow.length - 1; // Start at most recent history
-    } else {
-        // Cycle through parent items
-        state.focusedLinkIndex = (state.focusedLinkIndex + 1) % totalParentItems;
+    if (state.history.length > 0) {
+        state.currentTopicId = state.history.pop();
+        state.focusedColumn = 'detail';
+        state.focusedLinkIndex = 0;
+        window.location.hash = state.currentTopicId;
+        render();
     }
-    render();
 }
 
 function moveFocusInColumn(direction) {
@@ -233,6 +223,7 @@ function switchColumn(column) {
         'hellenistic': topic.hellenisticLinks || []
     };
 
+    // Only switch if target column has links
     if (columnMap[column] && columnMap[column].length > 0) {
         state.focusedColumn = column;
         state.focusedLinkIndex = 0;
@@ -242,22 +233,6 @@ function switchColumn(column) {
 
 function activateLinkInColumn(column, index) {
     const topic = state.topics[state.currentTopicId];
-
-    if (column === 'parent') {
-        const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-        if (index < historyToShow.length) {
-            // Navigate to history item
-            navigateTo(historyToShow[index]);
-        } else {
-            // Navigate to parent link
-            const parentIndex = index - historyToShow.length;
-            if (topic.parentLinks[parentIndex]) {
-                navigateTo(topic.parentLinks[parentIndex].target);
-            }
-        }
-        return;
-    }
-
     const columnMap = {
         'hebraic': topic.hebraicLinks || [],
         'detail': topic.detailLinks || [],
@@ -341,19 +316,6 @@ document.getElementById('btn-right')?.addEventListener('click', () => {
 document.getElementById('btn-ok')?.addEventListener('click', () => {
     activateCurrentLink();
 });
-
-// Init
-async function init() {
-    try {
-        state.loading = false;
-
-        const hashId = window.location.hash.replace('#', '') || 'intro';
-        await navigateTo(hashId, true);
-    } catch (e) {
-        console.error("Failed to load data", e);
-        if (els.historyRow) els.historyRow.innerText = "ERROR LOADING DATA";
-    }
-}
 
 // Start
 init();
