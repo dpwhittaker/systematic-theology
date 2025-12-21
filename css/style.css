@@ -245,7 +245,6 @@ body {
 .nav-column {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
     border-right: 1px solid var(--text-secondary);
     padding: 0 0.25rem;
 }

@@ -70,3 +70,5 @@ remove the padding around the links in the footer.  the footer is dominating the
 remove the vertical nav-item padding and margin completely.
 
 set the nav-item line-height to 1.0
+
+remove tbe nav-column gap
