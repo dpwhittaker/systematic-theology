@@ -375,38 +375,109 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Browser button handlers
-document.getElementById('btn-up')?.addEventListener('click', () => {
-    navigateBack();
-});
+// Touch gesture handling
+let touchStartX = 0;
+let touchStartY = 0;
+let touchEndX = 0;
+let touchEndY = 0;
+const minSwipeDistance = 30; // minimum distance for a swipe
 
-document.getElementById('btn-down')?.addEventListener('click', () => {
-    if (state.focusedColumn === 'detail') {
-        moveFocusInColumn(1);
-    } else {
-        switchColumn('detail');
+document.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+}, { passive: true });
+
+document.addEventListener('touchend', (e) => {
+    // If target is a link or clickable element, don't process as swipe
+    const target = e.target;
+    if (target.classList.contains('link') ||
+        target.classList.contains('history-item') ||
+        target.classList.contains('parent-item') ||
+        target.classList.contains('nav-item') ||
+        target.id === 'more-indicator') {
+        return;
     }
-});
 
-document.getElementById('btn-left')?.addEventListener('click', () => {
-    if (state.focusedColumn === 'hebraic') {
-        moveFocusInColumn(1);
-    } else {
-        switchColumn('hebraic');
+    touchEndX = e.changedTouches[0].screenX;
+    touchEndY = e.changedTouches[0].screenY;
+
+    const deltaX = touchEndX - touchStartX;
+    const deltaY = touchEndY - touchStartY;
+
+    // Check if it's a tap (minimal movement)
+    if (Math.abs(deltaX) < 10 && Math.abs(deltaY) < 10) {
+        // Tap anywhere = enter/ok
+        activateCurrentLink();
+        return;
     }
-});
 
-document.getElementById('btn-right')?.addEventListener('click', () => {
-    if (state.focusedColumn === 'hellenistic') {
-        moveFocusInColumn(1);
+    // Determine if swipe is primarily horizontal or vertical
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+        // Horizontal swipe
+        if (Math.abs(deltaX) > minSwipeDistance) {
+            if (deltaX > 0) {
+                // Swipe right
+                if (state.focusedColumn === 'hellenistic') {
+                    moveFocusInColumn(1);
+                } else {
+                    switchColumn('hellenistic');
+                }
+            } else {
+                // Swipe left
+                if (state.focusedColumn === 'hebraic') {
+                    moveFocusInColumn(1);
+                } else {
+                    switchColumn('hebraic');
+                }
+            }
+        }
     } else {
-        switchColumn('hellenistic');
+        // Vertical swipe
+        if (Math.abs(deltaY) > minSwipeDistance) {
+            if (deltaY > 0) {
+                // Swipe down
+                if (state.focusedColumn === 'detail') {
+                    moveFocusInColumn(1);
+                } else {
+                    switchColumn('detail');
+                }
+            } else {
+                // Swipe up
+                navigateBack();
+            }
+        }
     }
-});
+}, { passive: true });
 
-document.getElementById('btn-ok')?.addEventListener('click', () => {
-    activateCurrentLink();
-});
+// Fullscreen support
+function enterFullscreen() {
+    const elem = document.documentElement;
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen().catch(() => {});
+    } else if (elem.webkitRequestFullscreen) {
+        elem.webkitRequestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+        elem.mozRequestFullScreen();
+    } else if (elem.msRequestFullscreen) {
+        elem.msRequestFullscreen();
+    }
+}
+
+// Request fullscreen on first user interaction
+let fullscreenRequested = false;
+document.addEventListener('click', () => {
+    if (!fullscreenRequested) {
+        fullscreenRequested = true;
+        enterFullscreen();
+    }
+}, { once: true });
+
+document.addEventListener('touchend', () => {
+    if (!fullscreenRequested) {
+        fullscreenRequested = true;
+        enterFullscreen();
+    }
+}, { once: true });
 
 // Init
 async function init() {

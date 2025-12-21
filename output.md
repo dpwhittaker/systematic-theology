@@ -196,3 +196,19 @@ Converted remaining topics from theology.json to markdown files:
 - Created data/soteriology/atonement.md (Atonement, spectrum: 6)
 - All topics converted with proper YAML front matter and markdown link format
 - Deleted data/theology.json (no longer needed)
+
+Removed browser buttons and added touch gesture support:
+- Removed browser-controls div from index.html
+- Removed all browser control CSS styles
+- Removed browser button event handlers from js/app.js
+- Added touch gesture detection with touchstart/touchend events
+- Swipe left → switch to or cycle through hebraic column
+- Swipe right → switch to or cycle through hellenistic column
+- Swipe up → navigate back (parent/history)
+- Swipe down → switch to or cycle through detail column
+- Tap anywhere (without swiping) → acts as enter/ok
+- Tap detection excludes links, nav items, history, parents, more indicator
+- Minimum swipe distance: 30px
+- Added fullscreen support with cross-browser compatibility
+- Fullscreen triggered on first click or touch interaction
+- Updated viewport to use full screen (removed extra space for buttons)
