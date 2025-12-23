@@ -4,11 +4,12 @@ const state = {
     focusedLinkIndex: -1, // Index of focused inline link (-1 = article mode)
     focusedParentIndex: -1, // Index of focused parent link (-1 = none)
     inlineLinks: [], // Array of {element, target, column} for navigation
-    parentLinks: [], // Array of {element, target} for parent navigation
+    parentLinks: [], // Array of {element, target, column} for parent navigation (includes back link)
     topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
     loading: true,
-    showingArticle: false
+    showingArticle: false,
+    lastNavigationDirection: null // Track how we got to current page: 'hebrew', 'drill', 'greek', 'parent'
 };
 
 // DOM Elements
@@ -168,6 +169,17 @@ function fitContentToViewport() {
     cardBody.classList.add('scrollable');
 }
 
+// Get opposite direction for back link
+function getOppositeDirection(direction) {
+    const opposites = {
+        'hebrew': 'greek',
+        'greek': 'hebrew',
+        'drill': 'parent',
+        'parent': 'drill'
+    };
+    return opposites[direction] || null;
+}
+
 // Render
 function render() {
     if (state.loading) return;
@@ -186,21 +198,46 @@ function render() {
     }).join(' > ');
     els.historyRow.innerHTML = historyItems;
 
-    // Parent row
-    els.parentRow.innerHTML = topic.parentLinks.map((link, index) => {
-        const isActive = state.focusedParentIndex === index;
-        return `<span class="link parent ${isActive ? 'active' : ''}" data-target="${link.target}" data-index="${index}">${link.label}</span>`;
+    // Parent row with back link
+    let parentRowHTML = '';
+
+    // Add back link if we have history and a navigation direction
+    if (state.history.length > 0 && state.lastNavigationDirection) {
+        const backTarget = state.history[state.history.length - 1];
+        const backTopic = state.topics[backTarget];
+        const oppositeDirection = getOppositeDirection(state.lastNavigationDirection);
+
+        if (backTopic && oppositeDirection) {
+            const isActive = state.focusedParentIndex === 0;
+            parentRowHTML = `<span class="link ${oppositeDirection} back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="${oppositeDirection}" data-index="0">← ${backTopic.title}</span>`;
+
+            if (topic.parentLinks.length > 0) {
+                parentRowHTML += ' | ';
+            }
+        }
+    }
+
+    // Add regular parent links
+    parentRowHTML += topic.parentLinks.map((link, index) => {
+        // Offset index by 1 if we have a back link
+        const actualIndex = (state.history.length > 0 && state.lastNavigationDirection) ? index + 1 : index;
+        const isActive = state.focusedParentIndex === actualIndex;
+        return `<span class="link parent ${isActive ? 'active' : ''}" data-target="${link.target}" data-column="parent" data-index="${actualIndex}">${link.label}</span>`;
     }).join(' | ');
+
+    els.parentRow.innerHTML = parentRowHTML;
 
     // Build parent links array and add click handlers
     state.parentLinks = [];
-    els.parentRow.querySelectorAll('.link.parent').forEach((span, index) => {
+    els.parentRow.querySelectorAll('.link').forEach((span, index) => {
         span.style.cursor = 'pointer';
-        span.onclick = () => navigateTo(span.dataset.target);
+        const direction = span.dataset.column;
+        span.onclick = () => navigateTo(span.dataset.target, false, direction);
         state.parentLinks.push({
             element: span,
             target: span.dataset.target,
-            index: index
+            column: direction,
+            index: parseInt(span.dataset.index)
         });
     });
 
@@ -213,7 +250,7 @@ function render() {
             if (index < historyToShow.length) {
                 const targetId = historyToShow[index];
                 state.history = state.history.slice(0, state.history.indexOf(targetId));
-                navigateTo(targetId, true);
+                navigateTo(targetId, true, null);
             }
         };
     });
@@ -244,7 +281,8 @@ function render() {
     state.inlineLinks = [];
     els.cardBody.querySelectorAll('.link').forEach((span, index) => {
         span.style.cursor = 'pointer';
-        span.onclick = () => navigateTo(span.dataset.target);
+        const direction = span.dataset.column;
+        span.onclick = () => navigateTo(span.dataset.target, false, direction);
         state.inlineLinks.push({
             element: span,
             target: span.dataset.target,
@@ -268,7 +306,7 @@ function render() {
 }
 
 // Actions
-async function navigateTo(id, skipHistory = false) {
+async function navigateTo(id, skipHistory = false, direction = null) {
     const topic = state.topics[id] || await loadTopic(id);
     if (!topic) return;
 
@@ -294,6 +332,9 @@ async function navigateTo(id, skipHistory = false) {
         }
     }
 
+    // Track navigation direction
+    state.lastNavigationDirection = direction;
+
     state.currentTopicId = id;
     state.focusedLinkIndex = -1;
     state.focusedParentIndex = -1;
@@ -303,10 +344,10 @@ async function navigateTo(id, skipHistory = false) {
 }
 
 function navigateBack() {
-    // Up arrow cycles through parent links
+    // Up arrow cycles through parent links (including back link if present)
     if (state.parentLinks.length > 0) {
         if (state.focusedParentIndex === -1) {
-            // First up press - focus first parent
+            // First up press - focus first parent (might be back link)
             state.focusedParentIndex = 0;
         } else {
             // Subsequent presses - cycle through parents
@@ -319,7 +360,7 @@ function navigateBack() {
         // No parents, navigate back in history
         const previousId = state.history[state.history.length - 1];
         state.history.pop();
-        navigateTo(previousId, true);
+        navigateTo(previousId, true, null);
     }
 }
 
@@ -340,8 +381,27 @@ function updateActiveLinkHighlight() {
     }
 }
 
-// Cycle through links by column type
+// Cycle through links by column type (includes back link)
 function cycleLinks(columnFilter) {
+    // First check if we have a back link that matches this direction
+    const backLink = state.parentLinks.find(link => link.column === columnFilter && link.element.classList.contains('back-link'));
+
+    // If we have a back link for this direction and nothing is focused, focus it first
+    if (backLink && state.focusedLinkIndex === -1 && state.focusedParentIndex === -1) {
+        state.focusedParentIndex = backLink.index;
+        state.focusedLinkIndex = -1;
+        updateActiveLinkHighlight();
+        return;
+    }
+
+    // If back link is already focused, activate it
+    if (backLink && state.focusedParentIndex === backLink.index) {
+        // Already focused on back link, activate it
+        activateCurrentLink();
+        return;
+    }
+
+    // Otherwise cycle through inline links as before
     if (state.inlineLinks.length === 0) return;
 
     // Filter links by column
@@ -374,11 +434,11 @@ function activateCurrentLink() {
     // Check if a parent link is focused
     if (state.focusedParentIndex >= 0 && state.focusedParentIndex < state.parentLinks.length) {
         const link = state.parentLinks[state.focusedParentIndex];
-        navigateTo(link.target);
+        navigateTo(link.target, false, link.column);
     } else if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
         // Check if an inline link is focused
         const link = state.inlineLinks[state.focusedLinkIndex];
-        navigateTo(link.target);
+        navigateTo(link.target, false, link.column);
     } else {
         // No link focused, toggle article if available
         const topic = state.topics[state.currentTopicId];
@@ -576,7 +636,7 @@ async function init() {
             }
         }
 
-        await navigateTo(hashId, true);
+        await navigateTo(hashId, true, null);
     } catch (e) {
         console.error("Failed to load data", e);
         if (els.historyRow) els.historyRow.innerText = "ERROR LOADING DATA";
