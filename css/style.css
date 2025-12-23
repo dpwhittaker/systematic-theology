@@ -174,9 +174,9 @@ body {
 }
 
 .highlight {
-    color: var(--accent-color);
+    color: #ff8800;
     font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+    text-shadow: 0 0 5px rgba(255, 136, 0, 0.5);
 }
 
 /* FOOTER & SPECTRUM */
@@ -289,6 +289,14 @@ body {
 
 .hint-greek {
     color: #00ddff;
+}
+
+.hint-parent {
+    color: #ff00ff;
+}
+
+.hint-go {
+    color: #00ff00;
 }
 
 /* UTILS */
