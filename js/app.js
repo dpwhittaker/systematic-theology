@@ -1,3 +1,9 @@
+// Feature flags
+const ENABLE_TOPIC_CACHE = false; // Set to true for production to cache topics in memory
+
+// Page-level topic cache (persists across navigations)
+const topicCache = {};
+
 // State management
 const state = {
     currentTopicId: 'intro',
@@ -5,7 +11,6 @@ const state = {
     focusedParentIndex: -1, // Index of focused parent link (-1 = none)
     inlineLinks: [], // Array of {element, target, column} for navigation
     parentLinks: [], // Array of {element, target, column} for parent navigation (includes back link)
-    topics: {}, // Map of id -> topic
     history: [], // History of visited topics (max 6)
     loading: true,
     showingArticle: false,
@@ -196,13 +201,13 @@ function getOppositeDirection(direction) {
 function render() {
     if (state.loading) return;
 
-    const topic = state.topics[state.currentTopicId];
+    const topic = topicCache[state.currentTopicId];
     if (!topic) return;
 
     // History row (last 6 topics, ending with current)
     const historyToShow = [...state.history.slice(-5), state.currentTopicId];
     const historyItems = historyToShow.map((id, index) => {
-        const t = state.topics[id];
+        const t = topicCache[id];
         if (!t) return '';
         const isCurrent = id === state.currentTopicId;
         const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === index;
@@ -216,7 +221,7 @@ function render() {
     // Add back link if we have history and a navigation direction
     if (state.history.length > 0 && state.lastNavigationDirection) {
         const backTarget = state.history[state.history.length - 1];
-        const backTopic = state.topics[backTarget];
+        const backTopic = topicCache[backTarget];
         const oppositeDirection = getOppositeDirection(state.lastNavigationDirection);
 
         if (backTopic && oppositeDirection) {
@@ -319,10 +324,14 @@ function render() {
 
 // Actions
 async function navigateTo(id, skipHistory = false, direction = null) {
-    const topic = state.topics[id] || await loadTopic(id);
-    if (!topic) return;
+    // Check cache first if enabled, otherwise always reload
+    let topic = ENABLE_TOPIC_CACHE ? topicCache[id] : null;
 
-    state.topics[id] = topic;
+    if (!topic) {
+        topic = await loadTopic(id);
+        if (!topic) return;
+        topicCache[id] = topic;
+    }
 
     if (!skipHistory && state.currentTopicId !== id) {
         // Check if target is in recent history (last 6)
@@ -453,7 +462,7 @@ function activateCurrentLink() {
         navigateTo(link.target, false, link.column);
     } else {
         // No link focused, toggle article if available
-        const topic = state.topics[state.currentTopicId];
+        const topic = topicCache[state.currentTopicId];
         if (topic && topic.hasArticle) {
             toggleArticle();
         }
@@ -598,9 +607,12 @@ async function findShortestPath(fromId, toId) {
         visited.add(currentId);
 
         // Load the current topic
-        const topic = state.topics[currentId] || await loadTopic(currentId);
-        if (!topic) continue;
-        state.topics[currentId] = topic;
+        let topic = topicCache[currentId];
+        if (!topic) {
+            topic = await loadTopic(currentId);
+            if (!topic) continue;
+            topicCache[currentId] = topic;
+        }
 
         // Get all links from this topic
         const allLinks = [

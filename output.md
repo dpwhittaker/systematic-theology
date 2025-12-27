@@ -385,3 +385,15 @@ Identified caching issue:
 - Manual changes to markdown files won't show until hard refresh (Ctrl+Shift+R or Cmd+Shift+R)
 - This is by design to avoid reloading files on every navigation
 - User needs to hard refresh browser to see manual changes to intro.md title
+
+Refactored topic caching with feature flag:
+- Added ENABLE_TOPIC_CACHE feature flag (js/app.js:2) - currently set to false for development
+- Moved topic cache from state.topics to page-level topicCache variable (js/app.js:5)
+- Removed topics property from state object
+- Updated all references to state.topics (8 locations) to use topicCache instead
+- Modified navigateTo() to check ENABLE_TOPIC_CACHE flag before using cached topics (js/app.js:327-334)
+- When flag is false, topics always reload from markdown files on navigation
+- When flag is true, topics are cached like before (production mode)
+- Updated findShortestPath() to use topicCache with proper cache population
+- Manual changes to markdown files now visible immediately on navigation during development
+- Feature flag can be set to true for production to restore caching performance benefit
