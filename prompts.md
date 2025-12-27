@@ -92,3 +92,5 @@ ok, the back link being different colors/directions is confusing.  lets make it 
 ok, lets go a bit more saturated on that purple color.  it almost looks white.  also, lets rearrange the navigation with the major categories being the root of the site for the purposes of the breadcrumbs.  this page should not be included in the breadcrumbs though, and should contain a link to intro.  Initial navigation should still take you to #intro, and the link to categories should now be a parent link from intro.
 
 move intro.md into intro folder.  move intro/categories.md out to data folder and rename i5 to TOC.md.  update all the links.
+
+when I navigate to the top-level categories, I see Intro > God instead of just God in the breadcrumbs.

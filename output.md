@@ -466,3 +466,12 @@ Result:
 - TOC (Table of Contents) is the conceptual navigation hub
 - All links properly reference the new file locations
 - Breadcrumbs exclude TOC and show clean navigation paths
+
+Fixed breadcrumb display for top-level categories:
+- Top-level categories (Bible, God, Jesus, Salvation, Baptism, Free Will) were showing "Intro > Category" in breadcrumbs
+- Issue: History included intro/intro which wasn't being filtered out
+- Solution: Detect if current topic is a top-level category by checking if any parent link targets 'TOC'
+- Added isTopLevelCategory check in breadcrumb rendering (js/app.js:202)
+- When topic is top-level, filter out both 'TOC' and 'intro/intro' from breadcrumb display
+- Result: Top-level categories now show just their name (e.g., "God" not "Intro > God")
+- Intro subtopics still show proper breadcrumb trail (e.g., "Intro > Narrative Theology")

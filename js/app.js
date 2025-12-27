@@ -197,8 +197,13 @@ function render() {
 
     // History row (last 6 topics, ending with current)
     // Filter out 'TOC' as it's the conceptual root but not shown in breadcrumbs
+    // Also filter out 'intro/intro' if current topic is a top-level category (parent is TOC)
     const allHistory = [...state.history.slice(-5), state.currentTopicId];
-    const historyToShow = allHistory.filter(id => id !== 'TOC');
+    const isTopLevelCategory = topic.parentLinks.some(link => link.target === 'TOC');
+    let historyToShow = allHistory.filter(id => id !== 'TOC');
+    if (isTopLevelCategory) {
+        historyToShow = historyToShow.filter(id => id !== 'intro/intro');
+    }
     const historyItems = historyToShow.map((id, index) => {
         const t = topicCache[id];
         if (!t) return '';
