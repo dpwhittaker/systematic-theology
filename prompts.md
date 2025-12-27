@@ -86,3 +86,5 @@ Let's remove the cache from state for now and store it in page-level memory.  I 
 The intro's shortTitle should be Intro.  also use the full title for the final breadcrumb - i.e. the current page.
 
 It still seems to be using a cache across page refreshes.
+
+ok, the back link being different colors/directions is confusing.  lets make it always the parent color and up direction.  Also when the back link is one of the parents, it should not show that parent.  finally, the magenta is a bit too bright.  lets make it more of a light purple/lilac.

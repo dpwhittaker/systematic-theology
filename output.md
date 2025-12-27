@@ -413,3 +413,15 @@ Fixed browser HTTP caching issue:
 - This bypasses browser HTTP cache during development
 - Page refreshes now always load fresh markdown content when flag is false
 - No need for hard refresh during development anymore
+
+Improved back link and parent link display:
+- Changed back link to always use parent color (lilac) and up direction (↑) instead of opposite direction
+- Removed getOppositeDirection function (js/app.js) - no longer needed
+- Updated back link to always use 'parent' column and ↑ arrow (js/app.js:233)
+- Removed state.lastNavigationDirection dependency from back link logic
+- Added filtering to hide parent links that match the back link target (js/app.js:242)
+- This prevents duplicate display when back target is also a formal parent
+- Changed parent link color from magenta (#ff00ff) to light purple/lilac (#b8a8d8) in css/style.css
+- Updated both .link.parent (line 251) and .hint-parent (line 295) colors
+- Updated text-shadow to match new lilac color with rgba(184, 168, 216, 0.5)
+- Back link is now consistently styled and less visually jarring

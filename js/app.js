@@ -188,17 +188,6 @@ function fitContentToViewport() {
     cardBody.classList.add('scrollable');
 }
 
-// Get opposite direction for back link
-function getOppositeDirection(direction) {
-    const opposites = {
-        'hebrew': 'greek',
-        'greek': 'hebrew',
-        'drill': 'parent',
-        'parent': 'drill'
-    };
-    return opposites[direction] || null;
-}
-
 // Render
 function render() {
     if (state.loading) return;
@@ -221,16 +210,16 @@ function render() {
 
     // Parent row with back link
     let parentRowHTML = '';
+    let backTarget = null;
 
-    // Add back link if we have history and a navigation direction
-    if (state.history.length > 0 && state.lastNavigationDirection) {
-        const backTarget = state.history[state.history.length - 1];
+    // Add back link if we have history
+    if (state.history.length > 0) {
+        backTarget = state.history[state.history.length - 1];
         const backTopic = topicCache[backTarget];
-        const oppositeDirection = getOppositeDirection(state.lastNavigationDirection);
 
-        if (backTopic && oppositeDirection) {
+        if (backTopic) {
             const isActive = state.focusedParentIndex === 0;
-            parentRowHTML = `<span class="link ${oppositeDirection} back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="${oppositeDirection}" data-index="0">← ${backTopic.shortTitle}</span>`;
+            parentRowHTML = `<span class="link parent back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="parent" data-index="0">↑ ${backTopic.shortTitle}</span>`;
 
             if (topic.parentLinks.length > 0) {
                 parentRowHTML += ' | ';
@@ -238,10 +227,11 @@ function render() {
         }
     }
 
-    // Add regular parent links
-    parentRowHTML += topic.parentLinks.map((link, index) => {
+    // Add regular parent links (exclude back target if it appears in parents)
+    const filteredParentLinks = topic.parentLinks.filter(link => link.target !== backTarget);
+    parentRowHTML += filteredParentLinks.map((link, index) => {
         // Offset index by 1 if we have a back link
-        const actualIndex = (state.history.length > 0 && state.lastNavigationDirection) ? index + 1 : index;
+        const actualIndex = state.history.length > 0 ? index + 1 : index;
         const isActive = state.focusedParentIndex === actualIndex;
         return `<span class="link parent ${isActive ? 'active' : ''}" data-target="${link.target}" data-column="parent" data-index="${actualIndex}">${link.label}</span>`;
     }).join(' | ');
