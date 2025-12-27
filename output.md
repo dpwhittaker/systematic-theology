@@ -425,3 +425,20 @@ Improved back link and parent link display:
 - Updated both .link.parent (line 251) and .hint-parent (line 295) colors
 - Updated text-shadow to match new lilac color with rgba(184, 168, 216, 0.5)
 - Back link is now consistently styled and less visually jarring
+
+Increased parent link color saturation and restructured navigation:
+Color changes:
+- Increased purple saturation from #b8a8d8 to #a88dd8 (more vibrant, less washed out)
+- Updated both .link.parent and .hint-parent in css/style.css
+- Updated text-shadow to rgba(168, 141, 216, 0.5)
+
+Navigation restructuring:
+- Made intro/categories the conceptual root for breadcrumbs but excluded from display
+- Changed Categories link in intro.md from 'Drill' to 'Parent' (moved to parent section)
+- Categories page already had Intro as parent link (no change needed)
+- Updated breadcrumb rendering to filter out 'intro/categories' (js/app.js:200-201)
+- Updated back link logic to skip over 'intro/categories' in history (js/app.js:220)
+- Initial navigation still loads #intro as before
+- Categories acts as navigation hub without cluttering breadcrumbs
+- Example: When on Bible, breadcrumb shows "Bible" not "Categories > Bible"
+- When on Intro topics, breadcrumb shows "Intro > Topic" not "Intro > Categories > Topic"

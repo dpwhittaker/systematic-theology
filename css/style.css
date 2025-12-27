@@ -248,8 +248,8 @@ body {
 }
 
 .link.parent {
-    color: #b8a8d8;
-    text-shadow: 0 0 5px rgba(184, 168, 216, 0.5);
+    color: #a88dd8;
+    text-shadow: 0 0 5px rgba(168, 141, 216, 0.5);
 }
 
 .link.active {
@@ -292,7 +292,7 @@ body {
 }
 
 .hint-parent {
-    color: #b8a8d8;
+    color: #a88dd8;
 }
 
 .hint-go {

@@ -196,7 +196,9 @@ function render() {
     if (!topic) return;
 
     // History row (last 6 topics, ending with current)
-    const historyToShow = [...state.history.slice(-5), state.currentTopicId];
+    // Filter out 'intro/categories' as it's the conceptual root but not shown in breadcrumbs
+    const allHistory = [...state.history.slice(-5), state.currentTopicId];
+    const historyToShow = allHistory.filter(id => id !== 'intro/categories');
     const historyItems = historyToShow.map((id, index) => {
         const t = topicCache[id];
         if (!t) return '';
@@ -212,17 +214,21 @@ function render() {
     let parentRowHTML = '';
     let backTarget = null;
 
-    // Add back link if we have history
+    // Add back link if we have history (skip over intro/categories)
     if (state.history.length > 0) {
-        backTarget = state.history[state.history.length - 1];
-        const backTopic = topicCache[backTarget];
+        // Find the last history item that isn't intro/categories
+        const validHistory = state.history.filter(id => id !== 'intro/categories');
+        if (validHistory.length > 0) {
+            backTarget = validHistory[validHistory.length - 1];
+            const backTopic = topicCache[backTarget];
 
-        if (backTopic) {
-            const isActive = state.focusedParentIndex === 0;
-            parentRowHTML = `<span class="link parent back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="parent" data-index="0">↑ ${backTopic.shortTitle}</span>`;
+            if (backTopic) {
+                const isActive = state.focusedParentIndex === 0;
+                parentRowHTML = `<span class="link parent back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="parent" data-index="0">↑ ${backTopic.shortTitle}</span>`;
 
-            if (topic.parentLinks.length > 0) {
-                parentRowHTML += ' | ';
+                if (topic.parentLinks.length > 0) {
+                    parentRowHTML += ' | ';
+                }
             }
         }
     }
