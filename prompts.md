@@ -82,3 +82,5 @@ read claude.md
 Lets add a shortTitle to the front matter in the md files for any that have long titles.  this should show up in the breadcrumbs.  Only add it for long titles, the breadcrumb should fallback to the title when there is no shortTitle.  also notice I manually updated the title in intro.md.  however I am not seeing this change reflected in the browser when I run python -m http.server.
 
 Let's remove the cache from state for now and store it in page-level memory.  I may add it back after development so feel free to leave it in with a feature flag.
+
+The intro's shortTitle should be Intro.  also use the full title for the final breadcrumb - i.e. the current page.

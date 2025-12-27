@@ -1,6 +1,6 @@
 ---
 title: Navigating Faith: Seeing Life Through God's Lens
-shortTitle: Faith Navigation
+shortTitle: Intro
 spectrum: 5
 ---
 

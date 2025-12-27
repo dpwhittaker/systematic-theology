@@ -211,7 +211,9 @@ function render() {
         if (!t) return '';
         const isCurrent = id === state.currentTopicId;
         const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === index;
-        return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${t.shortTitle}</span>`;
+        // Use full title for current page, shortTitle for history items
+        const displayTitle = isCurrent ? t.title : t.shortTitle;
+        return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${displayTitle}</span>`;
     }).join(' > ');
     els.historyRow.innerHTML = historyItems;
 

@@ -397,3 +397,10 @@ Refactored topic caching with feature flag:
 - Updated findShortestPath() to use topicCache with proper cache population
 - Manual changes to markdown files now visible immediately on navigation during development
 - Feature flag can be set to true for production to restore caching performance benefit
+
+Updated shortTitle behavior for breadcrumbs:
+- Changed intro.md shortTitle from "Faith Navigation" to "Intro"
+- Modified breadcrumb rendering to use full title for current page (js/app.js:214-215)
+- History items (non-current pages) continue to use shortTitle for brevity
+- Current page (final breadcrumb) now displays full title for clarity
+- Breadcrumb now shows: "Intro > Narrative > Narrative Theology" instead of "Intro > Narrative > Narrative"
