@@ -404,3 +404,12 @@ Updated shortTitle behavior for breadcrumbs:
 - History items (non-current pages) continue to use shortTitle for brevity
 - Current page (final breadcrumb) now displays full title for clarity
 - Breadcrumb now shows: "Intro > Narrative > Narrative Theology" instead of "Intro > Narrative > Narrative"
+
+Fixed browser HTTP caching issue:
+- Identified that browser was caching HTTP responses for markdown files
+- Added cache control to fetch() in loadTopic function (js/app.js:45-46)
+- When ENABLE_TOPIC_CACHE is false, fetch uses { cache: 'no-cache' } option
+- When ENABLE_TOPIC_CACHE is true, fetch uses default caching behavior
+- This bypasses browser HTTP cache during development
+- Page refreshes now always load fresh markdown content when flag is false
+- No need for hard refresh during development anymore

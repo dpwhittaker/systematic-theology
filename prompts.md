@@ -84,3 +84,5 @@ Lets add a shortTitle to the front matter in the md files for any that have long
 Let's remove the cache from state for now and store it in page-level memory.  I may add it back after development so feel free to leave it in with a feature flag.
 
 The intro's shortTitle should be Intro.  also use the full title for the final breadcrumb - i.e. the current page.
+
+It still seems to be using a cache across page refreshes.

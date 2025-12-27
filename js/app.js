@@ -41,7 +41,9 @@ function debug(msg) {
 async function loadTopic(id) {
     const path = `data/${id}.md`;
     try {
-        const response = await fetch(path);
+        // When cache is disabled, bypass browser HTTP cache
+        const fetchOptions = ENABLE_TOPIC_CACHE ? {} : { cache: 'no-cache' };
+        const response = await fetch(path, fetchOptions);
         if (!response.ok) throw new Error(`Failed to load ${path}`);
         const text = await response.text();
 
