@@ -371,3 +371,17 @@ Session restored from CLAUDE.md, prompts.md, and output.md:
 - Project is a systematic theology HUD application for smart glasses
 - Current state: Color-coded inline links, lattice navigation, zero-scroll design
 - Ready to continue development with full context
+
+Implemented shortTitle support for breadcrumbs:
+- Added shortTitle parsing to loadTopic function in js/app.js:108
+- Falls back to title when shortTitle is not present
+- Updated render function to use shortTitle in history breadcrumb (line 209)
+- Updated back link to use shortTitle (line 224)
+- Added shortTitle to data/intro.md: "Faith Navigation" (was "Navigating Faith: Seeing Life Through God's Lens")
+- Added shortTitle to data/freewill/freewill.md: "Free Will" (was "Free Will & Predestination")
+
+Identified caching issue:
+- Topics are cached in memory at state.topics (js/app.js:321-324)
+- Manual changes to markdown files won't show until hard refresh (Ctrl+Shift+R or Cmd+Shift+R)
+- This is by design to avoid reloading files on every navigation
+- User needs to hard refresh browser to see manual changes to intro.md title

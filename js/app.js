@@ -21,6 +21,17 @@ const els = {
     moreIndicator: document.getElementById('more-indicator')
 };
 
+// Debug logging
+function debug(msg) {
+    const panel = document.getElementById('debug-panel');
+    if (panel) {
+        panel.innerHTML += msg + '<br>';
+        panel.scrollTop = panel.scrollHeight;
+    }
+    console.log(msg);
+}
+
+
 // Parse markdown file
 async function loadTopic(id) {
     const path = `data/${id}.md`;
@@ -94,6 +105,7 @@ async function loadTopic(id) {
         return {
             id,
             title: frontMatter.title,
+            shortTitle: frontMatter.shortTitle || frontMatter.title,
             spectrum: frontMatter.spectrum || 0,
             parents: sections[1],
             summary: sections[2],
@@ -194,7 +206,7 @@ function render() {
         if (!t) return '';
         const isCurrent = id === state.currentTopicId;
         const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === index;
-        return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${t.title}</span>`;
+        return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${t.shortTitle}</span>`;
     }).join(' > ');
     els.historyRow.innerHTML = historyItems;
 
@@ -209,7 +221,7 @@ function render() {
 
         if (backTopic && oppositeDirection) {
             const isActive = state.focusedParentIndex === 0;
-            parentRowHTML = `<span class="link ${oppositeDirection} back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="${oppositeDirection}" data-index="0">← ${backTopic.title}</span>`;
+            parentRowHTML = `<span class="link ${oppositeDirection} back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="${oppositeDirection}" data-index="0">← ${backTopic.shortTitle}</span>`;
 
             if (topic.parentLinks.length > 0) {
                 parentRowHTML += ' | ';

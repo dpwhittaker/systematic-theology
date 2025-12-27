@@ -78,3 +78,5 @@ Alright, this nav section isnt worth the space it takes.  lets take a different 
 add the parent link row and up cycle logic back. pages won't necessarily include text about their parents. Also add small navigation hints with arrow icons and color coding in the footer, like <yellow>[left icon] Hebrew</yellow>
 
 read claude.md
+
+Lets add a shortTitle to the front matter in the md files for any that have long titles.  this should show up in the breadcrumbs.  Only add it for long titles, the breadcrumb should fallback to the title when there is no shortTitle.  also notice I manually updated the title in intro.md.  however I am not seeing this change reflected in the browser when I run python -m http.server.

@@ -1,5 +1,6 @@
 ---
 title: Free Will & Predestination
+shortTitle: Free Will
 spectrum: 0
 ---
 [Categories](#intro/categories 'Parent')

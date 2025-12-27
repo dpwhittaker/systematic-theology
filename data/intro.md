@@ -1,5 +1,6 @@
 ---
-title: Systematic Theology?
+title: Navigating Faith: Seeing Life Through God's Lens
+shortTitle: Faith Navigation
 spectrum: 5
 ---
 
