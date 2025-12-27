@@ -6,7 +6,7 @@ const topicCache = {};
 
 // State management
 const state = {
-    currentTopicId: 'intro',
+    currentTopicId: 'intro/intro',
     focusedLinkIndex: -1, // Index of focused inline link (-1 = article mode)
     focusedParentIndex: -1, // Index of focused parent link (-1 = none)
     inlineLinks: [], // Array of {element, target, column} for navigation
@@ -196,9 +196,9 @@ function render() {
     if (!topic) return;
 
     // History row (last 6 topics, ending with current)
-    // Filter out 'intro/categories' as it's the conceptual root but not shown in breadcrumbs
+    // Filter out 'TOC' as it's the conceptual root but not shown in breadcrumbs
     const allHistory = [...state.history.slice(-5), state.currentTopicId];
-    const historyToShow = allHistory.filter(id => id !== 'intro/categories');
+    const historyToShow = allHistory.filter(id => id !== 'TOC');
     const historyItems = historyToShow.map((id, index) => {
         const t = topicCache[id];
         if (!t) return '';
@@ -214,10 +214,10 @@ function render() {
     let parentRowHTML = '';
     let backTarget = null;
 
-    // Add back link if we have history (skip over intro/categories)
+    // Add back link if we have history (skip over TOC)
     if (state.history.length > 0) {
-        // Find the last history item that isn't intro/categories
-        const validHistory = state.history.filter(id => id !== 'intro/categories');
+        // Find the last history item that isn't TOC
+        const validHistory = state.history.filter(id => id !== 'TOC');
         if (validHistory.length > 0) {
             backTarget = validHistory[validHistory.length - 1];
             const backTopic = topicCache[backTarget];
@@ -643,14 +643,14 @@ async function init() {
     try {
         state.loading = false;
 
-        const hashId = window.location.hash.replace('#', '') || 'intro';
+        const hashId = window.location.hash.replace('#', '') || 'intro/intro';
 
-        if (hashId !== 'intro') {
-            // Build artificial history from intro to this node
-            const path = await findShortestPath('intro', hashId);
+        if (hashId !== 'intro/intro') {
+            // Build artificial history from intro/intro to this node
+            const path = await findShortestPath('intro/intro', hashId);
             if (path && path.length > 1) {
-                // path is [intro, ..., hashId]
-                // We want history to be [intro, ..., parent_of_hashId]
+                // path is [intro/intro, ..., hashId]
+                // We want history to be [intro/intro, ..., parent_of_hashId]
                 // So we exclude the last item (which will be the current topic)
                 state.history = path.slice(0, -1);
                 // Keep only last 6 in history

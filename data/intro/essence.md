@@ -2,7 +2,7 @@
 title: Essence
 spectrum: 9
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 What IS God, apart from what He does?
 Greek: *Being* precedes action.

@@ -2,7 +2,7 @@
 title: Salvation
 spectrum: 0
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 How are we *made right* with God?
 

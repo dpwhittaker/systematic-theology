@@ -442,3 +442,27 @@ Navigation restructuring:
 - Categories acts as navigation hub without cluttering breadcrumbs
 - Example: When on Bible, breadcrumb shows "Bible" not "Categories > Bible"
 - When on Intro topics, breadcrumb shows "Intro > Topic" not "Intro > Categories > Topic"
+Reorganized file structure and updated all links:
+File moves:
+- Moved data/intro.md to data/intro/intro.md
+- Moved data/intro/categories.md to data/TOC.md (renamed from categories)
+
+Link updates in markdown files:
+- Updated all intro subtopic parent links from #intro to #intro/intro (12 files in intro folder)
+- Updated intro/intro.md Categories link from #intro/categories to #TOC
+- Updated TOC.md Intro link from #intro to #intro/intro
+- Updated all major category files (bible, god, jesus, baptism, freewill, salvation) from #intro/categories to #TOC
+
+JavaScript updates (js/app.js):
+- Changed default currentTopicId from 'intro' to 'intro/intro' (line 9)
+- Changed breadcrumb filter from 'intro/categories' to 'TOC' (line 201)
+- Changed back link filter from 'intro/categories' to 'TOC' (line 220)
+- Changed init() default hashId from 'intro' to 'intro/intro' (line 646)
+- Changed init() comparison from 'intro' to 'intro/intro' (line 648)
+- Changed findShortestPath starting point from 'intro' to 'intro/intro' (line 650)
+
+Result:
+- Initial page load navigates to intro/intro (displays "Intro")
+- TOC (Table of Contents) is the conceptual navigation hub
+- All links properly reference the new file locations
+- Breadcrumbs exclude TOC and show clean navigation paths

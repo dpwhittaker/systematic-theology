@@ -2,7 +2,7 @@
 title: Major Categories
 spectrum: 7
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 Traditional systematic theology divides into topics:
 

@@ -2,7 +2,7 @@
 title: Acts of God
 spectrum: -8
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 God makes Himself known through *intervention*.
 Creation, deliverance, judgment, redemption.

@@ -2,7 +2,7 @@
 title: Systematic Method
 spectrum: 7
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 Organizing theology into [categories](#intro/categories 'Drill').
 Assumes truth can be systematized.

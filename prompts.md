@@ -90,3 +90,5 @@ It still seems to be using a cache across page refreshes.
 ok, the back link being different colors/directions is confusing.  lets make it always the parent color and up direction.  Also when the back link is one of the parents, it should not show that parent.  finally, the magenta is a bit too bright.  lets make it more of a light purple/lilac.
 
 ok, lets go a bit more saturated on that purple color.  it almost looks white.  also, lets rearrange the navigation with the major categories being the root of the site for the purposes of the breadcrumbs.  this page should not be included in the breadcrumbs though, and should contain a link to intro.  Initial navigation should still take you to #intro, and the link to categories should now be a parent link from intro.
+
+move intro.md into intro folder.  move intro/categories.md out to data folder and rename i5 to TOC.md.  update all the links.

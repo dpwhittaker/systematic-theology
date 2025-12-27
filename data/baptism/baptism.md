@@ -2,7 +2,7 @@
 title: Baptism
 spectrum: -5
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 A *sign* of faith and belonging.
 

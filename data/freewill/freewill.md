@@ -3,7 +3,7 @@ title: Free Will & Predestination
 shortTitle: Free Will
 spectrum: 0
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 Can humans *choose*, or does God *decide* everything?
 

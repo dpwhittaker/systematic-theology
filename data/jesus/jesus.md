@@ -2,7 +2,7 @@
 title: Jesus Christ
 spectrum: 0
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 *God made flesh*.
 

@@ -2,7 +2,7 @@
 title: The Bible
 spectrum: 0
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 The written *Word of God*.
 

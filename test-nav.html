@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Debug</title>
+    <script>
+        // Quick test to check if direction is being captured
+        const testDirection = (direction) => {
+            console.log('Direction passed:', direction);
+            console.log('Type:', typeof direction);
+        };
+
+        // Simulate what happens in the code
+        const links = [
+            { column: 'hebrew' },
+            { column: 'drill' },
+            { column: 'greek' }
+        ];
+
+        links.forEach(link => {
+            const direction = link.column;
+            console.log('Created handler for:', direction);
+            // This simulates the click handler
+            setTimeout(() => testDirection(direction), 100);
+        });
+    </script>
+</head>
+<body>
+    <p>Check console for output</p>
+</body>
+</html>

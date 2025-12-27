@@ -2,7 +2,7 @@
 title: Events
 spectrum: -7
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 God reveals Himself through *action*.
 The Exodus, the Cross, the Resurrection.

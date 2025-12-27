@@ -3,7 +3,7 @@ title: Navigating Faith: Seeing Life Through God's Lens
 shortTitle: Intro
 spectrum: 5
 ---
-[Categories](#intro/categories 'Parent')
+[Categories](#TOC 'Parent')
 ---
 Is the [System](#intro/system 'Drill') itself the message?
 Greek thinking favors [Abstraction](#intro/abstraction 'Greek') & [Definition](#intro/definition 'Greek').

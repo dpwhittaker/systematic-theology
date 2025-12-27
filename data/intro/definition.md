@@ -2,7 +2,7 @@
 title: Definition
 spectrum: 8
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 Greek philosophy seeks *precise boundaries*.
 What IS a thing? What is its *essence*?

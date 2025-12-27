@@ -2,7 +2,7 @@
 title: Proposition
 spectrum: 10
 ---
-[Intro](#intro 'Parent')
+[Intro](#intro/intro 'Parent')
 ---
 Greek logic: truth expressed as *statements*.
 "God is love" vs "God loved Jacob"
