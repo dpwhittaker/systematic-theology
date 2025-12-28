@@ -38,7 +38,9 @@ function debug(msg) {
 
 // Parse markdown file
 async function loadTopic(id) {
-    const path = `data/${id}.md`;
+    // Add timestamp to prevent caching in development
+    const timestamp = ENABLE_TOPIC_CACHE ? '' : `?v=${Date.now()}`;
+    const path = `data/${id}.md${timestamp}`;
     try {
         // When cache is disabled, bypass browser HTTP cache
         const fetchOptions = ENABLE_TOPIC_CACHE ? {} : { cache: 'no-cache' };
@@ -523,6 +525,10 @@ function activateCurrentLink() {
 
 // Input Handling
 document.addEventListener('keydown', (e) => {
+    // Check if content is scrollable
+    const cardBody = els.cardBody;
+    const isScrollable = cardBody && cardBody.classList.contains('scrollable');
+
     switch(e.key) {
         case "ArrowLeft":
             cycleLinks('hebrew');
@@ -531,10 +537,22 @@ document.addEventListener('keydown', (e) => {
             cycleLinks('greek');
             break;
         case "ArrowDown":
-            cycleLinks('drill');
+            if (isScrollable) {
+                // Scroll down instead of navigating
+                e.preventDefault();
+                cardBody.scrollBy({ top: 100, behavior: 'smooth' });
+            } else {
+                cycleLinks('drill');
+            }
             break;
         case "ArrowUp":
-            navigateBack();
+            if (isScrollable) {
+                // Scroll up instead of navigating
+                e.preventDefault();
+                cardBody.scrollBy({ top: -100, behavior: 'smooth' });
+            } else {
+                navigateBack();
+            }
             break;
         case " ":
         case "Enter":
