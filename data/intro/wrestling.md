@@ -31,6 +31,16 @@ This is *not* irreverence—it's the highest form of engagement. Wrestling requi
 
 Hebrew tradition doesn't fear interpretive tension. The Written Torah and Oral Torah exist in creative friction. Shammai and Hillel disagree on almost everything—and both are preserved as holy teaching. *Eilu v'eilu*—both are words of the living God.
 
+# The Lion's Growl
+
+*Hagah* (הָגָה)—the Hebrew word for meditation—carries a striking image. The same word describes a lion growling over its prey (Isaiah 31:4). When the Psalms command us to "meditate on His law day and night" (Psalm 1:2), the word is *hagah*: to mutter, to murmur, to make low repetitive sounds—like a lion growling possessively over its kill.
+
+This is not quiet, detached reflection. It's active, audible, repetitive engagement. The lion doesn't abandon its prey to hunt something else—it stays, guards, returns again and again. It doesn't consume everything at once but chews slowly, deliberately, extracting every bit of sustenance.
+
+Ancient Jewish practice reflects this: students rocking back and forth, repeating verses aloud, returning to the same passage day after day. Not to memorize facts but to *internalize* truth. Not to master the text but to let the text master *you*.
+
+The image confronts our modern assumption that "study" means silent reading, quick comprehension, moving on. *Hagah* says: Stay. Growl over this. Don't let go. Return tomorrow and growl again.
+
 # Contrast with System
 
 Compare: Systematic theology aims for *resolution*. Build the [system](#intro/system 'Greek'), answer the questions, achieve doctrinal clarity. The goal is a stable structure, internally consistent, able to answer objections. The emphasis is on *completion*.
