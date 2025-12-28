@@ -1,16 +1,16 @@
 ---
-title: Greek Philosophy: Essence & Abstraction
+title: Greek Philosophy: The Three-Step Method
 ---
 [Intro](#intro/intro 'Parent')
 ---
-Greek philosophy seeks *universal* truths and *precise definitions*.
-What IS a thing? What is its *essence*—unchanging, always valid?
-Hebrew thought asks: What does it DO? How does it *relate*?
+Greek philosophy operates in three steps:
+1. *Abstract* a thing to its essence—remove context, find what's universal.
+2. State *propositions* about that essence—timeless, logical claims.
+3. *Validate* those propositions by comparing to instances.
 
-Greek: Remove context to find eternal *Forms*. *Being* precedes action.
-Hebrew: God's *character* is known through His [deeds](#intro/events 'Hebrew').
-
-Can God's *personal* acts fit into *impersonal* categories?
+Hebrew thought asks different questions: What does it DO? How does it *relate*?
+Greek: "God is love" (timeless proposition). Hebrew: "God loved Jacob" (historical [event](#intro/events 'Hebrew')).
+One captures essence; the other captures [encounter](#intro/relation 'Hebrew').
 ---
 # The Quest for Essence
 
@@ -35,6 +35,56 @@ This method yields knowledge that is:
 Aristotle modified Plato but kept the core move. He rejected separate Forms but retained *essence* as the defining characteristic. A thing's essence is what it *must* have to be that kind of thing. Humans are "rational animals"—rationality is essential, two legs is accidental (you're still human with one leg).
 
 This leads to *definition*: capturing essence in precise language. A good definition states necessary and sufficient conditions. "Man is a rational animal" attempts to say exactly what human nature *is*, stripped of all non-essential traits.
+
+# The Three-Step Method
+
+Greek philosophy follows a systematic process:
+
+## Step 1: Abstract to Essence
+
+Strip away particular instances to find the universal form. Every human differs, but all share *human nature*. Every triangle differs, but all share *triangularity*. This is the move from "these horses" to "horseness," from "these acts of love" to "Love itself."
+
+## Step 2: State Propositions
+
+Once you have the essence, make *claims* about it. Propositions are timeless, logical statements:
+- "God is immutable"
+- "God is love"
+- "Man is a rational animal"
+
+These are not descriptions of *events* but definitions of *being*. Not "God loved the world" (historical) but "God is love" (eternal). Not "Jesus wept" (particular) but "God is impassible" (universal).
+
+Propositional truth seeks statements that are:
+- **Timeless**: True always, not just in one moment
+- **Universal**: True everywhere, not just in one context
+- **Logical**: Follows from other truths by reason
+- **Testable**: Can be verified against instances
+
+## Step 3: Validate Propositions
+
+Test your propositions against reality. If you claim "All swans are white," observe swans. If you claim "God is immutable," examine Scripture and experience. Do the instances confirm the proposition?
+
+This is the scientific method's ancestor: hypothesize about essence, state claims, test against data.
+
+## Propositional vs Narrative Truth
+
+The Greek method produces *propositions*—statements abstracted from history. The Hebrew method preserves *narrative*—truth embedded in events.
+
+Compare:
+- **Greek**: "God is love" (proposition about God's essence)
+- **Hebrew**: "God so loved the world that He gave His only Son" (John 3:16—event in history)
+
+The proposition is *timeless*—it's always true, everywhere. The narrative is *particular*—it happened once, in a specific time and place.
+
+Systematic theology tends to extract propositions from narrative:
+- Read: "God delivered Israel from Egypt"
+- Extract: "God is a deliverer" (proposition)
+- Categorize: Add to list of God's attributes
+
+But the Hebrew mind resists this move. The *story* is the truth. God didn't deliver Israel to *illustrate* that He's a deliverer. He delivered Israel because He loved them, called them, made promises to Abraham. The particular act reveals His character more fully than any abstract proposition could.
+
+When we reduce "God loved Jacob" to "God is love," we gain universality but lose particularity. We can now apply "God is love" to all people, all times. But we've left behind the specific, scandalous, inexplicable reality: God chose Jacob over Esau. God loved *this* person in *this* way at *this* moment.
+
+Propositional truth asks: What is always true? Narrative truth asks: What actually happened? Both matter. But which comes first?
 
 # The Theological Turn
 

@@ -5,7 +5,7 @@ title: Narrative Theology
 ---
 Truth conveyed through *story*, not formula.
 The Bible tells what God *did*, not just what He *is*.
-[Events](#intro/events 'Drill') carry meaning that [propositions](#intro/proposition 'Greek') cannot capture.
+[Events](#intro/events 'Drill') carry meaning that [propositions](#intro/philosophy 'Greek') cannot capture.
 
 Story over proposition.
 God reveals Himself through events, not [definitions](#intro/philosophy 'Greek').
