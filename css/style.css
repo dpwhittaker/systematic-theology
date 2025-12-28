@@ -178,19 +178,7 @@ body {
     text-shadow: 0 0 5px rgba(255, 136, 0, 0.5);
 }
 
-/* FOOTER & SPECTRUM */
-#card-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    font-family: var(--font-sans);
-}
-
-#more-indicator {
-    color: #ff8800;
-    font-weight: bold;
-}
+/* Removed #card-footer and #more-indicator - now handled in footer hints */
 
 /* COLOR-CODED LINKS */
 .link.hebrew {
@@ -257,7 +245,7 @@ body {
 }
 
 .hint-go {
-    color: #00ff00;
+    color: #ff8800;
 }
 
 /* UTILS */

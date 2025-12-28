@@ -100,3 +100,4 @@ add Introduction - What is Systematic Theology? and link to intro to the TOC.  A
 the hebrew <-> greek slider isnt adding value.  lets remove it, as well as the values from the md file headers.  also, there is a dashed line and a solid line at the bottom of each page, lets remove the dashed line.  that just leaves the [more...] button on the bottom row.  let's make the [enter] Go reminder in the bottom legend dynamic so it can move there.  it should be orange, and when you first navigate to a page with more... data, should say more...  If there is not it should be empty.  once you start scrolling links, it should change to <enter> Go.  when you reach the end of a link cycle, it should cycle back to no selection to let you go to the more... page.  also, the back link should have a left arrow, not up.
 
 can you prevent the browser from caching app.js?
+put the more.../go indicator in the footer where Go was.
