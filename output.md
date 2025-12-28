@@ -789,3 +789,29 @@ Reduced padding/margins throughout to maximize visible content:
 - Significantly more content visible in viewport
 - Reduced wasted whitespace around all edges
 - Better space utilization for main content area
+
+## Add CSS cache busting and maximize content area
+
+**Cache busting for CSS:**
+- Added dynamic CSS loading with timestamp parameter in index.html
+- Creates `<link>` element via JavaScript and appends `?v={timestamp}`
+- CSS loads as 'css/style.css?v=1234567890' with different timestamp each time
+- Matches the cache-busting approach already used for app.js
+- Forces browser to bypass cache and load fresh CSS on every page refresh
+- Useful during development to see CSS changes immediately
+
+**Final spacing maximization (edge-to-edge):**
+Removed all remaining padding/margins to extend content to page edges:
+- **.hud-container padding**: 0.5rem → **0** (removed all outer padding)
+- **.hud-header margin-bottom**: 0.25rem → **0**
+- **.hud-card margin-bottom**: 0.25rem → **removed entirely**
+- **#card-body padding**: 0 0.5rem → **0 0.1rem** (minimal horizontal padding)
+- **.hud-footer margin-top**: 0.15rem → **0**
+- **#nav-hint padding**: 0 0.5rem → **0 0.1rem**
+
+**Result:**
+- Horizontal lines (header and footer borders) now extend completely to page edges
+- Content fills entire viewport width with minimal padding
+- Only 0.1rem padding to prevent text from touching edges
+- Maximum possible space utilization for HUD display
+- Edge-to-edge design maximizes content visibility on smart glasses
