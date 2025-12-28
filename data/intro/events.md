@@ -7,6 +7,6 @@ God makes Himself known through *intervention* and *action*.
 Creation, deliverance, judgment, redemption.
 The Exodus, the Cross, the Resurrection.
 
-We know Him by what He *does*, not by [philosophy](#intro/abstraction 'Greek').
+We know Him by what He *does*, not by [philosophy](#intro/philosophy 'Greek').
 These are not *illustrations* of truth—they ARE the truth.
 ---

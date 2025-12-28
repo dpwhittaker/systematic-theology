@@ -8,7 +8,7 @@ Systematic theology organizes beliefs into [categories](#TOC 'Drill'): God, Chri
 It assumes truth can be systematized—but does Greek *logic* distort Hebrew *revelation*?
 Can we organize the Bible without changing its *message*?
 
-Greek thinking favors [Abstraction](#intro/abstraction 'Greek') & [Definition](#intro/essence 'Greek').
+Greek thinking favors [Abstraction](#intro/philosophy 'Greek') & [Definition](#intro/philosophy 'Greek').
 Hebrew thinking favors [Narrative](#intro/narrative 'Hebrew') & [Relation](#intro/relation 'Hebrew').
 
 The risk: Making Scripture fit *our* framework instead of God's.

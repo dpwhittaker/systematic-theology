@@ -8,7 +8,7 @@ The Bible tells what God *did*, not just what He *is*.
 [Events](#intro/events 'Drill') carry meaning that [propositions](#intro/proposition 'Greek') cannot capture.
 
 Story over proposition.
-God reveals Himself through events, not [definitions](#intro/essence 'Greek').
+God reveals Himself through events, not [definitions](#intro/philosophy 'Greek').
 The Bible is a *grand narrative*, not a textbook.
 ---
 In Hebrew thought, theology happens *through* story. The Torah doesn't define God—it shows Him acting: creating, calling, delivering, judging, redeeming.

@@ -27,7 +27,7 @@ This is why Jewish tradition values questions over answers. A good question open
 
 The Talmud records fierce debates: Rabbi Eliezer vs. Rabbi Joshua, dispute after dispute. When a heavenly voice declares Eliezer correct, Joshua replies: "The Torah is not in heaven! We decide by majority vote." And God laughs with delight, saying "My children have defeated me!"
 
-This is *not* irreverence—it's the highest form of engagement. Wrestling requires both parties to be real. You can't wrestle an [abstraction](#intro/abstraction 'Greek'). You can't argue with a formula. The text must be alive, God must be present, for the struggle to mean anything.
+This is *not* irreverence—it's the highest form of engagement. Wrestling requires both parties to be real. You can't wrestle an [abstraction](#intro/philosophy 'Greek'). You can't argue with a formula. The text must be alive, God must be present, for the struggle to mean anything.
 
 Hebrew tradition doesn't fear interpretive tension. The Written Torah and Oral Torah exist in creative friction. Shammai and Hillel disagree on almost everything—and both are preserved as holy teaching. *Eilu v'eilu*—both are words of the living God.
 
