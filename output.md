@@ -867,3 +867,44 @@ Two-column layouts are now ONLY used when the entire content fits on screen with
 
 **Result:**
 The wrestling page more... content now displays in a single column with vertical scrolling, providing a natural reading flow from top to bottom.
+
+## Enable scrolling with arrow keys/swipes and comprehensive cache busting
+
+**Arrow key scrolling on more... pages:**
+Modified keyboard event handler (js/app.js line 525):
+- Added check for `cardBody.classList.contains('scrollable')`
+- **ArrowDown**: When scrollable, scrolls content down 100px (smooth) instead of calling cycleLinks('drill')
+- **ArrowUp**: When scrollable, scrolls content up 100px (smooth) instead of calling navigateBack()
+- Falls back to normal navigation when content is not scrollable
+- Prevents default behavior to avoid conflicts
+
+**Touch gesture scrolling:**
+- Already working correctly - touch handler (line 602) detects scrollable content and returns early
+- Native browser scrolling handles vertical swipes automatically
+- No changes needed for touch gestures
+
+**Comprehensive cache busting added:**
+
+*HTTP cache-control meta tags in index.html:*
+- `Cache-Control: no-cache, no-store, must-revalidate`
+- `Pragma: no-cache` (for older browsers)
+- `Expires: 0`
+- Forces browsers to always validate resources with server
+
+*Markdown file cache busting in js/app.js:*
+- Added timestamp parameter to markdown fetch URLs
+- Files now load as `data/path.md?v={timestamp}` when ENABLE_TOPIC_CACHE is false
+- Combined with existing `cache: 'no-cache'` fetch option (line 44)
+- Each page load gets a fresh timestamp
+
+**Complete cache-busting coverage:**
+1. ✅ HTML: Meta tags prevent caching
+2. ✅ CSS: Dynamic loading with `?v={timestamp}` (already implemented)
+3. ✅ JavaScript: Dynamic loading with `?v={timestamp}` (already implemented)
+4. ✅ Markdown: Timestamp parameter + cache:'no-cache' (now added)
+
+**Result:**
+- Arrow keys and swipes now scroll naturally through long more... pages
+- All updates visible immediately without clearing browser history
+- No stale content during development
+- Fresh reload of all resources on every page refresh
