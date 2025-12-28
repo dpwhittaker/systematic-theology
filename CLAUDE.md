@@ -15,63 +15,82 @@ The data model uses a **lattice (Directed Acyclic Graph)** rather than a traditi
 - Example: "Blood" connects to Theology Proper, Anthropology, Christology, and Ecclesiology simultaneously
 - This structure is central to the thesis that traditional Systematic Theology's rigid categorization is a Hellenistic imposition on Hebraic revelation
 
-**Implementation:** Each topic in `data/theology.json` contains:
-- `links`: Array of related concepts/verses that become navigation targets
-- `type`: Either "concept" or "verse"
-- `spectrum`: Integer from -10 (Hebraic/Concrete) to +10 (Hellenistic/Abstract)
-- `content`: Array of strings with inline `*highlights*` for extracting related terms
+**Implementation:** Each topic is a markdown file in `data/` with YAML frontmatter:
+- One `.md` file per topic (e.g., `data/intro/narrative.md` or `data/god/god.md`)
+- Links embedded inline using `[text](#path 'column')` format
+- Column types: `Hebrew`, `Drill`, `Greek`, `Parent`
+- Content sections separated by `---`: frontmatter, parents, summary, article (optional)
 
-### Navigation Model: Directional Semantics
+### Navigation Model: Directional Semantics & Color-Coded Links
 
 The keyboard navigation has theological significance mapped to physical directions:
-- **UP (ArrowUp)**: Navigate to parent category (abstraction) - currently implemented as "back"
-- **DOWN (ArrowDown)**: Drill into evidence/details - moves focus down in nav grid
-- **LEFT (ArrowLeft)**: Pivot toward Hebraic/concrete/narrative aspects - moves focus left
-- **RIGHT (ArrowRight)**: Pivot toward Hellenistic/abstract/categorical aspects - moves focus right
-- **SPACE/ENTER**: Activate focused link
+- **UP (ArrowUp)**: Cycle through parent links and navigation history
+- **DOWN (ArrowDown)**: Cycle through Drill links (detailed exploration)
+- **LEFT (ArrowLeft)**: Cycle through Hebrew/concrete/narrative links (yellow)
+- **RIGHT (ArrowRight)**: Cycle through Greek/abstract/categorical links (cyan)
+- **SPACE/ENTER**: Activate focused link or toggle article
 
-See design.md:38-46 for the full directional semantics specification.
+**Visual Implementation:**
+- Links are color-coded within the main text content:
+  - **Hebrew links**: Yellow (#ffdd00) - concrete, narrative, relational
+  - **Drill links**: Green (#00ff00) - detailed exploration, evidence
+  - **Greek links**: Cyan (#00ddff) - abstract, categorical, systematic
+  - **Parent links**: Purple (#a88dd8) - navigation up the hierarchy
+- Active link shows a border highlight
+- Footer displays navigation hints with corresponding colors
 
 ### State Management (js/app.js)
 
 The application uses a simple vanilla JS state object:
 ```javascript
 state = {
-    currentTopicId: 'intro',
-    focusedLinkIndex: 0,  // Which nav item has focus
-    topics: {},            // Indexed by id from theology.json
-    history: []            // For back navigation
+    currentTopicId: 'intro/intro',
+    focusedLinkIndex: -1,      // Which inline link has focus (-1 = article mode)
+    focusedParentIndex: -1,    // Which parent link has focus
+    history: [],               // For back navigation
+    showingArticle: false,     // Toggle between summary and article
+    inlineLinks: []            // Array of {element, target, column, index}
 }
 ```
 
 Navigation updates state, changes URL hash, and triggers re-render. The render cycle:
-1. Updates breadcrumb from `topic.category` and `topic.title`
-2. Renders content with `*markdown*` highlights converted to `<span class="highlight">`
-3. Positions spectrum indicator based on `topic.spectrum` value
-4. Generates navigation grid from `topic.links`
+1. Updates breadcrumb with navigation history (last 5 topics + current)
+2. Displays back link and parent links in header (right-aligned)
+3. Renders content with inline markdown links converted to color-coded `<span class="link">` elements
+4. Updates footer with navigation hints and dynamic more/go indicator
+5. Applies dynamic font sizing to fit content within viewport constraints
 
-### Data Structure (data/theology.json)
+### Data Structure (Markdown Files)
 
-Each topic object:
-```json
-{
-    "id": "unique_id",
-    "type": "concept" | "verse",
-    "category": "SOTERIOLOGY",
-    "title": "Display Title",
-    "spectrum": -8,              // -10 to +10
-    "hasArticle": false,         // [more...] indicator
-    "content": ["Line with *highlights*"],
-    "links": [
-        { "label": "Display", "target": "topic_id" }
-    ]
-}
+Each topic is a `.md` file with 4 sections separated by `---`:
+
+```markdown
+---
+title: Topic Title
+shortTitle: Short      # Optional, for breadcrumbs
+---
+[Parent Topic](#path/to/parent 'Parent')
+---
+Main content with [inline links](#target 'Hebrew') marked.
+Use *asterisks* for emphasis highlighting.
+Can reference [drill-down](#detail 'Drill') or [abstract](#concept 'Greek') topics.
+---
+Optional article section for deeper exploration.
+Shows when user presses enter on "↵ more..." indicator.
+Can include multiple paragraphs and [more links](#other).
 ```
+
+**Link Format:** `[text](#path 'column')`
+- `text`: Display text (will be color-coded)
+- `path`: Relative path without `.md` extension (e.g., `intro/narrative` or `god/god`)
+- `column`: One of `Hebrew`, `Drill`, `Greek`, or `Parent`
+- Default column in section 2 (parents) is `Parent`
+- Default column in sections 3-4 (summary/article) is `Drill`
 
 When adding new topics:
 - Ensure bidirectional links where conceptually appropriate (lattice structure)
-- Use `*asterisks*` in content to mark terms that appear in the links array
-- Set spectrum thoughtfully: negative values favor narrative/function, positive favor definition/category
+- Use descriptive link text that fits naturally in sentences
+- Choose column thoughtfully: Hebrew for concrete/narrative, Greek for abstract/systematic
 
 ## Design Constraints
 
@@ -115,11 +134,13 @@ php -S localhost:8000
 
 ### Adding New Content
 
-1. Edit `data/theology.json`
-2. Add new topic object with unique `id`
-3. Add `links` entries in related topics pointing to your new `id`
-4. Set appropriate `spectrum` value based on concrete ↔ abstract nature
-5. Refresh browser (no build step needed)
+1. Create a new `.md` file in appropriate folder (e.g., `data/salvation/grace.md`)
+2. Add YAML frontmatter with `title` (and optional `shortTitle`)
+3. Add parent links in section 2
+4. Write summary content in section 3 with inline `[links](#target 'column')`
+5. Optionally add article content in section 4 for "more..." expansion
+6. Add reciprocal links from related topics to create lattice connections
+7. Refresh browser (no build step needed; cache disabled during development)
 
 ### Testing Navigation
 
@@ -128,23 +149,24 @@ php -S localhost:8000
 - History array should grow/shrink with forward/back navigation
 - Focused link index should wrap within 0 to `links.length - 1`
 
-### Grid Navigation Logic
+### Inline Link Navigation Logic
 
-The nav area uses a 3-column grid. Arrow key behavior:
-- Left/Right: -1/+1 with wraparound
-- Down: +3 (jump one row) - see js/app.js:136
-- Up: Navigate back (not focus movement) - see js/app.js:139-142
-
-This assumes 3 columns. If changing grid layout, update the delta in `moveFocus()`.
+Navigation works by cycling through color-coded links embedded in the text:
+- Arrow keys filter links by column type (Hebrew/Drill/Greek/Parent)
+- `cycleLinks(columnFilter)` finds all matching links and advances focus
+- Active link gets visual border highlight
+- Cycling past the last link returns to "article mode" (no focus)
+- In article mode, pressing Enter toggles article expansion if available
 
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS
 - `js/app.js` - All application logic, state management, rendering
-- `data/theology.json` - Content source, defines lattice structure
-- `css/style.css` - HUD styling, zero-scroll layout, spectrum visualization
+- `data/**/*.md` - Content source (markdown files), defines lattice structure
+- `css/style.css` - HUD styling, zero-scroll layout, color-coded navigation
 - `design.md` - Full UX rationale and theological design decisions
 - `README.md` - Project thesis and overview
+- `CLAUDE.md` - This file - guidance for AI assistants working on the project
 
 ## Workflow Management for Claude Code
 
@@ -174,6 +196,12 @@ This project has an argumentative thesis: that traditional Systematic Theology's
 - The lattice structure is not just for UX—it's the core critique of tree-based theology
 - Content should support examination, not advocacy for one systematic framework
 
+**God's Personhood:**
+Both Hebrew and Greek perspectives agree on a foundational truth: **God is personal—He is a "Who," not a "what."** When writing content:
+- Capitalize pronouns referring to God: He, His, Him, Himself
+- This is not merely stylistic—it reflects the shared conviction that God is a person, not an abstract force or philosophical concept
+- The Hebrew-Greek tension is about *how* we know this personal God (relationship vs. definition), not *whether* He is personal
+
 ### Accessibility vs. HUD Optimization
 
 The primary target is smart glasses (HUD), but the site should remain:
@@ -183,11 +211,26 @@ The primary target is smart glasses (HUD), but the site should remain:
 
 Don't sacrifice HUD constraints for desktop convenience—the zero-scroll, high-contrast design is the point.
 
-### Future Extensions
+### Recent Changes & Current State
 
-Mentioned in design.md but not yet implemented:
-- Full article overlay (`hasArticle: true` currently just shows `[more...]` indicator)
+**Implemented:**
+- ✅ Markdown-based content system (replaced theology.json)
+- ✅ Color-coded inline links (replaced nav-grid)
+- ✅ Article expansion system (fourth section in markdown files)
+- ✅ Dynamic font sizing to fit content in viewport
+- ✅ Touch gesture support (swipe for navigation)
+- ✅ Artificial history for deep-linking
+- ✅ Single-row header (breadcrumbs left, parents right)
+- ✅ Fixed-width footer cells (20% each) to prevent shifting
+
+**Removed:**
+- ❌ Spectrum slider visual indicator (concept retained in link categorization)
+- ❌ theology.json data file
+- ❌ Separate navigation grid below content
+
+**Future Extensions:**
 - "Question" overlay to show categorical critiques
 - Advanced visualization of lattice connections (intentionally avoided for HUD clarity)
+- Additional theological content expansion
 
 If implementing these, maintain the zero-scroll constraint and keyboard-first interaction model.
