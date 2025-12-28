@@ -451,9 +451,14 @@ function updateActiveLinkHighlight() {
     state.inlineLinks.forEach(link => link.element.classList.remove('active'));
     state.parentLinks.forEach(link => link.element.classList.remove('active'));
 
-    // Add active class to focused inline link
+    // Add active class to focused inline link AND all links with same target
     if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
-        state.inlineLinks[state.focusedLinkIndex].element.classList.add('active');
+        const focusedTarget = state.inlineLinks[state.focusedLinkIndex].target;
+        state.inlineLinks.forEach(link => {
+            if (link.target === focusedTarget) {
+                link.element.classList.add('active');
+            }
+        });
     }
 
     // Add active class to focused parent link
@@ -485,16 +490,28 @@ function cycleLinks(columnFilter) {
     // Otherwise cycle through inline links as before
     if (state.inlineLinks.length === 0) return;
 
-    // Filter links by column
+    // Filter links by column, keeping only one index per unique target
+    const seenTargets = new Set();
     const filteredIndices = state.inlineLinks
         .map((link, idx) => ({ link, idx }))
-        .filter(item => item.link.column === columnFilter)
+        .filter(item => {
+            if (item.link.column !== columnFilter) return false;
+            if (seenTargets.has(item.link.target)) return false;
+            seenTargets.add(item.link.target);
+            return true;
+        })
         .map(item => item.idx);
 
     if (filteredIndices.length === 0) return;
 
-    // Find current index in filtered list
-    const currentFilteredIndex = filteredIndices.indexOf(state.focusedLinkIndex);
+    // Find current focused target in filtered list
+    let currentFilteredIndex = -1;
+    if (state.focusedLinkIndex >= 0) {
+        const focusedTarget = state.inlineLinks[state.focusedLinkIndex].target;
+        currentFilteredIndex = filteredIndices.findIndex(idx =>
+            state.inlineLinks[idx].target === focusedTarget
+        );
+    }
 
     // Move to next link in this column, or back to article mode if at the end
     const nextFilteredIndex = currentFilteredIndex + 1;
