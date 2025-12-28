@@ -936,3 +936,26 @@ let historyToShow = allHistory.filter(id => {
 - intro/intro page now shows "Navigating Faith: Seeing Life Through God's Lens"
 - Historical breadcrumb items still get filtered appropriately (TOC and intro/intro don't appear as intermediate steps)
 - Current page title always visible
+
+## Clean TOC breadcrumb and update intro title
+
+**TOC breadcrumb fix:**
+Problem: TOC page was showing "Intro > Table of Contents" instead of just "Table of Contents"
+
+Solution: Added special case in js/app.js (line 216):
+```javascript
+if (state.currentTopicId === 'TOC') {
+    historyToShow = ['TOC'];
+}
+```
+When on the TOC page, the breadcrumb now shows only the TOC title with no history trail.
+
+**Intro title update:**
+Changed title in data/intro/intro.md:
+- From: "Navigating Faith: Seeing Life Through God's Lens"
+- To: "Navigating Faith: a Roadmap of Christian Beliefs"
+- Better describes the systematic theology content structure
+
+**Result:**
+- TOC page displays cleanly: "Table of Contents" (no breadcrumb trail)
+- Intro page displays: "Navigating Faith: a Roadmap of Christian Beliefs"
