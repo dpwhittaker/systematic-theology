@@ -3,8 +3,12 @@ title: Narrative Theology
 ---
 [Intro](#intro/intro 'Parent')
 ---
-[Story](#intro/story 'Hebrew') over [proposition](#intro/proposition 'Greek').
-God reveals Himself through [events](#intro/events 'Drill'), not [definitions](#intro/definition 'Greek').
+Truth conveyed through *story*, not formula.
+The Bible tells what God *did*, not just what He *is*.
+[Events](#intro/events 'Drill') carry meaning that [propositions](#intro/proposition 'Greek') cannot capture.
+
+Story over proposition.
+God reveals Himself through events, not [definitions](#intro/essence 'Greek').
 The Bible is a *grand narrative*, not a textbook.
 ---
 In Hebrew thought, theology happens *through* story. The Torah doesn't define God—it shows Him acting: creating, calling, delivering, judging, redeeming.

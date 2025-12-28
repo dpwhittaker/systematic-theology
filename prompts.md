@@ -103,3 +103,4 @@ can you prevent the browser from caching app.js?
 put the more.../go indicator in the footer where Go was.
 more... should have the <enter> symbol before it along with Go.
 there should be an empty spot for the more indicator when it is not visible.  it's jarring to see the footer change from 4 to 5 columns.
+read claude.md and follow it.  then read all .md files in the data folder and give me a list of those that are redundant and could be combined.  I will review and tell you whether to proceed or not.

@@ -612,3 +612,25 @@ Both states of the dynamic indicator now display the enter symbol:
 - `↵ Go` when a link or parent is focused
 
 This provides consistent visual feedback that pressing enter will trigger the action, whether that's showing the article or navigating to the focused link.
+
+## Keep more indicator space reserved to prevent layout shift
+
+Updated the more indicator to always take up space in the footer, even when empty, to prevent jarring layout shifts between 4 and 5 columns.
+
+**Changes made:**
+
+1. **js/app.js (updateMoreIndicator function):**
+   - Removed all `.classList.add('hidden')` and `.classList.remove('hidden')` calls
+   - Element now always remains visible but shows empty textContent when not needed
+   - Added comment explaining the layout preservation strategy
+
+2. **index.html:**
+   - Removed `hidden` class from initial more-indicator element
+   - Element now starts visible (though empty) to maintain consistent 5-column layout
+
+**Result:**
+The footer navigation hints now always displays 5 columns:
+- Hebrew, Drill, Greek, Parent, and More/Go indicator
+- When there's no action available, the 5th column is empty but still takes up space
+- Layout remains stable without shifting between 4 and 5 columns
+- Shows "↵ more..." when article available, "↵ Go" when link focused, or empty string otherwise

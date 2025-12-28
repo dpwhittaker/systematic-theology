@@ -5,10 +5,10 @@ shortTitle: Intro
 [Categories](#TOC 'Parent')
 ---
 Is the [System](#intro/system 'Drill') itself the message?
-Greek thinking favors [Abstraction](#intro/abstraction 'Greek') & [Definition](#intro/definition 'Greek').
+Greek thinking favors [Abstraction](#intro/abstraction 'Greek') & [Definition](#intro/essence 'Greek').
 Hebrew thinking favors [Narrative](#intro/narrative 'Hebrew') & [Relation](#intro/relation 'Hebrew').
 
-Explore the Hebrew approach: [Wrestling](#intro/wrestling 'Hebrew') with God, theology as [Struggle](#intro/struggle 'Hebrew'), truth through encounter.
+Explore the Hebrew approach: [Wrestling](#intro/wrestling 'Hebrew') with God, truth through encounter.
 ---
 The central inquiry: Does systematizing theology impose a foreign structure on Scripture? The Greeks sought universal truths through categorization and abstraction. The Hebrews revealed God through narrative, covenant, and relationship. Can we reconcile these approaches?
 
