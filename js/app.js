@@ -145,44 +145,58 @@ function fitContentToViewport() {
     // Check if content overflows
     const isOverflowing = () => cardBody.scrollHeight > cardBody.clientHeight;
 
-    // Try different configurations, from best to worst
-    const configs = [
+    // Try single-column configurations first (largest to smallest)
+    const singleColumnConfigs = [
         { fontSize: '1.5rem', columns: 1 },
         { fontSize: '1.3rem', columns: 1 },
-        { fontSize: '1.5rem', columns: 2 },
         { fontSize: '1.1rem', columns: 1 },
-        { fontSize: '1.3rem', columns: 2 },
         { fontSize: '1.0rem', columns: 1 },
-        { fontSize: '1.1rem', columns: 2 },
         { fontSize: '0.9rem', columns: 1 },
-        { fontSize: '1.0rem', columns: 2 },
-        { fontSize: '0.9rem', columns: 2 },
-        { fontSize: '0.8rem', columns: 2 }
+        { fontSize: '0.8rem', columns: 1 }
     ];
 
-    for (const config of configs) {
-        // Apply configuration
-        if (config.columns === 2) {
-            cardBody.classList.add('two-column');
-        } else {
-            cardBody.classList.remove('two-column');
-        }
+    // Try two-column configurations (only if they fit without scrolling)
+    const twoColumnConfigs = [
+        { fontSize: '1.5rem', columns: 2 },
+        { fontSize: '1.3rem', columns: 2 },
+        { fontSize: '1.1rem', columns: 2 },
+        { fontSize: '1.0rem', columns: 2 },
+        { fontSize: '0.9rem', columns: 2 }
+    ];
 
+    // First, try single-column configs
+    for (const config of singleColumnConfigs) {
+        cardBody.classList.remove('two-column');
         contentLines.forEach(line => {
             line.style.fontSize = config.fontSize;
         });
-
-        // Disable scrolling while testing
         cardBody.style.overflowY = 'hidden';
 
-        // Check if it fits
         if (!isOverflowing()) {
-            // Found a configuration that works!
+            // Found a single-column configuration that works!
             return;
         }
     }
 
-    // If nothing works, enable scrolling so user can see all content
+    // If no single-column config fits, try two-column configs (only if they fit without scrolling)
+    for (const config of twoColumnConfigs) {
+        cardBody.classList.add('two-column');
+        contentLines.forEach(line => {
+            line.style.fontSize = config.fontSize;
+        });
+        cardBody.style.overflowY = 'hidden';
+
+        if (!isOverflowing()) {
+            // Found a two-column configuration that works without scrolling!
+            return;
+        }
+    }
+
+    // If nothing fits without scrolling, fall back to smallest single-column with scrolling
+    cardBody.classList.remove('two-column');
+    contentLines.forEach(line => {
+        line.style.fontSize = '0.8rem';
+    });
     cardBody.style.overflowY = 'auto';
     cardBody.classList.add('scrollable');
 }

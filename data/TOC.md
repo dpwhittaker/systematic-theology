@@ -1,9 +1,8 @@
 ---
-title: Major Categories
+title: Table of Contents
 ---
-[Intro](#intro/intro 'Parent')
 ---
-# Introduction - What is Systematic Theology?
+# What is Systematic Theology?
 [Start Here](#intro/intro 'Drill') - Explore the tension between Greek categories and Hebrew narrative
 
 # Major Categories
@@ -11,10 +10,10 @@ Traditional systematic theology divides into topics:
 
 [Bible](#bible/bible 'Drill') - Scripture, inspiration, authority
 [God](#god/god 'Drill') - Trinity, attributes, sovereignty
-[Holy Spirit](#spirit/spirit 'Drill') - Person, power, presence
-[Jesus](#jesus/jesus 'Drill') - Incarnation, atonement, resurrection
 [Mankind](#man/man 'Drill') - Creation, fall, image of God
+[Jesus](#jesus/jesus 'Drill') - Incarnation, atonement, resurrection
 [Salvation](#salvation/salvation 'Drill') - Grace, faith, justification
+[Holy Spirit](#spirit/spirit 'Drill') - Person, power, presence
 [Church](#church/church 'Drill') - Body, mission, sacraments
 [Baptism](#baptism/baptism 'Drill') - Modes, meaning, timing
 [Free Will](#freewill/freewill 'Drill') - Predestination, choice, sovereignty
