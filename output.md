@@ -908,3 +908,31 @@ Modified keyboard event handler (js/app.js line 525):
 - All updates visible immediately without clearing browser history
 - No stale content during development
 - Fresh reload of all resources on every page refresh
+
+## Fix missing titles on intro and TOC pages
+
+**Problem identified:**
+The intro and TOC pages were missing their titles in the breadcrumb display. The issue was in the breadcrumb filtering logic in js/app.js (line 213-221).
+
+**Root cause:**
+The code was filtering out 'TOC' and 'intro/intro' from the breadcrumb history to avoid clutter, but it was also filtering them out even when they were the **current page**, which meant no title was displayed.
+
+**Solution implemented:**
+Modified the filter function to always preserve the current page:
+```javascript
+let historyToShow = allHistory.filter(id => {
+    // Always keep the current page
+    if (id === state.currentTopicId) return true;
+    // Filter out TOC from history breadcrumb
+    if (id === 'TOC') return false;
+    // Filter out intro/intro from history if current page is top-level
+    if (id === 'intro/intro' && isTopLevelCategory) return false;
+    return true;
+});
+```
+
+**Result:**
+- TOC page now shows "Table of Contents" in breadcrumb when you're on it
+- intro/intro page now shows "Navigating Faith: Seeing Life Through God's Lens"
+- Historical breadcrumb items still get filtered appropriately (TOC and intro/intro don't appear as intermediate steps)
+- Current page title always visible
