@@ -571,3 +571,27 @@ document.body.appendChild(script);
 ```
 
 This ensures changes to app.js are visible immediately on page refresh without requiring hard refresh (Ctrl+Shift+R).
+
+## Move more.../go indicator to footer
+
+Moved the dynamic more.../go indicator from the card footer to the footer navigation hints area where it appears alongside the Hebrew/Drill/Greek/Parent indicators.
+
+**Changes made:**
+
+1. **index.html:**
+   - Removed `<div id="card-footer">` section entirely
+   - Moved `#more-indicator` to `#nav-hint` area
+   - Added classes `hint-item hint-go` to more-indicator
+   - Now appears as fifth item in footer navigation hints
+
+2. **css/style.css:**
+   - Removed `#card-footer` styles (no longer needed)
+   - Removed standalone `#more-indicator` styles (now inherits from `.hint-item`)
+   - Changed `.hint-go` color from green (#00ff00) to orange (#ff8800)
+
+**Result:**
+The more.../go indicator now appears in the footer alongside other navigation hints, making better use of space. When visible, it shows:
+- "more..." in orange when article is available and in article mode
+- "↵ Go" in orange when a link or parent is focused
+
+The JavaScript continues to work without modification since it references the element by ID.

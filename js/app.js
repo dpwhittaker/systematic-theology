@@ -325,9 +325,9 @@ function updateMoreIndicator() {
 
     // Determine what to show based on state
     if (state.focusedLinkIndex === -1 && state.focusedParentIndex === -1) {
-        // Article mode - show "more..." if article available
+        // Article mode - show "↵ more..." if article available
         if (topic.hasArticle) {
-            els.moreIndicator.textContent = 'more...';
+            els.moreIndicator.textContent = '↵ more...';
             els.moreIndicator.classList.remove('hidden');
             els.moreIndicator.style.cursor = 'pointer';
             els.moreIndicator.onclick = () => toggleArticle();
