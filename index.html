@@ -37,6 +37,11 @@
         </footer>
         </div>
     </div>
-    <script src="js/app.js"></script>
+    <script>
+        // Cache-busting for development: append timestamp to force reload
+        const script = document.createElement('script');
+        script.src = 'js/app.js?v=' + Date.now();
+        document.body.appendChild(script);
+    </script>
 </body>
 </html>

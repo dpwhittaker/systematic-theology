@@ -553,3 +553,21 @@ Result:
 - Dynamic context-aware indicator in orange
 - Cycling through links naturally returns to article mode
 - More intuitive back link navigation
+
+Added cache-busting for app.js during development:
+- Replaced static script tag with dynamic script loading in index.html
+- Creates script element via JavaScript and appends timestamp query parameter
+- Uses Date.now() to generate unique timestamp on each page load
+- Script loads as 'js/app.js?v=1234567890' with different timestamp each time
+- Forces browser to bypass cache and always load fresh version
+- Useful during development to see JavaScript changes immediately
+- Can be reverted to static <script src="js/app.js"></script> for production if desired
+
+Implementation:
+```javascript
+const script = document.createElement('script');
+script.src = 'js/app.js?v=' + Date.now();
+document.body.appendChild(script);
+```
+
+This ensures changes to app.js are visible immediately on page refresh without requiring hard refresh (Ctrl+Shift+R).
