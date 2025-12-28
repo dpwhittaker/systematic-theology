@@ -13,7 +13,7 @@ This is the Hebrew model for [engaging](#intro/relation 'Hebrew') Scripture.
 
 This is the paradigm for Jewish engagement with Torah. Not passive reception, but active struggle. The rabbis don't just *read* Scripture—they wrestle it, question it, argue with it, turn it over and over seeking every angle.
 
-**Theology as Work**
+## Theology as Work
 
 The Hebrew model: theology is *work*. Active, exhausting, transformative work. Not the work of organizing facts, but the work of engaging a living God through a living text.
 
@@ -23,7 +23,7 @@ Each generation must struggle with the text anew. What did it mean *then*? What 
 
 This is why Jewish tradition values questions over answers. A good question opens new pathways. A final answer closes them. The greatest sages are known for their questions: *kashe*—"difficulty, hard question"—becomes a compliment. "Reb Akiva's *kashe*..." means he saw something others missed.
 
-**The Divine Argument**
+## The Divine Argument
 
 The Talmud records fierce debates: Rabbi Eliezer vs. Rabbi Joshua, dispute after dispute. When a heavenly voice declares Eliezer correct, Joshua replies: "The Torah is not in heaven! We decide by majority vote." And God laughs with delight, saying "My children have defeated me!"
 
@@ -31,7 +31,7 @@ This is *not* irreverence—it's the highest form of engagement. Wrestling requi
 
 Hebrew tradition doesn't fear interpretive tension. The Written Torah and Oral Torah exist in creative friction. Shammai and Hillel disagree on almost everything—and both are preserved as holy teaching. *Eilu v'eilu*—both are words of the living God.
 
-**Contrast with System**
+## Contrast with System
 
 Compare: Systematic theology aims for *resolution*. Build the [system](#intro/system 'Greek'), answer the questions, achieve doctrinal clarity. The goal is a stable structure, internally consistent, able to answer objections. The emphasis is on *completion*.
 

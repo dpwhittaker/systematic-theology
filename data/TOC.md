@@ -3,10 +3,10 @@ title: Major Categories
 ---
 [Intro](#intro/intro 'Parent')
 ---
-**Introduction - What is Systematic Theology?**
+## Introduction - What is Systematic Theology?
 [Start Here](#intro/intro 'Drill') - Explore the tension between Greek categories and Hebrew narrative
 
-**Major Categories**
+## Major Categories
 Traditional systematic theology divides into topics:
 
 [Bible](#bible/bible 'Drill') - Scripture, inspiration, authority
@@ -19,7 +19,7 @@ Traditional systematic theology divides into topics:
 [Baptism](#baptism/baptism 'Drill') - Modes, meaning, timing
 [Free Will](#freewill/freewill 'Drill') - Predestination, choice, sovereignty
 
-**Alternative Approaches**
+## Alternative Approaches
 [Other Systems](#other/other 'Drill') - Narrative, Biblical, Historical, and more
 
 Each category raises the question: Are we organizing *truth* or creating *boxes*?

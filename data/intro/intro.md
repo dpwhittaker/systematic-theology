@@ -12,7 +12,7 @@ Explore the Hebrew approach: [Wrestling](#intro/wrestling 'Hebrew') with God, tr
 ---
 The central inquiry: Does systematizing theology impose a foreign structure on Scripture? The Greeks sought universal truths through categorization and abstraction. The Hebrews revealed God through narrative, covenant, and relationship. Can we reconcile these approaches?
 
-**Two Ways of Knowing**
+## Two Ways of Knowing
 
 When Plato wanted to understand *justice*, he abstracted from particular cases to define the eternal Form of Justice. When Moses wanted to understand God, he asked to see His glory—and God showed him His *back*, His *effects*, His *passing by*. One seeks the universal through reason; the other encounters the particular through relationship.
 

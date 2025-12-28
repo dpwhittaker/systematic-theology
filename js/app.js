@@ -280,7 +280,12 @@ function render() {
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
 
-    // First, convert markdown links to clickable spans with color classes
+    // First, convert # headings to styled spans
+    processed = processed.replace(/^### (.+)$/gm, '<span class="heading-3">$1</span>');
+    processed = processed.replace(/^## (.+)$/gm, '<span class="heading-2">$1</span>');
+    processed = processed.replace(/^# (.+)$/gm, '<span class="heading-1">$1</span>');
+
+    // Then, convert markdown links to clickable spans with color classes
     processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, target, column) => {
         const col = (column || 'Drill').toLowerCase();
         const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
