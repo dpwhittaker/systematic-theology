@@ -281,9 +281,7 @@ function render() {
     let processed = contentToShow;
 
     // First, convert # headings to styled spans
-    processed = processed.replace(/^### (.+)$/gm, '<span class="heading-3">$1</span>');
-    processed = processed.replace(/^## (.+)$/gm, '<span class="heading-2">$1</span>');
-    processed = processed.replace(/^# (.+)$/gm, '<span class="heading-1">$1</span>');
+    processed = processed.replace(/^# (.+)$/gm, '<span class="heading">$1</span>');
 
     // Then, convert markdown links to clickable spans with color classes
     processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, target, column) => {
