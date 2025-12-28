@@ -634,3 +634,39 @@ The footer navigation hints now always displays 5 columns:
 - When there's no action available, the 5th column is empty but still takes up space
 - Layout remains stable without shifting between 4 and 5 columns
 - Shows "↵ more..." when article available, "↵ Go" when link focused, or empty string otherwise
+
+## Consolidate redundant intro pages
+
+Analyzed all 30 markdown files in the data folder and identified 5 redundant pairs/groups that could be consolidated.
+
+**Files consolidated:**
+1. **intro/acts.md + intro/events.md → intro/events.md** (Acts & Events)
+   - Combined both concepts: God revealing through intervention, action, and historical events
+   - Preserved content about Creation/deliverance/judgment and Exodus/Cross/Resurrection
+
+2. **intro/story.md → intro/narrative.md**
+   - Merged story's brief content into the more comprehensive narrative.md
+   - Story's 3 lines captured within narrative theology discussion
+
+3. **intro/struggle.md → intro/wrestling.md**
+   - Combined both into comprehensive Wrestling with God page
+   - Added sections: "Theology as Work", "The Divine Argument", "Contrast with System"
+   - Preserved chavruta, kashe, eilu v'eilu concepts from struggle.md
+
+4. **intro/definition.md + intro/essence.md → intro/essence.md** (Essence & Definition)
+   - Combined Greek pursuit of precise boundaries and essential being
+   - Preserved IS vs DOES, being vs character through deeds contrast
+
+5. **intro/abstraction.md + intro/universal.md → intro/abstraction.md** (Abstraction & Universal Truth)
+   - Combined Greek philosophy's search for universal, unchanging Forms
+   - Preserved Plato, timeless truths, personal acts vs impersonal categories
+
+**Cross-references updated:**
+- intro/intro.md: Changed #intro/definition to #intro/essence
+- intro/intro.md: Removed redundant #intro/struggle reference (already has #intro/wrestling)
+
+**Result:**
+- Reduced intro folder from 15 files to 10 files
+- Eliminated 5 redundant files while preserving all content
+- Streamlined navigation without losing theological concepts
+- No redundancy found in other folders (TOC, major categories, salvation subfolder)
