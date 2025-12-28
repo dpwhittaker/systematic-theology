@@ -94,3 +94,5 @@ ok, lets go a bit more saturated on that purple color.  it almost looks white.  
 move intro.md into intro folder.  move intro/categories.md out to data folder and rename i5 to TOC.md.  update all the links.
 
 when I navigate to the top-level categories, I see Intro > God instead of just God in the breadcrumbs.
+
+add Introduction - What is Systematic Theology? and link to intro to the TOC.  Also add an entry for Holy Spirit, Mankind, and the Church, as well as a topic for "Other Systems".  Then, lets go into a bit more depth on the intro pages, adding "more..." depth to pages that need it, and more pages where there are additional topics.  in particular, lets add more pages on the Hebrew side, showing how Jews approach theology as a relationship, as an active process, as a continual struggle with the text rather than a search for perfect understanding.

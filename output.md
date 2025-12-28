@@ -475,3 +475,38 @@ Fixed breadcrumb display for top-level categories:
 - When topic is top-level, filter out both 'TOC' and 'intro/intro' from breadcrumb display
 - Result: Top-level categories now show just their name (e.g., "God" not "Intro > God")
 - Intro subtopics still show proper breadcrumb trail (e.g., "Intro > Narrative Theology")
+
+Expanded TOC and added new major categories:
+TOC.md updates:
+- Added "Introduction - What is Systematic Theology?" section with link to intro/intro
+- Added new major categories: Holy Spirit (spirit/spirit.md), Mankind (man/man.md), Church (church/church.md)
+- Added "Alternative Approaches" section with Other Systems (other/other.md)
+- Organized into clear sections with bold headings
+
+New category files created:
+- spirit/spirit.md - The Holy Spirit, exploring person vs. power, gifts, indwelling
+- man/man.md - Mankind, image of God, fall, body and soul
+- church/church.md - The Church, nature, authority, mission, sacraments
+- other/other.md - Alternative theological methods (Narrative, Biblical, Historical, etc.)
+
+Expanded intro pages with Hebrew-focused content:
+Enhanced existing pages:
+- intro/narrative.md - Added article section on midrash, haggadah, wrestling with text, multiple interpretations ("eilu v'eilu")
+- intro/relation.md - Added article section on relational theology, covenant knowledge, God known through encounter not abstraction
+- intro/intro.md - Added extensive article section on "Two Ways of Knowing" (Greek vs Hebrew), Trinity example, study vs. relationship
+
+New Hebrew-focused pages created:
+- intro/wrestling.md - Jacob wrestling God, Israel as "one who strives," Talmudic debates, text as alive, God delighting in argument
+- intro/struggle.md - Theology as work, chavruta study, questions over answers, creative tension, eilu v'eilu principle
+
+Key themes in new content:
+- Theology as relationship, not information (relational knowing vs. propositional knowing)
+- Wrestling with God and text as the model (Jacob at Peniel, rabbinical debate)
+- Active struggle vs. passive reception (chavruta, kashe as compliment)
+- Questions valued over answers (opening pathways vs. closing them)
+- Multiple valid interpretations ("These and these are both words of the living God")
+- Ongoing engagement vs. final systematic closure
+- Text interrogating the reader, not reader mastering text
+- Creative tension between interpretations as healthy, not problematic
+
+All new pages integrated with cross-links to existing content and spectrum values reflecting Hebrew (-8 to -10) orientation.
