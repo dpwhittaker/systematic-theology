@@ -43,7 +43,7 @@ The image confronts our modern assumption that "study" means silent reading, qui
 
 # Contrast with System
 
-Compare: Systematic theology aims for *resolution*. Build the [system](#intro/system 'Greek'), answer the questions, achieve doctrinal clarity. The goal is a stable structure, internally consistent, able to answer objections. The emphasis is on *completion*.
+Compare: Systematic theology aims for *resolution*. Build the [categorical system](#intro/intro 'Greek'), answer the questions, achieve doctrinal clarity. The goal is a stable structure, internally consistent, able to answer objections. The emphasis is on *completion*.
 
 Greek philosophy seeks to resolve contradictions, achieve consistency, arrive at clear definitions. The goal is *closure*. Hebrew thought embraces the struggle itself as the point. Multiple interpretations, ongoing argument, questions that generate more questions—this is not failure to reach truth, but faithfulness to a God who cannot be contained.
 

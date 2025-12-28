@@ -4,13 +4,21 @@ shortTitle: Intro
 ---
 [Categories](#TOC 'Parent')
 ---
-Is the [System](#intro/system 'Drill') itself the message?
+Systematic theology organizes beliefs into [categories](#TOC 'Drill'): God, Christ, salvation, church.
+It assumes truth can be systematized—but does Greek *logic* distort Hebrew *revelation*?
+Can we organize the Bible without changing its *message*?
+
 Greek thinking favors [Abstraction](#intro/abstraction 'Greek') & [Definition](#intro/essence 'Greek').
 Hebrew thinking favors [Narrative](#intro/narrative 'Hebrew') & [Relation](#intro/relation 'Hebrew').
 
+The risk: Making Scripture fit *our* framework instead of God's.
 Explore the Hebrew approach: [Wrestling](#intro/wrestling 'Hebrew') with God, truth through encounter.
 ---
-The central inquiry: Does systematizing theology impose a foreign structure on Scripture? The Greeks sought universal truths through categorization and abstraction. The Hebrews revealed God through narrative, covenant, and relationship. Can we reconcile these approaches?
+The central inquiry: Does systematizing theology impose a foreign structure on Scripture?
+
+Systematic theology organizes doctrine into neat categories—God, humanity, sin, salvation. This assumes truth can be captured in logical propositions and arranged like a filing system. The Greeks sought universal truths through categorization and abstraction. The Hebrews revealed God through narrative, covenant, and relationship. Can we reconcile these approaches?
+
+The danger is not *that* we organize, but *how*. If the organizational method itself comes from Greek philosophy, does it reshape the content? Can Hebrew revelation—intrinsically relational, narrative, covenant-focused—survive translation into Greek categories without losing something essential?
 
 # Two Ways of Knowing
 
