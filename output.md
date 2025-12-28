@@ -959,3 +959,38 @@ Changed title in data/intro/intro.md:
 **Result:**
 - TOC page displays cleanly: "Table of Contents" (no breadcrumb trail)
 - Intro page displays: "Navigating Faith: a Roadmap of Christian Beliefs"
+
+## Integrate system and structure pages into intro
+
+**Problem identified:**
+Two standalone pages (Systematic Method and Foreign Structure) were too brief to justify separate navigation. Their content was minimal and better suited as integrated context.
+
+**Pages removed:**
+1. `data/intro/system.md` (Systematic Method)
+   - Content: "Organizing theology into categories. Assumes truth can be systematized. Risk: imposing foreign structure on Scripture."
+2. `data/intro/structure.md` (Foreign Structure)
+   - Content: "Does Greek logic distort Hebrew revelation? Can we organize the Bible without changing its message? The risk: Making Scripture fit our framework instead of God's."
+
+**Integration into data/intro/intro.md:**
+
+*Summary section updates (lines 7-15):*
+- Added: "Systematic theology organizes beliefs into categories: God, Christ, salvation, church."
+- Added: "It assumes truth can be systematized—but does Greek logic distort Hebrew revelation?"
+- Added: "Can we organize the Bible without changing its message?"
+- Added: "The risk: Making Scripture fit our framework instead of God's."
+
+*Article section updates (lines 17-21):*
+- Expanded explanation of systematic theology as organizing doctrine into categories
+- Added metaphor: "like a filing system"
+- Explained the danger: "If the organizational method itself comes from Greek philosophy, does it reshape the content?"
+- Added question: "Can Hebrew revelation—intrinsically relational, narrative, covenant-focused—survive translation into Greek categories without losing something essential?"
+
+**Updated reference in data/intro/wrestling.md:**
+- Changed `[system](#intro/system 'Greek')` to `[categorical system](#intro/intro 'Greek')`
+- Maintains the contrast between systematic theology and Hebrew wrestling
+
+**Result:**
+- Reduced 3 pages to 1 comprehensive intro page
+- No loss of content—all concepts integrated seamlessly
+- Better user experience—core tension explained without extra navigation
+- Intro now provides complete context for systematic vs narrative approaches
