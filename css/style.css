@@ -62,9 +62,6 @@ body {
 
 /* HEADER */
 .hud-header {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
     border-bottom: 2px solid var(--text-secondary);
     padding-bottom: 0.25rem;
     margin-bottom: 0.5rem;
@@ -72,10 +69,18 @@ body {
     font-size: 0.8rem;
 }
 
+#breadcrumb-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
 #history-row {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    flex: 1;
 }
 
 #parent-row {
@@ -84,6 +89,7 @@ body {
     gap: 0.5rem;
     font-size: 0.75rem;
     color: var(--text-secondary);
+    justify-content: flex-end;
 }
 
 .history-item, .parent-item {
@@ -226,6 +232,9 @@ body {
 .hint-item {
     font-weight: bold;
     letter-spacing: 0.5px;
+    width: 20%;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .hint-hebrew {
