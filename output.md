@@ -722,3 +722,39 @@ Analyzed all 30 markdown files in the data folder and identified 5 redundant pai
 - Checked all existing markdown files for God pronouns
 - Confirmed all God pronouns are already properly capitalized (He, His, Him)
 - No changes needed to content files - they already follow the convention
+
+## Replace ** headings with # markdown headings
+
+**Problem identified:**
+- Using `**text**` for headings in markdown was being misinterpreted as bold syntax
+- This caused conflicts with subsequent `*highlight*` syntax processing
+- Bold markers were being processed incorrectly, throwing off text formatting
+
+**JavaScript changes (js/app.js):**
+- Added # heading parsing before markdown link processing
+- Process `###` as heading-3, `##` as heading-2, `#` as heading-1
+- Uses regex with multiline flag (`/^### (.+)$/gm`) to match line-start headings
+- Converts headings to styled `<span>` elements with appropriate classes
+- Processing order: headings → links → highlights (prevents conflicts)
+
+**CSS changes (css/style.css):**
+- Added `.heading-1` style: 1.8rem, bold, block display
+- Added `.heading-2` style: 1.5rem, bold, block display
+- Added `.heading-3` style: 1.3rem, bold, block display
+- All headings have proper vertical spacing (margin-top/bottom)
+
+**Content changes:**
+- `data/intro/intro.md`: Changed "Two Ways of Knowing" from `**` to `##`
+- `data/intro/wrestling.md`: Changed 3 headings from `**` to `##`:
+  - "Theology as Work"
+  - "The Divine Argument"
+  - "Contrast with System"
+- `data/TOC.md`: Changed 3 section headers from `**` to `##`:
+  - "Introduction - What is Systematic Theology?"
+  - "Major Categories"
+  - "Alternative Approaches"
+
+**Result:**
+- Proper semantic heading structure in markdown
+- No more conflicts between bold and highlight syntax
+- Headings render with appropriate styling and hierarchy
