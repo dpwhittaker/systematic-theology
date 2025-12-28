@@ -686,3 +686,39 @@ Analyzed all 30 markdown files in the data folder and identified 5 redundant pai
 - Wrapped both in #breadcrumb-row with justify-content: space-between
 - Saves vertical space for main content area
 - No JavaScript changes needed - render function unchanged
+
+## Update CLAUDE.md with pronoun guidance and recent changes
+
+**Added theological guidance on God's personhood:**
+- Core principle: God is personal—He is a "Who," not a "what"
+- Both Hebrew and Greek perspectives agree on this foundational truth
+- Capitalize all pronouns referring to God: He, His, Him, Himself
+- This reflects the shared conviction that God is a person, not an abstract force
+- The Hebrew-Greek tension is about *how* we know this personal God (relationship vs. definition), not *whether* He is personal
+
+**Updated CLAUDE.md documentation to reflect recent changes:**
+- Markdown-based content system (replaced theology.json)
+- Color-coded inline links system:
+  - Hebrew links: Yellow (#ffdd00) - concrete, narrative, relational
+  - Drill links: Green (#00ff00) - detailed exploration, evidence
+  - Greek links: Cyan (#00ddff) - abstract, categorical, systematic
+  - Parent links: Purple (#a88dd8) - navigation up the hierarchy
+- Removed spectrum slider visual indicator (concept retained in link categorization)
+- Single-row header layout (breadcrumbs left, parents right)
+- Fixed-width footer cells (20% each)
+- Article expansion system (fourth markdown section)
+- Dynamic font sizing to fit viewport
+- Touch gesture support
+- Artificial history for deep-linking
+
+**Updated outdated CLAUDE.md sections:**
+- Data structure now documents .md files with YAML frontmatter
+- Navigation model reflects inline link cycling system
+- State management object updated with current properties
+- File references changed from theology.json to data/**/*.md
+- Added "Recent Changes & Current State" section
+
+**Pronoun verification:**
+- Checked all existing markdown files for God pronouns
+- Confirmed all God pronouns are already properly capitalized (He, His, Him)
+- No changes needed to content files - they already follow the convention
