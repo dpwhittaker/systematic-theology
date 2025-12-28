@@ -4,7 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static web application for teaching Systematic Theology through a HUD (Heads-Up Display) interface designed for smart glasses. The project explores the tension between Hebraic (concrete, narrative, relational) and Hellenistic (abstract, categorical, systematic) approaches to understanding God.
+**Purpose:** A static web application for teaching Systematic Theology through a HUD (Heads-Up Display) interface designed for smart glasses.
+
+**Thesis:** Traditional Systematic Theology's categorical approach (Hellenistic) may distort the relational, narrative nature of biblical revelation (Hebraic).
+
+**Goals:**
+- Explore the tension between Greek (abstract, systematic) and Hebrew (concrete, relational) approaches
+- Present theology through a lattice structure that resists rigid categorization
+- Provide a zero-scroll, high-contrast interface optimized for smart glasses
+- Enable exploration through color-coded directional navigation
 
 ## Core Architecture
 
@@ -73,24 +81,36 @@ shortTitle: Short      # Optional, for breadcrumbs
 ---
 Main content with [inline links](#target 'Hebrew') marked.
 Use *asterisks* for emphasis highlighting.
-Can reference [drill-down](#detail 'Drill') or [abstract](#concept 'Greek') topics.
+
+# Main Heading (1.3rem, bold)
+Content with headings for structure.
+
+## Subheading (1.1rem, bold)
+More detailed sections within the article.
 ---
 Optional article section for deeper exploration.
 Shows when user presses enter on "↵ more..." indicator.
-Can include multiple paragraphs and [more links](#other).
+Use # and ## headings to organize longer content.
 ```
 
-**Link Format:** `[text](#path 'column')`
-- `text`: Display text (will be color-coded)
-- `path`: Relative path without `.md` extension (e.g., `intro/narrative` or `god/god`)
-- `column`: One of `Hebrew`, `Drill`, `Greek`, or `Parent`
-- Default column in section 2 (parents) is `Parent`
-- Default column in sections 3-4 (summary/article) is `Drill`
+**Markdown Features:**
+- `[text](#path 'column')` - Color-coded inline links
+  - `path`: Relative path without `.md` extension (e.g., `intro/narrative`)
+  - `column`: One of `Hebrew`, `Drill`, `Greek`, or `Parent` (default: `Drill`)
+- `*text*` - Emphasis highlighting (yellow)
+- `# Heading` - Main heading (1.3rem, bold)
+- `## Subheading` - Subheading (1.1rem, bold)
+
+**Link Deduplication:**
+- Multiple links to the same target are treated as one navigation item
+- When focused, all duplicate links are outlined simultaneously
+- This prevents redundant cycling through the same destination
 
 When adding new topics:
 - Ensure bidirectional links where conceptually appropriate (lattice structure)
 - Use descriptive link text that fits naturally in sentences
 - Choose column thoughtfully: Hebrew for concrete/narrative, Greek for abstract/systematic
+- Prefer consolidation: child pages should add significant value to stand alone
 
 ## Design Constraints
 
@@ -144,19 +164,11 @@ php -S localhost:8000
 
 ### Testing Navigation
 
-- Use browser DevTools console to check `state` object
+- Use browser DevTools console to inspect `state` object
 - URL hash should sync with `currentTopicId`
 - History array should grow/shrink with forward/back navigation
-- Focused link index should wrap within 0 to `links.length - 1`
-
-### Inline Link Navigation Logic
-
-Navigation works by cycling through color-coded links embedded in the text:
-- Arrow keys filter links by column type (Hebrew/Drill/Greek/Parent)
-- `cycleLinks(columnFilter)` finds all matching links and advances focus
-- Active link gets visual border highlight
-- Cycling past the last link returns to "article mode" (no focus)
-- In article mode, pressing Enter toggles article expansion if available
+- Arrow keys cycle through color-coded links by column type
+- Duplicate links to the same target are outlined simultaneously
 
 ## Key Files
 
@@ -190,17 +202,12 @@ When working in this repository, follow these procedures to maintain conversatio
 
 ### Theological Integrity
 
-This project has an argumentative thesis: that traditional Systematic Theology's categorical approach may distort the relational, narrative nature of biblical revelation. When adding content or features:
-
-- Respect the Hebraic ↔ Hellenistic spectrum as a critical lens, not decoration
-- The lattice structure is not just for UX—it's the core critique of tree-based theology
-- Content should support examination, not advocacy for one systematic framework
-
-**God's Personhood:**
-Both Hebrew and Greek perspectives agree on a foundational truth: **God is personal—He is a "Who," not a "what."** When writing content:
-- Capitalize pronouns referring to God: He, His, Him, Himself
-- This is not merely stylistic—it reflects the shared conviction that God is a person, not an abstract force or philosophical concept
-- The Hebrew-Greek tension is about *how* we know this personal God (relationship vs. definition), not *whether* He is personal
+When adding content or features:
+- The Hebraic ↔ Hellenistic spectrum is a critical lens, not decoration
+- The lattice structure is the core critique of tree-based theology, not just UX
+- Content should support examination, not advocacy for one framework
+- Capitalize God pronouns (He, His, Him) to reflect His personhood
+- The Hebrew-Greek tension is about *how* we know God (relationship vs. definition), not *whether* He is personal
 
 ### Accessibility vs. HUD Optimization
 
@@ -211,26 +218,36 @@ The primary target is smart glasses (HUD), but the site should remain:
 
 Don't sacrifice HUD constraints for desktop convenience—the zero-scroll, high-contrast design is the point.
 
+### Content Organization Philosophy
+
+**Consolidation over Fragmentation:**
+The intro folder demonstrates the preferred approach—consolidated from 15+ files to 5 core files:
+- `intro.md` - Overview and entry point
+- `philosophy.md` - Greek method (essence, abstraction, propositions as three-step process)
+- `narrative.md` - Hebrew narrative approach (includes events/acts)
+- `relation.md` - Hebrew relational approach (includes covenant vs contract)
+- `wrestling.md` - Hebrew interpretive method (includes hagah/meditation)
+
+**When to consolidate:**
+- Child pages should add significant independent value to justify standalone existence
+- If content is brief or closely related, merge into parent or sibling page
+- Use # and ## headings within articles to organize consolidated content
+- Aim for depth over breadth in page structure
+
 ### Recent Changes & Current State
 
-**Implemented:**
-- ✅ Markdown-based content system (replaced theology.json)
-- ✅ Color-coded inline links (replaced nav-grid)
-- ✅ Article expansion system (fourth section in markdown files)
-- ✅ Dynamic font sizing to fit content in viewport
-- ✅ Touch gesture support (swipe for navigation)
-- ✅ Artificial history for deep-linking
-- ✅ Single-row header (breadcrumbs left, parents right)
-- ✅ Fixed-width footer cells (20% each) to prevent shifting
+**Core Features:**
+- Markdown-based content with color-coded inline links
+- Article expansion system (fourth section in markdown files)
+- Dynamic font sizing to fit content in viewport
+- Touch gesture support (swipe for navigation)
+- Single-row header (breadcrumbs left, parents right)
+- Fixed-width footer cells (20% each) to prevent shifting
+- Link deduplication (same target = single cycle item, simultaneous outline)
+- Heading support (# main, ## sub) for organized long-form content
 
-**Removed:**
-- ❌ Spectrum slider visual indicator (concept retained in link categorization)
-- ❌ theology.json data file
-- ❌ Separate navigation grid below content
-
-**Future Extensions:**
-- "Question" overlay to show categorical critiques
-- Advanced visualization of lattice connections (intentionally avoided for HUD clarity)
-- Additional theological content expansion
-
-If implementing these, maintain the zero-scroll constraint and keyboard-first interaction model.
+**Design Decisions:**
+- Removed spectrum slider visual (concept retained in link categorization)
+- Removed separate navigation grid (links embedded in content)
+- Zero-scroll constraint maintained throughout
+- Keyboard-first interaction model (arrow keys, space, enter)
