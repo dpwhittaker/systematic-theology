@@ -815,3 +815,25 @@ Removed all remaining padding/margins to extend content to page edges:
 - Only 0.1rem padding to prevent text from touching edges
 - Maximum possible space utilization for HUD display
 - Edge-to-edge design maximizes content visibility on smart glasses
+
+## Add hagah (lion's growl) imagery to wrestling page
+
+**Research confirmed:**
+Yes, this is accurate! The Hebrew word is **הָגָה (hagah)**, which appears in Scripture with dual meaning:
+- **Meditation**: Psalm 1:2 ("meditate on His law day and night"), Joshua 1:8
+- **Growling**: Isaiah 31:4 ("as a lion growls over his prey")
+- Root meaning: to mutter, murmur, make low repetitive sounds
+
+**Content added to data/intro/wrestling.md:**
+Added new section "The Lion's Growl" in the article (more...) content:
+- Explains the dual meaning of hagah: meditation and lion's growl
+- Image of lion possessively staying with its prey, not abandoning it
+- Describes active, audible, repetitive engagement vs. silent reading
+- Ancient Jewish practice: rocking, repeating verses aloud, returning daily
+- Goal is internalization and being mastered by the text, not mastering it
+- Contrasts modern quick-comprehension approach with lingering meditation
+
+**Placement:**
+Inserted between "The Divine Argument" and "Contrast with System" sections to maintain thematic flow about Hebrew engagement with Scripture.
+
+This powerful metaphor deepens the wrestling theme and provides concrete scriptural imagery for the active, possessive engagement with Torah that characterizes Hebrew study.
