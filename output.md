@@ -837,3 +837,33 @@ Added new section "The Lion's Growl" in the article (more...) content:
 Inserted between "The Divine Argument" and "Contrast with System" sections to maintain thematic flow about Hebrew engagement with Scripture.
 
 This powerful metaphor deepens the wrestling theme and provides concrete scriptural imagery for the active, possessive engagement with Torah that characterizes Hebrew study.
+
+## Prevent two-column layout when scrolling required
+
+**Problem identified:**
+Large more... pages (like wrestling with new hagah content) were displaying in two columns with scrolling enabled. This created poor UX:
+- User scrolls down the left column to the bottom
+- Must scroll back up to top to find the right column
+- Then scroll down the right column
+- Difficult to track reading position across columns
+
+**Solution implemented:**
+Restructured `fitContentToViewport()` function logic in js/app.js:
+
+**New prioritization:**
+1. **First priority**: Try single-column configs (1.5rem → 0.8rem, largest to smallest)
+2. **Second priority**: Try two-column configs (but ONLY if they fit without scrolling)
+3. **Fallback**: Use 0.8rem single-column WITH scrolling enabled
+
+**Key principle:**
+Two-column layouts are now ONLY used when the entire content fits on screen without scrolling. If scrolling is needed, always use single-column layout.
+
+**Benefits:**
+- Single vertical scroll path (top to bottom) for long content
+- No need to track reading position across multiple columns
+- Simpler navigation - just scroll down
+- Better reading experience for lengthy article content
+- Up/down navigation works naturally for scrolling (user can return to main page to drill down)
+
+**Result:**
+The wrestling page more... content now displays in a single column with vertical scrolling, providing a natural reading flow from top to bottom.
