@@ -211,18 +211,24 @@ function render() {
     if (!topic) return;
 
     // History row (last 6 topics, ending with current)
-    // Filter out 'TOC' and 'intro/intro' from history (but keep if current page)
-    const allHistory = [...state.history.slice(-5), state.currentTopicId];
-    const isTopLevelCategory = topic.parentLinks.some(link => link.target === 'TOC');
-    let historyToShow = allHistory.filter(id => {
-        // Always keep the current page
-        if (id === state.currentTopicId) return true;
-        // Filter out TOC from history breadcrumb
-        if (id === 'TOC') return false;
-        // Filter out intro/intro from history if current page is top-level
-        if (id === 'intro/intro' && isTopLevelCategory) return false;
-        return true;
-    });
+    // Special case: TOC page shows only its title, no history
+    let historyToShow;
+    if (state.currentTopicId === 'TOC') {
+        historyToShow = ['TOC'];
+    } else {
+        // Filter out 'TOC' and 'intro/intro' from history (but keep if current page)
+        const allHistory = [...state.history.slice(-5), state.currentTopicId];
+        const isTopLevelCategory = topic.parentLinks.some(link => link.target === 'TOC');
+        historyToShow = allHistory.filter(id => {
+            // Always keep the current page
+            if (id === state.currentTopicId) return true;
+            // Filter out TOC from history breadcrumb
+            if (id === 'TOC') return false;
+            // Filter out intro/intro from history if current page is top-level
+            if (id === 'intro/intro' && isTopLevelCategory) return false;
+            return true;
+        });
+    }
     const historyItems = historyToShow.map((id, index) => {
         const t = topicCache[id];
         if (!t) return '';

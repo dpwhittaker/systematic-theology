@@ -1,5 +1,5 @@
 ---
-title: Navigating Faith: Seeing Life Through God's Lens
+title: Navigating Faith: a Roadmap of Christian Beliefs
 shortTitle: Intro
 ---
 [Categories](#TOC 'Parent')
