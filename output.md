@@ -758,3 +758,34 @@ Analyzed all 30 markdown files in the data folder and identified 5 redundant pai
 - Proper semantic heading structure in markdown
 - No more conflicts between bold and highlight syntax
 - Headings render with appropriate styling and hierarchy
+
+## Simplify to single heading level and reduce spacing
+
+**Heading simplification:**
+- Removed multi-level heading support (##, ###)
+- Single # now the only heading option
+- Set heading size to 1.3rem (same as previous heading-3 size)
+- Simplified CSS from three classes (.heading-1, .heading-2, .heading-3) to single .heading class
+- JavaScript now only processes single # headings: `/^# (.+)$/gm`
+- Updated all markdown files to use single # instead of ##:
+  - data/intro/intro.md: "Two Ways of Knowing"
+  - data/intro/wrestling.md: "Theology as Work", "The Divine Argument", "Contrast with System"
+  - data/TOC.md: "Introduction", "Major Categories", "Alternative Approaches"
+
+**Spacing reduction to reclaim content area:**
+Reduced padding/margins throughout to maximize visible content:
+- .hud-container padding: 1rem → 0.5rem (outer container)
+- .hud-header margin-bottom: 0.5rem → 0.25rem
+- .hud-card padding-bottom: removed entirely, margin-bottom: 0.5rem → 0.25rem
+- #card-body padding: 0 1rem → 0 0.5rem (horizontal padding)
+- #card-body gap: 1rem → 0.5rem (space between content lines)
+- #card-body.two-column column-gap: 2rem → 1rem (space between columns)
+- .hud-footer padding-top: 0.25rem → 0.15rem
+- .hud-footer margin-top: 0.25rem → 0.15rem
+- #nav-hint padding: 0 1rem → 0 0.5rem
+
+**Result:**
+- Single consistent heading style fits HUD constraints
+- Significantly more content visible in viewport
+- Reduced wasted whitespace around all edges
+- Better space utilization for main content area
