@@ -10,7 +10,6 @@ Hebrew thought asks: What does it DO? How does it *relate*?
 Greek: Remove context to find eternal *Forms*. *Being* precedes action.
 Hebrew: God's *character* is known through His [deeds](#intro/events 'Hebrew').
 
-Can we know God apart from His [acts](#intro/events 'Hebrew')?
 Can God's *personal* acts fit into *impersonal* categories?
 ---
 # The Quest for Essence

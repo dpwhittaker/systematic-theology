@@ -306,7 +306,8 @@ function render() {
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
 
-    // First, convert # headings to styled spans
+    // First, convert headings to styled spans (## before # to avoid double-matching)
+    processed = processed.replace(/^## (.+)$/gm, '<span class="heading-2">$1</span>');
     processed = processed.replace(/^# (.+)$/gm, '<span class="heading">$1</span>');
 
     // Then, convert markdown links to clickable spans with color classes
@@ -317,7 +318,7 @@ function render() {
     });
 
     // Then highlight *text* that isn't already in a link
-    processed = processed.replace(/\*([^*]+)\*/g, '<span class="highlight">$1</span>');
+    processed = processed.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
 
     els.cardBody.innerHTML = processed.split('\n').map(line =>
         line.trim() ? `<div class="content-line">${line}</div>` : ''
