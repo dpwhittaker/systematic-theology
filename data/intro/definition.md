@@ -1,6 +1,5 @@
 ---
 title: Definition
-spectrum: 8
 ---
 [Intro](#intro/intro 'Parent')
 ---

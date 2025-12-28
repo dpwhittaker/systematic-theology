@@ -1,6 +1,5 @@
 ---
 title: Events
-spectrum: -7
 ---
 [Intro](#intro/intro 'Parent')
 ---

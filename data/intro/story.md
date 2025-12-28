@@ -1,6 +1,5 @@
 ---
 title: Story
-spectrum: -10
 ---
 [Intro](#intro/intro 'Parent')
 ---

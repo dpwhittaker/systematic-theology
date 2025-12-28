@@ -1,6 +1,5 @@
 ---
 title: Jesus Christ
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---

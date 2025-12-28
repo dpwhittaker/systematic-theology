@@ -1,6 +1,5 @@
 ---
 title: Relation
-spectrum: -9
 ---
 [Intro](#intro/intro 'Parent')
 ---

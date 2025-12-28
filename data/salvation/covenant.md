@@ -1,6 +1,5 @@
 ---
 title: Covenant
-spectrum: -9
 ---
 
 ---

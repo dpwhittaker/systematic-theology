@@ -1,6 +1,5 @@
 ---
 title: Universal Truths
-spectrum: 10
 ---
 [Intro](#intro/intro 'Parent')
 ---

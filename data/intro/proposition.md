@@ -1,6 +1,5 @@
 ---
 title: Proposition
-spectrum: 10
 ---
 [Intro](#intro/intro 'Parent')
 ---

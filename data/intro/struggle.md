@@ -1,6 +1,5 @@
 ---
 title: Theology as Struggle
-spectrum: -9
 ---
 [Intro](#intro/intro 'Parent')
 ---

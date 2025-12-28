@@ -1,6 +1,5 @@
 ---
 title: Major Categories
-spectrum: 7
 ---
 [Intro](#intro/intro 'Parent')
 ---

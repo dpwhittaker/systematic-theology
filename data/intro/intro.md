@@ -1,7 +1,6 @@
 ---
 title: Navigating Faith: Seeing Life Through God's Lens
 shortTitle: Intro
-spectrum: 5
 ---
 [Categories](#TOC 'Parent')
 ---

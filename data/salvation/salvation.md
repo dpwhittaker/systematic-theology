@@ -1,6 +1,5 @@
 ---
 title: Salvation
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---

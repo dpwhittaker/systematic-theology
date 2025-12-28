@@ -119,7 +119,6 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px dashed var(--text-secondary);
     padding-bottom: 0.25rem;
     margin-bottom: 0.5rem;
     overflow: hidden;
@@ -182,53 +181,15 @@ body {
 /* FOOTER & SPECTRUM */
 #card-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0.5rem 1rem;
     font-family: var(--font-sans);
 }
 
-.spectrum-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    flex: 1;
-    max-width: 60%;
-}
-
-.spec-label {
-    color: var(--text-secondary);
-    font-weight: bold;
-}
-
-#spectrum-track {
-    flex: 1;
-    height: 2px;
-    background: var(--text-secondary);
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-#spectrum-indicator {
-    width: 10px;
-    height: 10px;
-    background: var(--text-primary);
-    border-radius: 50%;
-    position: absolute;
-    left: 50%; /* Default center */
-    transform: translateX(-50%);
-    box-shadow: 0 0 5px var(--text-primary);
-}
-
 #more-indicator {
-    color: var(--accent-warning);
-    animation: blink 2s infinite;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+    color: #ff8800;
+    font-weight: bold;
 }
 
 /* COLOR-CODED LINKS */

@@ -1,6 +1,5 @@
 ---
 title: The Bible
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---

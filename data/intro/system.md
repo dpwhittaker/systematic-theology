@@ -1,6 +1,5 @@
 ---
 title: Systematic Method
-spectrum: 7
 ---
 [Intro](#intro/intro 'Parent')
 ---

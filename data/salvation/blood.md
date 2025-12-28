@@ -1,6 +1,5 @@
 ---
 title: The Blood
-spectrum: -8
 ---
 
 ---

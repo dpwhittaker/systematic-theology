@@ -1,6 +1,5 @@
 ---
 title: Acts of God
-spectrum: -8
 ---
 [Intro](#intro/intro 'Parent')
 ---

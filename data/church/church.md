@@ -1,6 +1,5 @@
 ---
 title: The Church
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---

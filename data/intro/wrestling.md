@@ -1,6 +1,5 @@
 ---
 title: Wrestling with God
-spectrum: -10
 ---
 [Intro](#intro/intro 'Parent')
 ---

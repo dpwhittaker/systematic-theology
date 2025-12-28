@@ -1,6 +1,5 @@
 ---
 title: Abstraction
-spectrum: 9
 ---
 [Intro](#intro/intro 'Parent')
 ---

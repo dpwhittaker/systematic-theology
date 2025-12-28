@@ -1,6 +1,5 @@
 ---
 title: Essence
-spectrum: 9
 ---
 [Intro](#intro/intro 'Parent')
 ---

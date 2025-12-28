@@ -1,6 +1,5 @@
 ---
 title: Baptism
-spectrum: -5
 ---
 [Categories](#TOC 'Parent')
 ---

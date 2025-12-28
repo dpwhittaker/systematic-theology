@@ -1,6 +1,5 @@
 ---
 title: Other Systems
-spectrum: -5
 ---
 [Categories](#TOC 'Parent')
 ---

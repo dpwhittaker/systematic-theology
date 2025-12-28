@@ -1,6 +1,5 @@
 ---
 title: Atonement
-spectrum: 6
 ---
 
 ---

@@ -510,3 +510,46 @@ Key themes in new content:
 - Creative tension between interpretations as healthy, not problematic
 
 All new pages integrated with cross-links to existing content and spectrum values reflecting Hebrew (-8 to -10) orientation.
+
+Removed spectrum slider and improved navigation indicators:
+
+Spectrum removal:
+- Removed spectrum-wrapper, spec-label, spectrum-track, and spectrum-indicator from index.html
+- Removed all spectrum-related CSS styles from style.css
+- Removed spectrumIndicator from els object in js/app.js
+- Removed spectrum positioning logic (lines that set indicator position based on topic.spectrum value)
+- Removed spectrum field from all markdown files using sed
+
+Visual improvements:
+- Removed dashed border from .hud-card (was border-bottom: 1px dashed)
+- Updated #card-footer to center content (justify-content: center)
+- Simplified footer to just contain the dynamic more indicator
+
+Dynamic orange more indicator (js/app.js):
+- Created updateMoreIndicator() function to dynamically show indicator based on state
+- When focusedLinkIndex and focusedParentIndex are both -1 (article mode):
+  - Shows "more..." if topic has article
+  - Clickable to toggle article display
+  - Hidden if no article available
+- When any link/parent is focused:
+  - Shows "↵ Go" in orange (#ff8800)
+  - Not clickable (just informational)
+- Removed hint-go from footer navigation hints
+- Removed blinking animation from more indicator
+
+Improved cycling behavior:
+- Updated cycleLinks() to return to article mode after reaching end of filtered links
+- Instead of wrapping around, cycling past the last link returns to focusedLinkIndex = -1
+- Updated navigateBack() to also return to article mode after cycling through all parents
+- Both functions now call updateMoreIndicator() after changing focus
+- This allows users to return to "more..." mode by cycling all the way through
+
+Changed back link arrow:
+- Updated back link from ↑ to ← (left arrow) in js/app.js:231
+- More intuitive as a "go back" indicator vs. "go up"
+
+Result:
+- Cleaner interface without spectrum clutter
+- Dynamic context-aware indicator in orange
+- Cycling through links naturally returns to article mode
+- More intuitive back link navigation

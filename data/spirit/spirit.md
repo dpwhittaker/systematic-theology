@@ -1,6 +1,5 @@
 ---
 title: The Holy Spirit
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---

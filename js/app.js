@@ -22,7 +22,6 @@ const els = {
     historyRow: document.getElementById('history-row'),
     parentRow: document.getElementById('parent-row'),
     cardBody: document.getElementById('card-body'),
-    spectrumIndicator: document.getElementById('spectrum-indicator'),
     moreIndicator: document.getElementById('more-indicator')
 };
 
@@ -229,7 +228,7 @@ function render() {
 
             if (backTopic) {
                 const isActive = state.focusedParentIndex === 0;
-                parentRowHTML = `<span class="link parent back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="parent" data-index="0">↑ ${backTopic.shortTitle}</span>`;
+                parentRowHTML = `<span class="link parent back-link ${isActive ? 'active' : ''}" data-target="${backTarget}" data-column="parent" data-index="0">← ${backTopic.shortTitle}</span>`;
 
                 if (topic.parentLinks.length > 0) {
                     parentRowHTML += ' | ';
@@ -277,10 +276,6 @@ function render() {
         };
     });
 
-    // Spectrum Indicator
-    const percent = ((topic.spectrum + 10) / 20) * 100;
-    els.spectrumIndicator.style.left = `${percent}%`;
-
     // Card body: render summary or article
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
@@ -319,12 +314,35 @@ function render() {
     // Adjust font size to fit content
     fitContentToViewport();
 
-    // More Indicator
-    els.moreIndicator.classList.toggle('hidden', !topic.hasArticle);
+    // Update more indicator
+    updateMoreIndicator();
+}
 
-    // Add click handler to more indicator
-    els.moreIndicator.style.cursor = topic.hasArticle ? 'pointer' : 'default';
-    els.moreIndicator.onclick = topic.hasArticle ? () => toggleArticle() : null;
+// Update the dynamic more indicator
+function updateMoreIndicator() {
+    const topic = topicCache[state.currentTopicId];
+    if (!topic) return;
+
+    // Determine what to show based on state
+    if (state.focusedLinkIndex === -1 && state.focusedParentIndex === -1) {
+        // Article mode - show "more..." if article available
+        if (topic.hasArticle) {
+            els.moreIndicator.textContent = 'more...';
+            els.moreIndicator.classList.remove('hidden');
+            els.moreIndicator.style.cursor = 'pointer';
+            els.moreIndicator.onclick = () => toggleArticle();
+        } else {
+            els.moreIndicator.textContent = '';
+            els.moreIndicator.classList.add('hidden');
+            els.moreIndicator.onclick = null;
+        }
+    } else {
+        // Link or parent focused - show "↵ Go"
+        els.moreIndicator.textContent = '↵ Go';
+        els.moreIndicator.classList.remove('hidden');
+        els.moreIndicator.style.cursor = 'default';
+        els.moreIndicator.onclick = null;
+    }
 }
 
 // Actions
@@ -375,13 +393,21 @@ function navigateBack() {
         if (state.focusedParentIndex === -1) {
             // First up press - focus first parent (might be back link)
             state.focusedParentIndex = 0;
+            state.focusedLinkIndex = -1;
         } else {
-            // Subsequent presses - cycle through parents
-            state.focusedParentIndex = (state.focusedParentIndex + 1) % state.parentLinks.length;
+            // Subsequent presses - cycle through parents, then back to article mode
+            const nextIndex = state.focusedParentIndex + 1;
+            if (nextIndex >= state.parentLinks.length) {
+                // Reached the end, return to article mode
+                state.focusedParentIndex = -1;
+                state.focusedLinkIndex = -1;
+            } else {
+                state.focusedParentIndex = nextIndex;
+                state.focusedLinkIndex = -1;
+            }
         }
-        // Clear inline link focus when focusing parent
-        state.focusedLinkIndex = -1;
         updateActiveLinkHighlight();
+        updateMoreIndicator();
     } else if (state.history.length > 0) {
         // No parents, navigate back in history
         const previousId = state.history[state.history.length - 1];
@@ -441,14 +467,19 @@ function cycleLinks(columnFilter) {
     // Find current index in filtered list
     const currentFilteredIndex = filteredIndices.indexOf(state.focusedLinkIndex);
 
-    // Move to next link in this column
-    const nextFilteredIndex = (currentFilteredIndex + 1) % filteredIndices.length;
-    state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
-
-    // Clear parent focus when cycling inline links
-    state.focusedParentIndex = -1;
+    // Move to next link in this column, or back to article mode if at the end
+    const nextFilteredIndex = currentFilteredIndex + 1;
+    if (nextFilteredIndex >= filteredIndices.length) {
+        // Reached the end, return to article mode
+        state.focusedLinkIndex = -1;
+        state.focusedParentIndex = -1;
+    } else {
+        state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
+        state.focusedParentIndex = -1;
+    }
 
     updateActiveLinkHighlight();
+    updateMoreIndicator();
 }
 
 function toggleArticle() {

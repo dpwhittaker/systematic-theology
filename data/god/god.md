@@ -1,6 +1,5 @@
 ---
 title: God
-spectrum: 0
 ---
 [Categories](#TOC 'Parent')
 ---
