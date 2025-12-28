@@ -9,7 +9,7 @@ Greek philosophy operates in three steps:
 3. *Validate* those propositions by comparing to instances.
 
 Hebrew thought asks different questions: What does it DO? How does it *relate*?
-Greek: "God is love" (timeless proposition). Hebrew: "God loved Jacob" (historical [event](#intro/events 'Hebrew')).
+Greek: "God is love" (timeless proposition). Hebrew: "God loved Jacob" (historical [event](#intro/narrative 'Hebrew')).
 One captures essence; the other captures [encounter](#intro/relation 'Hebrew').
 ---
 # The Quest for Essence
