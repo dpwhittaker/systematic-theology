@@ -670,3 +670,19 @@ Analyzed all 30 markdown files in the data folder and identified 5 redundant pai
 - Eliminated 5 redundant files while preserving all content
 - Streamlined navigation without losing theological concepts
 - No redundancy found in other folders (TOC, major categories, salvation subfolder)
+
+## Fix footer shifting and reclaim header space
+
+**Footer improvements:**
+- Set each hint-item to exactly 20% width with flex-shrink: 0
+- Added text-align: center for consistent layout
+- Prevents shifting when more indicator changes from blank to "more..." to "Go"
+- All 5 footer cells now maintain fixed width regardless of content
+
+**Header consolidation:**
+- Combined breadcrumbs and back/parent links into single row
+- Breadcrumbs (history-row) left-justified with flex: 1
+- Back/parent links (parent-row) right-justified with justify-content: flex-end
+- Wrapped both in #breadcrumb-row with justify-content: space-between
+- Saves vertical space for main content area
+- No JavaScript changes needed - render function unchanged
