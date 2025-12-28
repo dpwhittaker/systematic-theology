@@ -595,3 +595,20 @@ The more.../go indicator now appears in the footer alongside other navigation hi
 - "↵ Go" in orange when a link or parent is focused
 
 The JavaScript continues to work without modification since it references the element by ID.
+
+## Add enter symbol to more... indicator
+
+Updated the more... indicator to show the enter symbol (↵) for consistency with the Go indicator.
+
+**Changes made:**
+
+1. **js/app.js (updateMoreIndicator function):**
+   - Changed `'more...'` to `'↵ more...'`
+   - Updated comment from "show more..." to "show ↵ more..."
+   
+**Result:**
+Both states of the dynamic indicator now display the enter symbol:
+- `↵ more...` when article is available and in article mode
+- `↵ Go` when a link or parent is focused
+
+This provides consistent visual feedback that pressing enter will trigger the action, whether that's showing the article or navigating to the focused link.

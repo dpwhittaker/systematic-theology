@@ -102,3 +102,4 @@ the hebrew <-> greek slider isnt adding value.  lets remove it, as well as the v
 can you prevent the browser from caching app.js?
 put the more.../go indicator in the footer where Go was.
 more... should have the <enter> symbol before it along with Go.
+there should be an empty spot for the more indicator when it is not visible.  it's jarring to see the footer change from 4 to 5 columns.

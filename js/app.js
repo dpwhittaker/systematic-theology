@@ -324,22 +324,21 @@ function updateMoreIndicator() {
     if (!topic) return;
 
     // Determine what to show based on state
+    // Keep indicator always visible (takes up space) to prevent layout shift
     if (state.focusedLinkIndex === -1 && state.focusedParentIndex === -1) {
-        // Article mode - show "↵ more..." if article available
+        // Article mode - show "↵ more..." if article available, otherwise empty
         if (topic.hasArticle) {
             els.moreIndicator.textContent = '↵ more...';
-            els.moreIndicator.classList.remove('hidden');
             els.moreIndicator.style.cursor = 'pointer';
             els.moreIndicator.onclick = () => toggleArticle();
         } else {
             els.moreIndicator.textContent = '';
-            els.moreIndicator.classList.add('hidden');
+            els.moreIndicator.style.cursor = 'default';
             els.moreIndicator.onclick = null;
         }
     } else {
         // Link or parent focused - show "↵ Go"
         els.moreIndicator.textContent = '↵ Go';
-        els.moreIndicator.classList.remove('hidden');
         els.moreIndicator.style.cursor = 'default';
         els.moreIndicator.onclick = null;
     }
