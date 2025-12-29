@@ -8,7 +8,7 @@ The *Eternal Creator*. How do we know Him?
 **Greek approach:** Define what God *is*.
 - [Essence](#god/essence 'Greek'): Unchanging, eternal being—the philosophers' God.
 - [Attributes](#god/attributes 'Greek'): Omnipotent, omniscient, holy, love.
-- [Reconciliation](#god/reconciliation 'Greek'): [Trinity](#god/reconciliation 'Drill'), [Sovereignty](#god/reconciliation 'Drill'), [Providence](#god/reconciliation 'Drill')—attempts to reconcile classical theism with biblical revelation.
+- [Reconciliation](#god/reconciliation 'Greek'): [Trinity](#god/trinity 'Drill'), [Sovereignty](#god/sovereignty 'Drill'), [Providence](#god/providence 'Drill'), [Incarnation](#god/incarnation 'Drill'), [Impassibility](#god/impassibility 'Drill')—attempts to reconcile classical theism with biblical revelation.
 
 **Hebrew approach:** Encounter who God is *to us*.
 - [Images](#god/images 'Hebrew'): Shepherd, rock, fire, father—concrete metaphors that reveal character.
