@@ -106,6 +106,15 @@ Use # and ## headings to organize longer content.
 - When focused, all duplicate links are outlined simultaneously
 - This prevents redundant cycling through the same destination
 
+**Content Hierarchy:**
+- **Top-level category pages** (e.g., `god/god.md`, `christ/christ.md`): Index pages, link-heavy, NO article section
+  - Summary should briefly introduce each major sub-concept with inline links
+  - These pages serve as navigation hubs, not deep dives
+- **Sub-topic pages** (e.g., `god/essence.md`, `god/names.md`): Topic exploration with optional article
+  - Summary provides overview with links to related concepts
+  - Article section (optional) offers deep dive on that specific topic
+- **Detail pages**: Specific concepts that may link further into the lattice
+
 When adding new topics:
 - Ensure bidirectional links where conceptually appropriate (lattice structure)
 - Use descriptive link text that fits naturally in sentences
