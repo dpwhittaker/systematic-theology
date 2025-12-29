@@ -304,7 +304,8 @@ function render() {
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
 
-    // First, convert headings to styled spans (## before # to avoid double-matching)
+    // First, convert headings to styled spans (### before ## before # to avoid double-matching)
+    processed = processed.replace(/^### (.+)$/gm, '<span class="heading-3">$1</span>');
     processed = processed.replace(/^## (.+)$/gm, '<span class="heading-2">$1</span>');
     processed = processed.replace(/^# (.+)$/gm, '<span class="heading">$1</span>');
 
