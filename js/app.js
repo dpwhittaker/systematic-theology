@@ -12,6 +12,7 @@ const state = {
     inlineLinks: [], // Array of {element, target, column} for navigation
     parentLinks: [], // Array of {element, target, column} for parent navigation (includes back link)
     history: [], // History of visited topics (max 6)
+    breadcrumbPath: [], // Shortest path from TOC to current topic
     loading: true,
     showingArticle: false,
     lastNavigationDirection: null // Track how we got to current page: 'hebrew', 'drill', 'greek', 'parent'
@@ -210,31 +211,30 @@ function render() {
     const topic = topicCache[state.currentTopicId];
     if (!topic) return;
 
-    // History row (last 6 topics, ending with current)
-    // Special case: TOC page shows only its title, no history
-    let historyToShow;
+    // Breadcrumb row (shortest path from TOC to current)
+    // Special case: TOC page shows only its title
+    let breadcrumbToShow;
     if (state.currentTopicId === 'TOC') {
-        historyToShow = ['TOC'];
+        breadcrumbToShow = ['TOC'];
     } else {
-        // Filter out 'TOC' and 'intro/intro' from history (but keep if current page)
-        const allHistory = [...state.history.slice(-5), state.currentTopicId];
+        // Use the shortest path, but filter for display
         const isTopLevelCategory = topic.parentLinks.some(link => link.target === 'TOC');
-        historyToShow = allHistory.filter(id => {
+        breadcrumbToShow = state.breadcrumbPath.filter(id => {
             // Always keep the current page
             if (id === state.currentTopicId) return true;
-            // Filter out TOC from history breadcrumb
+            // Filter out TOC from breadcrumb
             if (id === 'TOC') return false;
-            // Filter out intro/intro from history if current page is top-level
+            // Filter out intro/intro from breadcrumb if current page is top-level category
             if (id === 'intro/intro' && isTopLevelCategory) return false;
             return true;
         });
     }
-    const historyItems = historyToShow.map((id, index) => {
+    const historyItems = breadcrumbToShow.map((id, index) => {
         const t = topicCache[id];
         if (!t) return '';
         const isCurrent = id === state.currentTopicId;
         const isActive = state.focusedColumn === 'parent' && state.focusedLinkIndex === index;
-        // Use full title for current page, shortTitle for history items
+        // Use full title for current page, shortTitle for breadcrumb items
         const displayTitle = isCurrent ? t.title : t.shortTitle;
         return `<span class="history-item ${isCurrent ? 'current' : ''} ${isActive ? 'active' : ''}" data-index="${index}">${displayTitle}</span>`;
     }).join(' > ');
@@ -288,16 +288,14 @@ function render() {
         });
     });
 
-    // Add click handlers to history items
+    // Add click handlers to breadcrumb items
     els.historyRow.querySelectorAll('.history-item').forEach(span => {
         span.style.cursor = 'pointer';
         span.onclick = () => {
             const index = parseInt(span.dataset.index);
-            const historyToShow = [...state.history.slice(-5), state.currentTopicId];
-            if (index < historyToShow.length) {
-                const targetId = historyToShow[index];
-                state.history = state.history.slice(0, state.history.indexOf(targetId));
-                navigateTo(targetId, true, null);
+            if (index < breadcrumbToShow.length) {
+                const targetId = breadcrumbToShow[index];
+                navigateTo(targetId, false, null);
             }
         };
     });
@@ -413,6 +411,15 @@ async function navigateTo(id, skipHistory = false, direction = null) {
     state.focusedParentIndex = -1;
     state.showingArticle = false;
     window.location.hash = id;
+
+    // Calculate breadcrumb path (shortest path from TOC to current)
+    if (id === 'TOC') {
+        state.breadcrumbPath = ['TOC'];
+    } else {
+        const path = await findShortestPath('TOC', id);
+        state.breadcrumbPath = path || [id];
+    }
+
     render();
 }
 
@@ -743,21 +750,7 @@ async function init() {
 
         const hashId = window.location.hash.replace('#', '') || 'intro/intro';
 
-        if (hashId !== 'intro/intro') {
-            // Build artificial history from intro/intro to this node
-            const path = await findShortestPath('intro/intro', hashId);
-            if (path && path.length > 1) {
-                // path is [intro/intro, ..., hashId]
-                // We want history to be [intro/intro, ..., parent_of_hashId]
-                // So we exclude the last item (which will be the current topic)
-                state.history = path.slice(0, -1);
-                // Keep only last 6 in history
-                if (state.history.length > 6) {
-                    state.history = state.history.slice(-6);
-                }
-            }
-        }
-
+        // navigateTo will calculate the breadcrumb path
         await navigateTo(hashId, true, null);
     } catch (e) {
         console.error("Failed to load data", e);
