@@ -3,15 +3,18 @@ title: The Bible
 ---
 [Categories](#TOC 'Parent')
 ---
-The written *Word of God*.
+The written *Word of God*. But is it a collection of [timeless propositions](#bible/inspiration 'Greek') or a [living testimony](#bible/torah 'Hebrew')?
 
-Key questions:
-- *Inspiration* - How did God speak through human authors?
-- *Authority* - Is Scripture our final rule for faith and practice?
-- *Interpretation* - How do we understand what we read?
-- *Canon* - Which books belong in the Bible?
-- *Inerrancy* - Is the Bible without error?
+**Greek approach:** Define what Scripture *is*.
+- [Inspiration](#bible/inspiration 'Greek'): How God spoke through human authors (verbal, plenary, dictation theories).
+- [Inerrancy](#bible/inerrancy 'Greek'): Is the Bible without error in all it affirms?
+- [Canon](#bible/canon 'Greek'): Which books belong? Closed list, fixed forever.
+- [Interpretation](#bible/interpretation 'Greek'): Extract universal truths through systematic methods.
 
-The Hebrew approach asks: What is God *saying*?
-The Greek approach asks: What *is* Scripture?
----
+**Hebrew approach:** Engage with what God is *saying*.
+- [Torah as Instruction](#bible/torah 'Hebrew'): Not rulebook but relational guidance for covenant life.
+- [Living Word](#bible/living-word 'Hebrew'): Scripture speaks now, not just then—continual encounter.
+- [Midrash](#bible/midrash 'Hebrew'): Wrestling with the text, multiple interpretations coexist.
+- [Testimony](#bible/testimony 'Hebrew'): Witness to God's acts, not systematic doctrine manual.
+
+Can both be true? Is Scripture [propositional truth](#intro/philosophy 'Greek') or [narrative encounter](#intro/narrative 'Hebrew')?
