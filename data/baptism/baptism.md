@@ -1,17 +1,20 @@
 ---
 title: Baptism
 ---
-[Categories](#TOC 'Parent')
+[Church](#church/church 'Parent')
 ---
-A *sign* of faith and belonging.
+Water and Spirit. Identity and initiation. One of the most *divided* practices in Christianity.
 
-Key questions:
-- *Mode* - Immersion, sprinkling, or pouring?
-- *Meaning* - Symbol or sacrament?
-- *Timing* - Infants or believers only?
-- *Necessity* - Required for salvation?
-- *Rebaptism* - Can you be baptized twice?
+The debates:
+- [Mode](#baptism/mode 'Drill') - Immersion, sprinkling, or pouring?
+- [Subjects](#baptism/subjects 'Drill') - Infants or believers only?
+- [Meaning](#baptism/meaning 'Drill') - Sacrament that conveys grace, or symbol of faith?
+- [Necessity](#baptism/necessity 'Drill') - Required for salvation?
+- [Spirit baptism](#baptism/spirit 'Drill') - One event or two?
 
-The Hebrew approach: Public identification, covenant sign.
-The Greek approach: Sacramental theology, means of grace.
----
+The [Hebrew lens](#baptism/mikveh 'Hebrew'): Ritual immersion (*mikveh*), repentance, public identification with God's people.
+The [Greek lens](#baptism/sacrament 'Greek'): Sacramental theology, means of grace, covenant sign parallel to circumcision.
+
+These are not minor disagreements. Denominations split over this. Churches refuse fellowship over it. Families divide when one baptizes infants and another demands believer's baptism.
+
+Can both be right? Must one be wrong? Or does the tension itself reveal something?
