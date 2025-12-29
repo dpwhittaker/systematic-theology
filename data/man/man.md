@@ -3,15 +3,16 @@ title: Mankind
 ---
 [Categories](#TOC 'Parent')
 ---
-*Humanity* - created in God's image.
+*Humanity* - created in [God's image](#man/image 'Drill'), fallen into [sin](#man/fall 'Drill').
 
-Key questions:
-- *Image of God* - What does this mean?
-- *The Fall* - How did sin enter humanity?
-- *Original Sin* - Are we born sinful or innocent?
-- *Free Will* - Can we choose good after the Fall?
-- *Body and Soul* - Are we unified or divided?
+**Greek approach:** Define human [nature](#intro/philosophy 'Greek').
+- [Body and Soul](#man/body-soul 'Greek'): Are we divided? Dualism or unity?
+- [Original Sin](#man/original-sin 'Greek'): Inherited guilt or corrupted nature?
+- [Free Will](#man/free-will 'Greek'): Can we choose good after the Fall?
 
-The Hebrew approach: *Adam* - from the earth, living dust, relational beings.
-The Greek approach: Defining human nature, categorizing our components and capacities.
----
+**Hebrew approach:** *Adam* (אדם) from *adamah* (אדמה) - earth-creature, [relational](#intro/relation 'Hebrew') being.
+- [Image of God](#man/image 'Hebrew'): Vocation and relationship, not essence or capacity.
+- [The Fall](#man/fall 'Hebrew'): Broken relationship with God, each other, creation.
+- [Living Soul](#man/nephesh 'Hebrew'): *Nephesh chayyah* - whole person, not divided parts.
+
+Can we be both [rational souls](#intro/philosophy 'Greek') and [dust given breath](#intro/narrative 'Hebrew')?

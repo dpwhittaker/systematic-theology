@@ -3,15 +3,21 @@ title: Jesus Christ
 ---
 [Categories](#TOC 'Parent')
 ---
-*God made flesh*.
+*Jesus* - God made flesh, crucified and risen.
 
-Key questions:
-- *Incarnation* - How is Jesus both God and man?
-- *Atonement* - How does His death save us?
-- *Resurrection* - What does the empty tomb mean?
-- *Ascension* - Where is Jesus now?
-- *Second Coming* - Will He return?
+**Greek approach:** Define [nature](#intro/philosophy 'Greek').
+- [Two Natures](#jesus/two-natures 'Greek'): How is Jesus both God and man? Hypostatic union.
+- [Atonement Theories](#jesus/atonement 'Greek'): How does His death save? Penal substitution, satisfaction, moral influence.
+- [Offices](#jesus/offices 'Greek'): Prophet, Priest, King - threefold role.
 
-The Hebrew approach: Messiah, the promised one who delivers.
-The Greek approach: Divine Logos, two natures in one person.
----
+**Hebrew approach:** *Yeshua* (ישוע) - "YHWH saves." [Narrative](#intro/narrative 'Hebrew') of promise and fulfillment.
+- [Messiah](#jesus/messiah 'Hebrew'): Anointed one, Davidic king, deliverer who comes.
+- [Suffering Servant](#jesus/servant 'Hebrew'): Isaiah 53 - wounded for our transgressions.
+- [Lord](#jesus/lord 'Hebrew'): *Kurios* = YHWH. Resurrection vindication, exalted name.
+
+**Both traditions explore:**
+- [Incarnation](#jesus/incarnation 'Drill'): Word made flesh. God enters creation.
+- [Resurrection](#jesus/resurrection 'Drill'): Bodily raising. Death defeated.
+- [Ascension and Return](#jesus/ascension 'Drill'): Where is He now? Will He come again?
+
+Can we approach Him through definitions, or only through [testimony](#bible/testimony 'Hebrew')?
