@@ -22,7 +22,7 @@ Isaiah 52:13-53:12 is one of the most debated passages in the Hebrew Bible.
 
 **Both:** This is about suffering that leads to redemption. The question is *whose* suffering and *what* redemption.
 
-## Isaiah 53: The Text
+## Isaiah 53: The Text {#isaiah-53}
 
 **Isaiah 52:13-15:**
 "Behold, my servant shall act wisely; he shall be high and lifted up, and shall be exalted. As many were astonished at you—his appearance was so marred, beyond human semblance, and his form beyond that of the children of mankind—so shall he sprinkle many nations."

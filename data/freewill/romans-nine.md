@@ -38,7 +38,7 @@ Let's examine the text carefully.
 
 **This sets up the theme:** God's sovereign freedom to choose.
 
-## Jacob and Esau: Chosen Before Birth
+## Jacob and Esau: Chosen Before Birth {#jacob-esau}
 
 **Romans 9:10-13:** "And not only so, but also when Rebekah had conceived children by one man, our forefather Isaac, though they were not yet born and had done nothing either good or bad—in order that God's purpose of election might continue, not because of works but because of him who calls—she was told, 'The older will serve the younger.' As it is written, 'Jacob I loved, but Esau I hated.'"
 
@@ -112,7 +112,7 @@ God chose to bring Messiah through Jacob's line, not Esau's. That was His sovere
 
 **Arminian:** "Not because of works" refers to ethnic privilege (being born Jewish). God's choice of Israel wasn't based on their merit. But within that chosen nation, individuals still must believe.
 
-## God's Right to Harden: Pharaoh
+## God's Right to Harden: Pharaoh {#pharaoh}
 
 **Romans 9:14-18:** "What shall we say then? Is there injustice on God's part? By no means! For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' So then it depends not on human will or exertion, but on God, who has mercy. For the Scripture says to Pharaoh, 'For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth.' So then he has mercy on whomever he wills, and he hardens whomever he wills."
 
@@ -169,6 +169,8 @@ Just as God hardened Pharaoh (temporal and eternal judgment), He hardens some to
 **This is the [responsibility](#freewill/responsibility 'Hebrew') vs. sovereignty tension.**
 
 **Paul's response (Romans 9:20-21):** "But who are you, O man, to answer back to God? Will what is molded say to its molder, 'Why have you made me like this?' Has the potter no right over the clay, to make out of the same lump one vessel for honorable use and another for dishonorable use?"
+
+## The Potter and the Clay {#potter-clay}
 
 **Paul doesn't give a philosophical answer.** He gives a relational rebuke.
 

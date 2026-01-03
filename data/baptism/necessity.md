@@ -22,13 +22,15 @@ This is not a small disagreement. If baptism is necessary, millions of sincere b
 ---
 # The "Baptism is Necessary" Position
 
-## Church of Christ Theology
+## Church of Christ Theology {#church-of-christ-position}
 
 The Churches of Christ (and related movements) hold the strongest position on baptismal necessity:
 
 **Core claim:** Baptism is *when* and *where* God forgives sins, applies Christ's blood, and adds you to the church.
 
 **Biblical basis:**
+
+### Acts 2:38 {#acts-2-38}
 
 **Acts 2:38** - "Repent and be baptized every one of you in the name of Jesus Christ *for the forgiveness of your sins*."
 
@@ -38,9 +40,13 @@ The Greek *eis* indicates purpose: baptism is *in order to obtain* forgiveness. 
 
 Paul's sins weren't washed away on the Damascus road when he saw Jesus. They were washed away when Ananias baptized him. The moment of salvation is the moment of baptism.
 
+### Mark 16:16 {#mark-16-16}
+
 **Mark 16:16** - "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
 
 Two requirements: believe *and* be baptized. Not believe *then* get baptized eventually. The two together bring salvation.
+
+### 1 Peter 3:21 {#1-peter-3-21}
 
 **1 Peter 3:21** - "Baptism... now saves you."
 
@@ -109,7 +115,7 @@ Also, the Corinthians *were* baptized (v.13-16). Paul didn't do it personally, b
 
 # The "Baptism is Not Necessary" Position
 
-## Evangelical/Baptist Theology
+## Evangelical/Baptist Theology {#evangelical-position}
 
 **Core claim:** Salvation is by grace alone, through faith alone, in Christ alone. Baptism is a command to obey *after* salvation, but it's not a condition for receiving salvation.
 

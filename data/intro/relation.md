@@ -20,7 +20,7 @@ Knowledge comes through engagement. You don't *know* God by studying Him from a 
 
 Greek philosophy seeks truth through detached observation. Hebrew faith seeks truth through covenant faithfulness. One says "step back to see clearly." The other says "step in to truly know."
 
-# Covenant vs Contract
+# Covenant vs Contract {#covenant-vs-contract}
 
 The Hebrew *berith* (covenant) is fundamentally different from a Greek legal contract:
 

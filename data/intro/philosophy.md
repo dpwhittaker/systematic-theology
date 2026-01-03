@@ -36,7 +36,7 @@ Aristotle modified Plato but kept the core move. He rejected separate Forms but 
 
 This leads to *definition*: capturing essence in precise language. A good definition states necessary and sufficient conditions. "Man is a rational animal" attempts to say exactly what human nature *is*, stripped of all non-essential traits.
 
-# The Three-Step Method
+# The Three-Step Method {#greek-method}
 
 Greek philosophy follows a systematic process:
 

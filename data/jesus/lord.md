@@ -127,7 +127,8 @@ The NT repeatedly takes OT passages about YHWH and applies them to Jesus.
 **Applied to Jesus (Romans 10:13, Acts 2:21):**
 "Everyone who calls on the name of the *Lord* [Jesus] will be saved."
 
-**Psalm 110:1 (YHWH and the Messiah):**
+### Psalm 110:1 (YHWH and the Messiah) {#psalm-110-1}
+
 "*YHWH* says to my Lord (*Adonai*): 'Sit at my right hand.'"
 
 **Applied to Jesus (Acts 2:34-35, Hebrews 1:13):**
