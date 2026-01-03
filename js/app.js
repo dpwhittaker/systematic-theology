@@ -7,10 +7,11 @@ const topicCache = {};
 // State management
 const state = {
     currentTopicId: 'intro/intro',
+    currentAnchor: null, // Anchor within current topic (e.g., "greek-framework")
     focusedLinkIndex: -1, // Index of focused inline link (-1 = article mode)
     focusedParentIndex: -1, // Index of focused parent link (-1 = none)
-    inlineLinks: [], // Array of {element, target, column} for navigation
-    parentLinks: [], // Array of {element, target, column} for parent navigation (includes back link)
+    inlineLinks: [], // Array of {element, target, column, anchor} for navigation
+    parentLinks: [], // Array of {element, target, column, anchor} for parent navigation (includes back link)
     history: [], // History of visited topics (max 6)
     breadcrumbPath: [], // Shortest path from TOC to current topic
     loading: true,
@@ -76,14 +77,19 @@ async function loadTopic(id) {
 
             while ((match = linkRegex.exec(text)) !== null) {
                 const label = match[1];
-                const target = match[2];
+                const fullTarget = match[2];
                 const column = (match[3] || defaultColumn).toLowerCase();
+
+                // Parse target into path and anchor: "path/to/file#anchor" or just "path/to/file"
+                const anchorSplit = fullTarget.split('#');
+                const target = anchorSplit[0];
+                const anchor = anchorSplit[1] || null;
 
                 const columnKey = column === 'parent' ? 'parent' :
                                  column === 'hebrew' ? 'hebraic' :
                                  column === 'greek' ? 'hellenistic' : 'detail';
 
-                links[columnKey].push({ label, target });
+                links[columnKey].push({ label, target, anchor });
             }
 
             return links;
@@ -279,10 +285,12 @@ function render() {
     els.parentRow.querySelectorAll('.link').forEach((span, index) => {
         span.style.cursor = 'pointer';
         const direction = span.dataset.column;
-        span.onclick = () => navigateTo(span.dataset.target, false, direction);
+        const anchor = span.dataset.anchor || null;
+        span.onclick = () => navigateTo(span.dataset.target, false, direction, anchor);
         state.parentLinks.push({
             element: span,
             target: span.dataset.target,
+            anchor: anchor,
             column: direction,
             index: parseInt(span.dataset.index)
         });
@@ -304,16 +312,27 @@ function render() {
     const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
     let processed = contentToShow;
 
-    // First, convert headings to styled spans (### before ## before # to avoid double-matching)
-    processed = processed.replace(/^### (.+)$/gm, '<span class="heading-3">$1</span>');
-    processed = processed.replace(/^## (.+)$/gm, '<span class="heading-2">$1</span>');
-    processed = processed.replace(/^# (.+)$/gm, '<span class="heading">$1</span>');
+    // First, convert headings to styled spans with optional anchor IDs (### before ## before # to avoid double-matching)
+    // Format: # Heading {#anchor-id} or just # Heading
+    processed = processed.replace(/^### (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        return anchor ? `<span class="heading-3" id="${anchor}">${text}</span>` : `<span class="heading-3">${text}</span>`;
+    });
+    processed = processed.replace(/^## (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        return anchor ? `<span class="heading-2" id="${anchor}">${text}</span>` : `<span class="heading-2">${text}</span>`;
+    });
+    processed = processed.replace(/^# (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        return anchor ? `<span class="heading" id="${anchor}">${text}</span>` : `<span class="heading">${text}</span>`;
+    });
 
     // Then, convert markdown links to clickable spans with color classes
-    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, target, column) => {
+    // Parse anchors from targets: #path#anchor becomes data-target="path" data-anchor="anchor"
+    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, fullTarget, column) => {
         const col = (column || 'Drill').toLowerCase();
         const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
-        return `<span class="link ${columnClass}" data-target="${target}" data-column="${columnClass}">${text}</span>`;
+        const anchorSplit = fullTarget.split('#');
+        const target = anchorSplit[0];
+        const anchor = anchorSplit[1] || '';
+        return `<span class="link ${columnClass}" data-target="${target}" data-anchor="${anchor}" data-column="${columnClass}">${text}</span>`;
     });
 
     // Then highlight *text* that isn't already in a link
@@ -328,10 +347,12 @@ function render() {
     els.cardBody.querySelectorAll('.link').forEach((span, index) => {
         span.style.cursor = 'pointer';
         const direction = span.dataset.column;
-        span.onclick = () => navigateTo(span.dataset.target, false, direction);
+        const anchor = span.dataset.anchor || null;
+        span.onclick = () => navigateTo(span.dataset.target, false, direction, anchor);
         state.inlineLinks.push({
             element: span,
             target: span.dataset.target,
+            anchor: anchor,
             column: span.dataset.column,
             index: index
         });
@@ -374,7 +395,7 @@ function updateMoreIndicator() {
 }
 
 // Actions
-async function navigateTo(id, skipHistory = false, direction = null) {
+async function navigateTo(id, skipHistory = false, direction = null, anchor = null) {
     // Check cache first if enabled, otherwise always reload
     let topic = ENABLE_TOPIC_CACHE ? topicCache[id] : null;
 
@@ -408,10 +429,13 @@ async function navigateTo(id, skipHistory = false, direction = null) {
     state.lastNavigationDirection = direction;
 
     state.currentTopicId = id;
+    state.currentAnchor = anchor;
     state.focusedLinkIndex = -1;
     state.focusedParentIndex = -1;
     state.showingArticle = false;
-    window.location.hash = id;
+
+    // Update URL hash to include anchor if present
+    window.location.hash = anchor ? `${id}#${anchor}` : id;
 
     // Calculate breadcrumb path (shortest path from TOC to current)
     if (id === 'TOC') {
@@ -422,6 +446,17 @@ async function navigateTo(id, skipHistory = false, direction = null) {
     }
 
     render();
+
+    // After render, scroll to anchor if present
+    if (anchor) {
+        // Use setTimeout to ensure DOM is fully rendered
+        setTimeout(() => {
+            const anchorElement = document.getElementById(anchor);
+            if (anchorElement) {
+                anchorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 100);
+    }
 }
 
 function navigateBack() {
@@ -545,11 +580,11 @@ function activateCurrentLink() {
     // Check if a parent link is focused
     if (state.focusedParentIndex >= 0 && state.focusedParentIndex < state.parentLinks.length) {
         const link = state.parentLinks[state.focusedParentIndex];
-        navigateTo(link.target, false, link.column);
+        navigateTo(link.target, false, link.column, link.anchor);
     } else if (state.focusedLinkIndex >= 0 && state.focusedLinkIndex < state.inlineLinks.length) {
         // Check if an inline link is focused
         const link = state.inlineLinks[state.focusedLinkIndex];
-        navigateTo(link.target, false, link.column);
+        navigateTo(link.target, false, link.column, link.anchor);
     } else {
         // No link focused, toggle article if available
         const topic = topicCache[state.currentTopicId];
@@ -749,10 +784,15 @@ async function init() {
     try {
         state.loading = false;
 
-        const hashId = window.location.hash.replace('#', '') || 'intro/intro';
+        const hash = window.location.hash.replace('#', '') || 'intro/intro';
 
-        // navigateTo will calculate the breadcrumb path
-        await navigateTo(hashId, true, null);
+        // Parse hash into topicId and anchor: "path/to/file#anchor" or just "path/to/file"
+        const anchorSplit = hash.split('#');
+        const hashId = anchorSplit[0];
+        const hashAnchor = anchorSplit[1] || null;
+
+        // navigateTo will calculate the breadcrumb path and scroll to anchor
+        await navigateTo(hashId, true, null, hashAnchor);
     } catch (e) {
         console.error("Failed to load data", e);
         if (els.historyRow) els.historyRow.innerText = "ERROR LOADING DATA";
