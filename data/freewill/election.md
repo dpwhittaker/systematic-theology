@@ -130,15 +130,9 @@ Corporate language (race, priesthood, nation). The Church, as a body, is chosen.
 
 ### Individual Election: Chosen Before Birth
 
-**Romans 9:11-13:** "Though they were not yet born and had done nothing either good or bad—in order that God's purpose of election might continue, not because of works but because of him who calls—she was told, 'The older will serve the younger.' As it is written, 'Jacob I loved, but Esau I hated.'"
+**Romans 9:11-13** demonstrates God's sovereign choice: Jacob chosen over Esau before birth, before any actions, "not because of works but because of him who calls."
 
-**Before birth.** Before any actions. God chose Jacob over Esau.
-
-**Not because of works.** Not based on foreseen faith or merit. Based on God's sovereign purpose.
-
-**Calvinist interpretation:** This is individual election to salvation. God chose Jacob for salvation, passed over Esau. Unconditional.
-
-**Arminian interpretation:** This is corporate/vocational election. God chose Jacob to be the line through which the Messiah would come (Romans 9 is about Israel's role, not individual salvation). "Loved" and "hated" mean "chose" and "did not choose" for this purpose.
+For comprehensive analysis of both Calvinist (individual election to salvation) and Arminian (corporate/vocational election) interpretations, see [Jacob and Esau: Chosen Before Birth](#freewill/romans-nine#jacob-esau 'Drill').
 
 **Acts 13:48:** "And as many as were appointed to eternal life believed."
 

@@ -23,27 +23,9 @@ This is fundamentally relational knowing. You don't know your covenant partner b
 
 ## Covenant vs. Contract
 
-The Hebrew *berith* (covenant) is often translated "covenant" to distinguish it from a mere contract. The difference is profound:
+The Hebrew *berith* (covenant) is fundamentally different from a Greek legal contract. Where contracts are transactional and conditional, covenants create family bonds based on committed love. God doesn't negotiate terms with Israel—He adopts them as children, binds Himself to them in blood oath (Genesis 15), and remains faithful even when they break covenant (Hosea).
 
-**Contract** (Greek/Roman legal mindset):
-- Exchange of goods or services
-- Based on mutual benefit
-- Conditional: "If you do X, I'll do Y"
-- Parties remain autonomous, separate
-- Breakable if terms are violated
-- Focuses on *obligations*
-
-**Covenant** (Hebrew relational mindset):
-- Creation of family bond
-- Based on committed love
-- Unconditional promise: "I will be your God"
-- Parties become *one* ("bone of my bone," Genesis 2:23)
-- Unbreakable even when violated (see Hosea)
-- Focuses on *relationship*
-
-Contracts are business. Covenants are marriage.
-
-God doesn't hire Israel as employees. He doesn't negotiate terms as if they were equals. He *adopts* them as children. He *marries* them (Hosea, Ezekiel 16). The Law (Torah) isn't a contract's fine print—it's family instruction, "how we live because of who we belong to."
+For comprehensive discussion of covenant vs contract distinction, see [Covenant & Relation](#intro/relation#covenant-vs-contract 'Hebrew').
 
 ## Covenant with Abraham: Unconditional Promise
 
