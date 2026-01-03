@@ -76,7 +76,7 @@ Reformed theology holds a middle position:
 **What it doesn't do:**
 - It doesn't guarantee salvation apart from faith
 - It doesn't automatically regenerate (the Holy Spirit regenerates when and how He wills)
-- Many baptized people (especially in [infant baptism](#baptism/infant 'Greek') traditions) grow up and reject the faith—were they ever truly saved? No.
+- Many baptized people (especially in [infant baptism](#baptism/subjects#paedobaptist-position 'Greek') traditions) grow up and reject the faith—were they ever truly saved? No.
 
 **The distinction:**
 - **Visible church:** Those who are baptized and profess faith
