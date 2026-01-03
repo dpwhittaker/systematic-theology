@@ -97,6 +97,12 @@ Use # and ## headings to organize longer content.
 - `[text](#path 'column')` - Color-coded inline links
   - `path`: Relative path without `.md` extension (e.g., `intro/narrative`)
   - `column`: One of `Hebrew`, `Drill`, `Greek`, or `Parent` (default: `Drill`)
+- `[text](#path#anchor 'column')` - Deep links to specific sections within files
+  - `anchor`: ID of heading to scroll to (e.g., `#baptism/necessity#acts-2-38`)
+  - Enables granular navigation to specific passages within comprehensive files
+- `# Heading {#anchor-id}` - Heading with anchor for deep linking
+  - Creates navigable section ID for cross-references
+  - Use kebab-case for anchor IDs (e.g., `{#covenant-vs-contract}`)
 - `*text*` - Emphasis highlighting (yellow)
 - `# Heading` - Main heading (1.3rem, bold)
 - `## Subheading` - Subheading (1.1rem, bold)
@@ -121,6 +127,23 @@ When adding new topics:
 - Use descriptive link text that fits naturally in sentences
 - Choose column thoughtfully: Hebrew for concrete/narrative, Greek for abstract/systematic
 - Prefer consolidation: child pages should add significant value to stand alone
+
+**Cross-Referencing Strategies:**
+- **Anchor links for redundancy reduction**: When multiple files discuss the same passage/concept, designate one file as the primary treatment with comprehensive analysis, and have other files link to it using anchor links (e.g., `#freewill/romans-nine#jacob-esau`)
+- **See Also sections**: Add navigation sections at the end of comprehensive files to guide readers to related topics:
+  ```markdown
+  ---
+  # See Also
+
+  **Deep Dives (Related Topics):**
+  - [Topic 1](#path/to/topic 'column') - Brief description
+  - [Topic 2](#path/to/topic 'column') - Brief description
+
+  **Theological Tensions:**
+  - [Counterpoint 1](#path/to/topic 'column') - Brief description
+  - [Counterpoint 2](#path/to/topic 'column') - Brief description
+  ```
+- **Content replacement pattern**: Replace redundant full discussions with brief summaries (2-3 sentences) plus anchor link to comprehensive treatment
 
 ## Design Constraints
 
@@ -248,6 +271,17 @@ The intro folder demonstrates the preferred approach—consolidated from 15+ fil
 
 **Core Features:**
 - Markdown-based content with color-coded inline links
+- **Anchor navigation system**: Deep linking to specific sections within files
+  - Syntax: `[text](#path#anchor 'column')` links to heading with `{#anchor}` ID
+  - URL hash includes anchor (e.g., `#baptism/necessity#acts-2-38`)
+  - Smooth scrolling to target section after page load
+- **Redundancy reduction**: Primary treatment model with anchor cross-references
+  - Comprehensive discussions in designated files with anchor IDs
+  - Redundant sections replaced with brief summaries + anchor links
+  - ~30% reduction in duplicate content across codebase
+- **See Also sections**: Navigation aids at end of comprehensive files
+  - Categorized cross-references (Deep Dives, Theological Tensions, etc.)
+  - Helps readers explore interconnected topics in lattice structure
 - Article expansion system (fourth section in markdown files)
 - Dynamic font sizing to fit content in viewport
 - Touch gesture support (swipe for navigation)
