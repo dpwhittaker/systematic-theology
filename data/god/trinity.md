@@ -501,3 +501,20 @@ Hebrew thought offers an alternative: Testify to what God has revealed. Use bibl
 One God. Known as Father, Son, Spirit. Not explained. Worshiped.
 
 Perhaps that's enough.
+---
+# See Also
+
+**Trinitarian Persons:**
+- [God the Father](#god/father 'Hebrew') - First person of the Trinity
+- [Jesus Christ](#jesus/jesus 'Parent') - The eternal Son incarnate
+- [Holy Spirit](#spirit/spirit 'Parent') - Third person of the Trinity
+- [Jesus as Lord (YHWH)](#jesus/lord 'Drill') - Jesus identified with the covenant name of God
+
+**Greek Formulations:**
+- [Essence](#god/essence 'Greek') - One divine essence shared by three persons
+- [Attributes](#god/attributes 'Greek') - Characteristics of the triune God
+- [Simplicity](#god/simplicity 'Greek') - God's unity despite threeness
+
+**Hebrew Tensions:**
+- [Monotheism](#god/oneness 'Hebrew') - "Hear O Israel: the LORD our God, the LORD is one"
+- [Names](#god/names 'Hebrew') - Multiple names revealing one God

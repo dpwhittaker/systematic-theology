@@ -130,3 +130,16 @@ The Greek model: God is known through *contemplation* of His essence. His acts i
 Can both be true? Can the God who IS (essence) also be the God who ACTS (event)? Can systematic theology honor both the eternal and the historical, the categorical and the personal, the defined and the encountered?
 
 Or must we choose: Will we know God as *what* or as *Who*?
+---
+# See Also
+
+**Greek Categorical Approach:**
+- [Attributes](#god/attributes 'Greek') - God's essential characteristics systematically listed
+- [Simplicity](#god/simplicity 'Greek') - God's unity and lack of parts
+- [Immutability](#god/immutability 'Greek') - God's unchanging nature
+- [Greek Philosophy](#intro/philosophy 'Greek') - The three-step method of abstraction
+
+**Hebrew Relational Approach:**
+- [Names](#god/names 'Hebrew') - God revealed through relational titles
+- [Covenants](#god/covenants 'Hebrew') - God known through binding relationships
+- [Relation & Covenant](#intro/relation 'Hebrew') - Knowing God through encounter vs definition

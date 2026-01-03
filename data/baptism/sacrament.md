@@ -275,3 +275,16 @@ The [tension](#baptism/meaning 'Drill') persists.
 - Either Catholics are right (and Baptists are denying the sacrament's power) or Baptists are right (and Catholics are obscuring the Gospel with works)
 
 The divide remains. Churches split over it. Families agonize over it. The [meaning of baptism](#baptism/baptism 'Parent') is not a minor disagreement—it shapes how we understand salvation, grace, and the church.
+---
+# See Also
+
+**Related Baptism Topics:**
+- [Baptism Meaning](#baptism/meaning 'Greek') - What baptism signifies and accomplishes
+- [Baptism Necessity](#baptism/necessity 'Drill') - Whether baptism is required for salvation
+- [Baptism Subjects](#baptism/subjects 'Drill') - Infant vs believer baptism (sacramental view favors infant)
+- [Eucharist/Lord's Supper](#church/lords-supper 'Greek') - Parallel sacramental debate
+
+**Theological Foundations:**
+- [Grace](#salvation/grace 'Hebrew') - How God's grace is conveyed
+- [Faith](#salvation/faith 'Hebrew') - Relationship between faith and sacraments
+- [Works](#salvation/works 'Greek') - Whether sacraments constitute works-righteousness

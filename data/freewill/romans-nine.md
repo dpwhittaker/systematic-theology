@@ -335,3 +335,15 @@ God invited. Israel refused. They're accountable.
 **Don't sacrifice biblical truth for systematic consistency.** Hold both sovereignty and responsibility, even if you can't fully harmonize them.
 
 **The [mystery](#freewill/mystery 'Hebrew') reveals depth, not error.**
+---
+# See Also
+
+**Systematic Applications:**
+- [Election](#freewill/election 'Greek') - The doctrine built on Romans 9's foundation
+- [Predestination](#freewill/predestination 'Greek') - God's eternal decree explored systematically
+- [Sovereignty](#freewill/sovereignty 'Hebrew') - The broader biblical teaching on God's rule
+- [Responsibility](#freewill/responsibility 'Drill') - How Paul's argument addresses accountability
+
+**Related Biblical Texts:**
+- [Psalm 110:1](#jesus/lord#psalm-110-1 'Drill') - Another key text on God's sovereign choice
+- [Isaiah 53](#jesus/servant#isaiah-53 'Drill') - The Servant chosen by divine decree

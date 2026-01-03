@@ -336,3 +336,15 @@ We trust God's character, even when we can't resolve the mystery.
 **Worship:** "Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how inscrutable his ways!" (Romans 11:33).
 
 Predestination is ultimately about God's glory. He chose us to the praise of His glorious grace (Ephesians 1:6).
+---
+# See Also
+
+**Deep Dives (Related Topics):**
+- [Election](#freewill/election 'Greek') - The choosing that follows predestination's decree
+- [Romans 9 Analysis](#freewill/romans-nine 'Drill') - Key biblical text on God's sovereign choice
+- [Sovereignty](#freewill/sovereignty 'Hebrew') - The absolute authority that decrees predestination
+- [Foreknowledge](#god/knowledge 'Greek') - How God's knowledge relates to His predestining will
+
+**Theological Tensions:**
+- [Responsibility](#freewill/responsibility 'Drill') - How human accountability fits with predestination
+- [Mystery](#freewill/mystery 'Hebrew') - Where systematic explanation reaches its limits

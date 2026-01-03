@@ -374,3 +374,15 @@ Paul endures hardship for the elect. Evangelism is how the elect come to salvati
 **Both preach the gospel fervently.** Both emphasize God's [sovereignty](#freewill/sovereignty 'Hebrew') and human [responsibility](#freewill/responsibility 'Hebrew'). Different frameworks, same urgency.
 
 **Preach election for comfort. Preach responsibility for urgency. Trust God with the mystery.**
+---
+# See Also
+
+**Deep Dives (Related Topics):**
+- [Romans 9 Analysis](#freewill/romans-nine 'Drill') - Comprehensive exegesis of election's key text
+- [Predestination](#freewill/predestination 'Greek') - The decree that precedes election
+- [Sovereignty](#freewill/sovereignty 'Hebrew') - God's absolute rule that grounds election
+- [Responsibility](#freewill/responsibility 'Drill') - How human choice relates to divine election
+
+**Theological Tensions:**
+- [Mystery](#freewill/mystery 'Hebrew') - When election and responsibility cannot be reconciled
+- [Grace](#salvation/grace 'Hebrew') - The unmerited favor behind election

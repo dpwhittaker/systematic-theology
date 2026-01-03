@@ -291,3 +291,15 @@ What's secret: How they fit together philosophically.
 **Hebrew thought doesn't demand philosophical resolution.** It holds the tension in worship.
 
 "Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how inscrutable his ways!" (Romans 11:33).
+---
+# See Also
+
+**Deep Dives (Related Topics):**
+- [Predestination](#freewill/predestination 'Greek') - The eternal decree flowing from God's sovereignty
+- [Election](#freewill/election 'Greek') - God's sovereign choice of individuals
+- [Providence](#god/providence 'Hebrew') - How sovereignty works in daily governance
+- [Romans 9](#freewill/romans-nine 'Drill') - Scripture's clearest statement on divine sovereignty
+
+**Theological Tensions:**
+- [Responsibility](#freewill/responsibility 'Drill') - Human agency under God's absolute rule
+- [Mystery](#freewill/mystery 'Hebrew') - Where sovereignty and freedom meet beyond explanation

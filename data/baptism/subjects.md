@@ -348,3 +348,16 @@ Some paedobaptist churches won't accept credobaptists as members (unless they're
 The debate has raged for 500 years (since the Reformation). It shows no sign of resolution.
 
 The [Hebrew-Greek tension](#intro/intro 'Parent') appears again: Does God work through families and visible community (Hebrew emphasis), or through individual decision and personal faith (Greek emphasis)? Perhaps the answer is *both*—but how they relate remains contested.
+---
+# See Also
+
+**Related Baptism Topics:**
+- [Baptism Necessity](#baptism/necessity 'Drill') - Whether baptism is required for salvation
+- [Baptism Mode](#baptism/mode 'Drill') - Immersion vs sprinkling debate
+- [Mikveh](#baptism/mikveh 'Hebrew') - Jewish ritual background for baptism
+- [Covenant](#salvation/covenant 'Hebrew') - Covenant theology foundation for paedobaptism
+
+**Theological Foundations:**
+- [Church](#church/church 'Parent') - Nature of the church and membership
+- [Circumcision](#god/covenants 'Hebrew') - Old covenant sign applied to children
+- [Faith](#salvation/faith 'Hebrew') - Nature of saving faith and profession

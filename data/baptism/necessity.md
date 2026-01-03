@@ -225,3 +225,16 @@ Does this make baptism necessary? It certainly makes it normative. The New Testa
 The division is sharp. Churches of Christ won't fellowship those who teach faith-only. Baptists won't accept Churches of Christ as preaching the true Gospel.
 
 At stake: What is the Gospel? Is it "Believe and be baptized" or "Believe, then show your faith by being baptized"? The difference is not semantic—it's eternal.
+---
+# See Also
+
+**Related Baptism Topics:**
+- [Meaning of Baptism](#baptism/meaning 'Greek') - Sacramental vs symbolic understandings
+- [Baptism Subjects](#baptism/subjects 'Drill') - Who should be baptized (believers vs infants)
+- [Mikveh](#baptism/mikveh 'Hebrew') - Jewish ritual immersion background
+- [Spirit Baptism](#baptism/spirit 'Drill') - Water baptism vs Spirit baptism distinction
+
+**Soteriological Questions:**
+- [Grace](#salvation/grace 'Hebrew') - Unmerited favor and its role in salvation
+- [Faith](#salvation/faith 'Hebrew') - The nature of saving faith
+- [Works](#salvation/works 'Greek') - Whether baptism is a "work" that nullifies grace

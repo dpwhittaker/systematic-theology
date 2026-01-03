@@ -276,3 +276,17 @@ Jesus didn't stop being human after the ascension.
 **God with us.**
 
 **Emmanuel.**
+---
+# See Also
+
+**Christological Doctrines:**
+- [Deity of Christ](#jesus/deity 'Greek') - Jesus as fully God
+- [Humanity of Christ](#jesus/humanity 'Hebrew') - Jesus as fully human
+- [Two Natures](#jesus/natures 'Greek') - Chalcedonian formula of union
+- [Jesus as Lord (YHWH)](#jesus/lord 'Drill') - The divine name applied to Jesus
+
+**Related Concepts:**
+- [Virgin Birth](#jesus/virgin-birth 'Drill') - The means of the incarnation
+- [Kenosis](#jesus/kenosis 'Greek') - Christ's self-emptying in taking human form
+- [Trinity](#god/trinity 'Greek') - The eternal Son who became incarnate
+- [Resurrection](#jesus/resurrection 'Drill') - The vindication of the incarnate one

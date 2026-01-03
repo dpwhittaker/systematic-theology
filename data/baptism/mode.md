@@ -118,3 +118,14 @@ Others see no compromise:
 - OR: The biblical pattern permits flexibility; demanding immersion is legalism
 
 The division remains.
+---
+# See Also
+
+**Related Baptism Topics:**
+- [Baptism Subjects](#baptism/subjects 'Drill') - Who should be baptized (mode often correlates with subjects)
+- [Baptism Meaning](#baptism/meaning 'Greek') - What baptism signifies (burial/resurrection vs cleansing)
+- [Mikveh](#baptism/mikveh 'Hebrew') - Jewish immersion practices
+- [Sacrament](#baptism/sacrament 'Greek') - Whether the mode affects baptism's efficacy
+
+**Practical Considerations:**
+- [Church Practice](#church/ordinances 'Drill') - How mode affects church membership and fellowship
