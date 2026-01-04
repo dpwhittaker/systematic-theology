@@ -160,6 +160,8 @@ function fitContentToViewport() {
 
     // Try single-column configurations first (largest to smallest)
     const singleColumnConfigs = [
+        { fontSize: '2.0rem', columns: 1 },
+        { fontSize: '1.8rem', columns: 1 },
         { fontSize: '1.5rem', columns: 1 },
         { fontSize: '1.3rem', columns: 1 },
         { fontSize: '1.1rem', columns: 1 },
@@ -177,15 +179,35 @@ function fitContentToViewport() {
         { fontSize: '0.9rem', columns: 2 }
     ];
 
+    // Helper to add padding to fill viewport
+    const fillViewport = () => {
+        // Get current height of main content
+        const contentHeight = mainContent.scrollHeight;
+
+        // Calculate remaining space
+        const remainingSpace = availableHeight - contentHeight;
+
+        if (remainingSpace > 0) {
+            // Distribute remaining space as top and bottom padding
+            const paddingTop = Math.floor(remainingSpace / 2);
+            const paddingBottom = remainingSpace - paddingTop;
+            mainContent.style.paddingTop = `${paddingTop}px`;
+            mainContent.style.paddingBottom = `${paddingBottom}px`;
+        }
+    };
+
     // First, try single-column configs
     for (const config of singleColumnConfigs) {
         mainContent.classList.remove('two-column');
+        mainContent.style.paddingTop = '';
+        mainContent.style.paddingBottom = '';
         contentLines.forEach(line => {
             line.style.fontSize = config.fontSize;
         });
 
         if (!isOverflowing()) {
             // Found a single-column configuration that works!
+            fillViewport();
             return;
         }
     }
@@ -193,21 +215,27 @@ function fitContentToViewport() {
     // If no single-column config fits, try two-column configs
     for (const config of twoColumnConfigs) {
         mainContent.classList.add('two-column');
+        mainContent.style.paddingTop = '';
+        mainContent.style.paddingBottom = '';
         contentLines.forEach(line => {
             line.style.fontSize = config.fontSize;
         });
 
         if (!isOverflowing()) {
             // Found a two-column configuration that works!
+            fillViewport();
             return;
         }
     }
 
     // If nothing fits, fall back to smallest single-column
     mainContent.classList.remove('two-column');
+    mainContent.style.paddingTop = '';
+    mainContent.style.paddingBottom = '';
     contentLines.forEach(line => {
         line.style.fontSize = '0.8rem';
     });
+    fillViewport();
 }
 
 // Render
