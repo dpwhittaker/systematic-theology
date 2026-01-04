@@ -26,15 +26,6 @@ const els = {
     cardBody: document.getElementById('card-body')
 };
 
-// Debug logging
-function debug(msg) {
-    const panel = document.getElementById('debug-panel');
-    if (panel) {
-        panel.innerHTML += msg + '<br>';
-        panel.scrollTop = panel.scrollHeight;
-    }
-    console.log(msg);
-}
 
 
 // Parse markdown file
@@ -547,51 +538,97 @@ function updateActiveLinkHighlight() {
     }
 }
 
-// Cycle through links by column type (includes back link)
+// Cycle through links (header and inline, only visible ones)
 function cycleLinks(direction) {
-    if (state.inlineLinks.length === 0) return;
+    // Helper function to check if element is visible in viewport
+    function isVisible(element) {
+        const rect = element.getBoundingClientRect();
+        const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+        const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
-    // Get unique targets (deduplicate)
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= viewportHeight &&
+            rect.right <= viewportWidth
+        );
+    }
+
+    // Collect all visible links (parent links first, then inline links)
+    const allVisibleLinks = [];
+
+    // Add visible parent links
+    state.parentLinks.forEach((link, idx) => {
+        if (isVisible(link.element)) {
+            allVisibleLinks.push({
+                type: 'parent',
+                index: idx,
+                target: link.target,
+                element: link.element,
+                top: link.element.getBoundingClientRect().top
+            });
+        }
+    });
+
+    // Add visible inline links (deduplicated by target)
     const seenTargets = new Set();
-    const filteredIndices = state.inlineLinks
-        .map((link, idx) => ({ link, idx }))
-        .filter(item => {
-            if (seenTargets.has(item.link.target)) return false;
-            seenTargets.add(item.link.target);
-            return true;
-        })
-        .map(item => item.idx);
+    state.inlineLinks.forEach((link, idx) => {
+        if (isVisible(link.element) && !seenTargets.has(link.target)) {
+            seenTargets.add(link.target);
+            allVisibleLinks.push({
+                type: 'inline',
+                index: idx,
+                target: link.target,
+                element: link.element,
+                top: link.element.getBoundingClientRect().top
+            });
+        }
+    });
 
-    if (filteredIndices.length === 0) return;
+    if (allVisibleLinks.length === 0) return;
 
-    // Find current focused target in list
-    let currentFilteredIndex = -1;
-    if (state.focusedLinkIndex >= 0) {
+    // Sort by vertical position (top to bottom)
+    allVisibleLinks.sort((a, b) => a.top - b.top);
+
+    // Find current focused link in the visible list
+    let currentIndex = -1;
+    if (state.focusedParentIndex >= 0) {
+        currentIndex = allVisibleLinks.findIndex(
+            link => link.type === 'parent' && link.index === state.focusedParentIndex
+        );
+    } else if (state.focusedLinkIndex >= 0) {
         const focusedTarget = state.inlineLinks[state.focusedLinkIndex].target;
-        currentFilteredIndex = filteredIndices.findIndex(idx =>
-            state.inlineLinks[idx].target === focusedTarget
+        currentIndex = allVisibleLinks.findIndex(
+            link => link.type === 'inline' && link.target === focusedTarget
         );
     }
 
     // Move to next or previous link
-    let nextFilteredIndex;
+    let nextIndex;
     if (direction === 'next') {
-        nextFilteredIndex = currentFilteredIndex + 1;
-        if (nextFilteredIndex >= filteredIndices.length) {
+        nextIndex = currentIndex + 1;
+        if (nextIndex >= allVisibleLinks.length) {
             // Wrap to beginning
-            nextFilteredIndex = 0;
+            nextIndex = 0;
         }
     } else {
         // direction === 'prev'
-        nextFilteredIndex = currentFilteredIndex - 1;
-        if (nextFilteredIndex < 0) {
+        nextIndex = currentIndex - 1;
+        if (nextIndex < 0) {
             // Wrap to end
-            nextFilteredIndex = filteredIndices.length - 1;
+            nextIndex = allVisibleLinks.length - 1;
         }
     }
 
-    state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
-    state.focusedParentIndex = -1;
+    // Update focus state based on link type
+    const nextLink = allVisibleLinks[nextIndex];
+    if (nextLink.type === 'parent') {
+        state.focusedParentIndex = nextLink.index;
+        state.focusedLinkIndex = -1;
+    } else {
+        state.focusedLinkIndex = nextLink.index;
+        state.focusedParentIndex = -1;
+    }
 
     updateActiveLinkHighlight();
 }
