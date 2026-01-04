@@ -2,50 +2,40 @@
 
 ## Concept
 
-The favicons and app icons for this project represent the unity of Hebrew and Greek frameworks for understanding God, centered on the revelation of Jesus Christ.
+The favicons and app icons for this project represent the central theological tension explored in the course: the duality between Hebrew and Greek frameworks for understanding God.
 
 ## Symbolism
 
-### The Star of David (Magen David)
-- **Six-pointed star** - Traditional Jewish symbol
-- **Two interlocking triangles** - Heaven and earth, divine and human
-- **Meaning**: Represents the Hebrew covenantal framework and God's chosen people Israel
-- **Historical Connection**: Shield of David, protection, the nation through whom Messiah came
+### Hebrew Letters (Left Side - Yellow #ffdd00)
+- **Aleph (א)** - First letter of Hebrew alphabet
+- **Tav (ת)** - Last letter of Hebrew alphabet
+- **Meaning**: Represents the Hebrew framework - concrete, relational, narrative
+- **Biblical Connection**: In Hebrew thought, Aleph-Tav appears throughout Scripture as a grammatical marker, but some see it as pointing to Messiah (the First and Last)
 
-### Alpha and Omega (Α Ω)
-- **Greek letters** in the center of the star
-- **First and last** letters of the Greek alphabet
-- **Meaning**: Christ's self-revelation in Greek categories (Revelation 1:8, 22:13)
-- **Theological Significance**: "I am the Alpha and the Omega, the beginning and the end"
+### Greek Letters (Right Side - Cyan #00ddff)
+- **Alpha (Α)** - First letter of Greek alphabet
+- **Omega (Ω)** - Last letter of Greek alphabet
+- **Meaning**: Represents the Greek framework - abstract, systematic, categorical
+- **Biblical Connection**: Revelation 1:8, 21:6, 22:13 - "I am the Alpha and the Omega"
 
 ## Design Rationale
 
-This unified design represents:
-
-1. **Christ as the Center**: The Greek letters at the heart of the Hebrew symbol show that Jesus is the fulfillment of Israel's covenant and the revelation of God to all nations
-
-2. **Unity of Testaments**: The Hebrew framework (Star of David) encompasses and gives context to the Greek revelation (Alpha/Omega)
-
-3. **Jewish Roots**: Christianity's foundation in Judaism - Jesus was Jewish, the apostles were Jewish, Scripture is rooted in Hebrew thought
-
-4. **Universal Gospel**: The Greek letters show the message went to all nations, expressed in categories the Gentile world could understand
-
-5. **Neither/Both**: Not "Hebrew OR Greek" but "Hebrew AND Greek" - both are needed to understand the fullness of revelation
-
-The icon visually declares: **Jesus (Alpha-Omega) is the Jewish Messiah (Star of David) and the Savior of the world.**
+The split design (yellow/cyan, left/right) visually represents:
+1. **Duality**: Two distinct approaches to systematic theology
+2. **Balance**: Neither framework dominates; both are equally valid
+3. **Unity**: Both sides share the same truth (black background, same "first and last" concept)
+4. **Navigational Colors**: Match the color-coded link system in the application
+   - Yellow links → Hebrew/concrete/narrative concepts
+   - Cyan links → Greek/abstract/systematic concepts
 
 ## Files
 
 ### Source File
 
-**icon-source.jpg** (Original design)
-- Star of David with Alpha and Omega in center
-- Navy blue on white background for maximum clarity
-- Used to generate all other icon sizes
-
 **icon-2048.jpg** (2048x2048)
-- High-resolution version scaled from source
-- Maintains quality for future re-generation
+- High-resolution source image
+- Bold, stylized letterforms with perfect clarity
+- Used to generate all other icon sizes
 
 ### Favicon Files
 
@@ -86,10 +76,11 @@ The icon visually declares: **Jesus (Alpha-Omega) is the Jewish Messiah (Star of
 
 ## Color Palette
 
-- **Background**: #ffffff (White) - Clean, professional
-- **Star of David**: Navy blue (#1a3a5c) - Traditional, dignified, authoritative
-- **Alpha Omega**: Navy blue (#1a3a5c) - Unified with the Hebrew symbol
-- **Design Philosophy**: Simplicity and clarity - the symbol speaks for itself without need for color coding
+- **Background**: #000000 (Black) - High contrast, HUD-optimized
+- **Hebrew**: #ffdd00 (Yellow/Gold) - Warm, ancient, concrete
+- **Greek**: #00ddff (Cyan) - Cool, logical, abstract
+- **Divider**: #ffffff (White) - Neutral separator at 30% opacity
+- **Labels**: #666666 (Gray) - Subtle, non-intrusive
 
 ## Usage
 
@@ -119,21 +110,21 @@ Browsers automatically select the most appropriate icon:
 
 ## Generation Process
 
-All icons were generated from `icon-source.jpg` using ImageMagick:
+All icons were generated from `icon-2048.jpg` using ImageMagick:
 
 ```bash
 # Generate PNG favicons
-magick icon-source.jpg -resize 32x32 -quality 100 favicon-32x32.png
-magick icon-source.jpg -resize 48x48 -quality 100 favicon-48x48.png
+magick icon-2048.jpg -resize 16x16 -quality 100 favicon-16x16.png
+magick icon-2048.jpg -resize 32x32 -quality 100 favicon-32x32.png
+magick icon-2048.jpg -resize 48x48 -quality 100 favicon-48x48.png
 
 # Generate mobile icons
-magick icon-source.jpg -resize 180x180 -quality 100 apple-touch-icon.png
-magick icon-source.jpg -resize 192x192 -quality 100 icon-192.png
-magick icon-source.jpg -resize 512x512 -quality 100 icon-512.png
-magick icon-source.jpg -resize 2048x2048 -quality 100 icon-2048.jpg
+magick icon-2048.jpg -resize 180x180 -quality 100 apple-touch-icon.png
+magick icon-2048.jpg -resize 192x192 -quality 100 icon-192.png
+magick icon-2048.jpg -resize 512x512 -quality 100 icon-512.png
 
 # Generate multi-resolution ICO
-magick icon-source.jpg -define icon:auto-resize=16,32,48 favicon.ico
+magick icon-2048.jpg -define icon:auto-resize=16,32,48 favicon.ico
 ```
 
 ## Future Enhancements
@@ -146,32 +137,10 @@ Potential additions:
 
 ## Theological Note
 
-This design is not merely aesthetic. It visually represents the central reality of Christian theology: **Jesus Christ unites heaven and earth, Jew and Gentile, covenant and fulfillment.**
+The choice of Aleph/Tav and Alpha/Omega is not merely aesthetic. It reflects the core question of the course: **How do we speak about the infinite God who declares Himself both the Beginning and the End?**
 
-### The Star Contains the Letters
+- The Hebrew letters remind us that God revealed Himself in history, narrative, relationship
+- The Greek letters remind us that human reason seeks to understand, categorize, systematize
+- **Both are needed.** Both are limited. Both point to the same Truth.
 
-The Star of David encompasses the Alpha and Omega - showing that:
-- God's covenant with Israel provides the context for understanding Christ
-- The promises to Abraham, Isaac, and Jacob find their "Yes" in Jesus (2 Cor 1:20)
-- You cannot understand the Alpha-Omega (Greek revelation) apart from the Star (Hebrew covenant)
-
-### The Letters Fill the Star
-
-Alpha and Omega at the center show that:
-- Jesus is the meaning and goal of Israel's history
-- He is both the Jewish Messiah and the Logos who enlightens all humanity
-- The particular (Israel) reveals the universal (all nations)
-
-### Romans 11: The Mystery
-
-*"If their transgression means riches for the world, and their loss means riches for the Gentiles, how much greater riches will their full inclusion bring!"* (Romans 11:12)
-
-The icon honors both:
-- **Israel's ongoing significance** (the Star remains)
-- **Christ's universal lordship** (Alpha-Omega for all)
-
-**"Salvation is from the Jews"** (John 4:22) - yet it is for the world.
-
-This is the heart of systematic theology done faithfully: honoring both the Hebrew story and the Greek proclamation, united in the person of Jesus Christ, who declared:
-
-*"I am the Alpha and the Omega, the First and the Last, the Beginning and the End."* (Revelation 22:13)
+"I am the Alpha and the Omega, the first and the last, the beginning and the end." (Revelation 22:13)
