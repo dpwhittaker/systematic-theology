@@ -814,11 +814,11 @@ function updateFullscreenIcon() {
     }
 
     // Re-render content to fit new viewport dimensions
-    // Small delay to ensure fullscreen transition has completed
+    // Longer delay to ensure fullscreen transition has completed (especially on exit)
     setTimeout(() => {
         setContainerPadding();
         fitContentToViewport();
-    }, 100);
+    }, 300);
 }
 
 // Listen for fullscreen changes
@@ -933,9 +933,10 @@ async function init() {
     }
 }
 
-// Update container padding on resize (in case header/footer heights change)
+// Update container padding and content sizing on resize
 window.addEventListener('resize', () => {
     setContainerPadding();
+    fitContentToViewport();
 });
 
 // Start
