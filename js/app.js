@@ -795,11 +795,11 @@ function toggleFullscreen() {
     }
 }
 
-// Update fullscreen button icon based on fullscreen state
+// Update fullscreen button icon and re-render content based on fullscreen state
 function updateFullscreenIcon() {
     const enterIcon = document.getElementById('fullscreen-icon');
     const exitIcon = document.getElementById('fullscreen-exit-icon');
-    
+
     if (document.fullscreenElement ||
         document.webkitFullscreenElement ||
         document.mozFullScreenElement ||
@@ -812,6 +812,13 @@ function updateFullscreenIcon() {
         if (enterIcon) enterIcon.style.display = 'block';
         if (exitIcon) exitIcon.style.display = 'none';
     }
+
+    // Re-render content to fit new viewport dimensions
+    // Small delay to ensure fullscreen transition has completed
+    setTimeout(() => {
+        setContainerPadding();
+        fitContentToViewport();
+    }, 100);
 }
 
 // Listen for fullscreen changes
