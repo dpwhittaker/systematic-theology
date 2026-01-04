@@ -431,8 +431,22 @@ function render() {
     // Reset focused link
     state.focusedLinkIndex = -1;
 
+    // Update article indicator visibility
+    updateArticleIndicator();
+
     // Adjust font size to fit content
     fitContentToViewport();
+}
+
+// Update article indicator visibility
+function updateArticleIndicator() {
+    const indicator = document.getElementById('article-indicator');
+    const topic = topicCache[state.currentTopicId];
+
+    if (indicator && topic) {
+        // Show ellipsis if there's an article to scroll to
+        indicator.style.display = topic.hasArticle ? 'flex' : 'none';
+    }
 }
 
 // Update the dynamic more indicator
