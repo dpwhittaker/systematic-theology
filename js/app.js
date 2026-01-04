@@ -129,20 +129,34 @@ async function loadTopic(id) {
 
 // Fit content to viewport by adjusting font size and layout
 function fitContentToViewport() {
-    const cardBody = els.cardBody;
-    const contentLines = cardBody.querySelectorAll('.content-line');
+    const mainContent = document.getElementById('main-content');
+    if (!mainContent) return;
 
+    const contentLines = mainContent.querySelectorAll('.content-line');
     if (contentLines.length === 0) return;
 
+    // Get header and footer heights
+    const header = document.querySelector('.hud-header');
+    const footer = document.querySelector('.hud-footer');
+    const headerHeight = header ? header.offsetHeight : 0;
+    const footerHeight = footer ? footer.offsetHeight : 0;
+
+    // Available viewport height for content
+    const availableHeight = window.innerHeight - headerHeight - footerHeight;
+
     // Reset to defaults
-    cardBody.classList.remove('two-column');
-    cardBody.classList.remove('scrollable');
-    cardBody.style.fontSize = '';
-    cardBody.style.overflowY = '';
+    mainContent.classList.remove('two-column');
     contentLines.forEach(line => line.style.fontSize = '');
 
-    // Check if content overflows
-    const isOverflowing = () => cardBody.scrollHeight > cardBody.clientHeight;
+    // Check if main content overflows available space
+    const isOverflowing = () => {
+        // Temporarily show content to measure
+        const originalDisplay = mainContent.style.display;
+        mainContent.style.display = 'block';
+        const height = mainContent.scrollHeight;
+        mainContent.style.display = originalDisplay;
+        return height > availableHeight;
+    };
 
     // Try single-column configurations first (largest to smallest)
     const singleColumnConfigs = [
@@ -154,7 +168,7 @@ function fitContentToViewport() {
         { fontSize: '0.8rem', columns: 1 }
     ];
 
-    // Try two-column configurations (only if they fit without scrolling)
+    // Try two-column configurations
     const twoColumnConfigs = [
         { fontSize: '1.5rem', columns: 2 },
         { fontSize: '1.3rem', columns: 2 },
@@ -165,11 +179,10 @@ function fitContentToViewport() {
 
     // First, try single-column configs
     for (const config of singleColumnConfigs) {
-        cardBody.classList.remove('two-column');
+        mainContent.classList.remove('two-column');
         contentLines.forEach(line => {
             line.style.fontSize = config.fontSize;
         });
-        cardBody.style.overflowY = 'hidden';
 
         if (!isOverflowing()) {
             // Found a single-column configuration that works!
@@ -177,27 +190,24 @@ function fitContentToViewport() {
         }
     }
 
-    // If no single-column config fits, try two-column configs (only if they fit without scrolling)
+    // If no single-column config fits, try two-column configs
     for (const config of twoColumnConfigs) {
-        cardBody.classList.add('two-column');
+        mainContent.classList.add('two-column');
         contentLines.forEach(line => {
             line.style.fontSize = config.fontSize;
         });
-        cardBody.style.overflowY = 'hidden';
 
         if (!isOverflowing()) {
-            // Found a two-column configuration that works without scrolling!
+            // Found a two-column configuration that works!
             return;
         }
     }
 
-    // If nothing fits without scrolling, fall back to smallest single-column with scrolling
-    cardBody.classList.remove('two-column');
+    // If nothing fits, fall back to smallest single-column
+    mainContent.classList.remove('two-column');
     contentLines.forEach(line => {
         line.style.fontSize = '0.8rem';
     });
-    cardBody.style.overflowY = 'auto';
-    cardBody.classList.add('scrollable');
 }
 
 // Render
