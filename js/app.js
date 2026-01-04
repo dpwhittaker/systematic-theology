@@ -23,8 +23,7 @@ const state = {
 const els = {
     historyRow: document.getElementById('history-row'),
     parentRow: document.getElementById('parent-row'),
-    cardBody: document.getElementById('card-body'),
-    moreIndicator: document.getElementById('more-indicator')
+    cardBody: document.getElementById('card-body')
 };
 
 // Debug logging
@@ -308,9 +307,12 @@ function render() {
         };
     });
 
-    // Card body: render summary or article
-    const contentToShow = state.showingArticle && topic.article ? topic.article : topic.summary;
-    let processed = contentToShow;
+    // Card body: render summary and article (if available)
+    let mainContent = topic.summary;
+    let articleContent = topic.article || '';
+
+    // Process main content
+    let processed = mainContent;
 
     // First, convert headings to styled spans with optional anchor IDs (### before ## before # to avoid double-matching)
     // Format: # Heading {#anchor-id} or just # Heading
@@ -338,9 +340,48 @@ function render() {
     // Then highlight *text* that isn't already in a link
     processed = processed.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
 
-    els.cardBody.innerHTML = processed.split('\n').map(line =>
+    // Process article content if available
+    let processedArticle = '';
+    if (articleContent) {
+        processedArticle = articleContent;
+        // Apply same transformations to article
+        processedArticle = processedArticle.replace(/^### (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+            return anchor ? `<span class="heading-3" id="${anchor}">${text}</span>` : `<span class="heading-3">${text}</span>`;
+        });
+        processedArticle = processedArticle.replace(/^## (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+            return anchor ? `<span class="heading-2" id="${anchor}">${text}</span>` : `<span class="heading-2">${text}</span>`;
+        });
+        processedArticle = processedArticle.replace(/^# (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+            return anchor ? `<span class="heading" id="${anchor}">${text}</span>` : `<span class="heading">${text}</span>`;
+        });
+        processedArticle = processedArticle.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, fullTarget, column) => {
+            const col = (column || 'Drill').toLowerCase();
+            const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
+            const anchorSplit = fullTarget.split('#');
+            const target = anchorSplit[0];
+            const anchor = anchorSplit[1] || '';
+            return `<span class="link ${columnClass}" data-target="${target}" data-anchor="${anchor}" data-column="${columnClass}">${text}</span>`;
+        });
+        processedArticle = processedArticle.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
+    }
+
+    // Build HTML with main content, separator, and article
+    let html = '<div id="main-content">';
+    html += processed.split('\n').map(line =>
         line.trim() ? `<div class="content-line">${line}</div>` : ''
     ).join('');
+    html += '</div>';
+
+    if (processedArticle) {
+        html += '<div id="article-separator"></div>';
+        html += '<div id="article-content">';
+        html += processedArticle.split('\n').map(line =>
+            line.trim() ? `<div class="content-line">${line}</div>` : ''
+        ).join('');
+        html += '</div>';
+    }
+
+    els.cardBody.innerHTML = html;
 
     // Build inline links array and add click handlers
     state.inlineLinks = [];
@@ -363,9 +404,6 @@ function render() {
 
     // Adjust font size to fit content
     fitContentToViewport();
-
-    // Update more indicator
-    updateMoreIndicator();
 }
 
 // Update the dynamic more indicator
@@ -479,7 +517,6 @@ function navigateBack() {
             }
         }
         updateActiveLinkHighlight();
-        updateMoreIndicator();
     } else if (state.history.length > 0) {
         // No parents, navigate back in history
         const previousId = state.history[state.history.length - 1];
@@ -511,34 +548,14 @@ function updateActiveLinkHighlight() {
 }
 
 // Cycle through links by column type (includes back link)
-function cycleLinks(columnFilter) {
-    // First check if we have a back link that matches this direction
-    const backLink = state.parentLinks.find(link => link.column === columnFilter && link.element.classList.contains('back-link'));
-
-    // If we have a back link for this direction and nothing is focused, focus it first
-    if (backLink && state.focusedLinkIndex === -1 && state.focusedParentIndex === -1) {
-        state.focusedParentIndex = backLink.index;
-        state.focusedLinkIndex = -1;
-        updateActiveLinkHighlight();
-        return;
-    }
-
-    // If back link is already focused, activate it
-    if (backLink && state.focusedParentIndex === backLink.index) {
-        // Already focused on back link, activate it
-        activateCurrentLink();
-        return;
-    }
-
-    // Otherwise cycle through inline links as before
+function cycleLinks(direction) {
     if (state.inlineLinks.length === 0) return;
 
-    // Filter links by column, keeping only one index per unique target
+    // Get unique targets (deduplicate)
     const seenTargets = new Set();
     const filteredIndices = state.inlineLinks
         .map((link, idx) => ({ link, idx }))
         .filter(item => {
-            if (item.link.column !== columnFilter) return false;
             if (seenTargets.has(item.link.target)) return false;
             seenTargets.add(item.link.target);
             return true;
@@ -547,7 +564,7 @@ function cycleLinks(columnFilter) {
 
     if (filteredIndices.length === 0) return;
 
-    // Find current focused target in filtered list
+    // Find current focused target in list
     let currentFilteredIndex = -1;
     if (state.focusedLinkIndex >= 0) {
         const focusedTarget = state.inlineLinks[state.focusedLinkIndex].target;
@@ -556,19 +573,27 @@ function cycleLinks(columnFilter) {
         );
     }
 
-    // Move to next link in this column, or back to article mode if at the end
-    const nextFilteredIndex = currentFilteredIndex + 1;
-    if (nextFilteredIndex >= filteredIndices.length) {
-        // Reached the end, return to article mode
-        state.focusedLinkIndex = -1;
-        state.focusedParentIndex = -1;
+    // Move to next or previous link
+    let nextFilteredIndex;
+    if (direction === 'next') {
+        nextFilteredIndex = currentFilteredIndex + 1;
+        if (nextFilteredIndex >= filteredIndices.length) {
+            // Wrap to beginning
+            nextFilteredIndex = 0;
+        }
     } else {
-        state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
-        state.focusedParentIndex = -1;
+        // direction === 'prev'
+        nextFilteredIndex = currentFilteredIndex - 1;
+        if (nextFilteredIndex < 0) {
+            // Wrap to end
+            nextFilteredIndex = filteredIndices.length - 1;
+        }
     }
 
+    state.focusedLinkIndex = filteredIndices[nextFilteredIndex];
+    state.focusedParentIndex = -1;
+
     updateActiveLinkHighlight();
-    updateMoreIndicator();
 }
 
 function toggleArticle() {
@@ -585,45 +610,28 @@ function activateCurrentLink() {
         // Check if an inline link is focused
         const link = state.inlineLinks[state.focusedLinkIndex];
         navigateTo(link.target, false, link.column, link.anchor);
-    } else {
-        // No link focused, toggle article if available
-        const topic = topicCache[state.currentTopicId];
-        if (topic && topic.hasArticle) {
-            toggleArticle();
-        }
     }
+    // No action if no link is focused
 }
 
 // Input Handling
 document.addEventListener('keydown', (e) => {
-    // Check if content is scrollable
-    const cardBody = els.cardBody;
-    const isScrollable = cardBody && cardBody.classList.contains('scrollable');
-
     switch(e.key) {
         case "ArrowLeft":
-            cycleLinks('hebrew');
+            e.preventDefault();
+            cycleLinks('prev');
             break;
         case "ArrowRight":
-            cycleLinks('greek');
+            e.preventDefault();
+            cycleLinks('next');
             break;
         case "ArrowDown":
-            if (isScrollable) {
-                // Scroll down instead of navigating
-                e.preventDefault();
-                cardBody.scrollBy({ top: 100, behavior: 'smooth' });
-            } else {
-                cycleLinks('drill');
-            }
+            e.preventDefault();
+            window.scrollBy({ top: 100, behavior: 'smooth' });
             break;
         case "ArrowUp":
-            if (isScrollable) {
-                // Scroll up instead of navigating
-                e.preventDefault();
-                cardBody.scrollBy({ top: -100, behavior: 'smooth' });
-            } else {
-                navigateBack();
-            }
+            e.preventDefault();
+            window.scrollBy({ top: -100, behavior: 'smooth' });
             break;
         case " ":
         case "Enter":
@@ -651,13 +659,9 @@ document.addEventListener('touchend', (e) => {
     if (target.classList.contains('link') ||
         target.classList.contains('history-item') ||
         target.classList.contains('parent-item') ||
-        target.classList.contains('nav-item') ||
-        target.id === 'more-indicator') {
+        target.classList.contains('nav-item')) {
         return;
     }
-
-    // If target is inside scrollable content, allow native scrolling for vertical swipes
-    const isInScrollableContent = target.closest('#card-body.scrollable');
 
     touchEndX = e.changedTouches[0].screenX;
     touchEndY = e.changedTouches[0].screenY;
@@ -672,33 +676,15 @@ document.addEventListener('touchend', (e) => {
         return;
     }
 
-    // Determine if swipe is primarily horizontal or vertical
-    if (Math.abs(deltaX) > Math.abs(deltaY)) {
-        // Horizontal swipe
-        if (Math.abs(deltaX) > minSwipeDistance) {
-            if (deltaX > 0) {
-                // Swipe right
-                cycleLinks('greek');
-            } else {
-                // Swipe left
-                cycleLinks('hebrew');
-            }
-        }
-    } else {
-        // Vertical swipe
-        if (Math.abs(deltaY) > minSwipeDistance) {
-            // If in scrollable content, don't navigate - let native scrolling handle it
-            if (isInScrollableContent) {
-                return;
-            }
-
-            if (deltaY > 0) {
-                // Swipe down
-                cycleLinks('drill');
-            } else {
-                // Swipe up
-                navigateBack();
-            }
+    // Only handle horizontal swipes for link cycling
+    // Vertical swipes are for native scrolling
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+        if (deltaX > 0) {
+            // Swipe right - next link
+            cycleLinks('next');
+        } else {
+            // Swipe left - previous link
+            cycleLinks('prev');
         }
     }
 }, { passive: true });

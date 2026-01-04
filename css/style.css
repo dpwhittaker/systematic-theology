@@ -18,53 +18,46 @@ body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     font-family: var(--font-sans);
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
-    overflow: hidden; /* No scrolling allowed */
+    overflow-x: hidden;
+    overflow-y: auto;
     margin: 0;
     padding: 0;
 }
 
-/* Viewport Wrapper - maintains 16:9 aspect ratio */
+/* Viewport Wrapper */
 #viewport-wrapper {
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    min-height: 100vh;
     position: relative;
 }
 
-/* Calculate 16:9 container */
-@media (min-aspect-ratio: 16/9) {
-    /* Viewport is wider than 16:9 - constrain by height */
-    #app {
-        width: calc(100vh * 16 / 9);
-        height: 100vh;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    /* Viewport is taller than 16:9 - constrain by width */
-    #app {
-        width: 100vw;
-        height: calc(100vw * 9 / 16);
-    }
+#app {
+    width: 100%;
+    min-height: 100vh;
 }
 
 .hud-container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     width: 100%;
     padding: 0;
+    padding-top: 3rem; /* Space for fixed header */
+    padding-bottom: 3rem; /* Space for fixed footer */
 }
 
 /* HEADER */
 .hud-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--bg-color);
     border-bottom: 2px solid var(--text-secondary);
-    padding-bottom: 0.25rem;
-    margin-bottom: 0;
+    padding: 0.5rem 1rem;
     font-family: var(--font-sans);
     font-size: 0.8rem;
 }
@@ -125,17 +118,30 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    padding: 1rem;
 }
 
 #card-body {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     gap: 0.5rem;
     padding: 0 0.1rem;
-    /* overflow controlled dynamically by JavaScript */
+}
+
+#main-content {
+    flex: 0 0 auto;
+}
+
+#article-separator {
+    width: 100%;
+    height: 1px;
+    background-color: var(--accent-color);
+    margin: 2rem 0;
+}
+
+#article-content {
+    flex: 0 0 auto;
+    padding-bottom: 2rem;
 }
 
 #card-body.two-column {
@@ -241,9 +247,14 @@ body {
 
 /* FOOTER */
 .hud-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--bg-color);
     border-top: 1px solid var(--text-secondary);
-    padding-top: 0.15rem;
-    margin-top: 0;
+    padding: 0.5rem 1rem;
     font-family: var(--font-sans);
     font-size: 0.7rem;
 }
