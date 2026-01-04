@@ -35,11 +35,21 @@
         </section>
 
         <footer class="hud-footer">
-            <div id="nav-hint">
-                <span class="hint-item hint-hebrew">Hebrew</span>
-                <span class="hint-item hint-drill">Drill</span>
-                <span class="hint-item hint-greek">Greek</span>
-                <span class="hint-item hint-parent">Parent</span>
+            <div id="footer-content">
+                <button id="fullscreen-btn" class="fullscreen-btn" title="Toggle Fullscreen">
+                    <svg id="fullscreen-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2h3v1H3v2H2V2zm11 0v3h-1V3h-2V2h3zM2 13v-3h1v2h2v1H2zm11 0h-3v-1h2v-2h1v3z" fill="currentColor"/>
+                    </svg>
+                    <svg id="fullscreen-exit-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path d="M3 2v3H2V2h3zm8 0h3v3h-1V3h-2V2zM3 13H2v-3h1v2h2v1zm8 0v-1h2v-2h1v3h-3z" fill="currentColor"/>
+                    </svg>
+                </button>
+                <div id="nav-hint">
+                    <span class="hint-item hint-hebrew">Hebrew</span>
+                    <span class="hint-item hint-drill">Drill</span>
+                    <span class="hint-item hint-greek">Greek</span>
+                    <span class="hint-item hint-parent">Parent</span>
+                </div>
             </div>
         </footer>
         </div>

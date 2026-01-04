@@ -271,11 +271,43 @@ body {
     font-size: 0.7rem;
 }
 
+#footer-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fullscreen-btn {
+    background: transparent;
+    border: 1px solid var(--text-secondary);
+    border-radius: 3px;
+    color: var(--text-secondary);
+    padding: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.fullscreen-btn:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.fullscreen-btn:active {
+    transform: scale(0.95);
+}
+
 #nav-hint {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 0.1rem;
+    flex: 1;
 }
 
 .hint-item {

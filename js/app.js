@@ -765,34 +765,82 @@ document.addEventListener('touchend', (e) => {
 }, { passive: true });
 
 // Fullscreen support
-function enterFullscreen() {
-    const elem = document.documentElement;
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen().catch(() => {});
-    } else if (elem.webkitRequestFullscreen) {
-        elem.webkitRequestFullscreen();
-    } else if (elem.mozRequestFullScreen) {
-        elem.mozRequestFullScreen();
-    } else if (elem.msRequestFullscreen) {
-        elem.msRequestFullscreen();
+function toggleFullscreen() {
+    if (!document.fullscreenElement &&
+        !document.webkitFullscreenElement &&
+        !document.mozFullScreenElement &&
+        !document.msFullscreenElement) {
+        // Enter fullscreen
+        const elem = document.documentElement;
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen().catch(() => {});
+        } else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+        } else if (elem.msRequestFullscreen) {
+            elem.msRequestFullscreen();
+        }
+    } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) {
+            document.exitFullscreen().catch(() => {});
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
     }
 }
 
-// Request fullscreen on first user interaction
-let fullscreenRequested = false;
-document.addEventListener('click', () => {
-    if (!fullscreenRequested) {
-        fullscreenRequested = true;
-        enterFullscreen();
+// Update fullscreen button icon based on fullscreen state
+function updateFullscreenIcon() {
+    const enterIcon = document.getElementById('fullscreen-icon');
+    const exitIcon = document.getElementById('fullscreen-exit-icon');
+    
+    if (document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement) {
+        // In fullscreen - show exit icon
+        if (enterIcon) enterIcon.style.display = 'none';
+        if (exitIcon) exitIcon.style.display = 'block';
+    } else {
+        // Not in fullscreen - show enter icon
+        if (enterIcon) enterIcon.style.display = 'block';
+        if (exitIcon) exitIcon.style.display = 'none';
     }
-}, { once: true });
+}
 
-document.addEventListener('touchend', () => {
-    if (!fullscreenRequested) {
-        fullscreenRequested = true;
-        enterFullscreen();
+// Listen for fullscreen changes
+document.addEventListener('fullscreenchange', updateFullscreenIcon);
+document.addEventListener('webkitfullscreenchange', updateFullscreenIcon);
+document.addEventListener('mozfullscreenchange', updateFullscreenIcon);
+document.addEventListener('MSFullscreenChange', updateFullscreenIcon);
+
+// Attach fullscreen button click handler
+function attachFullscreenHandler() {
+    const fullscreenBtn = document.getElementById('fullscreen-btn');
+    if (fullscreenBtn) {
+        fullscreenBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            e.preventDefault();
+            toggleFullscreen();
+        });
+        console.log('Fullscreen button handler attached');
+    } else {
+        console.error('Fullscreen button not found');
     }
-}, { once: true });
+}
+
+// Try to attach immediately if DOM is ready, otherwise wait
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachFullscreenHandler);
+} else {
+    attachFullscreenHandler();
+}
 
 // Find shortest path from one topic to another using BFS
 async function findShortestPath(fromId, toId) {
