@@ -1,5 +1,7 @@
 # Systematic Theology: A Hebraic Re-examination
 
+**Live Site:** [https://dpwhittaker.github.io/systematic-theology](https://dpwhittaker.github.io/systematic-theology)
+
 ## Project Overview
 This project serves as a dual-purpose platform:
 1.  **Research Notebook:** A living document of theological research, tracking hyperlinks from biblical verses to extrabiblical references and historical context.
