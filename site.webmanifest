@@ -1,0 +1,22 @@
+{
+  "name": "Systematic Theology: Hebraic Re-examination",
+  "short_name": "SysTheology",
+  "description": "An interactive teaching HUD exploring theology through Hebrew and Greek frameworks",
+  "start_url": "/systematic-theology/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
