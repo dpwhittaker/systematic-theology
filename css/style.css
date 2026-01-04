@@ -44,8 +44,7 @@ body {
     min-height: 100vh;
     width: 100%;
     padding: 0;
-    padding-top: 3rem; /* Space for fixed header */
-    padding-bottom: 3rem; /* Space for fixed footer */
+    /* Padding set dynamically by JavaScript based on header/footer heights */
 }
 
 /* HEADER */

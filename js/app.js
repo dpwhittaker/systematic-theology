@@ -841,8 +841,26 @@ async function findShortestPath(fromId, toId) {
 }
 
 // Init
+// Set container padding to exact header/footer heights
+function setContainerPadding() {
+    const container = document.querySelector('.hud-container');
+    const header = document.querySelector('.hud-header');
+    const footer = document.querySelector('.hud-footer');
+
+    if (container && header && footer) {
+        const headerHeight = header.offsetHeight;
+        const footerHeight = footer.offsetHeight;
+
+        container.style.paddingTop = `${headerHeight}px`;
+        container.style.paddingBottom = `${footerHeight}px`;
+    }
+}
+
 async function init() {
     try {
+        // Set container padding based on actual header/footer sizes
+        setContainerPadding();
+
         state.loading = false;
 
         const hash = window.location.hash.replace('#', '') || 'intro/intro';
@@ -859,6 +877,11 @@ async function init() {
         if (els.historyRow) els.historyRow.innerText = "ERROR LOADING DATA";
     }
 }
+
+// Update container padding on resize (in case header/footer heights change)
+window.addEventListener('resize', () => {
+    setContainerPadding();
+});
 
 // Start
 init();
