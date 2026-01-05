@@ -21,5 +21,8 @@ Traditional systematic theology divides into topics:
 # Alternative Approaches
 [Other Systems](#other/other 'Drill') - Narrative, Biblical, Historical, and more
 
+# Site Information
+[About This Site](#site/about 'Drill') - Project documentation, icon design, bias analysis
+
 Each category raises the question: Are we organizing *truth* or creating *boxes*?
 ---

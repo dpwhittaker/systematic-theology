@@ -2,7 +2,7 @@
 title: Navigating Faith: a Roadmap of Christian Beliefs
 shortTitle: Intro
 ---
-[Categories](#TOC 'Parent')
+[About](#site/about 'Parent') | [Categories](#TOC 'Parent')
 ---
 Systematic theology organizes beliefs into [categories](#TOC 'Drill'): God, Christ, salvation, church.
 It assumes truth can be systematized—but does Greek *logic* distort Hebrew *revelation*?
