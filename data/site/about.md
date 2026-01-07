@@ -73,6 +73,9 @@ The site is optimized for smart glasses (Heads-Up Display):
 ### Theological Balance Analysis
 [Potential Biases](#site/PotentialBiases 'Drill') - A comprehensive analysis of theological balance across all 91 markdown files. Identifies areas where conservative positions need strengthening, missing viewpoints, and language requiring adjustment. Essential reading for understanding the site's approach to fairness.
 
+### Spirit Christology Research
+[Spirit Christology: Biblical Data](#site/SpiritChristology 'Drill') - Exhaustive catalog of every biblical text regarding Jesus's deity, humanity, and relationships with the Father and Holy Spirit. Presents the full evidence for both Logos Christology (traditional) and Spirit Christology (alternative) without cherry-picking verses. Includes critical observations about Jesus's baptism and the Spirit's descent.
+
 ### Additional Resources
 **Related Documentation:**
 - **CLAUDE.md** (root level) - Guidance for AI assistants working on the project

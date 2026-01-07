@@ -80,7 +80,7 @@ The Hebrew-Greek framework is explored as a **QUESTION** ("Does Greek systematiz
 - Traducianism vs. Creationism (soul origin) - **ABSENT**
 - Covenant Theology vs. Dispensationalism - **ABSENT**
 - Eternal Conscious Torment vs. Annihilationism - **ABSENT**
-- Young Earth Creationism - **ABSENT** (may be intentional scope limitation)
+- Young Earth Creationism - **INTENTIONAL OMISSION** (user teaches separate class on this topic)
 
 **3. Theological Concern - Pneumatology:**
 - spirit/person.md explores modalism as potentially valid ("Is this modalism? Maybe. Or maybe it's the biblical testimony without the Greek overlay")
@@ -252,6 +252,127 @@ Can we pursue both clarity AND humility? Systematic coherence AND wrestling with
 
 Perhaps the question isn't resolution OR tension, but how to hold both: the confidence to declare "Jesus is Lord" with the humility to say "His ways are higher than our ways."
 ```
+
+### 1.5 Greek's Greatest Contribution: A Framework for Resolving Contradiction
+
+**INSIGHT:** Greek thinking provides something Hebrew approaches often lack—**a mechanism for making progress on apparent contradictions** rather than merely holding them in tension.
+
+**The Hebrew Approach to Contradiction:**
+- School of Hillel: A is true
+- School of Shammai: B is true
+- Conclusion: *Eilu v'eilu* ("these and these are words of the living God")
+- **Result:** Tension acknowledged and held, but no framework for understanding *how* both can be true simultaneously
+
+**The Greek Contribution:**
+When faced with apparent contradiction, Greek logic applies the law of non-contradiction:
+- If A and B both claim to be true but appear contradictory
+- They cannot both be true **in the same sense at the same time**
+- Therefore, B must differ from A in some meaningful way (different sense, different time, different aspect, different level)
+- **Result:** Progress beyond perpetual debate by forcing precision about the *nature* of the distinction
+
+**Example: Divine Sovereignty and Human Responsibility**
+
+**Hebrew approach:**
+- God sovereignly ordains all things (Proverbs 16:9, Isaiah 46:10)
+- Humans are genuinely responsible for choices (Ezekiel 18:20, Deuteronomy 30:19)
+- *Eilu v'eilu* - Both are true, hold the tension, don't resolve
+
+**Greek framework forces clarifying questions:**
+- In what sense are both true?
+- How do primary and secondary causation relate?
+- What is the nature of human will when God is sovereign?
+
+**This produces theological progress:**
+- **Compatibilism:** Different levels of causation (God's primary, human's secondary)
+- **Molinism:** Different types of knowledge (God's middle knowledge of counterfactuals)
+- **Libertarianism:** Different domains (God's general sovereignty vs. human moral autonomy)
+
+**The Greek framework doesn't solve the mystery**, but it **identifies where distinctions must lie**, moving the conversation forward and preventing simplistic either/or reductions.
+
+### 1.6 Greek's Greatest Danger: Creating Contradictions Scripture Doesn't Have
+
+**However**, Greek categories can **impose contradictions** where Scripture sees none—requiring complex solutions to problems the categories themselves created.
+
+**Example 1: Flesh vs. Spirit Dualism**
+
+**Greek substance dualism assumption:**
+- Flesh (sarx) and Spirit (pneuma) are opposing substances/realms
+- Matter is inferior to spirit
+- Physical and spiritual are incompatible
+
+**Biblical alternative (Hebrew unified anthropology):**
+- Humans are *nephesh* (living being)—unified, not soul trapped in body
+- Creation including physical matter is "very good" (Genesis 1:31)
+- Resurrection redeems bodies, doesn't escape them (1 Corinthians 15)
+- Paul's "flesh vs. Spirit" may describe orientation/allegiance, not substance dualism
+
+**Heresies requiring Greek dualism:**
+- **Gnosticism:** Matter is evil (requires matter/spirit opposition)
+- **Docetism:** Jesus only appeared human (requires divine/material incompatibility)
+- **Ascetic body-denial:** Physical is inferior (requires dualist hierarchy)
+
+**These heresies only make sense within Greek categorical frameworks.** Without substance dualism, they lose their foundation.
+
+**Example 2: The Hypostatic Union**
+
+**Greek formulation:** Jesus has two natures (divine and human) united in one person (hypostasis)
+
+**The problem this solves:** How can immutable divine essence unite with mutable human essence without compromising either?
+
+**But did Greek categories create the problem?**
+
+**Hebrew alternative:**
+- God is *ruach* (breath/wind/spirit)—active presence, not static essence
+- Humans are *nephesh* (living being) animated by God's breath
+- Incarnation: God's *ruach* fully indwelling the human *nephesh* Jesus
+- No "nature union" puzzle because ruach and nephesh aren't opposing substances
+
+**The Greek framework may:**
+1. Create the problem (how to unite incompatible natures)
+2. Provide the solution (hypostatic union formula)
+3. Obscure a simpler Hebrew understanding (God's presence embodied)
+
+**Example 3: The Trinity**
+
+**This case is different**—the Trinity problem arises from **Scripture itself**, not Greek imposition:
+- Father is God, Son is God, Spirit is God (multiple texts)
+- Father ≠ Son ≠ Spirit (Jesus prays to Father, sends Spirit)
+- There is one God (Shema, Deuteronomy 6:4)
+
+**Greek formulation helps:** Three persons (hypostases), one essence (ousia)
+
+**But Greek categories may not be the only way:**
+- Hebrew: Three irreducible personal relationships constituting the one YHWH
+- Eastern Orthodox: Persons defined by eternal relations, not sharing abstract essence
+- The biblical data requires explanation; Greek may not be the only adequate framework
+
+### 1.7 The Test: When Greek Helps vs. Hinders
+
+**Greek thinking HELPS when it:**
+1. **Resolves contradictions productively** - Forces precision about how both truths hold simultaneously (sovereignty and responsibility)
+2. **Protects biblical truth from distortion** - Nicene Trinity prevents modalism and Arianism
+3. **Provides framework for recognizing heresy** - Identifies when positions violate biblical data
+4. **Makes theology communicable across cultures** - Abstract categories enable gospel to travel beyond one culture
+
+**Greek thinking HINDERS when it:**
+1. **Creates contradictions Scripture doesn't have** - Substance dualism opposes matter/spirit
+2. **Solves problems it created** - Hypostatic union needed because Greek categories made incarnation puzzling
+3. **Obscures biblical simplicity** - Makes theology accessible only to philosophers
+4. **Imposes foreign categories** - Forces Hebrew revelation into alien structures
+
+**The Criterion:**
+
+Does this Greek category **illuminate what Scripture reveals**, or **distort it by requiring solutions to problems Scripture doesn't present**?
+
+**Summary:**
+
+The Greek position may not capture all the nuance of the Hebrew approach or the journey it takes to get there. But it gives us:
+- A framework for **recognizing heresy** when we see it (positions that violate biblical data)
+- A mechanism for **making progress on contradictions** we were stuck on (forcing precision about how both truths hold)
+
+However, when Greek categories impose contradictions where Scripture has none, or require complex solutions to problems they created, **the framework becomes the problem, not the solution.**
+
+Both are needed: **Greek precision** to resolve genuine contradictions and guard truth, **Hebrew wisdom** to avoid creating false problems through foreign categories.
 
 ---
 
