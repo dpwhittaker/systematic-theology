@@ -12,8 +12,8 @@ The God of the Bible: grieves, relents, becomes flesh, suffers, dies.
 Christian theology developed doctrines to reconcile these tensions:
 
 **Core Reconciliations:**
-- [Trinity](#god/trinity 'Drill'): One essence, three persons—unity with Father, Son, Spirit.
-- [Incarnation](#god/incarnation 'Drill'): Eternal God in time—hypostatic union of divine and human natures.
+- [Father, Son, Spirit](#god/trinity 'Drill'): Biblical language vs. Greek "three persons, one essence"—is philosophical precision necessary?
+- [Incarnation](#jesus/incarnation 'Drill'): Eternal God in time—the Son filled with the Spirit became flesh. Greek "hypostatic union" language vs. Hebrew testimony.
 - [Impassibility](#god/impassibility 'Drill'): Can God suffer, or is He unchangingly perfect?
 
 **Providence and Freedom:**

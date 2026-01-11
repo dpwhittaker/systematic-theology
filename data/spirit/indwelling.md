@@ -12,7 +12,7 @@ Does the Spirit live *in* believers permanently? The New Testament shifts from t
 
 The Spirit's indwelling is the mark of belonging to Christ. Without the Spirit, you are not His (Romans 8:9). With the Spirit, you are God's temple (1 Corinthians 3:16).
 
-But what does "indwelling" mean? Is it a [person](#spirit/person 'Greek') taking up residence, or God's [presence](#spirit/presence 'Hebrew') dwelling with you? The theology matters less than the reality: *God is with you.*
+But what does "indwelling" mean? Is it a [separate divine entity](#spirit/person 'Greek') taking up residence, or God's [presence](#spirit/presence 'Hebrew') dwelling with you? The theology matters less than the reality: *God is with you.*
 ---
 # Indwelling: The Spirit Within
 
@@ -145,7 +145,7 @@ But also:
 
 **Question:** Is it Christ dwelling in you, or the Spirit dwelling in you? Or both?
 
-**Greek theology's answer:** Both. The Father, Son, and Spirit all dwell in believers (John 14:23, "We will come to him and make Our home with him"). The Spirit is the mode of the Trinity's indwelling.
+**Greek theology's answer:** Both. The Father, Son, and Spirit of God all dwell in believers (John 14:23, "We will come to him and make Our home with him"). The Spirit is the mode of God's indwelling.
 
 **Hebrew theology's answer:** It's *God* dwelling in you. "Christ in you" and "the Spirit in you" are different ways of describing the same reality—God's presence with His people. The Spirit is not a separate person from Christ; the Spirit *is* God's indwelling presence, and Christ is God incarnate. To have the Spirit is to have Christ, to have God.
 
@@ -223,16 +223,16 @@ The Spirit in us now is the *down payment* (Ephesians 1:14) of the life to come.
 
 When we say "the Spirit dwells in believers," what exactly is happening?
 
-### Greek Theology: A Person Indwells
+### Greek Theology: A Separate Entity Indwells
 
-Classical theology says the Spirit is the third *person* of the Trinity who takes up residence in the believer's soul.
+Classical theology says the Spirit is the third "hypostasis" who takes up residence in the believer's soul.
 
 **Implications:**
-- You have a divine person living inside you
+- You have a divine entity living inside you
 - The Spirit is *someone* distinct from the Father and Son
 - Personal relationship with the Spirit is possible (you can speak to Him, listen to Him, grieve Him, obey Him)
 
-**Strength:** This preserves the Spirit's personhood and deity. The Spirit is not an impersonal force—He's *someone* who dwells in you.
+**Strength:** This preserves personal language about the Spirit. The Spirit is not an impersonal force—He can be grieved, can guide, can intercede.
 
 **Challenge:** How does an omnipresent God "indwell" a specific place? If God is everywhere, what does it mean for the Spirit to "dwell" in believers?
 
@@ -263,9 +263,9 @@ In terms of *lived experience*, not really:
 - Both affirm the Spirit is fully God (not a creature or force)
 
 **Where it matters:**
-- **Prayer:** Do you pray *to* the Spirit (as a person) or pray *in* the Spirit (as God's empowering presence)?
+- **Prayer:** Do you pray *to* the Spirit (as a separate entity) or pray *in* the Spirit (as God's empowering presence)?
 - **Relationship:** Do you relate to the Spirit as *someone* distinct from God, or as *God Himself* present with you?
-- **Systematic theology:** Does Trinitarian orthodoxy require three persons, or can you confess the Spirit's deity without multiplying persons?
+- **Systematic theology:** Does orthodoxy require Greek categories ("three hypostases"), or can you confess Father, Son, and Spirit of God using biblical language?
 
 Most Christians instinctively pray to the Father, through the Son, *in* the Spirit—not *to* the Spirit. This suggests even popular piety leans toward the Hebrew framework (Spirit as God's presence) more than the Greek (Spirit as distinct person).
 

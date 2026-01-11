@@ -162,13 +162,13 @@ Jesus is the Lord seated at God's right hand.
 
 **Jewish objection:** You claim to be monotheists ("Hear, O Israel: YHWH our God, YHWH is one"), but you worship Jesus alongside God. That's polytheism.
 
-**Christian response:** We worship one God—Father, Son, and Holy Spirit. Jesus isn't a second god; He's the eternal Son, sharing the one divine nature. (See [Trinity](#god/trinity 'Greek'))
+**Christian response:** We worship one God—Father, Son, and Spirit of God. Jesus isn't a second god; He's the eternal Son, filled with the Spirit, sharing in the one divine identity. (See [Father, Son, Spirit](#god/trinity 'Greek'))
 
 **But this raises the question:** How can Jesus be YHWH if the Father is YHWH? Are there two YHWHs?
 
-**Orthodox answer:** No. There is one YHWH, eternally existing as Father, Son, and Holy Spirit. Three persons, one God.
+**Greek answer:** No. There is one YHWH, eternally existing as Father, Son, and Spirit. Three "persons" (hypostases), one substance (ousia).
 
-**Hebrew framework tension:** Does this preserve monotheism, or does it functionally introduce multiple gods under the label "persons"?
+**Hebrew framework tension:** Does this preserve monotheism, or does Greek philosophical language introduce categories Scripture doesn't require?
 
 **Jewish response:** This is not monotheism. Calling Jesus "Lord" and worshiping Him violates the Shema.
 
@@ -233,13 +233,16 @@ Jesus always was YHWH. The incarnation didn't make Him God—it revealed God in 
 
 The NT doesn't just say Jesus represents God or reveals God. It identifies Jesus *as* God—specifically, as YHWH, the covenant Lord of Israel.
 
-**2. Christian monotheism is Trinitarian**
+**2. Christian monotheism: Father, Son, Spirit**
 
-We worship one God: Father, Son, and Spirit. Not three gods, but one God in three persons.
+We worship one God: Father and Son. The Spirit is the conduit of God's power—never commanded as a separate object of worship.
 
-**This stretches Hebrew monotheism without breaking it:** YHWH is one, but eternally exists as Father, Son, and Spirit.
+**The biblical pattern:**
+- The **Father** is worshipped throughout Scripture
+- The **Son** filled with the Spirit is worshipped (Philippians 2:10-11, Hebrews 1:6)
+- The **Spirit of God** empowers worship—but is never commanded as object of worship
 
-**Or does it break it?** Jewish theology says yes. Christian theology says no. The tension remains.
+**Does this preserve Hebrew monotheism?** Jewish theology says no. Christian theology says yes—we worship the one God (Father) through His Son, by His Spirit. The tension remains.
 
 **3. Worship of Jesus is appropriate**
 
@@ -265,7 +268,7 @@ If Jesus is still dead, we're liars. But He rose. Therefore, He is Lord.
 
 **For Jews:** This is impossible. YHWH is one. YHWH doesn't become human. Calling a man "YHWH" violates the Shema.
 
-**Christian response:** We affirm the Shema. YHWH is one. But YHWH exists eternally as Father, Son, and Spirit. The incarnation doesn't compromise God's oneness—it reveals His complexity.
+**Christian response:** We affirm the Shema. YHWH is one. But we confess the Father, the Son filled with the Spirit, and the Spirit of God—not three gods, but one God known relationally and functionally. The incarnation doesn't compromise God's oneness—it reveals His fullness.
 
 **Jewish response:** That's polytheism wrapped in philosophical language. A man can't be YHWH.
 

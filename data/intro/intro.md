@@ -26,9 +26,9 @@ When Plato wanted to understand *justice*, he abstracted from particular cases t
 
 These are not just different *topics*—they are different *ways of thinking*. Greek philosophy prizes clarity, consistency, system. Hebrew faith embraces mystery, paradox, story. The tension runs deeper than we usually acknowledge.
 
-Consider: The Bible never defines the Trinity. It shows the Father speaking, the Spirit hovering, the Son incarnate—and leaves us to wrestle with what it means. The church, influenced by Greek thought, spent centuries crafting precise formulations: *homoousios*, three persons and one substance, economic and immanent Trinity.
+Consider: The Bible never defines the "Trinity." It shows the Father speaking, the Spirit hovering, the Son incarnate—and leaves us to wrestle with what it means. The church, influenced by Greek thought, spent centuries crafting precise formulations: *homoousios*, three "persons" (hypostases), one "substance" (ousia).
 
-Was this necessary? Or did we trade the encounter for the explanation?
+Was this necessary? The Bible speaks of Father, Son, and Spirit of God—relational and functional terms. Did Greek philosophy improve on this? Or did we trade the encounter for the explanation?
 
 The Hebrew approach doesn't reject thinking—it rejects thinking *instead of* relationship. Study is holy, but study for the sake of *living* the text, not mastering it. You don't stand over Scripture, analyzing it; you stand under it, letting it interrogate *you*.
 

@@ -58,7 +58,7 @@ Hebrew: אֱלֹהִים (*Elohim*)
 
 A plural form (ending in -im), yet used with singular verbs. This has led to various interpretations:
 - **Plural of majesty**: Emphasizes God's greatness
-- **Plural of fullness**: Hints at the complexity of God's being (later Christian interpreters saw hints of Trinity)
+- **Plural of fullness**: Hints at the complexity of God's being (later Christian interpreters saw hints of Father, Son, Spirit)
 - **Generic term**: Related to *El* (god, mighty one), made plural to indicate supreme deity
 
 **Usage:**

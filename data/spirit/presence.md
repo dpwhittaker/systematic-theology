@@ -3,7 +3,7 @@ title: Presence - God With Us
 ---
 [The Holy Spirit](#spirit/spirit 'Parent')
 ---
-The Spirit as *presence*—God dwelling with His people. In Hebrew thought, the *Shekinah* (God's glory dwelling) and [*Ruach HaKodesh*](#spirit/ruach 'Hebrew') both speak of God's nearness, not a separate [person](#spirit/person 'Greek').
+The Spirit as *presence*—God dwelling with His people. In Hebrew thought, the *Shekinah* (God's glory dwelling) and [*Ruach HaKodesh*](#spirit/ruach 'Hebrew') both speak of God's nearness—not a [separate entity](#spirit/person 'Greek'), but God Himself present.
 
 **Old Testament pattern:**
 - Tabernacle: "The cloud covered the tent, and the glory of the Lord filled the tabernacle" (Exodus 40:34)
@@ -14,7 +14,7 @@ The Spirit as *presence*—God dwelling with His people. In Hebrew thought, the 
 - Believers are the temple: "You are God's temple, and God's Spirit dwells in you" (1 Corinthians 3:16)
 - God's [indwelling](#spirit/indwelling 'Drill') presence through the Spirit
 
-Is this a third person taking up residence, or *God Himself* dwelling with us?
+Is this a separate divine entity taking up residence, or *God Himself* dwelling with us?
 ---
 # Presence: God With Us
 
@@ -34,7 +34,7 @@ In rabbinic Judaism, the Shekinah is:
 - The cloud and fire that filled the Tabernacle and Temple
 - God's immanent presence, as opposed to His transcendence
 
-The Shekinah is not a separate being or person. It's *God* present in a specific place, with His people.
+The Shekinah is not a separate being. It's *God* present in a specific place, with His people.
 
 ### The Shekinah in the Tabernacle
 
@@ -224,13 +224,13 @@ The Spirit is a *seal* (mark of ownership) and a *guarantee* (down payment, pled
 
 When we say "the Spirit dwells in believers," what are we claiming?
 
-**Greek theology's answer:** The third person of the Trinity takes up permanent residence in the believer's soul. A divine person lives inside you.
+**Greek theology's answer:** A third divine entity (one of three "hypostases") takes up permanent residence in the believer's soul.
 
 **Hebrew theology's answer:** God's presence is with you. The living God, who filled the Tabernacle and dwelt in Jesus, now lives in you by His Spirit. The Spirit is not *someone else*—it's *God* with you.
 
 The difference:
-- **Greek:** Three persons (Father, Son, Spirit). The Spirit-person indwells you, distinct from the Father and Son.
-- **Hebrew:** One God. God's presence (called Spirit) dwells in you. When the Spirit is in you, *God* is in you.
+- **Greek:** Three divine "persons" (Father, Son, Spirit). The Spirit dwells in you as a distinct entity.
+- **Hebrew:** One God. God's presence (called Spirit, ruach) dwells in you. When the Spirit is in you, *God* is in you.
 
 **Romans 8:9-11 again:** Notice the interchangeability:
 - "The Spirit of God dwells in you"
@@ -261,11 +261,11 @@ A temple is where God's presence dwells. In the Old Testament, God's Shekinah fi
 
 The Spirit as indwelling presence is the continuation of the Shekinah story. God said, "I will dwell among My people." First in a tent, then a building, then in Jesus, now in us.
 
-## The Tension: Person or Presence?
+## The Tension: Separate Entity or God's Presence?
 
-So is the indwelling Spirit a distinct *person* living in you, or is it God's *presence* with you?
+So is the indwelling Spirit a distinct divine entity living in you, or is it God's *presence* with you?
 
-### The Case for Person
+### The Greek Framework
 
 **The Spirit does personal things:**
 - Intercedes (Romans 8:26)
@@ -281,39 +281,40 @@ You can't grieve a force. The Spirit must be *someone*, not just *something*.
 - The Son sends the Spirit (John 15:26)
 - The Spirit glorifies the Son (John 16:14)
 
-These are relational verbs. Persons relate to persons.
+These are relational verbs.
 
-**Conclusion:** The Spirit is a distinct person, the third member of the Trinity, who indwells believers.
+**Greek conclusion:** The Spirit is a distinct divine entity (third "hypostasis"), who indwells believers.
 
-### The Case for Presence
+### The Hebrew Framework
 
 **The Spirit is God's presence:**
 - "Where shall I go from Your Spirit? Or where shall I flee from Your presence?" (Psalm 139:7)—Spirit and presence are parallel
 - "The Lord is the Spirit" (2 Corinthians 3:17)—identity, not distinction
 - To have the Spirit is to have God (Romans 8:9-11)
 
-**The Spirit uses metaphors common to God's attributes:**
-- Wisdom is personified (Proverbs 8)—not a person, but a literary device
-- The Word "goes forth" (Isaiah 55:11)—not a person, but God's will enacted
-- The Shekinah "departed" (Ezekiel 11:23)—not a person, but God's presence withdrawing
+**The Spirit is described using personification—a common Hebrew literary pattern:**
+- Wisdom is personified (Proverbs 8)—not a separate entity, but a literary device
+- The Word "goes forth" (Isaiah 55:11)—not a separate entity, but God's will enacted
+- The Shekinah "departed" (Ezekiel 11:23)—not a separate entity, but God's presence withdrawing
 
-**Personal language doesn't require personhood.** It's how Hebrew speaks of God's activity.
+**Personal language doesn't require a separate entity.** It's how Hebrew speaks of God's activity.
 
-**Conclusion:** The Spirit is God's presence, described using personal metaphors, but not a distinct person.
+**Hebrew conclusion:** The Spirit is God's presence—God Himself active in the world—described using personal metaphors.
 
-### The Unresolved Tension
+### The Biblical Pattern
 
-Which is it?
+**What does Scripture command?**
+- The **Father** is worshipped throughout Scripture
+- The **Son** filled with the Spirit is worshipped (Philippians 2:10-11, Hebrews 1:6)
+- The **Spirit of God** empowers, fills, indwells—but is never commanded as object of worship
 
-**Classical theology says:** Person. The Spirit is the third hypostasis of the Trinity, fully God, distinct from the Father and Son.
-
-**Hebrew critique asks:** Is that necessary? Or can we confess the Spirit's deity and intimacy without multiplying persons?
+The Spirit is the *conduit* of God's power into the world—the means by which God is present and active. This is different from being a separate divine entity alongside the Father and Son.
 
 When the Spirit dwells in you, is it:
-- **Greek answer:** A divine person (the Spirit) taking up residence
+- **Greek answer:** A divine entity (the Spirit) taking up residence
 - **Hebrew answer:** God Himself present with you by His Spirit
 
-Both affirm God's presence. Both affirm the Spirit's deity. But one multiplies persons, the other doesn't.
+Both affirm God's presence. Both affirm the Spirit's deity. But one multiplies divine entities, the other doesn't.
 
 ## Practical Implications
 
@@ -321,11 +322,14 @@ Does this matter for Christian life?
 
 ### Prayer and Worship
 
-If the Spirit is a distinct person, we can pray *to* the Spirit, worship the Spirit as we worship the Father and Son.
+**The biblical pattern of worship:**
+- We pray to the **Father** (Matthew 6:9, John 16:23)
+- We worship the **Son** (Philippians 2:10-11, Hebrews 1:6, Revelation 5:12)
+- We pray and worship **in** or **by** the Spirit (Ephesians 6:18, Philippians 3:3)
 
-If the Spirit is God's presence, we pray to *God*, who is present by His Spirit. We worship the one God, known as Father, Son, Spirit.
+Scripture never commands prayer *to* the Spirit or worship *of* the Spirit as a separate recipient.
 
-**Most Christian worship** does the latter. We pray to the Father, through the Son, in the Spirit. We don't typically pray "Holy Spirit, hear my prayer" (though some charismatic traditions do). We pray to God, empowered by the Spirit.
+**Most Christian worship** follows this pattern: We pray to the Father, through the Son, in/by the Spirit. The Spirit empowers our worship—He is the conduit—not the object of it.
 
 ### Assurance and Intimacy
 
@@ -352,15 +356,18 @@ Either way, we confess: God transforms us. The Spirit is God's power making us l
 
 The Spirit as *presence* is the heart of biblical pneumatology. God is *with* His people. God *dwells* in believers. God's Shekinah, which filled the Tabernacle and Temple, now fills the church.
 
-**The question:** Is this presence a distinct person (the Spirit), or is it God's *mode of being with us* (the Spirit as God's presence)?
+**The question:** Is this presence a distinct divine entity (requiring Greek "hypostasis" language), or is it God's *mode of being with us* (the Spirit as God's presence)?
 
-**Classical theology says:** Person. You need three persons to be Trinitarian.
+**Classical theology says:** You need three "persons" to be Trinitarian.
 
-**Hebrew theology says:** Presence. You need one God who is with His people.
+**Biblical theology asks:** Do we need Greek categories at all? The biblical language is sufficient:
+- **Father**—relational term (source, creator)
+- **Son**—relational term (filled with the Spirit, worshipped)
+- **Spirit of God**—functional term (God's ruach, breath, presence, power)
 
 The lived reality is the same: God is near. God dwells in us. God transforms us. God's presence is our hope.
 
-**Maybe the categories don't matter as much as the reality.**
+**Maybe the Greek categories don't matter as much as the reality.**
 
 God is with us. That's the promise. That's the fulfillment. That's the Spirit.
 

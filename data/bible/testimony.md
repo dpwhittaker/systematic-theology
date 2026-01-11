@@ -125,7 +125,7 @@ Propositions can be believed without encounter. Testimony invites: "Come and see
 
 Notice: The Bible never gives us systematic theology.
 
-**It doesn't define the Trinity.** It shows Father, Son, Spirit relating. We systematize it later with Greek categories (essence, person).
+**It doesn't define the "Trinity."** It shows Father, Son, Spirit of God relating. We systematize it later with Greek categories (ousia, hypostasis, "person").
 
 **It doesn't define the atonement.** It uses multiple metaphors—ransom, sacrifice, reconciliation, victory. We build theories (substitution, Christus Victor, moral influence).
 

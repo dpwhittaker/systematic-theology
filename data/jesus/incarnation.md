@@ -251,13 +251,13 @@ Jesus didn't stop being human after the ascension.
 
 ## Greek and Hebrew Perspectives
 
-**Greek framework:** Asks *how* the incarnation works. Two natures, one person (Chalcedon). Kenosis theories. [Hypostatic union](#jesus/two-natures 'Greek').
+**Greek framework:** Asks *how* the incarnation works. Two natures, one "person" (hypostasis). Kenosis theories. [Hypostatic union](#jesus/two-natures 'Greek')—Greek philosophical categories applied to the mystery.
 
-**Strength:** Provides categories, guards against heresy, clarifies what we believe.
+**Strength:** Provides categories, guards against certain heresies.
 
-**Weakness:** Can feel abstract, philosophical. The incarnation becomes a puzzle to solve, not a wonder to worship.
+**Weakness:** Can feel abstract, philosophical. The incarnation becomes a puzzle to solve, not a wonder to worship. May import dualistic categories (divine vs. human) that create problems Scripture doesn't have.
 
-**Hebrew framework:** Testifies *that* God came. *Emmanuel*—God with us. The Word tabernacled among us. We saw Him. We touched Him (1 John 1:1).
+**Hebrew framework:** Testifies *that* God came. *Emmanuel*—God with us. The Word tabernacled among us. We saw Him. We touched Him (1 John 1:1). The Son, filled with the Spirit, walked among us.
 
 **Strength:** Keeps the focus on encounter, relationship, testimony.
 
@@ -288,5 +288,5 @@ Jesus didn't stop being human after the ascension.
 **Related Concepts:**
 - [Virgin Birth](#jesus/virgin-birth 'Drill') - The means of the incarnation
 - [Kenosis](#jesus/kenosis 'Greek') - Christ's self-emptying in taking human form
-- [Trinity](#god/trinity 'Greek') - The eternal Son who became incarnate
+- [Father, Son, Spirit](#god/trinity 'Greek') - The eternal Son who became incarnate
 - [Resurrection](#jesus/resurrection 'Drill') - The vindication of the incarnate one

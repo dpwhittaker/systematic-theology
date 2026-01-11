@@ -1078,3 +1078,57 @@ Applied biblical language framework across the entire site:
 - Spirit is the conduit of God's power, not competing for worship
 - Greek categories (person, substance, essence, hypostasis) questioned as potentially importing pagan dualism and deism
 - Biblical language is sufficient without Greek metaphysical framework
+
+## Continued Application: Biblical Language Framework Site-Wide (Session 2)
+
+Applied biblical language framework to additional files across the site:
+
+1. **spirit/presence.md** - Major updates:
+   - Replaced "third person" language with "separate divine entity"
+   - Added "Biblical Pattern" section with worship pattern (Father/Son worshipped, Spirit is conduit)
+   - Updated Prayer and Worship section with biblical pattern of worship
+   - Revised conclusion to present biblical language (Father, Son, Spirit of God) as sufficient
+
+2. **jesus/lord.md** - Updated Christological sections:
+   - Replaced "three persons, one God" with biblical language (Father, Son, Spirit of God)
+   - Added worship pattern showing Father worshipped, Son filled with Spirit worshipped
+   - Updated Christian monotheism section to emphasize Spirit as conduit, not separate object of worship
+
+3. **jesus/incarnation.md** - Revised Greek/Hebrew perspectives:
+   - Added note about Greek "hypostasis" terminology
+   - Updated weakness section to note dualistic categories
+   - Added Hebrew framework emphasis on Son filled with Spirit
+   - Updated Trinity link to "Father, Son, Spirit"
+
+4. **god/reconciliation.md** - Updated core reconciliations:
+   - Changed "three persons, one essence" to question about Greek philosophical precision
+   - Updated incarnation description: "Son filled with the Spirit became flesh"
+
+5. **intro/intro.md** - Updated central example:
+   - Placed "Trinity" in quotes to highlight as Greek term
+   - Replaced "three persons and one substance" with explicit Greek terms (hypostases, ousia)
+   - Added question: "Did Greek philosophy improve on this?"
+
+6. **bible/testimony.md** - Updated Trinity reference:
+   - Changed "person" to explicit Greek terminology (ousia, hypostasis, "person")
+   - Changed "Spirit" to "Spirit of God"
+
+7. **god/names.md** - Updated Elohim interpretation:
+   - Changed "Trinity" to "Father, Son, Spirit" in plural of fullness interpretation
+
+8. **spirit/indwelling.md** - Major updates:
+   - Changed "person taking up residence" to "separate divine entity"
+   - Updated Greek theology section heading and content
+   - Changed "three persons" to "three hypostases" where appropriate
+   - Reframed systematic theology question around biblical vs. Greek categories
+
+9. **god/god.md** - Updated links:
+   - Changed "Trinity" link text to "Father, Son, Spirit"
+   - Fixed incarnation link path
+
+**Consistent changes throughout:**
+- Replaced "person/persons" (Greek hypostasis) with "entity" or biblical terms
+- Replaced "Trinity" with "Father, Son, Spirit of God" or placed in quotes
+- Added worship pattern where appropriate (Father/Son worshipped, Spirit is conduit)
+- Noted Greek terminology (hypostasis, ousia) explicitly when discussing philosophical categories
+- Presented biblical language as sufficient alternative to Greek metaphysics
