@@ -1146,3 +1146,22 @@ Added new section to spirit/ruach.md: "Ruach Elohim, Ruach YHWH, Ruach HaKodesh:
 - Different names emphasize different aspects: Elohim (Creator), YHWH (covenant), HaKodesh (holiness)
 
 **Thesis implication:** The Greek question "Is the Holy Spirit a different person from the Spirit of God?" is foreign to Hebrew thought. One God, one Spirit, different names for the same reality.
+
+## Added: spirit/heresy.md - Addressing Historical Heresy Charges
+
+Created new page acknowledging that the site's position would likely be condemned by the historic councils, and defending the choice.
+
+**Heresies addressed:**
+1. **Modalism (Sabellianism)** - Response: We affirm Father-Son distinction; question only whether Spirit requires third hypostasis
+2. **Pneumatomachianism (Macedonianism)** - Response: We affirm Spirit's full deity; deny nothing about Spirit's nature, only Greek "person" category
+3. **Unitarianism** - Response: We emphatically affirm Son's deity; note Scripture treats Spirit differently than Son
+
+**Key arguments:**
+- Councils used Greek philosophical categories (ousia, hypostasis) to answer threats
+- Question raised: Were these categories *necessary* or did they create new problems?
+- Constantinople says Spirit "with Father and Son together is worshipped" - but Scripture never commands worship OF the Spirit
+- Alternative proposed: Biblical language (Father, Son, Spirit of God) may be sufficient without Greek metaphysics
+- Risk acknowledged: historical isolation, potential slippery slope, questioning 1,600 years of consensus
+- Final standard: Scripture judges tradition, not vice versa (sola Scriptura)
+
+**Conclusion:** By councils' standards, likely heretical. By Scripture's standards, faithful to the biblical testimony.

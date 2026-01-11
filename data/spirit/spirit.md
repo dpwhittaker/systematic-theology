@@ -14,7 +14,7 @@ The **Spirit of God**—*Ruach Elohim*, *Ruach HaKodesh*. God's breath, presence
 - [*Gifts* of power](#spirit/gifts 'Drill') - Miraculous charismata, cessationism debate
 - [*Fruit* of character](#spirit/fruit 'Drill') - Galatians 5, transformation over time
 
-**The fundamental question:** Does the [Greek formulation](#spirit/person 'Greek') ("third person of the Trinity") illuminate or obscure Scripture's testimony about the Spirit of God?
+**The fundamental question:** Does the [Greek formulation](#spirit/person 'Greek') ("third person of the Trinity") illuminate or obscure Scripture's testimony about the Spirit of God? This question raises issues of [historical heresy](#spirit/heresy 'Greek')—we address those charges directly.
 
 **The biblical pattern:**
 - The **Father** is worshipped throughout Scripture
