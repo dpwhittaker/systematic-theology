@@ -2,7 +2,7 @@
 title: Final Judgment
 shortTitle: Judgment
 ---
-[Eschatology](#eschatology/eschatology 'Parent')
+[End Times](#eschatology/eschatology 'Parent')
 ---
 God's final accounting for all humanity.
 

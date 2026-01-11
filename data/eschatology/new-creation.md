@@ -2,7 +2,7 @@
 title: New Creation
 shortTitle: New Creation
 ---
-[Eschatology](#eschatology/eschatology 'Parent')
+[End Times](#eschatology/eschatology 'Parent')
 ---
 Not escape from creation, but its redemption.
 

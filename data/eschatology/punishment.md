@@ -2,7 +2,7 @@
 title: Eternal Punishment
 shortTitle: Hell
 ---
-[Eschatology](#eschatology/eschatology 'Parent')
+[End Times](#eschatology/eschatology 'Parent')
 ---
 What is the nature of final punishment?
 

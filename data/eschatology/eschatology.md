@@ -1,5 +1,5 @@
 ---
-title: Eschatology
+title: End Times
 ---
 [TOC](#TOC 'Parent')
 ---
@@ -11,9 +11,9 @@ What happens at the end?
 
 Both ask: How does God's story end? Greek systematizes the timeline; Hebrew tells the story.
 ---
-# Eschatology: The Study of Last Things
+# End Times: What Happens at the End?
 
-*Eschatos* (Greek: "last") + *logos* (study). The doctrine of end times, final judgment, and eternal destiny.
+Theologians call this *eschatology* (from Greek *eschatos*, "last" + *logos*, "study")—the doctrine of last things, final judgment, and eternal destiny.
 
 ## The Biblical Narrative Arc
 
@@ -24,17 +24,17 @@ Scripture tells a story with a beginning, middle, and end:
 **Redemption** - God acts through Israel, culminating in Christ
 **Consummation** - God finishes the work, makes all things new
 
-Eschatology is about the consummation—how does God's story end?
+End times theology is about the consummation—how does God's story end?
 
 ## Greek Systematic Approach
 
-Western theology tends to systematize eschatology into:
+Western theology tends to systematize end times into:
 
-**Individual eschatology:**
+**Individual end times:**
 - [Death](#eschatology/death 'Drill') and the intermediate state
 - Heaven and hell as destinations
 
-**Cosmic eschatology:**
+**Cosmic end times:**
 - Christ's return (Second Coming)
 - [Resurrection](#eschatology/resurrection 'Drill') of the dead
 - Final [judgment](#eschatology/judgment 'Drill')
@@ -50,7 +50,7 @@ Western theology tends to systematize eschatology into:
 
 ## Hebrew Apocalyptic Approach
 
-Hebrew/Jewish eschatology emerges from apocalyptic literature—Daniel, Ezekiel, Isaiah, Zechariah, Revelation.
+Hebrew/Jewish end times thinking emerges from apocalyptic literature—Daniel, Ezekiel, Isaiah, Zechariah, Revelation.
 
 **Key features:**
 
@@ -60,7 +60,7 @@ Hebrew/Jewish eschatology emerges from apocalyptic literature—Daniel, Ezekiel,
 
 **Two ages:** *Olam hazeh* (this age) and *olam haba* (the age to come). The Messiah inaugurates the new age; it overlaps with the old until consummation.
 
-**Corporate focus:** Eschatology is about Israel's vindication, the nations' judgment, creation's restoration—not primarily individual souls going to heaven.
+**Corporate focus:** End times is about Israel's vindication, the nations' judgment, creation's restoration—not primarily individual souls going to heaven.
 
 **New creation:** Not escape from the material world, but its redemption. "Behold, I am making all things new" (Revelation 21:5)—not "all new things."
 
@@ -98,9 +98,9 @@ Three major positions on Revelation 20's "thousand years":
 
 All three are held by orthodox Christians. The debates are about interpretation, not orthodoxy.
 
-## The Heart of Eschatology
+## The Heart of End Times
 
-Ultimately, eschatology answers: **Does God win?**
+Ultimately, end times theology answers: **Does God win?**
 
 The resounding biblical answer: Yes.
 

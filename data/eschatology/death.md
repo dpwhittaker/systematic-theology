@@ -2,7 +2,7 @@
 title: Death and Intermediate State
 shortTitle: Death
 ---
-[Eschatology](#eschatology/eschatology 'Parent')
+[End Times](#eschatology/eschatology 'Parent')
 ---
 What happens when we die?
 

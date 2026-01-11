@@ -17,7 +17,7 @@ Traditional systematic theology divides into topics:
 [Church](#church/church 'Drill') - Body, mission, sacraments
 [Baptism](#baptism/baptism 'Drill') - Modes, meaning, timing
 [Free Will](#freewill/freewill 'Drill') - Predestination, choice, sovereignty
-[Eschatology](#eschatology/eschatology 'Drill') - Death, resurrection, judgment, new creation
+[End Times](#eschatology/eschatology 'Drill') - Death, resurrection, judgment, new creation
 [Ethics](#ethics/ethics 'Drill') - Christian living, moral theology, virtue
 
 # Alternative Approaches

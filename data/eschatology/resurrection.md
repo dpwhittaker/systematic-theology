@@ -1,7 +1,7 @@
 ---
 title: Resurrection
 ---
-[Eschatology](#eschatology/eschatology 'Parent')
+[End Times](#eschatology/eschatology 'Parent')
 ---
 Bodily resurrection—not escape from the body, but its redemption.
 
