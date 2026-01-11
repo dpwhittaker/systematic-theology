@@ -1040,3 +1040,41 @@ Updated sections 9.3 and 9.5 to use biblical language instead of Greek Trinity t
 - To "Use biblical language for Father, Son, and Spirit of God (spirit/person.md)"
 
 Both sections now consistently reflect the biblical language approach throughout the document.
+
+Applied biblical language framework across the entire site:
+
+**Key files updated:**
+
+1. **spirit/person.md** - Major rewrite:
+   - Renamed to "The Spirit of God"
+   - Added worship pattern insight (Father/Son worshipped, Spirit is conduit of power)
+   - Reframed conclusion: "Biblical language for biblical testimony"
+   - Emphasized Father, Son, Spirit of God as sufficient relational/functional terms
+
+2. **spirit/spirit.md** - Updated summary:
+   - Added biblical pattern (worship directed to Father and Son)
+   - Reframed fundamental question about Greek categories
+
+3. **spirit/ruach.md** - Enhanced conclusion:
+   - Added worship pattern section showing Father/Son worshipped, Spirit never commanded
+   - Strengthened "Biblical Language for Biblical Testimony" conclusion
+   - Clarified "Not modalism, not Greek ontology"
+
+4. **god/trinity.md** - Renamed and reframed:
+   - Title changed to "Father, Son, and Spirit of God"
+   - Added worship pattern to summary
+   - Updated article heading to question Greek categories
+   - Revised See Also section with biblical language
+
+5. **jesus/two-natures.md** - Added Hebrew alternative:
+   - Presented Hebrew testimony alongside Greek formulation
+   - Linked to Spirit of God (ruach) concept
+   - Questioned whether Greek "nature" categories create problems Scripture doesn't have
+   - Offered Hebrew alternative: ruach indwelling nephesh
+
+**Framework applied throughout:**
+- Father, Son, Spirit of God = relational and functional terms
+- Father is worshipped, Son filled with Spirit is worshipped
+- Spirit is the conduit of God's power, not competing for worship
+- Greek categories (person, substance, essence, hypostasis) questioned as potentially importing pagan dualism and deism
+- Biblical language is sufficient without Greek metaphysical framework
