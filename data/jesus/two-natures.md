@@ -6,13 +6,13 @@ shortTitle: Two Natures
 ---
 How can Jesus be both fully God and fully man?
 
-**The problem:** God is infinite, eternal, impassible, immutable. Man is finite, temporal, suffering, changing. These seem incompatible.
-
 **Greek solution:** Two complete natures (divine and human) united in one person (hypostatic union). Defined at Council of Chalcedon (451 AD).
 
-**The tension:** If He's fully human, how can He be omniscient? If He's fully God, how can He die? Answering one question raises another.
+**Hebrew testimony:** The Son, filled with the [Spirit of God](#spirit/ruach 'Hebrew'), was born, lived, died, and rose. "The Word became flesh" (John 1:14). The mystery remains.
 
-Is this a solution or a restatement of the mystery?
+**The question:** Does the Greek formulation ("two natures, one person") illuminate Scripture, or does it import categories that create problems Scripture doesn't have?
+
+The [incarnation](#jesus/incarnation 'Hebrew') may be simpler in Hebrew thought: God's ruach fully indwelling the human nephesh Jesus—God's presence embodied—without requiring Greek "nature" categories that oppose divine/human.
 ---
 # The Two Natures of Christ
 
