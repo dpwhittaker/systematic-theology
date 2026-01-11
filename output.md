@@ -1004,3 +1004,25 @@ Reviewed and revised PotentialBiases.md to remove "precision guards heresy" argu
 - Revised section 3.1 Trinity recommendations to use biblical arguments (Jesus prays, baptism, "another Helper") rather than Greek substance/essence language
 - Revised implementation recommendations section 7.1 to reflect these changes
 - Key insight: Biblical testimony itself refutes heresy relationally (Jesus praying to Father) without requiring Greek categories that may bring pagan philosophy with them
+
+Replaced Greek "person/persons" language with biblical terminology throughout PotentialBiases.md:
+
+**Key theological insight from user:**
+Even "person" is sanitized Greek language (hypostasis). Scripture uses relational and functional terms:
+- **Father** (relational)
+- **Son** (relational, filled with the Spirit of God)
+- **Spirit of God / Holy Spirit** (God's ruach, breath, presence, power)
+
+**Worship pattern reveals function:**
+- Scripture commands worship of the Father
+- Scripture commands worship of the Son filled with the Spirit
+- Scripture never commands worship of the Spirit - He is the conduit of God's power
+
+**Revisions made:**
+- Section 3.1 Option 1: Replaced "three persons" with "Father, Son, and Spirit of God" terminology
+- Section 3.1 Option 2: Complete rewrite using biblical language instead of Greek categories
+- Section 1.6 Example 3: Changed from "Trinity" to "Father, Son, and Spirit of God"
+- Section 3.1 Analysis: Added note that Scripture never commands Spirit worship
+- Section 3.1 Framework discussion: Distinguished biblical pattern from Greek formulation
+- Section 7.1 implementation: Updated Trinity recommendation to use biblical language
+- Emphasized throughout: Biblical language (Father, Son, Spirit of God) is sufficient without importing Greek metaphysical categories (person, substance, essence) that may bring pagan dualism and deism

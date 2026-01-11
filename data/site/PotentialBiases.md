@@ -326,19 +326,21 @@ When faced with apparent contradiction, Greek logic applies the law of non-contr
 2. Provide the solution (hypostatic union formula)
 3. Obscure a simpler Hebrew understanding (God's presence embodied)
 
-**Example 3: The Trinity**
+**Example 3: Father, Son, and Spirit of God**
 
-**This case is different**—the Trinity problem arises from **Scripture itself**, not Greek imposition:
-- Father is God, Son is God, Spirit is God (multiple texts)
-- Father ≠ Son ≠ Spirit (Jesus prays to Father, sends Spirit)
+**This case is different**—the biblical pattern arises from **Scripture itself**, not Greek imposition:
+- Father is God, Son is God, Spirit of God is deity (multiple texts)
+- Father ≠ Son ≠ Spirit (Jesus prays to Father, Spirit fills the Son)
 - There is one God (Shema, Deuteronomy 6:4)
 
-**Greek formulation helps:** Three persons (hypostases), one essence (ousia)
+**Greek formulation:** Three persons (hypostases), one essence (ousia)
 
-**But Greek categories may not be the only way:**
-- Hebrew: Three irreducible personal relationships constituting the one YHWH
-- Eastern Orthodox: Persons defined by eternal relations, not sharing abstract essence
-- The biblical data requires explanation; Greek may not be the only adequate framework
+**But the biblical language is already sufficient:**
+- **Father, Son, Spirit of God** - relational and functional terms
+- The Father is worshipped, the Son filled with the Spirit is worshipped, the Spirit is the conduit of God's power
+- No Greek substance categories required to honor the biblical testimony
+
+The question: Does "three persons, one substance" illuminate the biblical pattern, or import Greek metaphysical categories that bring pagan dualism and deism with them?
 
 ### 1.7 The Test: When Greek Helps vs. Hinders
 
@@ -640,16 +642,24 @@ The Word became flesh—particular, embodied, historical. Scripture is also part
 data/spirit/spirit.md:
 > "Jewish sources explicitly deny the Spirit as a distinct person. The Talmud speaks of Ruach HaKodesh as prophetic inspiration that 'departed from Israel' after the last prophets—not a divine person, but God's activity."
 
+**NOTE:** This quote uses Greek "person" language. Biblical language would be: "The Spirit of God is not presented in Jewish sources as separate from God, but as God's active presence and power."
+
 data/spirit/ruach.md (conclusion):
 > "Classical theology says we need 'person' to protect the Spirit's deity and avoid heresy. Hebrew thought asks: Or does 'person' distort the revelation by imposing Greek categories on Hebrew testimony?"
 
 **Analysis:**
 
-The Nicene-Constantinopolitan Creed (381 AD) affirms: "We believe in the Holy Spirit, the Lord, the giver of life, who proceeds from the Father [and the Son], who with the Father and the Son is worshiped and glorified."
+The Nicene-Constantinopolitan Creed (381 AD) claims the Spirit is "worshiped and glorified" alongside Father and Son.
 
-This is **ecumenical orthodoxy** - affirmed by Catholic, Eastern Orthodox, and Protestant traditions for 1,600+ years.
+**However, Scripture never commands worship of the Spirit.** Worship is directed to:
+- The **Father** (throughout Scripture)
+- The **Son** filled with the Spirit (Philippians 2:10-11, Hebrews 1:6)
 
-**Modalism** (also called Sabellianism) teaches that Father, Son, and Spirit are sequential modes or manifestations of one divine person, not three distinct persons. This was condemned as heresy in the early church.
+The **Spirit of God** is the conduit of God's power, filling the Son, empowering believers—not competing for worship.
+
+**Modalism** (also called Sabellianism) teaches that Father, Son, and Spirit are sequential modes or manifestations. This contradicts Scripture where Jesus prays to the Father and promises "another Helper."
+
+**But:** The alternative to modalism isn't Greek "three persons, one substance." It's biblical language: Father, Son, and Spirit of God—relational and functional terms requiring no Greek metaphysics.
 
 **The Problem:**
 
@@ -658,9 +668,11 @@ While the site claims to explore the Hebrew-Greek tension, presenting modalism a
 2. Cannot account for Jesus praying to the Father, being baptized while Spirit descends and Father speaks
 3. Makes nonsense of "I will ask the Father, and he will give you another Helper" (John 14:16)
 
-**The Hebrew-Greek Framework Cannot License Heresy:**
+**The Hebrew-Greek Framework Must Distinguish Biblical Pattern from Greek Formulation:**
 
-If the framework allows readers to conclude "maybe the Trinity is just Greek philosophy imposed on Hebrew thought," the framework has failed. The doctrine of the Trinity arose FROM biblical exegesis (Jesus praying to Father, Spirit sent by both), not FROM Greek philosophy imposed onto an unwilling text.
+The biblical pattern of Father, Son, and Spirit of God is clear in Scripture: Jesus prays to the Father, the Spirit descends, the Father speaks. This is biblical data requiring explanation.
+
+But the Greek formulation ("three persons, one substance") may not be required to honor this biblical pattern. The question isn't whether Father, Son, and Spirit are real—it's whether Greek metaphysical categories (person, substance, essence) illuminate or obscure the biblical testimony.
 
 **RECOMMENDATION:**
 
@@ -678,23 +690,24 @@ Modalism was rejected by the early church because it cannot account for the bibl
 
 The biblical data itself requires honoring ALL the scriptural testimony:
 - There is one God (Shema: Deuteronomy 6:4)
-- The Father is God, the Son is God, the Spirit is God (throughout Scripture)
+- The **Father** is God, the **Son** is God, the **Spirit of God** is deity
 - The Father is not the Son, the Son is not the Spirit (they relate to each other)
 
-The question is whether Greek formulations (substance, essence, hypostasis) illuminate this reality or obscure it with categories that import pagan dualism and deism.
+**The biblical language is relational and functional:**
+- **Father** - relational term
+- **Son** - relational term, filled with the Spirit of God
+- **Spirit of God / Holy Spirit** - God's ruach, His breath, His presence, His power in the world
 
-**The Hebrew contribution:**
+**Worship patterns in Scripture:**
+- We worship the **Father** (commanded throughout Scripture)
+- We worship the **Son** (Philippians 2:10-11, Hebrews 1:6, Revelation 5:12-14)
+- The **Spirit** is never commanded as object of worship - He is the conduit of God's power, filling the Son, empowering believers
 
-Hebrew thought enriches Trinitarian theology by emphasizing:
-- **Ruach** as God's active, life-giving presence (not abstract essence)
-- **Relational** understanding - the persons exist in relationship, not isolation
-- **Dynamic** - the Spirit moves, proceeds, is sent (not static being)
+When the Spirit fills the Son, the Father is pleased. The Spirit doesn't compete for worship - He manifests God's presence and power.
 
-Hebrew insight doesn't require rejecting the biblical testimony of three persons. It requires understanding "person" relationally rather than through Greek substance categories.
+**The question:** Does Greek language of "three persons" (hypostases) illuminate this biblical pattern, or obscure it by importing substance categories rooted in pagan philosophy?
 
-The biblical pattern is clear: Father, Son, and Spirit relate to one another in Scripture itself. This isn't Greek imposition—it's biblical data requiring explanation.
-
-The question remains: Can we honor this biblical pattern without importing Greek metaphysical categories that may bring pagan dualism and deism with them?
+Biblical language is sufficient: Father, Son, and Spirit of God - each deity in their own way for their own reasons, functioning in relationship, not requiring Greek metaphysical categories to protect the mystery.
 ```
 
 **Option 2: Reframe the Hebrew Perspective as Compatible with Orthodoxy**
@@ -702,24 +715,27 @@ The question remains: Can we honor this biblical pattern without importing Greek
 Replace the modalism-suggesting sections with:
 
 ```markdown
-## Hebrew Perspective Enriches (Doesn't Replace) Trinity
+## Hebrew Perspective: Biblical Language for Biblical Testimony
 
-Hebrew thought doesn't reject the three persons—it asks us to understand them differently:
+Hebrew thought uses the language Scripture itself provides:
 
-**Not:** Three separate individuals who happen to cooperate (tritheism)
-**But:** Three irreducible personal relationships constituting one God
+**Not:** Three hypostases (persons) sharing one ousia (substance)
+**But:** Father, Son, and Spirit of God—relational and functional language
 
-**Not:** Static, isolated persons defined by abstract attributes
-**But:** Dynamic persons defined by their eternal mutual indwelling (perichoresis)
+**Not:** Abstract substance categories from Greek philosophy
+**But:** Concrete relational terms: Father (source), Son (filled with the Spirit), Spirit (God's breath/power)
 
-**Ruach HaKodesh** emphasizes:
+**Ruach HaKodesh** (Spirit of God) is:
 - God's active presence, not passive essence
-- Breath, wind, movement—not stasis
-- Life-giving power, not philosophical abstraction
+- Breath, wind, movement—not static being
+- Life-giving power in the world, filling the Son, empowering believers
 
-The biblical pattern shows the Spirit as fully God, distinct from Father and Son, yet never independent—always proceeding, sent, bearing witness.
+**Worship patterns reveal function:**
+- The **Father** is worshipped
+- The **Son** filled with the Spirit is worshipped
+- The **Spirit** is the conduit of God's power, not competing for worship
 
-This is Hebrew dynamic, which may or may not require Greek substance/essence categories to protect. The question is whether those categories illuminate the biblical pattern or import foreign frameworks rooted in pagan dualism and deism.
+This biblical pattern doesn't require Greek categories (person, substance, essence) that may import pagan dualism and deism. Father, Son, Spirit of God—each deity in their own way, functioning in relationship, requiring no metaphysical framework beyond Scripture's own testimony.
 ```
 
 ### 3.2 Atonement Theory Balance
@@ -984,10 +1000,11 @@ These files require strengthening of conservative positions:
    - Show Jesus's view, logic of inspiration, Chicago Statement nuances
    - Then present alternatives (current content)
 
-3. **Add Trinity safeguards in spirit/person.md**
+3. **Use biblical language in spirit/person.md**
    - Use biblical arguments to refute modalism (Jesus prays, baptism scene, "another Helper")
-   - Clarify that biblical data requires three persons, one God
-   - Question whether Greek substance/essence categories illuminate or obscure this biblical pattern
+   - Use biblical language: Father, Son, and Spirit of God—relational and functional terms
+   - Note worship is commanded toward Father and Son, but Spirit is the conduit of God's power
+   - Question whether Greek categories (person, substance, essence) illuminate or obscure biblical pattern
 
 4. **Affirm PSA priority in jesus/atonement.md**
    - After multi-model exploration, clarify PSA's strongest biblical warrant
