@@ -6,7 +6,7 @@ shortTitle: Interpretation
 ---
 How do we understand Scripture?
 
-**Greek methods:** Grammatical-historical (recover original meaning), systematic (fit verses into doctrinal system), allegorical (find hidden meanings).
+**Systematic methods:** Grammatical-historical (recover original meaning—foundational), systematic (fit verses into doctrinal system), allegorical (find hidden meanings).
 
 **Hebrew methods:** [Midrash](#bible/midrash 'Hebrew') (wrestle with text), Peshat/Derash (plain and deeper meanings), *Lectio Divina* (meditative reading for encounter).
 
@@ -16,7 +16,7 @@ Extract propositions or encounter the living God?
 
 Different methods reflect different assumptions about what Scripture is and what reading aims to accomplish.
 
-## Greek Historical-Critical Method
+## Grammatical-Historical Method
 
 **Goal:** Recover the original meaning—what the author intended for the original audience.
 
@@ -30,7 +30,31 @@ Different methods reflect different assumptions about what Scripture is and what
 **Assumption:** Meaning is fixed in the past. Our job is to recover it.
 
 **Strength:** Guards against reading our ideas into the text.
-**Weakness:** Makes meaning dependent on scholarly expertise. Treats Scripture like any ancient document.
+**Potential pitfall:** May treat Scripture like any ancient document without recognizing divine authorship.
+
+### Why Grammatical-Historical Is Foundational
+
+Despite its limitations, this method deserves primacy for several reasons:
+
+**1. Respects the human authors God chose:**
+God didn't bypass human authors—He used them. Paul wrote to specific churches with specific problems. Moses wrote to Israel. Understanding what they meant honors God's choice to communicate through them.
+
+**2. Prevents interpretive chaos:**
+Without authorial intent as anchor, texts can mean anything. Medieval allegory proved this: one interpreter sees Abraham's two sons as law and grace, another sees them as body and soul. Which is right? Only the author's intent provides objective criteria.
+
+**3. The NT authors modeled it:**
+When NT writers cite the OT, they typically respect the original context:
+- Matthew 2:15 ("Out of Egypt I called my son") recognizes Hosea's historical reference while seeing typological fulfillment
+- Paul in Galatians 3:16 argues from the actual grammar of Genesis
+- Hebrews interprets the Tabernacle by understanding what it actually was
+
+**4. Jesus assumed it:**
+"Have you not read...?" (Matthew 12:3, 19:4, 22:31). Jesus expected people to understand Scripture by reading it—its plain, grammatical, historical sense.
+
+**5. It's the foundation, not the ceiling:**
+Grammatical-historical interpretation establishes *what the text says*. Additional reflection (theological, devotional, applicational) builds on this foundation. Without the foundation, everything else floats unmoored.
+
+The goal isn't to limit Scripture to academic dissection but to ensure our deeper readings are tethered to what God actually said through human authors.
 
 ## Systematic/Doctrinal Method
 

@@ -18,6 +18,51 @@ Hebrew view: Scripture is [testimony](#bible/testimony 'Hebrew')—true witness,
 
 This sparked decades of debate: Does inerrancy extend to science? History? Numbers? Grammar?
 
+## The Case for Inerrancy
+
+Conservative evangelicals argue inerrancy is the only position consistent with Scripture's own claims and Jesus's teaching:
+
+### Jesus's View of Scripture
+
+**"Scripture cannot be broken"** (John 10:35). Jesus treats every detail of the Old Testament as authoritative—even verb tenses matter.
+
+**Matthew 22:32:** Jesus proves resurrection from "I AM the God of Abraham" (present tense). His argument depends on a single word's tense. If Scripture contained errors, this argument collapses.
+
+**Matthew 5:18:** "Until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished." Jesus affirms Scripture down to the smallest letter.
+
+### The Logic of Inspiration
+
+1. God is truth and cannot lie (Titus 1:2, Numbers 23:19)
+2. Scripture is God-breathed (2 Timothy 3:16)
+3. Therefore, Scripture must be truthful in all it affirms
+
+To say God inspired errors contradicts His character. If God superintended Scripture's production, can the result contain falsehood?
+
+### The Chicago Statement's Precision
+
+Inerrancy doesn't claim wooden literalism. It carefully accounts for:
+- **Genre:** Poetry, apocalyptic, and parable use figurative language
+- **Phenomenological language:** "The sun rises" is true as observed, not scientific error
+- **Copyist variations:** Inerrancy applies to original manuscripts (autographs)
+- **Different reporting styles:** Gospel parallels show different emphases, not contradictions
+- **Approximations:** Round numbers, summaries, paraphrases are not errors
+
+**What inerrancy claims:** In the original manuscripts, Scripture is wholly true in everything it affirms, rightly interpreted within genre and cultural context.
+
+### The Slippery Slope Concern
+
+If we accept errors in "minor" historical details, what principle stops us from rejecting resurrection when skeptics call it an error?
+
+Who decides which errors are "minor" and which undermine faith? The line is arbitrary. Better to trust Scripture fully, allowing tensions to drive deeper study rather than assuming error.
+
+### The Pastoral Dimension
+
+Inerrancy provides confidence: "Thus says the LORD" means God said it, truly. If Scripture can err, how do we distinguish God's voice from human mistakes?
+
+**2 Timothy 3:16-17:** "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work."
+
+This "equipping" requires trustworthy Scripture. Uncertainty about reliability undermines confidence for living.
+
 ## Levels of Inerrancy
 
 **1. Absolute/Full Inerrancy**

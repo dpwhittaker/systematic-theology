@@ -183,9 +183,30 @@ How is this possible?
 
 God's word is living, layered, multifaceted. It has seventy faces. The text holds more than one meaning.
 
-**The Greek mind rejects this.** The law of non-contradiction: A cannot be both B and not-B in the same sense at the same time.
+**The Greek mind questions this.** The law of non-contradiction: A cannot be both B and not-B in the same sense at the same time.
 
-**The Hebrew mind embraces this.** God's truth exceeds our logic.
+**The Hebrew mind embraces paradox.** God's truth exceeds our logic.
+
+**But wait:** The law of non-contradiction isn't arbitrary Greek philosophy—it's the foundation of meaningful speech.
+
+If A and not-A can both be true in the same sense at the same time, then:
+- "Jesus rose from the dead" means nothing (because "Jesus didn't rise" is equally true)
+- "God is good" means nothing (because "God is not good" is equally true)
+- "Love your neighbor" means nothing (because "hate your neighbor" is equally true)
+- All theology collapses into incoherence
+
+*Eilu v'eilu* doesn't actually reject logic. It recognizes that:
+- Both rabbinic schools see *part* of a complex truth
+- Both approaches have wisdom to contribute
+- Practical rulings still must be made (the law follows Hillel, not both simultaneously)
+
+This is **complementary perspectives on ONE truth**, not contradictory claims both being true in the same sense.
+
+**The Hebrew insight:** Truth is richer than simple either/or. Multiple perspectives illuminate different facets of reality.
+
+**The Greek safeguard:** Actual contradictions destroy meaning. If anything can be affirmed, nothing is affirmed.
+
+Both are needed.
 
 ## Multiple Meanings, Not Relativism {#not-relativism}
 

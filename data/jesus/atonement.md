@@ -332,25 +332,52 @@ The New Testament uses many metaphors for what the cross accomplished:
 
 **Hebrew approach:** Hold all the images. Each reveals truth. The fullness is beyond systematization.
 
-## Eilu V'Eilu: These and These
+## Why Penal Substitutionary Atonement Holds Primary Place
 
-Perhaps penal substitution is true (He bore the penalty).
+While all models illuminate aspects of the cross, PSA has the strongest direct biblical support:
 
-Perhaps Christus Victor is true (He defeated death).
+**1. Most explicit biblical language:**
+- Isaiah 53:5-6: "He was wounded **for our transgressions**... the LORD has **laid on him the iniquity** of us all"
+- 2 Corinthians 5:21: "For our sake he made him to be sin who knew no sin"
+- Galatians 3:13: "Christ redeemed us from the curse of the law by **becoming a curse for us**"
+- 1 Peter 2:24: "He himself **bore our sins** in his body on the tree"
 
-Perhaps moral influence is true (He demonstrated love).
+**2. Sacrifice system presupposes it:**
+The entire Levitical system—with its laying of hands (identification), death of the substitute, blood application—only makes sense if sin transfers to the substitute and is dealt with there.
 
-**Not:** One is right, the others wrong.
+**3. Propitiation language:**
+*Hilasterion* (Romans 3:25) and *hilasmos* (1 John 2:2, 4:10) denote satisfaction of wrath. This is penal substitution's core claim.
 
-**But:** All are partial glimpses of the inexhaustible mystery of the cross.
+**4. Jesus's own words:**
+"My blood of the covenant, which is poured out for many **for the forgiveness of sins**" (Matthew 26:28). The mechanism: blood poured out → forgiveness achieved.
 
-**The Hebrew instinct:** Don't reduce it to one mechanism. Hold the tension.
+**5. Historical consensus:**
+While stated with different emphases, the core insight—Christ bearing our penalty—has been affirmed by Augustine, Aquinas, Luther, Calvin, the Reformers, and the majority of evangelical Christianity.
 
-**The Greek instinct:** Systematize it. Explain it. Make it coherent.
+**The other models contribute genuine insights:**
+- Christus Victor reminds us the cross is victory, not just transaction
+- Moral influence preserves God's love as central motivation
+- Recapitulation captures the Adam-Christ typology
 
-**Which is right?**
+**But PSA provides the mechanism** the others presuppose. Why is the cross a victory? Because sin's penalty was paid. Why does God's love move us? Because He took our punishment Himself. What did the second Adam accomplish? He bore the curse the first Adam earned.
 
-Perhaps both. Perhaps we need systematic clarity *and* humble mystery.
+## Eilu V'Eilu: Multiple Perspectives
+
+Perhaps penal substitution is primary (He bore the penalty).
+
+And Christus Victor is also true (He defeated death through that bearing).
+
+And moral influence is also true (He demonstrated love by taking punishment we deserved).
+
+**Not:** All equally valid with no distinction.
+
+**But:** PSA at the center, other models illuminating different facets of the same event.
+
+**The Hebrew instinct:** Don't reduce it to one mechanism. Hold the images together.
+
+**The Greek instinct:** Systematize it. Recognize primary and secondary.
+
+**Synthesis:** PSA provides the core explanation; other models provide complementary perspectives on the same glorious reality. The fullness is beyond any single theory, but not all theories are equally central.
 
 Or perhaps Paul's answer suffices: "I decided to know nothing among you except Jesus Christ and him crucified" (1 Corinthians 2:2).
 

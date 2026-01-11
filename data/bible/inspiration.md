@@ -47,7 +47,50 @@ Scripture *becomes* the Word of God when the Spirit uses it to confront us. It's
 *Strength:* Emphasizes living encounter over dead letter.
 *Weakness:* Makes authority subjective—dependent on experience, not the text itself.
 
-## The Underlying Assumption
+## The Case for Verbal Plenary Inspiration
+
+Among these views, verbal plenary inspiration has the strongest biblical warrant:
+
+### 1. Jesus Treats Individual Words as Authoritative
+
+**Matthew 22:32:** Jesus's argument for resurrection hinges on a *verb tense*: "I AM the God of Abraham" (not "I was"). His argument requires that specific word to be God-breathed.
+
+**Matthew 5:18:** "Not an iota, not a dot, will pass from the Law." If the smallest marks matter, inspiration extends to the words themselves.
+
+**John 10:35:** "Scripture cannot be broken." Jesus treats individual texts as inviolable.
+
+### 2. Paul Argues from Grammar
+
+**Galatians 3:16:** Paul distinguishes "seed" (singular) from "seeds" (plural), building theology on a single word's grammatical number: "It does not say, 'And to seeds,' as referring to many, but rather to one, 'And to your seed,' that is, Christ."
+
+This argument only works if the exact word—not just the concept—is divinely intended.
+
+### 3. The Spirit Speaking Through Authors
+
+**2 Peter 1:21:** "Men spoke from God as they were carried along by the Holy Spirit."
+
+The Spirit didn't just inspire concepts and leave word choice to human invention. The authors were "carried along"—their words were God's words, yet genuinely their own.
+
+**Acts 1:16:** "The Scripture had to be fulfilled, which the Holy Spirit spoke beforehand by the mouth of David."
+
+The Spirit "spoke"—using David's mouth, David's words, but the Spirit's speech.
+
+### 4. 2 Timothy 3:16—*Theopneustos*
+
+"All Scripture is *theopneustos*"—God-breathed.
+
+Not "Scripture contains inspired ideas" but "Scripture IS breathed out by God." The text itself, not just the concepts behind it, is the product of God's breath.
+
+### 5. Human Personality Preserved
+
+Verbal inspiration doesn't require mechanical dictation. Compare:
+- Paul's complex Greek vs. John's simple Greek
+- Isaiah's poetry vs. Ezra's lists
+- Luke's research methods (Luke 1:1-4) vs. prophetic visions
+
+God used their vocabularies, styles, and personalities. Yet what they wrote was exactly what He intended—verbal (every word) and plenary (completely).
+
+### The Underlying Assumption
 
 All these theories assume we must explain *how* inspiration worked—the mechanism, the process.
 

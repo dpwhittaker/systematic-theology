@@ -43,11 +43,29 @@ The image confronts our modern assumption that "study" means silent reading, qui
 
 # Contrast with System
 
-Compare: Systematic theology aims for *resolution*. Build the [categorical system](#intro/intro 'Greek'), answer the questions, achieve doctrinal clarity. The goal is a stable structure, internally consistent, able to answer objections. The emphasis is on *completion*.
+Compare: Systematic theology aims for *resolution*—not to "kill" the text, but to ensure we're not affirming contradictions.
 
-Greek philosophy seeks to resolve contradictions, achieve consistency, arrive at clear definitions. The goal is *closure*. Hebrew thought embraces the struggle itself as the point. Multiple interpretations, ongoing argument, questions that generate more questions—this is not failure to reach truth, but faithfulness to a God who cannot be contained.
+If God cannot lie (Titus 1:2), then apparent contradictions in revelation must be reconciled, or one side reconsidered. To say "God is both just and unjust" in the same sense violates His character.
 
-But what if the text resists completion? What if God prefers questions to conclusions? What if the struggle itself is the relationship?
+Greek philosophy values consistency because contradictions undermine truth. If A and not-A are both affirmed, nothing is affirmed—we've descended into incoherence where words mean nothing.
 
-When systematic theology demands one right answer, does it trade wrestling for winning? Do we lose this creative tension? Do we trade the living struggle for dead certainty? Does it silence the argument God delights to hear?
+Hebrew thought embraces *paradox*—apparent contradictions that reveal truth's complexity. God's sovereignty and human responsibility appear contradictory but are both biblically affirmed. This is paradox, not contradiction—mystery, not incoherence.
+
+But does Hebrew thought embrace actual *contradiction*? When Hillel and Shammai give opposite rulings, can both be fully implemented simultaneously? No—one must be followed in practice (the law follows Hillel).
+
+*Eilu v'eilu* ("these and these are words of the living God") may mean: Both perspectives see part of the truth. Both approaches have merit. Both honor God's word. Not: Logic itself is transcended and contradictions are affirmed.
+
+## The Dangers of Each Approach
+
+**The danger of systematization:** Freezing living truth into static formulas, losing personal encounter for abstract propositions, answering questions the text doesn't ask.
+
+**The danger of pure paradox:** Allowing incoherence in the name of mystery, making truth claims that can mean anything and therefore mean nothing, avoiding the hard work of reconciliation.
+
+**The value of resolution:** Confident assurance enables mission. "I know whom I have believed" (2 Timothy 1:12). Resolution isn't arrogance—it's trust in a God who speaks clearly enough to be understood.
+
+**The value of wrestling:** Humble acknowledgment that finite minds grasp infinite truth imperfectly. The relationship with God matters more than winning arguments about Him.
+
+Can we pursue both clarity AND humility? Systematic coherence AND wrestling with mystery? Confident assurance AND humble acknowledgment of what remains beyond our grasp?
+
+Perhaps the question isn't resolution OR tension, but how to hold both: the confidence to declare "Jesus is Lord" with the humility to say "His ways are higher than our ways."
 ---
