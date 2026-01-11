@@ -158,9 +158,66 @@ The Spirit is *poured out* like water (Isaiah 44:3). This is not the language of
 
 **Pattern:** The future hope is that God's empowering, life-giving, transforming presence will not be limited to prophets, kings, and judges—it will rest on *all* God's people.
 
-## Ruach HaKodesh: The Holy Spirit in Judaism
+## Ruach Elohim, Ruach YHWH, Ruach HaKodesh: One Spirit
 
-In later Jewish writings (Mishnah, Talmud, rabbinic literature), *Ruach HaKodesh* (Holy Spirit) is a standard term. But it never means a distinct person within God.
+A critical question: Does Hebrew Scripture distinguish between different "Spirits"? Are *Ruach Elohim* (Spirit of God), *Ruach YHWH* (Spirit of the LORD), and *Ruach HaKodesh* (Holy Spirit) separate entities—or the same reality described differently?
+
+### The Terms in Hebrew Scripture
+
+**Ruach Elohim (רוּחַ אֱלֹהִים)** - "Spirit of God"
+- Genesis 1:2: "The Spirit of God was hovering over the waters"
+- 1 Samuel 11:6: "The Spirit of God rushed upon Saul"
+- Ezekiel 11:24: "The Spirit lifted me up and brought me in the vision by the Spirit of God"
+
+**Ruach YHWH (רוּחַ יהוה)** - "Spirit of the LORD"
+- Judges 14:6: "The Spirit of the LORD rushed upon Samson"
+- 1 Samuel 16:13: "The Spirit of the LORD rushed upon David"
+- Isaiah 11:2: "The Spirit of the LORD shall rest upon Him"
+- Isaiah 61:1: "The Spirit of the Lord GOD is upon Me"
+
+**Ruach HaKodesh (רוּחַ הַקֹּדֶשׁ)** - "Spirit of Holiness" / "Holy Spirit"
+- **Only 3 occurrences in all of Hebrew Scripture:**
+  1. Psalm 51:11: "Do not cast me from Your presence or take Your Holy Spirit from me"
+  2. Isaiah 63:10: "They rebelled and grieved His Holy Spirit"
+  3. Isaiah 63:11: "Where is He who put His Holy Spirit in their midst?"
+
+### The Evidence: Interchangeable Usage
+
+**These terms are used interchangeably.** There is no indication in Hebrew Scripture that they refer to different entities or different "persons."
+
+**Psalm 51:11** parallels *Ruach HaKodesh* with God's *presence* (paneka, literally "Your face"):
+> "Do not cast me from **Your presence** / or take **Your Holy Spirit** from me."
+
+These are not two things—they are poetic parallelism describing the same reality: God's presence with David. To lose the Holy Spirit *is* to be cast from God's presence.
+
+**Isaiah 63:10-11** uses *Ruach HaKodesh* in the same way other texts use *Ruach YHWH*:
+> "They rebelled and **grieved His Holy Spirit**; therefore He turned to be their enemy... Where is He who put **His Holy Spirit** in their midst?"
+
+Compare with Isaiah 63:14: "The **Spirit of the LORD** gave them rest." Same chapter, same context—*Ruach HaKodesh* and *Ruach YHWH* describe the same reality: God's presence with Israel.
+
+**The interchangeability is striking:**
+- Ruach Elohim creates (Genesis 1:2)
+- Ruach YHWH empowers (Judges 14:6)
+- Ruach HaKodesh dwells with God's people (Isaiah 63:11)
+
+These are not three Spirits. They are three ways of describing the one Spirit of God:
+- *Elohim* emphasizes God as Creator and Mighty One
+- *YHWH* emphasizes God's covenant relationship (His personal name)
+- *HaKodesh* emphasizes God's holiness—the Spirit is set apart, sacred
+
+### Why This Matters
+
+Greek theology developed the idea that "the Holy Spirit" is a distinct *hypostasis* (person) within the Godhead—separate from "the Spirit of God" in some ontological sense.
+
+**Hebrew Scripture knows no such distinction.**
+
+When Joel prophesies "I will pour out My Spirit (*ruach*)" (Joel 2:28), and Peter declares this fulfilled at Pentecost with "the Holy Spirit" (Acts 2:4), there is no shift from one entity to another. It is the same *ruach*—God's breath, God's power, God's presence—now poured out on all flesh.
+
+The Greek question—"Is the Holy Spirit a different person from the Spirit of God?"—is foreign to Hebrew thought. There is one God. There is one Spirit. *Ruach Elohim*, *Ruach YHWH*, *Ruach HaKodesh*—different names for the same reality: **God's active presence in the world.**
+
+## Ruach HaKodesh in Later Judaism
+
+In later Jewish writings (Mishnah, Talmud, rabbinic literature), *Ruach HaKodesh* (Holy Spirit) became the standard term. But it never means a distinct person within God.
 
 ### What Ruach HaKodesh Means in the Talmud
 

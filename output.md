@@ -1132,3 +1132,17 @@ Applied biblical language framework to additional files across the site:
 - Added worship pattern where appropriate (Father/Son worshipped, Spirit is conduit)
 - Noted Greek terminology (hypostasis, ousia) explicitly when discussing philosophical categories
 - Presented biblical language as sufficient alternative to Greek metaphysics
+
+## Added: Ruach Terminology Analysis
+
+Added new section to spirit/ruach.md: "Ruach Elohim, Ruach YHWH, Ruach HaKodesh: One Spirit"
+
+**Key findings documented:**
+- Ruach HaKodesh appears only 3 times in all of Hebrew Scripture (Psalm 51:11, Isaiah 63:10, Isaiah 63:11)
+- All three terms (Ruach Elohim, Ruach YHWH, Ruach HaKodesh) are used interchangeably
+- Psalm 51:11 parallels "Holy Spirit" with "presence" (paneka) - poetic parallelism for same reality
+- Isaiah 63 uses both Ruach HaKodesh (v.10-11) and Ruach YHWH (v.14) in same context
+- The distinction between them as separate "persons" is a Greek development, not found in Hebrew Scripture
+- Different names emphasize different aspects: Elohim (Creator), YHWH (covenant), HaKodesh (holiness)
+
+**Thesis implication:** The Greek question "Is the Holy Spirit a different person from the Spirit of God?" is foreign to Hebrew thought. One God, one Spirit, different names for the same reality.
