@@ -994,3 +994,13 @@ Two standalone pages (Systematic Method and Foreign Structure) were too brief to
 - No loss of content—all concepts integrated seamlessly
 - Better user experience—core tension explained without extra navigation
 - Intro now provides complete context for systematic vs narrative approaches
+
+Reviewed and revised PotentialBiases.md to remove "precision guards heresy" arguments that rely on Greek metaphysical categories (substance, essence, hypostasis) which themselves may import pagan dualism and deism:
+- Removed examples of Arianism defeated by "homoousios" and modalism defeated by Greek philosophical distinctions
+- Revised section 1.2 to remove "Precision guards against heresy" bullet point
+- Revised recommended addition in section 1.2 to remove "Precision guards truth" subsection
+- Revised section 1.7 "Greek thinking HELPS when it:" to remove points 2 & 3 about protecting biblical truth and recognizing heresy
+- Revised section 1.7 summary to add: "The biblical data itself guards against heresy through its own internal testimony (Jesus praying to the Father, all three persons at the baptism, etc.) - not through Greek metaphysical categories that may themselves import pagan dualism and deism"
+- Revised section 3.1 Trinity recommendations to use biblical arguments (Jesus prays, baptism, "another Helper") rather than Greek substance/essence language
+- Revised implementation recommendations section 7.1 to reflect these changes
+- Key insight: Biblical testimony itself refutes heresy relationally (Jesus praying to Father) without requiring Greek categories that may bring pagan philosophy with them

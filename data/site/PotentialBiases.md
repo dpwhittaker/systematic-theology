@@ -126,7 +126,6 @@ While the conclusions affirm both approaches, the **structural weighting** favor
 **Problem:** Every subsection frames Greek abstraction as a **loss**. There is no corresponding "What Greek Thinking Contributes" section showing its value.
 
 **What's Missing:** The positive case for systematic theology:
-- **Precision guards against heresy:** Arianism, modalism, and other heresies were defeated through careful Greek philosophical distinctions (homoousios, hypostasis, essence vs. energies)
 - **Universal applicability:** Abstract truths cross cultural boundaries. "God is love" can be understood by Greeks, Romans, Africans, Asians without requiring immersion in Israel's narrative first
 - **Logical coherence:** Systematic theology shows how biblical truths fit together, revealing the coherence God built into revelation
 - **Protection from subjectivism:** Pure relationalism risks "God is whatever I experience." Propositional truth provides objective moorings
@@ -139,11 +138,6 @@ Add balancing section after line 165:
 ## What Greek Thinking Contributes
 
 But the Greek contribution shouldn't be dismissed:
-
-**Precision guards truth:**
-The early church needed precise language (homoousios, Trinity) to distinguish biblical faith from heresy. "God is three persons, one substance" isn't the encounter—but it protects the encounter from distortion.
-
-When Arius claimed Jesus was created, the church responded with philosophical precision: the Son is homoousios (same substance) with the Father. This Greek term saved biblical revelation from corruption.
 
 **Universality enables mission:**
 Abstract truths cross cultural boundaries. "God is love" can be understood across cultures without requiring complete immersion in Israel's particular narrative first.
@@ -350,9 +344,7 @@ When faced with apparent contradiction, Greek logic applies the law of non-contr
 
 **Greek thinking HELPS when it:**
 1. **Resolves contradictions productively** - Forces precision about how both truths hold simultaneously (sovereignty and responsibility)
-2. **Protects biblical truth from distortion** - Nicene Trinity prevents modalism and Arianism
-3. **Provides framework for recognizing heresy** - Identifies when positions violate biblical data
-4. **Makes theology communicable across cultures** - Abstract categories enable gospel to travel beyond one culture
+2. **Makes theology communicable across cultures** - Abstract categories enable gospel to travel beyond one culture
 
 **Greek thinking HINDERS when it:**
 1. **Creates contradictions Scripture doesn't have** - Substance dualism opposes matter/spirit
@@ -367,12 +359,13 @@ Does this Greek category **illuminate what Scripture reveals**, or **distort it 
 **Summary:**
 
 The Greek position may not capture all the nuance of the Hebrew approach or the journey it takes to get there. But it gives us:
-- A framework for **recognizing heresy** when we see it (positions that violate biblical data)
-- A mechanism for **making progress on contradictions** we were stuck on (forcing precision about how both truths hold)
+- A mechanism for **making progress on contradictions** by forcing precision about how both truths hold simultaneously
 
 However, when Greek categories impose contradictions where Scripture has none, or require complex solutions to problems they created, **the framework becomes the problem, not the solution.**
 
-Both are needed: **Greek precision** to resolve genuine contradictions and guard truth, **Hebrew wisdom** to avoid creating false problems through foreign categories.
+The biblical data itself guards against heresy through its own internal testimony (Jesus praying to the Father, all three persons at the baptism, etc.) - not through Greek metaphysical categories that may themselves import pagan dualism and deism.
+
+Both are needed: **Greek logic** to resolve genuine contradictions, **Hebrew wisdom** to avoid creating false problems through foreign categories.
 
 ---
 
@@ -683,10 +676,12 @@ Modalism was rejected by the early church because it cannot account for the bibl
 - Father, Son, and Spirit all present at Jesus's baptism (Matthew 3:16-17)
 - Jesus says "I will ask the Father, and he will give you another Helper" (John 14:16)
 
-The Trinity isn't Greek philosophy imposed on Hebrew Scripture. It's the church's attempt to honor ALL the biblical data:
+The biblical data itself requires honoring ALL the scriptural testimony:
 - There is one God (Shema: Deuteronomy 6:4)
 - The Father is God, the Son is God, the Spirit is God (throughout Scripture)
 - The Father is not the Son, the Son is not the Spirit (they relate to each other)
+
+The question is whether Greek formulations (substance, essence, hypostasis) illuminate this reality or obscure it with categories that import pagan dualism and deism.
 
 **The Hebrew contribution:**
 
@@ -695,11 +690,11 @@ Hebrew thought enriches Trinitarian theology by emphasizing:
 - **Relational** understanding - the persons exist in relationship, not isolation
 - **Dynamic** - the Spirit moves, proceeds, is sent (not static being)
 
-But Hebrew insight doesn't require rejecting the three persons. It requires enriching our understanding of what "person" means in God.
+Hebrew insight doesn't require rejecting the biblical testimony of three persons. It requires understanding "person" relationally rather than through Greek substance categories.
 
-Eastern Orthodox theology does exactly this: hypostasis (person) is irreducible particularity in relationship. The three persons are who they are precisely because of their relations (Father begets, Son is begotten, Spirit proceeds).
+The biblical pattern is clear: Father, Son, and Spirit relate to one another in Scripture itself. This isn't Greek imposition—it's biblical data requiring explanation.
 
-This is both Greek precision AND Hebrew relationality—neither compromised.
+The question remains: Can we honor this biblical pattern without importing Greek metaphysical categories that may bring pagan dualism and deism with them?
 ```
 
 **Option 2: Reframe the Hebrew Perspective as Compatible with Orthodoxy**
@@ -722,9 +717,9 @@ Hebrew thought doesn't reject the three persons—it asks us to understand them 
 - Breath, wind, movement—not stasis
 - Life-giving power, not philosophical abstraction
 
-This doesn't contradict Nicene orthodoxy. It prevents us from reducing the Trinity to a math problem (1+1+1=?) or a modalist error (1x3 modes=1).
+The biblical pattern shows the Spirit as fully God, distinct from Father and Son, yet never independent—always proceeding, sent, bearing witness.
 
-The Spirit is fully God, distinct from Father and Son, yet never independent—always proceeding, sent, bearing witness. This is Hebrew dynamic within Nicene structure.
+This is Hebrew dynamic, which may or may not require Greek substance/essence categories to protect. The question is whether those categories illuminate the biblical pattern or import foreign frameworks rooted in pagan dualism and deism.
 ```
 
 ### 3.2 Atonement Theory Balance
@@ -990,9 +985,9 @@ These files require strengthening of conservative positions:
    - Then present alternatives (current content)
 
 3. **Add Trinity safeguards in spirit/person.md**
-   - Either add explicit heresy warnings about modalism
-   - Or reframe Hebrew perspective as compatible with Nicene orthodoxy
-   - Show how Hebrew insights enrich (not replace) Trinitarian doctrine
+   - Use biblical arguments to refute modalism (Jesus prays, baptism scene, "another Helper")
+   - Clarify that biblical data requires three persons, one God
+   - Question whether Greek substance/essence categories illuminate or obscure this biblical pattern
 
 4. **Affirm PSA priority in jesus/atonement.md**
    - After multi-model exploration, clarify PSA's strongest biblical warrant
@@ -1001,7 +996,7 @@ These files require strengthening of conservative positions:
 
 5. **Balance intro/philosophy.md**
    - Add "What Greek Thinking Contributes" section after line 165
-   - Show precision guards truth, universality enables mission, logic reveals coherence, objectivity protects from subjectivism
+   - Show universality enables mission, logic reveals coherence, objectivity protects from subjectivism
 
 ### 7.2 Medium Priority Additions
 
