@@ -116,3 +116,5 @@ swipe and arrow up/down should be interpreted as scrolling up/down on more... pa
 in @data/site/PotentialBiases.md under section 1.2, is there an example of precision guarding heresy that isn't rooted in pagan dualism or deism?  if not, remove this section wherever it shows up.  a point I am trying to make is that dualism and deism are the foreign concepts that leeched into Christianity and took us down the wrong path theologically.
 
 It seems to me that even calling God, Jesus, and and the Holy Spirit "persons" is importing the greek concept of hypostasis and trying to soften the language. The Holy Spirit is the Spirit of God. Jesus is the Son of God filled with the Spirit of God. This makes them deity, each in their own way for their own reasons.  the Spirit of God is the conduit of His Power into the world, but I can't think of a single instance where the spirit is worshipped or God tells us to do so. But when the Spirit fills the Son, God is pleased, and He does tell us to worship Him. Let's start using Bible language to explain Bible concepts.  Person isn't helpful here.
+
+section 9.3 and 9.5 also need to update Trinity language to biblical language

@@ -1026,3 +1026,17 @@ Even "person" is sanitized Greek language (hypostasis). Scripture uses relationa
 - Section 3.1 Framework discussion: Distinguished biblical pattern from Greek formulation
 - Section 7.1 implementation: Updated Trinity recommendation to use biblical language
 - Emphasized throughout: Biblical language (Father, Son, Spirit of God) is sufficient without importing Greek metaphysical categories (person, substance, essence) that may bring pagan dualism and deism
+
+Updated sections 9.3 and 9.5 to use biblical language instead of Greek Trinity terminology:
+
+**Section 9.3 Primary Concerns:**
+- Changed "Clarifying Trinity boundaries" to "Using biblical language for Father, Son, and Spirit of God"
+- Removed "Hebrew insights should enrich (not replace) Nicene doctrine"
+- Added emphasis on biblical terminology vs. Greek categories (person, substance, essence)
+- Noted biblical pattern is clear without Greek metaphysical framework that may import pagan dualism
+
+**Section 9.5 Path Forward:**
+- Changed recommendation #2 from "Add Trinity safeguards (spirit/person.md)" 
+- To "Use biblical language for Father, Son, and Spirit of God (spirit/person.md)"
+
+Both sections now consistently reflect the biblical language approach throughout the document.

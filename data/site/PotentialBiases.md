@@ -1171,9 +1171,10 @@ The user's goal—counterbalancing the Greek-heavy formation of conservative Ame
 1. **Defending conservative positions robustly BEFORE questioning them**
    - Inerrancy, verbal inspiration, PSA, grammatical-historical method need stronger biblical cases before alternatives are presented
 
-2. **Clarifying Trinity boundaries**
+2. **Using biblical language for Father, Son, and Spirit of God**
    - The pneumatology content risks legitimizing modalism as orthodox
-   - Hebrew insights should enrich (not replace) Nicene doctrine
+   - Use biblical terminology (Father, Son, Spirit of God) rather than Greek categories (person, substance, essence)
+   - Biblical pattern is clear without requiring Greek metaphysical framework that may import pagan dualism
 
 3. **Adding missing conservative debates**
    - Complementarianism/egalitarianism (major contemporary issue)
@@ -1200,7 +1201,7 @@ Despite these concerns, **the site represents a remarkable theological achieveme
 
 **Immediate (High Priority):**
 1. Strengthen inerrancy defense (bible/inerrancy.md)
-2. Add Trinity safeguards (spirit/person.md)
+2. Use biblical language for Father, Son, and Spirit of God (spirit/person.md)
 3. Affirm PSA priority (jesus/atonement.md)
 4. Balance Greek thinking (intro/philosophy.md)
 
