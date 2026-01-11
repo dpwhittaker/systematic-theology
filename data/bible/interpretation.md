@@ -96,6 +96,79 @@ Simple, allegorical, interpretive, mystical—all simultaneously valid. See [Liv
 **4. Lectio Divina**
 Christian monastic practice: Read slowly, meditate, pray, contemplate. Encounter God through the text, not just study it.
 
+## Hermeneutical Frameworks: Covenant vs. Dispensational
+
+Beyond individual methods, larger interpretive frameworks shape how we read the whole Bible.
+
+### Covenant Theology
+
+**Core principle:** One overarching covenant of grace runs through Scripture. God's dealings with humanity are unified under one redemptive purpose.
+
+**Key features:**
+- **Covenant of works:** God's arrangement with Adam before the fall
+- **Covenant of grace:** God's arrangement with sinners through Christ (encompasses all post-fall history)
+- **One people of God:** Israel and the Church are continuous—the Church is "spiritual Israel"
+- **Continuity emphasized:** OT promises find spiritual fulfillment in the Church
+- **Infant baptism:** Children of believers are covenant members (like circumcision for Israel)
+
+**Proponents:** Westminster Confession, Reformed tradition (Calvin, Hodge, Berkhof, modern Reformed churches)
+
+**Strength:** Emphasizes the unity of Scripture, God's consistent redemptive purpose, and the continuity of the people of God.
+
+**Potential weakness:** May spiritualize OT promises that seem to require literal fulfillment for national Israel.
+
+### Dispensationalism
+
+**Core principle:** God works through distinct economies or "dispensations" throughout history, with different arrangements for different periods.
+
+**Key features:**
+- **Seven dispensations:** Innocence, Conscience, Government, Promise, Law, Grace, Kingdom (varying schemes)
+- **Israel and Church distinct:** The Church is not "spiritual Israel" but a separate entity
+- **Literal fulfillment:** OT promises to Israel will be literally fulfilled (land, kingdom, temple)
+- **Pretribulation rapture:** The Church is removed before the tribulation; God resumes dealings with Israel
+- **Discontinuity emphasized:** Each dispensation has distinct features
+
+**Proponents:** Darby, Scofield Reference Bible, Dallas Theological Seminary, many evangelicals
+
+**Strength:** Takes OT promises to Israel seriously, maintains clear literal interpretation, provides coherent end-times framework.
+
+**Potential weakness:** May over-separate Israel and Church, creating disunity in Scripture.
+
+### Progressive Dispensationalism
+
+A mediating position that:
+- Affirms continuity between Israel and Church (both are people of God)
+- Maintains some distinction (ethnic Israel still has future role)
+- Sees inaugurated fulfillment now, consummated fulfillment later
+- Takes OT promises seriously without requiring exclusively literal fulfillment
+
+### Why This Matters
+
+These frameworks affect major doctrinal positions:
+
+| Question | Covenant Theology | Classic Dispensationalism |
+|----------|-------------------|---------------------------|
+| Who is Israel? | Church = true Israel | Church ≠ Israel |
+| OT land promises? | Spiritually fulfilled in Christ | Literally fulfilled in millennium |
+| Sermon on the Mount? | For the Church today | Kingdom ethics (some: not for Church age) |
+| Baptism of infants? | Yes (covenant continuity) | No (Church is new entity) |
+| The rapture? | At Christ's return (one event) | Before tribulation (separate event) |
+
+### The Greek-Hebrew Lens
+
+**Greek tendency in both:**
+- Systematic categorization of biblical history
+- Defining clear boundaries between concepts
+- Seeking logical coherence across the canon
+
+**Hebrew tendency:**
+- Less concerned with systematic frameworks
+- Holds tensions: Israel is distinct, yet Gentiles grafted in (Romans 11)
+- Focuses on narrative flow: creation, fall, Israel, Christ, Church, consummation
+- Meaning emerges from story more than system
+
+**Both frameworks are held by orthodox evangelicals** who affirm biblical authority. The debate is about *how to read* the Bible coherently, not *whether* to trust it.
+
 ## The Question Behind the Method
 
 **Greek question:** What does this text *mean*? (Information)

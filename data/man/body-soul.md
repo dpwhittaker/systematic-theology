@@ -142,6 +142,55 @@ These suggest conscious existence after death. But they don't describe it as the
 
 The New Testament doesn't systematize this. It focuses on the hope: resurrection to embodied life in the new creation.
 
+## Soul Origin: Traducianism vs. Creationism
+
+If humans have souls (or are souls), where do souls come from? Two main views have historic pedigree:
+
+### Traducianism: Souls from Parents
+
+**The view:** The soul is inherited from parents along with the body. Just as bodies are generated through procreation, so are souls.
+
+**Proponents:** Tertullian, Augustine (tentatively), Luther, many Reformed theologians.
+
+**Biblical support:**
+- Genesis 2:7 describes only Adam's creation directly from God. Eve comes from Adam (Genesis 2:21-22). Subsequent humans come "through" parents.
+- Hebrews 7:9-10: Levi "paid tithes through Abraham, for he was still in the loins of his ancestor." This suggests descendants exist seminally in ancestors.
+- Genesis 46:26: Souls that "came from Jacob's loins"—language suggesting souls propagate through generation.
+
+**Theological strength:** Explains original sin transmission naturally. If souls come from Adam through parents, we inherit Adam's fallen nature—we're not created pure and then corrupted, but born already sharing in Adam's condition.
+
+**Problem:** Does this make God less involved in each person's creation? Psalm 139:13—"You formed my inward parts."
+
+### Creationism: Souls from God Directly
+
+**The view:** God creates each soul individually at conception (or some point in development). Bodies come from parents; souls come directly from God.
+
+**Proponents:** Jerome, Aquinas, most Roman Catholic teaching, many Reformed theologians.
+
+**Biblical support:**
+- Ecclesiastes 12:7: "The spirit returns to God who gave it"—suggests God is the origin.
+- Zechariah 12:1: The LORD "forms the spirit of man within him."
+- Isaiah 42:5: God "gives breath to the people on [the earth]."
+- Hebrews 12:9: God is "the Father of spirits."
+
+**Theological strength:** Maintains God's direct involvement in creating each person. Each human is a fresh creative act, not merely biological reproduction.
+
+**Problem:** How does a God-created soul inherit Adam's guilt? If God creates each soul pure, why is it immediately guilty of Adam's sin? This seems to make God responsible for creating sinful souls—or requires a separate explanation for how Adam's guilt transfers.
+
+### Neither View Is Definitive
+
+**Scripture doesn't explicitly teach either position.** Both have been held by orthodox Christians throughout church history.
+
+**The original sin connection:**
+- Traducianism fits naturally with inherited guilt—we were "in Adam" and inherit his nature.
+- Creationism requires an additional theory: federal headship (Adam's guilt imputed legally), or the soul becoming corrupted upon union with the body.
+
+**The Greek-Hebrew lens:**
+- **Greek approach:** Define the soul's origin mechanistically—either propagated or created.
+- **Hebrew approach:** Focus less on mechanism and more on relationship: We are created by God, born into Adam's race, and in need of redemption. The "how" matters less than the "what now."
+
+Perhaps the tension reveals the limits of systematic precision. Scripture affirms both: God creates each person (Psalm 139), and we inherit Adam's condition (Romans 5:12). How these fit together remains mystery—but both truths are non-negotiable.
+
 ## Implications
 
 **1. Bodies Matter**
