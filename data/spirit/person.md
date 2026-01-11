@@ -1,22 +1,27 @@
 ---
-title: The Spirit as Person
+title: The Spirit of God
+shortTitle: Spirit of God
 ---
 [The Holy Spirit](#spirit/spirit 'Parent')
 ---
-Is the Spirit *someone* or *something*? The Greek approach: He is the third *person* of the [Trinity](#god/trinity 'Greek'), fully God, distinct from Father and Son.
+The [Spirit of God](#spirit/ruach 'Hebrew')—His *ruach*, His breath, His presence, His power in the world. Scripture uses relational and functional language: the Spirit teaches (John 14:26), testifies (John 15:26), intercedes (Romans 8:26), can be grieved (Ephesians 4:30).
 
-**Biblical evidence for personhood:**
-- Uses personal pronouns: "He will guide you" (John 16:13)
-- Does personal actions: teaches (John 14:26), testifies (John 15:26), intercedes (Romans 8:26)
-- Can be grieved (Ephesians 4:30), lied to (Acts 5:3-4), blasphemed (Matthew 12:31)
+**The biblical pattern:**
+- The **Father** is worshipped throughout Scripture
+- The **Son** filled with the Spirit is worshipped (Philippians 2:10-11, Hebrews 1:6)
+- The **Spirit of God** empowers, fills, indwells—but is never commanded as object of worship
 
-**Greek systematic approach:** If the Spirit is merely God's power, these texts make no sense. You don't grieve an impersonal force. The Spirit must be *someone*, not *something*.
-
-But the [Hebrew approach](#spirit/ruach 'Hebrew') sees these as metaphorical language for [God's active presence](#spirit/presence 'Hebrew'), not proof of a separate person.
+The [Greek approach](#god/trinity 'Greek') calls this "three persons, one substance." But does biblical language require Greek categories? Or is **Father, Son, Spirit of God** sufficient—relational and functional terms that honor the testimony without importing pagan metaphysics?
 ---
-# The Spirit as Person: Greek Theological Precision
+# The Spirit of God: Biblical Language vs. Greek Categories
 
-The doctrine that the Holy Spirit is a distinct *person* within the Trinity is foundational to Christian orthodoxy. But is it biblical, or is it a Greek philosophical imposition on Hebrew revelation?
+Greek theology calls the Spirit a distinct "person" (*hypostasis*) within the "Trinity." This formulation became church orthodoxy. But is it biblical, or is it Greek philosophical categories imposed on Hebrew revelation?
+
+**The biblical question:** How does Scripture describe the Spirit of God? What language does the Bible itself use?
+
+**The Greek question:** Is the Spirit a third "person" sharing one "substance" (*ousia*) with Father and Son?
+
+These are different questions. The second imports categories Scripture doesn't use.
 
 ## The Biblical Case for Personhood
 
@@ -147,15 +152,26 @@ An impersonal force can empower, but it cannot *relate*. Christianity is about r
 
 **Romans 8:9:** "You are not in the flesh but in the Spirit, if indeed the Spirit of God dwells in you." This is intimate, personal indwelling, not mere empowerment.
 
-### Worship Requires Personhood
+### Does Scripture Command Worship of the Spirit?
 
-We worship the Spirit. The Doxology says, "Praise Father, Son, and Holy Ghost." Baptism is "in the name of the Father and of the Son and of the Holy Spirit" (Matthew 28:19).
+The Nicene Creed (381 AD) claims the Spirit "is worshiped and glorified" alongside Father and Son. The Doxology says, "Praise Father, Son, and Holy Ghost."
 
-If the Spirit is not a person, we're worshiping an abstraction, a force. That's nonsensical—and potentially idolatrous.
+**But what does Scripture itself command?**
 
-**The logic:** Worship is personal. You worship someone, not something. Therefore, the Spirit must be someone.
+- **Worship the Father:** "True worshipers will worship the Father in spirit and truth" (John 4:23)
+- **Worship the Son:** "At the name of Jesus every knee should bow" (Philippians 2:10), "Let all God's angels worship Him" (Hebrews 1:6)
+- **Worship the Spirit:** Where? Scripture never commands worship of the Spirit.
 
-**Counterpoint:** We worship *God*. When we invoke the Spirit, we're invoking God's presence, not a separate person. Hebrew worship speaks of God's Name, God's Glory, God's Presence—all referring to the one God, not distinct persons.
+**The biblical pattern:**
+- The Father is worshipped
+- The Son filled with the Spirit is worshipped
+- The Spirit is the *conduit* of God's power—filling the Son, empowering believers
+
+The Spirit doesn't compete for worship. He manifests God's presence and power. When we invoke the Spirit, we're invoking God's active presence, not a separate "person" requiring separate worship.
+
+**The Greek assumption:** If Father and Son are worshipped, the Spirit must be too—they share the same divine essence.
+
+**The Hebrew testimony:** Worship is directed to the Father and to the Son. The Spirit is how God's power enters the world.
 
 ## The Tension: Does "Person" Fit the Biblical Data?
 
@@ -307,20 +323,34 @@ So where does this leave us?
 - Risks collapsing into modalism
 - Loses some theological precision
 
-## Conclusion: Person or Presence?
+## Conclusion: Biblical Language for Biblical Testimony
 
-Is the Spirit a *person*—the third member of the Trinity, distinct from the Father and Son?
+**The Greek question:** Is the Spirit a "person" (*hypostasis*)—the third member of the "Trinity," distinct from Father and Son?
 
-Or is the Spirit God's *presence*—His power, His breath, His indwelling reality, described using personal metaphor but not ontologically distinct?
+**The biblical question:** How does Scripture describe the Spirit of God, and is that sufficient?
 
-**Classical Christianity says:** Person. Without this, we lose the Trinity, collapse into modalism, and undermine salvation.
+**Scripture's language:**
+- **Spirit of God** (*Ruach Elohim*) - God's breath, presence, power
+- **Holy Spirit** (*Ruach HaKodesh*) - God's sanctifying presence
+- **The Father sends** the Spirit (John 14:26)
+- **The Son sends** the Spirit (John 15:26)
+- **The Spirit fills** believers (Acts 2:4), the Son (Luke 4:1), the prophets
 
-**Hebrew critique asks:** Is personhood necessary, or is it a Greek category imposed on Hebrew testimony? Can we affirm the Spirit's deity and intimacy without multiplying persons?
+This is relational and functional language. Father, Son, Spirit of God—each deity in their own way for their own reasons.
 
-The doctrine of the Spirit's personhood is not as clear in Scripture as the personhood of the Father and Son. Jesus prays, teaches, relates—clearly personal. The Spirit's personhood is inferred from grammatical pronouns, personal metaphors, and systematic theology's need for symmetry (if Father and Son are persons, Spirit must be too).
+**The worship pattern reveals function:**
+- The **Father** is worshipped
+- The **Son** filled with the Spirit is worshipped (and this pleases the Father)
+- The **Spirit** is never commanded as object of worship—He is the conduit of God's power
 
-**Maybe the question itself is wrong.** Maybe asking "Is the Spirit a person?" is already thinking in Greek categories. Maybe Scripture doesn't ask us to decide between "person" and "power"—it testifies to the Spirit's work and calls us to experience Him, not define Him.
+**Does Greek "person" language illuminate this, or obscure it?**
 
-**The Living Spirit.** Not captured by our philosophical categories. Known in experience, not in systematic precision.
+The Greek formulation ("three persons, one substance") may import pagan dualism and deism into the biblical testimony. The alternative isn't modalism—it's using biblical language to describe biblical realities:
 
-Perhaps that's enough.
+**Not modalism:** Jesus really prays to the Father. The Spirit really descends at the baptism. "I will ask the Father, and He will give you another Helper" (John 14:16). These are distinct realities in the biblical testimony.
+
+**Not Greek ontology:** We don't need "substance," "essence," "hypostasis" to honor this testimony. Father, Son, Spirit of God—relational and functional terms—are sufficient.
+
+**The Spirit of God.** Not captured by Greek philosophical categories. Known in Scripture's testimony, experienced in the life of faith.
+
+Biblical language for biblical testimony. Perhaps that's enough.

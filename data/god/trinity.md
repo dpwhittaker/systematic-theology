@@ -1,20 +1,26 @@
 ---
-title: Trinity
+title: Father, Son, and Spirit of God
+shortTitle: Father/Son/Spirit
 ---
 [Reconciliation](#god/reconciliation 'Parent')
 ---
-One God, three persons. How?
+One God. Father, Son, Spirit of God. How does Scripture describe this?
 
-**Biblical data:** "The Lord is one" (Deuteronomy 6:4), yet Father, Son, and Spirit are each called God.
-**Philosophical problem:** If God is one [essence](#god/essence 'Greek'), how can three persons exist without making three gods?
+**Biblical data:** "The Lord is one" (Deuteronomy 6:4), yet Father, Son, and Spirit are each deity.
+**Greek formulation:** One *ousia* (essence), three *hypostases* (persons). Does this illuminate or obscure?
 
-**Classical solution:** One *ousia* (essence), three *hypostases* (persons). Each person is fully God, distinguished by relations.
+**The biblical pattern:**
+- The **Father** is worshipped throughout Scripture
+- The **Son** filled with the Spirit is worshipped (Philippians 2:10-11, Hebrews 1:6)
+- The **Spirit of God** empowers, fills, indwells—but is never commanded as object of worship
 
-**The tension:** Does Greek "person" (hypostasis) match the biblical portrayal? If the essence is unchanging but the Son dies, have we split God to protect philosophy?
+**The question:** Is Greek "three persons, one substance" language required? Or is **Father, Son, Spirit of God**—relational and functional terms—sufficient to honor the biblical testimony?
 ---
-# One Essence, Three Persons
+# Father, Son, and Spirit of God: Greek Categories vs. Biblical Language
 
-The doctrine of the Trinity is Christianity's most distinctive—and puzzling—claim about God. It's an attempt to reconcile biblical monotheism ("The Lord is one") with biblical revelation of Father, Son, and Spirit.
+The doctrine of the "Trinity" is Christianity's most distinctive—and puzzling—claim about God. It's an attempt to reconcile biblical monotheism ("The Lord is one") with biblical revelation of Father, Son, and Spirit.
+
+**But is the Greek formulation ("three persons, one substance") required?** Or does it import pagan categories that obscure the biblical testimony?
 
 ## The Biblical Data
 
@@ -504,17 +510,18 @@ Perhaps that's enough.
 ---
 # See Also
 
-**Trinitarian Persons:**
-- [God the Father](#god/father 'Hebrew') - First person of the Trinity
-- [Jesus Christ](#jesus/jesus 'Parent') - The eternal Son incarnate
-- [Holy Spirit](#spirit/spirit 'Parent') - Third person of the Trinity
+**Biblical Pattern - Father, Son, Spirit of God:**
+- [God the Father](#god/father 'Hebrew') - The Father, source and object of worship
+- [Jesus Christ](#jesus/jesus 'Parent') - The Son, filled with the Spirit, worshipped
+- [Spirit of God](#spirit/spirit 'Parent') - God's ruach, presence, power in the world
 - [Jesus as Lord (YHWH)](#jesus/lord 'Drill') - Jesus identified with the covenant name of God
 
-**Greek Formulations:**
-- [Essence](#god/essence 'Greek') - One divine essence shared by three persons
-- [Attributes](#god/attributes 'Greek') - Characteristics of the triune God
-- [Simplicity](#god/simplicity 'Greek') - God's unity despite threeness
+**Greek Formulations (Questioned):**
+- [Essence](#god/essence 'Greek') - Does "divine essence" illuminate or obscure?
+- [Attributes](#god/attributes 'Greek') - Characteristics of God
+- [Simplicity](#god/simplicity 'Greek') - God's unity - does Greek "simplicity" fit?
 
-**Hebrew Tensions:**
+**Hebrew Approach:**
 - [Monotheism](#god/oneness 'Hebrew') - "Hear O Israel: the LORD our God, the LORD is one"
 - [Names](#god/names 'Hebrew') - Multiple names revealing one God
+- [Ruach](#spirit/ruach 'Hebrew') - Spirit of God as breath, presence, power

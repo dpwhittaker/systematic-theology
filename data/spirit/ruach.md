@@ -317,7 +317,33 @@ These are not three persons in one essence. They're three ways the one God acts 
 
 Is this modalism? Maybe. Or maybe it's the biblical testimony without the Greek overlay.
 
-## Conclusion: The Breath of the Living God
+## The Worship Pattern: A Key Insight
+
+Consider how Scripture directs worship:
+
+**The Father is worshipped:**
+- "True worshipers will worship the Father in spirit and truth" (John 4:23)
+- "Our Father in heaven, hallowed be Your name" (Matthew 6:9)
+
+**The Son filled with the Spirit is worshipped:**
+- "At the name of Jesus every knee should bow" (Philippians 2:10)
+- "Let all God's angels worship Him" (Hebrews 1:6)
+- "Worthy is the Lamb who was slain" (Revelation 5:12)
+
+**The Spirit is never commanded as object of worship.**
+
+The Spirit fills the Son (Luke 4:1). When the Spirit fills the Son, the Father is pleased (Matthew 3:17). We worship the Father and the Son—the Spirit is the *conduit* of God's power, not competing for worship.
+
+This pattern reveals function:
+- The **Father** is the source, the one we worship
+- The **Son** filled with the Spirit is the mediator, the one we worship
+- The **Spirit** is God's presence and power in the world, filling believers, empowering ministry
+
+Greek theology says: If the Spirit is God, we must worship Him alongside Father and Son.
+
+Biblical testimony says: Worship is directed to Father and Son. The Spirit is *how* God is present with us.
+
+## Conclusion: Biblical Language for Biblical Testimony
 
 *Ruach* is breath. Wind. Life. Power. Presence.
 
@@ -325,12 +351,17 @@ It's not "the third person of the Trinity, eternally proceeding from the Father 
 
 It's *God's animating force*, moving over creation, giving life, empowering judges, inspiring prophets, transforming hearts, dwelling in believers.
 
-**The question:** Is this enough? Can we worship, live, and theologize with *ruach* as the category—or do we need "person"?
+**The biblical language is sufficient:**
+- **Father** - relational term (source, creator)
+- **Son** - relational term (filled with the Spirit, worshipped)
+- **Spirit of God** - functional term (God's ruach, breath, presence, power)
 
-Classical theology says we need "person" to protect the Spirit's deity and avoid heresy.
+Each deity in their own way for their own reasons. No Greek categories required.
 
-Hebrew thought asks: Or does "person" distort the revelation by imposing Greek categories on Hebrew testimony?
+**Not modalism:** The Father, Son, and Spirit are distinct in the biblical testimony. Jesus prays to the Father. The Spirit descends at the baptism. "I will ask the Father, and He will give you another Helper."
 
-The Spirit as *ruach*: God's breath, wind, life. Not tamed by our systems. Not defined by our philosophy. Known in experience, worshiped in awe.
+**Not Greek ontology:** We don't need "substance," "essence," "hypostasis" to honor this testimony. Father, Son, Spirit of God—relational and functional terms—are sufficient.
 
-Perhaps that's closer to the truth.
+The Spirit as *ruach*: God's breath, wind, life. Not tamed by Greek categories. Not defined by pagan philosophy. Known in Scripture's testimony, experienced in the life of faith.
+
+Biblical language for biblical testimony. Perhaps that's closer to the truth.
