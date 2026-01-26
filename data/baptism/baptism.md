@@ -8,7 +8,7 @@ Water and Spirit. Identity and initiation. One of the most *divided* practices i
 The debates:
 - [Mode](#baptism/mode 'Drill') - Immersion, sprinkling, or pouring?
 - [Subjects](#baptism/subjects 'Drill') - Infants or believers only?
-- [Meaning](#baptism/meaning 'Drill') - Sacrament that conveys grace, or symbol of faith?
+- [Sacrament](#baptism/sacrament 'Drill') - Does baptism convey grace or symbolize faith?
 - [Necessity](#baptism/necessity 'Drill') - Required for salvation?
 - [Spirit baptism](#baptism/spirit 'Drill') - One event or two?
 

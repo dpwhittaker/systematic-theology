@@ -91,7 +91,7 @@ Both are valid. The plain sense doesn't exhaust meaning.
 Wrestling with the text—asking questions, filling gaps, exploring contradictions. See [Midrash](#bible/midrash 'Hebrew').
 
 **3. PaRDeS (Four Levels)**
-Simple, allegorical, interpretive, mystical—all simultaneously valid. See [Living Word](#bible/living-word 'Hebrew').
+Simple, allegorical, interpretive, mystical—all simultaneously valid. See [PaRDeS](#bible/midrash#pardes 'Hebrew').
 
 **4. Lectio Divina**
 Christian monastic practice: Read slowly, meditate, pray, contemplate. Encounter God through the text, not just study it.

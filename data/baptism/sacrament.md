@@ -55,7 +55,7 @@ Sacraments are *signs and seals* of the covenant. They don't automatically conve
 **Baptist and Evangelical:**
 Not "sacraments" but "*ordinances*"—commands to obey. Baptism and the Lord's Supper are symbolic acts, not means of grace. God's grace comes through faith, not rituals.
 
-# Ex Opere Operato: The Work Works
+# Ex Opere Operato: The Work Works {#ex-opere-operato}
 
 ## Catholic Doctrine
 
@@ -94,9 +94,9 @@ Sacraments are *signs and seals*, not *causes* of grace. They confirm the promis
 **Baptist rejection:**
 *Ex opere operato* turns baptism into a work, contradicting salvation by grace through faith alone. If the water itself cleanses, then salvation depends on the ritual, not on Christ.
 
-# Baptism as Means of Grace
+# Baptism as Means of Grace {#means-of-grace}
 
-## Catholic Teaching: Baptism Removes Original Sin
+## Catholic Teaching: Baptism Removes Original Sin {#catholic-teaching}
 
 **Catechism (1263):** "By Baptism all sins are forgiven, original sin and all personal sins, as well as all punishment for sin."
 
@@ -117,7 +117,7 @@ For adults: Faith is required before baptism. Baptism without faith and repentan
 
 For infants: Faith is given *in* baptism (God's work) and nurtured as the child grows. Baptism plants the seed; upbringing cultivates it.
 
-## Lutheran Teaching: Baptism Works Forgiveness
+## Lutheran Teaching: Baptism Works Forgiveness {#lutheran-teaching}
 
 **Lutherans agree with Catholics:**
 Baptism regenerates, forgives sin, gives the Holy Spirit. It's not just a symbol—it's God's saving work.
@@ -135,7 +135,7 @@ God creates faith in the infant through baptism. The Word of God, spoken over th
 
 If the child later rejects Christ, they forfeit the grace given in baptism. Baptism is effective, but its effects can be lost through unbelief.
 
-## Reformed Teaching: Sign and Seal
+## Reformed Teaching: Sign and Seal {#reformed-teaching}
 
 **Calvin and Westminster Confession:**
 Baptism *signifies* cleansing, union with Christ, and regeneration. It *seals* these realities to the believer.
@@ -187,9 +187,9 @@ If baptism is God's work, and it saves, why do Baptists who weren't baptized as 
 
 The debate continues.
 
-# The Symbolic Alternative
+# The Symbolic Alternative {#symbolic-view}
 
-## Baptist and Evangelical Position
+## Baptist and Evangelical Position {#baptist-view}
 
 **Baptism is an ordinance, not a sacrament:**
 - It's a command Jesus gave (Matthew 28:19)
@@ -259,7 +259,7 @@ Just as God took on flesh, He works through physical means (water, bread, wine).
 **But:**
 Does that make them *necessary*? Can God work apart from the sacraments (as He did with the thief on the cross)? Or is that the exception, and sacraments the norm?
 
-The [tension](#baptism/meaning 'Drill') persists.
+The tension persists.
 
 # Can Both Be Right?
 
@@ -279,8 +279,7 @@ The divide remains. Churches split over it. Families agonize over it. The [meani
 # See Also
 
 **Related Baptism Topics:**
-- [Baptism Meaning](#baptism/meaning 'Greek') - What baptism signifies and accomplishes
-- [Baptism Necessity](#baptism/necessity 'Drill') - Whether baptism is required for salvation
+- [Baptism Necessity](#baptism/necessity 'Drill') - Whether baptism is required for salvation (analyzes same passages asking different question: "Is it necessary?" vs "How does it work?")
 - [Baptism Subjects](#baptism/subjects 'Drill') - Infant vs believer baptism (sacramental view favors infant)
 - [Eucharist/Lord's Supper](#church/lords-supper 'Greek') - Parallel sacramental debate
 

@@ -229,7 +229,7 @@ At stake: What is the Gospel? Is it "Believe and be baptized" or "Believe, then 
 # See Also
 
 **Related Baptism Topics:**
-- [Meaning of Baptism](#baptism/meaning 'Greek') - Sacramental vs symbolic understandings
+- [Sacramental Theology](#baptism/sacrament 'Greek') - How baptism works: means of grace vs symbolic ordinance (analyzes same passages from different angle)
 - [Baptism Subjects](#baptism/subjects 'Drill') - Who should be baptized (believers vs infants)
 - [Mikveh](#baptism/mikveh 'Hebrew') - Jewish ritual immersion background
 - [Spirit Baptism](#baptism/spirit 'Drill') - Water baptism vs Spirit baptism distinction

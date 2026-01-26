@@ -13,7 +13,7 @@ The written *Word of God*. But is it a collection of [timeless propositions](#bi
 
 **Hebrew approach:** Engage with what God is *saying*.
 - [Torah as Instruction](#bible/torah 'Hebrew'): Not rulebook but relational guidance for covenant life.
-- [Living Word](#bible/living-word 'Hebrew'): Scripture speaks now, not just then—continual encounter.
+- [Living Word](#bible/midrash#living-encounter 'Hebrew'): Scripture speaks now, not just then—continual encounter.
 - [Midrash](#bible/midrash 'Hebrew'): Wrestling with the text, multiple interpretations coexist.
 - [Testimony](#bible/testimony 'Hebrew'): Witness to God's acts, not systematic doctrine manual.
 

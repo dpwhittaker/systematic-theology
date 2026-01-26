@@ -204,7 +204,7 @@ The debate continues.
 
 In Hebrew thought, sign and reality aren't sharply separated. The Passover lamb doesn't just *symbolize* deliverance—it *enacts* it (you eat the lamb, apply the blood, and you're delivered).
 
-Does baptism *symbolize* cleansing, or does it *effect* cleansing? The [Hebrew mind](#baptism/meaning 'Drill') might resist the dichotomy: it's both. The sign participates in the reality.
+Does baptism *symbolize* cleansing, or does it *effect* cleansing? The [Hebrew mind](#baptism/sacrament 'Drill') might resist the dichotomy: it's both. The sign participates in the reality.
 
 **But:** The New Testament emphasizes *faith* as the hinge (Mark 16:16, Colossians 2:12). The water without faith is empty.
 

@@ -123,7 +123,7 @@ The division remains.
 
 **Related Baptism Topics:**
 - [Baptism Subjects](#baptism/subjects 'Drill') - Who should be baptized (mode often correlates with subjects)
-- [Baptism Meaning](#baptism/meaning 'Greek') - What baptism signifies (burial/resurrection vs cleansing)
+- [Sacramental Theology](#baptism/sacrament 'Greek') - What baptism signifies and whether it conveys grace
 - [Mikveh](#baptism/mikveh 'Hebrew') - Jewish immersion practices
 - [Sacrament](#baptism/sacrament 'Greek') - Whether the mode affects baptism's efficacy
 
