@@ -6,11 +6,11 @@ shortTitle: Midrash
 ---
 Midrash (מִדְרָשׁ) - from *darash* (דרש): to seek, to search, to interpret.
 
-Not extracting [propositions](#intro/philosophy 'Greek'), but wrestling with the text like Jacob wrestled the angel (Genesis 32).
+Not extracting propositions, but wrestling with the text like Jacob wrestled the angel (Genesis 32).
 Multiple rabbis, multiple interpretations, all preserved. *Eilu v'eilu*—"These and these are the words of the living God."
 
-The [Greek](#intro/philosophy 'Greek') mind seeks one correct answer.
-The [Hebrew](#intro/narrative 'Hebrew') mind embraces paradox and multiplicity.
+The Greek mind seeks one correct answer.
+The Hebrew mind embraces paradox and multiplicity.
 
 And Scripture itself claims: "The word of God is *living* and active" (Hebrews 4:12)—not was, but *is*.
 ---
@@ -412,7 +412,7 @@ Perhaps the text is alive—and alive things can't be pinned down.
 If Scripture is living word:
 
 **We approach it differently:**
-- Not just study, but meditation (Hebrew *hagah*—murmuring, pondering; see [Wrestling](#intro/wrestling 'Hebrew'))
+- Not just study, but meditation (Hebrew *hagah*—murmuring, pondering)
 - Not extracting timeless truths, but encountering God
 - Not mastering content, but being shaped by the text
 - Not systematic theology, but ongoing relationship

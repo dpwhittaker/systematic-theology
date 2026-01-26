@@ -4,7 +4,7 @@ shortTitle: Testimony
 ---
 [Bible](#bible/bible 'Parent')
 ---
-Is the Bible a [systematic theology](#intro/philosophy 'Greek') textbook, or a collection of [testimonies](#intro/narrative 'Hebrew') to what God has done?
+Is the Bible a systematic theology textbook, or a collection of testimonies to what God has done?
 
 **Greek approach:** Scripture contains doctrinal propositions. Extract them, systematize them.
 

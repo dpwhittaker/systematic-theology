@@ -347,7 +347,7 @@ Some paedobaptist churches won't accept credobaptists as members (unless they're
 
 The debate has raged for 500 years (since the Reformation). It shows no sign of resolution.
 
-The [Hebrew-Greek tension](#intro/intro 'Parent') appears again: Does God work through families and visible community (Hebrew emphasis), or through individual decision and personal faith (Greek emphasis)? Perhaps the answer is *both*—but how they relate remains contested.
+Does God work through families and visible community (Hebrew emphasis), or through individual decision and personal faith (Greek emphasis)? Perhaps the answer is *both*—but how they relate remains contested.
 ---
 # See Also
 

@@ -4,7 +4,7 @@ shortTitle: Covenants
 ---
 [God](#god/god 'Parent')
 ---
-God binds Himself to His people through *berith* (covenant)—not a [contract](#intro/philosophy 'Greek'), but a family bond sealed by oath and blood.
+God binds Himself to His people through *berith* (covenant)—not a contract, but a family bond sealed by oath and blood.
 
 Major covenants:
 - *Abraham*: Unconditional promise of descendants, land, blessing (Genesis 12, 15, 17).
@@ -12,7 +12,7 @@ Major covenants:
 - *David*: Eternal throne, God's commitment to David's line (2 Samuel 7).
 - *New Covenant*: Written on hearts, direct knowledge of God (Jeremiah 31, fulfilled in Christ).
 
-Covenant language is [relational](#intro/relation 'Hebrew'), not categorical: "I am *your* God" (not "I am the Supreme Being").
+Covenant language is relational, not categorical: "I am *your* God" (not "I am the Supreme Being").
 You cannot know God in covenant while treating Him as an object of study.
 ---
 # Relationship Over Definition
@@ -24,8 +24,6 @@ This is fundamentally relational knowing. You don't know your covenant partner b
 ## Covenant vs. Contract
 
 The Hebrew *berith* (covenant) is fundamentally different from a Greek legal contract. Where contracts are transactional and conditional, covenants create family bonds based on committed love. God doesn't negotiate terms with Israel—He adopts them as children, binds Himself to them in blood oath (Genesis 15), and remains faithful even when they break covenant (Hosea).
-
-For comprehensive discussion of covenant vs contract distinction, see [Covenant & Relation](#intro/relation#covenant-vs-contract 'Hebrew').
 
 ## Covenant with Abraham: Unconditional Promise
 

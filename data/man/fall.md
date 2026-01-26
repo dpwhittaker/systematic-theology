@@ -6,7 +6,7 @@ shortTitle: Fall
 ---
 Genesis 3: Adam and Eve eat the forbidden fruit. Everything breaks.
 
-**Greek view:** The Fall as metaphysical corruption. Human [nature](#intro/philosophy 'Greek') changed from good to evil. Original sin inherited like a disease.
+**Greek view:** The Fall as metaphysical corruption. Human nature changed from good to evil. Original sin inherited like a disease.
 
 **Hebrew view:** The Fall as relational rupture. Humans chose autonomy over trust. Four relationships broken: with [God](#god/acts 'Hebrew'), each other, creation, self.
 

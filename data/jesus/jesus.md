@@ -5,12 +5,12 @@ title: Jesus Christ
 ---
 *Jesus* - God made flesh, crucified and risen.
 
-**Greek approach:** Define [nature](#intro/philosophy 'Greek').
+**Greek approach:** Define nature.
 - [Two Natures](#jesus/two-natures 'Greek'): How is Jesus both God and man? Hypostatic union.
 - [Atonement Theories](#jesus/atonement 'Greek'): How does His death save? Penal substitution, satisfaction, moral influence.
 - [Offices](#jesus/offices 'Greek'): Prophet, Priest, King - threefold role.
 
-**Hebrew approach:** *Yeshua* (ישוע) - "YHWH saves." [Narrative](#intro/narrative 'Hebrew') of promise and fulfillment.
+**Hebrew approach:** *Yeshua* (ישוע) - "YHWH saves." Narrative of promise and fulfillment.
 - [Messiah](#jesus/messiah 'Hebrew'): Anointed one, Davidic king, deliverer who comes.
 - [Suffering Servant](#jesus/servant 'Hebrew'): Isaiah 53 - wounded for our transgressions.
 - [Lord](#jesus/lord 'Hebrew'): *Kurios* = YHWH. Resurrection vindication, exalted name.

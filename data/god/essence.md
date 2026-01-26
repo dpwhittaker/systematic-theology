@@ -6,7 +6,7 @@ shortTitle: Essence
 ---
 Greek philosophy asks: What *is* God's fundamental nature?
 
-The quest for [essence](#intro/philosophy 'Greek')—the unchanging reality that makes God God.
+The quest for essence—the unchanging reality that makes God God.
 Classical theism: God is *simple* (no parts), *eternal* (outside time), *immutable* (unchanging), *impassible* (unaffected by creation), *necessary* (cannot not-exist).
 
 This is the God of the philosophers: unmoved mover, first cause, pure being.
@@ -137,9 +137,7 @@ Or must we choose: Will we know God as *what* or as *Who*?
 - [Attributes](#god/attributes 'Greek') - God's essential characteristics systematically listed
 - [Simplicity](#god/simplicity 'Greek') - God's unity and lack of parts
 - [Immutability](#god/immutability 'Greek') - God's unchanging nature
-- [Greek Philosophy](#intro/philosophy 'Greek') - The three-step method of abstraction
 
 **Hebrew Relational Approach:**
 - [Names](#god/names 'Hebrew') - God revealed through relational titles
 - [Covenants](#god/covenants 'Hebrew') - God known through binding relationships
-- [Relation & Covenant](#intro/relation 'Hebrew') - Knowing God through encounter vs definition

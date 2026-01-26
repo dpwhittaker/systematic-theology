@@ -232,7 +232,7 @@ Because Jesus commanded it. It's an act of obedience, a public declaration, a vi
 
 ## Hebrew: Physical and Spiritual Together
 
-The [Hebrew mind](#intro/relation 'Hebrew') doesn't sharply separate physical and spiritual:
+The Hebrew mind doesn't sharply separate physical and spiritual:
 - Circumcision *is* the covenant sign, not just a symbol pointing to it
 - The Passover lamb *enacts* deliverance, not just represents it
 - The ark of the covenant contains God's presence, not just symbolizes it
@@ -241,7 +241,7 @@ In this framework, baptism as sacrament makes sense: the water *participates* in
 
 ## Greek: Essence and Symbol Separated
 
-The [Greek mind](#intro/philosophy 'Greek') distinguishes essence (invisible reality) from appearance (visible sign):
+The Greek mind distinguishes essence (invisible reality) from appearance (visible sign):
 - The physical is a shadow; the spiritual is the substance
 - The ritual points beyond itself to the true reality
 - Matter and spirit are different categories

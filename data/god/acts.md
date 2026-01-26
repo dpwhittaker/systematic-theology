@@ -6,7 +6,7 @@ shortTitle: Acts
 ---
 Hebrew theology is inseparable from history. God reveals His character through what He *does*.
 
-Key [events](#intro/narrative 'Hebrew'):
+Key events:
 - *Creation*: Speaking the world into being, forming humanity in His image (Genesis 1-2).
 - *Call of Abraham*: Choosing one man to bless all nations (Genesis 12).
 - *Exodus*: Delivering Israel from slavery, the foundational event of Jewish identity (Exodus 1-15).

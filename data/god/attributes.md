@@ -10,10 +10,10 @@ Classical theology lists God's *attributes*—the characteristics that define Hi
 *Omnipotent* (all-powerful), *omniscient* (all-knowing), *omnipresent* (everywhere), *holy* (set apart), *just* (upholds righteousness), *loving* (wills the good).
 
 These are *universal truths*—statements about God that are always true, everywhere, for everyone.
-"God is love" becomes a timeless [proposition](#intro/philosophy 'Greek') about divine essence.
+"God is love" becomes a timeless proposition about divine essence.
 
 But Hebrew thought asks: Is "God is love" the same truth as "God loved Jacob"?
-One is eternal; the other is particular. One is [categorical](#intro/philosophy 'Greek'); the other is [relational](#intro/relation 'Hebrew').
+One is eternal; the other is particular. One is categorical; the other is relational.
 ---
 # Attributes: Defining the Divine
 

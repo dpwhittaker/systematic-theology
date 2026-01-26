@@ -13,7 +13,7 @@ Salvation as liberation, not just legal declaration. God rescues His people from
 ---
 # Redemption: The Exodus Pattern
 
-The [Hebrew narrative](#intro/narrative 'Hebrew') of salvation begins with slavery and deliverance.
+The Hebrew narrative of salvation begins with slavery and deliverance.
 
 **Exodus 6:6:** "Say therefore to the people of Israel, 'I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will deliver you from slavery to them, and I will *redeem you* with an outstretched arm and with great acts of judgment.'"
 

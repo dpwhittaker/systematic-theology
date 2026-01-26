@@ -9,8 +9,8 @@ Torah (תּוֹרָה) means *instruction*, not "law."
 Not a legal code to obey for salvation, but covenant guidance for how God's people live.
 Not abstract principles, but relational wisdom: "This is how we live because of who we belong to."
 
-The [Greek](#intro/philosophy 'Greek') mind extracts universal rules.
-The [Hebrew](#intro/narrative 'Hebrew') mind receives ongoing instruction from a living God.
+The Greek mind extracts universal rules.
+The Hebrew mind receives ongoing instruction from a living God.
 ---
 # Torah: Teaching, Not Legislation
 

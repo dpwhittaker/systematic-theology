@@ -9,7 +9,7 @@ Is the Bible without error in all it affirms?
 **Limited Inerrancy:** No errors in matters of faith and practice, but may have minor historical/scientific imprecision.
 **Infallibility:** Scripture accomplishes its purpose (leading to salvation) without error, though may have factual mistakes.
 
-The debate assumes Scripture functions as [propositional encyclopedia](#intro/philosophy 'Greek').
+The debate assumes Scripture functions as propositional encyclopedia.
 Hebrew view: Scripture is [testimony](#bible/testimony 'Hebrew')—true witness, not exhaustive encyclopedia.
 ---
 # The Inerrancy Debate

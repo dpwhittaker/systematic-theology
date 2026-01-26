@@ -311,7 +311,7 @@ This dignifies the material world. What God will renew, we steward now.
 
 ## Hebrew Framework: The Return from Exile
 
-In the Hebrew [narrative](#intro/narrative 'Hebrew'), glorification is the ultimate return from exile.
+In the Hebrew narrative, glorification is the ultimate return from exile.
 
 **The pattern:**
 - Eden: Humanity with God in paradise.

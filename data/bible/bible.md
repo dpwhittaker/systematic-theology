@@ -17,4 +17,4 @@ The written *Word of God*. But is it a collection of [timeless propositions](#bi
 - [Midrash](#bible/midrash 'Hebrew'): Wrestling with the text, multiple interpretations coexist.
 - [Testimony](#bible/testimony 'Hebrew'): Witness to God's acts, not systematic doctrine manual.
 
-Can both be true? Is Scripture [propositional truth](#intro/philosophy 'Greek') or [narrative encounter](#intro/narrative 'Hebrew')?
+Can both be true? Is Scripture propositional truth or narrative encounter?

@@ -20,6 +20,6 @@ Christian theology developed doctrines to reconcile these tensions:
 - [Sovereignty](#god/sovereignty 'Drill'): Divine control and human freedom—Calvinism, Arminianism, Molinism.
 - [Providence](#god/providence 'Drill'): God's governance and the reality of evil—theodicies and lament.
 
-The question: Are these successful [syntheses](#intro/philosophy 'Greek'), or do they reveal an irresolvable conflict between Greek thought and Hebrew revelation?
+The question: Are these successful syntheses, or do they reveal an irresolvable conflict between Greek thought and Hebrew revelation?
 
 Perhaps the tension is the point. Perhaps the Living God cannot be captured by any system—even the orthodox ones.
