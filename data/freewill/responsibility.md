@@ -116,73 +116,33 @@ Romans 9:19: "You will say to me then, 'Why does he still find fault? For who ca
 
 ## Greek Systematic Approaches
 
+**How do systematic theologies explain responsibility under God's sovereignty?**
+
 ### Calvinist: Compatibilism
 
-**Humans are responsible because they act according to their desires.**
-
-**You're free if:**
-- You do what you want (voluntarily).
-- No external force coerces you.
-
-**You're responsible if:**
-- You act according to your desires.
-- Your choice reflects your character.
-
-**God doesn't coerce.** He changes the heart so we freely (willingly) choose what He ordained.
-
-**Analogy:** A man falls from a cliff. He's responsible for jumping (he chose to). But gravity (which he didn't create) ensures he falls. Similarly, we choose according to our nature (which God creates).
-
-**Jonathan Edwards:** "The will always chooses according to the strongest inclination." We're responsible for our choices because they reflect our inclinations. God is sovereign over our inclinations.
+**Humans are responsible because they act according to their desires.** God doesn't coerce—He changes the heart so we freely (willingly) choose what He ordained.
 
 **Philippians 2:13:** "For it is God who works in you, both to will and to work for his good pleasure."
 
 God works in us to will. We will. Both are real. We're responsible for what we will, even though God produced the willing.
 
-**Critique:** If God determines my desires, and my desires determine my choices, how am I genuinely responsible? Isn't this just sophisticated determinism with responsibility grafted on?
-
-**Response:** Responsibility doesn't require absolute autonomy (libertarian free will). It requires that you act according to your character and desires. You're responsible for who you are, even if God made you that way.
+For full treatment of compatibilism and Calvinist responsibility, see [Calvinism: Divine Determinism](#freewill/sovereignty#calvinism 'Greek').
 
 ### Arminian: Libertarian Free Will
 
-**Humans are responsible because they genuinely could have chosen otherwise.**
-
-**Libertarian free will:** A choice is free (and thus morally responsible) only if:
-- You could have chosen differently.
-- Nothing (including God) determined your choice.
-
-**God gives [grace](#salvation/grace 'Drill') to all (prevenient grace), enabling them to choose.** But He doesn't determine the choice. The choice is genuinely ours.
-
-**This preserves responsibility:** You're accountable because you really could have chosen God, but you didn't.
-
-**John 3:16:** "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."
-
-**"Whoever believes."** The offer is universal. The choice is ours.
+**Humans are responsible because they genuinely could have chosen otherwise.** God gives [grace](#salvation/grace 'Drill') to all (prevenient grace), enabling them to choose. But He doesn't determine the choice. The choice is genuinely ours.
 
 **Matthew 23:37:** "O Jerusalem, Jerusalem... How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!"
 
 Jesus wanted to gather them. They refused. They were responsible for refusing.
 
-**Critique:** If the ultimate deciding factor is human choice, doesn't salvation depend on us? And if God knows what we'll choose but doesn't intervene, isn't He still responsible for our damnation?
-
-**Response:** God gives grace and invites. We're responsible to respond. God isn't obligated to override our will. He respects our freedom, even when we choose wrongly.
+For full treatment of libertarian free will and Arminian responsibility, see [Arminianism: Limited Sovereignty](#freewill/sovereignty#arminianism 'Hebrew').
 
 ### Molinism: Middle Ground
 
-**God knows what free creatures would choose in every possible situation (middle knowledge).**
+**God knows what free creatures would choose in every possible situation (middle knowledge).** Using that knowledge, God sovereignly arranges circumstances, knowing what we'll freely choose. Both sovereignty and responsibility maintained.
 
-**Using that knowledge, God sovereignly arranges circumstances**, knowing what we'll freely choose.
-
-**Example:** God knows that if Peter is in situation X at time T, Peter will freely deny Christ three times. God ordains situation X. Peter freely denies. God's sovereignty preserved (He chose the circumstances). Peter's responsibility preserved (he genuinely chose).
-
-**Both sovereignty and responsibility maintained.**
-
-**Critique:** Does this genuinely preserve freedom? If God chose the world knowing what I'd choose, isn't He determining my choice indirectly?
-
-**Response (Molinist):** No. You're still choosing freely. God didn't force your choice—He just knew what you'd choose and arranged circumstances accordingly.
-
-**Critique (Calvinist):** This makes God's knowledge dependent on what creatures would do. It limits God's sovereignty.
-
-**Critique (Arminian):** This is still determinism with extra steps. If God controls circumstances knowing what I'll choose, He's effectively determining my choice.
+For full treatment of middle knowledge and Molinist responsibility, see [Molinism: Middle Knowledge](#freewill/foreknowledge#molinism 'Greek').
 
 ## Hebrew Framework: Mystery, Not Resolution
 

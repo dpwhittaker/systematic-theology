@@ -69,7 +69,7 @@ Christianity inherited this debate and applied it to sin and salvation.
 - Will is enslaved to sin
 - We can choose between various sins, but we cannot choose to love God and obey Him without grace
 
-**[Original sin](#man/original-sin 'Greek') corrupted the will.**
+Augustine's [four-state framework](#man/fall#augustine-four-states 'Greek') shows how [original sin](#man/fall#original-sin 'Greek') corrupted the will.
 
 **Grace is necessary:**
 - To open blind eyes (we don't even see our need)

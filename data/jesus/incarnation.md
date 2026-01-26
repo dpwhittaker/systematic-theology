@@ -170,7 +170,7 @@ The incarnation isn't natural generation. It's a miraculous act of God. The Spir
 Born of woman (fully human), but conceived by the Spirit (divine). No human father—His Father is God.
 
 **4. Sinless nature**
-Some traditions (Augustinian) link virgin birth to sinlessness: Jesus didn't inherit [original sin](#man/original-sin 'Greek') because He had no human father.
+Some traditions (Augustinian) link virgin birth to sinlessness: Jesus didn't inherit [original sin](#man/fall#original-sin 'Greek') because He had no human father.
 
 *Problem:* Does this imply sin is passed through the father? Scripture doesn't say that.
 

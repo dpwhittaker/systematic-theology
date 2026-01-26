@@ -142,9 +142,9 @@ How can Assyria be responsible if God sent them?
 
 God's plan. Lawless men's sin. Both real.
 
-## Greek Systematic Theology: Resolving the Tension
+## Greek Systematic Theology: Resolving the Tension {#frameworks}
 
-### Calvinism: Divine Determinism (Compatibilism)
+### Calvinism: Divine Determinism (Compatibilism) {#calvinism}
 
 **All events—including human choices—are foreordained by God's eternal decree.**
 
@@ -166,7 +166,7 @@ God produces the willing. We will. Both are real.
 
 **Response:** You're free because you act according to your desires. The fact that God shaped your desires doesn't make you unfree—it means God graciously gave you good desires.
 
-### Arminianism: Limited Sovereignty (Libertarian Free Will)
+### Arminianism: Limited Sovereignty (Libertarian Free Will) {#arminianism}
 
 **God is sovereign, but He self-limits His control to preserve genuine human freedom.**
 
@@ -192,37 +192,23 @@ If God desired all to be saved and controlled all choices, all would be saved. B
 
 **Response:** God's sovereignty is stronger than control. He accomplishes His purposes while respecting human freedom. That's more impressive than mere determinism.
 
-### Molinism: Middle Knowledge
+### Molinism: Middle Knowledge {#molinism}
 
-**God knows all possible worlds and what every free creature would freely choose in every possible situation.**
-
-This is **middle knowledge** (*scientia media*): knowledge between God's natural knowledge (what could happen) and free knowledge (what will happen).
-
-**Using middle knowledge, God sovereignly chooses which world to create**, knowing what free creatures will choose in that world.
+**God knows all possible worlds and what every free creature would freely choose in every possible situation** (*scientia media*—middle knowledge). Using this knowledge, God sovereignly chooses which world to create, knowing what free creatures will choose in that world.
 
 **Example:** God knows that if Peter is in situation X, he will freely deny Christ. God ordains situation X. Peter freely denies. God's sovereignty and Peter's freedom both preserved.
 
-**Critique:** Does this genuinely preserve freedom? If God chooses the world knowing what I'll choose, isn't He determining my choice indirectly?
+For comprehensive treatment of middle knowledge (including biblical support, strengths, and critiques), see [Middle Knowledge (Molinism)](#freewill/foreknowledge#molinism 'Greek').
 
-**Response:** No, because you're still choosing freely. God arranged circumstances, but didn't force your choice.
+### Open Theism: God Doesn't Know Future Free Choices {#open-theism}
 
-### Open Theism: God Doesn't Know Future Free Choices
-
-**The future is genuinely open. God knows all possibilities, but not which possibility free creatures will choose until they choose.**
-
-**God is sovereign over the present and past, but doesn't exhaustively control or know the future** (regarding free choices).
-
-**This preserves genuine freedom:** Your choices aren't predetermined, even in God's mind.
+**The future is genuinely open. God knows all possibilities, but not which possibility free creatures will choose until they choose.** This preserves genuine freedom—your choices aren't predetermined, even in God's mind.
 
 **Genesis 6:6:** "The LORD regretted that he had made man on the earth, and it grieved him to his heart."
 
-If God knew from eternity that humanity would fall, why does He regret? Open theism: God genuinely didn't know.
+Open theism takes this literally: God genuinely didn't know humanity would rebel to this extent.
 
-**Critique:** This undermines God's sovereignty and trustworthiness. Can God guarantee His promises if He doesn't know the future?
-
-**Response (Open Theism):** God is resourceful enough to accomplish His purposes even without exhaustive foreknowledge. He adapts to our choices.
-
-**Critique (Traditional):** This denies God's omniscience. Isaiah 46:10: "I declare the end from the beginning and from ancient times things not yet done."
+For comprehensive treatment of open theism (including biblical support, strengths, and critiques), see [Open Theism](#freewill/foreknowledge#open-theism 'Hebrew').
 
 ## The Practical Difference
 

@@ -83,8 +83,6 @@ Jesus chose the disciples. They didn't choose Him first.
 
 ## The Calvinist View: Unconditional Predestination
 
-### The Doctrine
-
 **God, before creation, unconditionally chose (elected) some individuals for salvation and passed over others, leaving them in their sin.**
 
 **Unconditional:** Not based on foreseen faith, works, or any merit in the individual. Based solely on God's sovereign will.
@@ -93,29 +91,9 @@ Jesus chose the disciples. They didn't choose Him first.
 
 Not our will. Not our effort. God's mercy alone.
 
-**Ephesians 2:8:** "For by [grace](#salvation/grace 'Drill') you have been saved through [faith](#salvation/faith 'Drill'). And this is not your own doing; it is the gift of God."
+**Why unconditional?** Because humans are totally depraved (dead in sin, unable to choose God). If election were based on foreseen faith, it would be "because of works" (the work of believing). But Romans 9:11 says the choice was made "not because of works but because of him who calls."
 
-Faith itself is a gift. We don't generate it. God gives it to the elect.
-
-### Why Unconditional?
-
-**Because humans are totally depraved (dead in sin, unable to choose God).**
-
-**Ephesians 2:1:** "And you were dead in the trespasses and sins."
-
-Dead people don't choose. God must make them alive first (regeneration), then they believe.
-
-**John 6:44:** "No one can come to me unless the Father who sent me draws him."
-
-No one can come. We're unable. The Father must draw.
-
-**If election were based on foreseen faith, it would be based on something we do** (even if enabled by grace). That makes salvation partly dependent on us.
-
-**But Romans 9:11** says the choice was made "not because of works but because of him who calls."
-
-If God looked into the future and saw who would believe, and elected them based on that, the choice would be "because of works" (the work of believing). But Paul says it's not because of works.
-
-**Therefore, election is unconditional.**
+For comprehensive treatment of the Calvinist framework (compatibilism, God's sovereignty over all choices), see [Calvinism: Divine Determinism](#freewill/sovereignty#calvinism 'Greek').
 
 ### The Westminster Confession (1646)
 
@@ -233,8 +211,6 @@ God takes no pleasure in the death of the wicked. He desires their repentance. B
 
 ## The Arminian View: Conditional Predestination
 
-### The Doctrine
-
 **God, before creation, foresaw who would believe in Christ and predestined those individuals to salvation.**
 
 **Conditional:** Based on foreseen faith. God looked into the future, saw who would believe, and elected them based on that foresight.
@@ -243,23 +219,9 @@ God takes no pleasure in the death of the wicked. He desires their repentance. B
 
 Foreknowledge precedes predestination. God foreknew who would believe, then predestined them.
 
-**1 Peter 1:2:** "Elect... according to the foreknowledge of God the Father."
+**Why conditional?** Because God genuinely desires all to be saved (1 Timothy 2:4) and offers salvation to all (John 3:16). If God unconditionally predestined only some, how can He genuinely desire all to be saved? God's [foreknowledge](#freewill/foreknowledge 'Drill') doesn't cause belief—He simply foresees who will believe and elects them accordingly.
 
-Election is according to foreknowledge. God foreknew their faith and elected them based on it.
-
-### Why Conditional?
-
-**Because God genuinely desires all to be saved (1 Timothy 2:4) and offers salvation to all (John 3:16).**
-
-If God unconditionally predestined only some, how can He genuinely desire all to be saved?
-
-**Arminian answer:** God desires all to be saved. He offers grace to all. Those who respond in faith are predestined/elected based on that foreseen faith.
-
-**John 3:16:** "Whoever believes..." The offer is universal. Anyone can believe.
-
-**God's [foreknowledge](#freewill/foreknowledge 'Drill') doesn't cause belief.** He simply foresees who will believe and elects them accordingly.
-
-**Analogy:** A teacher foresees which students will study hard and pass the exam. The teacher doesn't cause their studying—the teacher just knows who will pass. Similarly, God foresees who will believe and elects them.
+For comprehensive treatment of the Arminian framework (libertarian free will, God's self-limited sovereignty), see [Arminianism: Limited Sovereignty](#freewill/sovereignty#arminianism 'Hebrew').
 
 ### Corporate Election
 

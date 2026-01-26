@@ -137,7 +137,7 @@ God's knowledge doesn't *cause* my choice. He knows what I'll freely choose. His
 
 **The debate continues.** This is one of philosophy's hardest problems.
 
-## View 2: Middle Knowledge (Molinism)
+## View 2: Middle Knowledge (Molinism) {#molinism}
 
 ### The Doctrine
 
@@ -221,7 +221,7 @@ If God's middle knowledge is based on what creatures would freely choose, then G
 
 **Calvinist critique:** God's knowledge should be independent. He knows because He decrees, not because He observes what creatures would do.
 
-## View 3: Open Theism
+## View 3: Open Theism {#open-theism}
 
 ### The Doctrine
 
