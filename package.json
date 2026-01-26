@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:visual": "node test-visual.js",
-    "generate-urls": "node generate-test-urls.js"
+    "test:tasker": "/data/data/com.termux/files/home/.termux/tasker/run-hud-tests.sh",
+    "test:connection": "/data/data/com.termux/files/home/.termux/tasker/test-connection.sh",
+    "generate-urls": "node generate-test-urls.js",
+    "server:start": "/data/data/com.termux/files/home/.termux/tasker/start-hud-server.sh",
+    "server:stop": "/data/data/com.termux/files/home/.termux/tasker/stop-hud-server.sh"
   },
   "repository": {
     "type": "git",
