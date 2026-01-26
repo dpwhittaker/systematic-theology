@@ -1,0 +1,24 @@
+{
+  "name": "systematic-theology",
+  "version": "1.0.0",
+  "description": "**Live Site:** [https://dpwhittaker.github.io/systematic-theology](https://dpwhittaker.github.io/systematic-theology)",
+  "main": "validate-requirements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpwhittaker/systematic-theology.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dpwhittaker/systematic-theology/issues"
+  },
+  "homepage": "https://github.com/dpwhittaker/systematic-theology#readme",
+  "dependencies": {
+    "puppeteer": "^24.36.0"
+  }
+}
