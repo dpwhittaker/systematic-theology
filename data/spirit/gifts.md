@@ -16,7 +16,7 @@ The Spirit distributes *charismata* (grace-gifts) to believers for building up t
 
 The Greek approach: systematic categorization of gifts, debate over which are "sign gifts" that authenticated the apostles vs. "ordinary gifts" that continue.
 
-The Hebrew approach: less concern with taxonomy, more focus on the Spirit's [power](#spirit/power 'Hebrew') and [presence](#spirit/presence 'Hebrew') demonstrated in the community.
+The Hebrew approach: less concern with taxonomy, more focus on the Spirit's [power](#spirit/power 'Hebrew') and [presence](#spirit/person-presence#hebrew-presence 'Hebrew') demonstrated in the community.
 ---
 # Gifts of the Spirit
 

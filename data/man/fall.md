@@ -18,7 +18,7 @@ Genesis 3 is the hinge of human history. Everything before: very good. Everythin
 
 But *how* did the Fall work? What changed?
 
-## Greek Interpretation: Nature Changed
+## Greek Interpretation: Nature Changed {#augustine-four-states}
 
 **Augustine's doctrine (influenced by Platonism):**
 
@@ -30,9 +30,17 @@ After the Fall:
 - Humans cannot not sin (*non posse non peccare*)
 - Nature corrupted, will enslaved to sin
 
+After Regeneration (in this life):
+- Humans can not sin (*posse non peccare*)
+- Grace enables obedience, but sin remains possible
+
+In Glory (resurrection):
+- Humans cannot sin (*non posse peccare*)
+- Will perfected, sin impossible
+
 **The image:** Human nature itself was damaged. Like a machine that got a defective part—now it can't work rightly.
 
-**Original sin:** Not just Adam's guilt, but corrupted nature passed to all descendants. We're born sinful.
+**Original sin:** Not just Adam's guilt, but corrupted nature passed to all descendants. We're born sinful. {#original-sin}
 
 **Total depravity:** Every part of human nature (mind, will, affections) is corrupted. We can't choose good without God's grace.
 
@@ -87,17 +95,29 @@ They ate. Did they die? Not physically—Adam lived 930 years (Genesis 5:5).
 
 Death isn't just biological cessation—it's separation from the source of life.
 
-## Original Sin: Inherited Guilt or Pattern?
+## Original Sin: Inherited Guilt or Pattern? {#inherited-guilt-or-pattern}
 
 **Western (Augustine/Catholic/Protestant) view:**
 Adam's sin is imputed to all. We're guilty from birth. Infant baptism washes away original sin's guilt.
 
+**Mechanism:**
+- **Federal headship:** Adam represented all humanity. His sin is counted as ours.
+- **Seminal headship:** We were "in Adam" when he sinned (in his seed). Therefore we sinned in him.
+
 **Basis:** Romans 5:12—"sin came into the world through one man, and death through sin, and so death spread to all men because all sinned."
+
+**Result:** Every human (except Jesus) is born:
+1. Guilty of Adam's sin
+2. With corrupted nature that cannot not sin
+3. Deserving of death and condemnation
 
 **Eastern Orthodox view:**
 We inherit mortality and a sinful environment, not guilt. We're not guilty for Adam's sin, but we're born into a world damaged by sin, and we choose to sin.
 
 **Basis:** Same verse, but "all sinned" means we each sin individually, not that Adam's sin is counted as ours.
+
+**Jewish view (Rabbinic tradition):**
+Each person dies for their own sin, not Adam's. We're born with capacity for sin (yetzer hara) and good (yetzer tov), but not guilty until we sin.
 
 **Hebrew framework:**
 Adam's story is *everyone's* story. We all choose autonomy. We all break covenant. The pattern repeats.

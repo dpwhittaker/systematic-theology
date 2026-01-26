@@ -434,7 +434,7 @@ These are legitimate conservative Christian debates entirely missing from the si
 
 **Neither position is definitively taught in Scripture** - both have historical pedigree
 
-**Why it matters:** This relates directly to original sin transmission and the debate already present in man/original-sin.md
+**Why it matters:** This relates directly to original sin transmission and the debate already present in [fall.md](#man/fall#inherited-guilt-or-pattern 'Greek')
 
 #### D. Covenant Theology vs. Dispensationalism
 

@@ -13,7 +13,7 @@ Nine virtues, singular "fruit" (not "fruits"). This is one unified harvest of th
 
 **The method:** Not self-effort, but dependence. "Walk by the Spirit, and you will not gratify the desires of the flesh" (Galatians 5:16). The fruit grows as we abide in Christ (John 15:4-5).
 
-This is the Spirit's [power](#spirit/power 'Hebrew') for sanctification, the Spirit's [presence](#spirit/presence 'Hebrew') transforming us from within. Character > charisma. Fruit > gifts.
+This is the Spirit's [power](#spirit/power 'Hebrew') for sanctification, the Spirit's [presence](#spirit/person-presence#hebrew-presence 'Hebrew') transforming us from within. Character > charisma. Fruit > gifts.
 ---
 # Fruit of the Spirit
 

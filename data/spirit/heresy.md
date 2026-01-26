@@ -4,14 +4,14 @@ shortTitle: Heresy?
 ---
 [The Holy Spirit](#spirit/spirit 'Parent')
 ---
-This site's position—that the Spirit is God's [presence](#spirit/presence 'Hebrew') and [power](#spirit/power 'Hebrew'), not a distinct "person" (hypostasis)—would be condemned by the councils.
+This site's position—that the Spirit is God's [presence](#spirit/person-presence#hebrew-presence 'Hebrew') and [power](#spirit/power 'Hebrew'), not a distinct "person" (hypostasis)—would be condemned by the councils.
 
 **Likely charges:**
 - [Modalism](#spirit/heresy#modalism 'Drill') (Sabellianism): Father, Son, Spirit are modes, not persons
 - [Pneumatomachianism](#spirit/heresy#pneumatomachi 'Drill'): Denying the Spirit's full deity
 - [Unitarianism](#spirit/heresy#unitarianism 'Drill'): Collapsing the distinctions entirely
 
-**Our response:** We affirm the Spirit's deity. We question whether Greek "person" language is *required*—or whether it imports categories Scripture doesn't use. The [biblical pattern](#spirit/ruach 'Hebrew') may be sufficient without Greek metaphysics.
+**Our response:** We affirm the Spirit's deity. We question whether Greek "person" language is *required*—or whether it imports categories Scripture doesn't use. The [biblical pattern](#spirit/person-presence#ruach 'Hebrew') may be sufficient without Greek metaphysics.
 
 Is questioning Nicaea heresy? Or is it asking whether the councils answered the right questions?
 ---
@@ -25,7 +25,7 @@ The Nicene-Constantinopolitan Creed (381 AD) and subsequent councils established
 - Worthy of worship alongside the Father and Son
 - Eternally proceeding from the Father (and the Son, in Western tradition)
 
-Our position—that the Spirit is God's presence and power, described with [interchangeable terms](#spirit/ruach#ruach-elohim-ruach-yhwh-ruach-hakodesh-one-spirit 'Hebrew') in Scripture, and never commanded as a separate object of worship—challenges at least some of these claims.
+Our position—that the Spirit is God's presence and power, described with [interchangeable terms](#spirit/person-presence#one-spirit 'Hebrew') in Scripture, and [never commanded as a separate object of worship](#spirit/person-presence#worship-pattern 'Hebrew')—challenges at least some of these claims.
 
 What heresies might we be accused of?
 

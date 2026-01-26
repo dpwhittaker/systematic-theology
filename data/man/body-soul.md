@@ -16,13 +16,15 @@ Not: Do we have souls? But: Are we souls *with* bodies, or embodied souls?
 
 Plato asked: What am I, essentially? His answer shaped Christian theology for centuries.
 
-## Greek Dualism: Two Substances
+## Greek Dualism: Two Substances {#plato-dualism}
 
 **Plato's anthropology:**
 - Humans are **souls** (immaterial, eternal, rational)
 - Souls inhabit **bodies** (material, mortal, physical prison)
 - At death, the soul departs and continues existing
 - The body is temporary; the soul is the real person
+
+When the Septuagint (Greek OT) translated *nephesh*, it used *psyche* (ψυχή)—soul. This translation imported Greek philosophical dualism into how Christians read Genesis 2:7.
 
 **Implications:**
 - Salvation is primarily about the soul's destiny (heaven or hell)
@@ -41,11 +43,18 @@ This entered Christian theology through the early church fathers (many trained i
 
 ## Problems with Dualism
 
-**1. Not in Genesis**
+**1. Not in Genesis** {#genesis-2-7}
 
-Genesis 2:7: "The LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a [nephesh chayyah](#man/nephesh 'Hebrew')."
+Genesis 2:7: "The LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a *nephesh chayyah*" (נֶפֶשׁ חַיָּה).
 
-The text doesn't say God created a body and inserted a soul. Dust + breath = living being. The whole person *is* the nephesh, not *has* a nephesh.
+English: "living soul" or "living creature."
+
+**Not:** Body + Soul = Person
+**But:** Dust + Breath = Living being
+
+The text doesn't say God created a body and inserted a soul. The whole person *is* the nephesh, not *has* a nephesh.
+
+**Key insight:** Animals are also *nephesh chayyah* (Genesis 1:20, 24). The term isn't unique to humans. What's unique is that we're made in God's image (Genesis 1:27), and God breathed directly into us.
 
 **2. Devalues the Body**
 
@@ -71,27 +80,37 @@ If soul and body are different substances (immaterial vs. material), how do they
 
 Philosophers have struggled with this for centuries. Dualism creates a problem it can't solve.
 
-## Hebrew Unity: One Whole Person
+## Hebrew Unity: One Whole Person {#hebrew-terms}
 
 Hebrew anthropology doesn't divide humans into parts.
 
 **Key terms:**
-- *Basar* (בָּשָׂר) - flesh, body
-- *Nephesh* (נֶפֶשׁ) - life, self, person (see [Nephesh](#man/nephesh 'Hebrew'))
-- *Ruach* (רוּחַ) - breath, spirit, wind
-- *Leb* (לֵב) - heart (seat of mind, will, emotions)
+- *Basar* (בָּשָׂר) - flesh, body {#basar}
+- *Nephesh* (נֶפֶשׁ) - life, self, person, living being {#nephesh}
+- *Ruach* (רוּחַ) - breath, spirit, wind {#ruach}
+- *Leb* (לֵב) - heart (seat of mind, will, emotions) {#leb}
 
 These aren't components assembled to make a person. They're **aspects** of the whole person.
+
+**What does nephesh mean?**
+- **Life, living being** (Genesis 1:20—sea creatures are *nephesh chayyah*)
+- **Throat, appetite** (Proverbs 23:2—"put a knife to your *nephesh*" = throat)
+- **Self, person** (Leviticus 17:11—"the *nephesh* of the flesh is in the blood")
+- **Desire, emotion** (Psalm 42:1—"my *nephesh* pants for you")
+
+**It's not a part of you. It's you—the whole living person.**
 
 **Example:** Deuteronomy 6:5—"You shall love the LORD your God with all your *heart* and with all your *soul* and with all your *might*."
 
 Not three separate parts. Three ways of saying: Love God with your **whole being**—everything you are.
 
-**Death in Hebrew thought:**
+**Death in Hebrew thought:** {#death-hebrew}
 
 Ecclesiastes 12:7: "The dust returns to the earth as it was, and the *ruach* returns to God who gave it."
 
 The breath returns to God. The body returns to dust. The person? **Gone.** Dead.
+
+The *nephesh* doesn't depart. The person *becomes* a *nephesh met* (dead being) when breath (*ruach*) leaves.
 
 Not: The soul lives on without the body.
 

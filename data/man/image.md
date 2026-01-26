@@ -87,11 +87,11 @@ Only humans are addressed directly by God in Genesis 1. God speaks *to* us: "Be 
 
 ### Image as Whole Person
 
-**Genesis 2:7:** "The LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature."
+Genesis 2:7: "The LORD God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature."
 
-Hebrew: *nephesh chayyah* (נפש חיה) - living being/soul.
+Hebrew: *nephesh chayyah* (נפש חיה) - [living being/soul](#man/body-soul#genesis-2-7 'Hebrew').
 
-**Key:** God doesn't create a body and add a soul. The whole person—dust + breath—*is* the living soul.
+**Key:** God doesn't create a body and add a soul. The whole person—dust + breath—*is* the living soul. Not a part we have, but what we are.
 
 **The image is bodily:**
 Genesis 1:27—"in the image of God he created him; male and female he created them."

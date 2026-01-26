@@ -3,7 +3,7 @@ title: Power - The Spirit's Mighty Acts
 ---
 [The Holy Spirit](#spirit/spirit 'Parent')
 ---
-The Spirit as *power*—God's enabling force for mighty acts. The Hebrew approach: *Ruach* empowers for specific tasks, not ontological [personhood](#spirit/person 'Greek') but functional enablement.
+The Spirit as *power*—God's enabling force for mighty acts. The Hebrew approach: *Ruach* empowers for specific tasks, not ontological [personhood](#spirit/person-presence#greek-person 'Greek') but functional enablement.
 
 **Old Testament pattern:**
 - Judges: "The Spirit of the Lord rushed upon Samson" (Judges 14:6)—superhuman strength
@@ -15,7 +15,7 @@ The Spirit as *power*—God's enabling force for mighty acts. The Hebrew approac
 - Apostles: "You will receive power when the Holy Spirit has come upon you" (Acts 1:8)—witness and miracles
 - Believers: "The kingdom of God does not consist in talk but in power" (1 Corinthians 4:20)—demonstrations of the Spirit
 
-Is this a [person](#spirit/person 'Greek') empowering, or God's *power* at work? The [Hebrew framework](#spirit/ruach 'Hebrew') sees *dunamis* (power) as the Spirit's essence, not His attribute.
+Is this a [person](#spirit/person-presence#greek-person 'Greek') empowering, or God's *power* at work? The [Hebrew framework](#spirit/person-presence#ruach 'Hebrew') sees *dunamis* (power) as the Spirit's essence, not His attribute.
 ---
 # Power: The Spirit's Mighty Acts
 
