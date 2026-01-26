@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProfileData sr="prof1" ve="2">
+    <Profile sr="prof1" ve="2">
+        <cdate>1737876000000</cdate>
+        <edate>1737876000000</edate>
+        <id>1</id>
+        <mid0>2</mid0>
+        <nme>HUD_Screenshot</nme>
+        <Event sr="con0" ve="2">
+            <code>1115</code>
+            <Str sr="arg0" ve="3">/HUD_Screenshot</Str>
+            <Int sr="arg1" val="1821"/>
+            <Str sr="arg2" ve="3"/>
+            <Str sr="arg3" ve="3"/>
+        </Event>
+    </Profile>
+    <Task sr="task2">
+        <cdate>1737876000000</cdate>
+        <edate>1737876000000</edate>
+        <id>2</id>
+        <nme>HUD_Screenshot</nme>
+        <pri>6</pri>
+        <Action sr="act0" ve="7">
+            <code>547</code>
+            <Str sr="arg0" ve="3">%name</Str>
+            <Str sr="arg1" ve="3">%http_req_body</Str>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="0"/>
+            <Int sr="arg4" val="0"/>
+            <Int sr="arg5" val="3"/>
+            <Str sr="arg6" ve="3"/>
+        </Action>
+        <Action sr="act1" ve="7">
+            <code>135</code>
+            <Str sr="arg0" ve="3">screencap -p /sdcard/Pictures/Screenshots/%name.png</Str>
+            <Int sr="arg1" val="0"/>
+            <Str sr="arg2" ve="3"/>
+            <Str sr="arg3" ve="3"/>
+            <Str sr="arg4" ve="3"/>
+            <Int sr="arg5" val="0"/>
+            <Int sr="arg6" val="0"/>
+        </Action>
+        <Action sr="act2" ve="7">
+            <code>1116</code>
+            <Int sr="arg0" val="200"/>
+            <Str sr="arg1" ve="3">text/plain</Str>
+            <Str sr="arg2" ve="3">Screenshot saved: %name</Str>
+            <Int sr="arg3" val="0"/>
+        </Action>
+    </Task>
+</ProfileData>

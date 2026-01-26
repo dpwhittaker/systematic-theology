@@ -66,10 +66,10 @@ const testScenarios = [
   },
   {
     name: 'Christ Category',
-    url: `${BASE_URL}#christ/christ`,
+    url: `${BASE_URL}#jesus/jesus`,
     description: 'Christology - main category page',
     expectedLinks: ['incarnation', 'atonement', 'resurrection'],
-    screenshot: 'hud_08_christ.png'
+    screenshot: 'hud_08_jesus.png'
   },
   {
     name: 'Salvation Category',
@@ -94,10 +94,10 @@ const testScenarios = [
   },
   {
     name: 'End Times Category',
-    url: `${BASE_URL}#endtimes/endtimes`,
+    url: `${BASE_URL}#eschatology/eschatology`,
     description: 'Eschatology - main category page',
     expectedLinks: ['return', 'resurrection', 'judgment'],
-    screenshot: 'hud_12_endtimes.png'
+    screenshot: 'hud_12_eschatology.png'
   }
 ];
 
