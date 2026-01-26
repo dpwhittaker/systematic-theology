@@ -1,0 +1,78 @@
+# HUD Interface Test URLs
+
+# Generated: 2026-01-26T07:23:12.082Z
+# Base URL: http://localhost:8080
+# Note: Start local server with: python3 -m http.server 8080
+
+## Test 1: Initial Load
+URL: http://localhost:8080
+Description: Default entry point - intro page
+Expected: Hebrew (yellow), Greek (cyan), Drill (green)
+Screenshot: hud_01_initial.png
+
+## Test 2: Intro Overview
+URL: http://localhost:8080#intro/intro
+Description: Main introduction page
+Expected: philosophy, narrative, relation, wrestling
+Screenshot: hud_02_intro.png
+
+## Test 3: Hebrew Narrative
+URL: http://localhost:8080#intro/narrative
+Description: Hebrew narrative approach
+Expected: Parent to intro, Other Hebrew concepts
+Screenshot: hud_03_narrative.png
+
+## Test 4: Greek Philosophy
+URL: http://localhost:8080#intro/philosophy
+Description: Greek philosophical approach
+Expected: Parent to intro, Other Greek concepts
+Screenshot: hud_04_philosophy.png
+
+## Test 5: Hebrew Relation
+URL: http://localhost:8080#intro/relation
+Description: Hebrew relational approach
+Expected: covenant, relationship
+Screenshot: hud_05_relation.png
+
+## Test 6: Hebrew Wrestling
+URL: http://localhost:8080#intro/wrestling
+Description: Hebrew interpretive method
+Expected: hagah, meditation
+Screenshot: hud_06_wrestling.png
+
+## Test 7: God Category
+URL: http://localhost:8080#god/god
+Description: Theology Proper - main category page
+Expected: essence, names, attributes
+Screenshot: hud_07_god.png
+
+## Test 8: Christ Category
+URL: http://localhost:8080#christ/christ
+Description: Christology - main category page
+Expected: incarnation, atonement, resurrection
+Screenshot: hud_08_christ.png
+
+## Test 9: Salvation Category
+URL: http://localhost:8080#salvation/salvation
+Description: Soteriology - main category page
+Expected: grace, faith, justification
+Screenshot: hud_09_salvation.png
+
+## Test 10: Church Category
+URL: http://localhost:8080#church/church
+Description: Ecclesiology - main category page
+Expected: nature, ordinances, mission
+Screenshot: hud_10_church.png
+
+## Test 11: Spirit Category
+URL: http://localhost:8080#spirit/spirit
+Description: Pneumatology - main category page
+Expected: person, work, gifts
+Screenshot: hud_11_spirit.png
+
+## Test 12: End Times Category
+URL: http://localhost:8080#endtimes/endtimes
+Description: Eschatology - main category page
+Expected: return, resurrection, judgment
+Screenshot: hud_12_endtimes.png
+

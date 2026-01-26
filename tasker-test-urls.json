@@ -1,0 +1,135 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "generated": "2026-01-26T07:23:12.084Z",
+  "scenarios": [
+    {
+      "name": "Initial Load",
+      "url": "http://localhost:8080",
+      "description": "Default entry point - intro page",
+      "expectedLinks": [
+        "Hebrew (yellow)",
+        "Greek (cyan)",
+        "Drill (green)"
+      ],
+      "screenshot": "hud_01_initial.png"
+    },
+    {
+      "name": "Intro Overview",
+      "url": "http://localhost:8080#intro/intro",
+      "description": "Main introduction page",
+      "expectedLinks": [
+        "philosophy",
+        "narrative",
+        "relation",
+        "wrestling"
+      ],
+      "screenshot": "hud_02_intro.png"
+    },
+    {
+      "name": "Hebrew Narrative",
+      "url": "http://localhost:8080#intro/narrative",
+      "description": "Hebrew narrative approach",
+      "expectedLinks": [
+        "Parent to intro",
+        "Other Hebrew concepts"
+      ],
+      "screenshot": "hud_03_narrative.png"
+    },
+    {
+      "name": "Greek Philosophy",
+      "url": "http://localhost:8080#intro/philosophy",
+      "description": "Greek philosophical approach",
+      "expectedLinks": [
+        "Parent to intro",
+        "Other Greek concepts"
+      ],
+      "screenshot": "hud_04_philosophy.png"
+    },
+    {
+      "name": "Hebrew Relation",
+      "url": "http://localhost:8080#intro/relation",
+      "description": "Hebrew relational approach",
+      "expectedLinks": [
+        "covenant",
+        "relationship"
+      ],
+      "screenshot": "hud_05_relation.png"
+    },
+    {
+      "name": "Hebrew Wrestling",
+      "url": "http://localhost:8080#intro/wrestling",
+      "description": "Hebrew interpretive method",
+      "expectedLinks": [
+        "hagah",
+        "meditation"
+      ],
+      "screenshot": "hud_06_wrestling.png"
+    },
+    {
+      "name": "God Category",
+      "url": "http://localhost:8080#god/god",
+      "description": "Theology Proper - main category page",
+      "expectedLinks": [
+        "essence",
+        "names",
+        "attributes"
+      ],
+      "screenshot": "hud_07_god.png"
+    },
+    {
+      "name": "Christ Category",
+      "url": "http://localhost:8080#christ/christ",
+      "description": "Christology - main category page",
+      "expectedLinks": [
+        "incarnation",
+        "atonement",
+        "resurrection"
+      ],
+      "screenshot": "hud_08_christ.png"
+    },
+    {
+      "name": "Salvation Category",
+      "url": "http://localhost:8080#salvation/salvation",
+      "description": "Soteriology - main category page",
+      "expectedLinks": [
+        "grace",
+        "faith",
+        "justification"
+      ],
+      "screenshot": "hud_09_salvation.png"
+    },
+    {
+      "name": "Church Category",
+      "url": "http://localhost:8080#church/church",
+      "description": "Ecclesiology - main category page",
+      "expectedLinks": [
+        "nature",
+        "ordinances",
+        "mission"
+      ],
+      "screenshot": "hud_10_church.png"
+    },
+    {
+      "name": "Spirit Category",
+      "url": "http://localhost:8080#spirit/spirit",
+      "description": "Pneumatology - main category page",
+      "expectedLinks": [
+        "person",
+        "work",
+        "gifts"
+      ],
+      "screenshot": "hud_11_spirit.png"
+    },
+    {
+      "name": "End Times Category",
+      "url": "http://localhost:8080#endtimes/endtimes",
+      "description": "Eschatology - main category page",
+      "expectedLinks": [
+        "return",
+        "resurrection",
+        "judgment"
+      ],
+      "screenshot": "hud_12_endtimes.png"
+    }
+  ]
+}

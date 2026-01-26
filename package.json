@@ -5,7 +5,8 @@
   "main": "validate-requirements.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:visual": "node test-visual.js"
+    "test:visual": "node test-visual.js",
+    "generate-urls": "node generate-test-urls.js"
   },
   "repository": {
     "type": "git",

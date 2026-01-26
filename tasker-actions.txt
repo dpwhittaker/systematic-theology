@@ -1,0 +1,74 @@
+# Tasker Task Actions (Copy/Paste)
+
+# Test 1: Initial Load
+A1: Browse URL [ URL:http://localhost:8080 ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_01_initial ]
+A4: Wait [ Seconds:1 ]
+
+# Test 2: Intro Overview
+A1: Browse URL [ URL:http://localhost:8080#intro/intro ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_02_intro ]
+A4: Wait [ Seconds:1 ]
+
+# Test 3: Hebrew Narrative
+A1: Browse URL [ URL:http://localhost:8080#intro/narrative ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_03_narrative ]
+A4: Wait [ Seconds:1 ]
+
+# Test 4: Greek Philosophy
+A1: Browse URL [ URL:http://localhost:8080#intro/philosophy ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_04_philosophy ]
+A4: Wait [ Seconds:1 ]
+
+# Test 5: Hebrew Relation
+A1: Browse URL [ URL:http://localhost:8080#intro/relation ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_05_relation ]
+A4: Wait [ Seconds:1 ]
+
+# Test 6: Hebrew Wrestling
+A1: Browse URL [ URL:http://localhost:8080#intro/wrestling ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_06_wrestling ]
+A4: Wait [ Seconds:1 ]
+
+# Test 7: God Category
+A1: Browse URL [ URL:http://localhost:8080#god/god ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_07_god ]
+A4: Wait [ Seconds:1 ]
+
+# Test 8: Christ Category
+A1: Browse URL [ URL:http://localhost:8080#christ/christ ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_08_christ ]
+A4: Wait [ Seconds:1 ]
+
+# Test 9: Salvation Category
+A1: Browse URL [ URL:http://localhost:8080#salvation/salvation ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_09_salvation ]
+A4: Wait [ Seconds:1 ]
+
+# Test 10: Church Category
+A1: Browse URL [ URL:http://localhost:8080#church/church ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_10_church ]
+A4: Wait [ Seconds:1 ]
+
+# Test 11: Spirit Category
+A1: Browse URL [ URL:http://localhost:8080#spirit/spirit ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_11_spirit ]
+A4: Wait [ Seconds:1 ]
+
+# Test 12: End Times Category
+A1: Browse URL [ URL:http://localhost:8080#endtimes/endtimes ]
+A2: Wait [ Seconds:2 ]
+A3: Take Screenshot [ Name:hud_12_endtimes ]
+A4: Wait [ Seconds:1 ]
+
