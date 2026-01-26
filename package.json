@@ -4,7 +4,8 @@
   "description": "**Live Site:** [https://dpwhittaker.github.io/systematic-theology](https://dpwhittaker.github.io/systematic-theology)",
   "main": "validate-requirements.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:visual": "node test-visual.js"
   },
   "repository": {
     "type": "git",
