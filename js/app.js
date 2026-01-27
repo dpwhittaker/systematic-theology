@@ -388,6 +388,36 @@ function render() {
         return result;
     };
 
+    // Helper to split content preserving mermaid blocks
+    const buildContentHTML = (content) => {
+        // Extract mermaid containers to protect from line splitting
+        const mermaidContainers = [];
+        let protected = content.replace(/<div class="mermaid-container">[\s\S]*?<\/div><\/div>/g, (match) => {
+            const placeholder = `___MERMAID_CONTAINER_${mermaidContainers.length}___`;
+            mermaidContainers.push(match);
+            return placeholder;
+        });
+
+        // Split by lines and wrap in content-line divs
+        let html = protected.split('\n').map(line => {
+            line = line.trim();
+            if (!line) return '';
+
+            // Check if this line contains a mermaid placeholder
+            if (line.includes('___MERMAID_CONTAINER_')) {
+                return line; // Don't wrap placeholders
+            }
+            return `<div class="content-line">${line}</div>`;
+        }).join('');
+
+        // Restore mermaid containers
+        html = html.replace(/___MERMAID_CONTAINER_(\d+)___/g, (match, index) => {
+            return mermaidContainers[parseInt(index)];
+        });
+
+        return html;
+    };
+
     // Process main content
     let processed = processMarkdown(mainContent);
 
@@ -399,17 +429,13 @@ function render() {
 
     // Build HTML with main content, separator, and article
     let html = '<div id="main-content">';
-    html += processed.split('\n').map(line =>
-        line.trim() ? `<div class="content-line">${line}</div>` : ''
-    ).join('');
+    html += buildContentHTML(processed);
     html += '</div>';
 
     if (processedArticle) {
         html += '<div id="article-separator"></div>';
         html += '<div id="article-content">';
-        html += processedArticle.split('\n').map(line =>
-            line.trim() ? `<div class="content-line">${line}</div>` : ''
-        ).join('');
+        html += buildContentHTML(processedArticle);
         html += '</div>';
     }
 
