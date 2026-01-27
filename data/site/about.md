@@ -110,7 +110,8 @@ We can pursue both:
 
 1. **Start:** [Introduction](#intro/intro 'Drill') - Foundational framework
 2. **Explore:** [Table of Contents](#TOC 'Drill') - All major categories
-3. **Keyboard Navigation:**
+3. **Visualize:** [Lattice Link Map](#site/link-map 'Drill') - See how theological domains interconnect
+4. **Keyboard Navigation:**
    - Arrow keys cycle through color-coded links
    - Space/Enter activates focused link or toggles article
    - Navigation footer shows current options
