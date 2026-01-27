@@ -340,50 +340,34 @@ function render() {
     let mainContent = topic.summary;
     let articleContent = topic.article || '';
 
-    // Process main content
-    let processed = mainContent;
+    // Helper function to process markdown content
+    const processMarkdown = (content) => {
+        let result = content;
 
-    // First, convert headings to styled spans with optional anchor IDs (### before ## before # to avoid double-matching)
-    // Format: # Heading {#anchor-id} or just # Heading
-    processed = processed.replace(/^### (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
-        return anchor ? `<span class="heading-3" id="${anchor}">${text}</span>` : `<span class="heading-3">${text}</span>`;
-    });
-    processed = processed.replace(/^## (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
-        return anchor ? `<span class="heading-2" id="${anchor}">${text}</span>` : `<span class="heading-2">${text}</span>`;
-    });
-    processed = processed.replace(/^# (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
-        return anchor ? `<span class="heading" id="${anchor}">${text}</span>` : `<span class="heading">${text}</span>`;
-    });
+        // First, extract and convert ```mermaid code blocks to div elements
+        // Store them temporarily with placeholders to avoid processing their content
+        const mermaidBlocks = [];
+        result = result.replace(/```mermaid\n([\s\S]*?)```/g, (match, diagram) => {
+            const placeholder = `___MERMAID_${mermaidBlocks.length}___`;
+            mermaidBlocks.push(diagram.trim());
+            return placeholder;
+        });
 
-    // Then, convert markdown links to clickable spans with color classes
-    // Parse anchors from targets: #path#anchor becomes data-target="path" data-anchor="anchor"
-    processed = processed.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, fullTarget, column) => {
-        const col = (column || 'Drill').toLowerCase();
-        const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
-        const anchorSplit = fullTarget.split('#');
-        const target = anchorSplit[0];
-        const anchor = anchorSplit[1] || '';
-        return `<span class="link ${columnClass}" data-target="${target}" data-anchor="${anchor}" data-column="${columnClass}">${text}</span>`;
-    });
-
-    // Then highlight *text* that isn't already in a link
-    processed = processed.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
-
-    // Process article content if available
-    let processedArticle = '';
-    if (articleContent) {
-        processedArticle = articleContent;
-        // Apply same transformations to article
-        processedArticle = processedArticle.replace(/^### (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        // Convert headings to styled spans with optional anchor IDs (### before ## before # to avoid double-matching)
+        // Format: # Heading {#anchor-id} or just # Heading
+        result = result.replace(/^### (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
             return anchor ? `<span class="heading-3" id="${anchor}">${text}</span>` : `<span class="heading-3">${text}</span>`;
         });
-        processedArticle = processedArticle.replace(/^## (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        result = result.replace(/^## (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
             return anchor ? `<span class="heading-2" id="${anchor}">${text}</span>` : `<span class="heading-2">${text}</span>`;
         });
-        processedArticle = processedArticle.replace(/^# (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
+        result = result.replace(/^# (.+?)(?:\s*\{#([^}]+)\}\s*)?$/gm, (match, text, anchor) => {
             return anchor ? `<span class="heading" id="${anchor}">${text}</span>` : `<span class="heading">${text}</span>`;
         });
-        processedArticle = processedArticle.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, fullTarget, column) => {
+
+        // Convert markdown links to clickable spans with color classes
+        // Parse anchors from targets: #path#anchor becomes data-target="path" data-anchor="anchor"
+        result = result.replace(/\[([^\]]+)\]\(#([^\s)]+)(?:\s+'([^']+)')?\)/g, (match, text, fullTarget, column) => {
             const col = (column || 'Drill').toLowerCase();
             const columnClass = col === 'hebrew' ? 'hebrew' : col === 'greek' ? 'greek' : col === 'parent' ? 'parent' : 'drill';
             const anchorSplit = fullTarget.split('#');
@@ -391,7 +375,26 @@ function render() {
             const anchor = anchorSplit[1] || '';
             return `<span class="link ${columnClass}" data-target="${target}" data-anchor="${anchor}" data-column="${columnClass}">${text}</span>`;
         });
-        processedArticle = processedArticle.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
+
+        // Highlight *text* that isn't already in a link
+        result = result.replace(/\*+([^*]+)\*+/g, '<span class="highlight">$1</span>');
+
+        // Restore mermaid blocks as div elements
+        result = result.replace(/___MERMAID_(\d+)___/g, (match, index) => {
+            const diagram = mermaidBlocks[parseInt(index)];
+            return `<div class="mermaid-container"><div class="mermaid">${diagram}</div></div>`;
+        });
+
+        return result;
+    };
+
+    // Process main content
+    let processed = processMarkdown(mainContent);
+
+    // Process article content if available
+    let processedArticle = '';
+    if (articleContent) {
+        processedArticle = processMarkdown(articleContent);
     }
 
     // Build HTML with main content, separator, and article
@@ -411,6 +414,13 @@ function render() {
     }
 
     els.cardBody.innerHTML = html;
+
+    // Render Mermaid diagrams if mermaid is available
+    if (window.mermaid && els.cardBody.querySelectorAll('.mermaid').length > 0) {
+        window.mermaid.run({
+            nodes: els.cardBody.querySelectorAll('.mermaid')
+        }).catch(err => console.error('Mermaid rendering error:', err));
+    }
 
     // Build inline links array and add click handlers
     state.inlineLinks = [];

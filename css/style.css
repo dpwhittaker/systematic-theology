@@ -358,3 +358,25 @@ body {
 .hidden {
     display: none;
 }
+
+/* MERMAID DIAGRAMS */
+.mermaid-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #111111;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.mermaid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}

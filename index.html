@@ -20,6 +20,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Mermaid.js for diagrams -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: false,
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#00ff00',
+                primaryTextColor: '#00ff00',
+                primaryBorderColor: '#00ff00',
+                lineColor: '#00ff00',
+                secondaryColor: '#ffdd00',
+                tertiaryColor: '#00ddff',
+                background: '#000000',
+                mainBkg: '#000000',
+                secondBkg: '#111111',
+                tertiaryBkg: '#222222',
+                darkMode: true,
+                fontFamily: 'Atkinson Hyperlegible, sans-serif',
+                fontSize: '14px'
+            }
+        });
+        window.mermaid = mermaid;
+    </script>
+
     <script>
         // Cache-busting for CSS during development
         const link = document.createElement('link');
