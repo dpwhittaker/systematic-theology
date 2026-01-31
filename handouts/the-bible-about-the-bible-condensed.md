@@ -171,6 +171,42 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - **The Spirit's work post-Pentecost:** Luke 24 describes pre-Pentecost confusion; after Pentecost (Acts 2), the Spirit enables believers to understand Scripture. The apostles who were confused before the resurrection became bold proclaimers after receiving the Spirit.
 - **Christological key essential:** Even post-Pentecost, Scripture can only be rightly understood when read christocentrically. Jesus is the hermeneutical key (Luke 24:27). Without seeing Christ in Scripture, one misses its main point.
 
+### Jewish Hermeneutical Perspectives
+
+The Jewish interpretive tradition offers insights into how Scripture was understood in its original context:
+
+> Turn it over and turn it over, for everything is in it. (**Pirkei Avot 5:22**, on Torah)
+
+> These and these are the words of the living God. (**Talmud, Eruvin 13b**, on contradictory rabbinic opinions)
+
+> For the word of God is living and active, sharper than any two-edged sword. (**Hebrews 4:12**, ESV)
+
+### Interpretive Perspectives
+
+**On PaRDeS - The Four Levels of Meaning:**
+Jewish interpretation recognizes four simultaneous layers of meaning in Scripture, acronymed as PaRDeS (פרדס, "orchard"):
+- **Peshat (פְּשָׁט):** Simple, plain meaning—the straightforward reading.
+- **Remez (רֶמֶז):** Hint, allegory—symbolic meanings hinted at in the text.
+- **Derash (דְּרַשׁ):** Interpretive, homiletical—what the text teaches morally or practically.
+- **Sod (סוֹד):** Secret, mystical—hidden, mystical meanings (Kabbalistic).
+
+All four levels are valid simultaneously. This differs radically from seeking "the" one correct meaning. The New Testament demonstrates layered reading: Matthew using Hosea 11:1 for both Israel and Jesus; Paul allegorizing Hagar and Sarah (Gal 4:21-31); Hebrews reading the tabernacle christologically. Critics argue this risks eisegesis; proponents respond that divine revelation has inexhaustible depths.
+
+**On Rabbinic Interpretation in Community:**
+- **Talmudic method:** The Talmud preserves centuries of rabbinic debate, recording both sides of arguments and preserving minority opinions alongside majority rulings. Contradictions are often left unresolved.
+- **Eilu v'eilu ("These and these"):** A heavenly voice proclaimed that contradictory opinions from different rabbinic schools are *both* "words of the living God" (Eruvin 13b). This doesn't reject logic but recognizes both see part of a complex truth. God's word is living, layered, multifaceted—it has "seventy faces" (Midrash Bamidbar Rabbah 13:15).
+- **Community constraints:** This prevents individual interpretation from becoming arbitrary. Community, tradition, and the text itself provide constraints. Cf. 2 Peter 1:20 - "no prophecy of Scripture comes from someone's own interpretation."
+- **Balance with sola scriptura:** Protestant emphasis on "Scripture alone" sometimes leads to individualistic interpretation; Jewish model balances individual study with communal wisdom.
+
+**On Literary Structures and "Hidden" Elements:**
+- **Chiasm:** Literary structure (A-B-C-B'-A') where the central element is the focal point. Genesis 1 is chiastic; Mark's Gospel centers on Peter's confession (8:27-30); John's prologue centers on "the Word became flesh" (1:14).
+- **Numerical patterns:** Hebrew letters double as numbers, enabling patterns and gematria. Symbolic use of seven, twelve, forty appears throughout Scripture.
+- **Midrash (מִדְרָשׁ):** From *darash* (דרש): to seek, interpret. Not dispassionate scholarship but passionate engagement, filling narrative gaps, exploring contradictions. Multiple interpretations are preserved—not seeking closure but ongoing encounter. The goal is being shaped by wrestling with the text (Genesis 32).
+- **Perspectives:** These literary features demonstrate Scripture's artistry and intentional composition. Recognizing patterns enriches understanding but risks speculation if pushed too far. Are these patterns "hidden" (requiring special knowledge) or "deep" (rewarding careful attention)? Some emphasize Scripture's clarity to the simple; others celebrate its inexhaustible depths.
+
+**On "Everything Is In It" (Pirkei Avot 5:22):**
+Torah is inexhaustible—no matter how many times you read it, there's more to discover. Not a puzzle with one solution but an infinite wellspring. Jewish practice reads the same texts annually, finding new meanings each cycle. Contrasts with approaches that aim to "master" Scripture's content.
+
 ---
 
 ## V. The Preservation and Permanence of Scripture
