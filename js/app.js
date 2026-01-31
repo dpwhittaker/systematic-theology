@@ -1001,37 +1001,84 @@ async function loadHandout(path) {
         if (!response.ok) throw new Error(`Failed to load ${path}`);
         const markdown = await response.text();
 
-        // Simple markdown to HTML converter for handouts
-        let html = markdown
+        // Parse markdown line by line for better list handling
+        const lines = markdown.split('\n');
+        let html = '';
+        let inList = false;
+        let inBlockquote = false;
+        let blockquoteContent = [];
+
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i];
+
+            // Close blockquote if we're in one and hit a non-blockquote line
+            if (inBlockquote && !line.startsWith('>')) {
+                html += '<blockquote>' + blockquoteContent.join('<br>') + '</blockquote>\n';
+                blockquoteContent = [];
+                inBlockquote = false;
+            }
+
+            // Handle blockquotes
+            if (line.startsWith('> ')) {
+                if (!inBlockquote) {
+                    inBlockquote = true;
+                }
+                blockquoteContent.push(line.substring(2));
+                continue;
+            }
+
+            // Close list if we're in one and hit a non-list line (and it's not empty)
+            if (inList && !line.match(/^[-*]\s/) && line.trim() !== '') {
+                html += '</ul>\n';
+                inList = false;
+            }
+
             // Headers
-            .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-            .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-            .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+            if (line.startsWith('### ')) {
+                html += '<h3>' + line.substring(4) + '</h3>\n';
+            } else if (line.startsWith('## ')) {
+                html += '<h2>' + line.substring(3) + '</h2>\n';
+            } else if (line.startsWith('# ')) {
+                html += '<h1>' + line.substring(2) + '</h1>\n';
+            }
             // Horizontal rules
-            .replace(/^---$/gm, '<hr>')
-            // Blockquotes
-            .replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>')
+            else if (line.trim() === '---') {
+                html += '<hr>\n';
+            }
+            // List items
+            else if (line.match(/^[-*]\s/)) {
+                if (!inList) {
+                    html += '<ul>\n';
+                    inList = true;
+                }
+                html += '<li>' + line.substring(2) + '</li>\n';
+            }
+            // Empty lines
+            else if (line.trim() === '') {
+                html += '\n';
+            }
+            // Regular paragraphs
+            else {
+                html += '<p>' + line + '</p>\n';
+            }
+        }
+
+        // Close any open tags
+        if (inList) {
+            html += '</ul>\n';
+        }
+        if (inBlockquote) {
+            html += '<blockquote>' + blockquoteContent.join('<br>') + '</blockquote>\n';
+        }
+
+        // Now apply inline formatting
+        html = html
             // Bold
             .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-            // Italic
+            // Italic (but not in blockquotes or list bullets)
             .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-            // Links (convert to plain underlined text for printing)
-            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-            // Line breaks to paragraphs
-            .replace(/\n\n/g, '</p><p>')
-            .replace(/^(.+)$/gm, function(match) {
-                if (match.startsWith('<h') || match.startsWith('<hr') ||
-                    match.startsWith('<blockquote') || match.startsWith('</')) {
-                    return match;
-                }
-                return match;
-            });
-
-        // Wrap in paragraphs
-        html = '<p>' + html + '</p>';
-
-        // Clean up blockquote merging (consecutive blockquotes should be one block)
-        html = html.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+            // Links
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 
         // Render to page
         els.cardBody.innerHTML = html;
