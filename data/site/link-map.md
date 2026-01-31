@@ -64,7 +64,7 @@ graph TD
 - **church** folder has minimal cross-category links (only 2 total)
 - **freewill** has the most cross-category connections (16 total)
 
----
+
 # Detailed Connection Map
 
 This detailed view shows specific cross-category file connections grouped by theological domain.
