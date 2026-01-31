@@ -961,14 +961,78 @@ function setContainerPadding() {
     }
 }
 
+// Load and render handout files (printable format)
+async function loadHandout(path) {
+    try {
+        // Switch to handout CSS
+        const existingLink = document.querySelector('link[href*="style.css"]');
+        if (existingLink) {
+            existingLink.href = 'css/handout.css';
+        }
+
+        // Fetch handout markdown
+        const response = await fetch(path);
+        if (!response.ok) throw new Error(`Failed to load ${path}`);
+        const markdown = await response.text();
+
+        // Simple markdown to HTML converter for handouts
+        let html = markdown
+            // Headers
+            .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+            .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+            .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+            // Horizontal rules
+            .replace(/^---$/gm, '<hr>')
+            // Blockquotes
+            .replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>')
+            // Bold
+            .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+            // Italic
+            .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+            // Links (convert to plain underlined text for printing)
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+            // Line breaks to paragraphs
+            .replace(/\n\n/g, '</p><p>')
+            .replace(/^(.+)$/gm, function(match) {
+                if (match.startsWith('<h') || match.startsWith('<hr') ||
+                    match.startsWith('<blockquote') || match.startsWith('</')) {
+                    return match;
+                }
+                return match;
+            });
+
+        // Wrap in paragraphs
+        html = '<p>' + html + '</p>';
+
+        // Clean up blockquote merging (consecutive blockquotes should be one block)
+        html = html.replace(/<\/blockquote>\s*<blockquote>/g, '<br>');
+
+        // Render to page
+        els.cardBody.innerHTML = html;
+
+    } catch (e) {
+        console.error("Failed to load handout", e);
+        els.cardBody.innerHTML = `<h1>Error</h1><p>Failed to load handout: ${e.message}</p>`;
+    }
+}
+
 async function init() {
     try {
+        const hash = window.location.hash.replace('#', '') || 'intro/intro';
+
+        // Check if this is a handout request
+        if (hash.startsWith('handouts/') || hash.startsWith('../handouts/')) {
+            // Extract the handout filename
+            const handoutPath = hash.replace(/^\.\.\//, '');
+            await loadHandout(handoutPath);
+            return;
+        }
+
+        // Normal HUD navigation
         // Set container padding based on actual header/footer sizes
         setContainerPadding();
 
         state.loading = false;
-
-        const hash = window.location.hash.replace('#', '') || 'intro/intro';
 
         // Parse hash into topicId and anchor: "path/to/file#anchor" or just "path/to/file"
         const anchorSplit = hash.split('#');

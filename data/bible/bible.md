@@ -19,8 +19,4 @@ The written *Word of God*. But is it a collection of [timeless propositions](#bi
 
 Can both be true? Is Scripture propositional truth or narrative encounter?
 
-**Classroom Handouts:**
-Study guides presenting what the Bible says about itself, with interpretive perspectives from various Christian traditions:
-- [Full Format](../../handouts/the-bible-about-the-bible.md): Complete with context notes and detailed perspectives (~13,000 words).
-- [Condensed Format](../../handouts/the-bible-about-the-bible-condensed.md): Grouped verses with summarized perspectives (~9,500 words).
-- [Printable Format](../../handouts/the-bible-about-the-bible-printable.md): References only—bring your Bible (~6,000 words).
+**Handouts:** [Full](#handouts/the-bible-about-the-bible.md) [Condensed](#handouts/the-bible-about-the-bible-condensed.md) [Short](#handouts/the-bible-about-the-bible-printable.md)

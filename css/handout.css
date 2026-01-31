@@ -1,0 +1,191 @@
+/* Printable Handout Styles - Black on White */
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Atkinson Hyperlegible', 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Allow scrolling for handouts */
+}
+
+#viewport-wrapper {
+    position: static;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+#app {
+    background: #ffffff;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+    min-height: 100vh;
+}
+
+/* Hide HUD elements */
+.hud-header,
+.hud-footer,
+#breadcrumb-row,
+#history-row,
+#parent-row,
+#nav-hint,
+#article-indicator,
+#fullscreen-btn {
+    display: none !important;
+}
+
+.hud-card {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#card-body {
+    background: transparent;
+    color: #000000;
+    font-size: 11pt;
+    padding: 0;
+}
+
+/* Typography */
+h1 {
+    color: #000000;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 0 0 0.25in 0;
+    padding: 0;
+    border-bottom: 2px solid #000000;
+    page-break-after: avoid;
+}
+
+h2 {
+    color: #000000;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0.2in 0 0.1in 0;
+    page-break-after: avoid;
+}
+
+h3 {
+    color: #000000;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0.15in 0 0.08in 0;
+    page-break-after: avoid;
+}
+
+p {
+    margin: 0.08in 0;
+    orphans: 3;
+    widows: 3;
+}
+
+/* Blockquotes (Scripture quotations) */
+blockquote {
+    margin: 0.1in 0 0.1in 0.25in;
+    padding: 0.08in 0 0.08in 0.15in;
+    border-left: 3px solid #666666;
+    color: #222222;
+    font-style: normal;
+    page-break-inside: avoid;
+}
+
+blockquote strong {
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Lists */
+ul, ol {
+    margin: 0.08in 0;
+    padding-left: 0.3in;
+}
+
+li {
+    margin: 0.04in 0;
+}
+
+/* Emphasis */
+em {
+    font-style: italic;
+    color: #000000;
+}
+
+strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Links - print as underlined black text */
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* No link elements in handouts */
+.link {
+    display: inline;
+    color: #000000;
+    border: none;
+    cursor: default;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 0.15in 0;
+}
+
+/* Print-specific */
+@media print {
+    body {
+        background: #ffffff;
+    }
+
+    #app {
+        max-width: 100%;
+        padding: 0.25in;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+    blockquote, ul, ol {
+        page-break-inside: avoid;
+    }
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    /* Show URLs for external links in print */
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        color: #666666;
+    }
+}
+
+/* Code/Greek terms */
+code {
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    background: #f0f0f0;
+    padding: 0 0.05in;
+    border-radius: 2px;
+}
+
+/* Utility classes */
+.page-break {
+    page-break-after: always;
+}
+
+.no-break {
+    page-break-inside: avoid;
+}
