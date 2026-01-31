@@ -70,6 +70,8 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 
 > But even if we or an angel from heaven should preach to you a gospel contrary to the one we preached to you, let him be accursed. As we have said before, so now I say again: If anyone is preaching to you a gospel contrary to what you received, let him be accursed. (**Galatians 1:8-9**, ESV)
 
+> So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter. (**2 Thessalonians 2:15**, ESV)
+
 ### Interpretive Perspectives
 
 **On Commands Not to Add or Subtract:**

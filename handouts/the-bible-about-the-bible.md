@@ -153,6 +153,17 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - The standard is "the gospel...we preached"—oral apostolic teaching, later written down
 - Some apply this broadly to all doctrine; others limit it to the specific gospel of justification by faith
 
+**2 Thessalonians 2:15** (ESV)
+> So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter.
+
+*Context:* Paul addresses false teaching about the Day of the Lord and exhorts the Thessalonians to remain faithful.
+
+*Interpretive perspectives:*
+- Both oral and written apostolic teaching carried authority—some see this as supporting the role of church tradition alongside Scripture
+- "Traditions" (Greek: *paradoseis*) means what is handed down or delivered
+- Does this establish two separate sources of authority (Scripture and Tradition), or does it acknowledge that apostolic teaching was initially oral before being written down in the New Testament?
+- What happened to the oral traditions Paul mentions? Were they all eventually inscripturated, or do some remain preserved only in church tradition?
+
 ---
 
 ## III. The Power and Effectiveness of God's Word
