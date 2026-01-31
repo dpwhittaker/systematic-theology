@@ -31,7 +31,7 @@ A topical guide to biblical passages about Scripture, with interpretive perspect
 
 ## II. The Sufficiency of Scripture
 
-**Key Passages:** Deuteronomy 4:2; 12:32; Proverbs 30:5-6; Revelation 22:18-19; 1 Corinthians 4:6; Galatians 1:8-9
+**Key Passages:** Deuteronomy 4:2; 12:32; Proverbs 30:5-6; Revelation 22:18-19; 1 Corinthians 4:6; Galatians 1:8-9; 2 Thessalonians 2:15
 
 ### Interpretive Perspectives
 
@@ -48,6 +48,11 @@ A topical guide to biblical passages about Scripture, with interpretive perspect
 **On the Gospel's Protection (Galatians 1:8-9):**
 - **Broad doctrinal application:** This anathema applies to all theological error and establishes Scripture (the written gospel) as the final arbiter of truth.
 - **Gospel-specific application:** Paul's strong language protects the specific doctrine of justification by faith alone against the Judaizers. It establishes the gospel's inviolability but doesn't necessarily address all doctrinal questions or the role of tradition in other areas.
+
+**On Oral and Written Tradition (2 Thessalonians 2:15):**
+- **Tradition alongside Scripture:** Paul's command to "hold to the traditions...by our spoken word or by our letter" shows both oral and written apostolic teaching carried authority. This supports a role for church tradition preserved outside Scripture.
+- **Eventual inscripturation:** What was initially oral apostolic teaching was eventually written down in the New Testament. The "traditions" (*paradoseis*—what is handed down) Paul refers to are now contained in Scripture.
+- **Lost traditions?:** Did some authoritative apostolic teaching remain only oral and not get written? If so, where is it preserved—in church tradition or liturgy? Or was all necessary teaching inscripturated in the canonical writings?
 
 ---
 
