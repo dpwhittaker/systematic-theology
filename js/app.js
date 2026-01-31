@@ -314,10 +314,23 @@ function render() {
         span.style.cursor = 'pointer';
         const direction = span.dataset.column;
         const anchor = span.dataset.anchor || null;
-        span.onclick = () => navigateTo(span.dataset.target, false, direction, anchor);
+        const target = span.dataset.target;
+
+        // Check if this is a handout link
+        if (target && target.startsWith('handouts/')) {
+            // Handout link - reload page with handout hash
+            span.onclick = () => {
+                window.location.href = '#' + target;
+                window.location.reload();
+            };
+        } else {
+            // Regular topic link
+            span.onclick = () => navigateTo(target, false, direction, anchor);
+        }
+
         state.parentLinks.push({
             element: span,
-            target: span.dataset.target,
+            target: target,
             anchor: anchor,
             column: direction,
             index: parseInt(span.dataset.index)
@@ -454,10 +467,23 @@ function render() {
         span.style.cursor = 'pointer';
         const direction = span.dataset.column;
         const anchor = span.dataset.anchor || null;
-        span.onclick = () => navigateTo(span.dataset.target, false, direction, anchor);
+        const target = span.dataset.target;
+
+        // Check if this is a handout link
+        if (target && target.startsWith('handouts/')) {
+            // Handout link - reload page with handout hash
+            span.onclick = () => {
+                window.location.href = '#' + target;
+                window.location.reload();
+            };
+        } else {
+            // Regular topic link
+            span.onclick = () => navigateTo(target, false, direction, anchor);
+        }
+
         state.inlineLinks.push({
             element: span,
-            target: span.dataset.target,
+            target: target,
             anchor: anchor,
             column: span.dataset.column,
             index: index
