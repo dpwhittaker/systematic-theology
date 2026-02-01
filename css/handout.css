@@ -87,10 +87,11 @@ h3 {
 }
 
 p {
-    margin: 0.08in 0;
+    margin: 0.05in 0;
     orphans: 3;
     widows: 3;
     page-break-inside: avoid;
+    line-height: 1.0;
 }
 
 /* Blockquotes (Scripture quotations) */
@@ -115,10 +116,12 @@ ul, ol {
     margin: 0.08in 0;
     padding-left: 0.3in;
     page-break-inside: avoid;
+    line-height: 1.0;
 }
 
 li {
-    margin: 0.04in 0;
+    margin: 0;
+    padding: 0;
     page-break-inside: avoid;
 }
 
