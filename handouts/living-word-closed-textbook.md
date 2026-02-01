@@ -1,7 +1,7 @@
 # Living Word? Closed Textbook? Guide to Life?
 ## What is the Bible Anyway?
 
-A pastoral guide to understanding Scripture across Christian and Jewish perspectives
+Understanding Scripture across Christian and Jewish perspectives
 
 ---
 
@@ -395,9 +395,9 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 ---
 
-## A Pastoral Word
+## A Word for Our Class
 
-If you're in this class wrestling with these questions, here's what I want you to know:
+If you're wrestling with these questions, here's what I want you to know:
 
 **Your questions are faithful, not faithless.** Wrestling with Scripture is *honoring* it, not doubting it. Jacob wrestled with God and was blessed.
 
