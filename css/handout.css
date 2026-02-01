@@ -116,6 +116,7 @@ ul, ol {
     margin: 0.08in 0;
     padding-left: 0.3in;
     page-break-inside: avoid;
+    page-break-before: avoid; /* Keep with preceding header */
     line-height: 1.0;
 }
 
@@ -184,8 +185,13 @@ hr {
         page-break-inside: avoid;
     }
 
-    p, blockquote, ul, ol, li {
+    p, blockquote, li {
         page-break-inside: avoid;
+    }
+
+    ul, ol {
+        page-break-inside: avoid;
+        page-break-before: avoid; /* Keep with preceding header */
     }
 
     a {
