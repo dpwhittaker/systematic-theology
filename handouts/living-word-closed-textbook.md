@@ -41,97 +41,60 @@ Before we explore differences, let's be clear about the vast common ground acros
 
 ### The Bible's Divine Origin and Authority
 
-**We all believe:**
 - The Bible is the Word of God, not merely human wisdom
-- God inspired its writing through human authors
-- Scripture reveals God's character and will
 - The Bible has unique authority over our lives
-- We are accountable to what Scripture teaches
-- Scripture is true and trustworthy
 
 **Biblical support:** 2 Timothy 3:16 - "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness."
 
 ### Interpretation is Complex and Requires Care
 
-**We all believe:**
 - The Bible isn't always easy to understand
 - Interpretation requires wisdom, study, and care
 - We can misunderstand or misapply Scripture
-- Good interpretation requires knowing context
-- Some passages are difficult or mysterious
-- We need help understanding God's Word
 
 **Biblical support:** 2 Peter 3:16 - "There are some things in [Paul's letters] that are hard to understand, which the ignorant and unstable twist to their own destruction, as they do the other Scriptures."
 
 ### There are Limits to Valid Interpretation
 
-**We all believe:**
 - You can't make the Bible say anything you want
-- Some interpretations are wrong or unfaithful
 - The text itself constrains meaning
-- Not all readings are equally valid
-- We can twist Scripture to our destruction
-- Faithful interpretation has boundaries
 
 **Biblical support:** 2 Peter 3:16 (above); Galatians 1:8-9 - "But even if we or an angel from heaven should preach to you a gospel contrary to the one we preached to you, let him be accursed."
 
 ### Scripture Must Be Read in Community
 
-**We all believe:**
 - Individual interpretation is insufficient
 - We need to learn from other believers
-- The church has wisdom to offer
-- We shouldn't interpret alone
 - Community helps prevent error
-- God works through the body of Christ
 
 **Biblical support:** Acts 17:11 - "Now these Jews [in Berea] were more noble...they received the word with all eagerness, examining the Scriptures daily to see if these things were so." (They examined together, in community)
 
 ### The Holy Spirit Guides Understanding
 
-**We all believe:**
 - The Spirit illuminates Scripture
-- God helps us understand His Word
 - Human reason alone is insufficient
-- We need divine help to comprehend
-- The Spirit works through Scripture
-- Prayer and openness to God matter
 
 **Biblical support:** John 16:13 - "When the Spirit of truth comes, he will guide you into all the truth."
 
 ### Scripture Has a Central Message
 
-**We all believe:**
 - The Bible has unity and coherence
-- Scripture's parts fit together
 - There's a main storyline or theme
-- The whole Bible matters, not just parts
-- God's revelation is consistent
-- Scripture interprets Scripture
 
 **Biblical support:** Luke 24:27 - "And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning himself."
 
 ### Application Requires Wisdom
 
-**We all believe:**
-- Reading the Bible is different from applying it
 - Cultural context matters for application
 - We must distinguish timeless truths from cultural forms
 - Applying ancient texts to today requires discernment
-- Not everything applies the same way now
-- Wisdom is needed to live faithfully
 
 **Biblical support:** James 1:5 - "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him."
 
 ### Scripture Transforms Lives
 
-**We all believe:**
 - The Bible changes people
-- God's Word is powerful
-- Scripture shapes character and faith
-- Reading the Bible isn't just academic
 - The goal is encounter with God, not just knowledge
-- The Bible is meant to be lived, not just studied
 
 **Biblical support:** Hebrews 4:12 - "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart."
 
