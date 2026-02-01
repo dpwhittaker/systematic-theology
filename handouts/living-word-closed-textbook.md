@@ -240,74 +240,33 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 ### Biblical Support for Valuing Tradition
 
-**Oral tradition was authoritative:**
 - **2 Thessalonians 2:15:** "So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter." (Both oral and written apostolic teaching matter)
-- **1 Corinthians 11:2:** "Now I commend you because you remember me in everything and maintain the traditions even as I delivered them to you." (Paul praises maintaining tradition)
 - **2 Timothy 2:2:** "What you have heard from me in the presence of many witnesses entrust to faithful men, who will be able to teach others also." (Chain of faithful tradition)
-
-**We learn from how others have read Scripture:**
-- **Hebrews 13:7:** "Remember your leaders, those who spoke to you the word of God. Consider the outcome of their way of life, and imitate their faith." (Learn from those who came before)
-- **1 Corinthians 4:16-17:** "I urge you, then, be imitators of me. That is why I sent you Timothy...to remind you of my ways in Christ, as I teach them everywhere in every church." (Faithful teaching passed down)
-
-**The early church valued what had been handed down:**
 - **Jude 3:** "Contend for the faith that was once for all delivered to the saints." (There's a received faith to guard)
-- **Acts 2:42:** "And they devoted themselves to the apostles' teaching and the fellowship, to the breaking of bread and the prayers." (The apostles' teaching—tradition—was foundational)
 
-**What this means:**
-- We're not the first people to read these texts
-- The church has 2,000 years of wisdom to learn from
-- Ignoring how faithful believers have understood Scripture is arrogant
-- Tradition doesn't *replace* Scripture, but it *guides* interpretation
+**What this means:** We're not the first to read these texts. The church has 2,000 years of wisdom to learn from. Tradition doesn't *replace* Scripture, but it *guides* interpretation.
+
+**See also:** 1 Corinthians 11:2; Hebrews 13:7; 1 Corinthians 4:16-17; Acts 2:42
 
 ### Biblical Support for Community Interpretation
 
-**We shouldn't interpret alone:**
 - **2 Peter 1:20:** "No prophecy of Scripture comes from someone's own interpretation." (Private interpretation is insufficient)
-- **Proverbs 11:14:** "Where there is no guidance, a people falls, but in an abundance of counselors there is safety." (We need others' wisdom)
-- **Proverbs 15:22:** "Without counsel plans fail, but with many advisers they succeed." (Multiple perspectives help)
-
-**The church interprets together:**
 - **Acts 15:** The Jerusalem Council—apostles and elders *together* determined how to interpret Scripture regarding Gentiles
-- **1 Corinthians 14:29:** "Let two or three prophets speak, and let the others weigh what is said." (Community evaluates)
-- **Matthew 18:15-20:** Church discipline involves the community, and Jesus promises to be present "where two or three are gathered"
-
-**Diversity of perspectives enriches understanding:**
-- **1 Corinthians 12:12-27:** The body has many members with different functions; we need each other (This applies to understanding, not just serving)
-- **Ephesians 4:11-13:** God gave apostles, prophets, evangelists, shepherds, and teachers "until we all attain to the unity of the faith and of the knowledge of the Son of God"
-
-**The Bereans examined Scripture—but together:**
 - **Acts 17:11:** "They received the word with all eagerness, examining the Scriptures daily to see if these things were so." (Note: "they" examined—communal activity)
 
-**What this means:**
-- God works through the community of believers, not just individuals
-- My reading should be tested by others
-- When Christians across time and space agree, that carries weight
-- Lone-ranger interpretation is biblically suspect
+**What this means:** God works through the community of believers, not just individuals. My reading should be tested by others. Lone-ranger interpretation is biblically suspect.
+
+**See also:** Proverbs 11:14; 15:22; 1 Corinthians 12:12-27; 14:29; Ephesians 4:11-13; Matthew 18:15-20
 
 ### Biblical Support for Understanding Historical Context
 
-**Context helps us understand correctly:**
 - **2 Timothy 2:15:** "Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth." (Requires effort and skill—including understanding context)
-- **Nehemiah 8:8:** "They read from the book, from the Law of God, clearly, and they gave the sense, so that the people understood the reading." (Explanation was needed for understanding)
-
-**Jesus and Paul interpreted Scripture in context:**
 - **Luke 4:16-21:** Jesus reads Isaiah 61 in the synagogue and explains its fulfillment—interpreting in context of His ministry
-- **Acts 13:16-41:** Paul's sermon traces Israel's history to show how Jesus fulfills Scripture—historical context matters
-- **Galatians 3:15-18:** Paul uses the historical sequence (Abraham before Law) to make his theological argument
-
-**Genre and literary form matter:**
-- **Psalm 137:9:** "Blessed shall he be who takes your little ones and dashes them against the rock!" (Understanding this as lament poetry in historical context prevents misuse)
-- **Revelation's apocalyptic imagery:** The book signals its genre—visions, symbols, numbers have meaning within apocalyptic literature
-
-**Understanding the original audience helps application:**
 - **1 Corinthians 8-10:** Paul discusses food sacrificed to idols—understanding *why* this mattered to Corinthians helps us apply the principle (freedom vs. love)
-- **Philemon:** Understanding Roman slavery helps us read this letter—Paul isn't endorsing slavery; he's subverting it
 
-**What this means:**
-- God spoke to real people in real situations
-- Understanding those situations helps us hear what God said
-- Ignoring context leads to misapplication
-- Good interpretation requires historical and cultural knowledge
+**What this means:** God spoke to real people in real situations. Understanding those situations helps us hear what God said and apply it faithfully.
+
+**See also:** Nehemiah 8:8; Acts 13:16-41; Galatians 3:15-18; Psalm 137:9; Revelation (apocalyptic genre); Philemon (Roman slavery context)
 
 ---
 
