@@ -15,7 +15,7 @@ You read that God commands genocide against the Canaanites (Deuteronomy 20:16-17
 
 **Some of us respond by defending literal interpretation at all costs:** "The Bible says it, I believe it, that settles it." But this creates problems with science, with culture, and sometimes seems to give us someone to hate rather than someone to love.
 
-**Some of us respond by relativizing Scripture:** "It's all just ancient culture. We pick and choose what applies." But this creates a different problem—if we can dismiss anything that bothers us, does the Bible have any authority at all?
+**Some of us respond by emphasizing cultural context:** "The Bible was written to ancient cultures. God tasks us with applying it to modern culture." But this creates a different concern—how do we distinguish faithful adaptation from dismissing what bothers us? Does the Bible still have authority if we can set aside uncomfortable parts?
 
 **We're stuck between two fears:**
 1. If we don't read literally, we'll lose biblical authority and God becomes whoever we want Him to be

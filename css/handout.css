@@ -3,7 +3,7 @@ body {
     background: #ffffff;
     color: #000000;
     font-family: 'Atkinson Hyperlegible', 'Georgia', serif;
-    line-height: 1.6;
+    line-height: 1.0;
     margin: 0;
     padding: 0;
     overflow: auto; /* Allow scrolling for handouts */
@@ -58,7 +58,12 @@ h1 {
     margin: 0 0 0.25in 0;
     padding: 0;
     border-bottom: 2px solid #000000;
+    page-break-before: always;
     page-break-after: avoid;
+}
+
+h1:first-child {
+    page-break-before: auto; /* Don't force break before first h1 */
 }
 
 h2 {
@@ -66,7 +71,9 @@ h2 {
     font-size: 14pt;
     font-weight: bold;
     margin: 0.2in 0 0.1in 0;
+    page-break-before: auto;
     page-break-after: avoid;
+    page-break-inside: avoid;
 }
 
 h3 {
@@ -74,13 +81,16 @@ h3 {
     font-size: 12pt;
     font-weight: bold;
     margin: 0.15in 0 0.08in 0;
+    page-break-before: auto;
     page-break-after: avoid;
+    page-break-inside: avoid;
 }
 
 p {
     margin: 0.08in 0;
     orphans: 3;
     widows: 3;
+    page-break-inside: avoid;
 }
 
 /* Blockquotes (Scripture quotations) */
@@ -91,6 +101,8 @@ blockquote {
     color: #222222;
     font-style: normal;
     page-break-inside: avoid;
+    page-break-before: auto;
+    page-break-after: auto;
 }
 
 blockquote strong {
@@ -102,10 +114,12 @@ blockquote strong {
 ul, ol {
     margin: 0.08in 0;
     padding-left: 0.3in;
+    page-break-inside: avoid;
 }
 
 li {
     margin: 0.04in 0;
+    page-break-inside: avoid;
 }
 
 /* Emphasis */
@@ -144,6 +158,7 @@ hr {
 @media print {
     body {
         background: #ffffff;
+        line-height: 1.0;
     }
 
     #app {
@@ -151,11 +166,22 @@ hr {
         padding: 0.25in;
     }
 
-    h1, h2, h3 {
+    h1 {
+        page-break-before: always;
         page-break-after: avoid;
     }
 
-    blockquote, ul, ol {
+    h1:first-child {
+        page-break-before: auto;
+    }
+
+    h2, h3 {
+        page-break-before: auto;
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+
+    p, blockquote, ul, ol, li {
         page-break-inside: avoid;
     }
 
