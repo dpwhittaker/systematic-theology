@@ -97,11 +97,11 @@ The following passages are most frequently cited in the contemporary Christian d
 - The context links sexual ethics to theological ethics: idolatry inverts the created order, including the sexual order
 
 **Affirming arguments:**
-- *Para physin* ("against nature") may reflect Paul's Stoic cultural assumptions; the same phrase appears regarding men wearing long hair (1 Cor 11:14), which most do not treat as a universal moral prohibition
-- The text may address heterosexual persons acting against *their own* nature, not persons with a same-sex orientation acting consistently with theirs
-- Paul may be targeting the exploitative Greco-Roman same-sex practices of his context (pederasty, prostitution, master-slave sex) rather than committed relationships
-- The referent of the women's "unnatural relations" (v. 26) is unspecified; some argue it refers to non-procreative heterosexual practices
-- The rhetorical aim of Romans 1 is to indict all self-righteous moral judgment (cf. 2:1 "you have no excuse"); the chapter is an argument leading to that conclusion, not a standalone sexual ethics statement
+- Idolatry is the sin; the same-sex behavior is explicitly a *consequence*—"for this reason (*dia touto*) God gave them up" (v. 26). Paul is describing symptoms of a prior spiritual collapse, not legislating sexual ethics
+- The "downward spiral" does not bottom out at same-sex behavior; it bottoms out at gossip, strife, pride, disobedience to parents, and heartlessness (vv. 29–31)—sins universal to every reader
+- Romans 2:1 is the rhetorical destination: "in passing judgment on another you condemn yourself, because you, the judge, practice the very same things." If the passage were primarily about homosexuality, this line would mean every judgmental reader is homosexual; the point only works if the vices listed are universal human sins
+- Paul constructs the entire passage to indict self-righteous moral judgment, not to address same-sex relationships as a standalone ethical category
+- *Para physin* ("against nature") may reflect Paul's Stoic cultural assumptions; the same phrase appears for men wearing long hair (1 Cor 11:14), which is not treated as a universal moral prohibition
 
 ---
 
