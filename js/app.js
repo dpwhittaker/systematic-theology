@@ -1101,6 +1101,12 @@ async function init() {
             return;
         }
 
+        // Restore HUD CSS if returning from a handout
+        const handoutLink = document.querySelector('link[href*="handout.css"]');
+        if (handoutLink) {
+            handoutLink.href = 'css/style.css?v=' + Date.now();
+        }
+
         // Normal HUD navigation
         // Set container padding based on actual header/footer sizes
         setContainerPadding();
@@ -1124,6 +1130,11 @@ async function init() {
 window.addEventListener('resize', () => {
     setContainerPadding();
     fitContentToViewport();
+});
+
+// Re-initialize on browser back/forward navigation
+window.addEventListener('hashchange', () => {
+    init();
 });
 
 // Start

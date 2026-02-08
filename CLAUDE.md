@@ -203,12 +203,61 @@ php -S localhost:8000
 - Arrow keys cycle through color-coded links by column type
 - Duplicate links to the same target are outlined simultaneously
 
+## Handout System
+
+Handouts are printable/reference documents served through the same static shell as the HUD, but with a completely different CSS and no navigation UI.
+
+### Architecture
+
+- **Same shell**: `index.html` serves both HUD and handout views; no separate handout HTML
+- **CSS switching**: `loadHandout()` in `js/app.js` replaces `css/style.css` with `css/handout.css` at runtime
+- **CSS restoration**: When back-navigating from a handout, `init()` detects `handout.css` is active and restores `style.css`
+- **hashchange listener**: `window.addEventListener('hashchange', init)` handles browser back/forward navigation between HUD and handouts
+
+### Handout Files
+
+Located in `handouts/` as plain markdown files (no YAML frontmatter, no HUD-specific syntax):
+- `the-bible-about-the-bible.md` - Full treatment
+- `the-bible-about-the-bible-condensed.md` - Condensed version
+- `the-bible-about-the-bible-printable.md` - Short/printable version
+- `living-word-closed-textbook.md` - Comparison handout
+
+### Navigation Flow
+
+**HUD → Handout:**
+1. Handout links in topic markdown use path `handouts/filename.md` (e.g., in `data/bible/bible.md`)
+2. Click handler detects `target.startsWith('handouts/')`, sets `window.location.href = '#handouts/...'` and calls `window.location.reload()`
+3. On reload, `init()` detects hash starts with `handouts/`, calls `loadHandout(path)`
+4. `loadHandout()` switches CSS, fetches and parses the markdown, renders to `#card-body`
+
+**Handout → HUD (back button):**
+1. Browser `hashchange` fires with previous HUD hash
+2. `init()` runs, does NOT detect handout prefix
+3. Detects `link[href*="handout.css"]` and restores `style.css`
+4. Normal HUD initialization proceeds
+
+### Handout CSS (`css/handout.css`)
+
+- Black on white (#000000 / #ffffff), 8.5in max-width (letter paper)
+- Hides all HUD elements: `.hud-header`, `.hud-footer`, `#breadcrumb-row`, `#nav-hint`, etc.
+- Print-optimized: page-break rules, orphan/widow protection, blockquote styling for Scripture
+- Typography: Atkinson Hyperlegible / Georgia serif, 11pt base
+
+### Adding New Handouts
+
+1. Create a `.md` file in `handouts/` using standard markdown (no HUD frontmatter)
+2. Use `# Heading` for major sections (triggers `page-break-before` in print)
+3. Use `> blockquote` for Scripture quotations
+4. Link to it from relevant topic files: `[Label](#handouts/filename.md 'Drill')`
+
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS
 - `js/app.js` - All application logic, state management, rendering
 - `data/**/*.md` - Content source (markdown files), defines lattice structure
 - `css/style.css` - HUD styling, zero-scroll layout, color-coded navigation
+- `css/handout.css` - Print/handout styling, black on white, hides HUD chrome
+- `handouts/**/*.md` - Printable handout source files
 - `design.md` - Full UX rationale and theological design decisions
 - `README.md` - Project thesis and overview
 - `CLAUDE.md` - This file - guidance for AI assistants working on the project
