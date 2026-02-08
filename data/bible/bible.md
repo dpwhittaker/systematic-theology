@@ -19,4 +19,4 @@ The written *Word of God*. But is it a collection of [timeless propositions](#bi
 
 Can both be true? Is Scripture propositional truth or narrative encounter?
 
-**Handouts:** [What the Bible Says About Itself - Full](#handouts/the-bible-about-the-bible.md) [Condensed](#handouts/the-bible-about-the-bible-condensed.md) [Short](#handouts/the-bible-about-the-bible-printable.md) | [Living Word? Closed Textbook?](#handouts/living-word-closed-textbook.md)
+**Handouts:** [What the Bible Says About Itself - Full](#handouts/the-bible-about-the-bible.md) [Condensed](#handouts/the-bible-about-the-bible-condensed.md) [Short](#handouts/the-bible-about-the-bible-printable.md) | [Living Word? Closed Textbook?](#handouts/living-word-closed-textbook.md) | [Scripture & Homosexuality](#handouts/homosexuality-and-scripture.md)

@@ -120,3 +120,5 @@ It seems to me that even calling God, Jesus, and and the Holy Spirit "persons" i
 section 9.3 and 9.5 also need to update Trinity language to biblical language
 
 Great, I agree with @data/site/PotentialBiases.md now.  Please apply this framework to the entire site now.
+
+ok, let's add one more handout to the Bible section. The class ended last week with a discussion on homosexuality. The handout should list each of the main scriptures used in the debate, with a list of concise bullet points describing the arguments both sides use to defend their position from these scriptures. Include Gen 1/2, Sodom and Gomorrah and Jude, Leviticus 18/20, Romans 1, the arsenokoitai question, and anything else I am missing that is even close to this topic. No editorial or conclusions, just the verses and concise argument list.

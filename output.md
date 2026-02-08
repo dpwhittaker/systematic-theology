@@ -1165,3 +1165,5 @@ Created new page acknowledging that the site's position would likely be condemne
 - Final standard: Scripture judges tradition, not vice versa (sola Scriptura)
 
 **Conclusion:** By councils' standards, likely heretical. By Scripture's standards, faithful to the biblical testimony.
+
+Created handouts/homosexuality-and-scripture.md — lists all major biblical passages in the homosexuality debate (Gen 1-2, Gen 19, Jude 6-7, Lev 18/20, Rom 1, 1 Cor 6:9, 1 Tim 1:10, plus Ezek 16, Matt 19, 1 Kings qedeshim, David & Jonathan, Ruth & Naomi) with concise bullet points for both traditional and affirming interpretive positions. No editorial commentary or conclusions. Added link to it from data/bible/bible.md handouts line.
