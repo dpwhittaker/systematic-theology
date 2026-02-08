@@ -23,6 +23,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - Jesus cites Genesis 2:24 in the context of a divorce question, not a homosexuality question
 - The passage does not address people with a same-sex orientation, which is a modern anthropological category
 - Many other aspects of the creation narrative are not treated as permanent norms (e.g., single garden location, no clothing)
+- The male-female pairing in 1:27–28 is explicitly tied to the command to "be fruitful and multiply and fill the earth"; the sexual differentiation serves a procreative mission that does not require every relationship to be opposite-sex
 
 ---
 
