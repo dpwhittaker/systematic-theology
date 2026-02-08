@@ -42,6 +42,9 @@ The following passages are most frequently cited in the contemporary Christian d
 - Ezekiel 16:49 identifies Sodom's primary sin as pride, gluttony, and neglect of the poor—no mention of homosexuality
 - The story addresses power, violence, and hospitality violation; it has no bearing on committed same-sex relationships
 - Ancient Near Eastern hospitality laws made violation of guests an especially grave social offense—the text condemns that violation, not the gender of the victims
+- Genesis 19:4 says *kol-ha'am* ("all the people of Sodom")—ESV adds "to the last man" but that phrase is not in the Hebrew; the crowd is the entire populace, not a group of men
+- Genesis 19:1 identifies the visitors as *malachim* (angels), not men, and Lot bowed down (*vayishtachu*) before them—the crowd may have recognized them as supernatural beings
+- This mirrors Genesis 6:1–4, where "sons of God" (angels) came to human women and the resulting corruption brought the Flood; Sodom's attempted violation of angels echoes that same human-divine boundary transgression, explaining God's targeted destruction of this specific city
 
 ---
 
