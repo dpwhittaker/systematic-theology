@@ -141,42 +141,23 @@ The following passages are most frequently cited in the contemporary Christian d
 
 ---
 
-# Additional Passages Sometimes Cited
+# Final Remarks: Whole Witness vs. Trajectory
 
-## Ezekiel 16:49–50
+Beyond individual texts, both positions rest on broader hermeneutical frameworks.
 
-> Behold, this was the guilt of your sister Sodom: she and her daughters had pride, excess of food, and prosperous ease, but did not aid the poor and needy. They were haughty and did an abomination before me. So I removed them, when I saw it. (**Ezekiel 16:49–50**, ESV)
+**Traditional — The Whole Witness of Scripture:**
+- No passage anywhere in Scripture depicts a same-sex relationship positively or neutrally
+- Every positive portrayal of marriage and sexuality from Genesis to Revelation is male-female
+- The consistent canonical pattern carries cumulative weight that individual textual debates cannot overturn
+- "Silence" on same-sex relationships is itself significant—if they were acceptable, some positive example would be expected across thousands of years of sacred literature
+- The creation order (Gen 1–2), reaffirmed by Jesus (Matt 19), and reflected in Paul's theology establishes a norm the rest of Scripture never contradicts
 
-- **Traditional:** v. 50 uses *toevah* ("abomination"), the same term as Leviticus 18:22; sexual sin is implied alongside social sin
-- **Affirming:** The primary indictment is socioeconomic injustice; "abomination" is general and may not specifically reference the Genesis 19 events
-
-## Matthew 19:4–6 / Mark 10:6–9 (Jesus on Marriage)
-
-> He answered, "Have you not read that he who created them from the beginning made them male and female, and said, 'Therefore a man shall leave his father and his mother and hold fast to his wife, and the two shall become one flesh'?" (**Matthew 19:4–5**, ESV)
-
-- **Traditional:** Jesus explicitly defines marriage as male-female by appealing to creation order; no alternative is acknowledged or implied
-- **Affirming:** The passage answers a trap question about divorce; Jesus does not address same-sex relationships and cannot be made to speak to a question he was not asked
-
-## 1 Kings 14:24; 15:12; 22:46 — *Qedeshim*
-
-Older English translations render *qedesh* / *qedeshim* as "sodomites"; modern translations use "cult prostitutes" or "shrine prostitutes."
-
-- **Traditional:** The term may refer to male cult personnel who participated in same-sex acts as part of Canaanite worship; condemned alongside idolatry throughout the monarchy
-- **Affirming:** *Qedesh* refers to a cultic role whose connection to same-sex activity is disputed; "sodomite" is an anachronistic and polemical translation choice not supported by the Hebrew
-
-## David and Jonathan (1 Samuel 18–20; 2 Samuel 1:26)
-
-> ...your love to me was extraordinary, surpassing the love of women. (**2 Samuel 1:26**, ESV)
-
-- **Traditional:** The language reflects deep covenantal friendship and loyalty (*hesed*); the relationship is portrayed throughout as non-erotic, including their marriages to women
-- **Affirming:** Some scholars argue the language of love, covenant-making, and emotional intimacy suggests a romantic dimension; this interpretation is rejected by the majority of scholars across both positions
-
-## Ruth and Naomi (Ruth 1:16–17)
-
-> Where you go I will go, and where you lodge I will lodge. Your people shall be my people, and your God my God. (**Ruth 1:16**, ESV)
-
-- **Traditional:** Ruth's declaration is an expression of covenantal loyalty (*hesed*) and family commitment between a mother-in-law and daughter-in-law; no romantic element is present in the text
-- **Affirming:** Very occasionally cited as an example of intimate same-sex bond language in Scripture; rejected by the vast majority of scholars on both sides as having no erotic content in context
+**Affirming — The Trajectory of Scripture:**
+- Scripture itself shows a progressive trajectory of inclusion: Gentiles, women, slaves—each opposed by proof-texts, each eventually recognized as a move of the Spirit
+- The church has overturned biblically-defended practices (slavery, segregation, silencing of women) by reading the *direction* the gospel moves rather than freezing individual texts
+- The handful of texts that touch on same-sex behavior all address specific ancient contexts (cultic, exploitative, or honor-shame) with no equivalent to modern committed same-sex relationships
+- The Spirit that guided the church beyond explicit texts before can do so again; hermeneutics requires asking not only "what did this mean then?" but "where is the Spirit taking the community now?"
+- The greatest commandments (love God, love neighbor) and the fruit of the Spirit provide an ethical center that cannot be reduced to a list of proof-texts
 
 ---
 
