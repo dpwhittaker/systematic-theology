@@ -17,3 +17,5 @@ The *Eternal Creator*. How do we know Him?
 - [Acts](#god/acts 'Hebrew'): Creation, Exodus, Incarnation—God known through deeds.
 
 Can both be true? The God who *is* and the God who *acts*?
+
+**Handouts:** [God and Time](#handouts/god-and-time.md)
