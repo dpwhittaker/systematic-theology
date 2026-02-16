@@ -1167,3 +1167,7 @@ Created new page acknowledging that the site's position would likely be condemne
 **Conclusion:** By councils' standards, likely heretical. By Scripture's standards, faithful to the biblical testimony.
 
 Created handouts/homosexuality-and-scripture.md — lists all major biblical passages in the homosexuality debate (Gen 1-2, Gen 19, Jude 6-7, Lev 18/20, Rom 1, 1 Cor 6:9, 1 Tim 1:10, plus Ezek 16, Matt 19, 1 Kings qedeshim, David & Jonathan, Ruth & Naomi) with concise bullet points for both traditional and affirming interpretive positions. No editorial commentary or conclusions. Added link to it from data/bible/bible.md handouts line.
+
+## Research: God's Relationship with Time — Three Theological Positions
+
+Comprehensive research compiled on three theological positions regarding God and time: (1) Classical/Calvinist divine timelessness (Augustine, Boethius, Aquinas, Calvin), (2) Arminian simple foreknowledge (Arminius, Wesley), (3) Second Temple Jewish views (Qumran, Philo, Josephus, rabbinic literature, intertestamental texts). Also compiled the key "God changes His mind" scriptures with Hebrew word study on nacham. Full detailed summary provided directly to user for handout development.
