@@ -129,7 +129,57 @@ This may be the key to the *nacham* passages. God's dealings with people are *re
 
 ---
 
-## IV. Three Views on God and Time
+## IV. When God Declared the End from the Beginning
+
+If Section III presents the strongest biblical case for divine responsiveness, these passages form the core of the classical argument — that God does not merely *react* to history but *declares* it in advance with specific, testable precision.
+
+### Cyrus Named Before His Birth
+
+> Who says of Cyrus, "He is My shepherd, and he shall perform all My pleasure, saying to Jerusalem, 'You shall be built,' and to the temple, 'Your foundation shall be laid.'" (**Isaiah 44:28**, NKJV)
+
+> Thus says the LORD to His anointed, to Cyrus, whose right hand I have held — to subdue nations before him... (**Isaiah 45:1**, NKJV)
+
+Isaiah wrote in the 8th century BC. Cyrus the Great conquered Babylon and issued his decree releasing the Jewish exiles in 539 BC — approximately 150 years later. The text names him by name, describes his specific role in releasing the captives, and specifies the rebuilding of Jerusalem and the temple. This is not a general prediction of restoration; it is a named, historically verifiable fulfillment of a specific prophecy.
+
+### All Our Days Written Before We Were Born
+
+> For You formed my inward parts; You covered me in my mother's womb... Your eyes saw my substance, being yet unformed. And in Your book they all were written, the days fashioned for me, when as yet there were none of them. (**Psalm 139:13, 16**, NKJV)
+
+The psalmist does not say God *watched* his life unfold — he says God *wrote* it before it began. Each day was "fashioned" and recorded before any of them existed.
+
+### The Cross Planned Before Creation
+
+> Him, being delivered by the determined purpose and foreknowledge of God, you have taken by lawless hands, have crucified, and put to death. (**Acts 2:23**, NKJV)
+
+> For truly against Your holy Servant Jesus, whom You anointed, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together to do whatever Your hand and Your purpose determined before to be done. (**Acts 4:27-28**, NKJV)
+
+The crucifixion — including the specific human actors (Herod, Pilate, the crowds) — fulfilled what God's purpose "determined before to be done." The betrayal of an innocent man by free human agents was not a tragedy God incorporated into His plan after the fact. It *was* His plan, determined in advance.
+
+> ...knowing that you were not redeemed with corruptible things... but with the precious blood of Christ, as of a lamb without blemish and without spot. He indeed was foreordained *before the foundation of the world*, but was manifest in these last times for you. (**1 Peter 1:18-20**, NKJV)
+
+### God's People Chosen Before the Foundation of the World
+
+> ...just as He chose us in Him *before the foundation of the world*, that we should be holy and without blame before Him in love, having predestined us to adoption as sons by Jesus Christ to Himself, according to the good pleasure of His will. (**Ephesians 1:4-5**, NKJV)
+
+Paul does not say God foresaw who *would* believe and chose accordingly. He says God *chose us in Him* before the world existed — prior to any human decision.
+
+### God's Purpose Cannot Be Thwarted
+
+> Surely, as I have planned, so it will be, and as I have purposed, so it will happen... For the LORD Almighty has purposed, and who can thwart him? His hand is stretched out, and who can turn it back? (**Isaiah 14:24, 27**, NIV)
+
+> I know that you can do all things; no purpose of yours can be thwarted. (**Job 42:2**, NIV)
+
+> Many are the plans in a person's heart, but it is the LORD's purpose that prevails. (**Proverbs 19:21**, NIV)
+
+The consistent testimony is not that God responds skillfully to unfolding events, but that His purposes *cannot fail*. Not "probably won't" — cannot.
+
+### The Takeaway
+
+These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled*. The question is not whether God knows the future, but how — and what that means for human freedom and divine relationship.
+
+---
+
+## V. Three Views on God and Time
 
 ### View 1: The Classical/Calvinist View — God Outside of Time
 
@@ -225,7 +275,7 @@ The three Jewish sects map onto later Christian positions: Essenes → Calvinism
 
 ---
 
-## V. The Question Behind the Question
+## VI. The Question Behind the Question
 
 The deeper issue is not which view is "right" but what kind of reality God created:
 
@@ -242,10 +292,14 @@ God knows all *possibilities* exhaustively and knows which possibilities will be
 
 The Bible presents a God who:
 - **Declares the end from the beginning** (Isaiah 46:10) — suggesting knowledge of the future
+- **Names individuals by name before they are born** (Isaiah 44:28 — Cyrus; Micah 5:2 — Bethlehem) — suggesting precise foreknowledge of specific future persons
+- **Wrote all our days before we were born** (Psalm 139:16) — suggesting the future is already present to God
+- **Planned the cross before creation**, naming the specific human actors involved (Acts 2:23, Acts 4:27-28, 1 Peter 1:20) — suggesting even free human choices fall within God's pre-temporal decree
+- **Chose His people before the foundation of the world** (Ephesians 1:4) — suggesting election precedes human response
+- **Guarantees** certain future events unconditionally (Christ's return, final judgment) — suggesting settled foreknowledge
 - **Changes His mind** when people repent (Jonah 3:10) — suggesting genuine responsiveness
 - **Tests** people to "know" what they will do (Genesis 22:12, Deuteronomy 8:2) — suggesting discovery
 - **Makes conditional promises** that depend on human response (Jeremiah 18:7-10) — suggesting open outcomes
-- **Guarantees** certain future events unconditionally (Christ's return, final judgment) — suggesting settled foreknowledge
 - **Asks questions** He seemingly doesn't know the answer to: "Where are you?" (Genesis 3:9), "What have you done?" (Genesis 4:10)
 - **Grieves** over outcomes that seem to genuinely surprise or sadden Him (Genesis 6:6)
 
@@ -253,7 +307,12 @@ The data resists systematic resolution. Each tradition emphasizes some passages 
 
 ---
 
-## VI. Interpretive Perspectives
+## VII. Interpretive Perspectives
+
+**On Acts 4:27-28 — Herod and Pilate did what God "determined before to be done":**
+- *Classical:* God's eternal decree determined the specific actions of specific free agents. Human choice and divine foreordination are not contradictory — God works *through* human choices without eliminating them. This is the strongest biblical text for the classical view: named individuals, named actions, described as predetermined.
+- *Arminian:* God foreknew what Herod and Pilate would freely choose, and His eternal purpose incorporated those choices. "Determined before" describes God's foreknowledge and intention, not strict causal determination.
+- *Open:* God planned that the Messiah would suffer and die; the general outcome was predetermined, but the specific human actors were not. "Determined before" refers to the redemptive purpose, not to the free choices of Herod or Pilate individually.
 
 **On Genesis 6:6 — "The LORD regretted that He had made man":**
 - *Classical:* Anthropopathism. God did not actually experience surprise or regret. This describes His just response to sin in language we understand.
@@ -272,7 +331,7 @@ The data resists systematic resolution. Each tradition emphasizes some passages 
 
 ---
 
-## VII. Why It Matters
+## VIII. Why It Matters
 
 This is not an abstract philosophical puzzle. How we answer "Does God interact with time?" shapes:
 
@@ -290,7 +349,7 @@ That "who knows?" may be the most honest theology in the Bible. Not certainty ab
 
 ---
 
-## VIII. For Further Study
+## IX. For Further Study
 
 **The Classical Case:**
 - Augustine, *Confessions* Book XI (time as a creation of God)

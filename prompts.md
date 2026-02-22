@@ -132,3 +132,4 @@ add guardrails section to god-and-time handout defining outer limits of Christia
 remove Trinity guardrail (#4) from god-and-time handout - too internally contested; Messianic Jews and others have legitimate Christian perspectives that resist Trinitarian formulation
 update guardrail #1 to remove Trinity language (keep only 'Father Son Spirit are not 3 separate gods'); add new guardrail about God being specifically the God of Israel/Bible/People of the Book
 add Allah to the list of other gods in guardrail #1 alongside Baal, Aphrodite, Zeus
+document is biased toward Open Theism - add more biblical evidence for the timeless/classical perspective
