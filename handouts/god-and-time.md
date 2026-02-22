@@ -9,7 +9,7 @@ A study of God's relationship with time, examining how different traditions unde
 Before exploring the *internal* debates among Christians about God and time, it helps to mark the outer boundaries — positions that place a person *outside* Christian orthodoxy altogether. These are not lines drawn over minor disputes. Crossing them means affirming something the church has consistently identified as a different religion.
 
 **1. There is only one God.**
-The God of Scripture is not one deity among many equals. Father, Son, and Holy Spirit are not three separate gods. And the gods of other religions are not gods in the same sense: Baal, Aphrodite, and Zeus are not alternate names for the same divine reality.
+The God of Scripture is not one deity among many equals. Father, Son, and Holy Spirit are not three separate gods. And the gods of other religions are not gods in the same sense: Baal, Aphrodite, Zeus, and Allah are not alternate names for the same divine reality.
 
 *Outside this line:* Polytheism (Greek, Roman, Norse, Canaanite religions). Mormonism teaches that the Father, Son, and Holy Spirit are three separate divine beings, and that there are potentially countless gods across the universe — making it formally polytheistic despite using Christian language.
 
