@@ -9,21 +9,26 @@ A study of God's relationship with time, examining how different traditions unde
 Before exploring the *internal* debates among Christians about God and time, it helps to mark the outer boundaries — positions that place a person *outside* Christian orthodoxy altogether. These are not lines drawn over minor disputes. Crossing them means affirming something the church has consistently identified as a different religion.
 
 **1. There is only one God.**
-The God of Scripture is not one deity among many equals. The Trinity — Father, Son, and Holy Spirit — is not a committee of three separate gods sharing the title. And the gods of other religions are not gods in the same sense: Baal, Aphrodite, and Zeus are not alternate names for the same divine reality.
+The God of Scripture is not one deity among many equals. Father, Son, and Holy Spirit are not three separate gods. And the gods of other religions are not gods in the same sense: Baal, Aphrodite, and Zeus are not alternate names for the same divine reality.
 
 *Outside this line:* Polytheism (Greek, Roman, Norse, Canaanite religions). Mormonism teaches that the Father, Son, and Holy Spirit are three separate divine beings, and that there are potentially countless gods across the universe — making it formally polytheistic despite using Christian language.
 
-**2. God is personal — not an impersonal force or the universe itself.**
+**2. This God is specifically the God of Israel — the God of Abraham, Isaac, and Jacob.**
+The God of the Bible is not a generic divine being who goes by different names in different cultures. He revealed Himself to a specific people, through specific events, in a specific story. Allah, Brahman, the Great Spirit, and the God of Scripture may share some attributes in common, but that does not make them the same God. Christianity is not one path up a universal mountain.
+
+*Outside this line:* Religious pluralism (all religions worship the same God under different names). Islam affirms monotheism and honors Abraham, but explicitly denies the incarnation and the authority of the New Testament — a different God-story, not simply a different denomination. Bahá'í Faith teaches that all major prophets — Moses, Jesus, Muhammad, Buddha, others — revealed the same God progressively, making the Bible's specific claims relative rather than definitive.
+
+**3. God is personal — not an impersonal force or the universe itself.**
 God speaks, loves, grieves, and relates to persons. He is not "the ground of being," a cosmic energy field, or the sum total of existence. "God is love" does not mean love is God; it means a personal Being defines what love is.
 
 *Outside this line:* Pantheism (God = the universe; found in Spinoza, some forms of Hinduism, and much New Age spirituality). Deism (God set the universe in motion but is now remote and uninvolved — more a first cause than a Father who hears prayer).
 
-**3. God is uncreated — He did not come into existence.**
+**4. God is uncreated — He did not come into existence.**
 God has always existed. He was not made, born, or derived from a higher source. Everything else that exists was created; He was not. He cannot have a creator, because that creator would then be God.
 
 *Outside this line:* Mormonism teaches that God the Father was once a mortal man who progressed to divinity ("As man is, God once was; as God is, man may become"). Gnosticism posited a "demiurge" — a lesser, flawed divine being derived from a higher realm — as the creator of the material world, making God himself a derived and imperfect entity.
 
-**4. God is wholly good — He is not the author of evil or one half of a cosmic duality.**
+**5. God is wholly good — He is not the author of evil or one half of a cosmic duality.**
 God does not have a dark side. Evil is not His equal and opposite. He is not neutral between good and evil, nor the source of both. The existence of evil is a theological problem *for* Christian theism, not a feature of it.
 
 *Outside this line:* Zoroastrianism and Manichaeism teach cosmic dualism — a good god and an evil god in eternal, roughly equal conflict. Some Gnostic systems teach that the creator of the material world was malevolent or incompetent, and that the true, higher God is remote from creation. Satanism treats evil as a divine or transcendent principle.

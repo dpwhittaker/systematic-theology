@@ -130,3 +130,4 @@ Let's begin the theology handout with a quick discussion on the attributes of Go
 link it from data/god/god.md similar to how we linked the handouts to data/bible/bible.md
 add guardrails section to god-and-time handout defining outer limits of Christian orthodoxy on the doctrine of God
 remove Trinity guardrail (#4) from god-and-time handout - too internally contested; Messianic Jews and others have legitimate Christian perspectives that resist Trinitarian formulation
+update guardrail #1 to remove Trinity language (keep only 'Father Son Spirit are not 3 separate gods'); add new guardrail about God being specifically the God of Israel/Bible/People of the Book
