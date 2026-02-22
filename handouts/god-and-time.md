@@ -4,6 +4,37 @@ A study of God's relationship with time, examining how different traditions unde
 
 ---
 
+## Guardrails: The Outer Limits of Christian Belief About God
+
+Before exploring the *internal* debates among Christians about God and time, it helps to mark the outer boundaries — positions that place a person *outside* Christian orthodoxy altogether. These are not lines drawn over minor disputes. Crossing them means affirming something the church has consistently identified as a different religion.
+
+**1. There is only one God.**
+The God of Scripture is not one deity among many equals. The Trinity — Father, Son, and Holy Spirit — is not a committee of three separate gods sharing the title. And the gods of other religions are not gods in the same sense: Baal, Aphrodite, and Zeus are not alternate names for the same divine reality.
+
+*Outside this line:* Polytheism (Greek, Roman, Norse, Canaanite religions). Mormonism teaches that the Father, Son, and Holy Spirit are three separate divine beings, and that there are potentially countless gods across the universe — making it formally polytheistic despite using Christian language.
+
+**2. God is personal — not an impersonal force or the universe itself.**
+God speaks, loves, grieves, and relates to persons. He is not "the ground of being," a cosmic energy field, or the sum total of existence. "God is love" does not mean love is God; it means a personal Being defines what love is.
+
+*Outside this line:* Pantheism (God = the universe; found in Spinoza, some forms of Hinduism, and much New Age spirituality). Deism (God set the universe in motion but is now remote and uninvolved — more a first cause than a Father who hears prayer).
+
+**3. God is uncreated — He did not come into existence.**
+God has always existed. He was not made, born, or derived from a higher source. Everything else that exists was created; He was not. He cannot have a creator, because that creator would then be God.
+
+*Outside this line:* Mormonism teaches that God the Father was once a mortal man who progressed to divinity ("As man is, God once was; as God is, man may become"). Gnosticism posited a "demiurge" — a lesser, flawed divine being derived from a higher realm — as the creator of the material world, making God himself a derived and imperfect entity.
+
+**4. The Son and the Spirit are fully God — not created beings or lesser divinities.**
+The Trinity is not a hierarchy of divinity where the Father is "really" God and the Son and Spirit are honorary members. Jesus is not the highest creature; He is the Creator. Affirming three distinct persons does not mean they differ in deity.
+
+*Outside this line:* Arianism (Jesus is the highest created being, not truly divine) — condemned at the Council of Nicaea (325 AD) and revived by Jehovah's Witnesses, who teach that Jesus is "a god" but not Almighty God. Unitarianism (God is one person; Jesus was a great moral teacher but not divine). In the other direction — Modalism/Oneness Pentecostalism denies that Father, Son, and Spirit are genuinely distinct persons, teaching instead that they are modes or masks of a single person.
+
+**5. God is wholly good — He is not the author of evil or one half of a cosmic duality.**
+God does not have a dark side. Evil is not His equal and opposite. He is not neutral between good and evil, nor the source of both. The existence of evil is a theological problem *for* Christian theism, not a feature of it.
+
+*Outside this line:* Zoroastrianism and Manichaeism teach cosmic dualism — a good god and an evil god in eternal, roughly equal conflict. Some Gnostic systems teach that the creator of the material world was malevolent or incompetent, and that the true, higher God is remote from creation. Satanism treats evil as a divine or transcendent principle.
+
+---
+
 ## I. How Do We Know God?
 
 Two approaches shape this entire discussion:
