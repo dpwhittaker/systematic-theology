@@ -23,12 +23,7 @@ God has always existed. He was not made, born, or derived from a higher source. 
 
 *Outside this line:* Mormonism teaches that God the Father was once a mortal man who progressed to divinity ("As man is, God once was; as God is, man may become"). Gnosticism posited a "demiurge" — a lesser, flawed divine being derived from a higher realm — as the creator of the material world, making God himself a derived and imperfect entity.
 
-**4. The Son and the Spirit are fully God — not created beings or lesser divinities.**
-The Trinity is not a hierarchy of divinity where the Father is "really" God and the Son and Spirit are honorary members. Jesus is not the highest creature; He is the Creator. Affirming three distinct persons does not mean they differ in deity.
-
-*Outside this line:* Arianism (Jesus is the highest created being, not truly divine) — condemned at the Council of Nicaea (325 AD) and revived by Jehovah's Witnesses, who teach that Jesus is "a god" but not Almighty God. Unitarianism (God is one person; Jesus was a great moral teacher but not divine). In the other direction — Modalism/Oneness Pentecostalism denies that Father, Son, and Spirit are genuinely distinct persons, teaching instead that they are modes or masks of a single person.
-
-**5. God is wholly good — He is not the author of evil or one half of a cosmic duality.**
+**4. God is wholly good — He is not the author of evil or one half of a cosmic duality.**
 God does not have a dark side. Evil is not His equal and opposite. He is not neutral between good and evil, nor the source of both. The existence of evil is a theological problem *for* Christian theism, not a feature of it.
 
 *Outside this line:* Zoroastrianism and Manichaeism teach cosmic dualism — a good god and an evil god in eternal, roughly equal conflict. Some Gnostic systems teach that the creator of the material world was malevolent or incompetent, and that the true, higher God is remote from creation. Satanism treats evil as a divine or transcendent principle.
