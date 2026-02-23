@@ -20,4 +20,6 @@ title: Jesus Christ
 - [Resurrection](#jesus/resurrection 'Drill'): Bodily raising. Death defeated.
 - [Ascension and Return](#jesus/ascension 'Drill'): Where is He now? Will He come again?
 
+**Handout:** [What Does It Mean to Be the Son of God?](#handouts/son-of-god.md 'Drill') — Five views, one question.
+
 Can we approach Him through definitions, or only through [testimony](#bible/testimony 'Hebrew')?
