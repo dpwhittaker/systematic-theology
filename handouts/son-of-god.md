@@ -344,6 +344,26 @@ Jesus's most frequent self-designation. When the high priest asked if He was the
 - *Spirit Christology:* The passage describes a human figure elevated to divine authority — consistent with God exalting His chosen agent. Whether that exaltation implies pre-existence or ontological divinity is the question, not the answer.
 - *Jewish:* Daniel's "Son of Man" was understood in Second Temple Judaism as either a symbol for Israel, an angelic figure, or a messianic king. That he *receives* dominion from the Ancient of Days supports an agent model. Alan Segal notes this passage was central to the "two powers in heaven" debate within Judaism itself — it was always a disputed text.
 
+**Melchizedek — King of Salem, Priest of God Most High (Genesis 14:18-20; Psalm 110:4; Hebrews 5-7):**
+
+Melchizedek appears without warning in Genesis 14, blesses Abraham, receives a tithe from him, and vanishes from the narrative. He holds two offices — king and priest — that were strictly separated in Israel (kings came from Judah, priests from Levi). He has no genealogy, no recorded birth or death. Centuries later, a single prophetic line links the Messiah to him permanently:
+
+> The LORD has sworn and will not change His mind: "You are a priest forever, in the order of Melchizedek." (**Psalm 110:4**, NIV)
+
+The author of Hebrews builds an extraordinary argument from Melchizedek's silence in the text:
+
+> Without father or mother, without genealogy, without beginning of days or end of life, **resembling the Son of God**, he remains a priest forever. (**Hebrews 7:3**, NIV)
+
+> Just think how great he was: even the patriarch Abraham gave him a tenth of the plunder! (**Hebrews 7:4**, NIV)
+
+Hebrews reasons that because Abraham — the greatest patriarch — paid tithes *to* Melchizedek, this priest-king is greater than Abraham and, by extension, greater than the entire Levitical priesthood that descended from Abraham. Jesus's priesthood does not derive from Aaron's line but from a higher, older, mysterious order.
+
+- *Trinitarian:* Hebrews 7:3 is striking — "without beginning of days or end of life, resembling the Son of God." Many church fathers (Ambrose, others) identified Melchizedek as a Christophany: the pre-incarnate Son appearing as a priest-king, foreshadowing His own eternal priesthood. Even if Melchizedek was a historical human king, the deliberate removal of genealogy and the "resembling the Son of God" language make him a type so perfect that the line between type and reality blurs. His dual office — king *and* priest — was impossible under the Mosaic law but fulfilled in Christ, who holds both permanently.
+- *Sabellian:* God Himself, appearing in a priestly-royal mode centuries before the Incarnation. The lack of origin and ending reflects divine eternity — one God, stepping into Abraham's story as priest-king, then stepping into Mary's womb as Redeemer. Same God, different moments of revelation.
+- *Arian:* Melchizedek may be the pre-existent Son — the first and greatest creation, appearing as God's priest-king to bless Abraham. Hebrews 7:3 says he *resembles* the Son of God, which could mean the Son Himself in an earlier appearance, or a type pointing forward. Either way, the Son's priesthood is *given* by the Father's oath (Psalm 110:4) — a priest appointed, not self-existent.
+- *Spirit Christology:* Melchizedek is a historical figure whose narrative silence makes him a powerful type of Christ. Hebrews uses him to explain Jesus's unique priesthood — not Levitical, not dependent on genealogy, but based on an indestructible life (Hebrews 7:16). Whether Melchizedek was literally a pre-incarnate appearance or a typological foreshadowing, the point is the same: Jesus's priestly authority comes from God, not from human lineage.
+- *Jewish:* Melchizedek was the king of Salem (later Jerusalem) — a historical Canaanite priest-king who worshipped *El Elyon* (God Most High). The rabbis debated his identity: some identified him with Shem, Noah's son (Targum Neofiti, Genesis Rabbah 43:6). The lack of genealogy is a feature of the narrative's brevity, not evidence of supernatural origin. Psalm 110:4 promises the Messiah a priestly role outside the Levitical system — but a human Messiah holding an extraordinary office is not a divine being. Hebrews reads the silence of Genesis as theology; Jewish interpretation reads it as history.
+
 The data resists systematic resolution. Each tradition emphasizes some passages and explains away others. The question is not whether we will hold tensions — we will. The question is *which* tensions we are willing to hold.
 
 ---

@@ -154,3 +154,5 @@ You are Arius of Alexandria (c. 256-336 AD), the theologian whose views on Chris
 [After all five agents returned their contributions, synthesize into a single cohesive handout at handouts/son-of-god.md following the god-and-time.md format. Link from data/jesus/jesus.md. Target ~370 lines / 8 dense pages.]
 
 In @handouts/son-of-god.md include the most prominent OT Christophanies in section IV.
+
+add Melchizedek to the Christophanies section
