@@ -276,6 +276,74 @@ Every position in this debate must deal with texts that pull in the opposite dir
 - *Spirit Christology:* This is the clearest statement of the earliest Christology — functional, historical, event-based. God *made* Jesus Lord through the resurrection.
 - *Jewish:* Peter describes exactly what a Jewish audience would expect: God appointing and vindicating His chosen agent.
 
+### Old Testament Christophanies — Did the Son Appear Before the Incarnation?
+
+A *Christophany* is a pre-incarnate appearance of Christ in the Old Testament. The Trinitarian tradition has long identified certain passages as encounters not with an ordinary angel or a vision, but with the eternal Son Himself — visible, speaking, receiving worship, and identified as God. If these identifications hold, they are among the strongest evidence for the Son's pre-existence. If they do not, they are case studies in reading later theology back into earlier texts.
+
+**The Angel of the LORD (*Malak YHWH*):**
+
+This figure appears repeatedly in the Old Testament and displays a striking pattern: He is called "the Angel of the LORD" yet speaks as God in the first person, accepts worship, and is identified *as* God by those who encounter Him.
+
+> The angel of the LORD found Hagar near a spring in the desert... She gave this name to the LORD who spoke to her: "You are the God who sees me." (**Genesis 16:7, 13**, NIV)
+
+> The angel of the LORD appeared to him in flames of fire from within a bush... God called to him from within the bush, "Moses! Moses!" ... "I am the God of your father, the God of Abraham." (**Exodus 3:2, 4, 6**, NIV)
+
+> The angel of the LORD appeared to [Manoah's wife]... Manoah said to his wife, "We are doomed to die! We have seen God!" (**Judges 13:3, 22**, NIV — when Manoah asks His name, the Angel replies: "Why do you ask My name? It is beyond understanding" — *peli*, the same root used of God in Isaiah 9:6)
+
+- *Trinitarian:* The Angel of the LORD is the pre-incarnate Son. He is distinguished from the Father ("the LORD" who sends Him) yet identified as God Himself. This is the clearest Old Testament evidence for a second divine person within the identity of YHWH. The pattern — sent by God, yet *is* God — is the same logic as John 1:1 ("with God" and "was God").
+- *Sabellian:* The Angel of the LORD is the one God appearing in a visible mode — exactly what He later did in the Incarnation. There is no second person; God Himself appears as His own messenger.
+- *Arian:* The Angel is the pre-existent Son, the first and greatest creation, serving as God's visible agent. The fact that God acts *through* Him — and that He is *sent* — confirms His subordination. Agency, not co-equality.
+- *Spirit Christology:* These are genuine theophanies — God making Himself known in visible form. But identifying them as appearances of the "second person of the Trinity" imports later categories. The Old Testament itself simply says God appeared.
+- *Jewish:* The agent principle explains every case. God's authorized representative speaks in God's name, carries God's authority, and is addressed as God — because "a person's agent is as the person himself." Moses, prophets, and the Angel all function this way. No second divine being is required.
+
+**The Man Who Wrestled Jacob (Genesis 32:24-30):**
+
+> So Jacob called the place Peniel, saying, "It is because **I saw God face to face**, and yet my life was preserved." (**Genesis 32:30**, NIV)
+
+> He struggled with God. He struggled with the angel and overcame him. (**Hosea 12:3-4**, NIV — Hosea identifies the "man" as both God and angel)
+
+- *Trinitarian:* Jacob wrestled the pre-incarnate Son — a divine person who could take physical form while the Father remained invisible. The name Peniel ("face of God") is literal. Hosea's dual identification (God *and* angel) fits the same pattern as the Angel of the LORD.
+- *Sabellian:* God Himself appeared in human form — a preview of the Incarnation. One God, wrestling with His chosen patriarch.
+- *Arian:* The Son, God's exalted agent, appeared in physical form. Jacob encountered a divine being, but not the unbegotten Father.
+- *Spirit Christology:* A genuine theophany — God encountering Jacob. Whether this was a distinct pre-existent person or God acting directly is a question the text does not answer in those terms.
+- *Jewish:* The text says "a man" (Genesis 32:24). Jacob's declaration and Hosea's commentary reflect the encounter's overwhelming significance, not a claim about a second divine person. Angels represent God so fully that encountering them is encountering God.
+
+**Abraham's Three Visitors (Genesis 18:1-33):**
+
+> The LORD appeared to Abraham near the great trees of Mamre... Abraham looked up and saw **three men** standing nearby. (**Genesis 18:1-2**, NIV)
+
+Two of the visitors continue to Sodom and are called "angels" (Genesis 19:1). The third remains and speaks as YHWH: "Shall I hide from Abraham what I am about to do?" (18:17). Abraham addresses Him as "the Judge of all the earth" (18:25). Then: "The LORD rained down burning sulfur on Sodom and Gomorrah — **from the LORD out of the heavens**" (19:24) — a passage that appears to distinguish YHWH on earth from YHWH in heaven.
+
+- *Trinitarian:* This is the strongest Old Testament case for plurality within God. One of the three is identified as YHWH. Genesis 19:24 distinguishes "the LORD" on earth from "the LORD out of the heavens." Early church fathers (Justin Martyr, Irenaeus) consistently identified the earthly YHWH figure as the pre-incarnate Son.
+- *Sabellian:* God appeared in human form alongside two angels. Genesis 19:24 is emphatic language ("the LORD from the LORD") for one God acting from both locations, not evidence of two divine persons.
+- *Arian:* The Son — God's supreme agent — appeared with two angels. He speaks as YHWH because He carries YHWH's full authority. The passage supports the Son's real pre-existence, but the Son who is *sent* is not co-equal with the Father who *sends*.
+- *Spirit Christology:* A theophany in which God made Himself visible. Identifying the figure specifically as "the Son" goes beyond what the text states.
+- *Jewish:* The agency principle again. Three angelic messengers carry God's authority. Abraham speaks to the lead messenger as he would to God — because the agent represents the principal. The "LORD from the LORD" phrasing is idiomatic, not Trinitarian.
+
+**The Commander of the LORD's Army (Joshua 5:13-15):**
+
+> "Take off your sandals, for the place where you are standing is holy." (**Joshua 5:15**, NIV — the identical command given at the burning bush, Exodus 3:5)
+
+Joshua falls facedown and worships. The Commander does not refuse worship — unlike ordinary angels, who do (Revelation 19:10, 22:8-9).
+
+- *Trinitarian:* The parallel to the burning bush is deliberate. Same command, same holy ground, same divine person — the pre-incarnate Son. An angel who accepts worship without correction is more than an angel.
+- *Sabellian:* God Himself appearing as a warrior — one God in a military mode of revelation.
+- *Arian:* The pre-existent Son, commanding the heavenly armies under the Father's authority. He accepts worship because the Father commands it (Hebrews 1:6).
+- *Spirit Christology:* A theophany paralleling the burning bush. The text does not name this figure or explain His identity beyond "commander of the LORD's army."
+- *Jewish:* A high-ranking angel, perhaps Michael. The burning bush parallel reflects God's holiness at the site, not the identity of the messenger. Joshua's posture is reverence, which was appropriate toward angelic beings in ancient Israel.
+
+**The Son of Man (Daniel 7:13-14):**
+
+> One like a **Son of Man**, coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence. He was given **authority, glory and sovereign power; all nations and peoples of every language worshipped Him**. His dominion is an everlasting dominion that will not pass away. (**Daniel 7:13-14**, NIV)
+
+Jesus's most frequent self-designation. When the high priest asked if He was the Messiah, Jesus combined this passage with Psalm 110:1: "You will see the Son of Man sitting at the right hand of the Mighty One and coming on the clouds of heaven" (Mark 14:62). The high priest tore his robes and charged blasphemy.
+
+- *Trinitarian:* The Son of Man is distinguished from the Ancient of Days (the Father) yet receives universal worship and an everlasting kingdom — worship that Isaiah 42:8 says God gives to no other. Two figures, one divine prerogative. The high priest understood the claim: Jesus was placing Himself within the identity of God.
+- *Sabellian:* The vision shows God's redemptive mode (Son of Man) presented before God's sovereign mode (Ancient of Days) — two aspects of one God's self-revelation, not two persons.
+- *Arian:* The Son of Man *receives* authority from the Ancient of Days. You do not receive what you already possess by nature. This is the exaltation of the Son by the Father who is greater — exactly what Arius teaches.
+- *Spirit Christology:* The passage describes a human figure elevated to divine authority — consistent with God exalting His chosen agent. Whether that exaltation implies pre-existence or ontological divinity is the question, not the answer.
+- *Jewish:* Daniel's "Son of Man" was understood in Second Temple Judaism as either a symbol for Israel, an angelic figure, or a messianic king. That he *receives* dominion from the Ancient of Days supports an agent model. Alan Segal notes this passage was central to the "two powers in heaven" debate within Judaism itself — it was always a disputed text.
+
 The data resists systematic resolution. Each tradition emphasizes some passages and explains away others. The question is not whether we will hold tensions — we will. The question is *which* tensions we are willing to hold.
 
 ---

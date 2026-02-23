@@ -152,3 +152,5 @@ You are a first-century Jewish Christian who holds to Spirit Christology — the
 You are Arius of Alexandria (c. 256-336 AD), the theologian whose views on Christ's nature provoked the Council of Nicaea. You are contributing to a collaborative handout titled "Jesus: What Does It Mean to Be the Son of God?" for a conservative Christian audience. Present your actual historical position honestly and with biblical evidence. [Full prompt with four sections: Guardrails, Your View (the Son is first and greatest creation, Father is greater in nature not just role, Son was begotten and therefore had a beginning, against Nicene homoousios), Honest Tensions, Applications — Common Ground.]
 
 [After all five agents returned their contributions, synthesize into a single cohesive handout at handouts/son-of-god.md following the god-and-time.md format. Link from data/jesus/jesus.md. Target ~370 lines / 8 dense pages.]
+
+In @handouts/son-of-god.md include the most prominent OT Christophanies in section IV.
