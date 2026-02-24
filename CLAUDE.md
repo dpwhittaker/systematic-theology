@@ -290,6 +290,7 @@ When adding content or features:
 - Content should support examination, not advocacy for one framework
 - Capitalize God pronouns (He, His, Him) to reflect His personhood
 - The Hebrew-Greek tension is about *how* we know God (relationship vs. definition), not *whether* He is personal
+- **Preferred Bible translations:** ESV, NIV, NET, or AMP only. Do not use NKJV, KJV, NASB, NLT, MSG, or RSV in scripture quotations
 
 ### Accessibility vs. HUD Optimization
 

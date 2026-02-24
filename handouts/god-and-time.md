@@ -101,11 +101,11 @@ The Hebrew word *nacham* (נחם) comes from the idea of "breathing deeply" — 
 
 ### God Regretted Making Saul King — But God Does Not Change His Mind
 
-> I greatly regret [*nacham*] that I have set up Saul as king, for he has turned back from following Me. (**1 Samuel 15:11**, NKJV)
+> I regret [*nacham*] that I have made Saul king, for he has turned back from following me. (**1 Samuel 15:11**, ESV)
 
 Then, eighteen verses later in the same chapter:
 
-> The Strength of Israel will not lie nor relent [*nacham*]. For He is not a man, that He should relent [*nacham*]. (**1 Samuel 15:29**, NKJV)
+> The Glory of Israel will not lie or have regret [*nacham*], for he is not a man, that he should have regret [*nacham*]. (**1 Samuel 15:29**, ESV)
 
 The same word. The same chapter. God *does* relent (v. 11). God does *not* relent (v. 29). Both statements are presented as true.
 
@@ -125,7 +125,7 @@ This may be the key to the *nacham* passages. God's dealings with people are *re
 
 > The LORD relented [*nacham*] concerning this. "It will not happen," the LORD said. (**Amos 7:3**, NIV — in response to Amos's intercession)
 
-> He remembered His covenant for their sake, and relented [*nacham*] according to the greatness of His lovingkindness. (**Psalm 106:45**, NASB)
+> He remembered for their sake his covenant, and relented [*nacham*] according to the abundance of his steadfast love. (**Psalm 106:45**, ESV)
 
 ---
 
@@ -135,31 +135,31 @@ If Section III presents the strongest biblical case for divine responsiveness, t
 
 ### Cyrus Named Before His Birth
 
-> Who says of Cyrus, "He is My shepherd, and he shall perform all My pleasure, saying to Jerusalem, 'You shall be built,' and to the temple, 'Your foundation shall be laid.'" (**Isaiah 44:28**, NKJV)
+> Who says of Cyrus, "He is my shepherd, and he shall fulfill all my purpose"; saying of Jerusalem, "She shall be built," and of the temple, "Your foundation shall be laid." (**Isaiah 44:28**, ESV)
 
-> Thus says the LORD to His anointed, to Cyrus, whose right hand I have held — to subdue nations before him... (**Isaiah 45:1**, NKJV)
+> Thus says the LORD to his anointed, to Cyrus, whose right hand I have grasped, to subdue nations before him... (**Isaiah 45:1**, ESV)
 
 Isaiah wrote in the 8th century BC. Cyrus the Great conquered Babylon and issued his decree releasing the Jewish exiles in 539 BC — approximately 150 years later. The text names him by name, describes his specific role in releasing the captives, and specifies the rebuilding of Jerusalem and the temple. This is not a general prediction of restoration; it is a named, historically verifiable fulfillment of a specific prophecy.
 
 ### All Our Days Written Before We Were Born
 
-> For You formed my inward parts; You covered me in my mother's womb... Your eyes saw my substance, being yet unformed. And in Your book they all were written, the days fashioned for me, when as yet there were none of them. (**Psalm 139:13, 16**, NKJV)
+> For you formed my inward parts; you knitted me together in my mother's womb... Your eyes saw my unformed substance; in your book were written, every one of them, the days that were formed for me, when as yet there were none of them. (**Psalm 139:13, 16**, ESV)
 
 The psalmist does not say God *watched* his life unfold — he says God *wrote* it before it began. Each day was "fashioned" and recorded before any of them existed.
 
 ### The Cross Planned Before Creation
 
-> Him, being delivered by the determined purpose and foreknowledge of God, you have taken by lawless hands, have crucified, and put to death. (**Acts 2:23**, NKJV)
+> This Jesus, delivered up according to the definite plan and foreknowledge of God, you crucified and killed by the hands of lawless men. (**Acts 2:23**, ESV)
 
-> For truly against Your holy Servant Jesus, whom You anointed, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together to do whatever Your hand and Your purpose determined before to be done. (**Acts 4:27-28**, NKJV)
+> For truly in this city there were gathered together against your holy servant Jesus, whom you anointed, both Herod and Pontius Pilate, along with the Gentiles and the peoples of Israel, to do whatever your hand and your plan had predestined to take place. (**Acts 4:27-28**, ESV)
 
 The crucifixion — including the specific human actors (Herod, Pilate, the crowds) — fulfilled what God's purpose "determined before to be done." The betrayal of an innocent man by free human agents was not a tragedy God incorporated into His plan after the fact. It *was* His plan, determined in advance.
 
-> ...knowing that you were not redeemed with corruptible things... but with the precious blood of Christ, as of a lamb without blemish and without spot. He indeed was foreordained *before the foundation of the world*, but was manifest in these last times for you. (**1 Peter 1:18-20**, NKJV)
+> ...knowing that you were ransomed... not with perishable things such as silver or gold, but with the precious blood of Christ, like that of a lamb without blemish or spot. He was foreknown *before the foundation of the world* but was made manifest in the last times for the sake of you. (**1 Peter 1:18-20**, ESV)
 
 ### God's People Chosen Before the Foundation of the World
 
-> ...just as He chose us in Him *before the foundation of the world*, that we should be holy and without blame before Him in love, having predestined us to adoption as sons by Jesus Christ to Himself, according to the good pleasure of His will. (**Ephesians 1:4-5**, NKJV)
+> ...even as he chose us in him *before the foundation of the world*, that we should be holy and blameless before him. In love he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will. (**Ephesians 1:4-5**, ESV)
 
 Paul does not say God foresaw who *would* believe and chose accordingly. He says God *chose us in Him* before the world existed — prior to any human decision.
 
@@ -198,9 +198,9 @@ These passages are not easily dismissed as anthropomorphism. A named individual 
 **On "God Changed His Mind":** These are *anthropopathisms* — human emotional language accommodating our finite minds. When Scripture says "God relented," it means God's predetermined plan *appeared* to change from our perspective. From eternity, He always knew the outcome. Calvin wrote: "God is accommodating Himself to us."
 
 **Key Scriptures:**
-> I am God, and there is no other; I am God, and there is none like Me, declaring the end from the beginning, and from ancient times things that are not yet done. (**Isaiah 46:9-10**, NKJV)
+> I am God, and there is no other; I am God, and there is none like me, declaring the end from the beginning and from ancient times things not yet done. (**Isaiah 46:9-10**, ESV)
 
-> Before Abraham was, I AM. (**John 8:58**, NKJV — not "I was," but "I AM")
+> Before Abraham was, I am. (**John 8:58**, ESV — not "I was," but "I am" — the divine name)
 
 > God is not a man, that He should lie, nor a son of man, that He should change His mind. (**Numbers 23:19**, NIV)
 

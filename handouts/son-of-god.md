@@ -60,7 +60,7 @@ In the Hebrew Scriptures, "son of God" is a **relational and functional title**.
 
 **Angels are called "sons of God":**
 
-> One day the sons of God [*bene ha-Elohim*] came to present themselves before the LORD. (**Job 1:6**, based on NKJV)
+> Now there was a day when the sons of God [*bene ha-Elohim*] came to present themselves before the LORD. (**Job 1:6**, ESV)
 
 **Adam is called "the son of God":**
 
@@ -114,9 +114,9 @@ Each position claims to be the most faithful reading of Scripture. Each has stro
 
 > In the beginning was the Word, and the Word was with God, and the Word was God... The Word became flesh. (**John 1:1, 14**, NIV)
 
-> I and My Father are one. (**John 10:30**, NKJV — *hen*, neuter: one in nature, not one person)
+> I and the Father are one. (**John 10:30**, ESV — *hen*, neuter: one in nature, not one person)
 
-> Before Abraham was, I AM. (**John 8:58**, NKJV — echoing Exodus 3:14, the divine name)
+> Before Abraham was, I am. (**John 8:58**, ESV — echoing Exodus 3:14, the divine name)
 
 > Who, being in very nature God, did not consider equality with God something to be used to His own advantage. (**Philippians 2:6**, NIV — *morphe theou*: the essential form of God)
 
@@ -140,13 +140,13 @@ Athanasius identified what he saw as the fatal flaw in every alternative: *if th
 
 **Key Evidence:**
 
-> For unto us a Child is born... and His name will be called Wonderful, Counselor, Mighty God, **Everlasting Father**. (**Isaiah 9:6**, NKJV — the Son *is* the Everlasting Father)
+> For to us a child is born... and his name shall be called Wonderful Counselor, Mighty God, **Everlasting Father**. (**Isaiah 9:6**, ESV — the Son *is* the Everlasting Father)
 
-> He who has seen Me has seen the Father. (**John 14:9**, NKJV — not "a representation" but the Father Himself)
+> Whoever has seen me has seen the Father. (**John 14:9**, ESV — not "a representation" but the Father Himself)
 
-> For in Him dwells **all** the fullness of the Godhead bodily. (**Colossians 2:9**, NKJV — not one-third; all of it)
+> For in Christ **all** the fullness of the Deity lives in bodily form. (**Colossians 2:9**, NIV — not one-third; all of it)
 
-> God was manifested in the flesh. (**1 Timothy 3:16**, NKJV — the subject is God, not "the second person")
+> He was manifested in the flesh. (**1 Timothy 3:16**, ESV — the subject in context is God; some manuscripts read "God" directly)
 
 The Sabellian notes that the "First and the Last" title belongs to YHWH in Isaiah 44:6 and to Jesus in Revelation 1:17-18. Same title, same speaker, one God. The baptismal formula uses "name" — singular, not "names" (Matthew 28:19).
 
@@ -160,13 +160,13 @@ The Sabellian notes that the "First and the Last" title belongs to YHWH in Isaia
 
 **Key Evidence:**
 
-> The LORD possessed me at the beginning of His way, before His works of old. I was brought forth. (**Proverbs 8:22, 24**, NKJV — Wisdom/the Son had a beginning)
+> The LORD possessed me at the beginning of his work, before his deeds of old... I was brought forth. (**Proverbs 8:22, 24**, ESV — Wisdom/the Son had a beginning)
 
-> He is the image of the invisible God, the **firstborn** over all creation. (**Colossians 1:15**, NKJV — *prototokos*: the first-born)
+> He is the image of the invisible God, the **firstborn** of all creation. (**Colossians 1:15**, ESV — *prototokos*: the first-born)
 
-> These are the words of the Amen... the **Beginning of the creation** of God. (**Revelation 3:14**, NKJV)
+> The words of the Amen... the **beginning of God's creation**. (**Revelation 3:14**, ESV)
 
-> My Father is **greater** than I. (**John 14:28**, NKJV)
+> The Father is **greater** than I. (**John 14:28**, ESV)
 
 > This is eternal life, that they know You, **the only true God**, and Jesus Christ whom You have sent. (**John 17:3**, ESV — the Father alone is "the only true God")
 
@@ -425,7 +425,7 @@ They said it before Nicaea defined it. Before Arius questioned it. Before Sabell
 
 The mystery they were confessing — that in this specific, historical, Jewish man, the God of Israel had done something that broke every previous category — may be larger than any of our explanations. The appropriate response to that mystery is not to stop thinking. It is to think carefully, hold our conclusions humbly, and never let the argument about the *formula* distract us from the *Person* all the formulas are trying to describe.
 
-> And without controversy great is the mystery of godliness: God was manifested in the flesh. (**1 Timothy 3:16**, NKJV)
+> Great indeed, we confess, is the mystery of godliness: He was manifested in the flesh. (**1 Timothy 3:16**, ESV)
 
 ---
 

@@ -98,7 +98,7 @@ God knew David's days before any of them existed.
 
 God foreknew the crucifixion. The lawless men chose freely (they're guilty). God knew it would happen.
 
-**Acts 15:18:** "Known to God from of old are all his works" (NKJV). God has always known what He would do.
+**Acts 15:18:** "Known to God from eternity are all his works" (ESV footnote; main text: "known from of old"). God has always known what He would do.
 
 **Romans 8:29:** "For those whom he foreknew he also predestined to be conformed to the image of his Son."
 

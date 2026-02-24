@@ -168,3 +168,5 @@ Is there a sense that the Spirit of God is God's core or the center of His power
 now review the whole handout for consistency with these additions
 
 at * A note on the Word - dabar, Memra, Logos, the rest of the document seems to have italic and regular text reversed.
+
+Please change all scripture references to ESV, NIV, NET, or AMP. Record that these are the preferred translations in CLAUDE.md
