@@ -158,3 +158,5 @@ In @handouts/son-of-god.md include the most prominent OT Christophanies in secti
 add Melchizedek to the Christophanies section
 
 In the comments on the Jewish perspective on John 1:1, I have seen memra associated with the Word as well as dabar. How are these terms related? Was the Targum written near the time of Plato? Is the expansion of the Memra a nod to the idea that God must be too holy to touch the physical world, so the translators needed to add a proxy any time that seemed to happen? Add it to both places (Christophany intro and John 1:1 grid).
+
+That is a good addition, but the sentiment is a little off. By choosing a Word (pun intended) with such rich linguistic heritage to introduce us to Jesus, John is masterfully telling the whole world "He is here for you."
