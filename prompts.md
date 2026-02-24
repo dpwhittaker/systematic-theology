@@ -156,3 +156,5 @@ You are Arius of Alexandria (c. 256-336 AD), the theologian whose views on Chris
 In @handouts/son-of-god.md include the most prominent OT Christophanies in section IV.
 
 add Melchizedek to the Christophanies section
+
+In the comments on the Jewish perspective on John 1:1, I have seen memra associated with the Word as well as dabar. How are these terms related? Was the Targum written near the time of Plato? Is the expansion of the Memra a nod to the idea that God must be too holy to touch the physical world, so the translators needed to add a proxy any time that seemed to happen? Add it to both places (Christophany intro and John 1:1 grid).

@@ -235,11 +235,14 @@ Every position in this debate must deal with texts that pull in the opposite dir
 
 
 **John 1:1 — "The Word was God":**
-- *Trinitarian:* The Word is eternally God — distinct from the Father ("with God") yet fully divine ("was God"). Creator language, not creature language.
-- *Sabellian:* The Word is God Himself — one person, manifesting as Creator and then as Incarnate Redeemer.
-- *Arian:* The anarthrous *theos* (without the definite article) signals divine *quality*, not absolute identity. The Word is divine in character, not co-equal in substance.
-- *Spirit Christology:* John testifies to an event more than constructs an ontology. But this text honestly pushes beyond Spirit-anointing categories.
-- *Jewish:* This is the clearest example of Greek philosophical categories transforming a Jewish concept (God's creative Word, *dabar*) into a metaphysical identity claim.
+
+John's Greek *Logos* ("Word") echoes two traditions. The Hebrew *dabar* (דָּבָר) — God's creative speech that *does* things: "God said, 'Let there be light,' and there was light" (Genesis 1:3). And the Aramaic *Memra* (מֵימְרָא) — the Targum's standard substitution for direct divine action, inserting "the *Memra* of the LORD" wherever the Hebrew says "the LORD" acted physically. The Targumists wrote in a Hellenized world, and their *Memra* may already reflect the Greek assumption that God is too transcendent to touch creation directly — the same philosophical instinct that Philo of Alexandria (c. 20 BCE - 50 CE) made explicit by merging the Jewish *Memra/dabar* with Plato's *Logos*. Whether John is drawing on the original Hebrew *dabar* (God's own speech-power, no buffer needed), the Targum's *Memra* (God acting through an intermediary word), or Philo's *Logos* (a philosophical bridge between transcendent God and material world) shapes every reading of this verse.
+
+- *Trinitarian:* The Word is eternally God — distinct from the Father ("with God") yet fully divine ("was God"). Creator language, not creature language. The *Logos* is not a buffer between God and the world — He is God reaching into His creation directly.
+- *Sabellian:* The Word is God Himself — one person, manifesting as Creator and then as Incarnate Redeemer. *Dabar*, *Memra*, *Logos* — all names for the one God's own activity, not a second being.
+- *Arian:* The anarthrous *theos* (without the definite article) signals divine *quality*, not absolute identity. The Word is divine in character, not co-equal in substance. He is God's supreme agent — the *Memra* tradition supports this reading of a distinct intermediary.
+- *Spirit Christology:* John testifies to an event more than constructs an ontology. The original Hebrew *dabar* is God's own creative power — not a separate person. But this text honestly pushes beyond Spirit-anointing categories.
+- *Jewish:* This is the clearest example of Greek philosophical categories transforming a Jewish concept. The Hebrew *dabar* is God's own speech — "God said" — not a being alongside God. The Targum's *Memra* may itself reflect Hellenistic influence, inserting a buffer where the original Hebrew needed none. John — or the tradition he draws on — has taken God's verb and turned it into a noun, God's action into an actor. That is a Greek move, not a Hebrew one.
 
 **Mark 13:32 — "Not even the Son knows the day or hour":**
 - *Trinitarian:* Jesus didn't know *according to His human nature*. His divine nature retained full omniscience — the two-natures framework (Chalcedon).
@@ -279,6 +282,10 @@ Every position in this debate must deal with texts that pull in the opposite dir
 ### Old Testament Christophanies — Did the Son Appear Before the Incarnation?
 
 A *Christophany* is a pre-incarnate appearance of Christ in the Old Testament. The Trinitarian tradition has long identified certain passages as encounters not with an ordinary angel or a vision, but with the eternal Son Himself — visible, speaking, receiving worship, and identified as God. If these identifications hold, they are among the strongest evidence for the Son's pre-existence. If they do not, they are case studies in reading later theology back into earlier texts.
+
+**A note on the Memra and the buffer problem:** The Aramaic Targumim — synagogue paraphrases of the Hebrew Scriptures, written down in the 1st-4th centuries CE but rooted in older oral tradition — systematically insert "the *Memra* (Word) of the LORD" where the Hebrew simply says "the LORD." God walks in the garden? The Targum says the *Memra* of God walks. Moses meets God? The Targum says he meets the *Memra* of God. This pattern appears most often in exactly the passages listed below — where God gets physically close to the world.
+
+The question is whether this reflects authentic Hebrew theology or Hellenistic contamination. The original Hebrew texts have no discomfort with God acting directly: He walks (Genesis 3:8), wrestles (Genesis 32:24-30), speaks face to face (Exodus 33:11), comes down to look (Genesis 11:5). The Targumists, writing in a thoroughly Hellenized world after Alexander the Great, may have imported the Greek philosophical conviction that a transcendent God cannot directly contact the material world — the same instinct behind Plato's demiurge, Aristotle's unmoved mover, and Philo of Alexandria's *Logos*. If so, the Memra is not evidence of an ancient Jewish belief in a divine intermediary; it is evidence of Greek dualism already reshaping how Jews read their own Scriptures. The Christophanies below should be read in the *original Hebrew*, where God shows up directly — no buffer required.
 
 **The Angel of the LORD (*Malak YHWH*):**
 
