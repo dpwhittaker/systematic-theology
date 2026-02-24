@@ -164,3 +164,5 @@ That is a good addition, but the sentiment is a little off. By choosing a Word (
 Excellent. I honestly cried when I read your intro to John 1:1. Wouldn't Spirit Christology be more aligned with this view as well, though?
 
 Is there a sense that the Spirit of God is God's core or the center of His power? If so, and if the Spirit of God filled Jesus without measure, and if Jesus as a sinless, perfect vessel was the One being filled, can it be said that God put ALL of himself into Jesus, and this is the sense in which Jesus became God? Would a Spirit Christologist disagree with any of these statements? Add it to the Spirit Christology section.
+
+now review the whole handout for consistency with these additions
