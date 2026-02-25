@@ -180,3 +180,11 @@ how long was Mark around and how widely circulated before the same communities b
 yes please
 
 Add the standard trinity image to the Trinity view for illustration, the triangle with God in the middle, Father, Son, and Spirit at the corners, "is" pointing in, and "is not" on the outside. If there are similar visualizations of the other views, add them. Don't use code blocks, use mermaid diagrams.
+
+handout renderer says: Error Failed to load handout: Assignment to constant variable.
+
+Add to CLAUDE.md that a background server should be automatically started whenever claude starts in this repo. Start one.
+
+One more missing concept I have read - Jesus is a mobile tabernacle - filled with the Shekinah glory of God. Tabernacle language shows up at both His birth and baptism. If this is true, it means Jesus is literally the presence of God walking among us. Is this a stretch or is it well supported in the Scripture?
+
+absolutely

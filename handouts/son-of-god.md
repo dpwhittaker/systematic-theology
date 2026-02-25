@@ -456,6 +456,62 @@ The five views read this moment differently:
 
 The data resists systematic resolution. Each tradition emphasizes some passages and explains away others. The question is not whether we will hold tensions — we will. The question is *which* tensions we are willing to hold.
 
+### The Mobile Tabernacle — God's Presence Walking Among Us
+
+There is a pattern running beneath the surface of the New Testament that every view must reckon with: the writers describe Jesus using *tabernacle language* — the same vocabulary the Old Testament uses for God's dwelling among Israel. If this language is intentional, it means the New Testament authors understood Jesus not as someone who merely *talked about* God, but as the place where God's presence physically resided — a mobile tabernacle, the Shekinah glory walking on two legs.
+
+The pattern begins with a Hebrew word. The tabernacle — *mishkan* (מִשְׁכָּן) — comes from the root *sh-k-n* (שׁכן), meaning "to dwell." The *Shekinah* — God's visible, radiant presence that filled the tabernacle — comes from the same root. Tabernacle and glory-presence are linguistically inseparable: the *mishkan* exists for the *Shekinah*, and the *Shekinah* requires a *mishkan*.
+
+**John 1:14 — The Word Tabernacled**
+
+> The Word became flesh and made His dwelling among us. We have seen His glory, the glory of the one and only Son, who came from the Father, full of grace and truth. (**John 1:14**, NIV)
+
+The Greek word translated "made His dwelling" is *eskēnōsen* (ἐσκήνωσεν) — literally "tabernacled" or "pitched His tent." It comes from *skēnē* (σκηνή), the standard Septuagint word for the tabernacle/*mishkan*. John does not say the Word "lived" among us or "stayed" among us. He says the Word *tabernacled* among us — and then immediately adds: "We have seen His *glory*." The Shekinah has a new mishkan. The glory that once filled a tent in the wilderness now fills a human body in Galilee.
+
+**Luke 1:35 — The Cloud Overshadows Again**
+
+> The Holy Spirit will come upon you, and the power of the Most High will **overshadow** you. (**Luke 1:35**, NIV)
+
+The word "overshadow" is *episkiazō* (ἐπισκιάζω). It appears in only one other critical context — the moment when God's glory first filled the original tabernacle:
+
+> Then the cloud covered the tent of meeting, and the glory of the LORD filled the tabernacle. Moses could not enter the tent of meeting because the cloud had settled on it, and the glory of the LORD filled the tabernacle. (**Exodus 40:34-35**, NIV)
+
+The Septuagint of Exodus 40:35 uses the same verb: *epeskiazen* (ἐπεσκίαζεν) — the cloud "overshadowed" the tabernacle. Luke's word choice is not accidental. He is saying: what happened at the tabernacle's dedication — when God's glory descended and filled the structure so intensely that even Moses could not enter — happened again in Mary's womb. The Spirit *overshadowed* her the way the glory cloud *overshadowed* the mishkan. The result was the same: God's presence filling a vessel.
+
+**The Transfiguration — The Pattern Repeats**
+
+> After six days Jesus took Peter, James and John with Him and led them up a high mountain, where they were all alone. There He was transfigured before them... Then a cloud appeared and covered them, and a voice came from the cloud: "This is My Son, whom I love. Listen to Him!" (**Mark 9:2, 7**, NIV)
+
+Peter's instinct was to build *skēnas* — tabernacles (Mark 9:5). The same word. Then a cloud *overshadowed* them — *episkiazō* again. Then the voice from the cloud, just like Sinai, just like the tabernacle dedication. The pattern is unmistakable: cloud, overshadowing, glory, voice. The tabernacle sequence repeats at Jesus's conception (Luke 1:35), at His transfiguration (Mark 9:7), and — by implication — throughout His entire ministry.
+
+**Jesus's Own Claims**
+
+Jesus Himself made the connection explicit:
+
+> "Destroy this temple, and I will raise it again in three days." ... But the temple He had spoken of was His body. (**John 2:19, 21**, NIV)
+
+> "I tell you that something greater than the temple is here." (**Matthew 12:6**, NIV)
+
+He did not say He was *like* the temple. He said He *was* the temple — and something greater than it. If the temple was where God's presence dwelt on earth, and Jesus is greater than the temple, then Jesus is the place where God's presence dwells most fully.
+
+**Colossians 2:9 — The Completion of the Pattern**
+
+> For in Christ all the fullness of the Deity lives in bodily form. (**Colossians 2:9**, NIV)
+
+This is the tabernacle pattern in its most concentrated expression. The glory of God filling the mishkan (Exodus 40:34). The Word tabernacling among us, full of glory (John 1:14). All the fullness of the Deity dwelling in a body (Colossians 2:9). Same pattern, escalating intensity: tent → temple → human body.
+
+And the tabernacle was *mobile*. Unlike the temple, which was fixed in Jerusalem, the mishkan traveled with Israel through the wilderness. It went where the people went. God's glory was not stationary — it moved. Jesus is the mobile tabernacle: God's presence not locked behind a veil in a building, but walking through Galilean villages, touching lepers, eating with sinners, weeping at graves. The Shekinah has feet.
+
+- *Trinitarian:* This is the Incarnation described in tabernacle categories. Just as the Shekinah glory — God's own radiant presence — filled the tabernacle, so the eternal Son fills His human nature with the fullness of deity. John 1:14 deliberately echoes Exodus 40: the Word who *was* God (John 1:1) now *tabernacles* as God-with-us. The glory that Moses could not look upon (Exodus 33:20) is the same glory the disciples saw in Jesus — but now accessible, touchable, embodied.
+
+- *Sabellian:* The one God who filled the tabernacle with His glory has now filled a human body with that same glory. There is no distinction between the God who dwelt in the mishkan and the God who dwells in Jesus — it is the same undivided God in a new mode of presence. The tabernacle language proves that Jesus is not a second divine being but God Himself, taking up residence in human flesh just as He once took up residence in a tent of goatskins.
+
+- *Arian:* The Father, who is the source of all glory, filled the pre-existent Son with His presence for the mission of salvation — just as He filled the tabernacle with His glory for the purpose of dwelling among Israel. The glory in Jesus is *given* glory, not self-originating glory. John 17:22 confirms this: "I have given them the glory that You gave Me." The Father fills; the Son receives. The tabernacle pattern supports a derived, bestowed glory — not co-equal deity.
+
+- *Spirit Christology:* The tabernacle language powerfully reinforces the Spirit Christology framework. The Shekinah glory that filled the mishkan, that overshadowed Mary at conception (*episkiazō*), that descended visibly at the baptism, that blazed forth at the transfiguration — this is the Spirit of God filling a human vessel completely. Colossians 2:9 is not a statement about a divine nature coexisting with a human nature. It is a statement about a complete indwelling — the same pattern as God's glory filling the tabernacle (Exodus 40:34), but now without measure, without interruption, without the veil. The tabernacle was a structure; Jesus is a person. The glory is the same. The intimacy is greater.
+
+- *Jewish:* The Shekinah tradition is deeply rooted in rabbinic theology. God's presence dwelling among Israel — in the tabernacle, in the temple, and (after the destruction of the temple) wherever Israel studies Torah or gathers in prayer — is a central Jewish concept. The Targums frequently speak of the *Shekinah* or the *Memra* (Word) of God dwelling with Israel. To claim that God's Shekinah dwelt in a single human being is a profound departure: Jewish theology emphasizes that the Shekinah rests on the *community* of Israel, not on one individual. The temple was destroyed in 70 CE, and rabbinic tradition relocated God's presence into Torah study, into prayer, into the gathering of ten (the *minyan*) — not into a person. The Christian application of tabernacle language to Jesus is innovative theology, not a straightforward reading of the Hebrew Bible.
+
 ---
 
 ## V. Why It Matters
