@@ -170,3 +170,5 @@ now review the whole handout for consistency with these additions
 at * A note on the Word - dabar, Memra, Logos, the rest of the document seems to have italic and regular text reversed.
 
 Please change all scripture references to ESV, NIV, NET, or AMP. Record that these are the preferred translations in CLAUDE.md
+
+Why does Spirit Christology seem to shy away from the immaculate conception and focus on indwelling at the Baptism? There should be a section on Jesus' unique conception and what the different views believe happened to Mary when she became pregnant with Jesus. Not to be crude, but Jesus at least has a Y chromosome that didn't come from Mary.
