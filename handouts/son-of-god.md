@@ -106,17 +106,35 @@ Each position claims to be the most faithful reading of Scripture. Each has stro
 
 ### View 1: The Trinitarian View — Eternally Begotten, Co-Equal, Co-Eternal
 
-```mermaid
-graph TD
-    F["Father"] -->|"is"| G(("GOD"))
-    G -->|"is"| S["Son"]
-    G -->|"is"| HS["Holy Spirit"]
-    F -.-|"is not"| S
-    F -.-|"is not"| HS
-    subgraph bottom[" "]
-        S -.-|"is not"| HS
-    end
-    style bottom fill:none,stroke:none
+```svg
+<svg viewBox="0 0 400 360" width="360" height="324" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" font-size="14">
+  <!-- Outer "is not" lines (dotted) -->
+  <line x1="200" y1="50" x2="80" y2="300" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="200" y1="50" x2="320" y2="300" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="80" y1="300" x2="320" y2="300" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Inner "is" lines (solid) -->
+  <line x1="200" y1="80" x2="200" y2="150" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="210" x2="100" y2="280" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="210" x2="300" y2="280" stroke="#333" stroke-width="2"/>
+  <!-- "is not" labels -->
+  <text x="122" y="170" text-anchor="middle" font-size="12" fill="#555" transform="rotate(-62,122,170)">is not</text>
+  <text x="278" y="170" text-anchor="middle" font-size="12" fill="#555" transform="rotate(62,278,170)">is not</text>
+  <text x="200" y="322" text-anchor="middle" font-size="12" fill="#555">is not</text>
+  <!-- "is" labels -->
+  <text x="212" y="125" text-anchor="start" font-size="12" fill="#333">is</text>
+  <text x="138" y="255" text-anchor="middle" font-size="12" fill="#333">is</text>
+  <text x="262" y="255" text-anchor="middle" font-size="12" fill="#333">is</text>
+  <!-- Center circle: GOD -->
+  <circle cx="200" cy="180" r="35" fill="#e8e8e8" stroke="#333" stroke-width="2"/>
+  <text x="200" y="185" text-anchor="middle" font-weight="bold" font-size="16" fill="#000">GOD</text>
+  <!-- Corner nodes -->
+  <rect x="155" y="25" width="90" height="32" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="200" y="47" text-anchor="middle" font-size="14" fill="#000">Father</text>
+  <rect x="35" y="284" width="90" height="32" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="80" y="306" text-anchor="middle" font-size="14" fill="#000">Son</text>
+  <rect x="275" y="284" width="90" height="32" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="320" y="306" text-anchor="middle" font-size="14" fill="#000">Holy Spirit</text>
+</svg>
 ```
 
 **Core Claim:** "Son of God" is not merely a title — it is an ontological claim about what Jesus *is*. The Son is eternally begotten of the Father, of one substance (*homoousios*) with the Father, fully and equally God. The Nicene Creed (325 AD): *"God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father."*

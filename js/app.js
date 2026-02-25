@@ -1009,6 +1009,14 @@ async function loadHandout(path) {
             return placeholder;
         });
 
+        // Extract svg blocks before line-by-line parsing
+        const svgBlocks = [];
+        markdown = markdown.replace(/```svg\n([\s\S]*?)```/g, (match, svg) => {
+            const placeholder = `___HANDOUT_SVG_${svgBlocks.length}___`;
+            svgBlocks.push(svg.trim());
+            return placeholder;
+        });
+
         // Parse markdown line by line for better list handling
         const lines = markdown.split('\n');
         let html = '';
@@ -1041,8 +1049,8 @@ async function loadHandout(path) {
                 inList = false;
             }
 
-            // Mermaid placeholders — pass through without wrapping
-            if (line.includes('___HANDOUT_MERMAID_')) {
+            // Mermaid/SVG placeholders — pass through without wrapping
+            if (line.includes('___HANDOUT_MERMAID_') || line.includes('___HANDOUT_SVG_')) {
                 html += line + '\n';
             }
             // Headers
@@ -1096,6 +1104,11 @@ async function loadHandout(path) {
         html = html.replace(/___HANDOUT_MERMAID_(\d+)___/g, (match, index) => {
             const diagram = mermaidBlocks[parseInt(index)];
             return `<div class="mermaid-container"><div class="mermaid">${diagram}</div></div>`;
+        });
+
+        // Restore svg blocks as raw SVG
+        html = html.replace(/___HANDOUT_SVG_(\d+)___/g, (match, index) => {
+            return `<div class="svg-container">${svgBlocks[parseInt(index)]}</div>`;
         });
 
         // Render to page

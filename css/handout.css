@@ -223,6 +223,17 @@ code {
     page-break-inside: avoid;
 }
 
+/* SVG diagrams */
+.svg-container {
+    text-align: center;
+    margin: 0.15in 0;
+    page-break-inside: avoid;
+}
+.svg-container svg {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Utility classes */
 .page-break {
     page-break-after: always;
