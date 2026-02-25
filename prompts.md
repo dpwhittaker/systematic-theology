@@ -174,3 +174,7 @@ Please change all scripture references to ESV, NIV, NET, or AMP. Record that the
 Why does Spirit Christology seem to shy away from the immaculate conception and focus on indwelling at the Baptism? There should be a section on Jesus' unique conception and what the different views believe happened to Mary when she became pregnant with Jesus. Not to be crude, but Jesus at least has a Y chromosome that didn't come from Mary.
 
 now review the whole handout for consistency with the virgin conception section
+
+how long was Mark around and how widely circulated before the same communities began to see Matthew and Luke?
+
+yes please
