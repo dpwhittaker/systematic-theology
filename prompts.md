@@ -194,3 +194,5 @@ On the mermaid diagram for the trinity, can you get God in the center? This will
 That is closer, but it is still not putting Son and Holy Spirit on the same row, presumably out of a desire to keep the horizontal link between them from being horizontal. How do we tell mermaid that's ok?
 
 That didn't help. Can you manually position them?
+
+Now please double-check the entire document for consistency, particularly with the newly added shekinah/tabernacle section.
