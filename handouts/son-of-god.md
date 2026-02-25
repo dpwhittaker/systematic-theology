@@ -106,6 +106,16 @@ Each position claims to be the most faithful reading of Scripture. Each has stro
 
 ### View 1: The Trinitarian View — Eternally Begotten, Co-Equal, Co-Eternal
 
+```mermaid
+graph TD
+    F["Father"] ---|"is not"| S["Son"]
+    S ---|"is not"| HS["Holy Spirit"]
+    F ---|"is not"| HS
+    F -->|"is"| G(("GOD"))
+    S -->|"is"| G
+    HS -->|"is"| G
+```
+
 **Core Claim:** "Son of God" is not merely a title — it is an ontological claim about what Jesus *is*. The Son is eternally begotten of the Father, of one substance (*homoousios*) with the Father, fully and equally God. The Nicene Creed (325 AD): *"God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father."*
 
 **The Distinction:** Believers are sons of God by *adoption* (*huiothesia* — Romans 8:15, Galatians 4:5). The Son is Son by *nature*, eternally. There was never a time when He was not the Son. The Greek word *monogenes* (John 3:16) means unique, one-of-a-kind — not "first among many."
@@ -136,6 +146,13 @@ Athanasius identified what he saw as the fatal flaw in every alternative: *if th
 
 ### View 2: The Sabellian View — One God, Three Modes
 
+```mermaid
+graph TD
+    G(("One God\nOne Person")) -->|"mode: Creator"| F["Father"]
+    G -->|"mode: Redeemer"| S["Son"]
+    G -->|"mode: Sanctifier"| HS["Holy Spirit"]
+```
+
 **Core Claim:** There is one God, one divine person, who reveals Himself in three modes: as Father (Creator), as Son (Redeemer), and as Spirit (Sanctifier). "Son of God" means God Himself in redemptive mode — not a second person, but the one God putting on flesh. Sabellius (c. 215 AD) saw himself as the truest monotheist.
 
 **Key Evidence:**
@@ -155,6 +172,12 @@ The Sabellian notes that the "First and the Last" title belongs to YHWH in Isaia
 ---
 
 ### View 3: The Arian View — The First and Greatest Creation
+
+```mermaid
+graph TD
+    F["Father\n(unbegotten, only true God)"] -->|"created / begot"| S["Son\n(first & greatest creation)"]
+    S -->|"created through"| C["All Other Creation"]
+```
 
 **Core Claim:** The Son is the first and greatest of all God's creations — divine, incomparable, exalted above every other being, but not co-eternal or co-equal with the Father. "There was when He was not." The Father alone is unbegotten; everything else, including the Son, derives from His will. Arius (c. 256-336 AD) saw himself as defending true monotheism and the Father's absolute supremacy.
 
@@ -182,6 +205,13 @@ Arius presses: if the Son shares the Father's substance, how can He not know the
 
 ### View 4: Spirit Christology — Anointed by the Spirit Without Measure
 
+```mermaid
+graph LR
+    G(("GOD")) -->|"Spirit\n(ruach)"| J["Jesus\n(sinless vessel)"]
+    J -->|"="| P["All fullness of Deity\nin bodily form\n(Col 2:9)"]
+    style J fill:#f9f9f9,stroke:#333
+```
+
 **Core Claim:** Jesus is the Messiah, the unique Son of God — but His sonship is understood through the Spirit's anointing, not through Greek philosophical categories. The Spirit created Jesus in Mary's womb (Luke 1:35), filled Him without measure throughout His sinless life (John 3:34), descended visibly at His baptism as public declaration (Mark 1:10), empowered His ministry, raised Him from the dead (Romans 8:11), and exalted Him as Lord. This is the earliest layer of Christology visible in Acts and the Synoptic Gospels.
 
 **Key Evidence:**
@@ -207,6 +237,15 @@ The Spirit Christologist does not need Greek ontology to arrive at Christ's divi
 ---
 
 ### View 5: The Jewish Reading — God's Ultimate Agent, Not God Himself
+
+```mermaid
+graph TD
+    G(("GOD\n(Principal)")) -->|"sends"| J["Jesus\n(Agent / Shaliach)"]
+    G -->|"sent"| M["Moses"]
+    G -->|"sent"| P["Prophets"]
+    G -->|"sent"| A["Angels"]
+    style J fill:#f0f0f0,stroke:#333,stroke-width:3px
+```
 
 **Core Claim:** "Son of God" is a title — the highest possible title for a human being — but it describes a role, not a divine nature. The Messiah was expected to be a human king anointed by God, empowered by God's Spirit, ruling with God's authority. A human Messiah is not a lesser Messiah. In Jewish theology, God acts through agents: "A person's agent is as the person himself" (Talmud, *Kiddushin* 41b). Jesus as God's uniquely authorized agent carries divine authority without *being* the divine principal.
 

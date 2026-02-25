@@ -178,3 +178,5 @@ now review the whole handout for consistency with the virgin conception section
 how long was Mark around and how widely circulated before the same communities began to see Matthew and Luke?
 
 yes please
+
+Add the standard trinity image to the Trinity view for illustration, the triangle with God in the middle, Father, Son, and Spirit at the corners, "is" pointing in, and "is not" on the outside. If there are similar visualizations of the other views, add them. Don't use code blocks, use mermaid diagrams.

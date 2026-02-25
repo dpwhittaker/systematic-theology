@@ -1001,6 +1001,14 @@ async function loadHandout(path) {
         if (!response.ok) throw new Error(`Failed to load ${path}`);
         const markdown = await response.text();
 
+        // Extract mermaid blocks before line-by-line parsing
+        const mermaidBlocks = [];
+        markdown = markdown.replace(/```mermaid\n([\s\S]*?)```/g, (match, diagram) => {
+            const placeholder = `___HANDOUT_MERMAID_${mermaidBlocks.length}___`;
+            mermaidBlocks.push(diagram.trim());
+            return placeholder;
+        });
+
         // Parse markdown line by line for better list handling
         const lines = markdown.split('\n');
         let html = '';
@@ -1033,8 +1041,12 @@ async function loadHandout(path) {
                 inList = false;
             }
 
+            // Mermaid placeholders — pass through without wrapping
+            if (line.includes('___HANDOUT_MERMAID_')) {
+                html += line + '\n';
+            }
             // Headers
-            if (line.startsWith('### ')) {
+            else if (line.startsWith('### ')) {
                 html += '<h3>' + line.substring(4) + '</h3>\n';
             } else if (line.startsWith('## ')) {
                 html += '<h2>' + line.substring(3) + '</h2>\n';
@@ -1080,8 +1092,37 @@ async function loadHandout(path) {
             // Links
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 
+        // Restore mermaid blocks as div elements
+        html = html.replace(/___HANDOUT_MERMAID_(\d+)___/g, (match, index) => {
+            const diagram = mermaidBlocks[parseInt(index)];
+            return `<div class="mermaid-container"><div class="mermaid">${diagram}</div></div>`;
+        });
+
         // Render to page
         els.cardBody.innerHTML = html;
+
+        // Re-initialize mermaid with light theme for handouts, then render
+        if (window.mermaid && els.cardBody.querySelectorAll('.mermaid').length > 0) {
+            window.mermaid.initialize({
+                startOnLoad: false,
+                theme: 'default',
+                themeVariables: {
+                    primaryColor: '#e8e8e8',
+                    primaryTextColor: '#000000',
+                    primaryBorderColor: '#333333',
+                    lineColor: '#333333',
+                    secondaryColor: '#f0f0f0',
+                    tertiaryColor: '#f8f8f8',
+                    background: '#ffffff',
+                    mainBkg: '#ffffff',
+                    fontFamily: 'Atkinson Hyperlegible, Georgia, serif',
+                    fontSize: '14px'
+                }
+            });
+            window.mermaid.run({
+                nodes: els.cardBody.querySelectorAll('.mermaid')
+            }).catch(err => console.error('Mermaid rendering error:', err));
+        }
 
     } catch (e) {
         console.error("Failed to load handout", e);

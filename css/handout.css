@@ -216,6 +216,13 @@ code {
     border-radius: 2px;
 }
 
+/* Mermaid diagrams */
+.mermaid-container {
+    text-align: center;
+    margin: 0.15in 0;
+    page-break-inside: avoid;
+}
+
 /* Utility classes */
 .page-break {
     page-break-after: always;
