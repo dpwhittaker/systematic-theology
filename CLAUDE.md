@@ -174,16 +174,11 @@ Recommended upgrades: Roboto Mono, Fira Code, or Atkinson Hyperlegible for bette
 
 ### Running the Application
 
-This is a static site with no build process:
+This is a static site with no build process. **Start a background dev server automatically at the beginning of every session:**
 ```bash
-# Option 1: Python simple server
-python3 -m http.server 8000
-
-# Option 2: PHP built-in server
-php -S localhost:8000
-
-# Then open: http://localhost:8000
+python3 -m http.server 8000 &
 ```
+Then open: http://localhost:8000
 
 ### Adding New Content
 
