@@ -999,7 +999,7 @@ async function loadHandout(path) {
         // Fetch handout markdown
         const response = await fetch(path);
         if (!response.ok) throw new Error(`Failed to load ${path}`);
-        const markdown = await response.text();
+        let markdown = await response.text();
 
         // Extract mermaid blocks before line-by-line parsing
         const mermaidBlocks = [];
