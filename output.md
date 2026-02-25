@@ -1234,3 +1234,33 @@ Fixed Son and Holy Spirit not rendering on the same row. Dagre was staggering th
 Subgraph approach didn't fix the rank issue. Replaced the mermaid Trinity diagram with a hand-crafted SVG Shield of the Trinity. Added ```svg block support to the handout renderer (same extraction/placeholder/restoration pattern as mermaid). SVG gives exact manual positioning: Father at top (200,41), GOD circle at center (200,180), Son at bottom-left (80,300), Holy Spirit at bottom-right (320,300). Solid lines for "is" (center to corners), dotted lines for "is not" (outer edges). Added .svg-container styling to handout.css. Light gray fills (#e8e8e8) match the mermaid theme.
 
 Full consistency review of the entire handout against the new tabernacle/Shekinah section. No inconsistencies found. All five views maintain internal consistency across every section (Core Claims, Passage Analysis, Christophanies, Virgin Conception, Tabernacle, Why It Matters). Key cross-references checked: Luke 1:35 used complementarily (Virgin Conception = mechanism/biology, Tabernacle = episkiazō vocabulary), Colossians 2:9 consistent across all 6 appearances, John 1:1 vs 1:14 properly distinct (Logos identity vs eskēnōsen dwelling), Fullness Argument and tabernacle section arrive at Col 2:9 via different paths without contradiction. Spirit Christology arc reads coherently across all five touchpoints. Sabellian/Spirit Christology distinction properly maintained (God IS the person vs God FILLS the person).
+
+Extracted the Fullness Argument from Spirit Christology (View 4) into a standalone Section VI "A Personal Synthesis — Fullness Christology" with clear attribution to David Whittaker. Changes made:
+
+1. **View 4 mermaid diagram**: Changed from "sinless vessel" → "All fullness" to GOD →|Spirit| Jesus →|anointed| "Lord and Christ (Acts 2:36)" — reflecting baptism-to-exaltation arc.
+
+2. **View 4 core claim**: Rewritten to represent historical Spirit Christology (Dunn, Lampe). Focus on baptism-anointing-resurrection-exaltation rather than conception-to-resurrection Fullness arc.
+
+3. **Fullness Argument paragraphs removed** from View 4: Replaced with historical Spirit Christology summary about NT development from low to high Christology.
+
+4. **John 1:1 bullet**: Removed Fullness Argument reference. Now presents John as the latest/highest Christological development, using Logos language that bridges Jewish and Greek worlds.
+
+5. **Phil 2:6-11 bullet**: Removed virgin conception reading. Now presents Dunn's Adam Christology interpretation and acknowledges the hymn as transitional.
+
+6. **John 20:28 bullet**: Removed "Fullness Argument explains why." Now presents Thomas's confession as the climactic moment of the latest Gospel with honest tension acknowledged.
+
+7. **Virgin Conception Spirit Christology bullet**: Rewritten to focus on birth narratives as later additions, baptism-to-exaltation as earliest kerygma foundation.
+
+8. **Luke 1:35 editorial**: Softened from "Spirit Christology's strongest verse" to noting its significance for Spirit-focused readings while maintaining baptism as the foundation.
+
+9. **Tabernacle Spirit Christology bullet**: Removed "powerfully reinforces" and "without measure, without interruption, without the veil" intensifiers. Now frames tabernacle pattern as suggestive rather than conclusive.
+
+10. **Salvation paragraph**: Replaced Fullness Argument reply to Athanasius with Spirit Christology questioning the Greek framing of the question itself.
+
+11. **"How We Read Scripture"**: Changed from "Luke 1:35 and Acts 2" to "Acts 2 and Acts 10:38" — focusing on baptism-to-exaltation kerygma.
+
+12. **New Section VI**: "A Personal Synthesis — Fullness Christology" with: attribution/disclaimer, starting point, departure from Spirit Christology, sinlessness mechanism, window analogy, passage readings (John 1:1, John 20:28, Phil 2:6-11, tabernacle, virgin conception), Trinitarian harmonization, salvation question, honest acknowledgment of novelty.
+
+13. **Renumbered**: VI → VII (What We Should All Agree On), VII → VIII (For Further Study).
+
+14. **Added Lampe** to Further Study under Spirit Christology.

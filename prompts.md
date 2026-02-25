@@ -196,3 +196,5 @@ That is closer, but it is still not putting Son and Holy Spirit on the same row,
 That didn't help. Can you manually position them?
 
 Now please double-check the entire document for consistency, particularly with the newly added shekinah/tabernacle section.
+
+Extract the Fullness Argument from Spirit Christology into its own clearly-attributed section. Adjust Spirit Christology to represent the historical position (Dunn, Lampe, Haight). Create new Section VI "A Personal Synthesis — Fullness Christology" with attribution to David Whittaker.
