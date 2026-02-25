@@ -108,12 +108,12 @@ Each position claims to be the most faithful reading of Scripture. Each has stro
 
 ```mermaid
 graph TD
-    F["Father"] ---|"is not"| S["Son"]
-    S ---|"is not"| HS["Holy Spirit"]
-    F ---|"is not"| HS
-    F -->|"is"| G(("GOD"))
-    S -->|"is"| G
-    HS -->|"is"| G
+    F["Father"] -->|"is"| G(("GOD"))
+    G -->|"is"| S["Son"]
+    G -->|"is"| HS["Holy Spirit"]
+    F -.-|"is not"| S
+    F -.-|"is not"| HS
+    S -.-|"is not"| HS
 ```
 
 **Core Claim:** "Son of God" is not merely a title — it is an ontological claim about what Jesus *is*. The Son is eternally begotten of the Father, of one substance (*homoousios*) with the Father, fully and equally God. The Nicene Creed (325 AD): *"God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father."*

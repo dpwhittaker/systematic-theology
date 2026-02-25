@@ -188,3 +188,5 @@ Add to CLAUDE.md that a background server should be automatically started whenev
 One more missing concept I have read - Jesus is a mobile tabernacle - filled with the Shekinah glory of God. Tabernacle language shows up at both His birth and baptism. If this is true, it means Jesus is literally the presence of God walking among us. Is this a stretch or is it well supported in the Scripture?
 
 absolutely
+
+On the mermaid diagram for the trinity, can you get God in the center? This will cause backwards links so you might need to explicitly set the rank of each node or explicitly position them
