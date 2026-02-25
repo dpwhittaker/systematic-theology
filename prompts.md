@@ -190,3 +190,5 @@ One more missing concept I have read - Jesus is a mobile tabernacle - filled wit
 absolutely
 
 On the mermaid diagram for the trinity, can you get God in the center? This will cause backwards links so you might need to explicitly set the rank of each node or explicitly position them
+
+That is closer, but it is still not putting Son and Holy Spirit on the same row, presumably out of a desire to keep the horizontal link between them from being horizontal. How do we tell mermaid that's ok?

@@ -113,7 +113,10 @@ graph TD
     G -->|"is"| HS["Holy Spirit"]
     F -.-|"is not"| S
     F -.-|"is not"| HS
-    S -.-|"is not"| HS
+    subgraph bottom[" "]
+        S -.-|"is not"| HS
+    end
+    style bottom fill:none,stroke:none
 ```
 
 **Core Claim:** "Son of God" is not merely a title — it is an ontological claim about what Jesus *is*. The Son is eternally begotten of the Father, of one substance (*homoousios*) with the Father, fully and equally God. The Nicene Creed (325 AD): *"God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father."*
