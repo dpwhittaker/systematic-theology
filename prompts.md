@@ -202,3 +202,5 @@ Extract the Fullness Argument from Spirit Christology into its own clearly-attri
 In the honest acknowledgement section, also mention the similarities to Dunn.
 
 Dunn ended up at the Bible being infallible but not inerrant. Pinnock at inclusivism. And Lampe at a "mere mortal" Jesus (fact check these claims). These are the reasons I jumped off the shoulders of these giants and attempted to "thread the needle" in a way that upheld a "high" view of Jesus and Scripture, while conforming to a more historically relevant and Jewish mindset. If these statements ring true, add them (but clean up the grammar and give them a poetic flair).
+
+Shekinah Christology it is. Please update the document and explain where it comes from
