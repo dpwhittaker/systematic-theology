@@ -1266,3 +1266,5 @@ Extracted the Fullness Argument from Spirit Christology (View 4) into a standalo
 14. **Added Lampe** to Further Study under Spirit Christology.
 
 Updated Honest Acknowledgment section in Fullness Christology to include Dunn alongside Lampe and Pinnock — noting that Dunn identified the low-to-high trajectory but did not claim it arrived at ontological deity through pneumatological categories.
+
+Fact-checked Dunn (infallible but not inerrant), Pinnock (inclusivism), and Lampe (mere mortal Jesus) — all three claims confirmed. Expanded the Honest Acknowledgment section to explain why Fullness Christology departs from each: Dunn lowered Scripture, Pinnock widened the gate, Lampe left Jesus as the best of us rather than the bearer of God's full deity. Added "threading the needle" framing with poetic flair — standing on their shoulders while riding the trajectory further than any of them went, toward a high view of Jesus and Scripture through Jewish rather than Greek categories.
