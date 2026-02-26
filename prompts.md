@@ -198,3 +198,5 @@ That didn't help. Can you manually position them?
 Now please double-check the entire document for consistency, particularly with the newly added shekinah/tabernacle section.
 
 Extract the Fullness Argument from Spirit Christology into its own clearly-attributed section. Adjust Spirit Christology to represent the historical position (Dunn, Lampe, Haight). Create new Section VI "A Personal Synthesis — Fullness Christology" with attribution to David Whittaker.
+
+In the honest acknowledgement section, also mention the similarities to Dunn.

@@ -1264,3 +1264,5 @@ Extracted the Fullness Argument from Spirit Christology (View 4) into a standalo
 13. **Renumbered**: VI → VII (What We Should All Agree On), VII → VIII (For Further Study).
 
 14. **Added Lampe** to Further Study under Spirit Christology.
+
+Updated Honest Acknowledgment section in Fullness Christology to include Dunn alongside Lampe and Pinnock — noting that Dunn identified the low-to-high trajectory but did not claim it arrived at ontological deity through pneumatological categories.
