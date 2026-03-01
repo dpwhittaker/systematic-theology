@@ -653,28 +653,12 @@ The mystery they were confessing — that in this specific, historical, Jewish m
 
 ## VIII. For Further Study
 
-**The Classical Trinitarian Case:**
-- Athanasius, *On the Incarnation* (4th century; accessible modern translation by St. Vladimir's Seminary Press)
-- Michael Reeves, *Delighting in the Trinity*
-- Richard Bauckham, *Jesus and the God of Israel*
+**The Classical Trinitarian Case:** Athanasius, *On the Incarnation*; Michael Reeves, *Delighting in the Trinity*; Richard Bauckham, *Jesus and the God of Israel*
 
-**Spirit Christology:**
-- James D.G. Dunn, *Christology in the Making*
-- G.W.H. Lampe, *God as Spirit*
-- Roger Haight, *Jesus: Symbol of God*
-- Larry Hurtado, *Lord Jesus Christ: Devotion to Jesus in Earliest Christianity*
+**Spirit Christology:** James D.G. Dunn, *Christology in the Making*; G.W.H. Lampe, *God as Spirit*; Roger Haight, *Jesus: Symbol of God*; Larry Hurtado, *Lord Jesus Christ*
 
-**The Jewish Perspective:**
-- Daniel Boyarin, *The Jewish Gospels*
-- Alan Segal, *Two Powers in Heaven*
-- Pinchas Lapide, *The Resurrection of Jesus: A Jewish Perspective*
+**The Jewish Perspective:** Daniel Boyarin, *The Jewish Gospels*; Alan Segal, *Two Powers in Heaven*; Pinchas Lapide, *The Resurrection of Jesus: A Jewish Perspective*
 
-**The Arian and Sabellian Cases:**
-- J.N.D. Kelly, *Early Christian Doctrines* (the standard survey of how the debates unfolded)
-- Alister McGrath, *Historical Theology* (accessible survey of the Monarchian and Arian controversies)
-- R.P.C. Hanson, *The Search for the Christian Doctrine of God* (definitive scholarly treatment of the 4th-century debates)
+**The Arian and Sabellian Cases:** J.N.D. Kelly, *Early Christian Doctrines*; Alister McGrath, *Historical Theology*; R.P.C. Hanson, *The Search for the Christian Doctrine of God*
 
-**Historical Context:**
-- Justo Gonzalez, *The Story of Christianity*, Vol. 1
-- N.T. Wright, *The Challenge of Jesus*
-- C.S. Lewis, *Mere Christianity*, Book II
+**Historical Context:** Justo Gonzalez, *The Story of Christianity*, Vol. 1; N.T. Wright, *The Challenge of Jesus*; C.S. Lewis, *Mere Christianity*, Book II
