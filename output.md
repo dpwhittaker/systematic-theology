@@ -1290,3 +1290,20 @@ Compiled comprehensive biblical analysis of every major verse mentioning heaven 
 6. **Zechariah 14 + Acts 1:** Jesus' feet land on the Mount of Olives. He returns the same way He left. Physical. Earthly. King over all the earth.
 
 Conclusion: The "going to heaven when you die" framework is more Plato than Paul. The biblical hope is overwhelmingly physical resurrection, earthly kingdom, new creation — with heaven as intermediate state, not final destination.
+
+## Handout Created: Heaven, Hell, and Resurrection
+
+Created handouts/heaven-hell-resurrection.md — ~450 lines, structured in 10 sections:
+
+I. The Question We Rarely Ask
+II. What the Bible Says About Heaven (every major passage, categorized as intermediate state / stored in heaven / heavenly origin)
+III. What the Bible Says About Hell (Sheol, Hades, Gehenna, Tartarus, Lake of Fire vocabulary; three views on final punishment)
+IV. What the Bible Says About Resurrection (OT, Jesus' teaching, Paul's teaching, Jesus' resurrection body as prototype)
+V. What the Bible Says About the New Earth (Prophets, Paul, Peter, Revelation)
+VI. The Rapture Question (apantesin analysis, three views, Matthew 24 "taken" reversal)
+VII. The Kingdom: Heaven or Earth? (summary table, Zechariah 14 + Acts 1)
+VIII. How Did We Get Here? The Greek Detour (Plato's shadow, shift in church history, Hebrew original)
+IX. Putting It All Together (five-act biblical story, what happens when you die, diagram)
+X. For Further Study
+
+Linked from data/eschatology/eschatology.md.
