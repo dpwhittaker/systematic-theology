@@ -210,3 +210,5 @@ In the Sinless Mechanism, draw a stronger link between the spirit-made man, a ma
 The printed version of the handout is just a few lines over 20 pages, and I want it to be 20. Compress the Further Study section by removing bullets, formatting as inline lists.
 
 Is there a way to make manual page breaks? I thought we had --- work as page breaks in print mode, but they are showing up as horizontal lines.
+
+I'm thinking about adding a handout on heaven and hell. First let's do a deep dive. List every verse in a handout that mentions heaven or hell. Compare and contrast with verses that talk about a physical resurrection or a new earth. Will we be raptured into heaven or will Jesus take the throne of His kingdom on Earth?

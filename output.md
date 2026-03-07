@@ -1276,3 +1276,17 @@ Expanded the Sinlessness Mechanism section in Shekinah Christology with three ne
 Compressed the Further Study section (VIII) from bulleted lists to inline format: **Bold Title:** Author, *Book*; Author 2, *Book 2*. Saved ~15 lines to bring the handout closer to 20 printed pages.
 
 Made `<hr>` elements (from `---` in markdown) act as page breaks in print mode. On screen they remain visible as thin gray lines. In print, they become invisible and trigger `page-break-after: always`. This gives manual control over page breaks by placing `---` in the handout markdown.
+
+## Deep Dive: Heaven, Hell, Resurrection, and New Earth
+
+Compiled comprehensive biblical analysis of every major verse mentioning heaven or hell, compared and contrasted with physical resurrection and new earth passages.
+
+**Key findings:**
+1. **"Heaven" verses** almost universally describe either (a) the intermediate state between death and resurrection, or (b) something stored in heaven that comes to earth. None describe the final destiny of believers as disembodied existence in heaven.
+2. **"Hell" verses** use four distinct terms: Sheol (grave), Hades (realm of dead), Gehenna (garbage dump — Jesus' primary term), and Lake of Fire (Revelation). Jesus' Gehenna imagery from Isaiah 66:24 describes corpses, not living beings.
+3. **Resurrection verses** are emphatic about physical bodies — "in my flesh I shall see God" (Job), "give life to your mortal bodies" (Romans 8), "transform our lowly body" (Phil 3).
+4. **New earth verses** consistently describe God coming DOWN to earth, not humanity going up to heaven. New Jerusalem "comes down out of heaven." Believers "reign on the earth."
+5. **The rapture word** *apantesin* ("to meet") is a technical term for going out to escort a dignitary back into your city — not leaving with him. Citizens go out to welcome the King and bring him home.
+6. **Zechariah 14 + Acts 1:** Jesus' feet land on the Mount of Olives. He returns the same way He left. Physical. Earthly. King over all the earth.
+
+Conclusion: The "going to heaven when you die" framework is more Plato than Paul. The biblical hope is overwhelmingly physical resurrection, earthly kingdom, new creation — with heaven as intermediate state, not final destination.
