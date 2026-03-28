@@ -1276,3 +1276,18 @@ Expanded the Sinlessness Mechanism section in Shekinah Christology with three ne
 Compressed the Further Study section (VIII) from bulleted lists to inline format: **Bold Title:** Author, *Book*; Author 2, *Book 2*. Saved ~15 lines to bring the handout closer to 20 printed pages.
 
 Made `<hr>` elements (from `---` in markdown) act as page breaks in print mode. On screen they remain visible as thin gray lines. In print, they become invisible and trigger `page-break-after: always`. This gives manual control over page breaks by placing `---` in the handout markdown.
+
+Created pneumatology.md (1260 lines) as a comprehensive first-draft handout. Split the work into 7 parallel agents (one per topic) after Opus single-agent attempts kept timing out at 29 minutes. All 6 content agents completed successfully in ~60-90 seconds each; merged into single file.
+
+Structure:
+- Part 1 (written directly): OT Spirit pattern, Jesus and the Spirit (John 14-16 Paraclete passages), Pentecost and Acts problem cases (chs. 2, 8, 10, 19 with honest non-harmonized presentation)
+- Section IV: Paul's letters — Romans 8, 2 Cor 1, Gal 5, Eph 1/4/5, 1 Thess 5 — with key sealing/filling distinction (*plērousthe* exegesis)
+- Section V: Does the Spirit leave? — OT vs NT, Heb 6:4-6 all four views, grieving vs. losing distinction
+- Section VI: Water vs. Spirit baptism — three views (Reformed, Pentecostal, Sacramental), honest assessment of where texts resist a single formula
+- Section VII: Tongues — Acts 2 as known languages, 1 Cor 12-14 full treatment, cessationism debate, decisive 1 Cor 12:30 text
+- Section VIII: Gifts — *charismata*, body metaphor, "greater gifts" = most edifying not most spectacular, 1 Cor 13 in proper context (not escape from gifts), APEST
+- Section IX: Practical life in the Spirit — 9 applications from NT texts
+- Section X: Denominational charity
+- Section XI: Further study
+
+Committed and pushed to claude/pneumatology-handout-IhEnD.
