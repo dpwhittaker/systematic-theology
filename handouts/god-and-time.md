@@ -2,7 +2,7 @@
 
 A study of God's relationship with time, examining how different traditions understand divine knowledge, the reality of the future, and what it means when Scripture says God "changed His mind."
 
-===
+---
 ## Guardrails: The Outer Limits of Christian Belief About God
 
 Before exploring the *internal* debates among Christians about God and time, it helps to mark the outer boundaries — positions that place a person *outside* Christian orthodoxy altogether. These are not lines drawn over minor disputes. Crossing them means affirming something the church has consistently identified as a different religion.
@@ -49,7 +49,7 @@ This is God's self-description — not a list of abstract attributes, but a decl
 
 The question of God's relationship with time is where these two approaches diverge most sharply.
 
-===
+---
 ## II. The Attributes That Frame the Debate
 
 Three classical attributes of God are directly at stake:
@@ -172,7 +172,7 @@ The consistent testimony is not that God responds skillfully to unfolding events
 
 These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled*. The question is not whether God knows the future, but how — and what that means for human freedom and divine relationship.
 
-===
+---
 ## V. Three Views on God and Time
 
 ### View 1: The Classical/Calvinist View — God Outside of Time
@@ -204,7 +204,7 @@ These passages are not easily dismissed as anthropomorphism. A named individual 
 
 **Tension:** If God sees all of time at once, does prayer actually change anything? If the future is already "there" for God to see, is it genuinely open? And if every use of emotional language about God is just accommodation, what does the Bible actually tell us about who He is?
 
-===
+---
 ### View 2: The Arminian View — God Knows but Doesn't Determine
 
 **Core Claim:** God has exhaustive foreknowledge — He knows everything that will happen, including every future free choice. But His knowing does not *cause* what happens. He foresees; He does not predetermine.
@@ -230,7 +230,7 @@ Arminius wrote: "Though the understanding of God be certain and infallible, that
 
 **Tension:** If God foreknows every choice infallibly, can those choices be truly free? If God knew before creation that billions would reject Him and suffer eternally, why create at all? And if God's plans depend on human choices, can He guarantee outcomes like Christ's return and final victory?
 
-===
+---
 ### View 3: The Second Temple Jewish View — "Everything Is Foreseen, Yet Freedom Is Given"
 
 Jewish theology in the centuries surrounding Jesus was not monolithic. Three major movements held strikingly different positions — positions that map remarkably well onto later Christian debates.
@@ -265,7 +265,7 @@ Philo (~20 BC - 50 AD) represents Hellenized Judaism — the very synthesis this
 **The Takeaway:**
 The three Jewish sects map onto later Christian positions: Essenes → Calvinism, Pharisees → Arminianism, Sadducees → radical free-will theology. The debate is not new. It predates Christianity by centuries.
 
-===
+---
 ## VI. The Question Behind the Question
 
 The deeper issue is not which view is "right" but what kind of reality God created:
@@ -296,7 +296,7 @@ The Bible presents a God who:
 
 The data resists systematic resolution. Each tradition emphasizes some passages and explains away others.
 
-===
+---
 ## VII. Interpretive Perspectives
 
 **On Acts 4:27-28 — Herod and Pilate did what God "determined before to be done":**
@@ -319,7 +319,7 @@ The data resists systematic resolution. Each tradition emphasizes some passages 
 - *Arminian:* Verse 11 describes God's genuine emotional response to Saul's failure. Verse 29 describes God's unchanging *purpose* — He will not reverse His decision to remove Saul.
 - *Open:* Verse 11 describes real divine regret. Verse 29 means God will not change His mind *about this specific decision* (removing Saul), not that He never changes His mind about anything.
 
-===
+---
 ## VIII. Why It Matters
 
 This is not an abstract philosophical puzzle. How we answer "Does God interact with time?" shapes:
@@ -336,7 +336,7 @@ This is not an abstract philosophical puzzle. How we answer "Does God interact w
 
 That "who knows?" may be the most honest theology in the Bible. Not certainty about God's inner workings. Not a systematic theory of divine temporality. Just the hope that the Living God, who grieves over evil and delights in mercy, might act — and the courage to cry out to Him anyway.
 
-===
+---
 ## IX. For Further Study
 
 **The Classical Case:**
