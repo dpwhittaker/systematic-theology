@@ -241,9 +241,27 @@ Located in `handouts/` as plain markdown files (no YAML frontmatter, no HUD-spec
 ### Adding New Handouts
 
 1. Create a `.md` file in `handouts/` using standard markdown (no HUD frontmatter)
-2. Use `# Heading` for major sections (triggers `page-break-before` in print)
+2. Use `# Heading` for major sections
 3. Use `> blockquote` for Scripture quotations
 4. Link to it from relevant topic files: `[Label](#handouts/filename.md 'Drill')`
+
+### Page Break Philosophy
+
+Page breaks are explicit only — use `===` in markdown where you want a print page break (renders as a double-line rule on screen, `page-break-after: always` in print). Use `---` for visual section dividers that should not force a new page.
+
+**Detailed vs. normal handouts:**
+- **Detailed handouts** (comprehensive/every-verse coverage): `pneumatology.md`, `the-bible-about-the-bible.md`, `the-bible-about-the-bible-condensed.md`, `the-bible-about-the-bible-printable.md`
+- **Normal handouts**: everything else
+
+**Page break rules (applied during a dedicated page-break pass after content is complete):**
+
+1. No major section should span more than one page.
+   - Normal handouts: no `h1` section spans more than one page
+   - Detailed handouts: no `h2` section spans more than one page
+2. Break before an `h1` (or `h2` in detailed handouts), unless the next section fits on the current page without a break.
+3. Maximize content per page. Minimize top-level sections that span multiple pages.
+
+**Workflow:** During content development, `===` placement is a rough guess. A deliberate page-break pass happens after content is finalized — using print preview (or the headless Chrome + pymupdf page analysis tools) to verify layout and place `===` markers intentionally for the physical page-turning flow of a class.
 
 ## Key Files
 
