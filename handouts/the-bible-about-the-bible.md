@@ -2,8 +2,7 @@
 
 A comprehensive collection of biblical passages concerning Scripture itself, organized thematically with contextual notes and interpretive perspectives.
 
----
-
+===
 ## I. The Origin and Authority of Scripture
 
 ### Divine Inspiration
@@ -80,8 +79,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - Peter identifies "the word of the Lord" with "the good news that was preached"—some see this as the gospel message broadly, others as the specific apostolic preaching
 - The imperishable nature of God's word is connected to spiritual rebirth
 
----
-
+===
 ## II. The Sufficiency of Scripture
 
 ### Scripture as Complete and Adequate
@@ -164,8 +162,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - Does this establish two separate sources of authority (Scripture and Tradition), or does it acknowledge that apostolic teaching was initially oral before being written down in the New Testament?
 - What happened to the oral traditions Paul mentions? Were they all eventually inscripturated, or do some remain preserved only in church tradition?
 
----
-
+===
 ## III. The Power and Effectiveness of God's Word
 
 ### The Word as Living and Active
@@ -247,8 +244,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - The instrumentality is "through faith in Christ Jesus"—Scripture points to Christ
 - Some see this as teaching Scripture's clarity for salvation; others emphasize the need for faith and the Spirit's illumination
 
----
-
+===
 ## IV. The Clarity and Understandability of Scripture
 
 ### Scripture as a Lamp and Light
@@ -394,8 +390,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - This shapes Jewish practice: reading the same texts annually, finding new meanings each cycle
 - Contrasts with approaches that aim to "master" Scripture's content
 
----
-
+===
 ## V. The Preservation and Permanence of Scripture
 
 ### God's Commitment to His Word
@@ -433,8 +428,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 > The sum of your word is truth,
 > and every one of your righteous rules endures forever.
 
----
-
+===
 ## VI. The Nature and Character of Scripture
 
 ### Scripture as Truth
@@ -503,8 +497,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 
 *Context:* David's song of deliverance, celebrating God's salvation from enemies.
 
----
-
+===
 ## VII. Human Responsibility Toward Scripture
 
 ### Commands to Meditate and Observe
@@ -592,8 +585,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 **Deuteronomy 8:3** (ESV)
 > And he humbled you and let you hunger and fed you with manna, which you did not know, nor did your fathers know, that he might make you know that man does not live by bread alone, but man lives by every word that comes from the mouth of the LORD.
 
----
-
+===
 ## VIII. The Scope and Purpose of Scripture
 
 ### All Scripture Points to Christ
@@ -643,8 +635,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - "Written for our sake" shows Scripture has broader application than original literal sense
 - This passage is debated regarding hermeneutical method: Does Paul teach that the literal sense is secondary, or that it has additional application?
 
----
-
+===
 ## IX. Specific Terms and Descriptions for Scripture
 
 ### The Word (Logos/Dabar)
@@ -747,8 +738,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - Acknowledgment that some things are "hard to understand" in Scripture
 - The danger of twisting Scripture is emphasized—interpretation has consequences
 
----
-
+===
 ## X. The Relationship Between Old and New Testaments
 
 ### The Law and the Prophets Fulfilled
@@ -808,8 +798,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - The veil imagery (from Exodus 34) is applied to unbelieving Israel's inability to see Christ in the OT
 - Does this diminish the old covenant/OT, or exalt the new covenant's glory by comparison?
 
----
-
+===
 ## XI. Challenges and Difficulties
 
 ### Acknowledgment of Hard Passages
@@ -845,8 +834,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - Some emphasize Scripture's unity despite surface tensions; others note the importance of hearing each voice on its own terms
 - Does "nothing new under the sun" contradict "I am making all things new"? Or does the former describe life apart from God's redemptive work, while the latter announces His eschatological renewal?
 
----
-
+===
 ## XII. The Formation and Recognition of Scripture
 
 ### The Writing of Scripture
@@ -927,8 +915,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - Exchange of letters between churches suggests early circulation and collection of apostolic writings
 - Public reading in worship implies authoritative status
 
----
-
+===
 ## XIII. The Role of the Holy Spirit in Scripture
 
 ### The Spirit's Work in Inspiration
@@ -970,8 +957,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - "Guide you into all the truth" is variously understood as: completed in the apostolic era, ongoing in the church, or fulfilled in each believer's understanding
 - "Declare to you the things that are to come" could refer to predictive prophecy or to the unveiling of Christ's work
 
----
-
+===
 ## XIV. The Public Reading of Scripture
 
 ### Corporate Reading Commanded
@@ -1006,8 +992,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - The blessing extends to readers, hearers, and keepers—emphasizing obedience
 - This suggests Revelation was intended as a liturgical document
 
----
-
+===
 ## XV. Final Observations
 
 ### The Scope of What Was Written
@@ -1032,14 +1017,12 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 - "All that Jesus began to do and teach" suggests the Gospel is a beginning, with Acts continuing the account of Jesus' work through the apostles
 - The phrase "many proofs" and extended resurrection appearances show evidential foundation for the written record
 
----
-
+===
 ## Conclusion
 
 This collection represents the major biblical passages that speak to the nature, authority, purpose, and function of Scripture itself. The diversity of perspectives within Christian traditions on these texts demonstrates the importance of careful study and humble interpretation. The reader is invited to examine these passages in context, consider the various interpretive frameworks, and draw conclusions grounded in thorough engagement with the biblical witness.
 
----
-
+===
 **Note on Translation:** All quotations are from the English Standard Version (ESV) unless otherwise noted. Readers are encouraged to compare multiple translations and consult original languages where possible.
 
 **Study Suggestion:** Consider reading through one thematic section at a time, looking up each passage in your own Bible to see the fuller context before and after the quoted verses.

@@ -3,8 +3,7 @@
 
 A comprehensive collection of biblical passages concerning Scripture itself, organized thematically with summary perspectives.
 
----
-
+===
 ## I. The Origin and Authority of Scripture
 
 > But as for you, continue in what you have learned and have firmly believed, knowing from whom you learned it and how from childhood you have been acquainted with the sacred writings, which are able to make you wise for salvation through faith in Christ Jesus. All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work. (**2 Timothy 3:14-17**, ESV)
@@ -51,8 +50,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - **Christological focus:** In Matthew 24:35, "my words" refers specifically to Jesus' teachings; the broader application to all Scripture is inferential.
 - **Gospel message emphasis:** 1 Peter explicitly identifies "the word" with "the good news that was preached"—emphasizing the gospel content rather than the text itself.
 
----
-
+===
 ## II. The Sufficiency of Scripture
 
 > You shall not add to the word that I command you, nor take from it, that you may keep the commandments of the LORD your God that I command you. (**Deuteronomy 4:2**, ESV)
@@ -88,8 +86,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - **Broad doctrinal application:** This anathema applies to all theological error and establishes Scripture (the written gospel) as the final arbiter of truth.
 - **Gospel-specific application:** Paul's strong language protects the specific doctrine of justification by faith alone against the Judaizers. It establishes the gospel's inviolability but doesn't necessarily address all doctrinal questions or the role of tradition in other areas.
 
----
-
+===
 ## III. The Power and Effectiveness of God's Word
 
 > For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart. And no creature is hidden from his sight, but all are naked and exposed to the eyes of him to whom we must give an account. (**Hebrews 4:12-13**, ESV)
@@ -134,8 +131,7 @@ A comprehensive collection of biblical passages concerning Scripture itself, org
 - **Sufficiency questioned:** If much was not written, how can we be certain Scripture contains everything necessary? This raises questions about oral tradition and the church's role in preserving the full apostolic witness.
 - **Evangelistic focus:** The purpose is belief leading to salvation. This defines Scripture's primary function—not exhaustive biography but saving testimony.
 
----
-
+===
 ## IV. The Clarity and Understandability of Scripture
 
 > Your word is a lamp to my feet
@@ -207,8 +203,7 @@ All four levels are valid simultaneously. This differs radically from seeking "t
 **On "Everything Is In It" (Pirkei Avot 5:22):**
 Torah is inexhaustible—no matter how many times you read it, there's more to discover. Not a puzzle with one solution but an infinite wellspring. Jewish practice reads the same texts annually, finding new meanings each cycle. Contrasts with approaches that aim to "master" Scripture's content.
 
----
-
+===
 ## V. The Preservation and Permanence of Scripture
 
 > For truly, I say to you, until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished. (**Matthew 5:18**, ESV)
@@ -239,8 +234,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Ongoing validity of Torah:** The Law remains authoritative for believers, though understood through Christ. "Until heaven and earth pass away" indicates permanence beyond Christ's earthly ministry.
 - **Hyperbolic emphasis on authority:** Jesus uses dramatic language to affirm the Law's authority against those who would discard it. The specific question of what "until all is accomplished" means is secondary to the main point: Jesus upholds the Law.
 
----
-
+===
 ## VI. The Nature and Character of Scripture
 
 > Sanctify them in the truth; your word is truth. (**John 17:17**, ESV)
@@ -298,8 +292,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Specific to Mosaic Law:** These Psalms celebrate the Torah given to Israel; extending them to all Scripture requires theological warrant beyond the text itself.
 - **Progressive revelation:** What was true of the Law is even more true of the fuller revelation in Christ and the New Testament.
 
----
-
+===
 ## VII. Human Responsibility Toward Scripture
 
 > This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success. (**Joshua 1:8**, ESV)
@@ -350,8 +343,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Literal application:** Jesus uses Scripture to resist temptation, modeling dependence on God's written word in spiritual warfare.
 - **Broader revelation:** "Every word that comes from the mouth of God" includes but isn't limited to written Scripture—God's providential care, ongoing guidance, etc.
 
----
-
+===
 ## VIII. The Scope and Purpose of Scripture
 
 > Then he said to them, "These are my words that I spoke to you while I was still with you, that everything written about me in the Law of Moses and the Prophets and the Psalms must be fulfilled." Then he opened their minds to understand the Scriptures, and said to them, "Thus it is written, that the Christ should suffer and on the third day rise from the dead, and that repentance for the forgiveness of sins should be proclaimed in his name to all nations, beginning from Jerusalem." (**Luke 24:44-47**, ESV)
@@ -381,8 +373,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Original meaning primary:** While application extends to later readers, the original meaning grounds all legitimate application. Paul's use of Deuteronomy 25:4 builds on the literal sense (don't muzzle oxen) to draw out a principle.
 - **Hermeneutical method debate:** Does 1 Corinthians 9:9-10 ("Is it for oxen that God is concerned?") teach that the literal sense is secondary to spiritual application, or that the literal sense has broader implications?
 
----
-
+===
 ## IX. The Old and New Testaments
 
 > Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. For truly, I say to you, until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished. (**Matthew 5:17-18**, ESV)
@@ -424,8 +415,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Literal vs. spiritual interpretation:** "Letter" is wooden literalism; "Spirit" is spiritual understanding. This relates to hermeneutics—reading the OT christocentrically with spiritual eyes.
 - **Old covenant glory surpassed:** Paul doesn't denigrate the old covenant (it was glorious) but exalts the new covenant's greater glory. This is comparative, not absolute dismissal.
 
----
-
+===
 ## X. Challenges and Difficulties
 
 > There are some things in them that are hard to understand, which the ignorant and unstable twist to their own destruction, as they do the other Scriptures. (**2 Peter 3:16**, ESV)
@@ -451,8 +441,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Progressive revelation:** God revealed truth over time. Earlier revelation may seem incomplete or contradicted by later revelation, but this reflects the unfolding of God's plan, not error.
 - **Human limitations:** Some tensions may not resolve in our current understanding. This doesn't mean Scripture errs; it means our knowledge is partial (1 Cor 13:12).
 
----
-
+===
 ## XI. The Formation and Recognition of Scripture
 
 > And Moses wrote down all the words of the LORD... And the LORD said to Moses, "Write these words, for in accordance with these words I have made a covenant with you and with Israel." So he was there with the LORD forty days and forty nights. He neither ate bread nor drank water. And he wrote on the tablets the words of the covenant, the Ten Commandments. (**Exodus 24:4; 34:27-28**, ESV)
@@ -496,8 +485,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Church authority over canon:** The church determined the canon at councils (Carthage, etc.). Scripture's authority depends on ecclesiastical authority.
 - **Church recognizes, not creates:** The church recognized which books were inspired; it didn't create their authority. The canon closed when apostolic testimony ended.
 
----
-
+===
 ## XII. The Holy Spirit and Scripture
 
 > For no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit. (**2 Peter 1:21**, ESV)
@@ -531,8 +519,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Unveiling Christ's work:** "Things to come" refers to understanding the significance of Christ's death, resurrection, and ongoing work through the Spirit.
 - **Ongoing prophetic gifts:** Some traditions see this as supporting continued prophetic revelation through the Spirit in the church, subordinate to Scripture.
 
----
-
+===
 ## XIII. The Public Reading of Scripture
 
 > Until I come, devote yourself to the public reading of Scripture, to exhortation, to teaching. (**1 Timothy 4:13**, ESV)
@@ -556,8 +543,7 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Active response required:** Revelation 1:3 blesses not just readers and hearers, but "those who keep what is written." Hearing demands obedience.
 - **Communal context:** The blessing assumes corporate worship where one reads and many hear—emphasizing the church as the context for Scripture.
 
----
-
+===
 ## XIV. The Scope of What Was Written
 
 > Now Jesus did many other signs in the presence of the disciples, which are not written in this book; but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name. (**John 20:30-31**, ESV)
@@ -581,14 +567,12 @@ Torah is inexhaustible—no matter how many times you read it, there's more to d
 - **Continuation in Acts:** Luke's Gospel describes what Jesus "began" to do; Acts continues with what Jesus does through the apostles by the Spirit. This shows the NT as comprehensive apostolic testimony to Christ's ongoing work.
 - **Foundation for church:** The apostolic witness ("many proofs," extensive teaching) provides sufficient foundation for the church's faith and mission.
 
----
-
+===
 ## Conclusion
 
 This collection represents the major biblical passages that speak to the nature, authority, purpose, and function of Scripture itself. The diversity of perspectives within Christian traditions on these texts demonstrates the importance of careful study and humble interpretation. The reader is invited to examine these passages in context, consider the various interpretive frameworks, and draw conclusions grounded in thorough engagement with the biblical witness.
 
----
-
+===
 **Note on Translation:** All quotations are from the English Standard Version (ESV) unless otherwise noted. Readers are encouraged to compare multiple translations and consult original languages where possible.
 
 **Study Suggestion:** Read through one thematic section at a time, examining the passages first before considering the interpretive perspectives. Look up each passage in your own Bible to see the fuller context.

@@ -1061,6 +1061,10 @@ async function loadHandout(path) {
             } else if (line.startsWith('# ')) {
                 html += '<h1>' + line.substring(2) + '</h1>\n';
             }
+            // Page break (explicit)
+            else if (line.trim() === '===') {
+                html += '<hr class="page-break">\n';
+            }
             // Horizontal rules
             else if (line.trim() === '---') {
                 html += '<hr>\n';

@@ -3,8 +3,7 @@
 
 A topical guide to biblical passages about Scripture, with interpretive perspectives from various Christian traditions. Look up the referenced passages in your own Bible as you study each topic.
 
----
-
+===
 ## I. The Origin and Authority of Scripture
 
 **Key Passages:** 2 Timothy 3:14-17; 2 Peter 1:19-21; Isaiah 40:6-8; Psalm 119:89; Matthew 24:35; 1 Peter 1:23-25
@@ -27,8 +26,7 @@ A topical guide to biblical passages about Scripture, with interpretive perspect
 - **Christological focus:** In Matthew 24:35, "my words" refers specifically to Jesus' teachings; the broader application to all Scripture is inferential.
 - **Gospel message emphasis:** 1 Peter 1:25 explicitly identifies "the word" with "the good news that was preached"—emphasizing the gospel content rather than the text itself.
 
----
-
+===
 ## II. The Sufficiency of Scripture
 
 **Key Passages:** Deuteronomy 4:2; 12:32; Proverbs 30:5-6; Revelation 22:18-19; 1 Corinthians 4:6; Galatians 1:8-9; 2 Thessalonians 2:15
@@ -54,8 +52,7 @@ A topical guide to biblical passages about Scripture, with interpretive perspect
 - **Eventual inscripturation:** What was initially oral apostolic teaching was eventually written down in the New Testament. The "traditions" (*paradoseis*—what is handed down) Paul refers to are now contained in Scripture.
 - **Lost traditions?:** Did some authoritative apostolic teaching remain only oral and not get written? If so, where is it preserved—in church tradition or liturgy? Or was all necessary teaching inscripturated in the canonical writings?
 
----
-
+===
 ## III. The Power and Effectiveness of God's Word
 
 **Key Passages:** Hebrews 4:12-13; Isaiah 55:10-11; 1 Thessalonians 2:13; Romans 15:4; 1 Corinthians 10:11; John 20:30-31
@@ -83,8 +80,7 @@ A topical guide to biblical passages about Scripture, with interpretive perspect
 - **Sufficiency questioned:** If much was not written, how can we be certain Scripture contains everything necessary? This raises questions about oral tradition and the church's role in preserving the full apostolic witness.
 - **Evangelistic focus:** The purpose stated in John 20:30-31 is belief leading to salvation. This defines Scripture's primary function—not exhaustive biography but saving testimony.
 
----
-
+===
 ## IV. The Clarity and Understandability of Scripture
 
 **Key Passages:** Psalm 119:105, 130; Proverbs 6:23; 2 Peter 1:19; Acts 17:11; Nehemiah 8:8; Luke 24:27, 32, 45
@@ -142,8 +138,7 @@ Jewish expectation included finding deeper patterns and structures in Scripture:
 **On "Turn It and Turn It, For Everything Is In It" (Pirkei Avot 5:22):**
 Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything is in it." Torah is inexhaustible—no matter how many times you read it, there's more to discover. It's not a puzzle with one solution but an infinite wellspring. This shapes Jewish practice: reading the same texts annually (Torah cycle), finding new meanings each time. Contrasts with approaches that aim to "master" Scripture's content through systematic theology or comprehensive study. The Hebrew claim: The word of God is *living* and active (Hebrews 4:12)—present tense, not past. Scripture speaks now, not just then.
 
----
-
+===
 ## V. The Preservation and Permanence of Scripture
 
 **Key Passages:** Matthew 5:18; Psalm 12:6-7; 119:152, 160
@@ -162,8 +157,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Ongoing validity of Torah:** The Law remains authoritative for believers, though understood through Christ. "Until heaven and earth pass away" indicates permanence beyond Christ's earthly ministry.
 - **Hyperbolic emphasis on authority:** Jesus uses dramatic language to affirm the Law's authority against those who would discard it. The specific question of what "until all is accomplished" means is secondary to the main point: Jesus upholds the Law.
 
----
-
+===
 ## VI. The Nature and Character of Scripture
 
 **Key Passages:** John 17:17; Psalm 19:7-11; 119:142, 151; Proverbs 30:5; Psalm 12:6; 2 Samuel 22:31
@@ -186,8 +180,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Specific to Mosaic Law:** These Psalms celebrate the Torah given to Israel; extending them to all Scripture requires theological warrant beyond the text itself.
 - **Progressive revelation:** What was true of the Law is even more true of the fuller revelation in Christ and the New Testament.
 
----
-
+===
 ## VII. Human Responsibility Toward Scripture
 
 **Key Passages:** Joshua 1:8; Psalm 1:1-3; Deuteronomy 6:6-9; 11:18-21; James 1:22-25; Luke 11:28; Matthew 4:4; Deuteronomy 8:3
@@ -214,8 +207,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Literal application:** Jesus uses Scripture to resist temptation, modeling dependence on God's written word in spiritual warfare.
 - **Broader revelation:** "Every word that comes from the mouth of God" includes but isn't limited to written Scripture—God's providential care, ongoing guidance, etc.
 
----
-
+===
 ## VIII. The Scope and Purpose of Scripture
 
 **Key Passages:** Luke 24:44-47; John 5:39-40, 46-47; Romans 4:23-24; 1 Corinthians 9:9-10
@@ -239,8 +231,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Original meaning primary:** While application extends to later readers, the original meaning grounds all legitimate application. Paul's use builds on the literal sense (don't muzzle oxen) to draw out a principle.
 - **Hermeneutical method debate:** Does 1 Corinthians 9:9-10 ("Is it for oxen that God is concerned?") teach that the literal sense is secondary to spiritual application, or that the literal sense has broader implications?
 
----
-
+===
 ## IX. The Old and New Testaments
 
 **Key Passages:** Matthew 5:17-18; Luke 16:16-17; Romans 10:4; Jeremiah 31:31-34; 2 Corinthians 3:4-18
@@ -274,8 +265,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Literal vs. spiritual interpretation:** "Letter" is wooden literalism; "Spirit" is spiritual understanding. This relates to hermeneutics—reading the OT christocentrically with spiritual eyes.
 - **Old covenant glory surpassed:** Paul doesn't denigrate the old covenant (it was glorious) but exalts the new covenant's greater glory. This is comparative, not absolute dismissal.
 
----
-
+===
 ## X. Challenges and Difficulties
 
 **Key Passages:** 2 Peter 3:16; Ecclesiastes 1:2, 9; Revelation 21:5
@@ -293,8 +283,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Progressive revelation:** God revealed truth over time. Earlier revelation may seem incomplete or contradicted by later revelation, but this reflects the unfolding of God's plan, not error.
 - **Human limitations:** Some tensions may not resolve in our current understanding. This doesn't mean Scripture errs; it means our knowledge is partial (1 Cor 13:12).
 
----
-
+===
 ## XI. The Formation and Recognition of Scripture
 
 **Key Passages:** Exodus 24:4; 34:27-28; Jeremiah 30:2; 36:2; Habakkuk 2:2; Revelation 1:11, 19; 1 Corinthians 14:37; 2 Thessalonians 2:15; 3:14; 1 Thessalonians 5:27; Colossians 4:16
@@ -319,8 +308,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Church authority over canon:** The church determined the canon at councils (Carthage, etc.). Scripture's authority depends on ecclesiastical authority.
 - **Church recognizes, not creates:** The church recognized which books were inspired; it didn't create their authority. The canon closed when apostolic testimony ended.
 
----
-
+===
 ## XII. The Holy Spirit and Scripture
 
 **Key Passages:** 2 Peter 1:21; 1 Corinthians 2:10-16; John 14:26; 16:13
@@ -348,8 +336,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Unveiling Christ's work:** "Things to come" refers to understanding the significance of Christ's death, resurrection, and ongoing work through the Spirit.
 - **Ongoing prophetic gifts:** Some traditions see this as supporting continued prophetic revelation through the Spirit in the church, subordinate to Scripture.
 
----
-
+===
 ## XIII. The Public Reading of Scripture
 
 **Key Passages:** 1 Timothy 4:13; Nehemiah 8:1-3, 8; Revelation 1:3
@@ -369,8 +356,7 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Active response required:** Revelation 1:3 blesses not just readers and hearers, but "those who keep what is written." Hearing demands obedience.
 - **Communal context:** The blessing assumes corporate worship where one reads and many hear—emphasizing the church as the context for Scripture.
 
----
-
+===
 ## XIV. The Scope of What Was Written
 
 **Key Passages:** John 20:30-31; 21:25; Acts 1:1-3
@@ -390,14 +376,12 @@ Ben Bag Bag said about the Torah, "Turn it over and turn it over, for everything
 - **Continuation in Acts:** Luke's Gospel describes what Jesus "began" to do; Acts continues with what Jesus does through the apostles by the Spirit. This shows the NT as comprehensive apostolic testimony to Christ's ongoing work.
 - **Foundation for church:** The apostolic witness ("many proofs," extensive teaching in Acts 1:3) provides sufficient foundation for the church's faith and mission.
 
----
-
+===
 ## Conclusion
 
 This collection represents the major biblical passages that speak to the nature, authority, purpose, and function of Scripture itself. The diversity of perspectives within Christian traditions on these texts demonstrates the importance of careful study and humble interpretation. The reader is invited to examine these passages in their own Bible, consider the various interpretive frameworks, and draw conclusions grounded in thorough engagement with the biblical witness.
 
----
-
+===
 **Note on Translation:** Passage references assume the English Standard Version (ESV) unless otherwise noted. Readers are encouraged to compare multiple translations and consult original languages where possible.
 
 **Study Suggestion:** Read through one thematic section at a time. Look up each passage in your own Bible to see the fuller context before considering the interpretive perspectives.

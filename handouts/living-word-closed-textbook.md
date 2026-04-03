@@ -3,8 +3,7 @@
 
 Understanding Scripture across Christian and Jewish perspectives
 
----
-
+===
 ## The Struggle We All Face
 
 You open your Bible and read that God created the world in six days. You also know that geologists date the earth at 4.5 billion years old. How do you reconcile this?
@@ -33,8 +32,7 @@ This handout explores three major approaches to Scripture—**Evangelical Protes
 
 **The surprising truth:** We agree on far more than we disagree. Our differences are mostly about *emphasis* and *degree*, not fundamental principles.
 
----
-
+===
 ## What We ALL Agree On
 
 Before we explore differences, let's be clear about the vast common ground across evangelical, mainline, and Jewish approaches to Scripture:
@@ -98,8 +96,7 @@ Before we explore differences, let's be clear about the vast common ground acros
 
 **Biblical support:** Hebrews 4:12 - "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart."
 
----
-
+===
 ## Where We Differ (Spoiler: It's Mostly About *Degree*, Not Essence)
 
 With all that common ground, what do we actually disagree about?
@@ -113,8 +110,7 @@ With all that common ground, what do we actually disagree about?
 
 **Every perspective uses all four.** We just emphasize them differently.
 
----
-
+===
 ## Three Perspectives on Scripture
 
 ### 1. Evangelical Protestant Perspective
@@ -232,8 +228,7 @@ With all that common ground, what do we actually disagree about?
 - **2 Peter 1:20:** "No prophecy of Scripture comes from someone's own interpretation"—warning against *individual* interpretation (Community is *necessary*)
 - **Matthew 18:20:** "For where two or three are gathered in my name, there am I among them" (God meets us in *community*)
 
----
-
+===
 ## Scripture's Own Support for Interpretive Resources
 
 Here's the surprise: **The Bible itself tells us to use tradition, community, and historical context—not just the text alone.**
@@ -268,8 +263,7 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 **See also:** Nehemiah 8:8; Acts 13:16-41; Galatians 3:15-18; Psalm 137:9; Revelation (apocalyptic genre); Philemon (Roman slavery context)
 
----
-
+===
 ## How Each Perspective Guards Against "Anything Goes"
 
 **A common fear:** If we don't read literally, won't interpretation become subjective—making the Bible mean whatever we want?
@@ -311,8 +305,7 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 **The point:** None of these is "anything goes." Each has robust methods for testing interpretations.
 
----
-
+===
 ## Addressing Our Struggles
 
 ### "The Bible contradicts science"
@@ -355,8 +348,7 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 **Common ground:** All three resist relativism. We all believe in faithful vs. unfaithful interpretation. We just use different guardrails.
 
----
-
+===
 ## So Where Does This Leave Us?
 
 ### Humility
@@ -393,8 +385,7 @@ Here's the surprise: **The Bible itself tells us to use tradition, community, an
 
 **We can trust Scripture without having it all figured out.** Mystery isn't failure. God is infinite; our understanding is finite. That's okay.
 
----
-
+===
 ## A Word for Our Class
 
 If you're wrestling with these questions, here's what I want you to know:
@@ -413,8 +404,7 @@ If you're wrestling with these questions, here's what I want you to know:
 
 **We're in this together.** Evangelical, mainline, Jewish—we're all trying to hear God's voice faithfully. We can learn from each other. We need each other's gifts, perspectives, and wisdom.
 
----
-
+===
 ## Three Questions for Reflection
 
 **1. Which perspective do you lean toward naturally? What does that perspective help you see? What might it cause you to miss?**
@@ -423,8 +413,7 @@ If you're wrestling with these questions, here's what I want you to know:
 
 **3. How might understanding these three perspectives help you engage more graciously with Christians who read the Bible differently than you do?**
 
----
-
+===
 ## Conclusion: The Word of the Lord
 
 At the end of the day, across all our differences, one thing unites us:
@@ -454,6 +443,5 @@ We just recognize that taking Scripture seriously doesn't mean reading it the sa
 
 **And may God, who breathed out these Scriptures, guide us into all truth.**
 
----
-
+===
 *"The unfolding of your words gives light; it imparts understanding to the simple."* - Psalm 119:130

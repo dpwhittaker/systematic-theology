@@ -58,12 +58,7 @@ h1 {
     margin: 0 0 0.25in 0;
     padding: 0;
     border-bottom: 2px solid #000000;
-    page-break-before: always;
     page-break-after: avoid;
-}
-
-h1:first-child {
-    page-break-before: auto; /* Don't force break before first h1 */
 }
 
 h2 {
@@ -151,11 +146,18 @@ a {
     cursor: default;
 }
 
-/* Horizontal rules - visible dividers on screen, page breaks in print */
+/* Horizontal rules */
 hr {
     border: none;
     border-top: 1px solid #cccccc;
     margin: 0.15in 0;
+}
+
+/* Explicit page break marker (===) — double line on screen, page break in print */
+hr.page-break {
+    border: none;
+    border-top: 3px double #999999;
+    margin: 0.2in 0;
 }
 
 /* Print-specific */
@@ -170,13 +172,16 @@ hr {
         padding: 0.25in;
     }
 
-    h1 {
-        page-break-before: always;
-        page-break-after: avoid;
+    hr.page-break {
+        page-break-after: always;
+        border: none;
+        margin: 0;
+        padding: 0;
+        height: 0;
     }
 
-    h1:first-child {
-        page-break-before: auto;
+    h1 {
+        page-break-after: avoid;
     }
 
     h2, h3 {
@@ -192,14 +197,6 @@ hr {
     ul, ol {
         page-break-inside: avoid;
         page-break-before: avoid; /* Keep with preceding header */
-    }
-
-    hr {
-        border: none;
-        margin: 0;
-        padding: 0;
-        height: 0;
-        page-break-after: always;
     }
 
     a {

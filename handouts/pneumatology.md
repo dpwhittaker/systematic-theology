@@ -4,8 +4,7 @@ This handout is pastoral in focus — not "what is the Spirit's metaphysical nat
 
 A note on the disagreements: people you respect, who love the same Jesus and read the same Bible, land in very different places on some of these questions. That's not a reason to avoid them. It's a reason to handle them carefully.
 
----
-
+===
 ## What All Christians Agree On About the Spirit
 
 Before the disputes, the common ground is large.
@@ -48,8 +47,7 @@ This is Paul's clearest statement. The Spirit's presence is not a reward for adv
 
 Note: *fruit* is singular — one integrated character, not nine separate items. And it is *fruit*, not *work* — it grows; it cannot be manufactured.
 
----
-
+===
 ## I. The Spirit in the Old Testament
 
 Understanding the Spirit's OT role is essential because it sets the baseline against which the New Covenant promise becomes radical. Something genuinely new was coming — but "new" only makes sense against the background of what existed before.
@@ -100,8 +98,7 @@ Unpack the three things here: a new heart, a new spirit, and then — *my* Spiri
 
 "All people" — not kings and prophets and judges. Sons *and* daughters. Old *and* young. Even servants. Joel promises the complete democratization of the Spirit. In the OT, access to the Spirit was hierarchical and selective. The new covenant will level it entirely. Peter stands up at Pentecost and declares: "This is what was spoken by the prophet Joel" (Acts 2:16).
 
----
-
+===
 ## II. Jesus and the Spirit
 
 ### Conceived by the Spirit
@@ -161,8 +158,7 @@ Jesus does this after the resurrection, before Pentecost. It is genuinely debate
 
 Worth noting: John's Gospel has no ascension narrative. Luke, who does include the ascension, explicitly tells the disciples to wait in Jerusalem for the Spirit (Luke 24:49; Acts 1:4). John and Luke are telling the same story with different emphases, not contradicting each other. How this moment in John relates to Pentecost in Acts is a real exegetical question without a clean answer.
 
----
-
+===
 ## III. Pentecost and Acts — What Actually Happened?
 
 Acts is the primary battleground for debates about Spirit baptism, tongues, and the order of salvation. It is also a *narrative* book — Luke is describing what happened. We must be careful not to assume every detail is *prescriptive* (a pattern for all Christians everywhere) rather than *descriptive* (what happened in these specific, historically unique cases).
@@ -221,18 +217,15 @@ The sequences across Acts 2, 8, 10, and 19 look like this:
 
 Luke is not giving us a systematic theology of Spirit reception. He is narrating the Spirit's sovereign, unpredictable movement as the gospel crosses ethnic and geographic barriers. Every "problem case" is also a barrier-crossing: Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit's arrival in each case is the divine endorsement of that crossing. Forcing all four into one formula is harmonization, not exegesis.
 
----
-
+===
 *(Continued in Part 2)*
 
----
-
+===
 ## IV. The Spirit and the Believer — Paul's Letters
 
 Paul gives us the most systematic teaching on what the Spirit actually does in and for believers. While Acts shows us the Spirit moving in history, Paul shows us what that means for everyday Christian life. If you want to understand the Holy Spirit's role in your daily walk with God, Paul is where you go.
 
----
-
+===
 ### Romans 8:9-11 — The Spirit Lives in Every Believer
 
 > "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to Christ. But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness. If the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you." (**Romans 8:9-11, ESV**)
@@ -245,8 +238,7 @@ This matters enormously for the debate about whether receiving the Spirit is a "
 
 And here is the payoff: the same Spirit who raised Jesus from the dead — the most powerful act in all of history — lives in you. That resurrection power is not far away. It dwells in you right now.
 
----
-
+===
 ### Romans 8:14-17 — The Spirit of Adoption
 
 > "For all who are led by the Spirit of God are sons of God. For you did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, 'Abba! Father!' The Spirit himself bears witness with our spirit that we are children of God, and if children, then heirs — heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him." (**Romans 8:14-17, ESV**)
@@ -257,8 +249,7 @@ Then Paul drops in an Aramaic word: *Abba*. This is the word a child in a Jewish
 
 And then verse 16: "The Spirit himself bears witness with our spirit that we are children of God." This is inner assurance. It is not just intellectual belief — not just knowing the right theology. The Spirit produces a deep, inner confidence that you belong to God. If you have ever had that quiet, settled sense that God is real and that you are His — that is the Spirit bearing witness.
 
----
-
+===
 ### Romans 8:26-27 — The Spirit Prays When You Cannot
 
 > "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words. And he who searches hearts knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God." (**Romans 8:26-27, ESV**)
@@ -269,8 +260,7 @@ Paul says: that is okay. The Spirit Himself steps in and intercedes for you "wit
 
 Some in the Pentecostal and Charismatic traditions connect these "groanings" to speaking in tongues. That is an understandable connection to make, but it is worth noting that Paul does not make that connection here explicitly. He does not use the word "tongues" (*glossai*) in this passage. What he does say is something even broader and more pastorally powerful: you never have to have your prayer life "figured out." The Spirit covers what you cannot. You are never praying alone.
 
----
-
+===
 ### 2 Corinthians 1:21-22 — Anointed, Sealed, and Guaranteed
 
 > "And it is God who establishes us with you in Christ, and has anointed us, and who has also put his seal on us and given us his Spirit in our hearts as a guarantee." (**2 Corinthians 1:21-22, ESV**)
@@ -283,8 +273,7 @@ Paul stacks three images on top of each other here, and each one matters:
 
 **Guarantee.** The Greek word here is *arrabōn*, and it comes from the world of business. It means a down payment — the first installment that legally guarantees the full amount will follow. When you put a deposit on a house, you are legally committed to completing the purchase. Paul says the Holy Spirit in your heart right now is God's down payment on your full and final salvation. The Spirit is God's guarantee that what He started in you, He will absolutely finish.
 
----
-
+===
 ### Galatians 5:16-25 — Walking by the Spirit
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
@@ -301,8 +290,7 @@ And notice: it is *fruit*, not *work*. Fruit is not something you manufacture by
 
 Finally: "Against such things there is no law." This is almost humorous. No legislature anywhere has ever passed a law against love, joy, or peace. The Spirit-filled life fulfills everything the law ever demanded — but it does it from the inside out, through transformation, not through rule-keeping. The law told you what to do but could never give you the power to do it. The Spirit gives you the power.
 
----
-
+===
 ### Ephesians 1:13-14 — Sealed at the Moment of Belief
 
 > "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory." (**Ephesians 1:13-14, ESV**)
@@ -315,8 +303,7 @@ This matters for the question that comes up in many churches: "Do I need a rebap
 
 But that is not the whole picture. Keep reading.
 
----
-
+===
 ### Ephesians 4:30 — Do Not Grieve the Spirit
 
 > "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
@@ -336,8 +323,7 @@ So what grieves Him? Look at the surrounding verses (Ephesians 4:25-32) for Paul
 
 Notice the pattern: most of these are relational sins — ways we damage other people. The Spirit who builds community and unity is grieved when we tear it apart.
 
----
-
+===
 ### Ephesians 5:18 — Be Continually Filled
 
 > "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
@@ -356,8 +342,7 @@ Here is the crucial distinction: being *filled* is not the same event as being *
 
 So when someone asks, "Do I need a rebaptism in the Spirit?" — that is often the wrong question. The better question is: "Am I being continually filled? Am I yielding to the Spirit's control right now, today?"
 
----
-
+===
 ### 1 Thessalonians 5:19-22 — Do Not Quench the Spirit
 
 > "Do not quench the Spirit. Do not despise prophecies, but test everything; hold fast what is good. Abstain from every form of evil." (**1 Thessalonians 5:19-22, ESV**)
@@ -370,8 +355,7 @@ But Paul does not stop there. He immediately adds a balancing command: "but test
 
 This is the mature middle ground that both traditional and Charismatic believers need to hear. If your instinct is to shut down anything that feels unfamiliar or emotionally expressive — be careful that you are not quenching the Spirit. If your instinct is to accept every spiritual experience without discernment — be careful that you are not ignoring Paul's command to test everything.
 
----
-
+===
 ### Putting It Together: Sealed Once, Filled Continually
 
 Paul gives us two categories, and most of the confusion about the Spirit in the church today comes from mixing them up:
@@ -382,8 +366,7 @@ Paul gives us two categories, and most of the confusion about the Spirit in the 
 
 Most disputes about "Do I need a second experience with the Spirit?" can be resolved by holding these two categories clearly apart. You do not need to be re-sealed. But you absolutely need to be continually filled. The seal is about your *identity* — you belong to God. The filling is about your *experience* — you are walking under His influence. Both are real. Both matter. And Paul teaches both.
 
----
-
+===
 # Pneumatology: The Holy Spirit
 
 ## V. Does the Spirit Ever Leave a Believer?
@@ -414,8 +397,7 @@ David prays this after his sin with Bathsheba — the adultery and the murder of
 
 The honest conclusion from the Old Testament: Yes, under the old arrangement, the Spirit could and did depart from individuals.
 
----
-
+===
 ### The New Covenant: A Different Promise
 
 Now the New Testament data — and it paints a different picture.
@@ -456,8 +438,7 @@ Again, the Spirit as *arrabōn* — the down payment. God is the one who fashion
 
 Under the old covenant, the Spirit came and went. Under the new covenant, He comes and stays.
 
----
-
+===
 ### The Hard Passage: Hebrews 6:4-6
 
 This is the passage that troubles people most — and we need to deal with it honestly rather than explain it away.
@@ -484,8 +465,7 @@ The letter to the Hebrews was written to Jewish Christians who were tempted to a
 
 **What we can say clearly:** The text does not neatly resolve the Calvinist/Arminian debate. Honest readers on both sides acknowledge the difficulty. But what Hebrews 6 does clearly say is this: apostasy — the deliberate, public rejection of Christ — is catastrophic and not easily undone. This passage is not talking about a Christian who struggles with sin, feels distant from God, or goes through a dry season. It is talking about someone who walks away entirely and publicly.
 
----
-
+===
 ### The Distinction: Grieving vs. Losing
 
 Here is where it gets practical. There is a crucial difference between three things:
@@ -506,8 +486,7 @@ Confession and repentance restore the *experience* of fellowship. The Spirit's i
 
 The fact that you are even worried about whether the Spirit has left you is, in most cases, evidence that He has not. A heart completely hardened to God does not lose sleep over God's absence. The worry itself is the Spirit at work — convicting, drawing, calling you back.
 
----
-
+===
 # Pneumatology: The Holy Spirit
 
 ## VI. Water Baptism and Spirit Baptism — Are They the Same Thing?
@@ -622,16 +601,14 @@ If you do not have the Spirit, you are not in Christ. Every tradition affirms th
 
 People from different traditions may have had genuine, powerful encounters with the Holy Spirit that their church calls "Spirit baptism" or "the second blessing" or "confirmation" or simply "the moment everything became real." The exegetical dispute we have walked through is about how to categorize and understand these experiences theologically — it is not about whether they are real. The Spirit moves sovereignly, and He does not always follow our theological flowcharts. What matters most is not which label you put on your experience, but whether the Spirit of God is actively at work in your life right now — convicting, transforming, empowering, and pointing you to Jesus.
 
----
-
+===
 # Pneumatology — The Holy Spirit
 
 ## VII. Speaking in Tongues — What Does Scripture Actually Say?
 
 Few topics generate more heat in the church. Pentecostals say tongues are the initial evidence of Spirit baptism. Cessationists say the gift ended with the apostles. Most evangelicals are somewhere in between. The question deserves a careful look at what the text actually says — not what we want it to say.
 
----
-
+===
 ### Acts 2 — Tongues as Known Languages
 
 > "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them. Now there were staying in Jerusalem God-fearing Jews from every nation under heaven. When they heard this sound, a crowd came together in bewilderment, because each one heard their own language being spoken." (**Acts 2:4-6, NIV**)
@@ -647,8 +624,7 @@ A few things to notice here:
 
 **Why languages?** This connects back to the Tower of Babel in Genesis 11. At Babel, humanity shared one language and used it to rebel against God, so He divided their language into many as an act of judgment — they could no longer understand each other. At Pentecost, the Spirit reverses that curse. Many languages hear the gospel simultaneously. What sin divided, the Spirit reunites. The first act of the Spirit-filled church is communication across every barrier.
 
----
-
+===
 ### 1 Corinthians 12-14 — Paul's Full Treatment
 
 This is where the real complexity lives. Paul is writing to a church in Corinth that seems to have been overvaluing tongues — treating them as a badge of spiritual superiority. He has a lot to say, and we need to walk through it carefully.
@@ -725,8 +701,7 @@ Paul gives concrete rules: no more than two or three people speaking in tongues 
 
 This is Paul's bottom line. Two commands: be eager to prophesy, and do not forbid tongues. Plus one principle: order matters. Any church that forbids tongues is violating Paul's explicit instruction. Any church that allows tongues to create chaos is also violating Paul's explicit instruction. Both extremes miss the text.
 
----
-
+===
 ### The Question of Cessationism
 
 Did the gift of tongues (and other miraculous gifts) end when the apostles died? This is one of the most debated questions in the modern church. Here are the two main positions, presented honestly.
@@ -751,8 +726,7 @@ Continuationists also note that nowhere in Scripture does any text explicitly sa
 
 To be straightforward: the continuationist reading of 1 Corinthians 13:10 is stronger exegetically. The "face to face" and "fully known" language in verse 12 is very difficult to apply to the closing of the canon. Most contemporary evangelical scholars — including many who are not Charismatic or Pentecostal — hold that the gifts remain available today, even if they are not always exercised or always exercised well.
 
----
-
+===
 ### Summary: What Paul Actually Says About Tongues
 
 If we let Paul speak for himself, here is what he actually says:
@@ -777,8 +751,7 @@ If we let Paul speak for himself, here is what he actually says:
 
 The biblical position is neither "tongues prove you have the Spirit" nor "tongues ended 2,000 years ago." It is: tongues are a real gift of the Spirit, given to some but not all, regulated for the good of the body, and never to be forbidden.
 
----
-
+===
 # Pneumatology: The Gifts of the Spirit
 
 ## VIII. The Gifts of the Spirit — What Are They For?
@@ -787,8 +760,7 @@ The Greek word is *charismata* (χαρίσματα) — gifts of grace, from *ch
 
 Paul's teaching in 1 Corinthians 12–14 is the most sustained treatment of spiritual gifts in the New Testament, and it has a specific problem in view: the Corinthians were using the gifts competitively, as status symbols. Some were treating certain gifts — especially tongues — as proof that they were more spiritual than others. Paul's answer reframes everything.
 
----
-
+===
 ## 1 Corinthians 12 — One Body, Many Parts
 
 ### The Purpose of Gifts (v. 7)
@@ -842,8 +814,7 @@ Notice the order: apostles, prophets, teachers — then miraculous powers, heali
 
 And then come the rhetorical questions. Every single one expects the answer "No." Do all work miracles? No. Do all heal? No. Do all speak in tongues? No. Do all interpret? No. The body needs all the different parts. No single gift is universal — that is the whole point.
 
----
-
+===
 ## The "Greater Gifts" — 1 Corinthians 12:31
 
 > "Now eagerly desire the greater gifts. And yet I will show you the most excellent way." (**1 Corinthians 12:31, NIV**)
@@ -860,8 +831,7 @@ Greater does not mean more spectacular. Greater does not mean more dramatic. Gre
 
 This means teaching, prophecy, encouragement, and wisdom may be "greater" than tongues and healing — not because they are more impressive, but precisely because they consistently build the community up. The gift that helps everyone understand God better, that comforts someone who is grieving, that gives clear direction when the church is confused — that is a "greater" gift, because it serves the body.
 
----
-
+===
 ## 1 Corinthians 13 — The Hinge
 
 This is the most famous chapter in the New Testament, and it is almost always read out of context. People read it at weddings. They put it on greeting cards. But Paul did not write it as a stand-alone poem about love in general. He wrote it as the middle section of a three-chapter argument about spiritual gifts.
@@ -911,8 +881,7 @@ The very next sentence proves it:
 
 Love *and* gifts. Not love *instead of* gifts.
 
----
-
+===
 ## Romans 12 — A Parallel Gift List
 
 Paul lists a different set of gifts in his letter to the Romans:
@@ -925,8 +894,7 @@ This is important. It means the *charismata* are not limited to spectacular phen
 
 The same word — *charismata*, grace-gifts — covers the entire range. There is no biblical basis for dividing the gifts into "supernatural" ones and "natural" ones, as if the Spirit is more involved in tongues than in mercy.
 
----
-
+===
 ## Ephesians 4 — Gifts for Equipping
 
 > "So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ." (**Ephesians 4:11–13, NIV**)
@@ -937,8 +905,7 @@ This means every leader's job is to make everyone else more capable — not to d
 
 The goal is not a church with one impressive leader. The goal is "the body of Christ built up" — a mature community, unified in faith, growing together toward the fullness of Christ.
 
----
-
+===
 ## Synthesis: What Do We Do With the Gifts?
 
 Putting all of Paul's teaching together, here is what emerges:
@@ -957,16 +924,14 @@ Putting all of Paul's teaching together, here is what emerges:
 
 - **The goal is a mature, unified body.** Not a collection of impressive individuals. Not a talent show. Not a competition. A community where every member is equipped, every gift is exercised in love, and the whole body grows up together into Christ.
 
----
-
+===
 # Pneumatology: Practical Life in the Spirit
 
 ## IX. What Do We DO with the Holy Spirit? — Practical Life in the Spirit
 
 After all the theology, here is the question that matters most: what does a Spirit-filled life actually look like day to day? The New Testament is not vague about this. It gives us concrete, practical teaching — not a mystical program but a way of living. Let's walk through it.
 
----
-
+===
 ### 1. You Already Have the Spirit — Act Like It
 
 We start here because many Christians live as though the Spirit is absent or needs to be summoned. But Scripture is clear:
@@ -979,8 +944,7 @@ If you are in Christ, the Spirit is in you. Full stop. Paul drives this home eve
 
 The Spirit is not a guest you have to keep inviting back. He is a permanent resident. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there. The entire rest of this section is about closing that gap between what we believe and how we actually live.
 
----
-
+===
 ### 2. Be Continually Filled — Ephesians 5:18
 
 > "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
@@ -1005,8 +969,7 @@ Three things flow directly from being filled:
 
 Being filled with the Spirit and having a life of worship and gratitude are directly linked in Paul's thought. If you want to know whether you are being filled, check your worship life and your gratitude level.
 
----
-
+===
 ### 3. Walk in the Spirit — Galatians 5:16-18, 25
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
@@ -1024,8 +987,7 @@ This means the Spirit-filled life is not about heroic spiritual efforts. It is a
 
 The flesh resists; the Spirit leads. Choosing to follow the Spirit's lead moment by moment *is* walking in the Spirit. It is not complicated. It is just costly — because the flesh always wants to go the other direction.
 
----
-
+===
 ### 4. Cultivate the Fruit — Galatians 5:22-23
 
 > "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law." (**Galatians 5:22-23, ESV**)
@@ -1056,8 +1018,7 @@ But we can understand what this fruit looks like in practice:
 
 None of these are produced by trying harder. They grow in proportion to your connection to the Spirit — through Scripture, prayer, community, and obedience. If you feel like you are white-knuckling your way through the Christian life, that is a sign you are relying on willpower instead of the Spirit. Go back to step 2: be filled.
 
----
-
+===
 ### 5. Pray in the Spirit
 
 Three key texts teach us about prayer and the Spirit:
@@ -1082,8 +1043,7 @@ Praying in the Spirit is not just asking God for things. It strengthens your fai
 
 **A note on tongues:** Some Pentecostal and Charismatic Christians read "praying in the Spirit" as specifically praying in tongues. This may be included — Paul says in 1 Corinthians 14:14, "For if I pray in a tongue, my spirit prays but my mind is unfruitful" (ESV). But the phrase "praying in the Spirit" is not limited to tongues. It describes a broader reality: a Spirit-dependent posture in all prayer. Whether or not you practice tongues, you are called to pray in the Spirit.
 
----
-
+===
 ### 6. Listen to the Spirit's Guidance
 
 > "When the Spirit of truth comes, he will guide you into all the truth, for he will not speak on his own authority, but whatever he hears he will speak, and he will declare to you the things that are to come." (**John 16:13, ESV**)
@@ -1109,8 +1069,7 @@ Practically, the Spirit usually speaks through:
 
 If the "guidance" points people to the guide instead of to Jesus, be cautious.
 
----
-
+===
 ### 7. Do Not Grieve the Spirit — Ephesians 4:30-32
 
 > "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
@@ -1131,8 +1090,7 @@ The response to grieving the Spirit is not a spiritual ritual. It is not lightin
 
 > "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you." (**Ephesians 4:32, ESV**)
 
----
-
+===
 ### 8. Do Not Quench the Spirit — 1 Thessalonians 5:19-22
 
 > "Do not quench the Spirit. Do not despise prophecies, but test everything; hold fast what is good. Abstain from every form of evil." (**1 Thessalonians 5:19-22, ESV**)
@@ -1149,8 +1107,7 @@ But look at the balance Paul strikes in these four short verses. This is pastora
 
 A church that quenches the Spirit becomes dead formalism — going through the motions, everything predictable, nothing alive. A church that never tests becomes chaotic and dangerous — every claim goes unchallenged, manipulation runs unchecked. The Spirit calls us to both openness and discernment. You need both. Always.
 
----
-
+===
 ### 9. The Spirit-Filled Community — 1 Corinthians 14:26
 
 > "What then, brothers? When you come together, each one has a hymn, a lesson, a revelation, a tongue, or an interpretation. Let all things be done for building up." (**1 Corinthians 14:26, ESV**)
@@ -1165,16 +1122,14 @@ What does a Spirit-filled church look like in practice?
 - **The fruit of the Spirit visible in how people treat each other.** A church can have spectacular gifts and terrible fruit. Paul warned the Corinthians about exactly this. The real evidence of the Spirit's presence is not the volume of the gifts but the quality of the love.
 - **The gifts of the Spirit active in serving the community and reaching the world.** Gifts are not for display. They are for service — building up the body and drawing the world to Jesus.
 
----
-
+===
 ### Summary: The Spirit-Filled Life in One Paragraph
 
 You already have the Spirit if you belong to Christ. Keep being filled by yielding to Him in worship and gratitude. Walk in step with Him by responding to His lead moment by moment. Watch His fruit grow in you as you stay connected through Scripture, prayer, and community. Pray with His help, especially when you don't have the words. Listen to His guidance through the Word, through conviction, and through other believers. Don't grieve Him with relational sin — repent quickly and forgive freely. Don't quench Him out of fear — stay open, but test everything. And do all of this in community, where every member brings what the Spirit has given them, and everything is done to build each other up.
 
 The Spirit-filled life is not a spiritual elite program for super-Christians. It is the normal Christian life. It is what you were saved into. Walk in it.
 
----
-
+===
 ## X. Holding the Disputes with Charity
 
 The debates over tongues, Spirit baptism, and the gifts have divided sincere, Bible-loving Christians for over a century. Before you choose a camp, consider a few things:
@@ -1191,22 +1146,19 @@ The debates over tongues, Spirit baptism, and the gifts have divided sincere, Bi
 
 A church that argues about tongues more than it practices love has missed Paul's point in 1 Corinthians 13 entirely.
 
----
-
+===
 ## XI. For Further Study
 
 The books below are organized by topic. Some are accessible — meaning you can pick them up with no Bible college background and follow along. Some are more technical, written for students and pastors who want to go deeper. Both Pentecostal/Charismatic and traditional perspectives are represented intentionally; read across the divide.
 
----
-
+===
 ### The Spirit in the OT and New Covenant Promise
 
 **Michael Green**, *I Believe in the Holy Spirit* — A warm, readable survey of what Scripture says about the Spirit from Genesis to Revelation; a good starting point for anyone new to the topic.
 
 **Thomas Schreiner**, *New Testament Theology* — A comprehensive traditional treatment of New Testament themes including the Spirit's role in fulfilling the new covenant promises; more technical but rewarding.
 
----
-
+===
 ### Pentecost and Acts
 
 **James D.G. Dunn**, *Baptism in the Holy Spirit* — The foundational academic study of Spirit baptism in Luke-Acts and Paul; argues that Spirit reception happens at conversion, not as a second experience. Technical but historically important.
@@ -1215,8 +1167,7 @@ The books below are organized by topic. Some are accessible — meaning you can 
 
 **Gordon Fee** and **Douglas Stuart**, *How to Read the Bible for All Its Worth* — Not exclusively about the Spirit, but its chapter on how to interpret Acts is essential for navigating the descriptive-vs-prescriptive debate responsibly.
 
----
-
+===
 ### The Gifts and Tongues
 
 **D.A. Carson**, *Showing the Spirit* — A careful, verse-by-verse study of 1 Corinthians 12–14 by a leading evangelical scholar. Carson is open to the gifts continuing while being honest about the abuses; widely respected by both sides.
@@ -1229,16 +1180,14 @@ The books below are organized by topic. Some are accessible — meaning you can 
 
 **Sam Storms**, *The Beginner's Guide to Spiritual Gifts* — Exactly what the title says: an accessible, readable introduction to the gifts written from a continuationist perspective. Good for someone just starting to think through these questions.
 
----
-
+===
 ### Life in the Spirit (Practical and Devotional)
 
 **Francis Chan**, *Forgotten God* — An honest, accessible challenge to the way many Western Christians have practically ignored the Holy Spirit; devotional and convicting. High school level, very readable.
 
 **J.I. Packer**, *Keep in Step with the Spirit* — A thoughtful, pastoral guide to understanding and living by the Spirit from a traditional Reformed perspective; warm rather than polemical.
 
----
-
+===
 ### Pentecostal and Charismatic Perspectives
 
 **Gordon Fee**, *Paul, the Spirit, and the People of God* — The accessible, popular version of Fee's major scholarly work; makes the argument that Paul's vision of the Spirit-filled community has been domesticated by much of Western Christianity.
@@ -1247,8 +1196,7 @@ The books below are organized by topic. Some are accessible — meaning you can 
 
 **Craig Keener**, *Spirit Hermeneutics* — (Listed above under Pentecost and Acts; also relevant here.) Keener argues that Charismatic experience helps readers hear the New Testament more accurately rather than filtering it through a post-Enlightenment lens.
 
----
-
+===
 ### Traditional and Reformed Perspectives
 
 **John Stott**, *Baptism and Fullness* — A short, accessible classic by one of the twentieth century's most respected evangelical teachers; argues from Scripture that Spirit baptism occurs at conversion and that the gifts are available but must be properly ordered.

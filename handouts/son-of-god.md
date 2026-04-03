@@ -2,8 +2,7 @@
 
 A study of Jesus's identity, examining how different traditions understand what it means when Scripture calls Jesus "the Son of God" — and how that differs from all believers being called "sons of God."
 
----
-
+===
 ## Guardrails: The Outer Limits of Christian Belief About Jesus
 
 Before exploring the *internal* debates among Christians about Jesus's identity, it helps to mark the outer boundaries — positions that place a person *outside* Christian faith altogether. These are not lines drawn over minor disputes. The five voices contributing to this handout — a Trinitarian, a Jewish theologian, a Spirit Christologist, Arius, and Sabellius — disagree sharply on the inner questions. But they agree on these outer walls.
@@ -38,8 +37,7 @@ This is essential to the logic of atonement. "He was tempted in every way, just 
 
 *Outside this line:* Any framework that attributes moral failure to Jesus. He could grow in wisdom (Luke 2:52), but He never crossed into sin.
 
----
-
+===
 ## I. "Son of God" in the Hebrew Scriptures
 
 Before the debates of the fourth century, "son of God" already had a clear, consistent meaning in the world of the Hebrew Bible. Understanding this baseline is essential — because every later debate is an argument about whether the New Testament expanded this meaning or whether later theology distorted it.
@@ -70,8 +68,7 @@ The pattern is consistent: the "son of God" is someone in a unique relationship 
 
 The question the New Testament forces is: **Did Jesus fit this existing category, or did He break it open into something entirely new?**
 
----
-
+===
 ## II. The Shema and the Question Behind the Question
 
 Every position in this debate must reckon with the Shema — the most important verse in Jewish theology, and the verse Jesus Himself quoted as the greatest commandment:
@@ -100,8 +97,7 @@ The deeper question is not *whether* Jesus is significant — everyone in this c
 
 Each position claims to be the most faithful reading of Scripture. Each has strong texts. Each has genuine tensions.
 
----
-
+===
 ## III. Five Views on the Son of God
 
 ### View 1: The Trinitarian View — Eternally Begotten, Co-Equal, Co-Eternal
@@ -163,8 +159,7 @@ Athanasius identified what he saw as the fatal flaw in every alternative: *if th
 
 **Tension:** If the Son is co-equal, why does Jesus say "the Father is greater than I" (John 14:28)? Why doesn't the Son know the day or hour (Mark 13:32)? Why does the risen Jesus call the Father "My God" (John 20:17)? And the word "Trinity" never appears in Scripture — the doctrine requires Greek philosophical categories (*ousia*, *hypostasis*) that the Hebrew prophets never used.
 
----
-
+===
 ### View 2: The Sabellian View — One God, Three Modes
 
 ```mermaid
@@ -190,8 +185,7 @@ The Sabellian notes that the "First and the Last" title belongs to YHWH in Isaia
 
 **Tension:** If the Father and Son are the same person, who is Jesus praying to in Gethsemane? "My God, My God, why have You forsaken Me?" — did God forsake Himself? At Jesus's baptism, the voice from heaven, the Spirit descending, and Jesus in the water appear simultaneously. And if the Father suffered on the cross (*Patripassianism*), who raised Jesus from the dead?
 
----
-
+===
 ### View 3: The Arian View — The First and Greatest Creation
 
 ```mermaid
@@ -222,8 +216,7 @@ Arius presses: if the Son shares the Father's substance, how can He not know the
 
 **Tension:** John 1:1 ("the Word was God") is genuinely difficult. Thomas calls the risen Jesus "My Lord and my God" (John 20:28) — with the full definite article in Greek (*ho theos mou*). And if the Son is a creature, however exalted, is worshipping Him idolatry? Arius answers: the Father Himself commanded it (Hebrews 1:6, John 5:23). But the philosophical tension remains — can a divine command make creature-worship acceptable?
 
----
-
+===
 ### View 4: Spirit Christology — Anointed by the Spirit Without Measure
 
 ```mermaid
@@ -255,8 +248,7 @@ The Spirit Christologist holds this trajectory honestly. The high-Christology te
 
 **Tension:** John 1:1 ("the Word was God"), Philippians 2:6 ("being in very nature God"), and Colossians 1:15-17 ("all things were created through Him") press hard toward pre-existence and divine ontology. These are not easily absorbed into a purely functional Christology. The Spirit Christologist acknowledges this honestly: the New Testament itself may develop from "low" to "high" Christology, and the later texts are still authoritative Scripture.
 
----
-
+===
 ### View 5: The Jewish Reading — God's Ultimate Agent, Not God Himself
 
 ```mermaid
@@ -290,8 +282,7 @@ These positions are not modern inventions. Within first-century Judaism itself, 
 
 The five views in this handout map roughly onto positions that were already in play before the Council of Nicaea formalized anything. The argument is as old as the church itself — and older.
 
----
-
+===
 ## IV. The Passages Everyone Has to Wrestle With
 
 Every position in this debate must deal with texts that pull in the opposite direction. Here is how each view reads the hardest passages — their opponents' strongest evidence and their own. Notice the pattern: the same word of Scripture, read by people who love it, yielding five different conclusions.
@@ -533,8 +524,7 @@ And the tabernacle was *mobile*. Unlike the temple, which was fixed in Jerusalem
 
 - *Jewish:* The Shekinah tradition is deeply rooted in rabbinic theology. God's presence dwelling among Israel — in the tabernacle, in the temple, and (after the destruction of the temple) wherever Israel studies Torah or gathers in prayer — is a central Jewish concept. The Targums frequently speak of the *Shekinah* or the *Memra* (Word) of God dwelling with Israel. To claim that God's Shekinah dwelt in a single human being is a profound departure: Jewish theology emphasizes that the Shekinah rests on the *community* of Israel, not on one individual. The temple was destroyed in 70 CE, and rabbinic tradition relocated God's presence into Torah study, into prayer, into the gathering of ten (the *minyan*) — not into a person. The Christian application of tabernacle language to Jesus is innovative theology, not a straightforward reading of the Hebrew Bible.
 
----
-
+===
 ## V. Why It Matters
 
 This is not an abstract puzzle about metaphysics. How we answer "What does it mean to be the Son of God?" shapes:
@@ -549,8 +539,7 @@ This is not an abstract puzzle about metaphysics. How we answer "What does it me
 
 **The Greek-Hebrew Tension:** This entire debate is a case study in the tension between the Greek and Hebrew approaches to knowing God. The Greek approach asks: *What is Jesus's essence? What is His substance? What is His ontological relationship to the Father?* The Hebrew approach asks: *What has God done through Jesus? What has God declared Him to be? How does His story fit into Israel's story?* The councils of the fourth century answered Greek questions using Greek tools. Whether those tools illuminated or distorted the Hebrew testimony is the question underneath all the other questions.
 
----
-
+===
 ## VI. A Personal Synthesis — Shekinah Christology
 
 *This section represents David Whittaker's personal theological synthesis. It is not a historical position held by any established theological tradition, though it draws on several. It could be entirely wrong. It is included here because intellectual honesty requires distinguishing between "what the traditions actually teach" and "what I think after studying them." The five views above represent real historical positions. This one is mine.*
@@ -615,8 +604,7 @@ Shekinah Christology attempts to thread the needle these giants could not: to st
 
 It is too high for theological liberals (it affirms the full deity of Christ), too pneumatological for traditional evangelicals (it arrives at deity through the Spirit rather than through eternal generation), and too distinct from Oneness theology (it preserves the Father-Son relationship rather than collapsing it). The position occupies a space between established camps, which is either a sign that it has found something everyone else missed or a sign that it is wrong in a way no one has bothered to refute. Intellectual honesty requires holding both possibilities open.
 
----
-
+===
 ## VII. What We Should All Agree On
 
 These practical commitments flow from faith in Jesus regardless of which Christological view someone holds.
@@ -649,8 +637,7 @@ The mystery they were confessing — that in this specific, historical, Jewish m
 
 > Great indeed, we confess, is the mystery of godliness: He was manifested in the flesh. (**1 Timothy 3:16**, ESV)
 
----
-
+===
 ## VIII. For Further Study
 
 **The Classical Trinitarian Case:** Athanasius, *On the Incarnation*; Michael Reeves, *Delighting in the Trinity*; Richard Bauckham, *Jesus and the God of Israel*

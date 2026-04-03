@@ -2,8 +2,7 @@
 
 The following passages are most frequently cited in the contemporary Christian debate on same-sex relationships. For each text, arguments from both traditional and affirming interpretive positions are listed. No conclusions are drawn.
 
----
-
+===
 # Genesis 1–2 (Creation Narratives)
 
 > So God created man in his own image, in the image of God he created him; male and female he created them. (**Genesis 1:27**, ESV)
@@ -25,8 +24,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - Many other aspects of the creation narrative are not treated as permanent norms (e.g., single garden location, no clothing)
 - The male-female pairing in 1:27–28 is explicitly tied to the command to "be fruitful and multiply and fill the earth"; that command has been fulfilled by humanity collectively and is no longer the governing rationale for sexual ethics
 
----
-
+===
 # Genesis 19 (Sodom and Gomorrah)
 
 > And they called to Lot, "Where are the men who came to you tonight? Bring them out to us, that we may know them." (**Genesis 19:5**, ESV)
@@ -46,8 +44,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - Genesis 19:1 identifies the visitors as *malachim* (angels), not men, and Lot bowed down (*vayishtachu*) before them—the crowd may have recognized them as supernatural beings
 - This mirrors Genesis 6:1–4, where "sons of God" (angels) came to human women and the resulting corruption brought the Flood; Sodom's attempted violation of angels echoes that same human-divine boundary transgression, explaining God's targeted destruction of this specific city
 
----
-
+===
 # Jude 6–7
 
 > ...just as Sodom and Gomorrah and the surrounding cities, which likewise indulged in sexual immorality and pursued unnatural desire [*hetera sarx*], serve as an example by undergoing a punishment of eternal fire. (**Jude 7**, ESV)
@@ -62,8 +59,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - If the condemnation is about species-crossing (human-angel), it does not speak to consensual same-sex human relationships
 - The precise referent of *hetera sarx* is debated among scholars; certainty in either direction is overstated
 
----
-
+===
 # Leviticus 18:22 and 20:13
 
 > You shall not lie with a male as with a woman; it is an abomination. (**Leviticus 18:22**, ESV)
@@ -83,8 +79,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - The prohibition may specifically target cultic same-sex acts associated with Canaanite or Egyptian religious practices in view
 - Paul's letters, not Leviticus, form the New Testament framework for Gentile sexual ethics
 
----
-
+===
 # Romans 1:18–32
 
 > For this reason God gave them up to dishonorable passions. For their women exchanged natural relations for those that are contrary to nature; and the men likewise gave up natural relations with women and were consumed with passion for one another, men committing shameless acts with men and receiving in themselves the due penalty for their error. (**Romans 1:26–27**, ESV)
@@ -103,8 +98,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - Paul constructs the entire passage to indict self-righteous moral judgment, not to address same-sex relationships as a standalone ethical category
 - *Para physin* ("against nature") may reflect Paul's Stoic cultural assumptions; the same phrase appears for men wearing long hair (1 Cor 11:14), which is not treated as a universal moral prohibition
 
----
-
+===
 # 1 Corinthians 6:9 — *Malakoi* and *Arsenokoitai*
 
 > Or do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor *malakoi*, nor *arsenokoitai*... (**1 Corinthians 6:9**, ESV)
@@ -123,8 +117,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - No first-century secular text clearly uses either term to describe mutual, consensual same-sex relationships
 - Modern translation choices ("homosexuals," "men who have sex with men") import 20th–21st century categories into ancient terminology
 
----
-
+===
 # 1 Timothy 1:8–10
 
 > ...the law is not laid down for the just but for the lawless and disobedient, for the ungodly and sinners... the sexually immoral, *arsenokoitai*, enslavers, liars, perjurers... (**1 Timothy 1:9–10**, ESV)
@@ -139,8 +132,7 @@ The following passages are most frequently cited in the contemporary Christian d
 - Proximity to "enslavers" suggests the word may primarily target commercial sexual exploitation (slave prostitution, pederasty) rather than consensual same-sex relations
 - No independent first-century definition of *arsenokoitai* conclusively covers consensual adult same-sex activity
 
----
-
+===
 # Science and Natural Observation
 
 Same-sex behavior has been documented in over 1,500 animal species. Several hypotheses attempt to explain its persistence across nature.
@@ -160,8 +152,7 @@ Same-sex behavior has been documented in over 1,500 animal species. Several hypo
 - **Traditional:** The presence of a behavior in nature does not establish a moral norm—aggression, infanticide, and dominance hierarchies also appear throughout the animal kingdom; the fall affects all creation; "natural" and "good" are not synonymous in a broken world; the image of God distinguishes human sexuality from animal behavior
 - **Affirming:** If same-sex orientation is innate and potentially adaptive, it undermines the framing of homosexuality as disorder, choice, or rebellion; the population-density evidence suggests it may serve the flourishing of the broader community, consistent with a creational rather than fallen origin; "fearfully and wonderfully made" (Ps 139:14) may apply
 
----
-
+===
 # Final Remarks: Whole Witness vs. Trajectory
 
 Beyond individual texts, both positions rest on broader hermeneutical frameworks.
@@ -180,6 +171,5 @@ Beyond individual texts, both positions rest on broader hermeneutical frameworks
 - The Spirit that guided the church beyond explicit texts before can do so again; hermeneutics requires asking not only "what did this mean then?" but "where is the Spirit taking the community now?"
 - The greatest commandments (love God, love neighbor) and the fruit of the Spirit provide an ethical center that cannot be reduced to a list of proof-texts
 
----
-
+===
 **Note on Translation:** All quotations are from the English Standard Version (ESV) unless otherwise noted. Key Greek terms are transliterated and discussed above. Readers are encouraged to compare multiple translations and consult original languages where possible.
