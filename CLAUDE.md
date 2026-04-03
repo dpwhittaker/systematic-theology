@@ -263,6 +263,16 @@ Page breaks are explicit only — use `===` in markdown where you want a print p
 
 **Workflow:** During content development, `===` placement is a rough guess. A deliberate page-break pass happens after content is finalized — using print preview (or the headless Chrome + pymupdf page analysis tools) to verify layout and place `===` markers intentionally for the physical page-turning flow of a class.
 
+**Pre-production page-break process:**
+
+When a section overruns its page budget, attempt the following measures in order before introducing a new page break:
+
+1. **Reword short-ending paragraphs.** If a commentary paragraph's last line contains 5 words or fewer, reword that paragraph so it fits in one fewer line. This reclaims space without changing meaning.
+2. **Remove low-value details.** Cut details that provide little support to the overall theme of the handout. Prefer trimming elaborations, qualifications, or illustrative asides over core claims.
+3. **Ellipsize biblical quotes (last resort).** Shorten Scripture quotations by ellipsizing less-relevant portions of the text (e.g. `"...the Spirit helps us in our weakness... the Spirit himself intercedes for us." (Rom 8:26)`). Never ellipsize in a way that changes the meaning of the passage.
+
+If none of these measures achieve the layout goals, explain the specific problem sections to the user and ask for advice before making further changes.
+
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS
