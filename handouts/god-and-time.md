@@ -162,15 +162,13 @@ Paul does not say God foresaw who *would* believe and chose accordingly. He says
 
 > Surely, as I have planned, so it will be, and as I have purposed, so it will happen... For the LORD Almighty has purposed, and who can thwart him? His hand is stretched out, and who can turn it back? (**Isaiah 14:24, 27**, NIV)
 
-> I know that you can do all things; no purpose of yours can be thwarted. (**Job 42:2**, NIV)
-
 > Many are the plans in a person's heart, but it is the LORD's purpose that prevails. (**Proverbs 19:21**, NIV)
 
 The consistent testimony is not that God responds skillfully to unfolding events, but that His purposes *cannot fail*. Not "probably won't" — cannot.
 
 ### The Takeaway
 
-These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled*. The question is not whether God knows the future, but how — and what that means for human freedom and divine relationship.
+These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled* — the question is not whether God knows the future, but how, and what that means for human freedom and divine relationship.
 
 ---
 ## V. Three Views on God and Time
@@ -339,22 +337,10 @@ That "who knows?" may be the most honest theology in the Bible. Not certainty ab
 ---
 ## IX. For Further Study
 
-**The Classical Case:**
-- Augustine, *Confessions* Book XI (time as a creation of God)
-- Boethius, *Consolation of Philosophy* Book V (the definition of eternity)
-- Aquinas, *Summa Theologiae* I, Q. 10 (the eternity of God)
+**The Classical Case:** Augustine, *Confessions* Book XI (time as a creation of God); Boethius, *Consolation of Philosophy* Book V (the definition of eternity); Aquinas, *Summa Theologiae* I, Q. 10 (the eternity of God)
 
-**The Arminian Case:**
-- Arminius, *Declaration of Sentiments* (the four decrees)
-- Roger Olson, *Arminian Theology: Myths and Realities*
-- Jack Cottrell, *What the Bible Says About God the Ruler*
+**The Arminian Case:** Arminius, *Declaration of Sentiments* (the four decrees); Roger Olson, *Arminian Theology: Myths and Realities*; Jack Cottrell, *What the Bible Says About God the Ruler*
 
-**The Open Theism Case:**
-- Gregory Boyd, *God of the Possible*
-- Clark Pinnock, *Most Moved Mover*
-- John Sanders, *The God Who Risks*
+**The Open Theism Case:** Gregory Boyd, *God of the Possible*; Clark Pinnock, *Most Moved Mover*; John Sanders, *The God Who Risks*
 
-**Second Temple Judaism:**
-- Josephus, *Antiquities* XIII.5.9 and XVIII.1.3 (the three sects on fate)
-- The Dead Sea Scrolls, Community Rule (1QS) 3:13-4:26
-- E.P. Sanders, *Judaism: Practice and Belief, 63 BCE - 66 CE*
+**Second Temple Judaism:** Josephus, *Antiquities* XIII.5.9 and XVIII.1.3 (the three sects on fate); The Dead Sea Scrolls, Community Rule (1QS) 3:13-4:26; E.P. Sanders, *Judaism: Practice and Belief, 63 BCE - 66 CE*

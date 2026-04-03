@@ -275,6 +275,13 @@ When a section overruns its page budget, attempt the following measures in order
 
 If none of these measures achieve the layout goals, explain the specific problem sections to the user and ask for advice before making further changes.
 
+**Further Study / reference section format:**
+Use inline semicolon-separated references with a bold category header, not bullet lists. This maximizes density while keeping references readable:
+```
+**The Classical Case:** Augustine, *Confessions* Book XI (time as a creation of God); Boethius, *Consolation of Philosophy* Book V; Aquinas, *Summa Theologiae* I, Q. 10
+```
+Each category is one paragraph line. Apply this format to all reference/further-study sections in handouts.
+
 **Double-sided printing:** Handouts are always printed double-sided, so aim for an even total page count. An odd page count wastes a blank back page. There is little practical difference between, say, 7 and 8 pages — so when a handout lands on an odd count, prefer adding a page (relaxing a break or expanding a section) over cutting one, unless cutting is clearly the better editorial choice.
 
 ## Key Files
