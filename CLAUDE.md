@@ -255,10 +255,12 @@ Page breaks are explicit only — use `===` in markdown where you want a print p
 
 **Page break rules (applied during a dedicated page-break pass after content is complete):**
 
+Note: `h1` is the document title only. Content sections begin at `h2`.
+
 1. No major section should span more than one page.
-   - Normal handouts: no `h1` section spans more than one page
-   - Detailed handouts: no `h2` section spans more than one page
-2. Break before an `h1` (or `h2` in detailed handouts), unless the next section fits on the current page without a break.
+   - Normal handouts: no `h2` section spans more than one page
+   - Detailed handouts: no `h3` section spans more than one page
+2. Break before an `h2` (or `h3` in detailed handouts), unless the next section fits on the current page without a break.
 3. Maximize content per page. Minimize top-level sections that span multiple pages.
 
 **Workflow:** During content development, `===` placement is a rough guess. A deliberate page-break pass happens after content is finalized — using print preview (or the headless Chrome + pymupdf page analysis tools) to verify layout and place `===` markers intentionally for the physical page-turning flow of a class.
