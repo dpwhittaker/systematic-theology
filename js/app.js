@@ -1145,7 +1145,7 @@ async function loadHandout(path) {
 
 async function init() {
     try {
-        const hash = window.location.hash.replace('#', '') || 'intro/intro';
+        const hash = window.location.hash.replace('#', '') || 'handouts/index.md';
 
         // Check if this is a handout request
         if (hash.startsWith('handouts/') || hash.startsWith('../handouts/')) {
