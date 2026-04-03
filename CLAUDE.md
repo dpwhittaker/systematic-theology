@@ -284,6 +284,10 @@ Each category is one paragraph line. Apply this format to all reference/further-
 
 **Double-sided printing:** Handouts are always printed double-sided, so aim for an even total page count. An odd page count wastes a blank back page. There is little practical difference between, say, 7 and 8 pages — so when a handout lands on an odd count, prefer adding a page (relaxing a break or expanding a section) over cutting one, unless cutting is clearly the better editorial choice.
 
+**Optimal length evaluation:** Once an even page count is reached, ask: *"Can I express the same content in N−2 pages without losing anything important to the theme?"* If yes, continue cutting toward the shorter count using the same ordered measures above. Repeat until the answer is no — that is the optimal length. Only when the page count is optimal should `===` placement be finalized.
+
+**Minimizing page-turns within sections:** After the optimal page count is confirmed, place `===` markers to minimize page-turns that occur mid-section. A reader should ideally be able to follow a top-level section without turning a page. When a section must span two pages, place the break at the most natural pause in the argument (between subsections, after a conclusion, before a new example), not mid-thought.
+
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS
