@@ -22,6 +22,7 @@ These handouts are designed for group study, personal reference, and printed use
 ## The Holy Spirit
 
 - [The Holy Spirit: Who He Is and What He Does](#handouts/pneumatology.md) — A pastoral study of what the Spirit actually does, with honest exegesis of the passages that divide Christians most
+- [Baptism in the Spirit: Do We Need a Second Baptism?](#handouts/baptism-in-the-spirit.md) — Sealed once, filled continually — a Tabernacle framework for the Spirit baptism debate
 
 ## Ethics
 

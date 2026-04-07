@@ -216,3 +216,5 @@ Alright, it's time to start working on a Pneumatology handout. As always, let's 
 [NOTE: use Opus for scriptural exegesis]
 
 Let's continue working on the Pneumatology handout. First, start the local server in the background.
+
+Link it from the main Handouts page that loads when you access the web root as well.
