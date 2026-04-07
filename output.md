@@ -1317,3 +1317,17 @@ Cut 144 lines (1208→1064) by removing multi-agent merge artifacts:
 - Romans 8:26-27: Section IV (theological comfort) + Section IX (practical prayer guidance)
 
 **Further Study reformatted** to inline semicolon-separated format per CLAUDE.md rules, removing duplicate cross-listed entries.
+
+## Review Christology handout — shift from Trinity language to biblical language
+
+Changes to handouts/son-of-god.md:
+
+1. **Christophany intro**: "The Trinitarian tradition has long identified" → "Some interpreters have long identified"
+2. **"Harmonization with Trinitarian Doctrine" section renamed**: → "Hebrew Categories, Not Greek" — removed Trinity comparison, added the summary statement: "Jesus is fully Man, full of God's Spirit"
+3. **Sinlessness Mechanism**: Added "Second Adam / Freedom" paragraph — God giving humanity a second chance at freedom, first Adam chose bondage, Second Adam chose to remain free, became the perfect vessel for the Shekinah glory
+4. **Honest Acknowledgment**: "eternal generation" → "Greek philosophical categories"
+5. **"How We Read Scripture"**: Removed view-label framing (Trinitarian reads through John 1, etc.), replaced with text-centered framing (each view starts from a different center)
+6. **Charity section**: Removed "The Trinitarian is not a polytheist" / "The Spirit Christologist is not a liberal skeptic" → "No one in this conversation is..."
+7. **Further Study**: "The Classical Trinitarian Case" → "The Classical Case for Christ's Deity"
+
+The five VIEW LABELS (View 1: Trinitarian, etc.) and their attributed bullet points remain unchanged — they describe what each historical tradition teaches.
