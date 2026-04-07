@@ -218,3 +218,11 @@ Alright, it's time to start working on a Pneumatology handout. As always, let's 
 Let's continue working on the Pneumatology handout. First, start the local server in the background.
 
 Link it from the main Handouts page that loads when you access the web root as well.
+
+Evaluate the handout from 5 perspectives: NT Wright (A lot of my theology is inspired by him, so if he disagrees with any point, I want to look at it closely), a Baptist and Pentecostal Theologian (I am stretching their boundaries, but does anything in the handout represent a hard "no" to these perspectives), and a Baptist and Pentecostal lay person (is anything in the handout incomprehensible to a member of either church with no formal education in theology?).
+
+Before we make any changes, please go into further depth on the NT Wright concerns. How does he handle Acts 8, 10, and 19 if Baptism in the Spirit refers specifically to Pentecost? How does he bring in the mission/kingdom/new creation narrative to Spirit Baptism? And what would he say is missing from the corporate dimension. Also, you mentioned he emphasizes the creation/spirit groaning in in Romans 8 - what are his main points there?
+
+## Prompt 7
+
+Ok, these changes are worth making, but Romans 8 is too technical for the class. Let's mention it in the context that Romans 8:26 may not be about a private prayer language at all. In the context of verses 22 and 23, the groanings are global and creation-oriented, not private and prayer-oriented. This should be included in an expanded section on "What about tongues?" that imports more of the content from the Pneumatology handout.

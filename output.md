@@ -1353,3 +1353,28 @@ Structure:
 Tone leans Pentecostal (Spirit is active and powerful) while grounding in scripture and using non-standard biblical language (Tabernacle, Shekinah, Second Adam). Uses "Spirit of God tabernacles in us" framing throughout.
 
 Linked from data/spirit/spirit.md alongside the full Pneumatology handout.
+
+## Output 7 — Wright-inspired revisions to baptism-in-the-spirit.md
+
+Made four categories of changes based on the NT Wright analysis:
+
+**1. Acts section — mission/kingdom framing (line 111):**
+Added: "and God's commission for the next stage of His kingdom mission. The Spirit does not come so individuals can have a spiritual experience. He comes so the gospel can go further."
+
+**2. View 1 — corporate body dimension (line 122):**
+Added to 1 Cor 12:13 discussion: "The Spirit does not just save individuals. He constitutes a community. You cannot receive the Spirit and remain isolated; the same act that seals you also knits you into the body."
+
+**3. View 3 — outward mission orientation (line 152):**
+New bullet: "The filling is not primarily for your benefit — the Spirit fills you for mission, to be a kingdom agent in the world."
+
+**4. Expanded "What About Tongues?" section (lines 172-236):**
+Replaced the brief 22-line section with a comprehensive 65-line treatment importing content from the Pneumatology handout:
+- Acts 2 tongues as known languages with Babel reversal
+- 1 Cor 12-14 Paul's regulation (affirms, ranks prophecy higher, requires interpretation, not everyone gets it)
+- "Are All Tongues the Same?" — situational vs. two-dimensions readings
+- Romans 8:26 reframe — groanings are cosmic (creation v.22, believers v.23, Spirit v.26), not private prayer language. Paul uses *stenagmois* not *glossai*. Birth pains of new creation, not a devotional technique.
+- Cessationism question — continuationist reading of 1 Cor 13:10-12 is stronger
+- Paul's bottom line — do not forbid, keep order, fruit is the evidence
+
+**5. Further Study — added Wright:**
+N.T. Wright, *Paul and the Faithfulness of God* chs. 7-8; Wright, *After You Believe*

@@ -108,7 +108,7 @@ Acts is where the debate gets complicated — because the Spirit does not follow
 
 If Acts is supposed to give us one correct sequence, it is remarkably inconsistent about it. The Spirit falls before baptism, after baptism, with the apostles, without the apostles, with tongues, without tongues. Luke is not giving us a formula. He is narrating the Spirit's *sovereign, unpredictable movement* as the gospel crosses ethnic and geographic barriers.
 
-Every "problem case" is also a barrier-crossing: Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit's arrival in each case is God's endorsement of that crossing. Forcing all four into a single template is harmonization, not exegesis.
+Every "problem case" is also a barrier-crossing: Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit's arrival in each case is God's endorsement of that crossing — and God's commission for the next stage of His kingdom mission. The Spirit does not come so individuals can have a spiritual experience. He comes so the gospel can go further. Forcing all four into a single template is harmonization, not exegesis.
 
 ===
 ## The Three Protestant Positions
@@ -119,7 +119,7 @@ Spirit baptism IS conversion. When you believed in Christ, the Holy Spirit bapti
 
 > "For in one Spirit we were all baptized into one body — Jews or Greeks, slaves or free — and all were made to drink of one Spirit." (**1 Corinthians 12:13, ESV**)
 
-"We were ALL baptized" — this is universal. Paul includes every Corinthian Christian — even the spiritually immature ones he has spent eleven chapters correcting. Spirit baptism is not a second event for the spiritually advanced. It is the Spirit's act of incorporating you into Christ at the moment of conversion.
+"We were ALL baptized" — this is universal. Paul includes every Corinthian Christian — even the spiritually immature ones he has spent eleven chapters correcting. Spirit baptism is not a second event for the spiritually advanced. It is the Spirit's act of incorporating you into Christ at the moment of conversion. And notice Paul's emphasis: the Spirit baptizes us *into one body* — Jews and Greeks, slaves and free. The Spirit does not just save individuals. He constitutes a community. You cannot receive the Spirit and remain isolated; the same act that seals you also knits you into the body.
 
 The unusual cases in Acts are exceptional transitional events during a unique historical period (the gospel crossing from Jews to Samaritans to Gentiles), not the normal pattern for all time.
 
@@ -149,6 +149,7 @@ This means:
 - You do not need a "second baptism" — you need to be continually filled
 - You do not need to speak in tongues to prove you have the Spirit — fruit proves that (Galatians 5:22-23)
 - You DO need to actively yield to the Spirit's control every day — this is not passive
+- The filling is not primarily for your benefit — the Spirit fills you for *mission*, to be a kingdom agent in the world. The same Spirit who sent the disciples "to the ends of the earth" (Acts 1:8) fills you for outward purpose, not just inward comfort
 - Powerful encounters with the Spirit — the kind Pentecostals call "Spirit baptism" — are real and should not be dismissed. They may be moments of fresh filling, breakthrough surrender, or the Spirit breaking through walls of resistance you did not know you had built
 
 **The question is not "Did I get everything at conversion?" The question is "Am I raising the sails today?"**
@@ -171,25 +172,68 @@ Keep being filled. Keep raising the sails. The wind never stops blowing.
 ===
 ## What About Tongues?
 
-This question comes up in every conversation about Spirit baptism, so let's address it briefly. (The full treatment is in the Pneumatology handout.)
+This question comes up in every conversation about Spirit baptism, so it deserves more than a passing mention. (The full verse-by-verse treatment is in the Pneumatology handout.)
 
-**What Paul actually says:**
+### Acts 2 — Tongues as Known Languages
 
-> "Do all speak in tongues?" (**1 Corinthians 12:30, NIV**)
+At Pentecost, the disciples "began to speak in other tongues as the Spirit enabled them" (Acts 2:4). The Greek phrase is *heterais glōssais* — "other languages." And the crowd confirms it: "each one heard their own language being spoken" (Acts 2:6) — *tē idia dialektō*, their own dialect. Luke lists roughly fifteen ethnic groups who recognized their native languages. Whatever else can be said about tongues in the NT, the Pentecost tongues are identifiable human languages spoken by people who had never learned them.
 
-The expected answer in Greek is "No." Not all speak in tongues. This is not ambiguous. If the Spirit gives different gifts to different people, and not everyone receives tongues, then tongues cannot be the universal sign that proves you have the Spirit.
+**Why languages?** This connects back to Babel (Genesis 11). At Babel, God divided human language as judgment for rebellion. At Pentecost, the Spirit reverses that curse — many languages hear the gospel simultaneously. What sin divided, the Spirit reunites. The first act of the Spirit-filled church is communication across every barrier.
 
-**What Paul also says:**
+### 1 Corinthians 12–14 — Paul's Regulation
 
-> "Do not forbid speaking in tongues. But everything should be done in a fitting and orderly way." (**1 Corinthians 14:39-40, NIV**)
+Paul writes to a church that was overvaluing tongues as a badge of spiritual superiority. His response is careful and balanced:
 
-Do not forbid it. Do not let it become chaos. Both extremes miss the text.
+**Paul affirms tongues.** "I thank God that I speak in tongues more than all of you" (1 Cor 14:18). He personally practices the gift. He wishes all of them spoke in tongues (14:5). This is not a man who is anti-tongues.
+
+**But he ranks prophecy higher for the assembly.** "In the church I would rather speak five intelligible words to instruct others than ten thousand words in a tongue" (1 Cor 14:19). His criterion is simple: does it build up the body? Tongues without interpretation build up the speaker. Prophecy builds up the whole church.
+
+**Tongues in the assembly require interpretation.** No more than two or three speakers, one at a time, and someone must interpret. If no interpreter is present, the speaker should "keep quiet in the church and speak to himself and to God" (1 Cor 14:28). That last phrase is striking — it suggests a private, devotional dimension to tongues that Paul considers legitimate even when public use is not appropriate.
+
+**Not everyone gets this gift.** "Do all speak in tongues?" (1 Cor 12:30). The Greek expects the answer "No." If the Spirit gives different gifts to different people, and not everyone receives tongues, then tongues cannot be the universal sign that proves you have the Spirit.
+
+===
+### A Harder Question: Are All Tongues the Same?
+
+At Pentecost, people understood. In Corinth, "no one understands them; they utter mysteries by the Spirit" (1 Cor 14:2). What do we do with this?
+
+Two honest readings:
+
+1. **The situational reading:** Paul is describing what happens when someone speaks in a language no one present happens to know. At Pentecost, the right audiences were present; in Corinth, they were not. The difference is context, not the nature of the gift.
+
+2. **The two-dimensions reading:** There is a congregational gift of tongues (real languages, always requiring interpretation) and a private prayer language directed to God that may be different in character. Some read "speak to himself and to God" (14:28) and "uttering mysteries by the Spirit" (14:2) as describing this private dimension.
+
+The text does not fully resolve this. Godly scholars who love Scripture disagree. What we can say: Paul treats uninterpreted tongues as unhelpful for the congregation, regardless of what is happening spiritually.
+
+### What About Romans 8:26?
+
+Some connect the "groanings too deep for words" (Romans 8:26) to a private prayer language. But read the verse in its context:
+
+> "We know that the whole creation has been groaning as in the pains of childbirth right up to the present time. Not only so, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for our adoption to sonship, the redemption of our bodies." (**Romans 8:22-23, NIV**)
+
+> "In the same way, the Spirit helps us in our weakness. We do not know what we ought to pray, but the Spirit himself intercedes for us through wordless groans." (**Romans 8:26, NIV**)
+
+Paul uses the word "groanings" (*stenagmois*), not "tongues" (*glossai*). And the context is not private prayer — it is cosmic. Creation groans (v. 22). Believers groan (v. 23). The Spirit groans (v. 26). Three groanings, all connected — the birth pains of new creation, not a devotional technique. The Spirit's intercession here is about God's redemptive work in the whole world channeled through the prayers of His people — even when those people have no idea what to say. It is a deeply comforting passage. But it is not a tongues passage.
+
+### The Cessationism Question
+
+Did tongues end with the apostles? Cessationists point to 1 Corinthians 13:10 — "when completeness comes, what is in part disappears" — and identify "completeness" (*teleion*) with the completed canon of Scripture. But Paul's next sentence makes this difficult:
+
+> "For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known." (**1 Corinthians 13:12, NIV**)
+
+No one claims we now see God "face to face" because we have the complete Bible. This is eschatological language — it points to the return of Christ. The gifts continue until He returns, even if they are not always exercised well. Nowhere in Scripture does any text explicitly say the gifts would cease before Jesus comes back. The cessationist case depends on an inference the text itself does not state.
+
+### Paul's Bottom Line on Tongues
+
+> "Therefore, my brothers and sisters, be eager to prophesy, and do not forbid speaking in tongues. But everything should be done in a fitting and orderly way." (**1 Corinthians 14:39-40, NIV**)
+
+Two commands: be eager to prophesy, do not forbid tongues. One principle: order matters. Any church that forbids tongues is overriding an apostolic command. Any church that allows tongues to create chaos is also overriding apostolic instruction.
 
 **The evidence of the Spirit's presence is not a specific gift. It is fruit:**
 
 > "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control." (**Galatians 5:22-23, ESV**)
 
-If someone speaks in tongues but does not love — they are a clanging cymbal (1 Corinthians 13:1). If someone has never spoken in tongues but their life is marked by love, joy, peace, and patience — the Spirit is clearly at work.
+If someone speaks in tongues but does not love — they are a clanging cymbal (1 Cor 13:1). If someone has never spoken in tongues but their life is marked by love, joy, peace, and patience — the Spirit is clearly at work. The biblical position is neither "tongues prove you have the Spirit" nor "tongues ended 2,000 years ago." It is: tongues are a real gift, given to some but not all, regulated for the good of the body, and never to be forbidden.
 
 ===
 ## For Those of Us with Traditional Backgrounds
@@ -242,5 +286,7 @@ Stop building walls. Start raising sails.
 **Pentecostal Perspective:** Gordon Fee, *Paul, the Spirit, and the People of God* (argues Western Christianity has domesticated the Spirit); Frank Macchia, *Baptized in the Spirit* (serious Pentecostal theology beyond the second-blessing model)
 
 **Accessible Starting Point:** Francis Chan, *Forgotten God* (honest, convicting challenge to practical neglect of the Spirit — high school level, very readable)
+
+**Mission and New Creation:** N.T. Wright, *Paul and the Faithfulness of God* chs. 7–8 (the Spirit as agent of new creation and kingdom mission); Wright, *After You Believe* (the Spirit forming character for vocation, not just personal piety)
 
 **Exegetical Deep Dive:** D.A. Carson, *Showing the Spirit* (careful verse-by-verse 1 Corinthians 12-14, respected by both sides); James D.G. Dunn, *Baptism in the Holy Spirit* (the foundational academic study)
