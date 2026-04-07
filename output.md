@@ -1291,3 +1291,29 @@ Structure:
 - Section XI: Further study
 
 Committed and pushed to claude/pneumatology-handout-IhEnD.
+
+## Editorial pass on pneumatology.md — redundancy removal
+
+Cut 144 lines (1208→1064) by removing multi-agent merge artifacts:
+
+**Removed:**
+- 6 duplicate section headers ("Pneumatology: The Holy Spirit" repeated by each agent)
+- "*(Continued in Part 2)*" merge artifact
+- Romans 8:9 reduced from 5 full quotes to 1 full + 4 inline references
+- John 14:16-17 duplicate full quote in Section V (kept in Section II)
+- Ephesians 1:13-14 / arrabōn explanation reduced from 3 full treatments to 1 full + cross-references
+- Acts 2:38 *eis* debate removed from Section VI (already covered in Section III)
+- Acts "problem cases" re-summary trimmed from Section VI (detailed treatment in Section III)
+- Craig Keener, J.I. Packer, Thomas Schreiner, D.A. Carson duplicate entries removed from Further Study
+
+**Merged practical content into Section IV (from Section IX):**
+- Ephesians 5:18: sails metaphor + worship/gratitude application (Eph 5:19-20) added to Section IV
+- Ephesians 4:30: repentance/reconciliation response (Eph 4:32) added to Section IV
+- 1 Thessalonians 5:19-22: five-step pastoral breakdown + formalism/chaos spectrum added to Section IV
+- Corresponding Section IX items (2, 7, 8) removed; remaining items renumbered 1-6
+
+**Kept as complementary (not redundant):**
+- Galatians 5:22-23: Section IV (theological: singular fruit, not manufactured) + Section IX (practical: what each fruit looks like)
+- Romans 8:26-27: Section IV (theological comfort) + Section IX (practical prayer guidance)
+
+**Further Study reformatted** to inline semicolon-separated format per CLAUDE.md rules, removing duplicate cross-listed entries.

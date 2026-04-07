@@ -218,9 +218,6 @@ The sequences across Acts 2, 8, 10, and 19 look like this:
 Luke is not giving us a systematic theology of Spirit reception. He is narrating the Spirit's sovereign, unpredictable movement as the gospel crosses ethnic and geographic barriers. Every "problem case" is also a barrier-crossing: Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit's arrival in each case is the divine endorsement of that crossing. Forcing all four into one formula is harmonization, not exegesis.
 
 ===
-*(Continued in Part 2)*
-
-===
 ## IV. The Spirit and the Believer — Paul's Letters
 
 Paul gives us the most systematic teaching on what the Spirit actually does in and for believers. While Acts shows us the Spirit moving in history, Paul shows us what that means for everyday Christian life. If you want to understand the Holy Spirit's role in your daily walk with God, Paul is where you go.
@@ -230,7 +227,7 @@ Paul gives us the most systematic teaching on what the Spirit actually does in a
 
 > "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to Christ. But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness. If the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you." (**Romans 8:9-11, ESV**)
 
-Notice something remarkable: in just three verses, Paul uses three different names for the same Spirit. He says "Spirit of God" (v.9), "Spirit of Christ" (v.9), and "Spirit of him who raised Jesus from the dead" (v.11). These are not three different spirits. Paul is showing us that the Holy Spirit is fully connected to the Father, the Son, and the resurrection — He is the Spirit of the entire Triune God.
+Notice something remarkable: in just three verses, Paul uses three different names for the same Spirit. He says "Spirit of God" (v.9), "Spirit of Christ" (v.9), and "Spirit of him who raised Jesus from the dead" (v.11). These are not three different spirits. Paul is showing us that the Holy Spirit is fully connected to the Father, the Son, and the resurrection — He is the Spirit of the one God who raised Jesus.
 
 Now look at the sharp statement in the middle: "Anyone who does not have the Spirit of Christ does not belong to Christ." This is not a maybe. Paul draws a straight line — if you belong to Christ, you have the Spirit. If you do not have the Spirit, you do not belong to Christ. There is no middle category of "Christian but without the Spirit."
 
@@ -323,6 +320,10 @@ So what grieves Him? Look at the surrounding verses (Ephesians 4:25-32) for Paul
 
 Notice the pattern: most of these are relational sins — ways we damage other people. The Spirit who builds community and unity is grieved when we tear it apart.
 
+The response to grieving the Spirit is not a spiritual ritual. It is repentance, reconciliation, and forgiveness:
+
+> "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you." (**Ephesians 4:32, ESV**)
+
 ===
 ### Ephesians 5:18 — Be Continually Filled
 
@@ -340,7 +341,15 @@ Now look at Paul's contrast: "Do not get drunk with wine... but be filled with t
 
 Here is the crucial distinction: being *filled* is not the same event as being *sealed*. The sealing (Ephesians 1:13) happened once, at conversion, and it is permanent. You cannot be re-sealed. But the filling is ongoing, repeated, and commanded. You can be filled today and need fresh filling tomorrow. The filling is not about your *status* before God (that was settled at the sealing). The filling is about your daily, moment-by-moment surrender to the Spirit's control.
 
+Think of it like sails on a boat: the wind is already blowing. Your job is to raise the sails.
+
 So when someone asks, "Do I need a rebaptism in the Spirit?" — that is often the wrong question. The better question is: "Am I being continually filled? Am I yielding to the Spirit's control right now, today?"
+
+**What does being filled look like?** The very next verses tell us:
+
+> "...addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with your heart, giving thanks always and for everything to God the Father in the name of our Lord Jesus Christ." (**Ephesians 5:19-20, ESV**)
+
+Three things flow from being filled: worship together in community, private worship directed toward God from the heart, and gratitude as a way of life. If you want to know whether you are being filled, check your worship life and your gratitude level.
 
 ===
 ### 1 Thessalonians 5:19-22 — Do Not Quench the Spirit
@@ -353,7 +362,15 @@ Notice what comes immediately after: "Do not despise prophecies." The quenching 
 
 But Paul does not stop there. He immediately adds a balancing command: "but test everything; hold fast what is good." This is the biblical balance. Do not quench — do not shut things down out of fear or a desire for control. But also do not accept everything uncritically. Test it. Evaluate it. Hold on to what is genuinely from God. Let go of what is not.
 
-This is the mature middle ground that both traditional and Charismatic believers need to hear. If your instinct is to shut down anything that feels unfamiliar or emotionally expressive — be careful that you are not quenching the Spirit. If your instinct is to accept every spiritual experience without discernment — be careful that you are not ignoring Paul's command to test everything.
+This is the mature middle ground that both traditional and Charismatic believers need to hear:
+
+- **Don't suppress the Spirit** (v. 19) — be open to what He is doing
+- **Don't despise prophecies** (v. 20) — don't dismiss things just because they are unfamiliar
+- **Test everything** (v. 21a) — don't accept everything uncritically just because someone claims "the Spirit told me"
+- **Hold fast what is good** (v. 21b) — keep what passes the test
+- **Abstain from every form of evil** (v. 22) — reject what does not
+
+A church that quenches the Spirit becomes dead formalism — going through the motions, everything predictable, nothing alive. A church that never tests becomes chaotic and dangerous — every claim goes unchallenged, manipulation runs unchecked. The Spirit calls us to both openness and discernment. Always.
 
 ===
 ### Putting It Together: Sealed Once, Filled Continually
@@ -367,8 +384,6 @@ Paul gives us two categories, and most of the confusion about the Spirit in the 
 Most disputes about "Do I need a second experience with the Spirit?" can be resolved by holding these two categories clearly apart. You do not need to be re-sealed. But you absolutely need to be continually filled. The seal is about your *identity* — you belong to God. The filling is about your *experience* — you are walking under His influence. Both are real. Both matter. And Paul teaches both.
 
 ===
-# Pneumatology: The Holy Spirit
-
 ## V. Does the Spirit Ever Leave a Believer?
 
 This question matters pastorally. People who sin seriously, or feel spiritually dry, or go through dark seasons often ask: "Has God left me? Has the Spirit departed?" The answer requires looking at both Testaments carefully — because the Old Testament and New Testament actually describe different arrangements.
@@ -404,33 +419,19 @@ Now the New Testament data — and it paints a different picture.
 
 **Jesus promises a permanent Helper:**
 
-> "And I will ask the Father, and he will give you another advocate to help you and be with you forever — the Spirit of truth. The world cannot accept him, because it neither sees him nor knows him. But you know him, for he lives with you and will be in you." (**John 14:16-17, NIV**)
-
-Not temporarily. Not conditionally. Not "as long as you behave." *Forever.* Jesus is explicitly announcing a new arrangement — something different from the Old Testament pattern.
+Jesus told His disciples the Spirit would be with them *forever* (John 14:16-17, discussed in Section II). Not temporarily. Not conditionally. Not "as long as you behave." Jesus is explicitly announcing a new arrangement — something different from the Old Testament pattern.
 
 **The Spirit defines belonging to Christ:**
 
-> "You, however, are not in the realm of the flesh but are in the realm of the Spirit, if indeed the Spirit of God lives in you. And if anyone does not have the Spirit of Christ, they do not belong to Christ." (**Romans 8:9, NIV**)
-
-Paul makes the Spirit's presence the very definition of being in Christ. Having the Spirit is not a bonus feature of the Christian life — it *is* the Christian life. If the Spirit could simply depart, Paul's statement becomes hollow.
+Paul draws a straight line: "Anyone who does not have the Spirit of Christ does not belong to Christ" (Romans 8:9). The Spirit's presence is the very definition of being in Christ. If the Spirit could simply depart, Paul's statement becomes hollow.
 
 **Sealed with the Spirit as a guarantee:**
 
-> "And you also were included in Christ when you heard the message of truth, the gospel of your salvation. When you believed, you were marked in him with a seal, the promised Holy Spirit, who is a deposit guaranteeing our inheritance until the redemption of those who are God's possession — to the praise of his glory." (**Ephesians 1:13-14, NIV**)
-
-The word "deposit" here translates the Greek word *arrabōn* (ar-ah-BONE), which means a down payment — the first installment of a purchase that legally obligates the buyer to complete the transaction. When you put a deposit down on a car, that money says, "The rest is coming." God has put His Spirit in you as His down payment, guaranteeing that He will finish what He started. A guarantee that can be revoked is not a guarantee.
+As we saw in Section IV, the Spirit is God's *arrabōn* — His down payment guaranteeing our full inheritance (Ephesians 1:13-14; 2 Corinthians 1:22; 5:5). A guarantee that can be revoked is not a guarantee.
 
 **Grieving does not break the seal:**
 
-> "And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption." (**Ephesians 4:30, NIV**)
-
-Notice something important here: even though Paul says you *can* grieve the Spirit (and that is serious — we will come back to it), the sealing is oriented toward "the day of redemption" — a future event. The seal holds. Grieving damages fellowship but does not break the seal.
-
-**God fashioned us for this purpose:**
-
-> "Now the one who has fashioned us for this very purpose is God, who has given us the Spirit as a deposit, guaranteeing what is to come." (**2 Corinthians 5:5, NIV**)
-
-Again, the Spirit as *arrabōn* — the down payment. God is the one who fashioned us for our future resurrection and glory, and the Spirit living in us right now is the proof that He will follow through.
+Even though Paul says you *can* grieve the Spirit (Ephesians 4:30), the sealing is oriented toward "the day of redemption" — a future event. The seal holds. Grieving damages fellowship but does not break the seal.
 
 **Working conclusion:** The New Testament consistently presents the Spirit as the secure, permanent mark of belonging to Christ — not a reward that can be revoked by sin. The new covenant is *better* than the old (Hebrews 8:6), and one of the ways it is better is the permanence of the Spirit's indwelling. This is what the prophet Ezekiel looked forward to:
 
@@ -487,8 +488,6 @@ Confession and repentance restore the *experience* of fellowship. The Spirit's i
 The fact that you are even worried about whether the Spirit has left you is, in most cases, evidence that He has not. A heart completely hardened to God does not lose sleep over God's absence. The worry itself is the Spirit at work — convicting, drawing, calling you back.
 
 ===
-# Pneumatology: The Holy Spirit
-
 ## VI. Water Baptism and Spirit Baptism — Are They the Same Thing?
 
 Depending on your church background, you might have been told these are the same event, two separate events, or that one is more important than the other. The debates here are old, and the texts are genuinely complex. Our goal is to see what the texts actually say.
@@ -535,23 +534,9 @@ So the question becomes: Is Paul here describing (a) a distinct Spirit-baptism e
 
 The traditional and Reformed reading is option (c): Spirit baptism in 1 Corinthians 12:13 IS conversion — it is the Spirit's act of uniting you to Christ and His body. Water baptism, on this reading, is the outward sign of this inward reality.
 
-### Acts 2:38 — The Sequence Question
+### Acts 2:38 and the Three Views
 
-Now consider Peter's words on the day of Pentecost, when the crowd asks what they should do:
-
-> "And Peter said to them, 'Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.'" (**Acts 2:38, ESV**)
-
-Notice the sequence Peter lays out: repent, be baptized, receive forgiveness, receive the Spirit. But how tightly are these connected? Is baptism the *cause* of forgiveness and Spirit reception, or is it bundled together with repentance as part of one response?
-
-The debate centers on one tiny Greek word: *eis* (pronounced "ace"). The ESV translates it "for" — "be baptized... *for* the forgiveness of your sins." But *eis* in Greek can mean "in order to receive" (purpose — baptism causes forgiveness) or "because of" / "with a view to" (result — baptism follows forgiveness that has already begun through repentance). This single preposition sits at the center of enormous debates between:
-
-- **The baptismal regeneration view** (held by Lutherans, Catholics, and some Churches of Christ): Baptism itself effects forgiveness and Spirit reception. The water is doing something real and necessary.
-
-- **The Reformed and Baptist view**: Repentance and faith are what bring forgiveness. Baptism is the public declaration of what has already happened inside. Spirit reception is simultaneous with faith, not caused by baptism.
-
-We should be honest here: *eis* in Greek genuinely can go either way. Context and parallel passages have to decide the question — and scholars who know Greek very well land on both sides of this debate. Anyone who tells you the Greek "clearly" settles it in their favor is oversimplifying.
-
-### The Three Views
+We covered Peter's Pentecost sermon in Section III — the *eis* debate over whether baptism *causes* forgiveness or *declares* it. The Greek genuinely does not settle it. This fuels three major positions:
 
 Here are the three major positions, stated as fairly as possible:
 
@@ -589,21 +574,15 @@ We should be honest about the evidence on all sides:
 
 - **1 Corinthians 12:13 equally clearly says Spirit baptism happened to ALL believers.** This makes it very difficult to describe Spirit baptism as a subsequent second experience that only some Christians receive. Paul includes every believer in Corinth — even the most immature ones.
 
-- **The Acts cases resist a single formula.** In Acts 2, the Spirit comes after repentance and baptism. In Acts 8, the Spirit comes after baptism but only when the apostles arrive. In Acts 10, the Spirit comes before baptism. In Acts 19, the Spirit comes after re-baptism and the laying on of hands. If Acts is supposed to give us the one correct order, it is remarkably inconsistent about it.
+- **The Acts cases resist a single formula** (see Section III for details). The four cases in Acts 2, 8, 10, and 19 each present a different sequence. If Acts is supposed to give us one correct order, it is remarkably inconsistent about it.
 
-- **The one thing every view agrees on:** The Spirit's presence in a believer's life is not optional and not secondary. Paul draws the line clearly:
-
-> "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to him." (**Romans 8:9, ESV**)
-
-If you do not have the Spirit, you are not in Christ. Every tradition affirms this. The Spirit is not a bonus feature of the Christian life — He is the Christian life.
+- **The one thing every view agrees on:** "Anyone who does not have the Spirit of Christ does not belong to him" (Romans 8:9). The Spirit is not a bonus feature of the Christian life — He is the Christian life. Every tradition affirms this.
 
 ### A Pastoral Note
 
 People from different traditions may have had genuine, powerful encounters with the Holy Spirit that their church calls "Spirit baptism" or "the second blessing" or "confirmation" or simply "the moment everything became real." The exegetical dispute we have walked through is about how to categorize and understand these experiences theologically — it is not about whether they are real. The Spirit moves sovereignly, and He does not always follow our theological flowcharts. What matters most is not which label you put on your experience, but whether the Spirit of God is actively at work in your life right now — convicting, transforming, empowering, and pointing you to Jesus.
 
 ===
-# Pneumatology — The Holy Spirit
-
 ## VII. Speaking in Tongues — What Does Scripture Actually Say?
 
 Few topics generate more heat in the church. Pentecostals say tongues are the initial evidence of Spirit baptism. Cessationists say the gift ended with the apostles. Most evangelicals are somewhere in between. The question deserves a careful look at what the text actually says — not what we want it to say.
@@ -752,8 +731,6 @@ If we let Paul speak for himself, here is what he actually says:
 The biblical position is neither "tongues prove you have the Spirit" nor "tongues ended 2,000 years ago." It is: tongues are a real gift of the Spirit, given to some but not all, regulated for the good of the body, and never to be forbidden.
 
 ===
-# Pneumatology: The Gifts of the Spirit
-
 ## VIII. The Gifts of the Spirit — What Are They For?
 
 The Greek word is *charismata* (χαρίσματα) — gifts of grace, from *charis* (grace). They are not earned. They are not rewards for spiritual achievement. They are not signs of status. They are grace-gifts distributed by the Spirit for a purpose.
@@ -925,8 +902,6 @@ Putting all of Paul's teaching together, here is what emerges:
 - **The goal is a mature, unified body.** Not a collection of impressive individuals. Not a talent show. Not a competition. A community where every member is equipped, every gift is exercised in love, and the whole body grows up together into Christ.
 
 ===
-# Pneumatology: Practical Life in the Spirit
-
 ## IX. What Do We DO with the Holy Spirit? — Practical Life in the Spirit
 
 After all the theology, here is the question that matters most: what does a Spirit-filled life actually look like day to day? The New Testament is not vague about this. It gives us concrete, practical teaching — not a mystical program but a way of living. Let's walk through it.
@@ -934,43 +909,14 @@ After all the theology, here is the question that matters most: what does a Spir
 ===
 ### 1. You Already Have the Spirit — Act Like It
 
-We start here because many Christians live as though the Spirit is absent or needs to be summoned. But Scripture is clear:
-
-> "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to him." (**Romans 8:9, ESV**)
-
-If you are in Christ, the Spirit is in you. Full stop. Paul drives this home even more directly:
+We covered this in Section IV: if you are in Christ, the Spirit is in you (Romans 8:9). He is not a guest you have to keep inviting back. He is a permanent resident — sealed, guaranteed, forever. But Paul goes further:
 
 > "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies." (**1 Corinthians 6:19-20, NIV**)
 
-The Spirit is not a guest you have to keep inviting back. He is a permanent resident. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there. The entire rest of this section is about closing that gap between what we believe and how we actually live.
+Your body is the Spirit's temple — language that echoes the Tabernacle and Temple where God's Shekinah glory dwelt. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there. The rest of this section is about closing that gap.
 
 ===
-### 2. Be Continually Filled — Ephesians 5:18
-
-> "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
-
-The Greek here is *plērousthe* (play-ROO-sthay) — and three things about this word matter enormously:
-
-- **Present tense** — keep on being filled, not a one-time event
-- **Passive voice** — you receive the filling; you don't manufacture it
-- **Imperative mood** — it is a command, not a suggestion
-
-The command is not "get the Spirit" (you already have Him) but "keep being filled" — keep yielding, keep surrendering the agenda to Him. Think of it like sails on a boat: the wind is already blowing. Your job is to raise the sails.
-
-What does being filled look like practically? The very next verses tell us immediately:
-
-> "...addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with your heart, giving thanks always and for everything to God the Father in the name of our Lord Jesus Christ." (**Ephesians 5:19-20, ESV**)
-
-Three things flow directly from being filled:
-
-- **Speaking to one another with psalms, hymns, and songs from the Spirit** — worship together, in community
-- **Singing and making music from your heart to the Lord** — private worship, your inner life directed toward God
-- **Always giving thanks to God the Father for everything** — gratitude as a spiritual discipline, not just a feeling
-
-Being filled with the Spirit and having a life of worship and gratitude are directly linked in Paul's thought. If you want to know whether you are being filled, check your worship life and your gratitude level.
-
-===
-### 3. Walk in the Spirit — Galatians 5:16-18, 25
+### 2. Walk in the Spirit — Galatians 5:16-18, 25
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
 
@@ -988,13 +934,9 @@ This means the Spirit-filled life is not about heroic spiritual efforts. It is a
 The flesh resists; the Spirit leads. Choosing to follow the Spirit's lead moment by moment *is* walking in the Spirit. It is not complicated. It is just costly — because the flesh always wants to go the other direction.
 
 ===
-### 4. Cultivate the Fruit — Galatians 5:22-23
+### 3. Cultivate the Fruit — Galatians 5:22-23
 
-> "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law." (**Galatians 5:22-23, ESV**)
-
-Note that "fruit" is singular, not plural. This is not a checklist of nine separate things you work on independently. It is one integrated character — the character of Jesus — growing in you as one thing. And fruit *grows*. You don't manufacture it. A fruit tree does not strain to produce apples. It produces fruit when it is connected to the root, watered, and in sunlight.
-
-But we can understand what this fruit looks like in practice:
+We covered in Section IV why *fruit* is singular (one integrated character, not a checklist) and why it *grows* rather than being manufactured. But what does each aspect of this fruit look like in practice?
 
 - **Love** (*agapē*): Deliberate, costly choice to act for another person's good regardless of what they deserve. Not a feeling first — a decision first, and often the feeling follows. Practice on people who are hard to love. That is where love actually becomes love.
 
@@ -1016,10 +958,10 @@ But we can understand what this fruit looks like in practice:
 
 - **Self-control** (*enkrateia*, en-KRAH-tay-ah): Mastery over your own appetites and desires. The opposite of being controlled by the flesh. The ability to say "no" to what is destructive and "yes" to what is life-giving.
 
-None of these are produced by trying harder. They grow in proportion to your connection to the Spirit — through Scripture, prayer, community, and obedience. If you feel like you are white-knuckling your way through the Christian life, that is a sign you are relying on willpower instead of the Spirit. Go back to step 2: be filled.
+None of these are produced by trying harder. They grow in proportion to your connection to the Spirit — through Scripture, prayer, community, and obedience. If you feel like you are white-knuckling your way through the Christian life, that is a sign you are relying on willpower instead of the Spirit. Go back to Ephesians 5:18: be filled.
 
 ===
-### 5. Pray in the Spirit
+### 4. Pray in the Spirit
 
 Three key texts teach us about prayer and the Spirit:
 
@@ -1044,7 +986,7 @@ Praying in the Spirit is not just asking God for things. It strengthens your fai
 **A note on tongues:** Some Pentecostal and Charismatic Christians read "praying in the Spirit" as specifically praying in tongues. This may be included — Paul says in 1 Corinthians 14:14, "For if I pray in a tongue, my spirit prays but my mind is unfruitful" (ESV). But the phrase "praying in the Spirit" is not limited to tongues. It describes a broader reality: a Spirit-dependent posture in all prayer. Whether or not you practice tongues, you are called to pray in the Spirit.
 
 ===
-### 6. Listen to the Spirit's Guidance
+### 5. Listen to the Spirit's Guidance
 
 > "When the Spirit of truth comes, he will guide you into all the truth, for he will not speak on his own authority, but whatever he hears he will speak, and he will declare to you the things that are to come." (**John 16:13, ESV**)
 
@@ -1070,45 +1012,7 @@ Practically, the Spirit usually speaks through:
 If the "guidance" points people to the guide instead of to Jesus, be cautious.
 
 ===
-### 7. Do Not Grieve the Spirit — Ephesians 4:30-32
-
-> "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
-
-"Grieve" is a deeply personal word. You grieve someone you are in relationship with. The fact that the Spirit can be grieved tells you He is a person, not a force — and that your choices affect Him.
-
-What grieves the Spirit? Look at the surrounding verses (Ephesians 4:25-32):
-
-- **Lying** — "having put away falsehood, let each one of you speak the truth with his neighbor" (v. 25)
-- **Uncontrolled anger** — "Be angry and do not sin; do not let the sun go down on your anger" (v. 26)
-- **Stealing** — "Let the thief no longer steal, but rather let him labor" (v. 28)
-- **Corrupt speech** — "Let no corrupting talk come out of your mouths, but only such as is good for building up" (v. 29)
-- **Bitterness, rage, anger, brawling, slander, malice** (v. 31)
-
-Notice something: these are all *relational* sins. Lying damages trust. Anger damages safety. Stealing damages provision. Corrupt speech damages dignity. Bitterness poisons everything it touches. The Spirit is the Spirit of love and truth. When we damage relationships with lies, anger, bitterness, and unkind speech, we grieve Him.
-
-The response to grieving the Spirit is not a spiritual ritual. It is not lighting a candle or saying a special prayer. It is repentance, reconciliation, and forgiveness:
-
-> "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you." (**Ephesians 4:32, ESV**)
-
-===
-### 8. Do Not Quench the Spirit — 1 Thessalonians 5:19-22
-
-> "Do not quench the Spirit. Do not despise prophecies, but test everything; hold fast what is good. Abstain from every form of evil." (**1 Thessalonians 5:19-22, ESV**)
-
-"Quench" is a fire metaphor. You can dampen and suppress what the Spirit is stirring — in your own life and in your church. You quench the Spirit when you shut down what He is doing out of fear, formalism, or discomfort.
-
-But look at the balance Paul strikes in these four short verses. This is pastoral gold:
-
-- **Don't suppress the Spirit** (v. 19) — be open to what He is doing
-- **Don't despise prophecies** (v. 20) — don't dismiss things just because they are unfamiliar or uncomfortable
-- **Test everything** (v. 21a) — don't accept everything uncritically just because someone claims "the Spirit told me"
-- **Hold fast what is good** (v. 21b) — keep what passes the test
-- **Abstain from every form of evil** (v. 22) — reject what does not pass the test
-
-A church that quenches the Spirit becomes dead formalism — going through the motions, everything predictable, nothing alive. A church that never tests becomes chaotic and dangerous — every claim goes unchallenged, manipulation runs unchecked. The Spirit calls us to both openness and discernment. You need both. Always.
-
-===
-### 9. The Spirit-Filled Community — 1 Corinthians 14:26
+### 6. The Spirit-Filled Community — 1 Corinthians 14:26
 
 > "What then, brothers? When you come together, each one has a hymn, a lesson, a revelation, a tongue, or an interpretation. Let all things be done for building up." (**1 Corinthians 14:26, ESV**)
 
@@ -1149,60 +1053,12 @@ A church that argues about tongues more than it practices love has missed Paul's
 ===
 ## XI. For Further Study
 
-The books below are organized by topic. Some are accessible — meaning you can pick them up with no Bible college background and follow along. Some are more technical, written for students and pastors who want to go deeper. Both Pentecostal/Charismatic and traditional perspectives are represented intentionally; read across the divide.
+Both Pentecostal/Charismatic and traditional perspectives are represented intentionally; read across the divide.
 
-===
-### The Spirit in the OT and New Covenant Promise
+**The Spirit in Scripture:** Michael Green, *I Believe in the Holy Spirit* (warm, readable Genesis-to-Revelation survey — good starting point); Thomas Schreiner, *New Testament Theology* (comprehensive traditional treatment, more technical)
 
-**Michael Green**, *I Believe in the Holy Spirit* — A warm, readable survey of what Scripture says about the Spirit from Genesis to Revelation; a good starting point for anyone new to the topic.
+**Pentecost, Acts, and Spirit Baptism:** James D.G. Dunn, *Baptism in the Holy Spirit* (foundational academic study — argues Spirit reception happens at conversion); Craig Keener, *Spirit Hermeneutics* (Pentecostal scholar argues Acts is normative for today); Gordon Fee and Douglas Stuart, *How to Read the Bible for All Its Worth* (essential chapter on interpreting Acts — descriptive vs. prescriptive); Frank Macchia, *Baptized in the Spirit* (serious Pentecostal theology of Spirit baptism as broad NT theme); John Stott, *Baptism and Fullness* (short, accessible classic — Spirit baptism at conversion, gifts available but ordered)
 
-**Thomas Schreiner**, *New Testament Theology* — A comprehensive traditional treatment of New Testament themes including the Spirit's role in fulfilling the new covenant promises; more technical but rewarding.
+**Gifts and Tongues:** D.A. Carson, *Showing the Spirit* (careful verse-by-verse 1 Cor 12–14, respected by both sides); Gordon Fee, *God's Empowering Presence* (the academic standard on the Spirit in Paul, Pentecostal perspective); Wayne Grudem, *Systematic Theology* chs. on Spirit and gifts (continuationist Reformed); Max Turner, *The Holy Spirit and Spiritual Gifts* (balanced, fair to multiple positions); Sam Storms, *The Beginner's Guide to Spiritual Gifts* (accessible continuationist introduction)
 
-===
-### Pentecost and Acts
-
-**James D.G. Dunn**, *Baptism in the Holy Spirit* — The foundational academic study of Spirit baptism in Luke-Acts and Paul; argues that Spirit reception happens at conversion, not as a second experience. Technical but historically important.
-
-**Craig Keener**, *Spirit Hermeneutics* — A Pentecostal/Charismatic scholar makes the case that Acts should be read as descriptive and normative for the church's experience of the Spirit today; engages seriously with the academic literature.
-
-**Gordon Fee** and **Douglas Stuart**, *How to Read the Bible for All Its Worth* — Not exclusively about the Spirit, but its chapter on how to interpret Acts is essential for navigating the descriptive-vs-prescriptive debate responsibly.
-
-===
-### The Gifts and Tongues
-
-**D.A. Carson**, *Showing the Spirit* — A careful, verse-by-verse study of 1 Corinthians 12–14 by a leading evangelical scholar. Carson is open to the gifts continuing while being honest about the abuses; widely respected by both sides.
-
-**Gordon Fee**, *God's Empowering Presence* — The most comprehensive technical study of the Holy Spirit in Paul's letters; thorough, scholarly, and written from a Pentecostal perspective. This is the academic standard.
-
-**Wayne Grudem**, *Systematic Theology* (chapters on the Holy Spirit and spiritual gifts) — A thorough treatment from a continuationist Reformed perspective; argues for the ongoing gifts while being measured about excesses.
-
-**Max Turner**, *The Holy Spirit and Spiritual Gifts* — A balanced, accessible-to-intermediate study of the gifts in both the New Testament and the church today; fair to multiple positions.
-
-**Sam Storms**, *The Beginner's Guide to Spiritual Gifts* — Exactly what the title says: an accessible, readable introduction to the gifts written from a continuationist perspective. Good for someone just starting to think through these questions.
-
-===
-### Life in the Spirit (Practical and Devotional)
-
-**Francis Chan**, *Forgotten God* — An honest, accessible challenge to the way many Western Christians have practically ignored the Holy Spirit; devotional and convicting. High school level, very readable.
-
-**J.I. Packer**, *Keep in Step with the Spirit* — A thoughtful, pastoral guide to understanding and living by the Spirit from a traditional Reformed perspective; warm rather than polemical.
-
-===
-### Pentecostal and Charismatic Perspectives
-
-**Gordon Fee**, *Paul, the Spirit, and the People of God* — The accessible, popular version of Fee's major scholarly work; makes the argument that Paul's vision of the Spirit-filled community has been domesticated by much of Western Christianity.
-
-**Frank Macchia**, *Baptized in the Spirit* — A serious Pentecostal theologian develops a theology of Spirit baptism as a broad New Testament theme, not just a second-blessing experience; engages with critics honestly.
-
-**Craig Keener**, *Spirit Hermeneutics* — (Listed above under Pentecost and Acts; also relevant here.) Keener argues that Charismatic experience helps readers hear the New Testament more accurately rather than filtering it through a post-Enlightenment lens.
-
-===
-### Traditional and Reformed Perspectives
-
-**John Stott**, *Baptism and Fullness* — A short, accessible classic by one of the twentieth century's most respected evangelical teachers; argues from Scripture that Spirit baptism occurs at conversion and that the gifts are available but must be properly ordered.
-
-**J.I. Packer**, *Keep in Step with the Spirit* — (Listed above under Practical; also relevant here.) Packer engages Charismatic theology directly and charitably while holding traditional conclusions.
-
-**Thomas Schreiner**, *New Testament Theology* — (Listed above under OT and New Covenant; also relevant here.) Schreiner's treatment of the Spirit throughout the New Testament reflects careful, cessationist-leaning Reformed scholarship.
-
-**D.A. Carson**, *Showing the Spirit* — (Listed above under Gifts and Tongues; also relevant here.) Carson represents the best of traditional evangelical scholarship engaging the Charismatic question fairly.
+**Practical Life in the Spirit:** Francis Chan, *Forgotten God* (accessible challenge to Western neglect of the Spirit — high school level); J.I. Packer, *Keep in Step with the Spirit* (thoughtful pastoral guide, traditional Reformed, warm not polemical); Gordon Fee, *Paul, the Spirit, and the People of God* (accessible version of Fee's scholarly work — argues the Spirit-filled community has been domesticated)
