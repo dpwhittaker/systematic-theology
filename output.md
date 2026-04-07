@@ -1331,3 +1331,25 @@ Changes to handouts/son-of-god.md:
 7. **Further Study**: "The Classical Trinitarian Case" → "The Classical Case for Christ's Deity"
 
 The five VIEW LABELS (View 1: Trinitarian, etc.) and their attributed bullet points remain unchanged — they describe what each historical tradition teaches.
+
+## Created Baptism in the Spirit handout
+
+Created handouts/baptism-in-the-spirit.md (246 lines) — a focused, pastoral handout on Spirit baptism for a mixed Presbyterian-to-Pentecostal audience.
+
+Structure:
+- **The One Thing Everyone Agrees On** — Romans 8:9, universal Spirit indwelling
+- **What Jesus Said** — two kinds of language: permanent indwelling (John 14:16-17) vs. power/empowerment (Acts 1:8, Matt 3:11)
+- **The Tabernacle Pattern** — biblical framework: Jesus as Second Adam/mobile Tabernacle, you as a tabernacle for the Spirit. Reframes from "do I need a second baptism" to "how much of this tabernacle is the glory filling?"
+- **Sealed Once, Filled Continually** — Eph 1:13-14 (arrabōn/seal) vs. Eph 5:18 (plērousthe/ongoing filling). The key distinction most people need.
+- **What Acts Shows Us** — four cases with different sequences, Spirit moves sovereignly
+- **Three Protestant Positions** — One Event (Reformed), Two Events (Pentecostal), Many Fillings (Tabernacle view, the handout's preferred framing)
+- **Do We Need a Third/Fourth?** — Paul and disciples filled multiple times, fresh fillings are real
+- **What About Tongues** — 1 Cor 12:30 (not all speak in tongues), fruit > gifts
+- **For Traditional Backgrounds** — don't quench, but test; stop building walls
+- **For Pentecostal Backgrounds** — Spirit is a person not a performance; tongues not a status symbol
+- **The Bottom Line** — "Stop building walls. Start raising sails."
+- **Further Study** — references to both sides
+
+Tone leans Pentecostal (Spirit is active and powerful) while grounding in scripture and using non-standard biblical language (Tabernacle, Shekinah, Second Adam). Uses "Spirit of God tabernacles in us" framing throughout.
+
+Linked from data/spirit/spirit.md alongside the full Pneumatology handout.

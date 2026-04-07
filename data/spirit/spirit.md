@@ -14,6 +14,8 @@ The **Spirit of God**—*Ruach Elohim*, *Ruach HaKodesh*. God's breath, presence
 - [*Gifts* of power](#spirit/gifts 'Drill') - Miraculous charismata, cessationism debate
 - [*Fruit* of character](#spirit/fruit 'Drill') - Galatians 5, transformation over time
 
+**Handouts:** [The Holy Spirit: Who He Is and What He Does](#handouts/pneumatology.md 'Drill') | [Baptism in the Spirit: Do We Need a Second Baptism?](#handouts/baptism-in-the-spirit.md 'Drill')
+
 **The fundamental question:** Is the Spirit a [distinct person](#spirit/person-presence#greek-person 'Greek') (third hypostasis) or God's [presence and power](#spirit/person-presence#hebrew-presence 'Hebrew')? Does Greek "three persons, one substance" illuminate Scripture's testimony, or import categories the Bible doesn't use? This question raises issues of [historical heresy](#spirit/heresy 'Greek')—we address those charges directly.
 
 **The biblical pattern:**
