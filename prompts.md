@@ -232,3 +232,5 @@ Re-evaluate the updated baptism-in-the-spirit handout with all 5 views: NT Wrigh
 Address all concerns, then rerun the 5-view analysis and repeat until all views are equally offended and satisfied.
 
 Let's be a little more scripture-forward. Excerpt enough of the Acts passages to get the point across. In The Three Protestant Positions, each view should be structured as: <scripture quotes> <exegesis> <conclusion> Strength: <strengths> Risk: <risks>. In fact, for each section that makes a theological point, consider a variation of this basic structure.
+
+Should we explain the avoidance of the term "Spirit baptism"? Add section with walls metaphor — both sides have walls (formalism and performance), both breakthroughs are honored.

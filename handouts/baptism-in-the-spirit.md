@@ -204,6 +204,17 @@ And here is where the three views may be closer than they appear. The Reformed b
 Keep being filled. Keep raising the sails. The wind never stops blowing.
 
 ===
+## Why This Handout Avoids the Term "Spirit Baptism"
+
+The phrase "Spirit baptism" suggests one kind of event — an immersion. But Scripture uses a wider range: *sealed* (once), *filled* (repeatedly), *poured out* (Pentecost), *fell on* (Cornelius), *came on* (Ephesus). The Spirit's work is not one-size-fits-all because *our resistance is not one-size-fits-all*.
+
+If you have spent decades in a tradition that kept the Spirit safely theological — a doctrine to affirm rather than a person to encounter — you may have built thick walls of formalism without realizing it. When the Spirit finally breaks through, it will feel like a flood. That is not because you were worse off than anyone else. It is because the wall was thick, and the breakthrough is proportional to the resistance. What Pentecostals call "Spirit baptism" may be exactly what that moment feels like — and they are not wrong to call it dramatic, because it *is*.
+
+If you have spent years chasing encounters — measuring your spirituality by the intensity of last Sunday — you may have built a different kind of wall: one made of spiritual performance rather than formalism. When the Spirit breaks through *that* wall, it may feel not like fire but like stillness. A quiet conviction that you have been running past Him rather than with Him. That filling may not come with tongues. It may come with tears, or with nothing at all except a slow reorientation of your life toward fruit and mission.
+
+The Spirit is not a battery that runs down and needs replacing. He is the wind — always blowing, always available. Sometimes you need the sails completely rebuilt. Sometimes you just need to untangle a rope. The word for the first experience might be "baptism." The word for the second might be "filling." But it is the same wind, and the same boat, and the same ocean.
+
+===
 ## What About Tongues?
 
 Tongues come up in every conversation about Spirit baptism. This is a summary — the full verse-by-verse treatment is in the Pneumatology handout.

@@ -1422,3 +1422,11 @@ All 5 reviewers satisfied with substance; remaining concerns are sentence-level 
 - Pastoral sections: each opens with scripture blockquote (1 Thess 5:19-21; 1 Cor 12:21, 11)
 
 Final handout: 297 lines, 13 page-break markers.
+
+## Added "Why This Handout Avoids the Term 'Spirit Baptism'" section
+
+New section inserted between "Do We Need a Third Baptism?" and "What About Tongues?" (lines 207-222). Key moves:
+- Names formalism (Baptist wall) and spiritual performance (Pentecostal wall) as equally blocking the Spirit
+- Honors both the dramatic flood-breakthrough and the quiet stillness-breakthrough as genuine Spirit encounters
+- Wind/sails metaphor: "Sometimes you need the sails completely rebuilt. Sometimes you just need to untangle a rope."
+- Neither side ranked — thick walls aren't worse, just different
