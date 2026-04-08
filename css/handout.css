@@ -239,6 +239,87 @@ code {
     height: auto;
 }
 
+/* ===== Storyboard Styles ===== */
+
+/* Slide callout blocks */
+.slide-callout {
+    background: #1a1a2e;
+    color: #e0e0e0;
+    border-left: 4px solid #4a90d9;
+    padding: 0.15in 0.2in;
+    margin: 0.15in 0;
+    border-radius: 4px;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+.slide-callout strong {
+    color: #7ab8ff;
+}
+.slide-callout .slide-label {
+    color: #4a90d9;
+    font-weight: bold;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.05in;
+    display: block;
+}
+
+/* Speaker labels in dialogue */
+.speaker-wright { color: #2e7d32; font-weight: bold; }
+.speaker-bt { color: #1565c0; font-weight: bold; }
+.speaker-pt { color: #c62828; font-weight: bold; }
+.speaker-lay { color: #6a1b9a; font-weight: bold; }
+
+/* Non-verbal cues */
+.stage-direction {
+    color: #777777;
+    font-style: italic;
+}
+
+/* Equilibrium report table */
+.equilibrium-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin: 0.1in 0;
+}
+.equilibrium-table th {
+    background: #f0f0f0;
+    border: 1px solid #cccccc;
+    padding: 0.03in 0.08in;
+    text-align: left;
+}
+.equilibrium-table td {
+    border: 1px solid #cccccc;
+    padding: 0.03in 0.08in;
+}
+
+/* HTML comments (metadata) rendered as subtle info */
+.storyboard-meta {
+    color: #999999;
+    font-size: 9pt;
+    font-style: italic;
+    margin: 0.02in 0;
+}
+
+@media print {
+    .slide-callout {
+        background: #f0f0f5;
+        color: #000000;
+        border-left-color: #333333;
+    }
+    .slide-callout strong {
+        color: #000000;
+    }
+    .speaker-wright { color: #000000; }
+    .speaker-bt { color: #000000; }
+    .speaker-pt { color: #000000; }
+    .speaker-lay { color: #000000; }
+}
+
+/* ===== Utility classes ===== */
+
 /* Utility classes */
 .page-break {
     page-break-after: always;

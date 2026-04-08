@@ -288,6 +288,57 @@ Each category is one paragraph line. Apply this format to all reference/further-
 
 **Minimizing page-turns within sections:** After the optimal page count is confirmed, place `===` markers to minimize page-turns that occur mid-section. A reader should ideally be able to follow a top-level section without turning a page. When a section must span two pages, place the break at the most natural pause in the argument (between subsections, after a conclusion, before a new example), not mid-thought.
 
+## GPU Server (Remote)
+
+A dedicated GPU server is available for running ML workloads (TTS, image generation) that are too heavy for the local machine.
+
+### Connection
+
+```bash
+ssh -p 28106 david@dpwhittaker.playit.plus
+```
+
+- **Auth:** SSH key (`~/.ssh/id_ed25519`) — no password needed
+- **OS:** Ubuntu 24.04 on WSL2
+- **GPU:** RTX 4080 16GB (CUDA via WSL2 passthrough)
+- **CPU:** Intel i7-14700K, 14 cores / 28 threads
+- **RAM:** 46GB
+- **Sudo:** Passwordless
+
+### Running Commands on the Server
+
+To run a command on the server from this machine:
+```bash
+ssh -p 28106 david@dpwhittaker.playit.plus "command here"
+```
+
+For long-running tasks (model inference, installs), use `nohup` to survive SSH disconnection:
+```bash
+ssh -p 28106 david@dpwhittaker.playit.plus "nohup command > /tmp/output.log 2>&1 & echo PID: \$!"
+```
+Then check progress with:
+```bash
+ssh -p 28106 david@dpwhittaker.playit.plus "tail -20 /tmp/output.log"
+```
+
+### How to Prompt Claude to Use the Server
+
+- **Default:** Claude runs commands locally (this WSL2 machine — no GPU, 12GB RAM)
+- **To run on the server:** Say "run this on the server" or "use the GPU server" in your prompt
+- **Claude should proactively use the server** for any task that needs:
+  - GPU acceleration (CUDA/PyTorch inference)
+  - More than 8GB RAM for a single process
+  - Dia TTS, Stable Diffusion, or other ML model inference
+- **Keep on local machine:** Orchestration, MCP servers, file editing, git operations, FFmpeg compositing
+
+### Installed Software (Server)
+
+- Python 3.12 (venv at `~/ml-env` — always `source ~/ml-env/bin/activate` before running Python)
+- CUDA Toolkit 12.8 (paths in `~/.bashrc`)
+- PyTorch 2.11.0+cu128 (CUDA confirmed working)
+- nvidia-smi at `/usr/lib/wsl/lib/nvidia-smi`
+- (Dia TTS, Stable Diffusion — to be installed)
+
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS

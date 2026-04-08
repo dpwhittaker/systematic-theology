@@ -1023,9 +1023,33 @@ async function loadHandout(path) {
         let inList = false;
         let inBlockquote = false;
         let blockquoteContent = [];
+        let inTable = false;
+        let tableHasHeader = false;
+        let inFencedCode = false;
+        let fencedCodeContent = [];
+        let fencedCodeFence = '';
 
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i];
+
+            // Handle fenced code blocks (``` or ````)
+            const fenceMatch = line.match(/^(`{3,4})\w*\s*$/);
+            if (fenceMatch) {
+                if (!inFencedCode) {
+                    inFencedCode = true;
+                    fencedCodeFence = fenceMatch[1];
+                    fencedCodeContent = [];
+                    continue;
+                } else if (line.trim().startsWith(fencedCodeFence)) {
+                    html += '<pre><code>' + fencedCodeContent.join('\n').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</code></pre>\n';
+                    inFencedCode = false;
+                    continue;
+                }
+            }
+            if (inFencedCode) {
+                fencedCodeContent.push(line);
+                continue;
+            }
 
             // Close blockquote if we're in one and hit a non-blockquote line
             if (inBlockquote && !line.startsWith('>')) {
@@ -1034,12 +1058,38 @@ async function loadHandout(path) {
                 inBlockquote = false;
             }
 
+            // Close table if we're in one and hit a non-table line
+            if (inTable && !line.startsWith('|')) {
+                html += '</table>\n';
+                inTable = false;
+                tableHasHeader = false;
+            }
+
             // Handle blockquotes
             if (line.startsWith('> ')) {
                 if (!inBlockquote) {
                     inBlockquote = true;
                 }
                 blockquoteContent.push(line.substring(2));
+                continue;
+            }
+
+            // Handle tables
+            if (line.startsWith('|')) {
+                // Skip separator rows (|---|---|)
+                if (line.match(/^\|[\s\-:|]+\|$/)) {
+                    continue;
+                }
+                const cells = line.split('|').slice(1, -1).map(c => c.trim());
+                if (!inTable) {
+                    html += '<table class="equilibrium-table">\n';
+                    inTable = true;
+                    // First row is header
+                    html += '<tr>' + cells.map(c => '<th>' + c + '</th>').join('') + '</tr>\n';
+                    tableHasHeader = true;
+                } else {
+                    html += '<tr>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>\n';
+                }
                 continue;
             }
 
@@ -1094,6 +1144,19 @@ async function loadHandout(path) {
         if (inBlockquote) {
             html += '<blockquote>' + blockquoteContent.join('<br>') + '</blockquote>\n';
         }
+        if (inTable) {
+            html += '</table>\n';
+        }
+        if (inFencedCode) {
+            html += '<pre><code>' + fencedCodeContent.join('\n').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</code></pre>\n';
+        }
+
+        // Protect code blocks from inline formatting
+        const codeBlocks = [];
+        html = html.replace(/<pre><code>[\s\S]*?<\/code><\/pre>/g, (match) => {
+            codeBlocks.push(match);
+            return `___CODE_BLOCK_${codeBlocks.length - 1}___`;
+        });
 
         // Now apply inline formatting
         html = html
@@ -1103,6 +1166,30 @@ async function loadHandout(path) {
             .replace(/\*([^*]+)\*/g, '<em>$1</em>')
             // Links
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+
+        // Storyboard-specific transforms
+        if (path.startsWith('storyboards/')) {
+            // Convert > [!slide] callout blocks (the [!slide] may have been mangled by link regex)
+            html = html.replace(
+                /<blockquote>(?:\[!slide\]|<a[^>]*>!slide<\/a>|\[!slide])<br>([\s\S]*?)<\/blockquote>/g,
+                (match, content) => {
+                    return '<div class="slide-callout"><span class="slide-label">Slide</span><br>' + content + '</div>';
+                }
+            );
+
+            // Color speaker labels
+            const speakers = { WRIGHT: 'wright', BT: 'bt', PT: 'pt', LAY: 'lay' };
+            for (const [id, cls] of Object.entries(speakers)) {
+                const re = new RegExp(`<strong>${id}:<\\/strong>`, 'g');
+                html = html.replace(re, `<strong class="speaker-${cls}">${id}:</strong>`);
+            }
+
+            // Style stage directions [laughs], [pause], etc. — but not [!slide] or link brackets
+            html = html.replace(/\[(laughs|pause|sighs|quietly|carefully)\]/g, '<span class="stage-direction">[$1]</span>');
+
+            // Render HTML comments as visible metadata
+            html = html.replace(/<!--\s*(.*?)\s*-->/g, '<div class="storyboard-meta">$1</div>');
+        }
 
         // Restore mermaid blocks as div elements
         html = html.replace(/___HANDOUT_MERMAID_(\d+)___/g, (match, index) => {
@@ -1114,6 +1201,9 @@ async function loadHandout(path) {
         html = html.replace(/___HANDOUT_SVG_(\d+)___/g, (match, index) => {
             return `<div class="svg-container">${svgBlocks[parseInt(index)]}</div>`;
         });
+
+        // Restore code blocks
+        html = html.replace(/___CODE_BLOCK_(\d+)___/g, (match, index) => codeBlocks[parseInt(index)]);
 
         // Render to page
         els.cardBody.innerHTML = html;
@@ -1151,11 +1241,12 @@ async function init() {
     try {
         const hash = window.location.hash.replace('#', '') || 'handouts/index.md';
 
-        // Check if this is a handout request
-        if (hash.startsWith('handouts/') || hash.startsWith('../handouts/')) {
-            // Extract the handout filename
-            const handoutPath = hash.replace(/^\.\.\//, '');
-            await loadHandout(handoutPath);
+        // Check if this is a handout or storyboard request
+        if (hash.startsWith('handouts/') || hash.startsWith('../handouts/') ||
+            hash.startsWith('storyboards/') || hash.startsWith('../storyboards/')) {
+            // Extract the filename
+            const docPath = hash.replace(/^\.\.\//, '');
+            await loadHandout(docPath);
             return;
         }
 
