@@ -1441,3 +1441,26 @@ Converted 5 `===` to `---` to merge sections that flow naturally together:
 5. First break after intro removed to merge with common-ground section
 
 Final: 10 pages, even count for double-sided printing. Tightest page is Views (96%), lightest is Tabernacle (41%).
+
+## 8-page version — trimming and equilibrium check
+
+### Page-break changes (10→8):
+- Tabernacle + Sealed/Filled merged onto one page (compressed both sections)
+- Acts blockquotes condensed to single-line excerpts with inline sequence labels
+- Acts + View 1 merged onto one page (View 1 tightened)
+- Views 2+3 tightened to fit together
+
+### 5-view analysis results:
+| Reviewer | Satisfaction | Discomfort |
+|---|---|---|
+| NT Wright | 7 | 5 (improved) |
+| Baptist Theologian | 8 | 4 (improved) |
+| Baptist Layperson | 8 | 3 (improved) |
+| Pentecostal Theologian | 6 | 7 (DEGRADED) |
+| Pentecostal Layperson | 8 | 3 (improved) |
+
+### Fix for Pentecostal theologian:
+- Restored Acts 1:5 blockquote in View 2 (water/Spirit distinction by Jesus)
+- Gave Macchia's eschatological reading its own paragraph break
+- Page 4 now opens with Macchia, giving it visual weight
+- PDF still 8 pages (page 3: 91%, page 4: 62%)

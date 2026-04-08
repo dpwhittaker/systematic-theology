@@ -43,21 +43,17 @@ This is where the debate begins.
 ===
 ## The Tabernacle Pattern: A Biblical Framework
 
-Before we dive into the theological positions, consider a pattern that runs through Scripture — one that might reframe the whole question.
-
 > "Then the cloud covered the tent of meeting, and the glory of the LORD filled the tabernacle." (**Exodus 40:34, NIV**)
 
 > "In Christ all the fullness of the Deity lives in bodily form." (**Colossians 2:9, NIV**)
 
 > "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God?" (**1 Corinthians 6:19, NIV**)
 
-Three temples. One pattern. The Tabernacle (*mishkan*) existed before the glory filled it — construction came first, consecration second, the glory filling third. Jesus was the ultimate fulfillment: God created a Second Adam in Mary's womb (Luke 1:35; 1 Corinthians 15:45-47), free from sin's bondage throughout His entire life (Hebrews 4:15). Because nothing in Him resisted, obstructed, or grieved God's Spirit, the result was total indwelling — the Shekinah glory walking on two legs.
+Three temples. One pattern. The Tabernacle (*mishkan*) existed before the glory filled it — construction first, consecration second, the glory filling third. Jesus was the ultimate fulfillment: the Second Adam (Luke 1:35; 1 Cor 15:45-47), free from sin throughout His life (Heb 4:15), totally indwelt — the Shekinah glory walking on two legs. And then Paul tells *you* the same thing. The same Spirit who filled the mishkan and who filled Jesus has taken up residence in you. Not with the same intensity — sin grieves and quenches Him — but the same Spirit, the same presence, the same God.
 
-And then Paul tells *you* the same thing. The Spirit of God tabernacles in you just as He did in Jesus. Not with the same intensity — you are not sinless, and sin grieves and quenches the Spirit. But the same Spirit, the same Shekinah presence, the same God who filled the mishkan and who filled Jesus is the God who has taken up residence in you.
+This pattern does not settle the debate — the three views below interpret it differently. But instead of asking "Do I need a second baptism?" we might ask: **"How much of this Tabernacle is the glory filling?"**
 
-This pattern does not settle the debate — the three views below interpret it differently. But it gives us a shared biblical image to think with. Instead of asking "Do I need a second baptism?" — which treats the Spirit like a package to be delivered — we might ask: **"How much of this Tabernacle is the glory filling?"**
-
-===
+---
 ## What Paul Says: Sealed Once, Filled Continually
 
 Paul gives us two categories that most of the confusion comes from mixing up.
@@ -66,83 +62,43 @@ Paul gives us two categories that most of the confusion comes from mixing up.
 
 > "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance." (**Ephesians 1:13-14, ESV**)
 
-The Greek word for "guarantee" is *arrabōn* — a down payment that legally obligates the buyer to complete the transaction. The Spirit in you right now is God's down payment — not just on your personal salvation, but on His plan to "unite all things in him, things in heaven and things on earth" (Ephesians 1:10). You are sealed into a project bigger than yourself. This happened *when you believed* — the Greek aorist participle (*pisteusantes*) places the sealing at the same moment as believing. Not later. Not after a special experience. At the moment of faith.
-
-You cannot be re-sealed. The seal is permanent. The down payment is non-refundable.
+The Greek *arrabōn* ("guarantee") is a down payment that legally obligates the buyer to complete the transaction. The Spirit in you is God's down payment — not just on your salvation, but on His plan to "unite all things in him" (Ephesians 1:10). You are sealed into a project bigger than yourself. This happened *when you believed* — not later, not after a special experience. The seal is permanent. The down payment is non-refundable.
 
 ### The Filling: Ongoing, Repeated, Commanded
 
 > "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
 
-The Greek *plērousthe* has three features that all matter:
+The Greek *plērousthe* is present tense (continuous: "keep on being filled"), passive voice (something done *to* you), and imperative mood (a command, not a suggestion). The sealing happened once and is permanent. The filling is ongoing, repeated, and commanded. Think of it like sails on a boat: the wind is always there. Your job is to raise the sails.
 
-- **Present tense** — continuous, repeated action: "keep on being filled"
-- **Passive voice** — something done *to* you, not something you generate
-- **Imperative mood** — a command, not a suggestion
-
-Being filled is not the same event as being sealed. The sealing happened once and is permanent. The filling is ongoing, repeated, and commanded. You can be filled today and need fresh filling tomorrow. Think of it like sails on a boat: the wind is always there. Your job is to raise the sails.
-
-### The Crucial Distinction
-
-Here is where the breakthrough happens for most people:
-
-**The seal is about your identity.** You belong to God. That is settled.
-
-**The filling is about your experience.** You are walking under His influence — or you're not. That is daily.
-
-So when someone asks, "Do I need a second baptism?" — the answer depends on what they mean. If they mean "Do I need the Spirit to come and live in me again?" — no. He already lives in you. The seal holds. If they mean "Am I living under the Spirit's full influence and power?" — that is a different question, and the answer for most of us is: *not as much as we could be.*
+**The seal is about your identity.** You belong to God. That is settled. **The filling is about your experience.** You are walking under His influence — or you're not. That is daily. So when someone asks, "Do I need a second baptism?" — it depends on what they mean. "Do I need the Spirit to come and live in me again?" — no, the seal holds. "Am I living under His full influence?" — that is a different question, and the answer for most of us is: *not as much as we could be.*
 
 ===
 ## What Acts Shows Us: The Spirit Moves Sovereignly
 
-Acts is where the debate gets complicated — because the Spirit does not follow the same sequence every time. Here are the four key cases:
+Acts is where the debate gets complicated — because the Spirit does not follow the same sequence every time:
 
-**Pentecost — Jews (Acts 2:1-4, 38):**
+> "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them." (**Acts 2:4, NIV**) — Pentecost: Repent → Baptize → Receive Spirit.
 
-> "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them." Peter replied, "Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit." (**Acts 2:4, 38, NIV**)
+> "The Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus." (**Acts 8:16, NIV**) — Samaritans: Believe → Baptize → (gap) → Spirit comes later with the apostles.
 
-Sequence: Repent → Baptize → Receive Spirit. The Spirit comes *after* baptism.
+> "While Peter was still speaking... the Holy Spirit came on all who heard the message... Then Peter said, 'Surely no one can stand in the way of their being baptized with water.'" (**Acts 10:44, 47, NIV**) — Cornelius: Spirit falls *before* baptism. Everything reversed.
 
-**Samaritans (Acts 8:15-17):**
+> "'Did you receive the Holy Spirit when you believed?' They answered, 'No, we have not even heard that there is a Holy Spirit.'" (**Acts 19:2, NIV**) — Ephesus: Partial faith → Re-baptize → Spirit comes with laying on of hands.
 
-> "When they arrived, they prayed for the new believers there that they might receive the Holy Spirit, because the Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus. Then Peter and John placed their hands on them, and they received the Holy Spirit." (**Acts 8:15-17, NIV**)
+The Spirit falls before baptism, after baptism, with the apostles, without the apostles, with tongues, without tongues. Luke is not giving us a formula. He is narrating the Spirit's *sovereign, unpredictable movement* as the gospel crosses ethnic and geographic barriers — Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit does not come so individuals can have a spiritual experience. He comes so the gospel can go further — so that the new-creation community can expand across every barrier that sin erected. Forcing all four into a single template is harmonization, not exegesis.
 
-Sequence: Believe → Baptize → (gap) → Spirit comes with the apostles. They were already baptized believers, but the Spirit had *not yet come on any of them*.
-
-**Cornelius — Gentiles (Acts 10:44-48):**
-
-> "While Peter was still speaking these words, the Holy Spirit came on all who heard the message. The circumcised believers who had come with Peter were astonished that the gift of the Holy Spirit had been poured out even on Gentiles. For they heard them speaking in tongues and praising God. Then Peter said, 'Surely no one can stand in the way of their being baptized with water.'" (**Acts 10:44-48, NIV**)
-
-Sequence: Hear the gospel → Spirit falls *before* baptism. Everything is reversed.
-
-**Ephesus (Acts 19:2-6):**
-
-> "Paul asked them, 'Did you receive the Holy Spirit when you believed?' They answered, 'No, we have not even heard that there is a Holy Spirit.'... When Paul placed his hands on them, the Holy Spirit came on them, and they spoke in tongues and prophesied." (**Acts 19:2, 6, NIV**)
-
-Sequence: Partial faith → Re-baptize → Spirit comes with laying on of hands.
-
-If Acts is supposed to give us one correct sequence, it is remarkably inconsistent about it. The Spirit falls before baptism, after baptism, with the apostles, without the apostles, with tongues, without tongues. Luke is not giving us a formula. He is narrating the Spirit's *sovereign, unpredictable movement* as the gospel crosses ethnic and geographic barriers.
-
-Every "problem case" is also a barrier-crossing: Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit's arrival in each case is God's endorsement of that crossing — and God's commission for the next stage of His kingdom mission. The Spirit does not come so individuals can have a spiritual experience. He comes so the gospel can go further — so that the new-creation community can expand across every ethnic, geographic, and social barrier that sin erected. Forcing all four into a single template is harmonization, not exegesis.
-
-===
+---
 ## The Three Protestant Positions
 
 ### View 1 — One Event (Reformed / Presbyterian / Baptist)
 
 > "For in one Spirit we were all baptized into one body — Jews or Greeks, slaves or free — and all were made to drink of one Spirit." (**1 Corinthians 12:13, ESV**)
 
-> "And if anyone does not have the Spirit of Christ, they do not belong to Christ." (**Romans 8:9, NIV**)
+"We were ALL baptized" — universal. Paul includes every Corinthian Christian — even the immature ones he has spent eleven chapters correcting. Spirit baptism is the Spirit's act of incorporating you into Christ at conversion. Romans 8:9 makes it binary: you have the Spirit or you don't belong to Christ. Ephesians 1:13 places the sealing at the moment of believing. The unusual cases in Acts are exceptional transitional events, not the normal pattern for all time.
 
-> "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit." (**Ephesians 1:13, ESV**)
+**Strength:** Paul's corporate language is hard to read as anything other than a universal, once-for-all Spirit reception at conversion. The Spirit creates a people, not just saved individuals.
 
-"We were ALL baptized" — this is universal. Paul includes every Corinthian Christian — even the spiritually immature ones he has spent eleven chapters correcting. Spirit baptism is not a second event for the spiritually advanced. It is the Spirit's act of incorporating you into Christ at the moment of conversion. Romans 8:9 makes it binary: you either have the Spirit or you don't belong to Christ. Ephesians 1:13 places the sealing at the moment of believing. Three texts, one conclusion: if you are a Christian, the Spirit already baptized you into the body.
-
-And notice Paul's emphasis: the Spirit baptizes us *into one body* — Jews and Greeks, slaves and free. The Spirit does not just save individuals. He constitutes a community. The same act that seals you also knits you into the body. The unusual cases in Acts are exceptional transitional events during a unique historical period (the gospel crossing from Jews to Samaritans to Gentiles), not the normal pattern for all time.
-
-**Strength:** These three Pauline texts are very hard to read as describing anything other than a universal, once-for-all Spirit reception at conversion. This view takes Paul's corporate language seriously — the Spirit creates a people, not just saved individuals.
-
-**Risk:** This view can lead to complacency — "I got the Spirit at conversion, so there's nothing more to seek." Paul's command to "keep being filled" (Ephesians 5:18) argues otherwise. If the Spirit's empowering work is reduced to a theological fact about conversion, the lived experience of the Spirit — the thing Acts is most interested in — can quietly disappear from church life.
+**Risk:** This view can lead to complacency. If the Spirit's empowering work is reduced to a theological fact about conversion, the lived experience of the Spirit — the thing Acts is most interested in — can quietly disappear from church life.
 
 ### View 2 — Distinct Empowerment (Pentecostal / Charismatic)
 
@@ -150,37 +106,33 @@ And notice Paul's emphasis: the Spirit baptizes us *into one body* — Jews and 
 
 > "John baptized with water, but in a few days you will be baptized with the Holy Spirit." (**Acts 1:5, NIV**)
 
-> "When they arrived, they prayed for the new believers there that they might receive the Holy Spirit, because the Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus." (**Acts 8:15-16, NIV**)
+> "The Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus." (**Acts 8:16, NIV**)
 
-John the Baptist's contrast between water and Spirit baptism is the foundation — preserved in all four Gospels. These are simply two different things. Jesus repeated the distinction in Acts 1:5. And then Acts shows it in action: the Samaritans had believed, been baptized, and yet the Spirit had *not yet come on any of them*. Something happens in these encounters that is different from conversion — and it is available to all believers. The experiences themselves — which millions of Christians across cultures and centuries have reported — are not reducible to theology. People encounter the living God in ways that change them.
+John the Baptist's contrast between water and Spirit baptism is the foundation — preserved in all four Gospels. Jesus repeated the distinction right before the ascension. Acts shows it in action: the Samaritans had believed, been baptized, and yet the Spirit had *not yet come on any of them*. Something happens in these encounters that is different from conversion — and it is available to all believers.
 
-Within this broad camp, there are important differences. **Classical Pentecostals** (Assemblies of God, Church of God in Christ) teach that tongues are the *initial physical evidence* of Spirit baptism — the sign that confirms the experience has occurred. **Charismatics and Third Wave** movements (Vineyard, many non-denominational churches) affirm the same powerful encounters but do not require tongues as the confirming sign — the Spirit distributes gifts as He wills, and the evidence may be prophecy, boldness, or other manifestations.
+Within this camp, **Classical Pentecostals** teach that tongues are the *initial physical evidence* of Spirit baptism. **Charismatics and Third Wave** movements affirm the same encounters but do not require tongues — the Spirit distributes gifts as He wills.
 
-The most serious Pentecostal theology goes further still. Frank Macchia argues that Spirit baptism is not primarily about individual empowerment at all — it is about the *future breaking into the present*. When the Spirit falls, He brings the coming kingdom with Him. Tongues at Pentecost are a sign of that future arriving — the reversal of Babel, the first fruits of a world where every barrier falls. On this reading, Spirit baptism is not a second step on a personal salvation timeline. It is being caught up in what God is doing to renew the entire world. The power you receive is not power *for you* — it is the power of the age to come flowing through you into the present.
+The most serious Pentecostal theology (Frank Macchia) goes further: Spirit baptism is about the *future breaking into the present*. When the Spirit falls, He brings the coming kingdom with Him — the reversal of Babel, the first fruits of a world where every barrier falls. The power you receive is not power *for you* — it is the power of the age to come flowing through you.
 
-**Strength:** The distinction between water baptism and Spirit baptism is made by John the Baptist and Jesus Himself. Acts 8 narrates believers who were baptized but had not received the Spirit — this does not fit neatly into "everything happened at conversion." And the eschatological reading (Macchia) connects Spirit baptism to the church's mission in a way that resists privatized spirituality — the Spirit empowers a community to embody the coming kingdom, not just individuals to feel powerful.
+**Strength:** The water/Spirit distinction is made by John the Baptist and Jesus Himself. Acts 8 narrates believers who were baptized but had not received the Spirit. The eschatological reading connects Spirit baptism to the church's mission — the Spirit empowers a community to embody the coming kingdom, not just individuals to feel powerful.
 
-**Risk:** The deeper danger is experience-dependency — measuring your walk with God by the intensity of your last encounter rather than by the faithfulness of your daily life. When the encounter fades (and it will), people can feel abandoned by the Spirit rather than called to persevere. The "initial evidence" doctrine compounds this: Paul's rhetorical "Do ALL speak in tongues?" (1 Corinthians 12:30, expected answer: No) is difficult to reconcile with tongues as the universal confirming sign. If Spirit baptism is a second event that only some believers receive, it can create two tiers of Christians — and the pressure to produce a specific gift can become spiritually damaging. The eschatological reading (Macchia) avoids the two-tier problem but is harder to communicate in everyday pastoral contexts.
+**Risk:** The deeper danger is experience-dependency — measuring your walk with God by the intensity of your last encounter rather than by daily faithfulness. Paul's "Do ALL speak in tongues?" (1 Cor 12:30, expected answer: No) is difficult to reconcile with tongues as the universal sign. The pressure to produce a specific gift can become spiritually damaging.
 
 ### View 3 — Many Fillings (The Tabernacle View)
 
-> "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
-
-> "And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption." (**Ephesians 4:30, NIV**)
-
-> "Do not quench the Spirit." (**1 Thessalonians 5:19, ESV**)
+> "Do not get drunk with wine... but be filled with the Spirit." (**Ephesians 5:18, ESV**) — "Do not grieve the Holy Spirit of God." (**Ephesians 4:30, NIV**) — "Do not quench the Spirit." (**1 Thessalonians 5:19, ESV**)
 
 > "They were all filled with the Holy Spirit and spoke the word of God boldly." (**Acts 4:31, NIV** — the same disciples who were filled at Pentecost, filled again)
 
-Paul commands ongoing filling (Ephesians 5:18 — present tense, passive voice, imperative mood: "keep on being filled"). He warns against grieving the Spirit (Ephesians 4:30) and quenching Him (1 Thessalonians 5:19). And Acts shows the same people filled multiple times — the Pentecost disciples filled again in Acts 4:31 when they prayed under threat. The biblical pattern is not one filling or two — it is a *lifetime* of being filled, grieved or quenched by sin, and filled again.
+Paul commands ongoing filling (Eph 5:18), warns against grieving (Eph 4:30) and quenching (1 Thess 5:19) the Spirit, and Acts shows the same people filled multiple times. The pattern is not one filling or two — it is a *lifetime* of being filled, grieved or quenched by sin, and filled again.
 
-The Tabernacle analogy illuminates this. The structure existed before the glory filled it. The glory filled it completely at dedication. But the glory could also depart when Israel sinned (Ezekiel 10:18-19). Under the new covenant, the Spirit does not *leave* (the seal holds — Ephesians 4:30), but His active influence can be grieved and quenched. A grieved Spirit is still present — but His power is muffled. This means you do not need a "second baptism" — you need to be *continually filled*. Powerful encounters with the Spirit — the kind Pentecostals call "Spirit baptism" — are real and should not be dismissed. They may be moments of fresh filling, breakthrough surrender, or the Spirit breaking through walls you did not know you had built. But the filling is not primarily for your benefit — the Spirit fills you for *mission*, to be a kingdom agent in the world.
+The Tabernacle analogy illuminates this: the structure existed before the glory filled it, and the glory could depart when Israel sinned (Ezek 10:18-19). Under the new covenant, the Spirit does not *leave* (the seal holds), but His active influence can be grieved and quenched — present but muffled. You do not need a "second baptism" — you need to be *continually filled*. Powerful encounters with the Spirit are real and should not be dismissed — they may be moments of fresh filling or breakthrough surrender. But the filling is not primarily for your benefit — the Spirit fills you for *mission*.
 
-**Strength:** This view honors the Reformed insistence on the Spirit's universal presence in every believer (the seal holds) while also honoring the Pentecostal insistence that the Spirit's power is meant to be *experienced*, not just believed (the filling is ongoing). Acts 4:31 demonstrates the pattern directly — same people, fresh filling, outward mission.
+**Strength:** This view honors the Reformed insistence on the Spirit's universal presence (the seal holds) while honoring the Pentecostal insistence that the Spirit's power is meant to be *experienced* (the filling is ongoing). Acts 4:31 demonstrates the pattern — same people, fresh filling, outward mission.
 
-**Risk:** The Tabernacle pattern is an analogy, not an exegetical argument. It is suggestive and illuminating, but you cannot build doctrine on typology the way you can on direct statements. This view can also become a comfortable middle that avoids the sharpest claims of both sides — telling the Reformed they should seek more while telling the Pentecostals they are basically right but using the wrong vocabulary. Both sides may feel they are being managed rather than heard.
+**Risk:** The Tabernacle pattern is an analogy, not an exegetical argument — suggestive but not probative. This view can also become a comfortable middle that avoids the sharpest claims of both sides. Both may feel they are being managed rather than heard.
 
-**This handout leans toward View 3** — not because the other views lack biblical support, but because the seal/filling distinction gives the clearest practical framework for people who are wrestling with what the Spirit is doing in their lives. If you find View 1 or View 2 more faithful to the text, this handout has tried to represent them honestly enough for you to hold your position with integrity.
+**This handout leans toward View 3** — not because the other views lack biblical support, but because the seal/filling distinction gives the clearest practical framework. If you find View 1 or View 2 more faithful to the text, this handout has tried to represent them honestly enough for you to hold your position with integrity.
 
 ===
 ## Do We Need a Third Baptism? A Fourth?
