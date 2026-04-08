@@ -134,7 +134,7 @@ If Section III presents the strongest biblical case for divine responsiveness, t
 
 > Thus says the LORD to his anointed, to Cyrus, whose right hand I have grasped, to subdue nations before him... (**Isaiah 45:1**, ESV)
 
-Isaiah wrote in the 8th century BC. Cyrus the Great conquered Babylon and issued his decree releasing the Jewish exiles in 539 BC — approximately 150 years later. The text names him by name, describes his specific role in releasing the captives, and specifies the rebuilding of Jerusalem and the temple. This is not a general prediction of restoration; it is a named, historically verifiable fulfillment of a specific prophecy.
+Isaiah wrote in the 8th century BC. Cyrus the Great conquered Babylon and issued his decree releasing the Jewish exiles in 539 BC — approximately 150 years later. The text names him by name, describes his specific role in releasing the captives, and specifies the rebuilding of Jerusalem and the temple. This is not a general prediction of restoration; it is a named, historically verifiable fulfillment.
 
 ### All Our Days Written Before We Were Born
 
@@ -168,7 +168,7 @@ The consistent testimony is not that God responds skillfully to unfolding events
 
 ### The Takeaway
 
-These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled* — the question is not whether God knows the future, but how, and what that means for human freedom and divine relationship.
+These passages are not easily dismissed as anthropomorphism. A named individual born 150 years after the prophecy, fulfilling it precisely — this is either genuine foreknowledge or the text is not historical. The cross planned before creation suggests the future is not merely *probable* for God but *settled* — the question is not whether God knows the future, but how and what that means for human freedom and relationship.
 
 ---
 ## V. Three Views on God and Time
