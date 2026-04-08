@@ -1158,12 +1158,20 @@ async function loadHandout(path) {
             return `___CODE_BLOCK_${codeBlocks.length - 1}___`;
         });
 
+        // Resolve relative image paths based on the document's directory
+        const docDir = path.substring(0, path.lastIndexOf('/') + 1);
+
         // Now apply inline formatting
         html = html
             // Bold
             .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
             // Italic (but not in blockquotes or list bullets)
             .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+            // Images (must come before links to avoid ![alt](src) being caught as link)
+            .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
+                const resolvedSrc = src.startsWith('http') ? src : docDir + src;
+                return `<img src="${resolvedSrc}" alt="${alt}" style="max-width:100%; height:auto; display:block; margin:0.15in auto;">`;
+            })
             // Links
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 
