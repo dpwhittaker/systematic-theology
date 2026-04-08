@@ -1378,3 +1378,47 @@ Replaced the brief 22-line section with a comprehensive 65-line treatment import
 
 **5. Further Study — added Wright:**
 N.T. Wright, *Paul and the Faithfulness of God* chs. 7-8; Wright, *After You Believe*
+
+## Baptism handout — 5-view analysis and scripture-forward restructure
+
+### Round 1 analysis (5 consensus issues identified):
+1. View 2 underdeveloped / straw man of Pentecostal position
+2. View 3 advocacy disguised as neutrality
+3. Pastoral sections asymmetric (Baptist gentle, Pentecostal condescending)
+4. Mission/corporate dimension underdeveloped throughout
+5. Tongues section disproportionate for a baptism handout
+
+### Round 1 revisions:
+- **View 2** expanded: Classical Pentecostal / Charismatic / Third Wave distinction; Macchia's eschatological reading ("future breaking into the present"); experience-dependency as deeper risk than tongues debate
+- **View 3** given honest risk section and explicit lean disclosure
+- **Pastoral sections** restructured with mirror framing ("harder question for our tradition"); both open with genuine respect before challenge
+- **Mission/corporate** woven structurally: Acts section, arrabōn as cosmic project (Eph 1:10), View 3 bullets, Bottom Line ("the filling is not for you"), both pastoral sections
+- **Tongues** trimmed from ~65 to ~20 lines, refocused on baptism question, pointer to Pneumatology handout
+
+### Round 2 analysis (5 remaining issues):
+1. Tabernacle framework placement gives View 3 structural priority
+2. Arrabōn reads as individual assurance rather than cosmic project
+3. View 2 risk focuses on tongues rather than experience-dependency
+4. "Third Baptism" section almost says views converge but doesn't land it
+5. Macchia paragraph too dense for lay readers
+
+### Round 2 revisions:
+- Tabernacle framing disclaimer: "this pattern does not settle the debate"
+- Arrabōn: "sealed into a project bigger than yourself" (Eph 1:10)
+- View 2 risk: experience-dependency leads, tongues compounds
+- Convergence paragraph: "the practical question is the same for everyone"
+- Macchia: "the future breaking into the present" / "power of the age to come flowing through you"
+
+### Round 3 analysis — equilibrium reached:
+All 5 reviewers satisfied with substance; remaining concerns are sentence-level and pull in opposite directions (items 2 and 5 are in tension). Moving further in any direction satisfies one at cost of another.
+
+### Scripture-forward restructure:
+- Every section that makes a theological point now leads with scripture blockquotes
+- Acts section: added full excerpts for all 4 cases (Pentecost, Samaritans, Cornelius, Ephesus)
+- Views restructured: scripture quotes → exegesis → conclusion → Strength → Risk
+- Tabernacle section: leads with Exodus 40:34, Colossians 2:9, 1 Cor 6:19 (three temples, one pattern)
+- "Third Baptism" section: leads with Acts 9:17, 13:9, 4:31
+- Tongues subsections: each leads with relevant text
+- Pastoral sections: each opens with scripture blockquote (1 Thess 5:19-21; 1 Cor 12:21, 11)
+
+Final handout: 297 lines, 13 page-break markers.

@@ -226,3 +226,9 @@ Before we make any changes, please go into further depth on the NT Wright concer
 ## Prompt 7
 
 Ok, these changes are worth making, but Romans 8 is too technical for the class. Let's mention it in the context that Romans 8:26 may not be about a private prayer language at all. In the context of verses 22 and 23, the groanings are global and creation-oriented, not private and prayer-oriented. This should be included in an expanded section on "What about tongues?" that imports more of the content from the Pneumatology handout.
+
+Re-evaluate the updated baptism-in-the-spirit handout with all 5 views: NT Wright, Baptist Theologian, Pentecostal Theologian, Baptist layman, Pentecostal layman.
+
+Address all concerns, then rerun the 5-view analysis and repeat until all views are equally offended and satisfied.
+
+Let's be a little more scripture-forward. Excerpt enough of the Acts passages to get the point across. In The Three Protestant Positions, each view should be structured as: <scripture quotes> <exegesis> <conclusion> Strength: <strengths> Risk: <risks>. In fact, for each section that makes a theological point, consider a variation of this basic structure.
