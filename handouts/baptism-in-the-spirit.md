@@ -4,7 +4,7 @@ This handout is for believers who are already following Jesus but wrestling with
 
 Our goal here is to let Scripture speak on its own terms — and to use biblical language rather than theological jargon to describe what the Spirit does. We are not going to settle a 500-year debate in a few pages. But we can understand what the debate is actually about, and more importantly, what we should *do* about it.
 
-===
+---
 ## The One Thing Everyone Agrees On
 
 Before the arguments start, the common ground is enormous. Paul writes:
@@ -13,7 +13,7 @@ Before the arguments start, the common ground is enormous. Paul writes:
 
 If you belong to Christ, the Spirit of God lives in you. Full stop. Not "might live in you." Not "will live in you once you have a second experience." *Lives in you.* Every Protestant tradition — Presbyterian, Baptist, Pentecostal, Charismatic, non-denominational — affirms this. The Spirit's presence is not a reward for advanced Christians. It is what makes you a Christian.
 
-===
+---
 ## What Jesus Said: Two Different Kinds of Language
 
 Jesus uses two kinds of language about the Spirit, and the tension between them is where the whole debate lives.
@@ -203,7 +203,7 @@ And here is where the three views may be closer than they appear. The Reformed b
 
 Keep being filled. Keep raising the sails. The wind never stops blowing.
 
-===
+---
 ## Why This Handout Avoids the Term "Spirit Baptism"
 
 The phrase "Spirit baptism" suggests one kind of event — an immersion. But Scripture uses a wider range: *sealed* (once), *filled* (repeatedly), *poured out* (Pentecost), *fell on* (Cornelius), *came on* (Ephesus). The Spirit's work is not one-size-fits-all because *our resistance is not one-size-fits-all*.
@@ -260,7 +260,7 @@ The God who parted the Red Sea, who raised the dead, who sent fire from heaven d
 
 Your tradition gave you something invaluable: reverence for the text, careful reasoning, and theological depth. Those are gifts. But gifts become idols when they replace the thing they were meant to serve. The Spirit of God tabernacles in you. The question is whether your careful theology has made room for Him to move — or whether it has become the wall that keeps Him contained.
 
-===
+---
 ## For Those of Us with Pentecostal Backgrounds
 
 > "The eye cannot say to the hand, 'I don't need you!' And the head cannot say to the feet, 'I don't need you!'... All these are the work of one and the same Spirit, and he distributes them to each one, just as he determines." (**1 Corinthians 12:21, 11, NIV**)
@@ -292,7 +292,7 @@ Stop building walls. Start raising sails.
 
 > "If we live by the Spirit, let us also keep in step with the Spirit." (**Galatians 5:25, ESV**)
 
-===
+---
 ## For Further Study
 
 **The Full Case:** The companion *Pneumatology* handout covers every topic here in much greater depth — the Spirit in the Old Testament, Jesus and the Spirit, Paul's letters, tongues, gifts, cessationism, and practical life in the Spirit.

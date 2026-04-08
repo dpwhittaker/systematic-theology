@@ -1430,3 +1430,14 @@ New section inserted between "Do We Need a Third Baptism?" and "What About Tongu
 - Honors both the dramatic flood-breakthrough and the quiet stillness-breakthrough as genuine Spirit encounters
 - Wind/sails metaphor: "Sometimes you need the sails completely rebuilt. Sometimes you just need to untangle a rope."
 - Neither side ranked — thick walls aren't worse, just different
+
+## Page-break pass: 15 → 10 pages
+
+Converted 5 `===` to `---` to merge sections that flow naturally together:
+1. Title/intro + "Everyone Agrees On" + "What Jesus Said" → Page 1 (90%)
+2. "Third Baptism?" + "Why Avoid the Term" → Page 7 (84%)
+3. "Traditional Backgrounds" + "Pentecostal Backgrounds" → Page 9 (82%)
+4. "Bottom Line" + "Further Study" → Page 10 (67%)
+5. First break after intro removed to merge with common-ground section
+
+Final: 10 pages, even count for double-sided printing. Tightest page is Views (96%), lightest is Tabernacle (41%).
