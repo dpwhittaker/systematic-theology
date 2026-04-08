@@ -49,7 +49,11 @@ This is where the debate begins.
 
 > "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God?" (**1 Corinthians 6:19, NIV**)
 
-Three temples. One pattern. The Tabernacle (*mishkan*) existed before the glory filled it — construction first, consecration second, the glory filling third. Jesus was the ultimate fulfillment: the Second Adam (Luke 1:35; 1 Cor 15:45-47), free from sin throughout His life (Heb 4:15), totally indwelt — the Shekinah glory walking on two legs. And then Paul tells *you* the same thing. The same Spirit who filled the mishkan and who filled Jesus has taken up residence in you. Not with the same intensity — sin grieves and quenches Him — but the same Spirit, the same presence, the same God.
+Three temples. One pattern. The Tabernacle (*mishkan*) existed before the glory filled it — construction first, consecration second, the glory filling third.
+
+**Jesus as the ultimate Tabernacle:** God created a Second Adam in Mary's womb (Luke 1:35; 1 Cor 15:45-47), free from sin throughout His entire life (Heb 4:15). Because nothing in Him resisted or grieved God's Spirit, the result was total indwelling — the Shekinah glory walking on two legs.
+
+**You as a tabernacle:** The Spirit of God tabernacles in you just as He did in Jesus. Not with the same intensity — you are not sinless, and sin grieves and quenches the Spirit. But the same Spirit, the same Shekinah presence, the same God who filled the mishkan and who filled Jesus is the God who has taken up residence in you.
 
 This pattern does not settle the debate — the three views below interpret it differently. But instead of asking "Do I need a second baptism?" we might ask: **"How much of this Tabernacle is the glory filling?"**
 
@@ -77,13 +81,25 @@ The Greek *plērousthe* is present tense (continuous: "keep on being filled"), p
 
 Acts is where the debate gets complicated — because the Spirit does not follow the same sequence every time:
 
-> "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them." (**Acts 2:4, NIV**) — Pentecost: Repent → Baptize → Receive Spirit.
+**Pentecost — Jews (Acts 2):**
+> "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them." (**Acts 2:4, NIV**)
 
-> "The Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus." (**Acts 8:16, NIV**) — Samaritans: Believe → Baptize → (gap) → Spirit comes later with the apostles.
+Sequence: Repent → Baptize → Receive Spirit.
 
-> "While Peter was still speaking... the Holy Spirit came on all who heard the message... Then Peter said, 'Surely no one can stand in the way of their being baptized with water.'" (**Acts 10:44, 47, NIV**) — Cornelius: Spirit falls *before* baptism. Everything reversed.
+**Samaritans (Acts 8):**
+> "The Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus." (**Acts 8:16, NIV**)
 
-> "'Did you receive the Holy Spirit when you believed?' They answered, 'No, we have not even heard that there is a Holy Spirit.'" (**Acts 19:2, NIV**) — Ephesus: Partial faith → Re-baptize → Spirit comes with laying on of hands.
+Sequence: Believe → Baptize → (gap) → Spirit comes later with the apostles.
+
+**Cornelius — Gentiles (Acts 10):**
+> "While Peter was still speaking... the Holy Spirit came on all who heard the message... 'Surely no one can stand in the way of their being baptized with water.'" (**Acts 10:44, 47, NIV**)
+
+Sequence: Hear the gospel → Spirit falls *before* baptism. Everything reversed.
+
+**Ephesus (Acts 19):**
+> "'Did you receive the Holy Spirit when you believed?' They answered, 'No, we have not even heard that there is a Holy Spirit.'" (**Acts 19:2, NIV**)
+
+Sequence: Partial faith → Re-baptize → Spirit comes with laying on of hands.
 
 The Spirit falls before baptism, after baptism, with the apostles, without the apostles, with tongues, without tongues. Luke is not giving us a formula. He is narrating the Spirit's *sovereign, unpredictable movement* as the gospel crosses ethnic and geographic barriers — Jews → Samaritans → Gentiles → pre-Pentecost disciples. The Spirit does not come so individuals can have a spiritual experience. He comes so the gospel can go further — so that the new-creation community can expand across every barrier that sin erected. Forcing all four into a single template is harmonization, not exegesis.
 
@@ -100,6 +116,7 @@ The Spirit falls before baptism, after baptism, with the apostles, without the a
 
 **Risk:** This view can lead to complacency. If the Spirit's empowering work is reduced to a theological fact about conversion, the lived experience of the Spirit — the thing Acts is most interested in — can quietly disappear from church life.
 
+===
 ### View 2 — Distinct Empowerment (Pentecostal / Charismatic)
 
 > "I baptize you with water for repentance. But after me comes one who is more powerful than I... He will baptize you with the Holy Spirit and fire." (**Matthew 3:11, NIV**)

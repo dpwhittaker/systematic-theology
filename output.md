@@ -1464,3 +1464,12 @@ Final: 10 pages, even count for double-sided printing. Tightest page is Views (9
 - Gave Macchia's eschatological reading its own paragraph break
 - Page 4 now opens with Macchia, giving it visual weight
 - PDF still 8 pages (page 3: 91%, page 4: 62%)
+
+## Restored parallel Tabernacle paragraphs, Acts sequence lines, View 2 page break
+
+Three changes:
+1. Tabernacle section: restored "Jesus as tabernacle" / "You as tabernacle" parallel paragraphs (page 2: 74%→79%)
+2. Acts section: restored labeled sequence lines after each blockquote (page 3: 91%→78%)
+3. Added === before View 2 so Views 2+3 start their own page (page 4: 62%→87%)
+
+All pages now between 67-90%. Much better balance across the 8 pages.
