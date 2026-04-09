@@ -386,6 +386,8 @@ Negative prompt: `"text, words, letters, numbers, watermark, signature, bright s
 
 See `scripts/gen_bap_slides.py` for a complete working example including PIL text compositing.
 
+**Important:** Never recomposite text onto an existing composited PNG — the text will double. The generation pipeline always runs SDXL → PIL text in a single pass, writing directly to `storyboards/images/`. If only text changes, re-run the full generation script rather than attempting to composite over the saved file.
+
 ## Key Files
 
 - `index.html` - Static shell, injects content via JS
