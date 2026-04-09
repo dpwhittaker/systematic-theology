@@ -88,15 +88,13 @@ slides = [
         "id": "bap-ephesians-1-13",
         "prompt": "ancient rolled letter with red wax seal on dark stone table, single candle flame casting warm light, aged parchment texture, desaturated warm amber tones, moody dramatic lighting, still life, wide aspect ratio",
         "reference": "Ephesians 1:13-14",
-        "lines": [
-            '"...you were sealed with the promised Holy Spirit,',
-            'who is the guarantee of our inheritance."',
-        ],
+        "lines": ['"...you were sealed with the promised Holy Spirit, who is the guarantee of our inheritance."'],
     },
     {
         "id": "bap-ephesians-5-18",
         "prompt": "tall white sails fully billowing on dark open ocean at night, soft silver moonlight reflecting on calm water, desaturated blue-silver tones, minimal atmospheric composition, wide aspect ratio",
         "reference": "Ephesians 5:18",
+        # Two lines: the verse, then a translation note — kept separate intentionally
         "lines": [
             '"...be filled with the Spirit."',
             "[present tense \u2014 keep on being filled]",
@@ -106,91 +104,62 @@ slides = [
         "id": "bap-acts-8-16",
         "prompt": "mosaic artwork of many diverse faces from different nations and ethnicities, fragmented tile pattern, desaturated warm earth tones, dark background, painterly ancient style, wide aspect ratio",
         "reference": "Acts 8:16",
-        "lines": [
-            '"The Holy Spirit had not yet come on any of them;',
-            'they had simply been baptized in the name of the Lord Jesus."',
-        ],
+        "lines": ['"The Holy Spirit had not yet come on any of them; they had simply been baptized in the name of the Lord Jesus."'],
     },
     {
         "id": "bap-1-cor-12-13",
         "prompt": "aerial view looking down on three separate footpaths through dark forest converging toward a single distant warm light at the center, deeply desaturated, dark moody atmosphere, wide aspect ratio",
         "reference": "1 Corinthians 12:13",
-        "lines": [
-            '"We were all baptized by one Spirit',
-            'so as to form one body."',
-        ],
+        "lines": ['"We were all baptized by one Spirit so as to form one body."'],
     },
     {
         "id": "bap-matt-3-11",
         "prompt": "solitary figure standing in vast open field with tall grass bending visibly in wind, wide dramatic sky with scattered clouds, desaturated blue-gray tones, cinematic landscape, wide aspect ratio",
         "reference": "Matthew 3:11",
-        "lines": [
-            '"He will baptize you with the Holy Spirit and fire."',
-        ],
+        "lines": ['"He will baptize you with the Holy Spirit and fire."'],
     },
     {
         "id": "bap-acts-4-31",
         "prompt": "ancient stone vaulted chamber with warm golden light gradually filling from deep within, dark stone archways receding into distance, desaturated gold on dark stone, atmospheric, wide aspect ratio",
         "reference": "Acts 4:31",
-        "lines": [
-            '"They were all filled with the Holy Spirit',
-            'and spoke the word of God boldly."',
-        ],
+        "lines": ['"They were all filled with the Holy Spirit and spoke the word of God boldly."'],
     },
     {
         "id": "bap-galatians-5-25",
         "prompt": "lone person walking along an ordinary empty city street in early morning blue dawn light, long shadows, desaturated cool blue tones, cinematic wide shot, quiet atmospheric, wide aspect ratio",
         "reference": "Galatians 5:25",
-        "lines": [
-            '"If we live by the Spirit,',
-            'let us also keep in step with the Spirit."',
-        ],
+        "lines": ['"If we live by the Spirit, let us also keep in step with the Spirit."'],
     },
-    # --- original 5 slides (re-rendered with new text style) ---
+    # --- original 5 slides ---
     {
         "id": "romans-8-9",
         "prompt": "single candle flame reflecting on dark still water surface, photorealistic, desaturated deep navy blue tones, dark moody atmosphere, minimal composition, cinematic lighting, wide aspect ratio",
         "reference": "Romans 8:9",
-        "lines": [
-            '"If anyone does not have the Spirit of Christ,',
-            'they do not belong to Christ."',
-        ],
+        "lines": ['"If anyone does not have the Spirit of Christ, they do not belong to Christ."'],
     },
     {
         "id": "john-14-16",
         "prompt": "pair of open cupped hands reaching upward with soft warm ethereal light descending from above into palms, desaturated indigo purple tones, very dark background, painterly style, spiritual contemplative atmosphere, wide aspect ratio",
         "reference": "John 14:16-17",
-        "lines": [
-            '"He will give you another advocate to help you',
-            'and be with you forever \u2014 the Spirit of truth."',
-        ],
+        "lines": ['"He will give you another advocate to help you and be with you forever \u2014 the Spirit of truth."'],
     },
     {
         "id": "acts-1-8",
         "prompt": "dramatic golden rays of light breaking through dark storm clouds over a distant flat horizon at dawn, desaturated warm amber tones against dark sky, wide landscape, cinematic atmosphere, wide aspect ratio",
         "reference": "Acts 1:8",
-        "lines": [
-            '"You will receive power when the Holy Spirit',
-            'comes on you; and you will be my witnesses..."',
-        ],
+        "lines": ['"You will receive power when the Holy Spirit comes on you; and you will be my witnesses..."'],
     },
     {
         "id": "exodus-40-34",
         "prompt": "ancient desert tabernacle tent with a luminous glowing cloud descending from the sky onto the tent roof, desaturated gold and earth tones, dark atmospheric, biblical scene, painterly, wide aspect ratio",
         "reference": "Exodus 40:34",
-        "lines": [
-            '"The cloud covered the tent of meeting,',
-            'and the glory of the LORD filled the tabernacle."',
-        ],
+        "lines": ['"The cloud covered the tent of meeting, and the glory of the LORD filled the tabernacle."'],
     },
     {
         "id": "ephesians-4-30",
         "prompt": "ancient cracked red wax seal impression on dark aged parchment paper, visible fracture lines radiating from seal, warm muted earth tones, macro detail, moody dramatic lighting, still life, wide aspect ratio",
         "reference": "Ephesians 4:30",
-        "lines": [
-            '"Do not grieve the Holy Spirit of God,',
-            'with whom you were sealed for the day of redemption."',
-        ],
+        "lines": ['"Do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption."'],
     },
 ]
 
