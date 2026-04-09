@@ -12,50 +12,74 @@ pipe = StableDiffusionXLPipeline.from_pretrained(
 pipe = pipe.to("cuda")
 pipe.enable_attention_slicing()
 
+FONT_REF  = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+FONT_TEXT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+H_MARGIN  = 48   # pixels from each side — keeps glow off the edge
+
+
+def text_width(draw, text, font):
+    bb = draw.textbbox((0, 0), text, font=font)
+    return bb[2] - bb[0]
+
+
+def wrap_line(draw, text, font, max_w):
+    """Word-wrap a single string to fit within max_w pixels. Returns list of lines."""
+    words = text.split()
+    lines, current = [], ""
+    for word in words:
+        candidate = (current + " " + word).strip()
+        if text_width(draw, candidate, font) <= max_w:
+            current = candidate
+        else:
+            if current:
+                lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return lines or [text]
+
+
 def draw_with_glow(draw, pos, text, font, glow_radius=4):
-    """Draw white text with a black glow/stroke for legibility over any background."""
+    """Draw white text with a black glow for legibility over any background."""
     x, y = pos
-    # Draw black glow at all offsets within radius
     for dx in range(-glow_radius, glow_radius + 1):
         for dy in range(-glow_radius, glow_radius + 1):
             if dx == 0 and dy == 0:
                 continue
             draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0, 220))
-    # Draw white text on top
     draw.text((x, y), text, font=font, fill=(255, 255, 255, 255))
 
 
 def add_verse_text(image, reference, lines):
-    """Composite large white verse text with black glow, centered over the image."""
+    """Overlay verse text: large white with black glow, auto-wrapped, centered."""
     draw = ImageDraw.Draw(image, 'RGBA')
     w, h = image.size
+    avail_w = w - 2 * H_MARGIN
 
-    try:
-        font_ref = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 52)
-        font_text = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", 38)
-    except:
-        font_ref = ImageFont.load_default()
-        font_text = font_ref
+    font_ref  = ImageFont.truetype(FONT_REF,  52)
+    font_text = ImageFont.truetype(FONT_TEXT, 38)
 
-    line_height_ref = 60
-    line_height_text = 48
-    gap = 10  # gap between reference and quote lines
+    # Auto-wrap every quote line to available width
+    wrapped = []
+    for line in lines:
+        wrapped.extend(wrap_line(draw, line, font_text, avail_w))
 
-    total_height = line_height_ref + gap + line_height_text * len(lines)
-    y = (h - total_height) // 2  # vertically centered
+    lh_ref  = 62
+    lh_text = 50
+    gap     = 12
+    total_h = lh_ref + gap + lh_text * len(wrapped)
+    y = (h - total_h) // 2
 
-    # Reference line
-    ref_bbox = draw.textbbox((0, 0), reference, font=font_ref)
-    ref_w = ref_bbox[2] - ref_bbox[0]
-    draw_with_glow(draw, ((w - ref_w) // 2, y), reference, font_ref, glow_radius=4)
-    y += line_height_ref + gap
+    # Reference
+    rw = text_width(draw, reference, font_ref)
+    draw_with_glow(draw, (H_MARGIN + (avail_w - rw) // 2, y), reference, font_ref, glow_radius=4)
+    y += lh_ref + gap
 
     # Quote lines
-    for line in lines:
-        line_bbox = draw.textbbox((0, 0), line, font=font_text)
-        line_w = line_bbox[2] - line_bbox[0]
-        draw_with_glow(draw, ((w - line_w) // 2, y), line, font_text, glow_radius=3)
-        y += line_height_text
+    for line in wrapped:
+        lw = text_width(draw, line, font_text)
+        draw_with_glow(draw, (H_MARGIN + (avail_w - lw) // 2, y), line, font_text, glow_radius=3)
+        y += lh_text
 
     return image
 
@@ -120,6 +144,52 @@ slides = [
         "lines": [
             '"If we live by the Spirit,',
             'let us also keep in step with the Spirit."',
+        ],
+    },
+    # --- original 5 slides (re-rendered with new text style) ---
+    {
+        "id": "romans-8-9",
+        "prompt": "single candle flame reflecting on dark still water surface, photorealistic, desaturated deep navy blue tones, dark moody atmosphere, minimal composition, cinematic lighting, wide aspect ratio",
+        "reference": "Romans 8:9",
+        "lines": [
+            '"If anyone does not have the Spirit of Christ,',
+            'they do not belong to Christ."',
+        ],
+    },
+    {
+        "id": "john-14-16",
+        "prompt": "pair of open cupped hands reaching upward with soft warm ethereal light descending from above into palms, desaturated indigo purple tones, very dark background, painterly style, spiritual contemplative atmosphere, wide aspect ratio",
+        "reference": "John 14:16-17",
+        "lines": [
+            '"He will give you another advocate to help you',
+            'and be with you forever \u2014 the Spirit of truth."',
+        ],
+    },
+    {
+        "id": "acts-1-8",
+        "prompt": "dramatic golden rays of light breaking through dark storm clouds over a distant flat horizon at dawn, desaturated warm amber tones against dark sky, wide landscape, cinematic atmosphere, wide aspect ratio",
+        "reference": "Acts 1:8",
+        "lines": [
+            '"You will receive power when the Holy Spirit',
+            'comes on you; and you will be my witnesses..."',
+        ],
+    },
+    {
+        "id": "exodus-40-34",
+        "prompt": "ancient desert tabernacle tent with a luminous glowing cloud descending from the sky onto the tent roof, desaturated gold and earth tones, dark atmospheric, biblical scene, painterly, wide aspect ratio",
+        "reference": "Exodus 40:34",
+        "lines": [
+            '"The cloud covered the tent of meeting,',
+            'and the glory of the LORD filled the tabernacle."',
+        ],
+    },
+    {
+        "id": "ephesians-4-30",
+        "prompt": "ancient cracked red wax seal impression on dark aged parchment paper, visible fracture lines radiating from seal, warm muted earth tones, macro detail, moody dramatic lighting, still life, wide aspect ratio",
+        "reference": "Ephesians 4:30",
+        "lines": [
+            '"Do not grieve the Holy Spirit of God,',
+            'with whom you were sealed for the day of redemption."',
         ],
     },
 ]
