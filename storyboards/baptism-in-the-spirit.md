@@ -103,6 +103,8 @@
 
 **PT:** No. But it can become the excuse for His absence.
 
+**LAY:** That's my grandmother's church in one sentence.
+
 ---
 
 ## Sealed Once, Filled Continually
@@ -219,6 +221,8 @@
 
 **WRIGHT:** [smiles] Yes. That's rather what Paul means by "be filled." Stop grieving it. Stop quenching it. Raise the sails.
 
+**LAY:** I think I've been sitting in the boat waiting for a wind report.
+
 ---
 
 ## What Does This Mean on Monday?
@@ -258,6 +262,6 @@
 | WRIGHT | 15 | 560 | 5 | 1 | BT, PT | 1 |
 | BT | 17 | 490 | 3 | 2 | WRIGHT, PT | 1 |
 | PT | 17 | 460 | 4 | 2 | BT, WRIGHT | 1 |
-| LAY | 14 | 295 | 2 | 0 | — | 0 |
+| LAY | 16 | 320 | 2 | 0 | — | 4 |
 
-**Balance notes:** LAY's contributions are appropriately short and question-driven, with one longer testimony moment (the "walls just came down" line in the Tabernacle section). BT concedes to PT on tongues-as-evidence and on the Corinthians critique. PT concedes to BT on Acts 8 transitional features and on problematic church practices. WRIGHT is challenged by BT on the analogy-as-argument point and implicitly by PT on whether the Spirit's irregularity has theological significance. LAY does not get the last word in any section — consider giving her a stronger closing challenge to one of the theologians in a future revision.
+**Balance notes:** LAY closes 4 of 7 sections — Common Ground, Two Kinds of Language, The Tabernacle Pattern, and Three Views. Her closers range from dawning realization ("Oh. That's actually a big difference") to dry humor ("Great, so we're already stuck") to devastating compression ("That's my grandmother's church in one sentence") to self-aware metaphor ("I've been sitting in the boat waiting for a wind report"). BT concedes to PT on tongues-as-evidence and on the Corinthians critique. PT concedes to BT on Acts 8 transitional features and on problematic church practices. WRIGHT is challenged by BT on the analogy-as-argument point and implicitly by PT on whether the Spirit's irregularity has theological significance.
