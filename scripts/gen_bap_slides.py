@@ -12,36 +12,50 @@ pipe = StableDiffusionXLPipeline.from_pretrained(
 pipe = pipe.to("cuda")
 pipe.enable_attention_slicing()
 
+def draw_with_glow(draw, pos, text, font, glow_radius=4):
+    """Draw white text with a black glow/stroke for legibility over any background."""
+    x, y = pos
+    # Draw black glow at all offsets within radius
+    for dx in range(-glow_radius, glow_radius + 1):
+        for dy in range(-glow_radius, glow_radius + 1):
+            if dx == 0 and dy == 0:
+                continue
+            draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0, 220))
+    # Draw white text on top
+    draw.text((x, y), text, font=font, fill=(255, 255, 255, 255))
+
+
 def add_verse_text(image, reference, lines):
-    """Composite verse text onto bottom of image with semi-transparent backdrop."""
+    """Composite large white verse text with black glow, centered over the image."""
     draw = ImageDraw.Draw(image, 'RGBA')
     w, h = image.size
 
     try:
-        font_ref = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 24)
-        font_text = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", 19)
+        font_ref = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 52)
+        font_text = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", 38)
     except:
         font_ref = ImageFont.load_default()
         font_text = font_ref
 
-    line_height = 28
-    total_lines = 1 + len(lines)
-    block_height = total_lines * line_height + 30
+    line_height_ref = 60
+    line_height_text = 48
+    gap = 10  # gap between reference and quote lines
 
-    backdrop_y = h - block_height - 10
-    draw.rectangle([(0, backdrop_y), (w, h)], fill=(0, 0, 0, 160))
+    total_height = line_height_ref + gap + line_height_text * len(lines)
+    y = (h - total_height) // 2  # vertically centered
 
-    y = backdrop_y + 15
+    # Reference line
     ref_bbox = draw.textbbox((0, 0), reference, font=font_ref)
     ref_w = ref_bbox[2] - ref_bbox[0]
-    draw.text(((w - ref_w) / 2, y), reference, fill=(210, 210, 230), font=font_ref)
-    y += line_height + 4
+    draw_with_glow(draw, ((w - ref_w) // 2, y), reference, font_ref, glow_radius=4)
+    y += line_height_ref + gap
 
+    # Quote lines
     for line in lines:
         line_bbox = draw.textbbox((0, 0), line, font=font_text)
         line_w = line_bbox[2] - line_bbox[0]
-        draw.text(((w - line_w) / 2, y), line, fill=(180, 180, 200), font=font_text)
-        y += line_height
+        draw_with_glow(draw, ((w - line_w) // 2, y), line, font_text, glow_radius=3)
+        y += line_height_text
 
     return image
 
