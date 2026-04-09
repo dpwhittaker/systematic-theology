@@ -174,13 +174,17 @@ Recommended upgrades: Roboto Mono, Fira Code, or Atkinson Hyperlegible for bette
 
 ### Running the Application
 
-This is a static site with no build process. **Start a background dev server automatically at the beginning of every session:**
+This is a static site with no build process. The dev server is managed by systemd as `systematic-theology.service` and starts automatically at Windows boot (via the existing `\Boot WSL at startup` Task Scheduler entry → WSL2 → systemd). **No manual startup is needed — it should already be running.** To check / control:
 ```bash
-cd /home/david/projects/systematic-theology && nohup python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/http_server.log 2>&1 & disown
+systemctl status systematic-theology.service
+sudo systemctl restart systematic-theology.service   # after edits that need a server reload (rare — static files don't need it)
+journalctl -u systematic-theology.service -f          # tail logs
 ```
-Then open: http://localhost:8000
+The unit file is at `/etc/systemd/system/systematic-theology.service` and binds `127.0.0.1:8000` as user `david` with `Restart=always`. Then open: http://localhost:8000
 
-**Port 8000 is also the backend for Tailscale HTTPS serving.** The Windows tailscale daemon runs a persistent `tailscale serve --https=443 http://localhost:8000` config that fronts this same port with a publicly trusted Let's Encrypt cert and exposes the site to the tailnet over HTTPS. The TLS side auto-renews and survives reboots; only the Python backend needs to be restarted per session. See the user's global `~/.claude/CLAUDE.md` for the tailnet FQDN and the full serve setup. Don't tear down port 8000 casually if other devices on the tailnet are using the site.
+**Port 8000 is also the backend for Tailscale HTTPS serving.** The Windows tailscale daemon runs a persistent `tailscale serve --https=443 http://localhost:8000` config that fronts this same port with a publicly trusted Let's Encrypt cert and exposes the site to the tailnet over HTTPS. Both the TLS side and the Python backend now survive reboots and WSL2 restarts. Don't tear down port 8000 casually if other devices on the tailnet are using the site.
+
+**WSL2 networking note:** this machine runs WSL2 in `networkingMode=Mirrored` (see `/mnt/c/Users/David/.wslconfig`), so Windows and WSL2 share the network stack. Any Windows-side process binding port 8000 will conflict with the WSL2 systemd unit (and vice versa). If the service fails with `EADDRINUSE`, check the Windows side first: `/mnt/c/Windows/System32/netstat.exe -ano | grep :8000`.
 
 **Self-loopback gotcha:** curl-ing the tailnet HTTPS hostname from inside WSL2 fails with "connection refused" — the 443 bind lives on the Windows tailscale virtual interface, which WSL2 can't route to directly. Test from another tailnet peer, from Windows (`/mnt/c/Windows/System32/curl.exe ...`), or just hit `http://127.0.0.1:8000/` locally. This is expected, not broken.
 
