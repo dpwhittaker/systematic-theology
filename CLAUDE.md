@@ -174,11 +174,17 @@ Recommended upgrades: Roboto Mono, Fira Code, or Atkinson Hyperlegible for bette
 
 ### Running the Application
 
-This is a static site with no build process. **Start a background dev server automatically at the beginning of every session** (run from the Windows Bash tool, not WSL):
+This is a static site with no build process. **Start a background dev server automatically at the beginning of every session:**
 ```bash
-cd "D:/Projects/systematic-theology" && python3 -m http.server 8000 &
+cd /home/david/projects/systematic-theology && nohup python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/http_server.log 2>&1 & disown
 ```
 Then open: http://localhost:8000
+
+**Port 8000 is also the backend for Tailscale HTTPS serving.** The Windows tailscale daemon runs a persistent `tailscale serve --https=443 http://localhost:8000` config that fronts this same port with a publicly trusted Let's Encrypt cert and exposes the site to the tailnet over HTTPS. The TLS side auto-renews and survives reboots; only the Python backend needs to be restarted per session. See the user's global `~/.claude/CLAUDE.md` for the tailnet FQDN and the full serve setup. Don't tear down port 8000 casually if other devices on the tailnet are using the site.
+
+**Self-loopback gotcha:** curl-ing the tailnet HTTPS hostname from inside WSL2 fails with "connection refused" — the 443 bind lives on the Windows tailscale virtual interface, which WSL2 can't route to directly. Test from another tailnet peer, from Windows (`/mnt/c/Windows/System32/curl.exe ...`), or just hit `http://127.0.0.1:8000/` locally. This is expected, not broken.
+
+**Current exposure:** tailnet-private only. Public exposure via Tailscale Funnel or Cloudflare Tunnel was evaluated and deferred — we're keeping the site behind the tailnet for now. If that changes, Funnel is a one-command flip (same FQDN, reuses the existing `tailscale serve` config).
 
 ### Adding New Content
 
@@ -290,7 +296,7 @@ Each category is one paragraph line. Apply this format to all reference/further-
 
 ## GPU / ML Workloads
 
-This machine IS the GPU server. The WSL2 environment (Ubuntu 24.04) has the GPU, ML tools, and Python venv. No SSH required — run ML commands directly in WSL from the Bash tool.
+This machine IS the GPU server. Claude Code runs natively inside the WSL2 environment (Ubuntu 24.04), which owns the GPU, the ML tools, and the Python venv. No SSH, no `wsl bash -c` wrapper — just run commands directly.
 
 ### Hardware
 
@@ -302,23 +308,15 @@ This machine IS the GPU server. The WSL2 environment (Ubuntu 24.04) has the GPU,
 
 ### Running ML Commands
 
-**Always run synchronously** — do NOT attempt to background ML processes with `nohup`, `setsid`, or `&`. WSL processes launched from the Bash tool are killed when the calling session exits, so backgrounding silently fails. Use `timeout: 600000` and run synchronously instead:
+Activate the venv, then run Python directly. Backgrounding with `nohup ... & disown` works normally for long jobs:
 
 ```bash
-wsl bash -c "source ~/ml-env/bin/activate && python3 /path/to/script.py 2>&1"
+source ~/ml-env/bin/activate && python3 /path/to/script.py
 ```
 
-The RTX 4080 is fast enough (~3s/image for SDXL, <30s for short TTS) that waiting is fine.
+The RTX 4080 is fast enough (~3s/image for SDXL, <30s for short TTS) that most inference can run synchronously. For multi-minute TTS jobs, use `nohup` and poll the log.
 
-For scripts that write output to the Windows filesystem, use the WSL mount path:
-- Windows `D:\Projects\...` → WSL `/mnt/d/Projects/...`
-
-### What Runs Where
-
-- **WSL (GPU):** SDXL image generation, TTS inference, any PyTorch/CUDA work
-- **Windows Bash tool:** File editing, git, FFmpeg compositing, dev server, orchestration
-
-### Installed Software (Server)
+### Installed Software
 
 - Python 3.12 (venv at `~/ml-env` — always `source ~/ml-env/bin/activate` before running Python)
 - CUDA Toolkit 12.8 (paths in `~/.bashrc`)
@@ -374,10 +372,10 @@ Storyboards are routed through the same `loadHandout()` path as handouts (detect
 
 ### Image Generation
 
-Scripts live in `scripts/` and write directly to `storyboards/images/` via the WSL mount path. Run synchronously (see GPU section — backgrounding does not work from the Bash tool):
+Scripts live in `scripts/` and write directly to `storyboards/images/`. Run directly from WSL:
 
 ```bash
-wsl bash -c "source ~/ml-env/bin/activate && python3 /mnt/d/Projects/systematic-theology/scripts/gen_slides.py 2>&1"
+source ~/ml-env/bin/activate && python3 scripts/gen_bap_slides.py
 ```
 
 SDXL settings: 800x448, 30 inference steps, guidance_scale 7.5, fp16. ~3 seconds per image on RTX 4080.
