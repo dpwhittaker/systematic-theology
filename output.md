@@ -1473,3 +1473,5 @@ Three changes:
 3. Added === before View 2 so Views 2+3 start their own page (page 4: 62%→87%)
 
 All pages now between 67-90%. Much better balance across the 8 pages.
+
+Created storyboards/baptism-in-the-spirit.md — 7-section panel discussion covering: The Common Ground, Two Kinds of Language, The Tabernacle Pattern, Sealed Once/Filled Continually, What Acts Shows Us, Three Views, and What Does This Mean Monday. Reused 5 existing slide images; 7 new image placeholders added. Voice casting noted in metadata comment. Equilibrium report included. Opened at http://localhost:8000/#storyboards/baptism-in-the-spirit.md in Chrome.
