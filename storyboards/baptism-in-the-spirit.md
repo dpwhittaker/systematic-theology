@@ -2,6 +2,25 @@
 <!-- topic: handouts/baptism-in-the-spirit.md -->
 <!-- voices: WRIGHT, BT, PT, LAY -->
 <!-- casting: WRIGHT=deep British male academic; BT=confident woman; PT=educated passionate man; LAY=inquisitive 20-something woman -->
+<!-- pseudonyms: WRIGHT=Professor Arkwright, BT=Dr. Felicity Creed, PT=Pastor Azusa, LAY=Jordan -->
+
+---
+
+## Introductions
+
+> [!slide]
+> **background:** four empty chairs in a dark studio, warm low side-lighting from left, sparse and contemplative, desaturated
+> **text:** **Baptism in the Spirit** — A Panel Discussion
+
+![slide](images/bap-intro.png)
+
+**WRIGHT:** I'm Professor Arkwright — biblical theology, Second Temple Judaism, and the question of how Israel's story arrives at its fulfillment in Christ and the Spirit. I find that most arguments about the Spirit dissolve when you read Paul the way Paul read his Bible. My colleagues will correct me if I'm wrong, and they will.
+
+**BT:** Dr. Felicity Creed. I pastor a Baptist church and teach systematic theology. My instinct is always to go back to the text — what does it actually say, in its grammar, in its context, in the canon as a whole? That's not a way of avoiding the Spirit. It's a way of honoring Him.
+
+**PT:** Pastor Azusa. I lead a charismatic congregation and I've done doctoral work in pneumatology. I'm here because I think the Western church has domesticated the Holy Spirit into a theological concept — and I'd like us to consider that He might object to that.
+
+**LAY:** I'm Jordan. Grew up Baptist — Bible drill champion, three years running, which I mention only because it means I know the book. But about two years ago something happened at a friend's church that my theology didn't have a category for. I'm here for the category.
 
 ---
 
@@ -259,9 +278,9 @@
 
 | Voice | Lines | Words | Initiates | Concedes | Challenged By | Last Word |
 |-------|-------|-------|-----------|----------|---------------|-----------|
-| WRIGHT | 15 | 560 | 5 | 1 | BT, PT | 1 |
-| BT | 17 | 490 | 3 | 2 | WRIGHT, PT | 1 |
-| PT | 17 | 460 | 4 | 2 | BT, WRIGHT | 1 |
-| LAY | 16 | 320 | 2 | 0 | — | 4 |
+| WRIGHT | 16 | 590 | 5 | 1 | BT, PT | 1 |
+| BT | 18 | 515 | 3 | 2 | WRIGHT, PT | 1 |
+| PT | 18 | 490 | 4 | 2 | BT, WRIGHT | 1 |
+| LAY | 17 | 345 | 2 | 0 | — | 4 |
 
 **Balance notes:** LAY closes 4 of 7 sections — Common Ground, Two Kinds of Language, The Tabernacle Pattern, and Three Views. Her closers range from dawning realization ("Oh. That's actually a big difference") to dry humor ("Great, so we're already stuck") to devastating compression ("That's my grandmother's church in one sentence") to self-aware metaphor ("I've been sitting in the boat waiting for a wind report"). BT concedes to PT on tongues-as-evidence and on the Corinthians critique. PT concedes to BT on Acts 8 transitional features and on problematic church practices. WRIGHT is challenged by BT on the analogy-as-argument point and implicitly by PT on whether the Spirit's irregularity has theological significance.

@@ -85,6 +85,12 @@ def add_verse_text(image, reference, lines):
 
 slides = [
     {
+        "id": "bap-intro",
+        "prompt": "four empty wooden chairs arranged in a loose semicircle in a dark intimate studio, warm amber side-lighting from the left, sparse minimalist setting, desaturated, cinematic, wide aspect ratio",
+        "reference": "Baptism in the Spirit",
+        "lines": ["A Panel Discussion"],
+    },
+    {
         "id": "bap-ephesians-1-13",
         "prompt": "ancient rolled letter with red wax seal on dark stone table, single candle flame casting warm light, aged parchment texture, desaturated warm amber tones, moody dramatic lighting, still life, wide aspect ratio",
         "reference": "Ephesians 1:13-14",
