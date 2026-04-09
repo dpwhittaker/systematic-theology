@@ -174,9 +174,9 @@ Recommended upgrades: Roboto Mono, Fira Code, or Atkinson Hyperlegible for bette
 
 ### Running the Application
 
-This is a static site with no build process. **Start a background dev server automatically at the beginning of every session:**
+This is a static site with no build process. **Start a background dev server automatically at the beginning of every session** (run from the Windows Bash tool, not WSL):
 ```bash
-python3 -m http.server 8000 &
+cd "D:/Projects/systematic-theology" && python3 -m http.server 8000 &
 ```
 Then open: http://localhost:8000
 
@@ -288,48 +288,35 @@ Each category is one paragraph line. Apply this format to all reference/further-
 
 **Minimizing page-turns within sections:** After the optimal page count is confirmed, place `===` markers to minimize page-turns that occur mid-section. A reader should ideally be able to follow a top-level section without turning a page. When a section must span two pages, place the break at the most natural pause in the argument (between subsections, after a conclusion, before a new example), not mid-thought.
 
-## GPU Server (Remote)
+## GPU / ML Workloads
 
-A dedicated GPU server is available for running ML workloads (TTS, image generation) that are too heavy for the local machine.
+This machine IS the GPU server. The WSL2 environment (Ubuntu 24.04) has the GPU, ML tools, and Python venv. No SSH required — run ML commands directly in WSL from the Bash tool.
 
-### Connection
+### Hardware
 
-```bash
-ssh -p 28106 david@dpwhittaker.playit.plus
-```
-
-- **Auth:** SSH key (`~/.ssh/id_ed25519`) — no password needed
-- **OS:** Ubuntu 24.04 on WSL2
+- **OS:** Ubuntu 24.04 on WSL2 (Windows 11 host)
 - **GPU:** RTX 4080 16GB (CUDA via WSL2 passthrough)
 - **CPU:** Intel i7-14700K, 14 cores / 28 threads
 - **RAM:** 46GB
 - **Sudo:** Passwordless
 
-### Running Commands on the Server
+### Running ML Commands
 
-To run a command on the server from this machine:
+**Always run synchronously** — do NOT attempt to background ML processes with `nohup`, `setsid`, or `&`. WSL processes launched from the Bash tool are killed when the calling session exits, so backgrounding silently fails. Use `timeout: 600000` and run synchronously instead:
+
 ```bash
-ssh -p 28106 david@dpwhittaker.playit.plus "command here"
+wsl bash -c "source ~/ml-env/bin/activate && python3 /path/to/script.py 2>&1"
 ```
 
-For long-running tasks (model inference, installs), use `nohup` to survive SSH disconnection:
-```bash
-ssh -p 28106 david@dpwhittaker.playit.plus "nohup command > /tmp/output.log 2>&1 & echo PID: \$!"
-```
-Then check progress with:
-```bash
-ssh -p 28106 david@dpwhittaker.playit.plus "tail -20 /tmp/output.log"
-```
+The RTX 4080 is fast enough (~3s/image for SDXL, <30s for short TTS) that waiting is fine.
 
-### How to Prompt Claude to Use the Server
+For scripts that write output to the Windows filesystem, use the WSL mount path:
+- Windows `D:\Projects\...` → WSL `/mnt/d/Projects/...`
 
-- **Default:** Claude runs commands locally (this WSL2 machine — no GPU, 12GB RAM)
-- **To run on the server:** Say "run this on the server" or "use the GPU server" in your prompt
-- **Claude should proactively use the server** for any task that needs:
-  - GPU acceleration (CUDA/PyTorch inference)
-  - More than 8GB RAM for a single process
-  - Dia TTS, Stable Diffusion, or other ML model inference
-- **Keep on local machine:** Orchestration, MCP servers, file editing, git operations, FFmpeg compositing
+### What Runs Where
+
+- **WSL (GPU):** SDXL image generation, TTS inference, any PyTorch/CUDA work
+- **Windows Bash tool:** File editing, git, FFmpeg compositing, dev server, orchestration
 
 ### Installed Software (Server)
 
@@ -387,17 +374,17 @@ Storyboards are routed through the same `loadHandout()` path as handouts (detect
 
 ### Image Generation
 
-Run on the GPU server. Example workflow:
+Scripts live in `scripts/` and write directly to `storyboards/images/` via the WSL mount path. Run synchronously (see GPU section — backgrounding does not work from the Bash tool):
+
 ```bash
-# Write a Python script using diffusers + PIL
-ssh -p 28106 david@dpwhittaker.playit.plus "nohup bash -c 'source ~/ml-env/bin/activate && python3 /tmp/gen_slides.py' > /tmp/slides.log 2>&1 &"
-# Copy results back
-scp -P 28106 david@dpwhittaker.playit.plus:/tmp/slides/*.png storyboards/images/
+wsl bash -c "source ~/ml-env/bin/activate && python3 /mnt/d/Projects/systematic-theology/scripts/gen_slides.py 2>&1"
 ```
 
 SDXL settings: 800x448, 30 inference steps, guidance_scale 7.5, fp16. ~3 seconds per image on RTX 4080.
 
 Negative prompt: `"text, words, letters, numbers, watermark, signature, bright saturated colors, neon, cartoon, anime, high key, white background"`
+
+See `scripts/gen_bap_slides.py` for a complete working example including PIL text compositing.
 
 ## Key Files
 
