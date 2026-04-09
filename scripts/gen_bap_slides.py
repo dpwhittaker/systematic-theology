@@ -50,8 +50,10 @@ def draw_with_glow(draw, pos, text, font, glow_radius=4):
     draw.text((x, y), text, font=font, fill=(255, 255, 255, 255))
 
 
-def add_verse_text(image, reference, lines):
-    """Overlay verse text: large white with black glow, auto-wrapped, centered."""
+def add_verse_text(image, reference, lines, valign="center"):
+    """Overlay verse text: large white with black glow, auto-wrapped.
+    valign: 'center' (default), 'top', or 'bottom'
+    """
     draw = ImageDraw.Draw(image, 'RGBA')
     w, h = image.size
     avail_w = w - 2 * H_MARGIN
@@ -68,7 +70,13 @@ def add_verse_text(image, reference, lines):
     lh_text = 50
     gap     = 12
     total_h = lh_ref + gap + lh_text * len(wrapped)
-    y = (h - total_h) // 2
+
+    if valign == "top":
+        y = H_MARGIN
+    elif valign == "bottom":
+        y = h - total_h - H_MARGIN
+    else:
+        y = (h - total_h) // 2
 
     # Reference
     rw = text_width(draw, reference, font_ref)
@@ -86,9 +94,10 @@ def add_verse_text(image, reference, lines):
 slides = [
     {
         "id": "bap-intro",
-        "prompt": "four empty wooden chairs arranged in a loose semicircle in a dark intimate studio, warm amber side-lighting from the left, sparse minimalist setting, desaturated, cinematic, wide aspect ratio",
+        "prompt": "wide angle conference panel, four chairs behind a long table with four nameplates and four microphones, two men and two women seated facing audience, dark drapes background, amber overhead lighting, academic seminar, photorealistic, cinematic, desaturated",
         "reference": "Baptism in the Spirit",
         "lines": ["A Panel Discussion"],
+        "valign": "top",
     },
     {
         "id": "bap-ephesians-1-13",
@@ -187,7 +196,8 @@ for i, s in enumerate(slides):
     ).images[0]
 
     image = image.convert('RGBA')
-    image = add_verse_text(image, s["reference"], s["lines"])
+    valign = s.get("valign", "center")
+    image = add_verse_text(image, s["reference"], s["lines"], valign=valign)
     image = image.convert('RGB')
 
     path = os.path.join(OUT_DIR, f"{s['id']}.png")
