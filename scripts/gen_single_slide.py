@@ -1,4 +1,4 @@
-"""Generate a single SDXL slide image with PIL text compositing.
+"""Generate a single slide image with Gemini background + PIL text compositing.
 
 Usage: python3 gen_single_slide.py --bg "prompt" --text "verse text" --out "path.png"
 
@@ -13,18 +13,20 @@ The --text argument supports markdown-style formatting:
 """
 
 import argparse
+import base64
+import io
+import json
+import os
 import re
-import torch
-from diffusers import StableDiffusionXLPipeline
+import requests
 from PIL import Image, ImageDraw, ImageFont
 
-NEGATIVE = (
-    "text, words, letters, numbers, watermark, signature, "
-    "bright saturated colors, neon, cartoon, anime, high key, white background"
+GEMINI_MODEL = "gemini-3-pro-image-preview"
+GEMINI_URL = (
+    f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
+
 WIDTH, HEIGHT = 800, 448
-STEPS = 30
-GUIDANCE = 7.5
 
 # Font paths (tried in order)
 FONT_PATHS = [
@@ -232,21 +234,61 @@ def composite_text(image, text):
         y += rheight
 
 
-def generate(bg_prompt, text, out_path):
-    pipe = StableDiffusionXLPipeline.from_pretrained(
-        "stabilityai/stable-diffusion-xl-base-1.0",
-        torch_dtype=torch.float16,
-        variant="fp16",
-    ).to("cuda")
+def generate_background(prompt):
+    """Generate a background image using Gemini API."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY not set")
 
-    image = pipe(
-        prompt=bg_prompt,
-        negative_prompt=NEGATIVE,
-        width=WIDTH,
-        height=HEIGHT,
-        num_inference_steps=STEPS,
-        guidance_scale=GUIDANCE,
-    ).images[0]
+    full_prompt = (
+        f"Generate a dark, moody background image for a presentation slide. "
+        f"No text, no words, no letters, no numbers, no watermarks. "
+        f"Dark tones, cinematic lighting. Subject: {prompt}"
+    )
+
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": full_prompt}
+                ]
+            }
+        ],
+        "generationConfig": {
+            "response_modalities": ["IMAGE", "TEXT"],
+        },
+    }
+
+    resp = requests.post(
+        GEMINI_URL,
+        headers={
+            "Content-Type": "application/json",
+            "x-goog-api-key": api_key,
+        },
+        json=payload,
+        timeout=60,
+    )
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"Gemini API error {resp.status_code}: {resp.text[:300]}")
+
+    data = resp.json()
+
+    # Extract image from response
+    for candidate in data.get("candidates", []):
+        for part in candidate.get("content", {}).get("parts", []):
+            if "inlineData" in part:
+                b64 = part["inlineData"]["data"]
+                img_bytes = base64.b64decode(b64)
+                image = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+                image = image.resize((WIDTH, HEIGHT), Image.LANCZOS)
+                return image
+
+    raise RuntimeError(f"No image in Gemini response: {json.dumps(data)[:300]}")
+
+
+def generate(bg_prompt, text, out_path):
+    image = generate_background(bg_prompt)
 
     if text:
         composite_text(image, text)
