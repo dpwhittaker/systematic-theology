@@ -275,12 +275,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
         cmd = (
             f'eval "$(grep ^export ~/.bashrc)"; source ~/ml-env/bin/activate && '
-            f'echo {repr(cmd_data)} | python3 "{script}"'
+            f'python3 "{script}"'
         )
 
         print(f"[regen-audio] Running for {len(dialogue)} lines -> {out_path}")
         result = subprocess.run(
             ["bash", "-c", cmd],
+            input=cmd_data.encode(),
             capture_output=True, timeout=180,
         )
 
@@ -311,7 +312,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, format, *args):
         # Quieter logging — skip static file GETs, show API calls
         try:
-            msg = format % args if args else format
+            msg = str(format) % args if args else str(format)
         except Exception:
             msg = str(args)
         if '/api/' in msg or 'regen' in msg.lower() or 'error' in msg.lower():
