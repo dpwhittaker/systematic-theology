@@ -43,15 +43,18 @@
         i++; continue;
       }
 
-      // Slide callout block
+      // Slide callout block — text field supports multiple lines
       if (line.startsWith('> [!slide]')) {
-        let background = '', text = '';
+        let background = '';
+        let textLines = [];
+        let inText = false;
         i++;
         while (i < lines.length && lines[i].startsWith('> ')) {
           const bg = lines[i].match(/^> \*\*background:\*\*\s*(.*)/);
           const tx = lines[i].match(/^> \*\*text:\*\*\s*(.*)/);
-          if (bg) background = bg[1].trim();
-          if (tx) text = tx[1].trim();
+          if (bg) { background = bg[1].trim(); inText = false; }
+          else if (tx) { textLines.push(tx[1].trim()); inText = true; }
+          else if (inText) { textLines.push(lines[i].substring(2)); }
           i++;
         }
         // Skip blanks
@@ -62,7 +65,7 @@
           const im = lines[i].match(/^!\[slide\]\(([^)]+)\)/);
           if (im) { image = im[1]; i++; }
         }
-        blocks.push({ type: 'slide', background, text, image });
+        blocks.push({ type: 'slide', background, text: textLines.join('\n'), image });
         continue;
       }
 
@@ -110,13 +113,18 @@
         case 'metadata': out.push(b.raw); break;
         case 'heading':  out.push('#'.repeat(b.level) + ' ' + b.text); break;
         case 'hr':       out.push('---'); break;
-        case 'slide':
+        case 'slide': {
           out.push('> [!slide]');
           out.push('> **background:** ' + b.background);
-          out.push('> **text:** ' + b.text);
+          const tLines = b.text.split('\n');
+          out.push('> **text:** ' + tLines[0]);
+          for (let t = 1; t < tLines.length; t++) {
+            out.push('> ' + tLines[t]);
+          }
           out.push('');
           if (b.image) out.push('![slide](' + b.image + ')');
           break;
+        }
         case 'audio':    out.push('![audio](' + b.src + ')'); break;
         case 'dialogue': out.push('**' + b.speaker + ':** ' + b.text); break;
         case 'table':    b.lines.forEach(l => out.push(l)); break;
@@ -741,12 +749,29 @@
 
   /* ── Helpers ────────────────────────────────────────────────── */
 
-  /** Render inline markdown (bold, italic) to HTML for display. */
+  /** Render slide-text markdown to HTML for display.
+   *  Supports: **bold**, *italic*, # headings, ---, and newlines. */
   function renderInlineMd(s) {
-    return s
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return s.split('\n').map(line => {
+      // Escape HTML
+      line = line.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      // HR
+      if (line.trim() === '---') return '<hr class="slide-hr">';
+      // Headings
+      const hm = line.match(/^(#{1,3}) (.+)/);
+      if (hm) {
+        const lvl = hm[1].length;
+        const txt = hm[2]
+          .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+        return '<div class="slide-h' + lvl + '">' + txt + '</div>';
+      }
+      // Inline formatting
+      line = line
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+      return line || '<br>';
+    }).join('<br>');
   }
 
   /* ── Export ─────────────────────────────────────────────────── */

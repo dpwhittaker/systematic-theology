@@ -427,6 +427,12 @@ code {
     align-items: center;
     margin-bottom: 0.05in;
 }
+/* Slide text headings & hr rendered in the callout */
+.slide-h1 { font-size: 14pt; font-weight: bold; color: #7ab8ff; margin: 0.05in 0; }
+.slide-h2 { font-size: 12pt; font-weight: bold; color: #7ab8ff; margin: 0.04in 0; }
+.slide-h3 { font-size: 11pt; font-weight: bold; color: #7ab8ff; margin: 0.03in 0; }
+hr.slide-hr { border: none; border-top: 1px solid #4a4a6a; margin: 0.06in 0; }
+
 .slide-preview {
     max-width: 100%;
     height: auto;
