@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElevenLabs Voice Search</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0a; color: #e0e0e0; font-family: system-ui, -apple-system, sans-serif; padding: 1.5rem; }
+  h1 { color: #00ff00; font-size: 1.3rem; margin-bottom: 0.3rem; }
+  .header-meta { color: #888; font-size: 0.85rem; margin-bottom: 1rem; }
+  .query { color: #ffdd00; font-size: 1.1rem; margin-bottom: 0.5rem; }
+  .filters { color: #666; font-size: 0.8rem; margin-bottom: 1rem; }
+  .count { color: #00ddff; font-size: 0.9rem; margin-bottom: 1rem; }
+  .empty { color: #666; font-style: italic; margin: 3rem 0; text-align: center; }
+
+  .card { background: #111; border: 1px solid #222; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden; }
+  .card:hover { border-color: #333; }
+  .card-top { display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.8rem; flex-wrap: wrap; }
+  .card-bottom { display: flex; align-items: flex-start; gap: 1rem; padding: 0 0.8rem 0.6rem; }
+
+  .relevance { font-size: 0.7rem; font-weight: 700; min-width: 28px; height: 28px;
+               display: flex; align-items: center; justify-content: center;
+               border-radius: 50%; flex-shrink: 0; }
+  .rel-high { background: #1a3a1a; color: #00ff00; border: 1px solid #00ff0044; }
+  .rel-mid { background: #2a2a1a; color: #ccaa44; border: 1px solid #ccaa4444; }
+  .rel-low { background: #1a1a1a; color: #666; border: 1px solid #33333344; }
+
+  .name-block { flex-shrink: 0; width: 450px; }
+  .name { color: #fff; font-weight: 600; font-size: 0.95rem; }
+  .voice-id-row { display: flex; align-items: center; gap: 0.3rem; margin-top: 0.15rem; }
+  .voice-id { font-size: 0.7rem; color: #555; font-family: monospace; }
+  .copy-btn { background: none; border: 1px solid #333; color: #888; font-size: 0.65rem;
+              padding: 0.1rem 0.35rem; border-radius: 3px; cursor: pointer; font-family: monospace; }
+  .copy-btn:hover { border-color: #00ff00; color: #00ff00; }
+  .copy-btn.copied { border-color: #00ff00; color: #00ff00; }
+
+  .labels { display: flex; flex-wrap: wrap; gap: 0.25rem; align-items: center; flex: 1; min-width: 0; }
+  .label { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.75rem; }
+  .label-gender { background: #1a2a1a; color: #66cc66; }
+  .label-age { background: #2a2a1a; color: #ccaa66; }
+  .label-accent { background: #1a1a2a; color: #6688cc; }
+  .label-descriptive { background: #2a1a2a; color: #cc66aa; }
+  .label-use_case { background: #1a2a2a; color: #66aacc; }
+
+  .meta-right { margin-left: auto; display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
+  .usage { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: #888; }
+  .usage-bar { display: inline-block; height: 8px; background: #00ff00; border-radius: 2px;
+               vertical-align: middle; margin-right: 0.3rem; opacity: 0.4; }
+  .category { font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; }
+  .cat-premade { background: #2a2a1a; color: #ffdd00; }
+  .cat-professional { background: #1a1a2a; color: #00ddff; }
+  .cat-generated { background: #1a1a1a; color: #666; }
+  .cat-cloned { background: #2a1a1a; color: #ff6688; }
+
+  .desc { color: #bbb; font-size: 0.85rem; line-height: 1.45; flex: 1; min-width: 0; }
+  .match-note { color: #ffdd00; font-size: 0.78rem; margin-top: 0.3rem; font-style: italic; }
+  .rate-warn { color: #ff6644; font-size: 0.7rem; margin-left: 0.5rem; }
+
+  audio { width: 220px; height: 32px; flex-shrink: 0; background: #e0e0e0; border-radius: 4px; }
+  audio::-webkit-media-controls-panel { background: #e0e0e0; }
+
+  .poll-status { position: fixed; top: 0.5rem; right: 1rem; font-size: 0.7rem; color: #444; }
+  .poll-status.active { color: #00ff00; }
+</style>
+</head>
+<body>
+<h1>ElevenLabs Voice Search</h1>
+<div class="header-meta">Polls results.json every 2s — ask Claude to search for voices</div>
+<div class="poll-status" id="poll-status">polling...</div>
+
+<div id="app">
+  <div class="empty">Waiting for search results...<br>Ask Claude to search for voices.</div>
+</div>
+
+<script>
+let lastJson = "";
+
+function formatUsage(n) {
+  if (n >= 1e9) return (n/1e9).toFixed(1) + "B";
+  if (n >= 1e6) return (n/1e6).toFixed(1) + "M";
+  if (n >= 1e3) return (n/1e3).toFixed(0) + "K";
+  return String(n);
+}
+
+function renderLabel(key, value) {
+  if (!value) return "";
+  return `<span class="label label-${key}">${value}</span>`;
+}
+
+function copyId(btn, id) {
+  navigator.clipboard.writeText(id).then(() => {
+    btn.textContent = "copied!";
+    btn.classList.add("copied");
+    setTimeout(() => { btn.textContent = "copy"; btn.classList.remove("copied"); }, 1500);
+  });
+}
+
+function render(data) {
+  const app = document.getElementById("app");
+  if (!data || !data.voices || data.voices.length === 0) {
+    app.innerHTML = `<div class="query">"${data?.query || ''}"</div>
+      <div class="empty">No voices found.</div>`;
+    return;
+  }
+
+  // Sort by relevance descending
+  const voices = [...data.voices].sort((a, b) => (b.relevance || 0) - (a.relevance || 0));
+  const maxUsage = Math.max(...voices.map(v => v.usage_1y || 0), 1);
+
+  const filterParts = [];
+  if (data.filters?.gender) filterParts.push(`gender: ${data.filters.gender}`);
+  if (data.filters?.age) filterParts.push(`age: ${data.filters.age}`);
+  if (data.filters?.accent) filterParts.push(`accent: ${data.filters.accent}`);
+  if (data.note) filterParts.push(data.note);
+
+  let html = `
+    <div class="query">"${data.query}"</div>
+    ${filterParts.length ? `<div class="filters">${filterParts.join(' | ')}</div>` : ''}
+    <div class="count">${data.count} voices found</div>
+  `;
+
+  for (const v of voices) {
+    const usage = v.usage_1y || 0;
+    const barW = Math.max(2, (usage / maxUsage) * 60);
+    const cat = v.category || 'generated';
+    const rel = v.relevance || 0;
+    const relClass = rel >= 8 ? 'rel-high' : rel >= 5 ? 'rel-mid' : 'rel-low';
+    const rateWarn = v.rate && v.rate > 1.0
+      ? `<span class="rate-warn">${v.rate}x cost</span>` : '';
+    const matchNote = v.match_note
+      ? `<div class="match-note">${v.match_note}</div>` : '';
+    const vid = v.voice_id;
+
+    html += `
+    <div class="card">
+      <div class="card-top">
+        <div class="relevance ${relClass}">${rel}</div>
+        <div class="name-block">
+          <div class="name">${v.name || '?'}</div>
+          <div class="voice-id-row">
+            <span class="voice-id">${vid}</span>
+            <button class="copy-btn" onclick="copyId(this, '${vid}')">copy</button>
+            ${rateWarn}
+          </div>
+        </div>
+        <div class="labels">
+          ${renderLabel('gender', v.gender)}
+          ${renderLabel('age', v.age)}
+          ${renderLabel('accent', v.accent)}
+          ${renderLabel('descriptive', v.descriptive)}
+          ${renderLabel('use_case', v.use_case)}
+        </div>
+        <div class="meta-right">
+          <span class="usage">
+            <span class="usage-bar" style="width:${barW}px"></span>
+            ${formatUsage(usage)}
+          </span>
+          <span class="category cat-${cat}">${cat}</span>
+        </div>
+      </div>
+      <div class="card-bottom">
+        <div class="desc">
+          ${v.description || '<em>No description</em>'}
+          ${matchNote}
+        </div>
+        ${v.preview_url ? `<audio controls preload="none" src="${v.preview_url}"></audio>` : ''}
+      </div>
+    </div>`;
+  }
+
+  app.innerHTML = html;
+}
+
+async function poll() {
+  const status = document.getElementById("poll-status");
+  try {
+    const resp = await fetch("results.json?" + Date.now());
+    if (!resp.ok) return;
+    const text = await resp.text();
+    if (text === lastJson) return;
+    lastJson = text;
+    render(JSON.parse(text));
+    status.textContent = "updated " + new Date().toLocaleTimeString();
+    status.classList.add("active");
+    setTimeout(() => status.classList.remove("active"), 1000);
+  } catch(e) {}
+}
+
+poll();
+setInterval(poll, 2000);
+</script>
+</body>
+</html>

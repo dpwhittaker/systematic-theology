@@ -20,11 +20,85 @@
 </head>
 <body>
 <h1>VibeVoice 4-Speaker Test</h1>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-1.5B</h2>
 <div class="meta">
   Model: VibeVoice-1.5B (community fork) | Speakers: Frank, Carter, Alice, Maya<br>
   Generated: 72s audio in 65s (RTF 0.90x) on RTX 4080
 </div>
 <audio controls src="test_4voice.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-7B</h2>
+<div class="meta">
+  Model: VibeVoice-7B (vibevoice/VibeVoice-7B) | Speakers: Frank, Carter, Alice, Maya | seed=42, cfg_scale=1.3<br>
+  Generated: 78.27s audio in 384.17s (RTF 4.91x) on RTX 4080<br>
+  Same script as 1.5B, rendered as a single batch so speakers can pick up emotional cues from prior turns.
+</div>
+<audio controls src="test_4voice_7b.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-7B v2 — BGM mitigation attempt</h2>
+<div class="meta">
+  Model: VibeVoice-7B | Speakers: Frank, Carter, <b>Xinran</b> (was Alice), Maya | seed=42, cfg_scale=1.3<br>
+  Generated: 70.80s audio in 315.37s (RTF 4.45x) on RTX 4080<br>
+  Changes from v1: (1) dropped the "Welcome everyone" opener (BGM trigger word per upstream FAQ); (2) replaced Alice (flagged BGM-prone, 16kHz 9s ref) with zh-Xinran_woman as the only non-flagged female voice in the folder — cross-lingual voice transfer, may carry a Mandarin accent.
+</div>
+<audio controls src="test_4voice_7b_v2.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-7B v3 — Jenny voice + higher CFG</h2>
+<div class="meta">
+  Model: VibeVoice-7B (bf16 + flash-attn-2) | Speakers: Frank, Carter, <b>Jenny</b> (from vibevoice/jenny_vibevoice_formatted), Maya | seed=42, <b>cfg_scale=1.7</b><br>
+  Generated: 66.80s audio in 303.98s (RTF 4.55x) on RTX 4080<br>
+  Changes from v2: (1) replaced Xinran (Chinese-trained) with Jenny — clip from the Jenny (Dioco) dataset, 27.5s @ 53.5 dB SNR vs Maya's 32.8 dB, same duration as Maya's sample for a controlled comparison; (2) bumped cfg_scale 1.3 → 1.7 to tighten adherence to voice prompts and suppress hallucinated turns late in the context. Voice credit: Jenny (Dioco).
+</div>
+<audio controls src="test_4voice_7b_v3.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-7B v4 — 8-bit quantized</h2>
+<div class="meta">
+  Model: VibeVoice-7B loaded with bitsandbytes <b>8-bit</b> (LLM.int8), bf16 compute, flash-attn-2 | Speakers: Frank, Carter, Jenny, Maya | seed=42, cfg_scale=1.7<br>
+  Generated: 67.60s audio in 187.55s (<b>RTF 2.77x</b>) on RTX 4080 — ~40% faster than bf16 v3 (303.98s)<br>
+  Only the load path changed vs v3 — same script, speakers, seed, cfg. Tests the hypothesis that the Maya drift in earlier versions was VRAM-pressure / precision related. Interestingly the 8-bit run is faster, suggesting the 4080 is memory-bandwidth bound on this model size rather than compute bound.
+</div>
+<audio controls src="test_4voice_7b_v4_8bit.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">VibeVoice-7B v5 — in-media-res opener, cfg back to 1.3</h2>
+<div class="meta">
+  Model: VibeVoice-7B bf16 + flash-attn-2 | Speakers: Frank, Carter, Jenny, Maya | seed=42, <b>cfg_scale=1.3</b><br>
+  Generated: 71.47s audio in 332.22s (RTF 4.65x) on RTX 4080<br>
+  Changes from v3: (1) Speaker 1 rewritten from "Today we're discussing..." (suspected BGM trigger) to "Paul spent his entire ministry rereading the Hebrew scriptures through the lens of Christ." — in-media-res, declarative, no podcast-opener phrasing; (2) cfg reverted from 1.7 to 1.3 since higher CFG was amplifying BGM rather than suppressing it. Voice credit: Jenny (Dioco).
+</div>
+<audio controls src="test_4voice_7b_v5.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">Dia-1.6B — 4 stitched pairs</h2>
+<div class="meta">
+  Model: <b>nari-labs/Dia-1.6B</b> (fp16) | Format: 2-speaker [S1]/[S2] native | Strategy: 8 lines → 4 pairs, each generated cold, concatenated with 250ms silences<br>
+  Generated: 55.37s audio total on RTX 4080. Pair 1 33.7s (includes torch.compile), pairs 2–4: 17.6s / 6.7s / 4.8s (post-compile steady-state ~RTF&nbsp;0.3x — much faster than VibeVoice-7B)<br>
+  Voice identity varies across pairs (no voice cloning — torchcodec/ffmpeg dep was a rabbit hole). Primary purpose: A/B the <b>conversational vibe</b> against VibeVoice. Same script as v5 (in-media-res opener, Paul/apostles theme).
+</div>
+<audio controls src="test_4voice_dia.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">Dia-1.6B v2 — voice-cloned 4 pairs (Frank+Carter / Jenny+Maya)</h2>
+<div class="meta">
+  Model: <b>nari-labs/Dia-1.6B</b> (fp16) with <b>voice cloning</b> | Strategy: same 4-pair split as v1, but each pair is conditioned on a 2-speaker reference — pairs 1&amp;3 use Frank+Carter (MM), pairs 2&amp;4 use Jenny+Maya (FF)<br>
+  References: 10s trims of the VibeVoice voice wavs, Whisper-transcribed once for the <code>clone_from_text</code>. torchcodec dep sidestepped by loading with soundfile + <code>torchaudio.functional.resample</code> and calling <code>model._encode()</code> directly.<br>
+  Generated: 37.53s audio total on RTX 4080, ~78s wall (no torch.compile — dynamo chokes on variable-length prompts). F0 verification: all 4 pairs landed on the correct gender (MM 143–157 Hz, FF 207–232 Hz), so voice identity is now stable across the whole panel.
+</div>
+<audio controls src="test_4voice_dia_cloned.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">Dia-1.6B v2 — time-stretched to 88% (13% slower)</h2>
+<div class="meta">
+  Same audio as v2 above, post-processed with <code>librosa.effects.time_stretch(rate=0.88)</code> — phase vocoder, pitch-preserving. 37.53s → 42.65s. Dia has no native speed control, so slowing happens post-generation.
+</div>
+<audio controls src="test_4voice_dia_cloned_slow.wav"></audio>
+
+<h2 style="color:#00ff00;font-size:1.1rem;margin-top:2rem;">Dia2-2B — voice-cloned 4 pairs (Frank+Carter / Jenny+Maya)</h2>
+<div class="meta">
+  Model: <b>nari-labs/Dia2-2B</b> (bf16) with per-speaker voice conditioning | Speakers: Frank(S1) + Carter(S2) on pairs 1&amp;3, Jenny(S1) + Maya(S2) on pairs 2&amp;4<br>
+  References: 10s trims of VibeVoice voice wavs, auto-transcribed by whisper-large-v3 (built into Dia2). Separate <code>prefix_speaker_1</code> + <code>prefix_speaker_2</code> args — much cleaner than Dia1's concat-and-prepend hack.<br>
+  Generated: 68.67s audio in ~225s (RTF ~3.3x) on RTX 4080 @ 8.5 toks/s (cfg=6.0, temp=0.8). Word-level timestamps returned natively — no external alignment needed.<br>
+  Key upgrade: Dia2 uses the Mimi codec (Kyutai) instead of DAC, and is a streaming architecture — quality and cadence should be noticeably improved over Dia-1.6B.
+</div>
+<audio controls src="test_4voice_dia2.wav"></audio>
+
 <div class="transcript">
   <p><span class="speaker s1">FRANK:</span> Welcome everyone. Today we're discussing how the early church understood the relationship between the Hebrew scriptures and the new covenant in Christ.</p>
   <p><span class="speaker s2">CARTER:</span> It's a fascinating topic. The apostles didn't abandon the Old Testament. They reread it through the lens of Jesus' death and resurrection.</p>

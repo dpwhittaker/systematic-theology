@@ -331,6 +331,34 @@ The RTX 4080 is fast enough (~3s/image for SDXL, <30s for short TTS) that most i
 - Tortoise TTS (separate venv at `~/tortoise-env/`; `transformers==4.31.0` with patched tokenizers version check)
 - VibeVoice (repo at `~/VibeVoice/`, requires flash-attn)
 - flash-attn 2.8.3 (compiled from source for CUDA 12.8)
+- Dia2 TTS (repo at `~/dia2/`, uses its own `uv`-managed venv at `~/dia2/.venv/`; run via `cd ~/dia2 && .venv/bin/python3`)
+- ElevenLabs TTS (cloud API, see below)
+- ffmpeg 6.1.1 (system package, required by whisper/torchcodec/Dia2)
+
+### ElevenLabs TTS
+
+API key is stored in `$EL_API_KEY` (set in `~/.bashrc`). **Never commit the key or mention it in repo files** — reference only the environment variable name.
+
+Pricing is per-character, so follow this graduated testing protocol:
+1. **Start with minimal snippets** — one short sentence (< 50 chars) to validate API calls, voice selection, and audio format.
+2. **Do not increase text length** until the user has listened and confirmed the output sounds human and natural. Only the user can judge audio quality.
+3. **Ask the user before escalating** — explicitly ask "ready to try a longer passage?" before submitting more text. Each confidence level increase must be user-approved.
+4. **Never submit the full 8-line panel script** until the user has approved shorter tests and given the go-ahead.
+
+### Voice Casting Workflow
+
+When the user asks to find voices or cast characters for a production:
+
+1. **Ask** what each character's voice should sound like — they'll reference a previous production or give a natural-language description.
+2. **Broad search** from `~/projects/eleven_labs/voices.db` using `search_voices.py` or direct SQL/FTS queries.
+3. **Post-filter with judgment** — the DB labels don't index ethnicity/culture, so examine `name` + `description` fields for cultural, ethnic, and personality cues that structured labels can't capture (e.g. "Black Woman" in a description, African-sounding names, "southern" in names). Never just dump raw SQL results.
+4. **Assign relevance scores (1–10)** to each candidate. Bump `professional` category voices slightly higher — they tend to be more natural/consistent than `high_quality` community voices.
+5. **Add `match_note`** explaining why each voice was selected.
+6. **Aim for ~25 results.** Be generous — include medium-relevance voices (score 5–6) the user might want for other reasons. Don't over-filter.
+7. **Write results** to `voices/results.json` — the web UI at `/voices/` polls this file every 2s and auto-renders.
+8. User listens to previews, copies `voice_id` via clipboard button, and pastes it back in chat to confirm selection.
+
+**Voice DB location:** `~/projects/eleven_labs/voices.db` (SQLite + FTS5, ~6,200 English voices). Refresh with `python3 ~/projects/eleven_labs/fetch_voices.py` (requires `$EL_API_KEY`).
 
 ## Storyboard System
 
