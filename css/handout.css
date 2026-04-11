@@ -552,19 +552,34 @@ hr.slide-hr { border: none; border-top: 1px solid #4a4a6a; margin: 0.06in 0; }
     gap: 12px;
     z-index: 100;
 }
-.sb-save-btn {
+.sb-save-btn, .sb-commit-btn {
     padding: 8px 24px;
-    border: 1px solid #2e7d32;
     border-radius: 4px;
-    background: #2e7d32;
-    color: #ffffff;
     cursor: pointer;
     font-family: system-ui, sans-serif;
     font-size: 11pt;
     font-weight: 600;
 }
+.sb-save-btn {
+    border: 1px solid #1565c0;
+    background: #1565c0;
+    color: #ffffff;
+}
 .sb-save-btn:hover {
+    background: #0d47a1;
+}
+.sb-commit-btn {
+    border: 1px solid #2e7d32;
+    background: #2e7d32;
+    color: #ffffff;
+}
+.sb-commit-btn:hover:not(:disabled) {
     background: #1b5e20;
+}
+.sb-commit-btn:disabled {
+    background: #a5d6a7;
+    border-color: #a5d6a7;
+    cursor: default;
 }
 .sb-save-status {
     font-size: 10pt;

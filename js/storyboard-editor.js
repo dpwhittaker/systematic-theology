@@ -138,6 +138,7 @@
   /* ── Rendering ──────────────────────────────────────────────── */
 
   let _blocks, _path, _container, _docDir;
+  let _savedMarkdown = null;
 
   function render(blocks, path, container) {
     _blocks = blocks;
@@ -160,12 +161,20 @@
       container.appendChild(el);
     });
 
+    // Track saved state for dirty detection (reset when loading a new file)
+    if (_path !== path) _savedMarkdown = null;
+    if (_savedMarkdown === null) _savedMarkdown = serialize(blocks);
+
     // Save bar at bottom
     const bar = document.createElement('div');
     bar.className = 'sb-save-bar';
-    bar.innerHTML = '<button class="sb-save-btn">Save &amp; Commit</button> <span class="sb-save-status"></span>';
+    bar.innerHTML =
+      '<button class="sb-save-btn" id="sb-save">Save</button>' +
+      '<button class="sb-commit-btn" id="sb-commit" disabled>Commit</button>' +
+      '<span class="sb-save-status"></span>';
     container.appendChild(bar);
-    bar.querySelector('.sb-save-btn').addEventListener('click', doSave);
+    document.getElementById('sb-save').addEventListener('click', doSave);
+    document.getElementById('sb-commit').addEventListener('click', doCommit);
   }
 
   function rerender() {
@@ -355,7 +364,7 @@
       el.contentEditable = 'false';
       el.classList.remove('sb-editing');
       const v = el.textContent;
-      if (v !== original) onCommit(v);
+      if (v !== original) { onCommit(v); updateCommitButton(); }
       el.removeEventListener('blur', commit);
       el.removeEventListener('keydown', onKey);
     }
@@ -395,6 +404,7 @@
       if (v !== rawValue) {
         onCommit(v);
         displayEl.innerHTML = renderInlineMd(v);
+        updateCommitButton();
       } else {
         displayEl.innerHTML = origDisplay;
       }
@@ -722,7 +732,14 @@
     return lines;
   }
 
-  /* ── Save ───────────────────────────────────────────────────── */
+  /* ── Save / Commit ───────────────────────────────────────────── */
+
+  function updateCommitButton() {
+    const btn = document.getElementById('sb-commit');
+    if (!btn) return;
+    const current = serialize(_blocks);
+    btn.disabled = (current === _savedMarkdown);
+  }
 
   async function doSave() {
     const status = _container.querySelector('.sb-save-status');
@@ -733,17 +750,45 @@
       const r = await fetch(API + '/save', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ path: _path, content: markdown, commit: true }),
+        body: JSON.stringify({ path: _path, content: markdown, commit: false }),
       });
       if (r.ok) {
-        const data = await r.json();
-        status.textContent = data.message || 'Saved & committed!';
-        setTimeout(() => { status.textContent = ''; }, 4000);
+        _savedMarkdown = markdown;
+        status.textContent = 'Saved';
+        updateCommitButton();
+        setTimeout(() => { status.textContent = ''; }, 3000);
       } else {
         status.textContent = 'Error: ' + (await r.text());
       }
     } catch (e) {
       status.textContent = 'Save failed — server error';
+    }
+  }
+
+  async function doCommit() {
+    const status = _container.querySelector('.sb-save-status');
+    const btn = document.getElementById('sb-commit');
+
+    // Save first to make sure the file is up to date
+    const markdown = serialize(_blocks);
+    status.textContent = 'Saving & committing...';
+    try {
+      const r = await fetch(API + '/save', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path: _path, content: markdown, commit: true }),
+      });
+      if (r.ok) {
+        const data = await r.json();
+        _savedMarkdown = markdown;
+        status.textContent = data.message || 'Committed!';
+        btn.disabled = true;
+        setTimeout(() => { status.textContent = ''; }, 4000);
+      } else {
+        status.textContent = 'Error: ' + (await r.text());
+      }
+    } catch (e) {
+      status.textContent = 'Commit failed — server error';
     }
   }
 
