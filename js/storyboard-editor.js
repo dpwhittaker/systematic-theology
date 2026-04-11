@@ -728,6 +728,7 @@
           const data = await r.json();
           block.src = data.path;
           audioEl.src = _docDir + block.src + '?t=' + Date.now();
+          audioEl.play();
           btn.textContent = 'Done!';
           setTimeout(() => { btn.textContent = origText; }, 2000);
         } else {
