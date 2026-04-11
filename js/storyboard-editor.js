@@ -12,7 +12,7 @@
     CARRIE: { cls: 'speaker-carrie', color: '#c62828' },
   };
 
-  const SAVE_URL = 'http://127.0.0.1:8001';
+  const API = '/api';
 
   /* ── Parsing ────────────────────────────────────────────────── */
 
@@ -471,7 +471,7 @@
     async function loadGens() {
       if (gens !== null) return;
       try {
-        const r = await fetch(SAVE_URL + '/list-generations?' + new URLSearchParams({
+        const r = await fetch(API + '/list-generations?' + new URLSearchParams({
           dir: _docDir, stem: stem.split('/').pop(), ext
         }));
         if (r.ok) {
@@ -515,7 +515,7 @@
     btn.disabled = true;
 
     try {
-      const r = await fetch(SAVE_URL + '/regenerate-image', {
+      const r = await fetch(API + '/regenerate-image', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -570,7 +570,7 @@
     async function loadGens() {
       if (gens !== null) return;
       try {
-        const r = await fetch(SAVE_URL + '/list-generations?' + new URLSearchParams({
+        const r = await fetch(API + '/list-generations?' + new URLSearchParams({
           dir: _docDir, stem: stem.split('/').pop(), ext
         }));
         if (r.ok) {
@@ -612,7 +612,7 @@
       try {
         // Collect all dialogue in this section (between prev and next audio/hr blocks)
         const sectionDialogue = collectSectionDialogue(_blocks, block);
-        const r = await fetch(SAVE_URL + '/regenerate-audio', {
+        const r = await fetch(API + '/regenerate-audio', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -664,7 +664,7 @@
 
     const markdown = serialize(_blocks);
     try {
-      const r = await fetch(SAVE_URL + '/save', {
+      const r = await fetch(API + '/save', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ path: _path, content: markdown, commit: true }),

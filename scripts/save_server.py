@@ -1,11 +1,15 @@
-"""Storyboard editing server — save, git commit, list generations, regenerate media.
+"""Combined static + API server for the systematic-theology project.
 
-Runs on port 8001 alongside the main static server on 8000.
+Serves static files from PROJECT_ROOT and handles /api/* routes for
+the storyboard editor. Replaces both `python3 -m http.server 8000`
+and the former port-8001 save server.
+
 Endpoints:
-  PUT  /save                — save file + optional git commit
-  GET  /list-generations    — list version files for an image or audio stem
-  POST /regenerate-image    — generate a new slide image via SDXL
-  POST /regenerate-audio    — generate section audio via ElevenLabs
+  GET  /*                       — static files
+  PUT  /api/save                — save file + optional git commit
+  GET  /api/list-generations    — list version files for an image or audio stem
+  POST /api/regenerate-image    — generate a new slide image via SDXL
+  POST /api/regenerate-audio    — generate section audio via ElevenLabs
 """
 
 import http.server
@@ -18,19 +22,14 @@ from urllib.parse import urlparse, parse_qs
 
 PROJECT_ROOT = "/home/david/projects/systematic-theology"
 ALLOWED_PREFIXES = ("storyboards/", "handouts/")
-
-
-def cors_headers(handler):
-    handler.send_header("Access-Control-Allow-Origin", "*")
-    handler.send_header("Access-Control-Allow-Methods", "GET, PUT, POST, OPTIONS")
-    handler.send_header("Access-Control-Allow-Headers", "Content-Type")
+BIND = "127.0.0.1"
+PORT = 8000
 
 
 def json_response(handler, data, status=200):
     body = json.dumps(data).encode()
     handler.send_response(status)
     handler.send_header("Content-Type", "application/json")
-    cors_headers(handler)
     handler.end_headers()
     handler.wfile.write(body)
 
@@ -51,42 +50,44 @@ def safe_path(path):
         return None
     if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
         return None
-    full = os.path.join(PROJECT_ROOT, path)
-    return full
+    return os.path.join(PROJECT_ROOT, path)
 
 
-class Handler(http.server.BaseHTTPRequestHandler):
+class Handler(http.server.SimpleHTTPRequestHandler):
+    """Extends SimpleHTTPRequestHandler with /api/* routes."""
 
-    def do_OPTIONS(self):
-        self.send_response(200)
-        cors_headers(self)
-        self.end_headers()
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=PROJECT_ROOT, **kwargs)
 
-    def do_PUT(self):
-        parsed = urlparse(self.path)
-
-        if parsed.path == "/save":
-            self._handle_save()
-        else:
-            error_response(self, 404, "Not found")
+    # ── Routing ──────────────────────────────────────────────────
 
     def do_GET(self):
         parsed = urlparse(self.path)
-
-        if parsed.path == "/list-generations":
+        if parsed.path == "/api/list-generations":
             self._handle_list_generations(parse_qs(parsed.query))
         else:
-            error_response(self, 404, "Not found")
+            super().do_GET()
+
+    def do_PUT(self):
+        parsed = urlparse(self.path)
+        if parsed.path == "/api/save":
+            self._handle_save()
+        else:
+            self.send_error(405)
 
     def do_POST(self):
         parsed = urlparse(self.path)
-
-        if parsed.path == "/regenerate-image":
+        if parsed.path == "/api/regenerate-image":
             self._handle_regen_image()
-        elif parsed.path == "/regenerate-audio":
+        elif parsed.path == "/api/regenerate-audio":
             self._handle_regen_audio()
         else:
-            error_response(self, 404, "Not found")
+            self.send_error(405)
+
+    def do_OPTIONS(self):
+        # Not strictly needed for same-origin, but harmless
+        self.send_response(200)
+        self.end_headers()
 
     # ── Save + Git Commit ────────────────────────────────────────
 
@@ -94,8 +95,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         try:
             data = json.loads(read_body(self))
         except (json.JSONDecodeError, ValueError):
-            error_response(self, 400, "Invalid JSON")
-            return
+            return error_response(self, 400, "Invalid JSON")
 
         path = data.get("path", "")
         content = data.get("content", "")
@@ -103,17 +103,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         full = safe_path(path)
         if not full:
-            error_response(self, 403, "Forbidden path")
-            return
+            return error_response(self, 403, "Forbidden path")
 
-        # Write file
         os.makedirs(os.path.dirname(full), exist_ok=True)
         with open(full, "w", encoding="utf-8") as f:
             f.write(content)
 
         msg = "Saved"
 
-        # Git commit
         if do_commit:
             try:
                 subprocess.run(
@@ -140,30 +137,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
     # ── List Generations ─────────────────────────────────────────
 
     def _handle_list_generations(self, params):
-        """List files matching stem*.ext in directory.
-
-        Query params: dir (e.g. storyboards/), stem (e.g. pod-intro), ext (e.g. .png)
-        Returns: {"files": ["pod-intro.png", "pod-intro.v002.png", ...]}
-        """
         doc_dir = params.get("dir", [""])[0]
         stem = params.get("stem", [""])[0]
         ext = params.get("ext", [""])[0]
 
         if not stem or not ext:
-            error_response(self, 400, "Missing stem or ext")
-            return
+            return error_response(self, 400, "Missing stem or ext")
 
-        # Determine the directory to search
-        # The stem might include a subdirectory (e.g., "images/pod-intro"), but we
-        # receive just the filename stem. The doc_dir tells us the storyboard dir.
-        # We need to find the actual directory. Let's search relative to project root
-        # using the doc_dir + directory of the files.
-
-        # Try common locations
         search_dirs = []
         if doc_dir:
             search_dirs.append(os.path.join(PROJECT_ROOT, doc_dir))
-            # Also try subdirectories (images/, audio/)
             for sub in ("images", "audio"):
                 search_dirs.append(os.path.join(PROJECT_ROOT, doc_dir, sub))
 
@@ -171,15 +154,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
         for d in search_dirs:
             if not os.path.isdir(d):
                 continue
-            # Match: stem.ext, stem.v002.ext, stem.v003.ext, etc.
             pattern = os.path.join(d, stem + "*" + ext)
             for f in sorted(globmod.glob(pattern)):
                 name = os.path.basename(f)
-                # Must start with the stem
                 if name.startswith(stem):
                     files.append(name)
 
-        # Sort: original first, then versioned
         def sort_key(name):
             if name == stem + ext:
                 return (0, "")
@@ -194,23 +174,20 @@ class Handler(http.server.BaseHTTPRequestHandler):
         try:
             data = json.loads(read_body(self))
         except (json.JSONDecodeError, ValueError):
-            error_response(self, 400, "Invalid JSON")
-            return
+            return error_response(self, 400, "Invalid JSON")
 
         background = data.get("background", "")
         text = data.get("text", "")
-        current = data.get("current", "")  # e.g. images/pod-intro.png
-        doc_dir = data.get("docDir", "")    # e.g. storyboards/
+        current = data.get("current", "")
+        doc_dir = data.get("docDir", "")
 
         if not background:
-            error_response(self, 400, "Missing background prompt")
-            return
+            return error_response(self, 400, "Missing background prompt")
 
-        # Determine output path: next version number
         if current:
             base_dir = os.path.join(PROJECT_ROOT, doc_dir, os.path.dirname(current))
             filename = os.path.basename(current)
-            stem = re.sub(r'\.v\d+(?=\.[^.]+$)', '', filename)  # strip .vNNN
+            stem = re.sub(r'\.v\d+(?=\.[^.]+$)', '', filename)
             name, ext = os.path.splitext(stem)
         else:
             base_dir = os.path.join(PROJECT_ROOT, doc_dir, "images")
@@ -219,9 +196,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         os.makedirs(base_dir, exist_ok=True)
 
-        # Find next version number
         existing = globmod.glob(os.path.join(base_dir, name + ".v*" + ext))
-        max_ver = 1  # original is implicitly v1
+        max_ver = 1
         for f in existing:
             m = re.search(r'\.v(\d+)', os.path.basename(f))
             if m:
@@ -230,7 +206,6 @@ class Handler(http.server.BaseHTTPRequestHandler):
         out_filename = f"{name}.v{next_ver:03d}{ext}"
         out_path = os.path.join(base_dir, out_filename)
 
-        # Build the generation command
         script = os.path.join(PROJECT_ROOT, "scripts", "gen_single_slide.py")
         cmd = (
             f'source ~/ml-env/bin/activate && python3 "{script}" '
@@ -246,10 +221,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
         if result.returncode != 0 or not os.path.isfile(out_path):
             err = result.stderr.decode()[:300]
             print(f"[regen-image] Failed: {err}")
-            error_response(self, 500, f"Generation failed: {err}")
-            return
+            return error_response(self, 500, f"Generation failed: {err}")
 
-        # Return relative path from doc_dir
         rel_path = os.path.relpath(out_path, os.path.join(PROJECT_ROOT, doc_dir))
         json_response(self, {"path": rel_path})
 
@@ -259,19 +232,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
         try:
             data = json.loads(read_body(self))
         except (json.JSONDecodeError, ValueError):
-            error_response(self, 400, "Invalid JSON")
-            return
+            return error_response(self, 400, "Invalid JSON")
 
         dialogue = data.get("dialogue", [])
-        current = data.get("current", "")     # e.g. audio/00-introductions.mp3
+        current = data.get("current", "")
         doc_dir = data.get("docDir", "")
         storyboard_path = data.get("storyboardPath", "")
 
         if not dialogue:
-            error_response(self, 400, "No dialogue lines")
-            return
+            return error_response(self, 400, "No dialogue lines")
 
-        # Determine output path: next version number
         if current:
             base_dir = os.path.join(PROJECT_ROOT, doc_dir, os.path.dirname(current))
             filename = os.path.basename(current)
@@ -294,10 +264,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         out_filename = f"{name}.v{next_ver:03d}{ext}"
         out_path = os.path.join(base_dir, out_filename)
 
-        # Build generation command
         script = os.path.join(PROJECT_ROOT, "scripts", "render_single_section.py")
-        dialogue_json = json.dumps(dialogue)
-        # Read voice map from the storyboard file
         voice_map = self._read_voice_map(storyboard_path)
 
         cmd_data = json.dumps({
@@ -320,14 +287,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
         if result.returncode != 0 or not os.path.isfile(out_path):
             err = result.stderr.decode()[:300]
             print(f"[regen-audio] Failed: {err}")
-            error_response(self, 500, f"Generation failed: {err}")
-            return
+            return error_response(self, 500, f"Generation failed: {err}")
 
         rel_path = os.path.relpath(out_path, os.path.join(PROJECT_ROOT, doc_dir))
         json_response(self, {"path": rel_path})
 
     def _read_voice_map(self, storyboard_path):
-        """Parse <!-- voices: ... --> from storyboard markdown."""
         full = os.path.join(PROJECT_ROOT, storyboard_path)
         voices = {}
         if os.path.isfile(full):
@@ -344,10 +309,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
         return voices
 
     def log_message(self, format, *args):
-        print(f"[save-server] {args[0] if args else ''}")
+        # Quieter logging — skip static file GETs, show API calls
+        msg = args[0] if args else ''
+        if '/api/' in msg or 'regen' in msg.lower():
+            print(f"[server] {msg}")
 
 
 if __name__ == "__main__":
-    server = http.server.HTTPServer(("127.0.0.1", 8001), Handler)
-    print("Save server listening on http://127.0.0.1:8001")
+    server = http.server.HTTPServer((BIND, PORT), Handler)
+    print(f"Serving {PROJECT_ROOT} on http://{BIND}:{PORT}")
+    print("API routes: /api/save, /api/list-generations, /api/regenerate-image, /api/regenerate-audio")
     server.serve_forever()
