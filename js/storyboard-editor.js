@@ -138,7 +138,8 @@
   /* ── Rendering ──────────────────────────────────────────────── */
 
   let _blocks, _path, _container, _docDir;
-  let _savedMarkdown = null;
+  let _savedMarkdown = null;      // last written to disk
+  let _committedMarkdown = null;  // last git-committed
 
   function render(blocks, path, container) {
     _blocks = blocks;
@@ -161,9 +162,10 @@
       container.appendChild(el);
     });
 
-    // Track saved state for dirty detection (reset when loading a new file)
-    if (_path !== path) _savedMarkdown = null;
+    // Track saved/committed state for dirty detection (reset when loading a new file)
+    if (_path !== path) { _savedMarkdown = null; _committedMarkdown = null; }
     if (_savedMarkdown === null) _savedMarkdown = serialize(blocks);
+    if (_committedMarkdown === null) _committedMarkdown = serialize(blocks);
 
     // Save bar at bottom
     const bar = document.createElement('div');
@@ -765,7 +767,7 @@
     const btn = document.getElementById('sb-commit');
     if (!btn) return;
     const current = serialize(_blocks);
-    btn.disabled = (current === _savedMarkdown);
+    btn.disabled = (current === _committedMarkdown);
   }
 
   async function doSave() {
@@ -808,6 +810,7 @@
       if (r.ok) {
         const data = await r.json();
         _savedMarkdown = markdown;
+        _committedMarkdown = markdown;
         status.textContent = data.message || 'Committed!';
         btn.disabled = true;
         setTimeout(() => { status.textContent = ''; }, 4000);
