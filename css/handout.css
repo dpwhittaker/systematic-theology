@@ -265,6 +265,40 @@ code {
     display: block;
 }
 
+/* Fullscreen player launch button */
+.player-launch {
+    text-align: center;
+    margin: 0.2in 0;
+}
+.player-launch a {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #00ff00;
+    padding: 10px 24px;
+    border: 1px solid #00ff0044;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: system-ui, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+.player-launch a:hover {
+    background: #0a2a0a;
+    border-color: #00ff00;
+}
+
+/* Section audio players */
+.section-audio {
+    margin: 0.1in 0 0.15in;
+    text-align: center;
+}
+.section-audio audio {
+    width: 100%;
+    max-width: 500px;
+    height: 36px;
+}
+
 /* Speaker labels in dialogue */
 .speaker-wright { color: #2e7d32; font-weight: bold; }
 .speaker-bt { color: #1565c0; font-weight: bold; }
@@ -316,6 +350,65 @@ code {
     .speaker-bt { color: #000000; }
     .speaker-pt { color: #000000; }
     .speaker-lay { color: #000000; }
+}
+
+/* ===== Storyboard Editor ===== */
+
+.storyboard-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #f8f8f8;
+    border-bottom: 1px solid #cccccc;
+    padding: 8px 12px;
+    margin: -0.5in -0.5in 0.2in -0.5in;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.storyboard-toolbar button {
+    padding: 6px 16px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    background: #ffffff;
+    cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-size: 10pt;
+}
+.storyboard-toolbar button:hover {
+    background: #e8e8e8;
+}
+#storyboard-save-btn {
+    background: #2e7d32;
+    color: #ffffff;
+    border-color: #2e7d32;
+}
+#storyboard-save-btn:hover {
+    background: #1b5e20;
+}
+#storyboard-save-status {
+    font-size: 9pt;
+    color: #666666;
+    margin-left: 8px;
+}
+.storyboard-editor {
+    width: 100%;
+    min-height: 80vh;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    line-height: 1.4;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    resize: vertical;
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
+@media print {
+    .storyboard-toolbar {
+        display: none !important;
+    }
 }
 
 /* ===== Utility classes ===== */
