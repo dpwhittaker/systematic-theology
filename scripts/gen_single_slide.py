@@ -71,7 +71,7 @@ def parse_text_blocks(text):
         hm = re.match(r'^(#{1,3}) (.+)', line)
         if hm:
             level = len(hm.group(1))
-            sizes = {1: 36, 2: 32, 3: 30}
+            sizes = {1: 48, 2: 42, 3: 38}
             blocks.append({
                 'type': 'heading',
                 'text': strip_md(hm.group(2)),
@@ -160,7 +160,7 @@ def composite_text(image, text):
     text_blocks = parse_text_blocks(text)
 
     # Pre-calculate total height
-    body_size = 28
+    body_size = 34
     font_normal = load_font(body_size)
     font_bold = load_font(body_size)  # DejaVu Bold is the default
     font_italic = load_font(body_size, italic=True)
@@ -199,7 +199,7 @@ def composite_text(image, text):
             render_items.append(('text', (wrapped, body_size), len(wrapped) * line_h))
 
     total_height = sum(h for _, _, h in render_items)
-    y = HEIGHT - total_height - 30
+    y = (HEIGHT - total_height) // 2
 
     for rtype, rdata, rheight in render_items:
         if rtype == 'hr':
