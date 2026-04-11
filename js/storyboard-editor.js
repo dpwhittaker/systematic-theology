@@ -213,18 +213,22 @@
         const bgVal = document.createElement('span');
         bgVal.className = 'sb-editable-value';
         bgVal.textContent = block.background;
-        bgVal.addEventListener('dblclick', () => makeEditable(bgVal, v => { block.background = v; }));
+        bgVal.addEventListener('dblclick', () => makeTextareaEditable(bgVal, block.background, v => {
+          block.background = v;
+        }));
         bgRow.appendChild(bgVal);
         callout.appendChild(bgRow);
 
-        // Text field
+        // Text field — render markdown, edit as raw
         const txRow = document.createElement('div');
         txRow.className = 'slide-field';
         txRow.innerHTML = '<strong>text:</strong> ';
         const txVal = document.createElement('span');
         txVal.className = 'sb-editable-value';
-        txVal.textContent = block.text;
-        txVal.addEventListener('dblclick', () => makeEditable(txVal, v => { block.text = v; }));
+        txVal.innerHTML = renderInlineMd(block.text);
+        txVal.addEventListener('dblclick', () => makeTextareaEditable(txVal, block.text, v => {
+          block.text = v;
+        }));
         txRow.appendChild(txVal);
         callout.appendChild(txRow);
 
@@ -325,6 +329,7 @@
 
   /* ── Inline Editing ─────────────────────────────────────────── */
 
+  /** Single-line contentEditable (for headings, dialogue text). */
   function makeEditable(el, onCommit) {
     if (el.isContentEditable) return;
     const original = el.textContent;
@@ -347,11 +352,64 @@
       el.removeEventListener('keydown', onKey);
     }
     function onKey(e) {
+      // Let Space, arrows, etc. work normally inside the editable
+      e.stopPropagation();
       if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); commit(); }
       if (e.key === 'Escape') { el.textContent = original; commit(); }
     }
     el.addEventListener('blur', commit);
     el.addEventListener('keydown', onKey);
+  }
+
+  /**
+   * Textarea editor for slide fields — supports multiline, markdown, arrow keys, spaces.
+   * Replaces the display element with a textarea; restores on commit.
+   */
+  function makeTextareaEditable(displayEl, rawValue, onCommit) {
+    if (displayEl.querySelector('textarea')) return;
+
+    const ta = document.createElement('textarea');
+    ta.className = 'sb-field-textarea';
+    ta.value = rawValue;
+    // Auto-size: at least 1 row, grow with content
+    ta.rows = Math.max(1, rawValue.split('\n').length);
+
+    // Hide the display content, show textarea
+    const origDisplay = displayEl.innerHTML;
+    displayEl.innerHTML = '';
+    displayEl.appendChild(ta);
+    ta.focus();
+    ta.select();
+
+    function commit() {
+      const v = ta.value;
+      displayEl.innerHTML = '';
+      if (v !== rawValue) {
+        onCommit(v);
+        displayEl.innerHTML = renderInlineMd(v);
+      } else {
+        displayEl.innerHTML = origDisplay;
+      }
+      ta.removeEventListener('blur', commit);
+      ta.removeEventListener('keydown', onKey);
+    }
+
+    function onKey(e) {
+      // All keys work inside textarea; only Escape cancels
+      e.stopPropagation();
+      if (e.key === 'Escape') {
+        displayEl.innerHTML = origDisplay;
+        ta.removeEventListener('blur', commit);
+        ta.removeEventListener('keydown', onKey);
+      }
+    }
+
+    ta.addEventListener('blur', commit);
+    ta.addEventListener('keydown', onKey);
+    // Auto-resize on input
+    ta.addEventListener('input', () => {
+      ta.rows = Math.max(1, ta.value.split('\n').length);
+    });
   }
 
   /* ── Insert Menu ────────────────────────────────────────────── */
@@ -677,8 +735,18 @@
         status.textContent = 'Error: ' + (await r.text());
       }
     } catch (e) {
-      status.textContent = 'Save server not running (port 8001)';
+      status.textContent = 'Save failed — server error';
     }
+  }
+
+  /* ── Helpers ────────────────────────────────────────────────── */
+
+  /** Render inline markdown (bold, italic) to HTML for display. */
+  function renderInlineMd(s) {
+    return s
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>');
   }
 
   /* ── Export ─────────────────────────────────────────────────── */
