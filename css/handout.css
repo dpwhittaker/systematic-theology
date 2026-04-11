@@ -301,9 +301,9 @@ code {
 
 /* Speaker labels in dialogue */
 .speaker-wright { color: #2e7d32; font-weight: bold; }
-.speaker-bt { color: #1565c0; font-weight: bold; }
-.speaker-pt { color: #c62828; font-weight: bold; }
-.speaker-lay { color: #6a1b9a; font-weight: bold; }
+.speaker-creed { color: #1565c0; font-weight: bold; }
+.speaker-carrie { color: #c62828; font-weight: bold; }
+.speaker-host { color: #6a1b9a; font-weight: bold; }
 
 /* Non-verbal cues */
 .stage-direction {
@@ -347,67 +347,217 @@ code {
         color: #000000;
     }
     .speaker-wright { color: #000000; }
-    .speaker-bt { color: #000000; }
-    .speaker-pt { color: #000000; }
-    .speaker-lay { color: #000000; }
+    .speaker-creed { color: #000000; }
+    .speaker-carrie { color: #000000; }
+    .speaker-host { color: #000000; }
 }
 
-/* ===== Storyboard Editor ===== */
+/* ===== Storyboard Inline Editor ===== */
 
-.storyboard-toolbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: #f8f8f8;
-    border-bottom: 1px solid #cccccc;
-    padding: 8px 12px;
-    margin: -0.5in -0.5in 0.2in -0.5in;
+.sb-editor-container {
+    position: relative;
+}
+
+/* Block spacing */
+.sb-block { margin: 0; }
+.sb-empty { height: 0.3em; }
+.sb-hr { margin: 0.1in 0; }
+
+/* Editable highlight */
+.sb-editing {
+    outline: 2px solid #1565c0;
+    outline-offset: 2px;
+    border-radius: 2px;
+    padding: 1px 4px;
+    background: #e3f2fd;
+    min-width: 60px;
+    display: inline-block;
+}
+.sb-editable-value {
+    cursor: text;
+}
+.sb-editable-value:hover {
+    background: #f5f5f5;
+    border-radius: 2px;
+}
+
+/* Dialogue lines */
+.sb-dialogue {
+    margin: 0.04in 0;
+    line-height: 1.4;
+}
+.sb-speaker-label {
+    cursor: pointer;
+    user-select: none;
+    border-radius: 3px;
+    padding: 0 3px;
+    transition: background 0.15s;
+}
+.sb-speaker-label:hover {
+    background: rgba(0,0,0,0.08);
+}
+.sb-dialogue-text {
+    cursor: text;
+}
+.sb-dialogue-text:hover {
+    background: #f5f5f5;
+    border-radius: 2px;
+}
+
+/* Slide callout — header row with controls */
+.slide-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.05in;
+}
+.slide-preview {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.1in auto 0;
+    border-radius: 4px;
+}
+.slide-placeholder {
+    text-align: center;
+    padding: 1in 0;
+    color: #999999;
+    font-style: italic;
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    margin-top: 0.1in;
+}
+
+/* Audio row */
+.sb-audio-row {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+    margin: 0.1in 0;
 }
-.storyboard-toolbar button {
-    padding: 6px 16px;
-    border: 1px solid #999999;
-    border-radius: 4px;
+.sb-audio-row audio {
+    flex: 1;
+    max-width: 500px;
+    height: 36px;
+}
+
+/* Media controls (shared by slide and audio) */
+.sb-media-controls {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.sb-ctrl {
+    padding: 3px 8px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
     background: #ffffff;
     cursor: pointer;
     font-family: system-ui, sans-serif;
-    font-size: 10pt;
+    font-size: 9pt;
+    line-height: 1;
+    color: #333333;
 }
-.storyboard-toolbar button:hover {
+.sb-ctrl:hover:not(:disabled) {
     background: #e8e8e8;
 }
-#storyboard-save-btn {
+.sb-ctrl:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+.sb-regen {
+    background: #e8f5e9;
+    border-color: #81c784;
+    color: #2e7d32;
+    font-weight: 600;
+}
+.sb-regen:hover:not(:disabled) {
+    background: #c8e6c9;
+}
+
+/* Insert dropdown menu */
+.sb-insert-menu {
+    position: absolute;
+    z-index: 1000;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 6px 0;
+    min-width: 240px;
+    font-family: system-ui, sans-serif;
+    font-size: 10pt;
+}
+.sb-menu-row {
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 8px;
+}
+.sb-menu-row:hover {
+    background: #f5f5f5;
+}
+.sb-menu-label {
+    flex: 1;
+}
+.sb-menu-btn {
+    padding: 2px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 9pt;
+}
+.sb-menu-btn:hover {
+    background: #e0e0e0;
+}
+.sb-menu-sep {
+    height: 1px;
+    background: #e0e0e0;
+    margin: 4px 8px;
+}
+
+/* Save bar */
+.sb-save-bar {
+    position: sticky;
+    bottom: 0;
+    background: #f8f8f8;
+    border-top: 1px solid #cccccc;
+    padding: 10px 16px;
+    margin: 0.2in -0.5in -0.5in -0.5in;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 100;
+}
+.sb-save-btn {
+    padding: 8px 24px;
+    border: 1px solid #2e7d32;
+    border-radius: 4px;
     background: #2e7d32;
     color: #ffffff;
-    border-color: #2e7d32;
+    cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
 }
-#storyboard-save-btn:hover {
+.sb-save-btn:hover {
     background: #1b5e20;
 }
-#storyboard-save-status {
-    font-size: 9pt;
-    color: #666666;
-    margin-left: 8px;
-}
-.storyboard-editor {
-    width: 100%;
-    min-height: 80vh;
-    font-family: 'Courier New', monospace;
+.sb-save-status {
     font-size: 10pt;
-    line-height: 1.4;
-    padding: 12px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    resize: vertical;
-    white-space: pre-wrap;
-    tab-size: 4;
+    color: #666666;
 }
 
 @media print {
-    .storyboard-toolbar {
+    .sb-save-bar,
+    .sb-media-controls,
+    .sb-insert-menu {
         display: none !important;
+    }
+    .sb-editing {
+        outline: none;
+        background: transparent;
     }
 }
 

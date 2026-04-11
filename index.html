@@ -93,9 +93,15 @@
     </div>
     <script>
         // Cache-busting for development: append timestamp to force reload
-        const script = document.createElement('script');
-        script.src = 'js/app.js?v=' + Date.now();
-        document.body.appendChild(script);
+        // Load storyboard editor first, then app.js after it's ready
+        const editorScript = document.createElement('script');
+        editorScript.src = 'js/storyboard-editor.js?v=' + Date.now();
+        editorScript.onload = editorScript.onerror = function() {
+            const script = document.createElement('script');
+            script.src = 'js/app.js?v=' + Date.now();
+            document.body.appendChild(script);
+        };
+        document.body.appendChild(editorScript);
     </script>
 </body>
 </html>

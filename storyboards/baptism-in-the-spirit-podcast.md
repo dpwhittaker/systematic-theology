@@ -2,8 +2,8 @@
 <!-- source: handouts/baptism-in-the-spirit.md -->
 <!-- format: panel podcast -->
 <!-- series: Tabernacle Truths — exploring Christianity's lost Jewish roots -->
-<!-- voices: WRIGHT=JBFqnCBsd6RMkjVDRZzb, BT=IKne3meq5aSn9XLyUdCD, PT=EXAVITQu4vr4xnSDxMaL, LAY=cgSgspJ2msm6clMCkdW9 -->
-<!-- cast: WRIGHT=Professor Arkwright (British academic), BT=Dr. Creed (Reformed/Baptist exegete), PT=Pastor Carrie (Pentecostal theologian), LAY=Jordan (host) -->
+<!-- voices: WRIGHT=JBFqnCBsd6RMkjVDRZzb, CREED=IKne3meq5aSn9XLyUdCD, CARRIE=EXAVITQu4vr4xnSDxMaL, HOST=cgSgspJ2msm6clMCkdW9 -->
+<!-- cast: WRIGHT=Professor Arkwright (British academic), CREED=Dr. Creed (Reformed/Baptist exegete), CARRIE=Pastor Carrie (Pentecostal theologian), HOST=Jordan (host) -->
 
 ---
 
@@ -17,19 +17,19 @@
 
 ![audio](audio/00-introductions.mp3)
 
-**LAY:** [warm, excited] This is Tabernacle Truths, where we explore Christianity's lost Jewish roots. I'm your host Jordan, and today we're talking about the Holy Spirit. Do we need a second baptism? Did we already get everything at conversion? I've got three brilliant people around this table who come at this from very different places. Professor Arkwright?
+**HOST:** [warm, excited] This is Tabernacle Truths, where we explore Christianity's lost Jewish roots. I'm your host Jordan, and today we're talking about the Holy Spirit. Do we need a second baptism? Did we already get everything at conversion? I've got three brilliant people around this table who come at this from very different places. Professor Arkwright?
 
 **WRIGHT:** [warmly] Jordan, thank you for having me. I'm a biblical theologian — my work focuses on how Israel's story arrives at its fulfillment in Christ and the Spirit.
 
-**LAY:** Dr. Creed?
+**HOST:** Dr. Creed?
 
-**BT:** [friendly] Great to be here, Jordan. I'm a pastor and I teach systematic theology. My instinct is always the same — go back to the text.
+**CREED:** [friendly] Great to be here, Jordan. I'm a pastor and I teach systematic theology. My instinct is always the same — go back to the text.
 
-**LAY:** And Pastor Carrie?
+**HOST:** And Pastor Carrie?
 
-**PT:** [genuine, warm] Jordan, I love what you're doing with this show. I lead a charismatic congregation and I've done doctoral work in pneumatology — the study of the Holy Spirit.
+**CARRIE:** [genuine, warm] Jordan, I love what you're doing with this show. I lead a charismatic congregation and I've done doctoral work in pneumatology — the study of the Holy Spirit.
 
-**LAY:** [earnest] I should warn everyone — I'm going to ask the simple questions. That's what I'm here for.
+**HOST:** [earnest] I should warn everyone — I'm going to ask the simple questions. That's what I'm here for.
 
 ---
 
@@ -43,19 +43,19 @@
 
 ![audio](audio/01-part-1-the-common-ground.mp3)
 
-**LAY:** [curious] Before we get into the differences — is there anything you three actually agree on?
+**HOST:** [curious] Before we get into the differences — is there anything you three actually agree on?
 
 **WRIGHT:** [emphatic] The common ground is enormous. Romans 8:9 — if you belong to Christ, the Spirit lives in you. Full stop.
 
-**BT:** [nodding] And Paul isn't hedging. The grammar is a first-class conditional — he's assuming it's true of every reader.
+**CREED:** [nodding] And Paul isn't hedging. The grammar is a first-class conditional — he's assuming it's true of every reader.
 
-**PT:** [with conviction] We agree completely. No serious Pentecostal theologian denies that the Spirit indwells every believer at conversion.
+**CARRIE:** [with conviction] We agree completely. No serious Pentecostal theologian denies that the Spirit indwells every believer at conversion.
 
-**LAY:** [surprised] So what are we exploring today?
+**HOST:** [surprised] So what are we exploring today?
 
-**PT:** [thoughtful] Whether having Him and being filled by Him are the same thing.
+**CARRIE:** [thoughtful] Whether having Him and being filled by Him are the same thing.
 
-**LAY:** [quietly] That's a really big distinction, isn't it.
+**HOST:** [quietly] That's a really big distinction, isn't it.
 
 ---
 
@@ -69,15 +69,15 @@
 
 ![audio](audio/02-part-2-two-kinds-of-language.mp3)
 
-**LAY:** [curious] Dr. Creed, walk me through what Jesus said about the Spirit. Because it feels like He's saying two different things.
+**HOST:** [curious] Dr. Creed, walk me through what Jesus said about the Spirit. Because it feels like He's saying two different things.
 
-**BT:** [explaining] That's because He is. First — permanent indwelling. John 14: "I will ask the Father, and He will give you another advocate to be with you forever." The Spirit comes and stays.
+**CREED:** [explaining] That's because He is. First — permanent indwelling. John 14: "I will ask the Father, and He will give you another advocate to be with you forever." The Spirit comes and stays.
 
 **WRIGHT:** [building on that] And that "forever" echoes Ezekiel 36 — "I will put my Spirit IN you." Under the old covenant, the Spirit came UPON people for tasks. Under the new covenant, He moves inside. Permanently.
 
-**LAY:** Okay. What's the second category?
+**HOST:** Okay. What's the second category?
 
-**PT:** [leaning in] Power. In John 20, Jesus breathes on His disciples and says "Receive the Holy Spirit." They have the Spirit. And then He tells them to wait.
+**CARRIE:** [leaning in] Power. In John 20, Jesus breathes on His disciples and says "Receive the Holy Spirit." They have the Spirit. And then He tells them to wait.
 
 > [!slide]
 > **background:** golden rays breaking through dark storm clouds over distant horizon, desaturated amber
@@ -85,17 +85,17 @@
 
 ![slide](images/acts-1-8.png)
 
-**LAY:** Wait for what?
+**HOST:** Wait for what?
 
-**PT:** [with emphasis] Acts 1:8. "You will receive power when the Holy Spirit comes on you." They already had the Spirit. Jesus told them to wait for something MORE.
+**CARRIE:** [with emphasis] Acts 1:8. "You will receive power when the Holy Spirit comes on you." They already had the Spirit. Jesus told them to wait for something MORE.
 
-**LAY:** [turning] Dr. Creed, what do you make of that?
+**HOST:** [turning] Dr. Creed, what do you make of that?
 
-**BT:** [carefully, honestly] It's a real text. The question is whether that gap was a unique historical moment or a pattern for all believers. I'd argue it was unique.
+**CREED:** [carefully, honestly] It's a real text. The question is whether that gap was a unique historical moment or a pattern for all believers. I'd argue it was unique.
 
-**PT:** [gently pressing] But John the Baptist made the same distinction in ALL four Gospels. Water baptism is one thing. Spirit baptism is something else. Both John and Jesus draw that line.
+**CARRIE:** [gently pressing] But John the Baptist made the same distinction in ALL four Gospels. Water baptism is one thing. Spirit baptism is something else. Both John and Jesus draw that line.
 
-**LAY:** Professor Arkwright, where do you land?
+**HOST:** Professor Arkwright, where do you land?
 
 **WRIGHT:** [warmly] The text doesn't decide that as cleanly as either of them would like. And I think that's worth sitting with.
 
@@ -111,15 +111,15 @@
 
 ![audio](audio/03-part-3-the-tabernacle.mp3)
 
-**LAY:** [fascinated] Professor Arkwright, tell me about this tabernacle pattern.
+**HOST:** [fascinated] Professor Arkwright, tell me about this tabernacle pattern.
 
 **WRIGHT:** [with passion] The Tabernacle — the mishkan. Three stages: construction, consecration, then the glory fills it. The structure existed before the glory came. And Paul applies this directly to us — your body is a temple of the Holy Spirit.
 
-**LAY:** [awed] So we're the tabernacle.
+**HOST:** [awed] So we're the tabernacle.
 
 **WRIGHT:** [emphatic] You're the tabernacle. Built at creation, consecrated at conversion, the glory fills you. But unlike the original, we grieve and quench. The glory doesn't leave — the seal holds — but the filling can be muffled.
 
-**PT:** [excited, building on it] That's the whole debate in one image. The structure exists. The Spirit is IN it. But how much of that tabernacle is the glory actually filling?
+**CARRIE:** [excited, building on it] That's the whole debate in one image. The structure exists. The Spirit is IN it. But how much of that tabernacle is the glory actually filling?
 
 > [!slide]
 > **background:** cracked red wax seal on dark aged parchment, warm muted earth tones
@@ -127,17 +127,17 @@
 
 ![slide](images/ephesians-4-30.png)
 
-**BT:** [thoughtful] The analogy is beautiful. I want to be careful with it, though — analogies can carry us further than the text does.
+**CREED:** [thoughtful] The analogy is beautiful. I want to be careful with it, though — analogies can carry us further than the text does.
 
-**PT:** [earnest] That's fair. But look at Ezekiel 10 — the glory DEPARTS from the temple because of Israel's sin. Under the new covenant the Spirit doesn't leave, but He can be grieved and quenched. Grieved is relational — you've hurt Him. Quenched is functional — you've SUPPRESSED His activity. And I think a lot of churches have been quenching for a long time without realizing it.
+**CARRIE:** [earnest] That's fair. But look at Ezekiel 10 — the glory DEPARTS from the temple because of Israel's sin. Under the new covenant the Spirit doesn't leave, but He can be grieved and quenched. Grieved is relational — you've hurt Him. Quenched is functional — you've SUPPRESSED His activity. And I think a lot of churches have been quenching for a long time without realizing it.
 
-**BT:** [long pause, honest] That's a serious thing to say, Carrie.
+**CREED:** [long pause, honest] That's a serious thing to say, Carrie.
 
-**PT:** [gently] I know. And I say it with love.
+**CARRIE:** [gently] I know. And I say it with love.
 
-**LAY:** [softly, vulnerable] My grandmother's church would never use the word "quench." But nothing unpredictable ever happened there either.
+**HOST:** [softly, vulnerable] My grandmother's church would never use the word "quench." But nothing unpredictable ever happened there either.
 
-**PT:** [compassionate] Order is not the enemy of the Spirit. But it can become the excuse for His absence.
+**CARRIE:** [compassionate] Order is not the enemy of the Spirit. But it can become the excuse for His absence.
 
 ---
 
@@ -151,9 +151,9 @@
 
 ![audio](audio/04-part-4-sealed-and-filled.mp3)
 
-**LAY:** [curious] Dr. Creed, what's your framework for teaching the Spirit?
+**HOST:** [curious] Dr. Creed, what's your framework for teaching the Spirit?
 
-**BT:** [clear, teaching] Two categories. The seal — Ephesians 1:13. When you believed, you were sealed. The Greek word for guarantee is arrabon — a down payment. Legally binding. That seal is permanent, not repeated, not earned, not lost.
+**CREED:** [clear, teaching] Two categories. The seal — Ephesians 1:13. When you believed, you were sealed. The Greek word for guarantee is arrabon — a down payment. Legally binding. That seal is permanent, not repeated, not earned, not lost.
 
 **WRIGHT:** [adding] And the Spirit seals you into a PROJECT. Paul says God is uniting all things in Christ. You're sealed into the renewal of creation.
 
@@ -163,17 +163,17 @@
 
 ![slide](images/bap-ephesians-5-18.png)
 
-**PT:** [with conviction] But then Paul commands something else. Ephesians 5:18. "Be filled with the Spirit." Present tense — keep on being filled. Passive — it's done TO you. Imperative — a command, not a suggestion.
+**CARRIE:** [with conviction] But then Paul commands something else. Ephesians 5:18. "Be filled with the Spirit." Present tense — keep on being filled. Passive — it's done TO you. Imperative — a command, not a suggestion.
 
-**LAY:** [working it out] So the seal is... the boat is yours. But the filling is raising the sails.
+**HOST:** [working it out] So the seal is... the boat is yours. But the filling is raising the sails.
 
-**PT:** [delighted] Exactly. The wind is always there.
+**CARRIE:** [delighted] Exactly. The wind is always there.
 
-**BT:** [nodding] I don't dispute the filling is ongoing. What I'm cautious about is whether a dramatic second experience is normative for everyone.
+**CREED:** [nodding] I don't dispute the filling is ongoing. What I'm cautious about is whether a dramatic second experience is normative for everyone.
 
-**LAY:** [vulnerable] When I had an experience at a friend's church — was that a second baptism? A fresh filling? Should I expect more?
+**HOST:** [vulnerable] When I had an experience at a friend's church — was that a second baptism? A fresh filling? Should I expect more?
 
-**PT:** [warmly] More. Definitely more. And here's why — Acts 4:31. They were all filled with the Holy Spirit and spoke the word of God boldly.
+**CARRIE:** [warmly] More. Definitely more. And here's why — Acts 4:31. They were all filled with the Holy Spirit and spoke the word of God boldly.
 
 > [!slide]
 > **background:** ancient stone chamber gradually filling with interior light, dark archways, desaturated gold
@@ -181,19 +181,19 @@
 
 ![slide](images/bap-acts-4-31.png)
 
-**LAY:** But who's "they"?
+**HOST:** But who's "they"?
 
-**PT:** [pause, letting it land] Back up to Acts 4:13. It's Peter and John. Peter — the guy who preached at Pentecost and saw three thousand people come to faith.
+**CARRIE:** [pause, letting it land] Back up to Acts 4:13. It's Peter and John. Peter — the guy who preached at Pentecost and saw three thousand people come to faith.
 
-**LAY:** [stunned] Wait. PETER needed another filling?
+**HOST:** [stunned] Wait. PETER needed another filling?
 
-**PT:** [emphatic] Yes. Peter and John — the most prominent leaders of the early church — prayed together and were filled AGAIN. The text says "they were ALL filled." Peter included.
+**CARRIE:** [emphatic] Yes. Peter and John — the most prominent leaders of the early church — prayed together and were filled AGAIN. The text says "they were ALL filled." Peter included.
 
 **WRIGHT:** [moved] And this is so important. If PETER needed fresh filling — Peter who walked on water, who preached Pentecost — then this isn't about spiritual immaturity. It's the rhythm of the Christian life.
 
-**LAY:** [emotional, voice breaking] So it's not that something was wrong with me for needing more. Even Peter needed more.
+**HOST:** [emotional, voice breaking] So it's not that something was wrong with me for needing more. Even Peter needed more.
 
-**PT:** [tender] Even Peter needed more.
+**CARRIE:** [tender] Even Peter needed more.
 
 ---
 
@@ -207,19 +207,19 @@
 
 ![audio](audio/05-part-5-the-mess-in-acts.mp3)
 
-**LAY:** [curious] Let's talk about Acts. Professor Arkwright, is there a pattern?
+**HOST:** [curious] Let's talk about Acts. Professor Arkwright, is there a pattern?
 
 **WRIGHT:** [animated] The pattern IS the irregularity. The Spirit falls before baptism, after baptism, with the apostles, without them. Luke is showing the Spirit's sovereign movement as the gospel crosses every barrier — Jews, Samaritans, Gentiles.
 
-**LAY:** [puzzled] Dr. Creed, Acts 8 is the one that gets me. They believed, they were baptized, and the Spirit HADN'T come. How does that fit?
+**HOST:** [puzzled] Dr. Creed, Acts 8 is the one that gets me. They believed, they were baptized, and the Spirit HADN'T come. How does that fit?
 
-**BT:** [carefully, honestly] The Reformed reading is that Samaria was a unique transitional moment — the gospel crossing from Jews to Samaritans for the first time. It's not a repeatable template.
+**CREED:** [carefully, honestly] The Reformed reading is that Samaria was a unique transitional moment — the gospel crossing from Jews to Samaritans for the first time. It's not a repeatable template.
 
-**PT:** [thoughtful] That's plausible. But you have to use that argument for every unusual case in Acts. At some point, I wonder if we're harmonizing rather than listening to what Luke is actually showing us.
+**CARRIE:** [thoughtful] That's plausible. But you have to use that argument for every unusual case in Acts. At some point, I wonder if we're harmonizing rather than listening to what Luke is actually showing us.
 
-**BT:** [gently] And I'd say we all need to be careful that our reading isn't shaped more by experience than by the text.
+**CREED:** [gently] And I'd say we all need to be careful that our reading isn't shaped more by experience than by the text.
 
-**PT:** [nodding, honest] That's true. We all bring something to the text. I just want us to be honest about what we bring.
+**CARRIE:** [nodding, honest] That's true. We all bring something to the text. I just want us to be honest about what we bring.
 
 ---
 
@@ -233,13 +233,13 @@
 
 ![audio](audio/06-part-6-the-three-views.mp3)
 
-**LAY:** [setting up] I want to lay out the three views clearly. Professor Arkwright, can you walk us through them?
+**HOST:** [setting up] I want to lay out the three views clearly. Professor Arkwright, can you walk us through them?
 
 **WRIGHT:** [clear, teaching] View one — the Reformed reading. Spirit baptism is what happens when you believe. Incorporation into Christ. "We were ALL baptized by one Spirit." Universal. Complete. Done.
 
-**LAY:** [turning] Dr. Creed, what's the strength of that — and what's the risk?
+**HOST:** [turning] Dr. Creed, what's the strength of that — and what's the risk?
 
-**BT:** [honest, reflective] The strength is Paul's corporate language. The Spirit creates a PEOPLE, not just saved individuals. The risk? [pause] Complacency. The lived experience of the Spirit can quietly disappear from church life.
+**CREED:** [honest, reflective] The strength is Paul's corporate language. The Spirit creates a PEOPLE, not just saved individuals. The risk? [pause] Complacency. The lived experience of the Spirit can quietly disappear from church life.
 
 > [!slide]
 > **background:** lone figure in open field, wind visible in tall grass, wide sky, desaturated blue-gray
@@ -247,21 +247,21 @@
 
 ![slide](images/bap-matt-3-11.png)
 
-**LAY:** [turning] Pastor Carrie, give me the best version of the Pentecostal view — not the caricature.
+**HOST:** [turning] Pastor Carrie, give me the best version of the Pentecostal view — not the caricature.
 
-**PT:** [with deep conviction] Spirit baptism is the future breaking into the present. Pentecost is Babel in reverse — every barrier comes down. The power you receive isn't for you. It's the age to come flowing through you for mission.
+**CARRIE:** [with deep conviction] Spirit baptism is the future breaking into the present. Pentecost is Babel in reverse — every barrier comes down. The power you receive isn't for you. It's the age to come flowing through you for mission.
 
-**LAY:** [genuinely moved] I've never heard it put that way. That's way less self-focused than how I was taught.
+**HOST:** [genuinely moved] I've never heard it put that way. That's way less self-focused than how I was taught.
 
-**BT:** [appreciative] That IS the best version. Where I get concerned is when churches pressure people to produce tongues as evidence — that moves away from what Paul teaches.
+**CREED:** [appreciative] That IS the best version. Where I get concerned is when churches pressure people to produce tongues as evidence — that moves away from what Paul teaches.
 
-**PT:** [honest, conceding] I won't defend every church in my tradition. We've made mistakes too.
+**CARRIE:** [honest, conceding] I won't defend every church in my tradition. We've made mistakes too.
 
-**LAY:** And view three?
+**HOST:** And view three?
 
 **WRIGHT:** [warm] Many fillings. The seal holds — once, permanent. The filling is ongoing. Acts 4:31 — same disciples as Pentecost, filled again.
 
-**LAY:** [hopeful] Is there a version of all three where the practical answer is just... stop blocking it?
+**HOST:** [hopeful] Is there a version of all three where the practical answer is just... stop blocking it?
 
 **WRIGHT:** [warmly, with conviction] Yes. That's what Paul means by "be filled." Stop grieving it. Stop quenching it. Raise the sails.
 
@@ -277,13 +277,13 @@
 
 ![audio](audio/07-part-7-hard-questions.mp3)
 
-**LAY:** [direct but gentle] I want to go direct. Dr. Creed — has your tradition been testing the Spirit, or quenching Him?
+**HOST:** [direct but gentle] I want to go direct. Dr. Creed — has your tradition been testing the Spirit, or quenching Him?
 
-**BT:** [long pause, vulnerable] Both. Honestly. We test well. We quench well too.
+**CREED:** [long pause, vulnerable] Both. Honestly. We test well. We quench well too.
 
 **WRIGHT:** [serious] And that matters, because a church that quenches the Spirit doesn't just become boring. It loses its capacity to be SENT.
 
-**PT:** [passionate but respectful] The global South — Africa, Asia, Latin America — Christianity is exploding. Almost entirely Spirit-movement Christianity. The Western church is declining. At some point we have to ask together if the Spirit is doing something our categories can't contain.
+**CARRIE:** [passionate but respectful] The global South — Africa, Asia, Latin America — Christianity is exploding. Almost entirely Spirit-movement Christianity. The Western church is declining. At some point we have to ask together if the Spirit is doing something our categories can't contain.
 
 > [!slide]
 > **background:** many diverse hands reaching toward center forming a circle, dark background, warm side lighting
@@ -291,11 +291,11 @@
 
 ![slide](images/1-cor-12-21.png)
 
-**LAY:** [turning] Pastor Carrie — same question, other direction. What's the shadow side of YOUR tradition?
+**HOST:** [turning] Pastor Carrie — same question, other direction. What's the shadow side of YOUR tradition?
 
-**PT:** [honest, self-aware] Experience-dependency. Measuring your walk with God by the intensity of your last encounter instead of daily faithfulness. And when not speaking in tongues makes someone feel like a second-class Christian — that contradicts everything Paul said.
+**CARRIE:** [honest, self-aware] Experience-dependency. Measuring your walk with God by the intensity of your last encounter instead of daily faithfulness. And when not speaking in tongues makes someone feel like a second-class Christian — that contradicts everything Paul said.
 
-**BT:** [gently adding] And the mission question. The Spirit at Pentecost didn't come so the disciples could have an experience. He came so the gospel could cross every barrier.
+**CREED:** [gently adding] And the mission question. The Spirit at Pentecost didn't come so the disciples could have an experience. He came so the gospel could cross every barrier.
 
 **WRIGHT:** [reflective] Every tradition has blind spots. The question is whether we love our traditions more than the truth they were trying to protect.
 
@@ -311,19 +311,19 @@
 
 ![audio](audio/08-part-8-the-bottom-line.mp3)
 
-**LAY:** [warm] One sentence each. Dr. Creed?
+**HOST:** [warm] One sentence each. Dr. Creed?
 
-**BT:** [with weight] You have the Spirit. You may not be filled. The seal is permanent — the filling is daily.
+**CREED:** [with weight] You have the Spirit. You may not be filled. The seal is permanent — the filling is daily.
 
-**LAY:** Professor Arkwright?
+**HOST:** Professor Arkwright?
 
 **WRIGHT:** [moved, passionate] The Spirit of God tabernacles in you — the same Spirit who hovered over the waters at creation, who filled the mishkan, who descended on Jesus at the Jordan. He's not a theology topic. He's a person. And He wants to fill every corner of your life — and then send you out.
 
-**LAY:** Pastor Carrie?
+**HOST:** Pastor Carrie?
 
-**PT:** [gentle, strong] Stop building walls. Start raising sails. The wind never stops blowing.
+**CARRIE:** [gentle, strong] Stop building walls. Start raising sails. The wind never stops blowing.
 
-**LAY:** [pause, emotional] I started this show because something happened to me I couldn't explain. I don't think these three explained it either. But I understand the question now. It's not "do I need a second baptism?" It's "am I raising the sails today?" [pause] That's Tabernacle Truths. Thanks for watching.
+**HOST:** [pause, emotional] I started this show because something happened to me I couldn't explain. I don't think these three explained it either. But I understand the question now. It's not "do I need a second baptism?" It's "am I raising the sails today?" [pause] That's Tabernacle Truths. Thanks for watching.
 
 ---
 
@@ -331,7 +331,7 @@
 
 | Voice | Lines | Words | Initiates | Concedes | Challenged By |
 |-------|-------|-------|-----------|----------|---------------|
-| LAY | 32 | ~550 | 8 | 0 | — |
-| WRIGHT | 14 | ~430 | 3 | 0 | BT |
-| BT | 14 | ~370 | 2 | 1 (quenching) | PT |
-| PT | 16 | ~400 | 4 | 1 (tradition) | BT |
+| HOST | 32 | ~550 | 8 | 0 | — |
+| WRIGHT | 14 | ~430 | 3 | 0 | CREED |
+| CREED | 14 | ~370 | 2 | 1 (quenching) | CARRIE |
+| CARRIE | 16 | ~400 | 4 | 1 (tradition) | CREED |

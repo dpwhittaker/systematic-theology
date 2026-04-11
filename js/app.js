@@ -1001,6 +1001,13 @@ async function loadHandout(path) {
         if (!response.ok) throw new Error(`Failed to load ${path}`);
         let markdown = await response.text();
 
+        // Storyboard: use dedicated editor instead of generic handout renderer
+        if (path.startsWith('storyboards/') && path.endsWith('.md') && window.StoryboardEditor) {
+            const blocks = window.StoryboardEditor.parse(markdown);
+            window.StoryboardEditor.render(blocks, path, els.cardBody);
+            return;
+        }
+
         // Extract mermaid blocks before line-by-line parsing
         const mermaidBlocks = [];
         markdown = markdown.replace(/```mermaid\n([\s\S]*?)```/g, (match, diagram) => {
@@ -1175,45 +1182,26 @@ async function loadHandout(path) {
             // Links
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 
-        // Storyboard-specific transforms
+        // Storyboard-specific transforms (fallback when editor JS not loaded)
         if (path.startsWith('storyboards/')) {
-            // Convert > [!slide] callout blocks (the [!slide] may have been mangled by link regex)
             html = html.replace(
                 /<blockquote>(?:\[!slide\]|<a[^>]*>!slide<\/a>|\[!slide])<br>([\s\S]*?)<\/blockquote>/g,
-                (match, content) => {
-                    return '<div class="slide-callout"><span class="slide-label">Slide</span><br>' + content + '</div>';
-                }
+                (match, content) => '<div class="slide-callout"><span class="slide-label">Slide</span><br>' + content + '</div>'
             );
-
-            // Color speaker labels
-            const speakers = { WRIGHT: 'wright', BT: 'bt', PT: 'pt', LAY: 'lay' };
+            const speakers = { WRIGHT: 'wright', CREED: 'creed', CARRIE: 'carrie', HOST: 'host' };
             for (const [id, cls] of Object.entries(speakers)) {
-                const re = new RegExp(`<strong>${id}:<\\/strong>`, 'g');
-                html = html.replace(re, `<strong class="speaker-${cls}">${id}:</strong>`);
+                html = html.replace(new RegExp(`<strong>${id}:<\\/strong>`, 'g'), `<strong class="speaker-${cls}">${id}:</strong>`);
             }
-
-            // Style stage directions [laughs], [pause], etc.
-            // Match lowercase bracketed text that isn't [!slide], [audio], [slide], or HTML tags
             html = html.replace(/\[([a-z][^\[\]]{0,60})\]/g, (match, inner) => {
                 if (inner.startsWith('!') || inner === 'audio' || inner === 'slide') return match;
                 return `<span class="stage-direction">[${inner}]</span>`;
             });
-
-            // Convert audio images to audio players
-            html = html.replace(
-                /<img src="([^"]*\.mp3)" alt="audio"[^>]*>/g,
-                (match, src) => {
-                    return `<div class="section-audio"><audio controls preload="none" src="${src}"></audio></div>`;
-                }
-            );
-
-            // Add fullscreen player link if audio files are present
+            html = html.replace(/<img src="([^"]*\.mp3)" alt="audio"[^>]*>/g,
+                (m, src) => `<div class="section-audio"><audio controls preload="none" src="${src}"></audio></div>`);
             if (html.includes('class="section-audio"')) {
                 const playerPath = path.substring(0, path.lastIndexOf('/') + 1) + 'player.html';
                 html = `<div class="player-launch"><a href="${playerPath}" target="_blank">Play Fullscreen</a></div>\n` + html;
             }
-
-            // Render HTML comments as visible metadata
             html = html.replace(/<!--\s*(.*?)\s*-->/g, '<div class="storyboard-meta">$1</div>');
         }
 
@@ -1233,70 +1221,6 @@ async function loadHandout(path) {
 
         // Render to page
         els.cardBody.innerHTML = html;
-
-        // Add edit toolbar for storyboard pages
-        if (path.startsWith('storyboards/') && path.endsWith('.md')) {
-            const toolbar = document.createElement('div');
-            toolbar.className = 'storyboard-toolbar';
-            toolbar.innerHTML = `
-                <button id="storyboard-edit-btn">Edit</button>
-                <button id="storyboard-save-btn" style="display:none">Save</button>
-                <button id="storyboard-cancel-btn" style="display:none">Cancel</button>
-                <span id="storyboard-save-status"></span>
-            `;
-            els.cardBody.insertBefore(toolbar, els.cardBody.firstChild);
-
-            const editBtn = document.getElementById('storyboard-edit-btn');
-            const saveBtn = document.getElementById('storyboard-save-btn');
-            const cancelBtn = document.getElementById('storyboard-cancel-btn');
-            const statusEl = document.getElementById('storyboard-save-status');
-            let renderedHTML = els.cardBody.innerHTML;
-
-            editBtn.addEventListener('click', async () => {
-                // Fetch raw markdown
-                const rawResp = await fetch(path);
-                const rawMd = await rawResp.text();
-                const textarea = document.createElement('textarea');
-                textarea.id = 'storyboard-editor';
-                textarea.className = 'storyboard-editor';
-                textarea.value = rawMd;
-                // Replace content with editor (keep toolbar)
-                const children = Array.from(els.cardBody.children);
-                children.forEach(c => { if (c !== toolbar) c.remove(); });
-                els.cardBody.appendChild(textarea);
-                editBtn.style.display = 'none';
-                saveBtn.style.display = '';
-                cancelBtn.style.display = '';
-                statusEl.textContent = '';
-            });
-
-            cancelBtn.addEventListener('click', () => {
-                els.cardBody.innerHTML = renderedHTML;
-                // Re-attach toolbar event listeners by re-running loadHandout
-                loadHandout(path);
-            });
-
-            saveBtn.addEventListener('click', async () => {
-                const editor = document.getElementById('storyboard-editor');
-                if (!editor) return;
-                statusEl.textContent = 'Saving...';
-                try {
-                    const resp = await fetch('http://127.0.0.1:8001/' + path, {
-                        method: 'PUT',
-                        headers: { 'Content-Type': 'text/plain' },
-                        body: editor.value,
-                    });
-                    if (resp.ok) {
-                        statusEl.textContent = 'Saved!';
-                        setTimeout(() => loadHandout(path), 500);
-                    } else {
-                        statusEl.textContent = 'Error: ' + resp.statusText;
-                    }
-                } catch (e) {
-                    statusEl.textContent = 'Save server not running (port 8001)';
-                }
-            });
-        }
 
         // Re-initialize mermaid with light theme for handouts, then render
         if (window.mermaid && els.cardBody.querySelectorAll('.mermaid').length > 0) {
