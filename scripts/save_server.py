@@ -208,7 +208,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
         script = os.path.join(PROJECT_ROOT, "scripts", "gen_single_slide.py")
         cmd = (
-            f'source ~/ml-env/bin/activate && python3 "{script}" '
+            f'eval "$(grep ^export ~/.bashrc)"; source ~/ml-env/bin/activate && python3 "{script}" '
             f'--bg "{background}" --text "{text}" --out "{out_path}"'
         )
 
@@ -274,7 +274,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         })
 
         cmd = (
-            f'source ~/ml-env/bin/activate && '
+            f'eval "$(grep ^export ~/.bashrc)"; source ~/ml-env/bin/activate && '
             f'echo {repr(cmd_data)} | python3 "{script}"'
         )
 
@@ -310,8 +310,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def log_message(self, format, *args):
         # Quieter logging — skip static file GETs, show API calls
-        msg = args[0] if args else ''
-        if '/api/' in msg or 'regen' in msg.lower():
+        try:
+            msg = format % args if args else format
+        except Exception:
+            msg = str(args)
+        if '/api/' in msg or 'regen' in msg.lower() or 'error' in msg.lower():
             print(f"[server] {msg}")
 
 
