@@ -694,6 +694,7 @@
       const dir = block.src.substring(0, block.src.lastIndexOf('/') + 1);
       block.src = dir + gens[genIdx];
       audioEl.src = _docDir + block.src;
+      audioEl.play();
     }
 
     ctrls.querySelector('[data-dir="prev"]').addEventListener('click', async () => {
