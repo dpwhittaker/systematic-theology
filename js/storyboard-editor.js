@@ -489,6 +489,31 @@
       _menu.appendChild(row);
     });
 
+    // Delete option
+    const delSep = document.createElement('div');
+    delSep.className = 'sb-menu-sep';
+    _menu.appendChild(delSep);
+
+    const delRow = document.createElement('div');
+    delRow.className = 'sb-menu-row';
+    const delLabel = document.createElement('span');
+    delLabel.className = 'sb-menu-label';
+    delLabel.innerHTML = '<span style="color:#c62828">Delete this line</span>';
+    delRow.appendChild(delLabel);
+    const delBtn = document.createElement('button');
+    delBtn.className = 'sb-menu-btn';
+    delBtn.style.cssText = 'color:#c62828;border-color:#c62828';
+    delBtn.textContent = 'Delete';
+    delBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      closeMenu();
+      _blocks.splice(blockIdx, 1);
+      updateCommitButton();
+      rerender();
+    });
+    delRow.appendChild(delBtn);
+    _menu.appendChild(delRow);
+
     const rect = anchor.getBoundingClientRect();
     _menu.style.left = rect.left + 'px';
     _menu.style.top = (rect.bottom + window.scrollY + 4) + 'px';
