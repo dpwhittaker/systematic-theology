@@ -238,9 +238,14 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         current = data.get("current", "")
         doc_dir = data.get("docDir", "")
         storyboard_path = data.get("storyboardPath", "")
+        audio_profile = data.get("audioProfile", "")
 
         if not dialogue:
             return error_response(self, 400, "No dialogue lines")
+
+        # Determine output format based on TTS engine
+        use_gemini = bool(audio_profile)
+        default_ext = ".wav" if use_gemini else ".mp3"
 
         if current:
             base_dir = os.path.join(PROJECT_ROOT, doc_dir, os.path.dirname(current))
@@ -250,7 +255,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         else:
             base_dir = os.path.join(PROJECT_ROOT, doc_dir, "audio")
             name = "new-section"
-            ext = ".mp3"
+            ext = default_ext
 
         os.makedirs(base_dir, exist_ok=True)
 
@@ -264,25 +269,48 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         out_filename = f"{name}.v{next_ver:03d}{ext}"
         out_path = os.path.join(base_dir, out_filename)
 
-        script = os.path.join(PROJECT_ROOT, "scripts", "render_single_section.py")
-        voice_map = self._read_voice_map(storyboard_path)
-
-        cmd_data = json.dumps({
-            "dialogue": dialogue,
-            "voices": voice_map,
-            "output": out_path,
-        })
+        if use_gemini:
+            # Gemini TTS — voice map gives Gemini voice names, audio profile gives descriptions
+            script = os.path.join(PROJECT_ROOT, "scripts", "render_single_section_gemini.py")
+            voice_map = self._read_voice_map(storyboard_path)
+            # Build speaker config: each speaker gets a voice name + the full audio profile
+            speakers = {}
+            for spk in voice_map:
+                speakers[spk] = {
+                    "voice": voice_map[spk],
+                    "profile": audio_profile,
+                }
+            cmd_data = json.dumps({
+                "dialogue": dialogue,
+                "speakers": speakers,
+                "scene": data.get("scene", ""),
+                "director": "\n".join(filter(None, [
+                    data.get("globalDirector", ""),
+                    data.get("sectionDirector", ""),
+                ])),
+                "output": out_path,
+            })
+        else:
+            # ElevenLabs TTS — use voice map from storyboard comments
+            script = os.path.join(PROJECT_ROOT, "scripts", "render_single_section.py")
+            voice_map = self._read_voice_map(storyboard_path)
+            cmd_data = json.dumps({
+                "dialogue": dialogue,
+                "voices": voice_map,
+                "output": out_path,
+            })
 
         cmd = (
             f'eval "$(grep ^export ~/.bashrc)"; source ~/ml-env/bin/activate && '
             f'python3 "{script}"'
         )
 
-        print(f"[regen-audio] Running for {len(dialogue)} lines -> {out_path}")
+        engine = "Gemini" if use_gemini else "ElevenLabs"
+        print(f"[regen-audio] {engine}: {len(dialogue)} lines -> {out_path}")
         result = subprocess.run(
             ["bash", "-c", cmd],
             input=cmd_data.encode(),
-            capture_output=True, timeout=180,
+            capture_output=True, timeout=300,
         )
 
         if result.returncode != 0 or not os.path.isfile(out_path):
@@ -309,7 +337,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                         break
         return voices
 
-    def log_message(self, format, *args):
+def log_message(self, format, *args):
         # Quieter logging — skip static file GETs, show API calls
         try:
             msg = str(format) % args if args else str(format)

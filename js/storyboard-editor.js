@@ -716,6 +716,8 @@
       try {
         // Collect all dialogue in this section (between prev and next audio/hr blocks)
         const sectionDialogue = collectSectionDialogue(_blocks, block);
+        const sectionDirector = collectSectionDirector(_blocks, block);
+        const ttsCtx = extractTTSContext(_blocks);
         const r = await fetch(API + '/regenerate-audio', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -724,6 +726,10 @@
             current: block.src,
             docDir: _docDir,
             storyboardPath: _path,
+            audioProfile: ttsCtx.audioProfile,
+            scene: ttsCtx.scene,
+            globalDirector: ttsCtx.director,
+            sectionDirector: sectionDirector,
           }),
         });
         if (r.ok) {
@@ -759,6 +765,42 @@
       }
     }
     return lines;
+  }
+
+  /** Collect the Director's Notes text block(s) that appear just before the dialogue
+   *  in this section (between the audio block and the first dialogue line). */
+  function collectSectionDirector(blocks, audioBlock) {
+    const audioIdx = blocks.indexOf(audioBlock);
+    const parts = [];
+    for (let i = audioIdx + 1; i < blocks.length; i++) {
+      const b = blocks[i];
+      if (b.type === 'dialogue' || b.type === 'audio' || b.type === 'hr') break;
+      if (b.type === 'heading' && b.text === "Director's Notes") continue;
+      if (b.type === 'text') parts.push(b.content);
+    }
+    return parts.join('\n');
+  }
+
+  /** Extract global Audio Profile, Scene, and Director's Notes from the top blocks. */
+  function extractTTSContext(blocks) {
+    let audioProfile = '', scene = '', director = '';
+    let currentSection = '';
+    for (const b of blocks) {
+      if (b.type === 'heading' && b.level === 2) {
+        if (b.text === 'Audio Profile') { currentSection = 'profile'; continue; }
+        if (b.text === 'Scene') { currentSection = 'scene'; continue; }
+        if (b.text === "Director's Notes") { currentSection = 'director'; continue; }
+        // Any numbered section heading means we're past the preamble
+        if (/^\d+\./.test(b.text)) break;
+        currentSection = '';
+      }
+      if (b.type === 'text') {
+        if (currentSection === 'profile') audioProfile += (audioProfile ? '\n' : '') + b.content;
+        else if (currentSection === 'scene') scene += (scene ? '\n' : '') + b.content;
+        else if (currentSection === 'director') director += (director ? '\n' : '') + b.content;
+      }
+    }
+    return { audioProfile, scene, director };
   }
 
   /* ── Save / Commit ───────────────────────────────────────────── */
