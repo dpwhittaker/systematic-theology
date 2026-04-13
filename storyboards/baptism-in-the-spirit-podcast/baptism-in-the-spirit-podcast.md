@@ -17,7 +17,7 @@
 
 ![slide](images/pod-intro.v018.png)
 
-![audio](audio/00-introductions.mp3)
+![audio](audio/00-introductions.v003.mp3)
 
 **HOST:** [warm, excited] This is Tabernacle Truths, where we explore Christianity's Jewish roots. I'm your host Jordan, and today we're talking about the Holy Spirit. Is the salvation experience all there is or does he offer more? I've got three brilliant people around this table who come at this from very different places. Professor Arkwright?
 
@@ -42,7 +42,7 @@
 
 ![slide](images/romans-8-9.png)
 
-![audio](audio/01-part-1-the-common-ground.mp3)
+![audio](audio/01-part-1-the-common-ground.v002.mp3)
 
 **HOST:** [curious] Before we get into the differences — is there anything you three actually agree on?
 
@@ -68,7 +68,7 @@
 
 ![slide](images/john-14-16.png)
 
-![audio](audio/02-part-2-two-kinds-of-language.mp3)
+![audio](audio/02-part-2-two-kinds-of-language.v002.mp3)
 
 **HOST:** [curious] Dr. Creed, walk me through what Jesus said about the Spirit. Because it feels like He's saying two different things.
 
