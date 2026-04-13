@@ -1495,3 +1495,12 @@ Restructured `handouts/wrath-and-mercy.md` from a single Top 10 into 7 categorie
 - E: Collective Punishment (Achan, Korah, census plague, Flood, firstborn, Canaan curse, generational curses, Gibeonite famine, Exile, Sodom)
 - F: God Endorses/Regulates Evil (slavery, war brides, rapist marriage, polygamy, sotah, virginity test, women as property, beating slaves, blood vengeance, herem law)
 - G: God Uses Nations Then Punishes Them (Assyria, Babylon, Pharaoh, Judges cycle, Moab/Ammon, Cyrus, Rome, Philistines, Aram, Egypt)
+
+### Follow-up: Reframed categories E, F, G
+
+Rewrote three categories in `handouts/wrath-and-mercy.md`:
+- **E** renamed "Collective Punishment — or the Reality of Communal Sin?" — each entry now shows how the "innocent many" were participants, beneficiaries, or had been warned, plus God always provided escape routes
+- **F** renamed "God Endorses Evil — or God Meets Humanity Where It Is?" — each entry now shows ANE context comparison, demonstrating Mosaic law as significant upgrade. Sotah entry includes fact-check: no biblical or rabbinic record of any woman suffering effects, mixture physically harmless, Milgrom's protective interpretation
+- **G** renamed "God Uses Then Punishes — or Double Redemption?" — reframed through Gen 50:20 "Joseph Principle": empires already existed with their own sins, God channeled existing momentum for redemptive purposes, then judged the instruments for their own genuine excesses
+
+Sotah fact-check confirmed: no record of failure, physically harmless mixture, abolished ~1st century CE by R. Yochanan ben Zakkai.

@@ -248,3 +248,12 @@ The next class will be on how we handle the seemingly wrathful God of the Torah.
 User identified 5 categories (God directly destroys, God commands Israel to kill, God overreacts to holiness violations, God manipulates/removes agency, collective punishment). Asked to add any missing categories and create a Top 10 for each.
 
 Added 2 more categories: God endorses/regulates what seems evil (slavery, war brides), God uses nations as instruments then punishes them (Assyria, Babylon).
+
+### Follow-up: Reframe categories E, F, G
+
+User identified categorical errors in our framing:
+- E: Not "God punishes community for individual sin" but "we fail to recognize communal nature of sin"
+- F: Each "evil" was a significant upgrade over surrounding ANE cultures; imposing 21st century standards on Bronze Age people would have been fatal
+- G: Not "double punishment" but "double redemption" - God takes what man meant for evil and redeems both Israel (through exile) and judges the instrument for its own genuine sins
+
+Also requested Sotah fact-check: confirmed no record of any woman failing the test; mixture was physically harmless.
