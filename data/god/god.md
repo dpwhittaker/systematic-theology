@@ -18,4 +18,4 @@ The *Eternal Creator*. How do we know Him?
 
 Can both be true? The God who *is* and the God who *acts*?
 
-**Handouts:** [God and Time](#handouts/god-and-time.md)
+**Handouts:** [God and Time](#handouts/god-and-time.md) | [Wrath and Mercy](#handouts/wrath-and-mercy.md)

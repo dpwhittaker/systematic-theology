@@ -1475,3 +1475,12 @@ Three changes:
 All pages now between 67-90%. Much better balance across the 8 pages.
 
 Created storyboards/baptism-in-the-spirit.md — 7-section panel discussion covering: The Common Ground, Two Kinds of Language, The Tabernacle Pattern, Sealed Once/Filled Continually, What Acts Shows Us, Three Views, and What Does This Mean Monday. Reused 5 existing slide images; 7 new image placeholders added. Voice casting noted in metadata comment. Equilibrium report included. Opened at http://localhost:8000/#storyboards/baptism-in-the-spirit.md in Chrome.
+
+## 2026-04-13: Wrath and Mercy Handout
+
+Created `handouts/wrath-and-mercy.md` with:
+- Introduction framing the wrath-to-mercy trajectory
+- Top 10 "Atrocities" cited against the God of the OT (Flood, Sodom, Egyptian firstborn, Canaanite conquest, Amalekites, Uzzah, bears/youths, hardening Pharaoh, binding of Isaac, collective punishment)
+- Seven major viewpoints across Christian traditions: Divine Command Theory, Greater Good Theodicy, Accommodation/Progressive Revelation, Christological Hermeneutic, Literary/Genre-Sensitive, Spiritual Warfare, Natural Consequences
+- Placeholder sections for Common Ground and Synthesis
+- Linked from `data/god/god.md` handouts section
