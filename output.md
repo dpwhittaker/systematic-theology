@@ -1484,3 +1484,14 @@ Created `handouts/wrath-and-mercy.md` with:
 - Seven major viewpoints across Christian traditions: Divine Command Theory, Greater Good Theodicy, Accommodation/Progressive Revelation, Christological Hermeneutic, Literary/Genre-Sensitive, Spiritual Warfare, Natural Consequences
 - Placeholder sections for Common Ground and Synthesis
 - Linked from `data/god/god.md` handouts section
+
+### Follow-up: Categorized Top 10s
+
+Restructured `handouts/wrath-and-mercy.md` from a single Top 10 into 7 categories with 10 entries each:
+- A: God Directly Destroys (Flood, plagues, Korah, serpents, Baal Peor, census plague, Sennacherib)
+- B: God Commands Israel to Kill (herem, Amalekites, Midian, golden calf, Achan, Phinehas, Jericho, Amorite kings, Agag, Baal prophets)
+- C: God "Overreacts" to Holiness Violations (Uzzah, bears, Nadab/Abihu, Lot's wife, Er, Onan, Moses banned, Sabbath breaker, Miriam, Ananias/Sapphira)
+- D: God Manipulates/Removes Agency (Pharaoh's heart, Isaac, lying spirit, Isaiah's commission, Job, David's census, Jacob/Esau, strong delusion, Romans 1, Judas)
+- E: Collective Punishment (Achan, Korah, census plague, Flood, firstborn, Canaan curse, generational curses, Gibeonite famine, Exile, Sodom)
+- F: God Endorses/Regulates Evil (slavery, war brides, rapist marriage, polygamy, sotah, virginity test, women as property, beating slaves, blood vengeance, herem law)
+- G: God Uses Nations Then Punishes Them (Assyria, Babylon, Pharaoh, Judges cycle, Moab/Ammon, Cyrus, Rome, Philistines, Aram, Egypt)

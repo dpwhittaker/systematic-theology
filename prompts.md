@@ -242,3 +242,9 @@ Read through the @storyboards/format-spec.md and understand how storyboards are 
 The next class will be on how we handle the seemingly wrathful God of the Torah. It seems like as early as Joshua/Judges, you can explain most of the "wrath" by God allowing Israel to receive the natural consequences of their disobedience for the ultimate purpose of redeeming the remnant. First, let's just brainstorm how we should even go about this lesson. One resolution to the trajectory from wrath -> mercy would be to say that God has learned how to be a better God over time, but I think even the staunchest Open Theist would have trouble backing that statement. While the complete immutability of God might be more Plato than Bible, God has always been good, and has always been love. Let's start with the Top 10 "Atrocities" opponents of the faith accuse God of. Then list the most common viewpoints held across different expressions of Christian faith of how these are answered. Then we'll back into the Common Ground, and attempt to synthesize a middle position that most denominations could at least tolerate. For now, give me that Top 10 and the main viewpoints.
 
 (Follow-up: put it in the handouts folder as MD)
+
+### Follow-up: Categorize the atrocities
+
+User identified 5 categories (God directly destroys, God commands Israel to kill, God overreacts to holiness violations, God manipulates/removes agency, collective punishment). Asked to add any missing categories and create a Top 10 for each.
+
+Added 2 more categories: God endorses/regulates what seems evil (slavery, war brides), God uses nations as instruments then punishes them (Assyria, Babylon).
