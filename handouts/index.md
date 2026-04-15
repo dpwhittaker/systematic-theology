@@ -14,6 +14,7 @@ These handouts are designed for group study, personal reference, and printed use
 ## God
 
 - [God and Time: Does the Future Exist?](#handouts/god-and-time.md) — Divine knowledge, the reality of the future, and what it means when Scripture says God "changed His mind"
+- [The Wrath of God: Atrocity or Redemption?](#handouts/wrath-and-mercy.md) — Categorizing the "atrocities" of the OT and the categorical errors we commit reading them through a modern lens
 
 ## Jesus
 
