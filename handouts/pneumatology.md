@@ -638,6 +638,7 @@ There are two main ways to read it:
 
 Be honest: the text does not fully resolve this question. Godly scholars who love Scripture disagree here. What we can say is that Paul treats tongues-without-interpretation as unhelpful for the congregation, regardless of what is happening spiritually.
 
+===
 **1 Corinthians 14:4-5 — Paul Affirms Tongues**
 
 > "Anyone who speaks in a tongue edifies themselves, but the one who prophesies edifies the church. I would like every one of you to speak in tongues, but I would rather have you prophesy, unless someone interprets, so that the church may be edified." (**1 Corinthians 14:4-5, NIV**)
@@ -760,22 +761,21 @@ Paul lists nine gifts:
 
 The Spirit decides who gets which gifts. This is not self-selected. You do not pick your gift off a menu. Chasing after one specific gift as proof of your spirituality inverts Paul's entire point. The Spirit is sovereign. He gives what He chooses, to whom He chooses, when He chooses.
 
+===
 ### The Body Metaphor (vv. 12–27)
 
 This is Paul's main argument, and it deserves serious attention:
 
 > "Just as a body, though one, has many parts, but all its many parts form one body, so it is with Christ. For we were all baptized by one Spirit so as to form one body — whether Jews or Gentiles, slave or free — and we were all given the one Spirit to drink." (**1 Corinthians 12:12–13, NIV**)
 
-> "Now if the foot should say, 'Because I am not a hand, I do not belong to the body,' it would not for that reason stop being part of the body. And if the ear should say, 'Because I am not an eye, I do not belong to the body,' it would not for that reason stop being part of the body. If the whole body were an eye, where would the sense of hearing be? If the whole body were an ear, where would the sense of smell be? But in fact God has placed the parts in the body, every one of them, just as he wanted them to be. If they were all one part, where would the body be? As it is, there are many parts, but one body." (**1 Corinthians 12:15–20, NIV**)
-
-> "The eye cannot say to the hand, 'I don't need you!' And the head cannot say to the feet, 'I don't need you!' On the contrary, those parts of the body that seem to be weaker are indispensable, and the parts that we think are less honorable we treat with special honor." (**1 Corinthians 12:21–23a, NIV**)
+> "If the foot should say, 'Because I am not a hand, I do not belong to the body,' it would not for that reason stop being part of the body... If the whole body were an eye, where would the sense of hearing be? ...But in fact God has placed the parts in the body, every one of them, just as he wanted them to be... The eye cannot say to the hand, 'I don't need you!' ...On the contrary, those parts of the body that seem to be weaker are indispensable." (**1 Corinthians 12:15–23, NIV**)
 
 The applications are direct:
 
 - The person with the gift of service is not less Spirit-filled than the person with the gift of tongues. The foot is not less part of the body than the eye.
 - The parts that seem weaker are *indispensable* (v. 22). The quiet, unspectacular gifts are not second-class. They are essential.
-- If the whole body were one part, it would not be a body (v. 19). Uniformity is not unity. A church where everyone does the same thing is not healthy — it is disabled.
-- God arranged the parts in the body *just as He wanted them to be* (v. 18). Your gift is not an accident. It is God's intentional design.
+- If the whole body were one part, it would not be a body (v. 19). Uniformity is not unity.
+- God arranged the parts *just as He wanted them to be* (v. 18). Your gift is not an accident — it is God's intentional design.
 
 ### The Second Gift List (vv. 28–30)
 
@@ -842,6 +842,7 @@ The gifts are temporary — they belong to this age. Love is eternal. But "tempo
 
 The "then" in verse 12 is the eschaton — Christ's return, the moment when we see Him face to face. The gifts are "partial" knowledge for *now*, until we know fully. This is the context for "when completeness comes" (v. 10). Paul is talking about the end of the age, not the completion of the Bible. The gifts are meant for the period between Pentecost and Christ's return. (This is directly relevant to the cessationism debate — the question of whether the gifts have already stopped. Paul's own framework here places their end at the second coming, not at the closing of the canon.)
 
+===
 ### The Critical Point
 
 Chapter 13 is not the spiritually mature Christian's escape hatch from chapters 12 and 14. Paul is not saying, "Forget about the gifts; just love each other." He is saying: your gifts without love are noisy, empty, and worthless — so get love right. *Then* go back to chapter 14 and use your gifts properly.
