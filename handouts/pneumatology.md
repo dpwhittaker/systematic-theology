@@ -224,7 +224,9 @@ Luke is not giving us a systematic theology of Spirit reception. He is narrating
 Paul gives us the most systematic teaching on what the Spirit actually does in and for believers. While Acts shows us the Spirit moving in history, Paul shows us what that means for everyday Christian life. If you want to understand the Holy Spirit's role in your daily walk with God, Paul is where you go.
 
 ---
-### Romans 8:9-11 — The Spirit Lives in Every Believer
+### Every Believer Has the Spirit
+
+**Romans 8:9-11:**
 
 > "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to Christ. But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness. If the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you." (**Romans 8:9-11, ESV**)
 
@@ -236,8 +238,7 @@ This matters enormously for the debate about whether receiving the Spirit is a "
 
 And here is the payoff: the same Spirit who raised Jesus from the dead — the most powerful act in all of history — lives in you. That resurrection power is not far away. It dwells in you right now.
 
----
-### Romans 8:14-17 — The Spirit of Adoption
+**Romans 8:14-17 — The Spirit of Adoption:**
 
 > "For all who are led by the Spirit of God are sons of God. For you did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, 'Abba! Father!' The Spirit himself bears witness with our spirit that we are children of God, and if children, then heirs — heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him." (**Romans 8:14-17, ESV**)
 
@@ -248,18 +249,9 @@ Then Paul drops in an Aramaic word: *Abba*. This is the word a child in a Jewish
 And then verse 16: "The Spirit himself bears witness with our spirit that we are children of God." This is inner assurance. It is not just intellectual belief — not just knowing the right theology. The Spirit produces a deep, inner confidence that you belong to God. If you have ever had that quiet, settled sense that God is real and that you are His — that is the Spirit bearing witness.
 
 ===
-### Romans 8:26-27 — The Spirit Prays When You Cannot
+### Sealed and Guaranteed
 
-> "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words. And he who searches hearts knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God." (**Romans 8:26-27, ESV**)
-
-This is one of the most comforting passages in all of Scripture. Paul is brutally honest: "we do not know what to pray for as we ought." There are moments in life — grief, confusion, suffering, spiritual dryness — when you literally do not know what to say to God. You sit down to pray and nothing comes out, or what comes out feels hollow and inadequate.
-
-Paul says: that is okay. The Spirit Himself steps in and intercedes for you "with groanings too deep for words." When you cannot find the words, the Spirit prays through you and for you. And His prayers are perfect — they are "according to the will of God."
-
-Some in the Pentecostal and Charismatic traditions connect these "groanings" to speaking in tongues. That is an understandable connection to make, but it is worth noting that Paul does not make that connection here explicitly. He does not use the word "tongues" (*glossai*) in this passage. What he does say is something even broader and more pastorally powerful: you never have to have your prayer life "figured out." The Spirit covers what you cannot. You are never praying alone.
-
-===
-### 2 Corinthians 1:21-22 — Anointed, Sealed, and Guaranteed
+**2 Corinthians 1:21-22:**
 
 > "And it is God who establishes us with you in Christ, and has anointed us, and who has also put his seal on us and given us his Spirit in our hearts as a guarantee." (**2 Corinthians 1:21-22, ESV**)
 
@@ -271,8 +263,34 @@ Paul stacks three images on top of each other here, and each one matters:
 
 **Guarantee.** The Greek word here is *arrabōn*, and it comes from the world of business. It means a down payment — the first installment that legally guarantees the full amount will follow. When you put a deposit on a house, you are legally committed to completing the purchase. Paul says the Holy Spirit in your heart right now is God's down payment on your full and final salvation. The Spirit is God's guarantee that what He started in you, He will absolutely finish.
 
----
-### Galatians 5:16-25 — Walking by the Spirit
+**Ephesians 1:13-14 — Sealed at the Moment of Belief:**
+
+> "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory." (**Ephesians 1:13-14, ESV**)
+
+The grammar matters here. The phrase "when you heard... and believed" translates a Greek aorist participle — it describes an action that happens at the same time as or just before the main verb. The main verb is "were sealed." So the sealing happens *at* the point of believing, not as a separate, later experience. You heard the gospel. You believed. You were sealed. Same moment.
+
+Paul uses the same word — *arrabōn*, the down payment, the guarantee. He guarantees "our inheritance until we acquire possession of it." The Spirit in you right now is the first installment of everything God has promised. Heaven is not just a future hope — you already have the down payment living inside you.
+
+This matters for the question that comes up in many churches: "Do I need a rebaptism in the Spirit? Did I miss something at conversion?" Paul's answer here is that the sealing is a one-time, completed event that happened when you first believed. You cannot be re-sealed. The seal is already in place.
+
+But that is not the whole picture. Keep reading.
+
+**Ephesians 4:30 — Grieving Doesn't Break the Seal:**
+
+> "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
+
+Two things stand out here. First, the Spirit can be *grieved*. You can grieve a force, but only a person can truly be grieved. Grief is the emotion you feel when someone you love acts in a way that damages the relationship. The Holy Spirit is not an impersonal energy field. He is a Person who loves you, and your choices affect Him.
+
+Second, notice what Paul puts right next to the grief: "by whom you were sealed for the day of redemption." Even when you grieve the Spirit, the seal holds. Grieving the Spirit does not mean losing the Spirit. The relationship is damaged, but the seal — the mark of ownership and the guarantee of your future — remains intact.
+
+So what grieves Him? Look at the surrounding verses (Ephesians 4:25-32): lying and dishonesty (v.25), uncontrolled anger (v.26), stealing instead of honest work (v.28), corrupt speech (v.29), bitterness and slander (v.31), unforgiveness (v.32). Most of these are relational sins — ways we damage other people. The Spirit who builds community and unity is grieved when we tear it apart.
+
+The response is not a spiritual ritual. It is repentance, reconciliation, and forgiveness: "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you" (Ephesians 4:32, ESV).
+
+===
+### The Spirit at Work in You
+
+**Galatians 5:16-25 — Flesh vs. Spirit:**
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
 
@@ -288,45 +306,20 @@ And notice: it is *fruit*, not *work*. Fruit is not something you manufacture by
 
 Finally: "Against such things there is no law." This is almost humorous. No legislature anywhere has ever passed a law against love, joy, or peace. The Spirit-filled life fulfills everything the law ever demanded — but it does it from the inside out, through transformation, not through rule-keeping. The law told you what to do but could never give you the power to do it. The Spirit gives you the power.
 
----
-### Ephesians 1:13-14 — Sealed at the Moment of Belief
+**Romans 8:26-27 — The Spirit Prays When You Cannot:**
 
-> "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory." (**Ephesians 1:13-14, ESV**)
+> "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words. And he who searches hearts knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God." (**Romans 8:26-27, ESV**)
 
-This passage is critical, and the grammar matters. The phrase "when you heard... and believed" translates a Greek participle, *pisteusantes* (having believed). In Greek, this is what grammarians call an aorist participle — it describes an action that happens at the same time as or just before the main verb. The main verb here is "were sealed." So the sealing happens *at* the point of believing, not as a separate, later experience. You heard the gospel. You believed. You were sealed. Same moment.
+This is one of the most comforting passages in all of Scripture. Paul is brutally honest: "we do not know what to pray for as we ought." There are moments in life — grief, confusion, suffering, spiritual dryness — when you literally do not know what to say to God. You sit down to pray and nothing comes out, or what comes out feels hollow and inadequate.
 
-The Spirit is again called the *arrabōn* — the down payment, the guarantee (same word as in 2 Corinthians 1:22). He guarantees "our inheritance until we acquire possession of it." The Spirit in you right now is the first installment of everything God has promised. Heaven is not just a future hope — you already have the down payment living inside you.
+Paul says: that is okay. The Spirit Himself steps in and intercedes for you "with groanings too deep for words." When you cannot find the words, the Spirit prays through you and for you. And His prayers are perfect — they are "according to the will of God."
 
-This matters for the question that comes up in many churches: "Do I need a rebaptism in the Spirit? Did I miss something at conversion?" Paul's answer here is that the sealing is a one-time, completed event that happened when you first believed. You cannot be re-sealed. The seal is already in place.
-
-But that is not the whole picture. Keep reading.
-
----
-### Ephesians 4:30 — Do Not Grieve the Spirit
-
-> "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
-
-Two things stand out here. First, the Spirit can be *grieved*. You can grieve a force, but only a person can truly be grieved. Grief is the emotion you feel when someone you love acts in a way that damages the relationship. The Holy Spirit is not an impersonal energy field. He is a Person who loves you, and your choices affect Him.
-
-Second, notice what Paul puts right next to the grief: "by whom you were sealed for the day of redemption." Even when you grieve the Spirit, the seal holds. Grieving the Spirit does not mean losing the Spirit. The relationship is damaged, but the seal — the mark of ownership and the guarantee of your future — remains intact.
-
-So what grieves Him? Look at the surrounding verses (Ephesians 4:25-32) for Paul's list:
-
-- Lying and dishonesty (v.25)
-- Uncontrolled, lingering anger — "do not let the sun go down on your anger" (v.26)
-- Stealing instead of honest work (v.28)
-- Corrupt, destructive speech — tearing people down with your words (v.29)
-- Bitterness, rage, and slander (v.31)
-- Unforgiveness (v.32)
-
-Notice the pattern: most of these are relational sins — ways we damage other people. The Spirit who builds community and unity is grieved when we tear it apart.
-
-The response to grieving the Spirit is not a spiritual ritual. It is repentance, reconciliation, and forgiveness:
-
-> "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you." (**Ephesians 4:32, ESV**)
+Some in the Pentecostal and Charismatic traditions connect these "groanings" to speaking in tongues. That is an understandable connection to make, but it is worth noting that Paul does not make that connection here explicitly. He does not use the word "tongues" (*glossai*) in this passage. What he does say is something even broader and more pastorally powerful: you never have to have your prayer life "figured out." The Spirit covers what you cannot. You are never praying alone.
 
 ===
-### Ephesians 5:18 — Be Continually Filled
+### Be Continually Filled
+
+**Ephesians 5:18:**
 
 > "And do not get drunk with wine, for that is debauchery, but be filled with the Spirit." (**Ephesians 5:18, ESV**)
 
@@ -353,7 +346,9 @@ So when someone asks, "Do I need a rebaptism in the Spirit?" — that is often t
 Three things flow from being filled: worship together in community, private worship directed toward God from the heart, and gratitude as a way of life. If you want to know whether you are being filled, check your worship life and your gratitude level.
 
 ===
-### 1 Thessalonians 5:19-22 — Do Not Quench the Spirit
+### Don't Quench the Spirit
+
+**1 Thessalonians 5:19-22:**
 
 > "Do not quench the Spirit. Do not despise prophecies, but test everything; hold fast what is good. Abstain from every form of evil." (**1 Thessalonians 5:19-22, ESV**)
 
