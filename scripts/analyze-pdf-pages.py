@@ -32,32 +32,40 @@ def extract_page_info(page):
 
 
 def find_headings(lines):
-    """Find lines that look like headings (all-caps, short, or Roman numeral patterns)."""
+    """Find lines that look like headings in rendered PDF text.
+
+    In the PDF, markdown headings (h1/h2/h3) and bold-text headings both
+    render as standalone short lines — no markdown markers remain.  We use
+    a combination of pattern matching and structural heuristics.
+    """
+    import re
     headings = []
     for i, line in enumerate(lines):
         line_stripped = line.strip()
         if not line_stripped:
             continue
-        # Detect rendered h2/h3 headings — typically bold/larger, but in extracted text
-        # they appear as standalone short lines. Heuristics:
-        # - Lines starting with Roman numerals: "I. ", "II. ", "III. ", "IV. ", etc.
-        # - Lines starting with "###" or "##" (shouldn't appear in PDF but just in case)
-        # - Short standalone lines (< 80 chars) that don't end with period
-        #   and are preceded/followed by blank lines
+
         is_heading = False
 
-        # Roman numeral section headers
-        import re
+        # Roman numeral section headers: "I. ", "II. ", "IV. ", "X. "
         if re.match(r'^[IVXL]+\.\s', line_stripped):
             is_heading = True
-        # Subsection headers like "Romans 8:9-11 — ..."
-        elif re.match(r'^(Romans|Galatians|Ephesians|Corinthians|Thessalonians|Hebrews|Acts|John|Putting|The |What |Summary|Synthesis)', line_stripped):
-            # Check if it's short enough to be a heading (not a paragraph)
-            if len(line_stripped) < 80 and not line_stripped.endswith('.'):
-                is_heading = True
-        # Numbered subsection headers like "1. You Already Have..."
+        # Numbered subsection headers: "1. You Already Have..."
         elif re.match(r'^\d+\.\s', line_stripped) and len(line_stripped) < 80:
             is_heading = True
+        # Scripture-reference headings: "1 Corinthians 14:4-5 — ...",
+        # "Romans 8:9-11:", "Acts 2:38 and ..."
+        elif re.match(r'^\d?\s*(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalm|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b', line_stripped):
+            if len(line_stripped) < 80:
+                is_heading = True
+        # Short standalone lines that look like headings:
+        # < 80 chars, don't end with period/comma, and are the first line
+        # or preceded by a blank line
+        elif len(line_stripped) < 80 and not line_stripped[-1] in '.,;':
+            prev_blank = (i == 0) or (not lines[i - 1].strip())
+            # Also check if the line starts with a common heading word
+            if prev_blank and re.match(r'^(The |What |How |Why |Where |Who |When |Summary|Synthesis|Putting|View |A note)', line_stripped):
+                is_heading = True
 
         if is_heading:
             headings.append(line_stripped)

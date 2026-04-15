@@ -286,7 +286,7 @@ Two scripts automate the page-break verification workflow. Always run these when
    ```
    - Requires the dev server running on localhost:8000 (the systemd unit)
    - Loads the handout via the same `#handouts/...` hash route the browser uses
-   - Renders to Letter-size PDF with 0.5in margins (matches `handout.css` print rules)
+   - Renders to Letter-size PDF with 0.25in margins (matches Chrome print dialog pagination)
    - Output defaults to `pdf/<filename>.pdf`
 
 2. **Analyze page density** (pymupdf):
