@@ -45,7 +45,7 @@ async function main() {
     await page.pdf({
         path: outputPath,
         format: 'Letter',
-        margin: { top: '0.25in', bottom: '0.25in', left: '0.25in', right: '0.25in' },
+        margin: { top: '0.4in', bottom: '0.4in', left: '0.4in', right: '0.4in' },
         printBackground: false
     });
 
