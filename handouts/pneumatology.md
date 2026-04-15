@@ -50,11 +50,11 @@ Note: *fruit* is singular — one integrated character, not nine separate items.
 ===
 ## I. The Spirit in the Old Testament
 
-Understanding the Spirit's OT role is essential because it sets the baseline against which the New Covenant promise becomes radical. Something genuinely new was coming — but "new" only makes sense against the background of what existed before.
+Understanding the Spirit's OT role sets the baseline against which the New Covenant promise becomes radical. "New" only makes sense against the background of what existed before.
 
 ### The Spirit and Creation
 
-Genesis 1:2 establishes that the Spirit is present before anything else exists. The same *ruach* — wind, breath, spirit — that hovered over formless chaos at the beginning is the one Jesus will promise will live inside His followers. The connection is not accidental. The Spirit who brought order and life out of nothing is the same Spirit who brings new life to those who are spiritually dead.
+Genesis 1:2 establishes that the Spirit is present before anything else exists. The same *ruach* — wind, breath, spirit — that hovered over formless chaos at the beginning is the one Jesus will promise will live inside His followers. The Spirit who brought order and life out of nothing is the same Spirit who brings new life to those who are spiritually dead.
 
 ### The Spirit "Coming Upon" People
 
@@ -72,7 +72,7 @@ In the OT, the Spirit empowers specific individuals for specific tasks. The lang
 
 > "Now the Spirit of the LORD had departed from Saul, and an evil spirit from the LORD tormented him." (**1 Samuel 16:14, NIV**)
 
-The Spirit's departure from Saul matters. It will come up again when we ask whether the Spirit can leave a believer under the New Covenant.
+The Spirit's departure from Saul will come up again when we ask whether the Spirit can leave a believer under the New Covenant.
 
 **Prophets:** Isaiah announces his commission:
 
@@ -90,13 +90,13 @@ Two OT texts explicitly promise a radical change in how the Spirit relates to Go
 
 > "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws." (**Ezekiel 36:26-27, NIV**)
 
-Unpack the three things here: a new heart, a new spirit, and then — *my* Spirit. God will place His own Spirit inside His people. Not upon a few leaders for tasks, but inside every member of the covenant community, enabling obedience from the inside out. What the law demanded but could not produce, the Spirit will produce.
+Three things: a new heart, a new spirit, and then — *my* Spirit. God will place His own Spirit inside His people. Not upon a few leaders for tasks, but inside every member of the covenant community, enabling obedience from the inside out.
 
 **Joel 2:28-29:**
 
 > "And afterward, I will pour out my Spirit on all people. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions. Even on my servants, both men and women, I will pour out my Spirit in those days." (**Joel 2:28-29, NIV**)
 
-"All people" — not kings and prophets and judges. Sons *and* daughters. Old *and* young. Even servants. Joel promises the complete democratization of the Spirit. In the OT, access to the Spirit was hierarchical and selective. The new covenant will level it entirely. Peter stands up at Pentecost and declares: "This is what was spoken by the prophet Joel" (Acts 2:16).
+"All people" — not kings and prophets and judges. Sons *and* daughters. Old *and* young. Even servants. Joel promises the complete democratization of the Spirit — what was hierarchical and selective in the OT, the new covenant levels entirely. Peter stands up at Pentecost and declares: "This is what was spoken by the prophet Joel" (Acts 2:16).
 
 ===
 ## II. Jesus and the Spirit
@@ -392,30 +392,30 @@ The Spirit in the Old Testament came *upon* specific people for specific purpose
 
 > "Now the Spirit of the LORD departed from Saul, and a harmful spirit from the LORD tormented him." (**1 Samuel 16:14, ESV**)
 
-This is historically unique. Saul was the first king of Israel, chosen by God, publicly anointed — and the Spirit left him. Why? Because Saul repeatedly disobeyed God's direct commands and rejected His word (1 Samuel 15). God told Saul to carry out a specific mission, and Saul decided he knew better. The consequence was devastating: the Spirit departed, and a tormenting spirit took His place.
+Saul was chosen by God and publicly anointed — and the Spirit left him. Why? Because Saul repeatedly disobeyed God's direct commands and rejected His word (1 Samuel 15). The Spirit departed, and a tormenting spirit took His place.
 
 **Samson:**
 
 > "And she said, 'The Philistines are upon you, Samson!' And he awoke from his sleep and said, 'I will go out as at other times and shake myself free.' But he did not know that the LORD had left him." (**Judges 16:20, ESV**)
 
-Samson's Nazirite vow — a special consecration to God symbolized by his uncut hair — was broken. The Spirit's empowering presence departed. And here is the sobering detail: *he did not even notice at first.* He assumed everything was the same. It wasn't.
+Samson's Nazirite vow was broken. The Spirit's empowering presence departed — and the sobering detail: *he did not even notice.* He assumed everything was the same. It wasn't.
 
 **David's prayer:**
 
 > "Cast me not away from your presence, and take not your Holy Spirit from me." (**Psalm 51:11, ESV**)
 
-David prays this after his sin with Bathsheba — the adultery and the murder of her husband Uriah. David knew Saul's story. He had watched what happened when the Spirit left Israel's first king. He was desperate that the same thing would not happen to him. This is genuine Old Testament theology — the Spirit's presence was not guaranteed to persist through serious sin.
+David prays this after the adultery and murder of Uriah. He knew Saul's story and was desperate that the same thing would not happen to him. This is genuine Old Testament theology — the Spirit's presence was not guaranteed to persist through serious sin.
 
-The honest conclusion from the Old Testament: Yes, under the old arrangement, the Spirit could and did depart from individuals.
+The honest OT conclusion: under the old arrangement, the Spirit could and did depart from individuals.
 
-===
+---
 ### The New Covenant: A Different Promise
 
 Now the New Testament data — and it paints a different picture.
 
 **Jesus promises a permanent Helper:**
 
-Jesus told His disciples the Spirit would be with them *forever* (John 14:16-17, discussed in Section II). Not temporarily. Not conditionally. Not "as long as you behave." Jesus is explicitly announcing a new arrangement — something different from the Old Testament pattern.
+Jesus told His disciples the Spirit would be with them *forever* (John 14:16-17, discussed in Section II). Not temporarily. Not conditionally. Jesus is explicitly announcing a new arrangement — something different from the Old Testament pattern.
 
 **The Spirit defines belonging to Christ:**
 
@@ -429,7 +429,7 @@ As we saw in Section IV, the Spirit is God's *arrabōn* — His down payment gua
 
 Even though Paul says you *can* grieve the Spirit (Ephesians 4:30), the sealing is oriented toward "the day of redemption" — a future event. The seal holds. Grieving damages fellowship but does not break the seal.
 
-**Working conclusion:** The New Testament consistently presents the Spirit as the secure, permanent mark of belonging to Christ — not a reward that can be revoked by sin. The new covenant is *better* than the old (Hebrews 8:6), and one of the ways it is better is the permanence of the Spirit's indwelling. This is what the prophet Ezekiel looked forward to:
+**Working conclusion:** The New Testament consistently presents the Spirit as the secure, permanent mark of belonging to Christ — not a reward that can be revoked by sin. The new covenant is *better* than the old (Hebrews 8:6), and one of the ways it is better is the permanence of the Spirit's indwelling:
 
 > "And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws." (**Ezekiel 36:27, NIV**)
 
@@ -578,7 +578,7 @@ We should be honest about the evidence on all sides:
 
 People from different traditions may have had genuine, powerful encounters with the Holy Spirit that their church calls "Spirit baptism" or "the second blessing" or "confirmation" or simply "the moment everything became real." The exegetical dispute we have walked through is about how to categorize and understand these experiences theologically — it is not about whether they are real. The Spirit moves sovereignly, and He does not always follow our theological flowcharts. What matters most is not which label you put on your experience, but whether the Spirit of God is actively at work in your life right now — convicting, transforming, empowering, and pointing you to Jesus.
 
-===
+---
 ## VII. Speaking in Tongues — What Does Scripture Actually Say?
 
 Few topics generate more heat in the church. Pentecostals say tongues are the initial evidence of Spirit baptism. Cessationists say the gift ended with the apostles. Most evangelicals are somewhere in between. The question deserves a careful look at what the text actually says — not what we want it to say.
@@ -697,11 +697,9 @@ Continuationists argue that "completeness" (*teleion*) in context does not refer
 
 "Then I shall know fully, even as I am fully known" — this is not describing what happened when the New Testament canon was assembled. No one claims we now see God "face to face" or know Him fully because we have the complete Bible. This is eschatological language — it points to the final day when we stand before Christ. On this reading, the gifts continue until He returns.
 
-Continuationists also note that nowhere in Scripture does any text explicitly say the gifts would cease before Jesus comes back. The cessationist case depends on an inference from 1 Corinthians 13:10 that the text itself does not state. The burden of proof falls on the one claiming the gifts have stopped.
+To be straightforward: the continuationist reading of 1 Corinthians 13:10 is stronger exegetically. The "face to face" and "fully known" language in verse 12 is very difficult to apply to the closing of the canon, and no text explicitly says the gifts would cease before Jesus comes back. Most contemporary evangelical scholars — including many who are not Charismatic or Pentecostal — hold that the gifts remain available today, even if they are not always exercised or always exercised well.
 
-To be straightforward: the continuationist reading of 1 Corinthians 13:10 is stronger exegetically. The "face to face" and "fully known" language in verse 12 is very difficult to apply to the closing of the canon. Most contemporary evangelical scholars — including many who are not Charismatic or Pentecostal — hold that the gifts remain available today, even if they are not always exercised or always exercised well.
-
-===
+---
 ### Summary: What Paul Actually Says About Tongues
 
 If we let Paul speak for himself, here is what he actually says:
@@ -710,7 +708,7 @@ If we let Paul speak for himself, here is what he actually says:
 
 - **Not all believers speak in tongues.** Paul's rhetorical question in 1 Corinthians 12:30 — "Do all speak in tongues?" — expects the answer "No." This is not ambiguous.
 
-- **Therefore, tongues cannot be the required evidence of Spirit baptism for every believer.** If the Spirit gives different gifts to different people, and not everyone receives tongues, then tongues cannot be the one universal sign that proves you have the Spirit. The Spirit's presence is demonstrated by fruit (Gal 5:22-23) and by confession that Jesus is Lord (1 Cor 12:3), not by any single gift.
+- **Therefore, tongues cannot be the required evidence of Spirit baptism.** If not everyone receives tongues, tongues cannot be the universal sign of having the Spirit. The Spirit's presence is demonstrated by fruit (Gal 5:22-23) and confession that Jesus is Lord (1 Cor 12:3), not by any single gift.
 
 - **In the congregation, tongues require interpretation.** Without an interpreter, the speaker must be silent in the assembly (1 Cor 14:27-28). Uninterpreted tongues do not build up the church.
 
@@ -718,7 +716,7 @@ If we let Paul speak for himself, here is what he actually says:
 
 - **Paul's priority for the assembly is prophecy** — intelligible, edifying speech that builds up the body and convicts outsiders. Tongues without interpretation do neither.
 
-- **Tongues are not a spiritual status symbol.** Using them as proof that you are more spiritual than others contradicts Paul's entire argument in chapters 12-14. The whole point of those three chapters is that every gift matters, no gift makes you superior, and love outranks them all.
+- **Tongues are not a spiritual status symbol.** Using them as proof of superior spirituality contradicts Paul's entire argument in chapters 12-14: every gift matters, no gift makes you superior, and love outranks them all.
 
 - **Do not forbid tongues** (1 Cor 14:39). Paul says this plainly. Churches that ban the practice are overriding an apostolic command.
 
@@ -787,7 +785,7 @@ Notice the order: apostles, prophets, teachers — then miraculous powers, heali
 
 And then come the rhetorical questions. Every single one expects the answer "No." Do all work miracles? No. Do all heal? No. Do all speak in tongues? No. Do all interpret? No. The body needs all the different parts. No single gift is universal — that is the whole point.
 
-===
+---
 ## The "Greater Gifts" — 1 Corinthians 12:31
 
 > "Now eagerly desire the greater gifts. And yet I will show you the most excellent way." (**1 Corinthians 12:31, NIV**)
@@ -897,19 +895,19 @@ Putting all of Paul's teaching together, here is what emerges:
 
 - **The goal is a mature, unified body.** Not a collection of impressive individuals. Not a talent show. Not a competition. A community where every member is equipped, every gift is exercised in love, and the whole body grows up together into Christ.
 
-===
+---
 ## IX. What Do We DO with the Holy Spirit? — Practical Life in the Spirit
 
-After all the theology, here is the question that matters most: what does a Spirit-filled life actually look like day to day? The New Testament is not vague about this. It gives us concrete, practical teaching — not a mystical program but a way of living. Let's walk through it.
+After all the theology, here is the question that matters most: what does a Spirit-filled life actually look like day to day? It gives us concrete, practical teaching — not a mystical program but a way of living.
 
 ---
 ### 1. You Already Have the Spirit — Act Like It
 
-We covered this in Section IV: if you are in Christ, the Spirit is in you (Romans 8:9). He is not a guest you have to keep inviting back. He is a permanent resident — sealed, guaranteed, forever. But Paul goes further:
+We covered this in Section IV: if you are in Christ, the Spirit is in you (Romans 8:9). He is a permanent resident — sealed, guaranteed, forever. But Paul goes further:
 
 > "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies." (**1 Corinthians 6:19-20, NIV**)
 
-Your body is the Spirit's temple — language that echoes the Tabernacle and Temple where God's Shekinah glory dwelt. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there. The rest of this section is about closing that gap.
+Your body is the Spirit's temple — language that echoes the Tabernacle where God's Shekinah glory dwelt. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there.
 
 ---
 ### 2. Walk in the Spirit — Galatians 5:16-18, 25
@@ -965,7 +963,7 @@ Three key texts teach us about prayer and the Spirit:
 
 > "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words. And he who searches hearts knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God." (**Romans 8:26-27, ESV**)
 
-This is one of the most comforting verses in the Bible. When you sit down to pray and don't know what to say — when life is too heavy, too confusing, too painful for words — the Spirit carries what you cannot articulate. You don't have to have it all figured out. Come to God with what you have. The Spirit will translate.
+When you sit down to pray and don't know what to say — when life is too heavy, too confusing, too painful for words — the Spirit carries what you cannot articulate. Come to God with what you have. The Spirit will translate.
 
 **Pray in the Spirit on all occasions — Ephesians 6:18:**
 
@@ -979,9 +977,9 @@ This is one of the most comforting verses in the Bible. When you sit down to pra
 
 Praying in the Spirit is not just asking God for things. It strengthens your faith. It is a building-up activity. If your faith feels weak, pray. Not because prayer is magic, but because in prayer you are connecting to the Spirit who sustains you.
 
-**A note on tongues:** Some Pentecostal and Charismatic Christians read "praying in the Spirit" as specifically praying in tongues. This may be included — Paul says in 1 Corinthians 14:14, "For if I pray in a tongue, my spirit prays but my mind is unfruitful" (ESV). But the phrase "praying in the Spirit" is not limited to tongues. It describes a broader reality: a Spirit-dependent posture in all prayer. Whether or not you practice tongues, you are called to pray in the Spirit.
+**A note on tongues:** Some read "praying in the Spirit" as specifically praying in tongues. This may be included (cf. 1 Cor 14:14), but the phrase is not limited to tongues. It describes a broader reality: a Spirit-dependent posture in all prayer. Whether or not you practice tongues, you are called to pray in the Spirit.
 
-===
+---
 ### 5. Listen to the Spirit's Guidance
 
 > "When the Spirit of truth comes, he will guide you into all the truth, for he will not speak on his own authority, but whatever he hears he will speak, and he will declare to you the things that are to come." (**John 16:13, ESV**)
