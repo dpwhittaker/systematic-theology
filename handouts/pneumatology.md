@@ -137,15 +137,14 @@ With you → in you. This is the Ezekiel 36 promise about to become reality.
 **John 15:26:**
 > "When the Advocate comes, whom I will send to you from the Father — the Spirit of truth who goes out from the Father — he will testify about me." (**John 15:26, NIV**)
 
-**John 16:7-8:**
+===
+**John 16:7-8, 13-14:**
+
 > "But very truly I tell you, it is for your good that I am going away. Unless I go away, the Advocate will not come to you; but if I go, I will send him to you. When he comes, he will prove the world to be in the wrong about sin and righteousness and judgment." (**John 16:7-8, NIV**)
 
-The Spirit's coming depends on Jesus's departure. The cross and resurrection had to happen first. And the Spirit continues Jesus's confrontation with the world's spiritual blindness — convicting of sin (failure to believe in Jesus), righteousness (Jesus's vindication through resurrection), and judgment (the ruler of this world is already judged).
-
-**John 16:13-14:**
 > "But when he, the Spirit of truth, comes, he will guide you into all the truth. He will not speak on his own; he will speak only what he hears, and he will tell you what is yet to come. He will glorify me because it is from me that he will receive what he will make known to you." (**John 16:13-14, NIV**)
 
-The Spirit's characteristic posture: He points to Jesus, not to Himself. "He will not speak on his own." A spirit that draws attention to itself rather than to Jesus is not acting like the Holy Spirit Jesus described.
+The Spirit's coming depends on Jesus's departure. The cross and resurrection had to happen first. The Spirit continues Jesus's confrontation with the world's spiritual blindness — convicting of sin (failure to believe in Jesus), righteousness (Jesus's vindication through resurrection), and judgment (the ruler of this world is already judged). And His characteristic posture: He points to Jesus, not to Himself. "He will not speak on his own." A spirit that draws attention to itself rather than to Jesus is not acting like the Holy Spirit Jesus described.
 
 ### John 20:22 — "Receive the Holy Spirit"
 
