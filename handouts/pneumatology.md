@@ -4,7 +4,7 @@ This handout is pastoral in focus — not "what is the Spirit's metaphysical nat
 
 A note on the disagreements: people you respect, who love the same Jesus and read the same Bible, land in very different places on some of these questions. That's not a reason to avoid them. It's a reason to handle them carefully.
 
-===
+---
 ## What All Christians Agree On About the Spirit
 
 Before the disputes, the common ground is large.
@@ -158,7 +158,7 @@ Jesus does this after the resurrection, before Pentecost. It is genuinely debate
 
 Worth noting: John's Gospel has no ascension narrative. Luke, who does include the ascension, explicitly tells the disciples to wait in Jerusalem for the Spirit (Luke 24:49; Acts 1:4). John and Luke are telling the same story with different emphases, not contradicting each other. How this moment in John relates to Pentecost in Acts is a real exegetical question without a clean answer.
 
-===
+---
 ## III. Pentecost and Acts — What Actually Happened?
 
 Acts is the primary battleground for debates about Spirit baptism, tongues, and the order of salvation. It is also a *narrative* book — Luke is describing what happened. We must be careful not to assume every detail is *prescriptive* (a pattern for all Christians everywhere) rather than *descriptive* (what happened in these specific, historically unique cases).
@@ -179,6 +179,7 @@ This is the most debated verse in pneumatology. Repentance and baptism are prese
 
 **Acts 2:39:** "The promise is for you and your children and for all who are far off — for all whom the Lord our God will call" (NIV). The Spirit is the universal Christian inheritance, not an elite experience.
 
+===
 ### The Three "Problem Cases"
 
 Three later events in Acts present the Spirit's arrival in sequences that don't match Acts 2. Read what each actually says — do not harmonize prematurely.
