@@ -31,44 +31,39 @@ def extract_page_info(page):
     }
 
 
-def find_headings(lines):
-    """Find lines that look like headings in rendered PDF text.
+def find_headings(page):
+    """Find headings by inspecting PDF font metadata.
 
-    In the PDF, markdown headings (h1/h2/h3) and bold-text headings both
-    render as standalone short lines — no markdown markers remain.  We use
-    a combination of pattern matching and structural heuristics.
+    In the source markdown, headings are either:
+      - # / ## / ### lines  → render at larger font sizes (20pt/14pt/12pt), bold
+      - **entire-line bold** → render at body size (11pt), all spans bold
+
+    We detect both by walking the page's text dict and checking whether a
+    text line's spans are all bold AND either (a) the font size is > 11pt
+    (markdown heading) or (b) the line is a standalone bold line at 11pt
+    (bold-text heading).  Regular bold words inside paragraphs are excluded
+    because not all spans on their line will be bold.
     """
-    import re
     headings = []
-    for i, line in enumerate(lines):
-        line_stripped = line.strip()
-        if not line_stripped:
+    blocks = page.get_text("dict")["blocks"]
+    for block in blocks:
+        if "lines" not in block:
             continue
-
-        is_heading = False
-
-        # Roman numeral section headers: "I. ", "II. ", "IV. ", "X. "
-        if re.match(r'^[IVXL]+\.\s', line_stripped):
-            is_heading = True
-        # Numbered subsection headers: "1. You Already Have..."
-        elif re.match(r'^\d+\.\s', line_stripped) and len(line_stripped) < 80:
-            is_heading = True
-        # Scripture-reference headings: "1 Corinthians 14:4-5 — ...",
-        # "Romans 8:9-11:", "Acts 2:38 and ..."
-        elif re.match(r'^\d?\s*(Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|Samuel|Kings|Chronicles|Ezra|Nehemiah|Esther|Job|Psalm|Proverbs|Ecclesiastes|Song|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|Thessalonians|Timothy|Titus|Philemon|Hebrews|James|Peter|Jude|Revelation)\b', line_stripped):
-            if len(line_stripped) < 80:
-                is_heading = True
-        # Short standalone lines that look like headings:
-        # < 80 chars, don't end with period/comma, and are the first line
-        # or preceded by a blank line
-        elif len(line_stripped) < 80 and not line_stripped[-1] in '.,;':
-            prev_blank = (i == 0) or (not lines[i - 1].strip())
-            # Also check if the line starts with a common heading word
-            if prev_blank and re.match(r'^(The |What |How |Why |Where |Who |When |Summary|Synthesis|Putting|View |A note)', line_stripped):
-                is_heading = True
-
-        if is_heading:
-            headings.append(line_stripped)
+        for line in block["lines"]:
+            spans = line["spans"]
+            if not spans:
+                continue
+            text = "".join(s["text"] for s in spans).strip()
+            if not text:
+                continue
+            # Check if ALL spans in this line are bold
+            all_bold = all(s["flags"] & 16 for s in spans)  # bit 4 = bold
+            if not all_bold:
+                continue
+            # Heading if font size > 11pt (h1/h2/h3) or entire line is bold at 11pt
+            max_size = max(s["size"] for s in spans)
+            if max_size > 11.0 or len(text) < 120:
+                headings.append(text)
     return headings
 
 
@@ -86,7 +81,7 @@ def main():
     for i in range(total_pages):
         info = extract_page_info(doc[i])
         info["page_num"] = i + 1
-        info["headings"] = find_headings(info["lines"])
+        info["headings"] = find_headings(doc[i])
         page_infos.append(info)
 
     max_chars = max(p["char_count"] for p in page_infos)
