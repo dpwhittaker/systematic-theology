@@ -222,7 +222,7 @@ Luke is not giving us a systematic theology of Spirit reception. He is narrating
 
 Paul gives us the most systematic teaching on what the Spirit actually does in and for believers. While Acts shows us the Spirit moving in history, Paul shows us what that means for everyday Christian life. If you want to understand the Holy Spirit's role in your daily walk with God, Paul is where you go.
 
-===
+---
 ### Romans 8:9-11 — The Spirit Lives in Every Believer
 
 > "You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to Christ. But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness. If the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you." (**Romans 8:9-11, ESV**)
@@ -235,7 +235,7 @@ This matters enormously for the debate about whether receiving the Spirit is a "
 
 And here is the payoff: the same Spirit who raised Jesus from the dead — the most powerful act in all of history — lives in you. That resurrection power is not far away. It dwells in you right now.
 
-===
+---
 ### Romans 8:14-17 — The Spirit of Adoption
 
 > "For all who are led by the Spirit of God are sons of God. For you did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, 'Abba! Father!' The Spirit himself bears witness with our spirit that we are children of God, and if children, then heirs — heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him." (**Romans 8:14-17, ESV**)
@@ -270,7 +270,7 @@ Paul stacks three images on top of each other here, and each one matters:
 
 **Guarantee.** The Greek word here is *arrabōn*, and it comes from the world of business. It means a down payment — the first installment that legally guarantees the full amount will follow. When you put a deposit on a house, you are legally committed to completing the purchase. Paul says the Holy Spirit in your heart right now is God's down payment on your full and final salvation. The Spirit is God's guarantee that what He started in you, He will absolutely finish.
 
-===
+---
 ### Galatians 5:16-25 — Walking by the Spirit
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
@@ -287,7 +287,7 @@ And notice: it is *fruit*, not *work*. Fruit is not something you manufacture by
 
 Finally: "Against such things there is no law." This is almost humorous. No legislature anywhere has ever passed a law against love, joy, or peace. The Spirit-filled life fulfills everything the law ever demanded — but it does it from the inside out, through transformation, not through rule-keeping. The law told you what to do but could never give you the power to do it. The Spirit gives you the power.
 
-===
+---
 ### Ephesians 1:13-14 — Sealed at the Moment of Belief
 
 > "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory." (**Ephesians 1:13-14, ESV**)
@@ -300,7 +300,7 @@ This matters for the question that comes up in many churches: "Do I need a rebap
 
 But that is not the whole picture. Keep reading.
 
-===
+---
 ### Ephesians 4:30 — Do Not Grieve the Spirit
 
 > "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption." (**Ephesians 4:30, ESV**)
@@ -372,7 +372,7 @@ This is the mature middle ground that both traditional and Charismatic believers
 
 A church that quenches the Spirit becomes dead formalism — going through the motions, everything predictable, nothing alive. A church that never tests becomes chaotic and dangerous — every claim goes unchallenged, manipulation runs unchecked. The Spirit calls us to both openness and discernment. Always.
 
-===
+---
 ### Putting It Together: Sealed Once, Filled Continually
 
 Paul gives us two categories, and most of the confusion about the Spirit in the church today comes from mixing them up:
@@ -587,7 +587,7 @@ People from different traditions may have had genuine, powerful encounters with 
 
 Few topics generate more heat in the church. Pentecostals say tongues are the initial evidence of Spirit baptism. Cessationists say the gift ended with the apostles. Most evangelicals are somewhere in between. The question deserves a careful look at what the text actually says — not what we want it to say.
 
-===
+---
 ### Acts 2 — Tongues as Known Languages
 
 > "All of them were filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them. Now there were staying in Jerusalem God-fearing Jews from every nation under heaven. When they heard this sound, a crowd came together in bewilderment, because each one heard their own language being spoken." (**Acts 2:4-6, NIV**)
@@ -737,7 +737,7 @@ The Greek word is *charismata* (χαρίσματα) — gifts of grace, from *ch
 
 Paul's teaching in 1 Corinthians 12–14 is the most sustained treatment of spiritual gifts in the New Testament, and it has a specific problem in view: the Corinthians were using the gifts competitively, as status symbols. Some were treating certain gifts — especially tongues — as proof that they were more spiritual than others. Paul's answer reframes everything.
 
-===
+---
 ## 1 Corinthians 12 — One Body, Many Parts
 
 ### The Purpose of Gifts (v. 7)
@@ -858,7 +858,7 @@ The very next sentence proves it:
 
 Love *and* gifts. Not love *instead of* gifts.
 
-===
+---
 ## Romans 12 — A Parallel Gift List
 
 Paul lists a different set of gifts in his letter to the Romans:
@@ -871,7 +871,7 @@ This is important. It means the *charismata* are not limited to spectacular phen
 
 The same word — *charismata*, grace-gifts — covers the entire range. There is no biblical basis for dividing the gifts into "supernatural" ones and "natural" ones, as if the Spirit is more involved in tongues than in mercy.
 
-===
+---
 ## Ephesians 4 — Gifts for Equipping
 
 > "So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ." (**Ephesians 4:11–13, NIV**)
@@ -882,7 +882,7 @@ This means every leader's job is to make everyone else more capable — not to d
 
 The goal is not a church with one impressive leader. The goal is "the body of Christ built up" — a mature community, unified in faith, growing together toward the fullness of Christ.
 
-===
+---
 ## Synthesis: What Do We Do With the Gifts?
 
 Putting all of Paul's teaching together, here is what emerges:
@@ -906,7 +906,7 @@ Putting all of Paul's teaching together, here is what emerges:
 
 After all the theology, here is the question that matters most: what does a Spirit-filled life actually look like day to day? The New Testament is not vague about this. It gives us concrete, practical teaching — not a mystical program but a way of living. Let's walk through it.
 
-===
+---
 ### 1. You Already Have the Spirit — Act Like It
 
 We covered this in Section IV: if you are in Christ, the Spirit is in you (Romans 8:9). He is not a guest you have to keep inviting back. He is a permanent resident — sealed, guaranteed, forever. But Paul goes further:
@@ -915,7 +915,7 @@ We covered this in Section IV: if you are in Christ, the Spirit is in you (Roman
 
 Your body is the Spirit's temple — language that echoes the Tabernacle and Temple where God's Shekinah glory dwelt. Many Christians live with what we might call "practical atheism" about the Spirit — they acknowledge Him in doctrine but live as if He isn't there. The rest of this section is about closing that gap.
 
-===
+---
 ### 2. Walk in the Spirit — Galatians 5:16-18, 25
 
 > "But I say, walk by the Spirit, and you will not gratify the desires of the flesh. For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other, to keep you from doing the things you want to do. But if you are led by the Spirit, you are not under the law." (**Galatians 5:16-18, ESV**)
@@ -1026,7 +1026,7 @@ What does a Spirit-filled church look like in practice?
 - **The fruit of the Spirit visible in how people treat each other.** A church can have spectacular gifts and terrible fruit. Paul warned the Corinthians about exactly this. The real evidence of the Spirit's presence is not the volume of the gifts but the quality of the love.
 - **The gifts of the Spirit active in serving the community and reaching the world.** Gifts are not for display. They are for service — building up the body and drawing the world to Jesus.
 
-===
+---
 ### Summary: The Spirit-Filled Life in One Paragraph
 
 You already have the Spirit if you belong to Christ. Keep being filled by yielding to Him in worship and gratitude. Walk in step with Him by responding to His lead moment by moment. Watch His fruit grow in you as you stay connected through Scripture, prayer, and community. Pray with His help, especially when you don't have the words. Listen to His guidance through the Word, through conviction, and through other believers. Don't grieve Him with relational sin — repent quickly and forgive freely. Don't quench Him out of fear — stay open, but test everything. And do all of this in community, where every member brings what the Spirit has given them, and everything is done to build each other up.
@@ -1050,7 +1050,7 @@ The debates over tongues, Spirit baptism, and the gifts have divided sincere, Bi
 
 A church that argues about tongues more than it practices love has missed Paul's point in 1 Corinthians 13 entirely.
 
-===
+---
 ## XI. For Further Study
 
 Both Pentecostal/Charismatic and traditional perspectives are represented intentionally; read across the divide.

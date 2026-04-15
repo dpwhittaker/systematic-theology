@@ -273,7 +273,34 @@ Note: `h1` is the document title only. Content sections begin at `h2`.
 2. Break before an `h2` (or `h3` in detailed handouts), unless the next section fits on the current page without a break.
 3. Maximize content per page. Minimize top-level sections that span multiple pages.
 
-**Workflow:** During content development, `===` placement is a rough guess. A deliberate page-break pass happens after content is finalized — using print preview (or the headless Chrome + pymupdf page analysis tools) to verify layout and place `===` markers intentionally for the physical page-turning flow of a class.
+**Workflow:** During content development, `===` placement is a rough guess. A deliberate page-break pass happens after content is finalized — using the PDF generation and page analysis tools to verify layout and place `===` markers intentionally for the physical page-turning flow of a class.
+
+**Page-break verification tools:**
+
+Two scripts automate the page-break verification workflow. Always run these when adding, removing, or changing `===`/`---` markers — do not rely on source line counting, which is unreliable because blockquotes, blank lines, and line wrapping make printed length unpredictable.
+
+1. **Generate PDF** (Puppeteer, headless Chrome):
+   ```bash
+   export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+   node scripts/handout-to-pdf.js handouts/pneumatology.md [output.pdf]
+   ```
+   - Requires the dev server running on localhost:8000 (the systemd unit)
+   - Loads the handout via the same `#handouts/...` hash route the browser uses
+   - Renders to Letter-size PDF with 0.5in margins (matches `handout.css` print rules)
+   - Output defaults to `pdf/<filename>.pdf`
+
+2. **Analyze page density** (pymupdf):
+   ```bash
+   source ~/ml-env/bin/activate
+   python3 scripts/analyze-pdf-pages.py pdf/handouts_pneumatology.pdf
+   ```
+   - Reports per-page: character count, line count, fullness %, first heading
+   - Warns on sparse pages (<25% full) that suggest a section is overflowing from the previous page
+   - Warns on overfull pages (>95%) where content may be clipped
+   - Reports total page count and whether it's even (for double-sided printing)
+   - Exit code 1 if any warnings found
+
+**Typical workflow:** Change `===` → `---` (or vice versa), run both scripts, check the analysis output. If a merged section overflows onto a near-empty next page (the analyzer will flag it as <25% full), revert that `---` back to `===`. Iterate until no sections span page boundaries unnecessarily.
 
 **Pre-production page-break process:**
 
