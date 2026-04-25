@@ -1552,3 +1552,19 @@ Replaced the placeholder "Common Ground" and "Toward a Synthesis" sections with 
 3. Acknowledgement that Category H doesn't dissolve and the seven viewpoints triangulate rather than compete
 4. Two postures: "Recognize the proportion" (Lam 3:22-23 — the visible judgments are footnotes; mercy is the main text) and "Read backward from the cross" (the cross unifies wrath-against-sin and love-for-sinners; Category H is the prelude to a sovereignty that lets itself be killed by the agency it appeared to override)
 5. Closing line bookending the opening: "If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply."
+
+---
+
+Page-break verification: started at 10 pages. Compressed Cat C, D items, Mesha Stele paragraph, Sin and Punishment intro, and Conclusion. Removed strengths/weaknesses bullets from all 7 viewpoints. Removed "The Atrocities by Category" header line per user request. Demoted Conclusion heading to inline "**In sum:**" lead-in. Final reduction: removed all 13 hr dividers (each took 0.3in vertical space, totaling ~3.9in) — that pushed the doc into 8 pages clean.
+
+Final layout (8 pages, even, max 100% on page 3 with Babylon item completing cleanly):
+- p1: Title + intro + Cat A items 1-10
+- p2: Cat A HM + Mesha Stele section + Cat B
+- p3: Cat C + Cat D items 1-2
+- p4: Cat D items 3-10 + Joseph Principle + Sin and Punishment intro + Cat E items 1-6
+- p5: Cat E items 7-10 + HM + Cat F + Cat G item 1
+- p6: Cat G items 2-10 + HM + Harder Cases intro + Cat H
+- p7: Seven Major Viewpoints intro + viewpoints 1-4
+- p8: viewpoints 5-7 + Conclusion ("In sum:" lead-in)
+
+Some sections span pages (A, D, E, G) — accepted to hit the 8-page target.

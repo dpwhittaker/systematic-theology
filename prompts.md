@@ -281,3 +281,19 @@ Let's try focusing the 7 Major Viewpoints on a short description of the view fol
 ---
 
 Not yet, let's replace the last two unwritten sections with a conclusion.
+
+---
+
+run it
+
+---
+
+target: trim down to 8 pages
+
+---
+
+Remove "The "Atrocities" by Category" header line
+
+---
+
+You can remove a bunch of hr's if that isn't enough
