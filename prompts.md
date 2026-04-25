@@ -325,3 +325,7 @@ The Seven Views don't really seem to be adding that much, but Natural Consequenc
 ---
 
 Remove that page break before F and add one before Natural Consequences
+
+---
+
+The Introduction seems a little disjointed. Revise to make it flow better

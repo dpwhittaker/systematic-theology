@@ -1,12 +1,10 @@
 # The Wrath of God: Atrocity or Redemption?
 
-How do we handle the seemingly wrathful God of the Torah?
+How do we handle the seemingly wrathful God of the Torah? The shape of the problem looks like a trajectory — from herem and plagues in the Pentateuch to "love your enemies" on the Galilean hillside — and the easiest resolution would be to say God has learned how to be a better God over time.
 
-One resolution to the trajectory from wrath to mercy would be to say that God has learned how to be a better God over time. But even an Open Theist — who allows that God genuinely responds, regrets, and revises plans — would not say God's moral *character* improved. That view belongs to Process Theology, not Open Theism. And while complete Platonic immutability may be more Greek than biblical, God has always been good, and has always been love.
+He has not. Even an Open Theist — who allows that God genuinely responds, regrets, and revises plans — would not say His moral *character* improved (that view belongs to Process Theology, not Open Theism). And while complete Platonic immutability may be more Greek than biblical, God has always been good, has always been love. The trajectory is not in God; it is in our slowly-growing capacity to recognize what was always there. Even in Joshua and Judges, much of what we call "wrath" turns out to be God allowing Israel the natural consequences of disobedience — for the ultimate purpose of redeeming the remnant.
 
-As early as Joshua and Judges, much of what we call "wrath" can be explained as God allowing Israel to receive the natural consequences of their disobedience — for the ultimate purpose of redeeming the remnant.
-
-Each category below represents a different *shape* of moral objection — and demands a different shape of answer. Some atrocities can be substantially explained through historical, literary, and theological context; others are harder to grapple with and continue to demand wrestling. We'll start with the categories most amenable to explanation, then move to the ones where the problem persists even after our best work.
+"Wrath," then, is not one thing. It is a cluster of distinct phenomena, each demanding a different shape of answer. Some yield to historical, literary, and theological context; others remain hard. The categories below are arranged from most amenable to explanation toward the residue that persists even after our best work.
 
 ## Category A: Total Destruction Language of War
 

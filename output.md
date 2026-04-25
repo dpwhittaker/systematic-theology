@@ -1610,3 +1610,13 @@ Layout: clean 8 pages, even count.
 ---
 
 Swapped page breaks: removed === before Cat F, added === before Natural Consequences. Result: clean 8 pages even, with Natural Consequences cleanly on its own page (p8) instead of split across pages 7-8.
+
+---
+
+Revised intro for flow. From four somewhat-disconnected paragraphs (question / Open-Theist-vs-Process aside / orphan natural-consequences thesis / structural roadmap) to three connected paragraphs:
+
+1. Pose the problem and name the easy answer ("God learned to be better over time")
+2. Reject it ("He has not"), unpack the Open Theism / Process distinction, affirm immutable character, locate the trajectory in us rather than God, and use the natural-consequences thesis as illustration of that point
+3. Pivot to structure: "wrath" isn't one thing, categories follow the easy-to-hard arc
+
+Pagination held — 8 pages, even, page 1 still ends with HM.
