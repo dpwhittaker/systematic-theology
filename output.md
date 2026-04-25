@@ -1583,3 +1583,12 @@ Added === page break before Category D. Result: 9 pages (odd). Cat D now has its
 ---
 
 Added === before "Sin and Punishment". Still 9 pages (odd), but the layout is cleaner now: each Category A-D gets its own page, Sin and Punishment opens p5, and the orphaned Conclusion now shares p9 with viewpoint 7.
+
+---
+
+Refocused Seven Major Viewpoints:
+- Removed italic tradition tags (Calvinist, Wesleyan, Pentecostal, etc.) — they were vestigial and visually busy
+- Shortened each "On Category H:" paragraph to summarize the approach instead of defending each reference (Pharaoh, Job, Judas, Esau)
+- Each viewpoint now: title + general description + one summary paragraph on H
+
+Layout: still 9 pages with Conclusion at 14% on p9 — print engine's orphan/widow rules keep it from absorbing onto p8 despite headroom.

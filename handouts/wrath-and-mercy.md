@@ -168,59 +168,45 @@ The categories above mostly dissolve under the lenses we've already applied — 
 
 ## 1. Divine Command Theory
 
-*Classical Reformed / Calvinist*
-
 God is the source of morality, and His sovereign decree is the ground of all good. Human moral intuition is fallen and unreliable; what He ordains is righteous *by definition*. Romans 9 and Ephesians 1 are read as direct statements of compatibilist sovereignty.
 
-**On Category H:** This view is most at home here — H is the lens that exposes humanism's idol of autonomy. Pharaoh hardened, Esau hated, Judas chosen, the lying spirit sent — all are direct expressions of the eternal decree. Reprobation is just because all sinners deserve worse than they receive; election is sheer mercy. The "manipulation" framing assumes a sovereign claim on agency that Scripture never grants creatures. Westminster's double predestination is the most theologically coherent reading of Rom 9:11–22.
+**On Category H:** This view is most at home here — H is the lens that exposes humanism's idol of autonomy. Hardening, election, reprobation, and decreed betrayal are all direct expressions of the eternal decree, and the "manipulation" framing assumes a sovereign claim on agency that Scripture never grants creatures. Reprobation is just because all sinners deserve worse; election is sheer mercy.
 
 ## 2. Greater Good Theodicy
 
-*Broadly Evangelical*
-
 God sees the entire timeline. He uses suffering, hardening, and apparent manipulation to accomplish goods we cannot see — saving the messianic line, refining faith, defeating powers, extending mercy more widely than the immediate cost suggests. The harshness is surgical, not arbitrary.
 
-**On Category H:** Pharaoh's hardening serves the revelation of God's name to all nations (Ex 9:16). Job's suffering vindicates faith and yields a deeper theophany than uninterrupted blessing could. Judas's betrayal is permitted because it accomplishes the cross. The "manipulation" is real but bounded: God intensifies and times choices already inclined toward evil. Esau is "hated" in service of Jacob's calling, which serves the messianic line, which serves all humanity. Romans 8:28 is the master verse.
+**On Category H:** The "manipulation" is real but bounded — God intensifies, times, and redirects choices already inclined toward evil so the larger redemptive arc is preserved. Hardening, wagering, election to service, and even predetermined betrayals are instrumentally good even when locally painful. Romans 8:28 is the master verse.
 
 ## 3. Accommodation / Progressive Revelation
 
-*Wesleyan, Moderate Evangelical*
-
 God meets humanity within its current capacity, gradually moving us toward fuller truth under prevenient grace. The OT shows Him working in Bronze Age idiom; the trajectory clarifies that humans are responsible agents, not puppets.
 
-**On Category H:** The hardening passages are read sequentially. Pharaoh hardens *himself* first (Ex 8:15, 32; 9:34) before God hardens him (9:12) — divine hardening is judicial confirmation of an already-chosen path. "Strong delusion" follows rejection of truth (2 Thess 2:10–11). "God gave them up" follows persistent rebellion (Rom 1). Romans 9 is corporate — Israel and Edom as peoples, not individual destinies — and is rebalanced by Rom 10–11, where Israel's hardening serves a temporary purpose toward universal mercy ("God has consigned all to disobedience, that He may have mercy on all," 11:32). Jacob/Esau is national election for service, not personal salvation.
+**On Category H:** Hardening language is read as judicial confirmation rather than coercion — God hands people over to the path they have already chosen (the textual sequence in Exodus shows Pharaoh hardening himself before God hardens him). Election texts are read corporately: Israel and the nations as the operative actors, not individual destinies. The trajectory of Scripture moves toward fuller human responsibility, not toward determinism — climaxing in Rom 11:32: "God has consigned all to disobedience, that He may have mercy on all."
 
 ## 4. Christological Hermeneutic
 
-*Anabaptist, Greg Boyd, some Charismatic*
-
 Jesus is the perfect revelation of God (John 14:9; Heb 1:3). Anything in the OT that contradicts the cruciform character of Christ must be reinterpreted. Violent and manipulative portraits are partly Israel's projection of ANE assumptions, which God "bore" the way Christ bore sin on the cross — He allowed Himself to be blamed for what He did not do.
 
-**On Category H:** Hardening, lying spirit, and strong-delusion language is accommodated speech. God doesn't actively deceive — He withdraws restraining grace, and the consequence is described in active language because the ancient idiom attributed all causation to God. Pharaoh hardened *himself*; "the LORD hardened" is theological framing for divine sovereignty over the situation, not coercion. Judas chose freely; his choice was foreknown but not caused. Job's prologue is framing literature, not transcript. Romans 9 is read corporately, with Christ-as-Israel and the elect-in-Him as the ultimate object of election.
+**On Category H:** Hardening, deceiving, and election-to-condemnation language is accommodated speech — describing in active terms what was actually divine withdrawal of restraining grace, framed in the ancient idiom that attributed all causation to God. The cross is the criterion: whatever cannot be reconciled with the cruciform Christ is read as Israel's misperception that God has chosen to absorb rather than correct.
 
 ## 5. Literary / Genre-Sensitive Reading
 
-*Academic Evangelical, Catholic Scholarship*
-
 Scripture is not flat. Different genres demand different reading conventions: conquest accounts use ANE military hyperbole; wisdom literature uses framing devices; apocalyptic uses symbolic vision; prophetic literature uses rhetorical exaggeration to provoke response.
 
-**On Category H:** Job's prologue is a wisdom-genre framing tale (so John Walton, Tremper Longman, Robert Alter) — theology, not transcript. The lying spirit in 1 Kings 22 is *Micaiah's vision* ("I saw the LORD..."), a court-imagery genre, not a literal report of divine deception. "God hardened Pharaoh" reflects the ANE convention that all causation is divine causation; the same chapters also say Pharaoh hardened himself, and the parallelism is the point. Romans 9 is a diatribe — a rhetorical form featuring imagined objections — and Paul's argument climaxes in mercy (11:32), not in fixed reprobation. Reading these in their native genres softens (without erasing) their philosophical sting.
+**On Category H:** The hard texts are read inside their genre conventions. Wisdom prologues (Job 1–2) are framing tales, not transcripts. Prophetic visions of heavenly courts (1 Kings 22) are theatrical. ANE causation grammar attributes everything to the deity even when human action is the proximate cause. Rhetorical diatribes (Romans 9–11) climb to a climax — mercy on all (11:32) — and shouldn't be flattened into propositional dogmatics. Reading in native genre softens (without erasing) the philosophical sting.
 
 ## 6. Spiritual Warfare Worldview
 
-*Pentecostal, Charismatic, some Orthodox*
-
 Reality is a contested cosmos. Spiritual powers are real, hostile, and active. Much of what looks like divine manipulation is God's permissive sovereignty over a fallen creation in which real (though bounded) agency belongs to spiritual beings as well as humans.
 
-**On Category H:** Job's suffering is explicitly Satan's work; God sets the limits but isn't the active cause. The lying spirit in 1 Kings 22 is a real spiritual being, not a metaphor for divine deception. Pharaoh's hardening occurs in the context of the plagues' confrontation with the gods of Egypt (Ex 12:12) — demonic powers attached to those thrones harden Pharaoh from beneath even as God's sovereignty operates from above. "Strong delusion" aligns with the deceiving spirit behind the man of lawlessness (2 Thess 2). The category becomes tripartite — God, principalities, humans — not the binary "God overrode my will" framing modern readers default to.
+**On Category H:** Agency is tripartite — God, principalities, humans — not the binary "God overrode my will" framing modern readers default to. Most apparent overrides are God permitting hostile spiritual powers to act inside the limits He has set, while the human still chooses within that contested space. Job's wager, the lying spirit, and the gods-of-Egypt context behind Pharaoh's hardening all fit this pattern.
 
 ## 7. Natural Consequences / Relational Reading
 
-*Open Theism, some Progressive Evangelical*
-
 God's sovereignty operates through genuine relationship rather than override. The future is partially open — God knows all possibilities and probabilities exhaustively, but specific contingent free choices are not yet actualities to be known. Most "wrath" language describes God withdrawing protection and allowing consequences. (Boyd, Sanders, Pinnock, Hasker, Oord.)
 
-**On Category H:** Pharaoh's hardening is the same-sun-melts-wax-hardens-clay phenomenon — God's presence intensified what was already resistant in Pharaoh's heart. Romans 9 is corporate, climaxing in universal mercy (11:32). Judas's betrayal was foreseen as a probability hardening into actuality; God's response (the cross) was contingency-ready but not contingency-causing. Job is a real-time relational drama where God genuinely risks. "Gave them up" and "strong delusion" describe confirmation of choices already made — God ratifying what humans insist upon. The category mostly dissolves into "God respects agency to a degree most modern Christians don't expect."
+**On Category H:** God respects agency to a degree most modern Christians don't expect. Hardening language is the same-sun-melts-wax-hardens-clay phenomenon — divine presence intensifying what is already there. "Gave them up," "strong delusion," and election-to-condemnation language all describe confirmation of choices already made, not coercion of choices not yet made.
 
-**In sum:** God has always been good, has always been love. Most categories dissolve under the proper lens; what remains is Category H, where the seven viewpoints triangulate rather than compete. Two postures: **recognize the proportion** — *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22), and the flashes of judgment are footnotes on a story whose main text is mercy — and **read backward from the cross**, where the wrath of God against sin and the love of God for sinners are revealed as the same thing. Romans 9 climbs to Romans 11:32, climbs to Calvary, climbs to *"Father, forgive them, for they know not what they do."* If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply.
+**In sum:** God has always been good, has always been love. Most categories dissolve under the proper lens; what remains is Category H, where the seven viewpoints triangulate rather than compete. Two postures: **recognize the proportion** — *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22); the flashes of judgment are footnotes on a story whose main text is mercy — and **read backward from the cross**, where the wrath of God against sin and the love of God for sinners are revealed as the same thing. Romans 9 climbs to Romans 11:32, climbs to Calvary, climbs to *"Father, forgive them."* If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply.
 

@@ -313,3 +313,7 @@ page break before Category D
 ---
 
 Break before Sin and Punishment
+
+---
+
+On the seven major views, remove the italic subheaders of which groups believe it. Also shorten the On Category H sections - summarize their general approach toward the concepts, don't try to defend every reference.
