@@ -1592,3 +1592,17 @@ Refocused Seven Major Viewpoints:
 - Each viewpoint now: title + general description + one summary paragraph on H
 
 Layout: still 9 pages with Conclusion at 14% on p9 — print engine's orphan/widow rules keep it from absorbing onto p8 despite headroom.
+
+---
+
+Replaced "Seven Major Viewpoints" with a single "# Natural Consequences" section that explains the relational/Open-Theist reading more thoroughly under five bolded sub-points: sovereignty as relationship not override, the future as genuinely open, hardening as intensification not coercion, the cross as the master case, what the view doesn't dissolve. Conclusion content folded into the closing paragraph (no separate Conclusion heading). Also added === before Category F.
+
+Layout: clean 8 pages, even count.
+- p1: Title + Cat A
+- p2: Mesha Stele + Cat B
+- p3: Cat C
+- p4: Cat D
+- p5: Sin and Punishment + Cat E
+- p6: Cat F + start of Cat G
+- p7: Rest of Cat G + Cat H + Natural Consequences intro
+- p8: Natural Consequences body + flowing conclusion

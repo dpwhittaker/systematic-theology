@@ -107,6 +107,8 @@ Each of the next three categories has a sin underneath it — sometimes obvious 
 
 **Honorable mentions:** Fire at Taberah (Num 11:1–3); plague after the quail/manna complaints (Num 11:33–34); death of the 10 faithless spies (Num 14:36–37).
 
+===
+
 ## Category F: God Commands Israel to Kill (Outside of War)
 
 *Beyond the conquest narrative, there are specific incidents where God commands Israel to put particular persons — including fellow Israelites — to death. The sin in each case is recognizable: idolatry, blasphemy, covenant betrayal, treaty violation, theft from the devoted things. What unsettles is the swiftness and specificity of the command. These are the moments where the covenant community itself is conscripted as the visible sword of judgment, defining its identity by what it cannot tolerate within its own ranks. The wages-of-sin frame still applies — but here the wages are paid through Israel's own hand rather than from heaven.*
@@ -162,51 +164,19 @@ The wages-of-sin frame above accounts for most of what we encounter in Categorie
 
 **Honorable mentions:** God deceiving prophets (Ezek 14:9); Shimei cursing David "because the LORD told him to" (2 Sam 16:10); Samson's marriage to a Philistine woman as God's initiative (Judg 14:4).
 
-# Seven Major Viewpoints
+# Natural Consequences
 
-The categories above mostly dissolve under the lenses we've already applied — ANE genre, communal sin, accommodation, double redemption, wages of sin. What remains is Category H: divine action that appears to override human agency. Different Christian traditions navigate that residue differently. Each of the seven views below has a core conviction worth understanding on its own terms; each then handles Category H with characteristic moves.
+Of the major Christian responses to the texts surveyed above, the natural-consequences or relational reading is the one that integrates most cleanly with the framework we have built. It is the position now most associated with Open Theism (Greg Boyd, John Sanders, Clark Pinnock, William Hasker, Thomas Jay Oord), but its core insights are older and broader — Wesley argued for prevenient grace and conditional foreknowledge, the Eastern Orthodox tradition has always read divine sovereignty as relational rather than coercive, and even within Reformed thought the prophetic literature has long resisted hard determinist readings.
 
-## 1. Divine Command Theory
+**Sovereignty as relationship, not override.** God's sovereignty does not operate by overriding human agency; it operates by entering into relationship with it. He persuades, appeals, warns, woos, and — when His people insist — withdraws His protection and lets the consequences they have chosen play out. Most of what Scripture calls "wrath" is the absence of His restraining grace, not the active infliction of harm. Romans 1 names this pattern three times: "God gave them up." Lamentations 3:33 names its restraint: "He does not afflict from His heart."
 
-God is the source of morality, and His sovereign decree is the ground of all good. Human moral intuition is fallen and unreliable; what He ordains is righteous *by definition*. Romans 9 and Ephesians 1 are read as direct statements of compatibilist sovereignty.
+**The future as genuinely open.** God knows all possibilities and probabilities exhaustively — He knows you well enough to predict your free choices with stunning accuracy — but specific contingent future choices are not yet actualities to be known. This isn't ignorance on God's part; it is the nature of free reality. Foreknowledge texts like Acts 2:23 ("delivered up by the definite plan and foreknowledge of God") describe what God did with a betrayal once it was on the table — His response was contingency-ready, not a deterministic script.
 
-**On Category H:** This view is most at home here — H is the lens that exposes humanism's idol of autonomy. Hardening, election, reprobation, and decreed betrayal are all direct expressions of the eternal decree, and the "manipulation" framing assumes a sovereign claim on agency that Scripture never grants creatures. Reprobation is just because all sinners deserve worse; election is sheer mercy.
+**Hardening as intensification, not coercion.** "The LORD hardened Pharaoh's heart" reads exactly the way the text itself sets it up: Pharaoh hardens his own heart in Exodus 8:15, 8:32, and 9:34 *before* the LORD hardens it in 9:12. Divine presence intensifies what is already there — the same sun that melts wax also hardens clay. "Strong delusion" follows after they "refused to love the truth" (2 Thess 2:10–11); "God gave them up" follows persistent self-deification (Rom 1). Confirmation of choices already made, not coercion of choices not yet made.
 
-## 2. Greater Good Theodicy
+**The cross as the master case.** The most powerful witness to this view is Calvary itself. The cross is where God's sovereignty fully *yields* to human agency. Judas chooses freely; Pilate chooses freely; Caiaphas chooses freely; the crowd chooses freely. And God absorbs all of it and turns it into redemption. The cross is not the place where divine sovereignty finally crushes human freedom; it is where divine love finally lets human freedom do its worst, and answers it with forgiveness. *"Father, forgive them, for they know not what they do."* If this is the climax of God's character, His sovereignty must be read in the same key everywhere else.
 
-God sees the entire timeline. He uses suffering, hardening, and apparent manipulation to accomplish goods we cannot see — saving the messianic line, refining faith, defeating powers, extending mercy more widely than the immediate cost suggests. The harshness is surgical, not arbitrary.
+**What the view doesn't dissolve.** A residue remains. Isa 6:9–10 commissions Isaiah to *prevent* repentance. 1 Kings 22 has God authorizing a deceiving spirit. Romans 9 names Jacob loved and Esau hated before either had done good or evil. The natural-consequences reader handles these carefully — judicial hardening after exhausted prophetic patience; spiritual cosmology granting genuine agency to non-divine beings; corporate election about Israel's calling rather than individual destiny — and none of these moves are without difficulty. But the residue is small enough that the rest of the framework holds.
 
-**On Category H:** The "manipulation" is real but bounded — God intensifies, times, and redirects choices already inclined toward evil so the larger redemptive arc is preserved. Hardening, wagering, election to service, and even predetermined betrayals are instrumentally good even when locally painful. Romans 8:28 is the master verse.
-
-## 3. Accommodation / Progressive Revelation
-
-God meets humanity within its current capacity, gradually moving us toward fuller truth under prevenient grace. The OT shows Him working in Bronze Age idiom; the trajectory clarifies that humans are responsible agents, not puppets.
-
-**On Category H:** Hardening language is read as judicial confirmation rather than coercion — God hands people over to the path they have already chosen (the textual sequence in Exodus shows Pharaoh hardening himself before God hardens him). Election texts are read corporately: Israel and the nations as the operative actors, not individual destinies. The trajectory of Scripture moves toward fuller human responsibility, not toward determinism — climaxing in Rom 11:32: "God has consigned all to disobedience, that He may have mercy on all."
-
-## 4. Christological Hermeneutic
-
-Jesus is the perfect revelation of God (John 14:9; Heb 1:3). Anything in the OT that contradicts the cruciform character of Christ must be reinterpreted. Violent and manipulative portraits are partly Israel's projection of ANE assumptions, which God "bore" the way Christ bore sin on the cross — He allowed Himself to be blamed for what He did not do.
-
-**On Category H:** Hardening, deceiving, and election-to-condemnation language is accommodated speech — describing in active terms what was actually divine withdrawal of restraining grace, framed in the ancient idiom that attributed all causation to God. The cross is the criterion: whatever cannot be reconciled with the cruciform Christ is read as Israel's misperception that God has chosen to absorb rather than correct.
-
-## 5. Literary / Genre-Sensitive Reading
-
-Scripture is not flat. Different genres demand different reading conventions: conquest accounts use ANE military hyperbole; wisdom literature uses framing devices; apocalyptic uses symbolic vision; prophetic literature uses rhetorical exaggeration to provoke response.
-
-**On Category H:** The hard texts are read inside their genre conventions. Wisdom prologues (Job 1–2) are framing tales, not transcripts. Prophetic visions of heavenly courts (1 Kings 22) are theatrical. ANE causation grammar attributes everything to the deity even when human action is the proximate cause. Rhetorical diatribes (Romans 9–11) climb to a climax — mercy on all (11:32) — and shouldn't be flattened into propositional dogmatics. Reading in native genre softens (without erasing) the philosophical sting.
-
-## 6. Spiritual Warfare Worldview
-
-Reality is a contested cosmos. Spiritual powers are real, hostile, and active. Much of what looks like divine manipulation is God's permissive sovereignty over a fallen creation in which real (though bounded) agency belongs to spiritual beings as well as humans.
-
-**On Category H:** Agency is tripartite — God, principalities, humans — not the binary "God overrode my will" framing modern readers default to. Most apparent overrides are God permitting hostile spiritual powers to act inside the limits He has set, while the human still chooses within that contested space. Job's wager, the lying spirit, and the gods-of-Egypt context behind Pharaoh's hardening all fit this pattern.
-
-## 7. Natural Consequences / Relational Reading
-
-God's sovereignty operates through genuine relationship rather than override. The future is partially open — God knows all possibilities and probabilities exhaustively, but specific contingent free choices are not yet actualities to be known. Most "wrath" language describes God withdrawing protection and allowing consequences. (Boyd, Sanders, Pinnock, Hasker, Oord.)
-
-**On Category H:** God respects agency to a degree most modern Christians don't expect. Hardening language is the same-sun-melts-wax-hardens-clay phenomenon — divine presence intensifying what is already there. "Gave them up," "strong delusion," and election-to-condemnation language all describe confirmation of choices already made, not coercion of choices not yet made.
-
-**In sum:** God has always been good, has always been love. Most categories dissolve under the proper lens; what remains is Category H, where the seven viewpoints triangulate rather than compete. Two postures: **recognize the proportion** — *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22); the flashes of judgment are footnotes on a story whose main text is mercy — and **read backward from the cross**, where the wrath of God against sin and the love of God for sinners are revealed as the same thing. Romans 9 climbs to Romans 11:32, climbs to Calvary, climbs to *"Father, forgive them."* If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply.
+The pattern, taken together, returns us to the thesis we opened with. God has always been good, has always been love. *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22). For every Uzzah, millions of unstruck hands. The flashes of judgment are footnotes on a story whose main text is mercy. Romans 9 climbs to Romans 11:32, climbs to Calvary, climbs to *"Father, forgive them."* If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply.
 
