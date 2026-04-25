@@ -1523,3 +1523,10 @@ Restructured wrath-and-mercy.md:
 ---
 
 Tightened the opening paragraph of wrath-and-mercy.md. Distinguished Open Theism (allows God to respond, regret, revise plans, but holds God's moral character unchanging) from Process Theology (where the "growing God" view actually lives). Kept the rhetorical move acknowledging that God in some sense does respond and change in Scripture, but drew the line at character rather than at all change.
+
+---
+
+Restructured the section break in wrath-and-mercy.md:
+- Renamed "The Harder Cases" → "Sin and Punishment", grouping E/F/G under the wages-of-sin lens. Two-paragraph transition uses Rom 6:23, Lam 3:22, Eccl 8:11, plus Gen 15:16 / Matt 23:32 / 1 Thess 2:16 for the "filling up the measure" concept.
+- Updated italic intros for E, F, G to invoke the lens — E points at long forbearance ending, F frames the community as the visible sword of covenant judgment, G addresses the "punishment doesn't fit the crime" intuition by questioning whether we know what the crime weighs.
+- Added new "The Harder Cases" header before Category H with a transition explaining why H stands alone — it's about agency, not punishment; the wages-of-sin frame is the residue, not the solvent.

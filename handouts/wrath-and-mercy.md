@@ -96,15 +96,17 @@ That verb — *hacharamtihah*, "I devoted to destruction" — is the same root (
 
 ---
 
-# The Harder Cases
+# Sin and Punishment
 
-The four categories above can be substantially explained without abandoning either the text or our moral conscience. The next four cannot be so easily resolved. They're the categories where the problem keeps biting back even after the best historical, literary, and theological work — and a serious wrestling with the OT must look them in the face rather than dissolve them.
+Each of the next three categories has a sin underneath it. Sometimes obvious — idolatry, blasphemy, covenant betrayal. Sometimes a smaller act sitting on top of accumulated provocation, ignored warnings, or defiance against newly-given commands. The shock we feel doesn't come from doubting that sin was present; it comes from a baseline we've forgotten we're standing on. *"The wages of sin is death"* (Rom 6:23) is the actual exchange rate; *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22) is the daily reprieve. Every morning we wake up still breathing is forbearance, not entitlement. Ecclesiastes warns that when delay becomes routine, the human heart mistakes mercy for permission: *"Because the sentence against an evil deed is not executed speedily, the heart of the children of man is fully set to do evil"* (Eccl 8:11).
+
+The strange phenomenon, biblically, is not that God sometimes strikes a Uzzah or an Ananias — it is that He doesn't strike us. The flash of immediate consequence in these incidents is not an aberration from God's character; it is a brief unveiling of what every sin actually weighs, against a backdrop of cosmic forbearance we've grown so accustomed to that we no longer see it as a gift. Scripture has its own language for the threshold at which forbearance ends — *"the iniquity of the Amorites is not yet complete"* (Gen 15:16), filling up the measure (Matt 23:32; 1 Thess 2:16) — and most of these incidents are cases where, for a person or a community, the cup finally tipped.
 
 ---
 
 ## Category E: God Directly Destroys
 
-*God personally inflicts death or destruction on a massive scale. No human intermediary — fire, flood, plague, earthquake.*
+*Direct judgment with no human intermediary — fire, flood, plague, earthquake. The category that looks most arbitrary at first glance, but where the cup is most often clearly full. Each incident sits on top of long divine forbearance: prophets ignored, repeated warnings, fresh commands defied within days of being given. What looks like a sudden strike from heaven is almost always the closing parenthesis on a long delay.*
 
 1. **The Flood** (Gen 6–8) — All life on earth destroyed except one family and the ark's cargo.
 2. **Sodom and Gomorrah** (Gen 19) — Fire from heaven incinerates entire cities, including children and infants.
@@ -123,7 +125,7 @@ The four categories above can be substantially explained without abandoning eith
 
 ## Category F: God Commands Israel to Kill (Outside of War)
 
-*Beyond the conquest narrative, there are specific incidents where God or His representatives command Israel to put fellow Israelites — or specific persons — to death. These don't dissolve as ANE conquest rhetoric: they happen inside the camp, against named individuals, often for offenses that look minor by modern standards. The moral weight falls on the command itself, not just the act.*
+*Beyond the conquest narrative, there are specific incidents where God commands Israel to put particular persons — including fellow Israelites — to death. The sin in each case is recognizable: idolatry, blasphemy, covenant betrayal, treaty violation, theft from the devoted things. What unsettles is the swiftness and specificity of the command. These are the moments where the covenant community itself is conscripted as the visible sword of judgment, defining its identity by what it cannot tolerate within its own ranks. The wages-of-sin frame still applies — but here the wages are paid through Israel's own hand rather than from heaven.*
 
 1. **Levites Kill 3,000 After the Golden Calf** (Ex 32:27–28) — "Each of you kill his brother and his companion and his neighbor." The Levites earn their priestly role through this slaughter inside the camp.
 2. **Moses Orders Execution at Baal Peor** (Num 25:4–5) — "Take all the chiefs of the people and hang them in the sun before the LORD." Moses commands Israel's judges to kill every man who joined himself to Baal of Peor — before the plague even begins.
@@ -142,7 +144,7 @@ The four categories above can be substantially explained without abandoning eith
 
 ## Category G: God "Overreacts" to Holiness Violations
 
-*A seemingly minor offense meets lethal or devastating punishment. The punishment appears wildly disproportionate to the crime.*
+*A seemingly minor offense meets lethal punishment. These are the cases where the wages-of-sin frame lands most jarringly — Uzzah just steadying the Ark, Lot's wife glancing back, Miriam questioning a marriage. The disproportion is felt; the question is whether what we're seeing is overreaction or, instead, a brief unveiling of what unmediated holiness actually does to unholiness when nothing stands between. The intuition "the punishment doesn't fit the crime" assumes we know what the crime weighs. These incidents quietly insist we don't.*
 
 1. **Uzzah Steadies the Ark** (2 Sam 6:6–7) — Reaches out to keep the Ark from falling. Struck dead instantly. David is angry *at God*.
 2. **The Bears and the Youths** (2 Kings 2:23–24) — Young people mock Elisha's baldness. Two bears maul 42 of them.
@@ -156,6 +158,12 @@ The four categories above can be substantially explained without abandoning eith
 10. **Ananias and Sapphira** (Acts 5:1–11) — Lie about a real estate donation to the early church. Both drop dead on the spot. (New Testament, but same pattern.)
 
 **Honorable mentions:** Uzziah struck with leprosy for burning incense (2 Chron 26:16–21); the man of God from Judah killed by a lion for eating against direct command (1 Kings 13:11–32); Gehazi struck with leprosy for greed (2 Kings 5:20–27).
+
+---
+
+# The Harder Cases
+
+The wages-of-sin frame above accounts for most of what we encounter in Categories E through G. The next category is genuinely different. It isn't primarily about punishment at all — it's about whether God overrides human agency, sets up no-win scenarios, or treats persons as instruments. Pharaoh hardened, Job wagered over, Judas chosen-to-betray, Esau hated before birth — these raise a different question: not "did the punishment fit the crime?" but "was there a real choice in the first place?" The wages-of-sin lens doesn't dissolve this. It is the residue that remains after the other categories have done their work.
 
 ---
 
