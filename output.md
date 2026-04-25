@@ -1606,3 +1606,7 @@ Layout: clean 8 pages, even count.
 - p6: Cat F + start of Cat G
 - p7: Rest of Cat G + Cat H + Natural Consequences intro
 - p8: Natural Consequences body + flowing conclusion
+
+---
+
+Swapped page breaks: removed === before Cat F, added === before Natural Consequences. Result: clean 8 pages even, with Natural Consequences cleanly on its own page (p8) instead of split across pages 7-8.

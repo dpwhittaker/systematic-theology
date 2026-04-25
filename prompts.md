@@ -321,3 +321,7 @@ On the seven major views, remove the italic subheaders of which groups believe i
 ---
 
 The Seven Views don't really seem to be adding that much, but Natural Consequences view is under-represented and most helpful. Let's just replace the Seven Major Viewpoints with a Natural Consequences section that explains it more completely then flows straight into the conclusion. Also add a break before Category F and let's see where that puts us
+
+---
+
+Remove that page break before F and add one before Natural Consequences

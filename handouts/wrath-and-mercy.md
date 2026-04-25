@@ -107,8 +107,6 @@ Each of the next three categories has a sin underneath it — sometimes obvious 
 
 **Honorable mentions:** Fire at Taberah (Num 11:1–3); plague after the quail/manna complaints (Num 11:33–34); death of the 10 faithless spies (Num 14:36–37).
 
-===
-
 ## Category F: God Commands Israel to Kill (Outside of War)
 
 *Beyond the conquest narrative, there are specific incidents where God commands Israel to put particular persons — including fellow Israelites — to death. The sin in each case is recognizable: idolatry, blasphemy, covenant betrayal, treaty violation, theft from the devoted things. What unsettles is the swiftness and specificity of the command. These are the moments where the covenant community itself is conscripted as the visible sword of judgment, defining its identity by what it cannot tolerate within its own ranks. The wages-of-sin frame still applies — but here the wages are paid through Israel's own hand rather than from heaven.*
@@ -163,6 +161,8 @@ The wages-of-sin frame above accounts for most of what we encounter in Categorie
 10. **Judas' Predetermined Betrayal** (John 13:18, 27; Acts 1:16) — "The Scripture had to be fulfilled." Jesus identifies Judas as chosen *for* this purpose. "Satan entered into him" — after Jesus handed him the bread.
 
 **Honorable mentions:** God deceiving prophets (Ezek 14:9); Shimei cursing David "because the LORD told him to" (2 Sam 16:10); Samson's marriage to a Philistine woman as God's initiative (Judg 14:4).
+
+===
 
 # Natural Consequences
 
