@@ -273,3 +273,7 @@ I do like that better, go ahead and change it.
 ---
 
 Let's rename "The Harder Cases" to "Sin and Punishment" and use the draft paragraph (updated to fit under that heading) as the transition. Feel free to update the Category E, F, and G references to fit this theme. Category H starts the real "Harder Cases".
+
+---
+
+Let's try focusing the 7 Major Viewpoints on a short description of the view followed by how they deal with Category H.

@@ -1530,3 +1530,15 @@ Restructured the section break in wrath-and-mercy.md:
 - Renamed "The Harder Cases" → "Sin and Punishment", grouping E/F/G under the wages-of-sin lens. Two-paragraph transition uses Rom 6:23, Lam 3:22, Eccl 8:11, plus Gen 15:16 / Matt 23:32 / 1 Thess 2:16 for the "filling up the measure" concept.
 - Updated italic intros for E, F, G to invoke the lens — E points at long forbearance ending, F frames the community as the visible sword of covenant judgment, G addresses the "punishment doesn't fit the crime" intuition by questioning whether we know what the crime weighs.
 - Added new "The Harder Cases" header before Category H with a transition explaining why H stands alone — it's about agency, not punishment; the wages-of-sin frame is the residue, not the solvent.
+
+---
+
+Refocused the Seven Major Viewpoints section on Category H:
+- Renamed "How Christians Answer: Seven Major Viewpoints" → "Seven Major Viewpoints" with a one-paragraph intro explaining that A-G dissolve under prior lenses; H is the residue each tradition handles differently.
+- Each entry now: short core description (2-3 sentences, often with key proof texts) → "**On Category H:**" paragraph with concrete moves on Pharaoh / Job / Judas / Esau / lying spirit / strong delusion → tighter strengths and weaknesses.
+- Calvinist view reframed as the tradition most at home in H (Rom 9, Eph 1, Westminster).
+- Wesleyan view leans on Pharaoh-hardens-himself-first sequence and corporate Rom 9-11.
+- Boyd's cruciform hermeneutic explicitly named, accommodation language for hardening.
+- Genre-sensitive view cites Walton/Longman/Alter on Job's framing tale and Micaiah's vision genre for the lying spirit.
+- Spiritual warfare view makes agency tripartite (God / principalities / humans).
+- Open Theist roster (Boyd, Sanders, Pinnock, Hasker, Oord) named; "same sun melts wax / hardens clay" preserved.

@@ -186,87 +186,93 @@ The wages-of-sin frame above accounts for most of what we encounter in Categorie
 
 ---
 
-# How Christians Answer: Seven Major Viewpoints
+# Seven Major Viewpoints
+
+The categories above mostly dissolve under the lenses we've already applied — ANE genre, communal sin, accommodation, double redemption, wages of sin. What remains is Category H: divine action that appears to override human agency. Different Christian traditions navigate that residue differently. Each of the seven views below has a core conviction worth understanding on its own terms; each then handles Category H with characteristic moves.
 
 ## 1. Divine Command Theory
 
 *Classical Reformed / Calvinist*
 
-God is the source of morality itself. Whatever He commands is good *by definition*. Human moral intuition is fallen and unreliable — we don't get to judge God. The Canaanites practiced child sacrifice and extreme depravity; their destruction was just. God has sovereign rights over life and death as Creator.
+God is the source of morality, and His sovereign decree is the ground of all good. Human moral intuition is fallen and unreliable; what He ordains is righteous *by definition*. Romans 9 and Ephesians 1 are read as direct statements of compatibilist sovereignty.
 
-**Strengths:** Takes the text at face value. Preserves divine sovereignty.
+**On Category H:** This view is most at home here — H is the lens that exposes humanism's idol of autonomy. Pharaoh hardened, Esau hated, Judas chosen, the lying spirit sent — all are direct expressions of the eternal decree. Reprobation is just because all sinners deserve worse than they receive; election is sheer mercy. The "manipulation" framing assumes a sovereign claim on agency that Scripture never grants creatures. Westminster's double predestination is the most theologically coherent reading of Rom 9:11–22.
 
-**Weaknesses:** Can feel like "might makes right." Struggles with infant killing.
+**Strengths:** Takes the texts at face value. Refuses to rescue God from His own self-revelation.
+
+**Weaknesses:** Hard to reconcile with passages where God grieves over what He could have prevented (Ezek 18:23; 33:11; 2 Pet 3:9). Risks making God the author of evil despite Reformed denials.
 
 ## 2. Greater Good Theodicy
 
 *Broadly Evangelical*
 
-God sees the entire timeline. These acts prevented greater evil. Canaanite religion — Molech worship, ritual prostitution — would have corrupted Israel and derailed the messianic line. The Flood reset a world so corrupt it was beyond recovery. Harsh measures were surgical, protecting the redemptive plan for *all* humanity.
+God sees the entire timeline. He uses suffering, hardening, and apparent manipulation to accomplish goods we cannot see — saving the messianic line, refining faith, defeating powers, extending mercy more widely than the immediate cost suggests. The harshness is surgical, not arbitrary.
 
-**Strengths:** Makes moral sense to modern ears. Preserves God's goodness.
+**On Category H:** Pharaoh's hardening serves the revelation of God's name to all nations (Ex 9:16). Job's suffering vindicates faith and yields a deeper theophany than uninterrupted blessing could. Judas's betrayal is permitted because it accomplishes the cross. The "manipulation" is real but bounded: God intensifies and times choices already inclined toward evil. Esau is "hated" in service of Jacob's calling, which serves the messianic line, which serves all humanity. Romans 8:28 is the master verse.
 
-**Weaknesses:** Utilitarian logic can justify almost anything. "The ends justify the means" is a dangerous principle.
+**Strengths:** Preserves both sovereignty and recognizable goodness.
+
+**Weaknesses:** Utilitarian logic — Job's children dying for a "greater good" still feels monstrous to those children. Where does "ends justify means" stop?
 
 ## 3. Accommodation / Progressive Revelation
 
 *Wesleyan, Moderate Evangelical*
 
-God met Israel where they were in an Ancient Near East context. ANE warfare was universally brutal; God worked *within* that culture to gradually move Israel toward mercy. The herem commands are actually *less* brutal than standard ANE practice — Israel had restrictions other nations didn't.
+God meets humanity within its current capacity, gradually moving us toward fuller truth under prevenient grace. The OT shows Him working in Bronze Age idiom; the trajectory clarifies that humans are responsible agents, not puppets.
 
-The trajectory is what matters: Torah, then Prophets, then Jesus, then "love your enemies." God didn't command His ideal; He commanded what a Bronze Age people could receive.
+**On Category H:** The hardening passages are read sequentially. Pharaoh hardens *himself* first (Ex 8:15, 32; 9:34) before God hardens him (9:12) — divine hardening is judicial confirmation of an already-chosen path. "Strong delusion" follows rejection of truth (2 Thess 2:10–11). "God gave them up" follows persistent rebellion (Rom 1). Romans 9 is corporate — Israel and Edom as peoples, not individual destinies — and is rebalanced by Rom 10–11, where Israel's hardening serves a temporary purpose toward universal mercy ("God has consigned all to disobedience, that He may have mercy on all," 11:32). Jacob/Esau is national election for service, not personal salvation.
 
-**Strengths:** Explains the trajectory honestly. Honors both the text and Jesus.
+**Strengths:** Distinguishes foreknowledge from foreordination. Honors texts where God grieves lost sinners.
 
-**Weaknesses:** Implies God authorized evil, even temporarily. Where exactly is the line?
+**Weaknesses:** Isa 6:9–10 is genuinely hard — God commissions Isaiah to *prevent* repentance. The corporate reading of Rom 9 is contested by Reformed exegetes.
 
 ## 4. Christological Hermeneutic
 
 *Anabaptist, Greg Boyd, some Charismatic*
 
-Jesus is the perfect revelation of God. Anything in the Old Testament that contradicts Jesus' character must be reinterpreted. The violent portraits are Israel *projecting* their ANE assumptions onto God. God "bore" the misattribution the way Christ bore sin on the cross — He allowed Himself to be blamed.
+Jesus is the perfect revelation of God (John 14:9; Heb 1:3). Anything in the OT that contradicts the cruciform character of Christ must be reinterpreted. Violent and manipulative portraits are partly Israel's projection of ANE assumptions, which God "bore" the way Christ bore sin on the cross — He allowed Himself to be blamed for what He did not do.
 
-Boyd's "cruciform hermeneutic" reads every OT text through the lens of the cross.
+**On Category H:** Hardening, lying spirit, and strong-delusion language is accommodated speech. God doesn't actively deceive — He withdraws restraining grace, and the consequence is described in active language because the ancient idiom attributed all causation to God. Pharaoh hardened *himself*; "the LORD hardened" is theological framing for divine sovereignty over the situation, not coercion. Judas chose freely; his choice was foreknown but not caused. Job's prologue is framing literature, not transcript. Romans 9 is read corporately, with Christ-as-Israel and the elect-in-Him as the ultimate object of election.
 
 **Strengths:** Radically Christocentric. Takes "love your enemies" as the unchanging character of God.
 
-**Weaknesses:** Effectively overrides large portions of the OT. Borders on Marcionism. Who decides what's "projection"?
+**Weaknesses:** Effectively overrides large portions of the OT. Borders on Marcionism. The criterion of "what's projection" is often subjective.
 
 ## 5. Literary / Genre-Sensitive Reading
 
 *Academic Evangelical, Catholic Scholarship*
 
-Ancient Near Eastern conquest accounts used hyperbolic rhetoric — "utterly destroy" was stock military language, not literal reporting. Archaeological evidence shows that Jericho, Ai, and other "destroyed" cities had continuous habitation. The text itself contradicts total genocide: Canaanites keep showing up *after* Joshua supposedly destroyed them all.
+Scripture is not flat. Different genres demand different reading conventions: conquest accounts use ANE military hyperbole; wisdom literature uses framing devices; apocalyptic uses symbolic vision; prophetic literature uses rhetorical exaggeration to provoke response.
 
-These are theological narratives making a point about loyalty to YHWH, not war journalism.
+**On Category H:** Job's prologue is a wisdom-genre framing tale (so John Walton, Tremper Longman, Robert Alter) — theology, not transcript. The lying spirit in 1 Kings 22 is *Micaiah's vision* ("I saw the LORD..."), a court-imagery genre, not a literal report of divine deception. "God hardened Pharaoh" reflects the ANE convention that all causation is divine causation; the same chapters also say Pharaoh hardened himself, and the parallelism is the point. Romans 9 is a diatribe — a rhetorical form featuring imagined objections — and Paul's argument climaxes in mercy (11:32), not in fixed reprobation. Reading these in their native genres softens (without erasing) their philosophical sting.
 
-**Strengths:** Historically and archaeologically grounded. Resolves many internal contradictions.
+**Strengths:** Historically and literarily grounded. Honors how the texts present themselves.
 
-**Weaknesses:** Can feel like explaining away the text. Doesn't fully address the commands themselves.
+**Weaknesses:** Genre arguments can become a way of selectively defusing whatever offends. Doesn't fully resolve the underlying sovereignty/freedom question.
 
 ## 6. Spiritual Warfare Worldview
 
 *Pentecostal, Charismatic, some Orthodox*
 
-The real war was spiritual. Canaanite territories were under demonic dominion — connected to the Nephilim traditions and the divine council theology of Deuteronomy 32:8. Physical destruction was the visible dimension of cosmic spiritual conflict. God wasn't being cruel to humans; He was reclaiming territory from hostile spiritual powers.
+Reality is a contested cosmos. Spiritual powers are real, hostile, and active. Much of what looks like divine manipulation is God's permissive sovereignty over a fallen creation in which real (though bounded) agency belongs to spiritual beings as well as humans.
 
-The "giants in the land" tradition connects the Flood, the Canaanites, and the language of total destruction.
+**On Category H:** Job's suffering is explicitly Satan's work; God sets the limits but isn't the active cause. The lying spirit in 1 Kings 22 is a real spiritual being, not a metaphor for divine deception. Pharaoh's hardening occurs in the context of the plagues' confrontation with the gods of Egypt (Ex 12:12) — demonic powers attached to those thrones harden Pharaoh from beneath even as God's sovereignty operates from above. "Strong delusion" aligns with the deceiving spirit behind the man of lawlessness (2 Thess 2). The category becomes tripartite — God, principalities, humans — not the binary "God overrode my will" framing modern readers default to.
 
-**Strengths:** Takes the spiritual worldview of the text seriously. Explains the "total" nature of herem.
+**Strengths:** Takes the spiritual cosmology of the text seriously. Distributes agency in a way that preserves sovereignty without making God the author of evil.
 
-**Weaknesses:** Can spiritualize away real human suffering. Some connections are speculative.
+**Weaknesses:** Can feel speculative without that worldview. Risks dualism. Some texts (Isa 6:9–10) describe God Himself as the active agent.
 
 ## 7. Natural Consequences / Relational Reading
 
 *Open Theism, some Progressive Evangelical*
 
-Much of what Scripture attributes to God's "wrath" is God *withdrawing protection* and allowing consequences. "God hardened Pharaoh's heart" means God's presence *itself* hardened an already resistant heart — the same sun melts wax and hardens clay.
+God's sovereignty operates through genuine relationship rather than override. The future is partially open — God knows all possibilities and probabilities exhaustively, but specific contingent free choices are not yet actualities to be known. Most "wrath" language describes God withdrawing protection and allowing consequences. (Boyd, Sanders, Pinnock, Hasker, Oord.)
 
-The Flood, Sodom, and similar events were tipping points where evil became self-destructive and God stopped intervening. The cycle of Judges — sin, oppression, crying out, deliverance — is consequences, not punishment.
+**On Category H:** Pharaoh's hardening is the same-sun-melts-wax-hardens-clay phenomenon — God's presence intensified what was already resistant in Pharaoh's heart. Romans 9 is corporate, climaxing in universal mercy (11:32). Judas's betrayal was foreseen as a probability hardening into actuality; God's response (the cross) was contingency-ready but not contingency-causing. Job is a real-time relational drama where God genuinely risks. "Gave them up" and "strong delusion" describe confirmation of choices already made — God ratifying what humans insist upon. The category mostly dissolves into "God respects agency to a degree most modern Christians don't expect."
 
-**Strengths:** Preserves God as love. Aligns deeply with prophetic literature (Hosea, Jeremiah).
+**Strengths:** Preserves God as love. Aligns with prophetic literature where God appeals, pleads, and grieves.
 
-**Weaknesses:** Doesn't fully account for passages where God explicitly *commands* violence.
+**Weaknesses:** Some texts go further than confirmation language allows (Isa 6:9–10 commissions Isaiah to *prevent* repentance). Foreknowledge texts (Acts 2:23; Eph 1:4) require careful handling.
 
 ---
 
