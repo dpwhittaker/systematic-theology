@@ -1504,3 +1504,18 @@ Rewrote three categories in `handouts/wrath-and-mercy.md`:
 - **G** renamed "God Uses Then Punishes — or Double Redemption?" — reframed through Gen 50:20 "Joseph Principle": empires already existed with their own sins, God channeled existing momentum for redemptive purposes, then judged the instruments for their own genuine excesses
 
 Sotah fact-check confirmed: no record of failure, physically harmless mixture, abolished ~1st century CE by R. Yochanan ben Zakkai.
+
+---
+
+Restructured wrath-and-mercy.md:
+
+**Split Category B** into two:
+- New **Category A: Total Destruction Language of War** — conquest items (Canaanite Conquest, Amalekites, Midianite War, Jericho, Five Amorite Kings, Southern Campaign, Northern Campaign / Hazor, Sihon and Og, Samuel hewing Agag, Saul's Wars). Frame: ANE conquest hyperbole, not literal genocide. Internal evidence: same "exterminated" peoples reappear in Judges. External evidence: **Mesha Stele (c. 840 BCE)** quoted directly — King Mesha of Moab uses identical *herem* (חרם) language for his god Chemosh.
+- New **Category F: God Commands Israel to Kill (Outside of War)** — non-conquest commands: Levites at Golden Calf, Moses at Baal Peor, Phinehas, Sabbath-breaker, Blasphemer, Achan's family, Elijah and the Baal prophets, Jehu's purge, Saul's descendants given to Gibeonites, the apostate city.
+
+**Reordered** with explained categories first (A: War rhetoric, B: Communal sin, C: ANE upgrades, D: Double redemption), then a "**The Harder Cases**" section break, then the categories without easy explanations (E: God Directly Destroys, F: Commands to Kill, G: Holiness Overreactions, H: Manipulating Agency).
+
+**Other changes:**
+- Updated category-overview blurb: "Some atrocities can be substantially explained... others are harder to grapple with..."
+- Promoted Beth-shemesh men (1 Sam 6:19) from honorable mention to main list of Category G to fill the gap left by moving Sabbath-breaker.
+- Refreshed Category G honorable mentions with man of God from Judah killed by lion (1 Kings 13) and Gehazi (2 Kings 5).
