@@ -1568,3 +1568,10 @@ Final layout (8 pages, even, max 100% on page 3 with Babylon item completing cle
 - p8: viewpoints 5-7 + Conclusion ("In sum:" lead-in)
 
 Some sections span pages (A, D, E, G) — accepted to hit the 8-page target.
+
+---
+
+Trimmed Cat A items so HM fits on page 1, leaving "The smoking-gun parallel — the Mesha Stele" as the page-turn into page 2:
+- Item 2: "still fighting an Amalekite remnant" → "still fighting Amalekites."
+- Item 6: dropped redundant trailing sentence (already covered by italic intro)
+- Item 10: "the same rhetorical move every ANE king made to legitimize his reign" → "every ANE king's move to legitimize his reign"

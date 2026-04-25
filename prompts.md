@@ -297,3 +297,11 @@ Remove "The "Atrocities" by Category" header line
 ---
 
 You can remove a bunch of hr's if that isn't enough
+
+---
+
+remove a word or two on page 1 so that Honorable Mentions fit. The smoking gun is a better page turn
+
+---
+
+end 2 with "still fighting Amalekites."
