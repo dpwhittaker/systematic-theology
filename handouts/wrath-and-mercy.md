@@ -84,6 +84,8 @@ That verb — *hacharamtihah*, "I devoted to destruction" — is the same root (
 
 **The Joseph Principle (Gen 50:20):** "You meant evil against me, but God meant it for good." Human evil is real and will be judged. But God's sovereignty means no evil is wasted. Every empire that oppressed Israel ultimately served the redemptive plan they were trying to destroy.
 
+===
+
 # Sin and Punishment
 
 Each of the next three categories has a sin underneath it — sometimes obvious (idolatry, blasphemy, covenant betrayal), sometimes a smaller act sitting on top of accumulated provocation. The shock we feel doesn't come from doubting that sin was present; it comes from a baseline we've forgotten we're standing on. *"The wages of sin is death"* (Rom 6:23) is the actual exchange rate; *"It is of the LORD's mercies that we are not consumed"* (Lam 3:22) is the daily reprieve. Every morning we wake up still breathing is forbearance, not entitlement. Ecclesiastes 8:11 names the trap: *"Because the sentence against an evil deed is not executed speedily, the heart of the children of man is fully set to do evil."* The strange phenomenon, biblically, is not that God sometimes strikes a Uzzah or an Ananias — it is that He doesn't strike us. The flash of immediate consequence is a brief unveiling of what every sin actually weighs, against a backdrop of cosmic forbearance we've grown so accustomed to we no longer see it as a gift. Scripture even names the threshold at which forbearance ends — *"the iniquity of the Amorites is not yet complete"* (Gen 15:16); filling up the measure (Matt 23:32; 1 Thess 2:16).

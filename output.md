@@ -1579,3 +1579,7 @@ Trimmed Cat A items so HM fits on page 1, leaving "The smoking-gun parallel — 
 ---
 
 Added === page break before Category D. Result: 9 pages (odd). Cat D now has its own page (p4 at 90%); Cat C is alone on p3 at 71%; Conclusion is alone on p9 at 27%. Asked user whether to add more breaks for clean 10-page layout, or trim further to return to 8.
+
+---
+
+Added === before "Sin and Punishment". Still 9 pages (odd), but the layout is cleaner now: each Category A-D gets its own page, Sin and Punishment opens p5, and the orphaned Conclusion now shares p9 with viewpoint 7.
