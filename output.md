@@ -1542,3 +1542,13 @@ Refocused the Seven Major Viewpoints section on Category H:
 - Genre-sensitive view cites Walton/Longman/Alter on Job's framing tale and Micaiah's vision genre for the lying spirit.
 - Spiritual warfare view makes agency tripartite (God / principalities / humans).
 - Open Theist roster (Boyd, Sanders, Pinnock, Hasker, Oord) named; "same sun melts wax / hardens clay" preserved.
+
+---
+
+Replaced the placeholder "Common Ground" and "Toward a Synthesis" sections with a single Conclusion. Structure:
+
+1. Reaffirm the opening thesis (God has always been good and love; "wrath" is a cluster of distinct phenomena, not a single embarrassment)
+2. One-paragraph summary of what each category resolves into
+3. Acknowledgement that Category H doesn't dissolve and the seven viewpoints triangulate rather than compete
+4. Two postures: "Recognize the proportion" (Lam 3:22-23 — the visible judgments are footnotes; mercy is the main text) and "Read backward from the cross" (the cross unifies wrath-against-sin and love-for-sinners; Category H is the prelude to a sovereignty that lets itself be killed by the agency it appeared to override)
+5. Closing line bookending the opening: "If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply."

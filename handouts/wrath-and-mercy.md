@@ -276,13 +276,19 @@ God's sovereignty operates through genuine relationship rather than override. Th
 
 ---
 
-# Common Ground
+# Conclusion
 
-*(To be developed)*
+The thesis we opened with held: God has always been good, has always been love. What we have called "wrath" is not a single embarrassment to be explained away, nor evidence of a God who has grown morally over time, nor a character that the New Testament has to soften. It is a cluster of distinct phenomena requiring distinct answers.
 
----
+Most of the categories dissolve. Conquest rhetoric is ANE genre, sharing its idiom with the Mesha Stele. The "collective punishment" texts recover the lost reality of communal sin. The harsh laws are Bronze Age accommodation, with the trajectory toward Christ already visible inside the Torah. "God uses then punishes" resolves into double redemption. And the direct-judgment, in-camp execution, and disproportionate-holiness incidents resolve into the recognition that *the wages of sin is death*, that forbearance is the daily gift we have stopped noticing, and that the strange phenomenon — biblically — is not that consequence sometimes arrives, but that it normally doesn't.
 
-# Toward a Synthesis
+What does not dissolve is Category H. Here we have to live with theological diversity. The seven viewpoints are not seven mistakes circling one truth; they are seven angles on a pattern that resists single resolution. Each grasps something real. A mature reader holds them in tension rather than picking a winner.
 
-*(To be developed)*
+Two postures for the wrestling that remains:
+
+**Recognize the proportion.** *"It is of the LORD's mercies that we are not consumed, because His compassions fail not. They are new every morning"* (Lam 3:22–23). For every Uzzah there are millions of unstruck hands. For every Pharaoh there are nations God did not raise up against His people. The visible flashes of judgment are footnotes on a story whose main text is mercy. If we read the footnotes as the main text, we have misread the book.
+
+**Read backward from the cross.** The cross is where the wrath of God against sin and the love of God for sinners are revealed as the same thing. Whatever Category H is, it is not a feature of God's character that the cross has to correct — it is the prelude to a sovereignty that finally lets Itself be killed by the human agency it appeared, in earlier moments, to override. Romans 9 climbs to Romans 11:32, which climbs to Calvary, which climbs to *"Father, forgive them, for they know not what they do."*
+
+If God did not learn how to be a better God, neither do we need to apologize for the Bible He gave us. We need to read it more deeply.
 

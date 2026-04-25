@@ -277,3 +277,7 @@ Let's rename "The Harder Cases" to "Sin and Punishment" and use the draft paragr
 ---
 
 Let's try focusing the 7 Major Viewpoints on a short description of the view followed by how they deal with Category H.
+
+---
+
+Not yet, let's replace the last two unwritten sections with a conclusion.
