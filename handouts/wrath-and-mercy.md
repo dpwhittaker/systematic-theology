@@ -2,7 +2,7 @@
 
 How do we handle the seemingly wrathful God of the Torah?
 
-One resolution to the trajectory from wrath to mercy would be to say that God has learned how to be a better God over time — but even the staunchest Open Theist would have trouble backing that statement. While the complete immutability of God might be more Plato than Bible, God has always been good, and has always been love.
+One resolution to the trajectory from wrath to mercy would be to say that God has learned how to be a better God over time. But even an Open Theist — who allows that God genuinely responds, regrets, and revises plans — would not say God's moral *character* improved. That view belongs to Process Theology, not Open Theism. And while complete Platonic immutability may be more Greek than biblical, God has always been good, and has always been love.
 
 As early as Joshua and Judges, much of what we call "wrath" can be explained as God allowing Israel to receive the natural consequences of their disobedience — for the ultimate purpose of redeeming the remnant.
 

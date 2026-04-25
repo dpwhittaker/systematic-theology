@@ -261,3 +261,11 @@ Also requested Sotah fact-check: confirmed no record of any woman failing the te
 ---
 
 Let's continue working on the @handouts/wrath-and-mercy.md . Separate Category B into 2 categories "Total Destruction" language of war and conflict, and a separate "God Commands Israel to Kill" section not related to war or conquest of Canaan. For the War/Conquest section, explain it as standard language of conquest in ANE. Quote an extra-biblical source with similar language if a good one exists. Maintain the "Top 10" concept if you can find the references. Let's flip the order and put the ones with explanations first, in an optimistic approach of "Some atrocities can be explained, but others are harder to grapple with".
+
+---
+
+Evaluate that first paragraph (don't make any changes, just answer here). Would any Open Theists be ok with saying that God started evil and became good, or made mistakes in the past but has grown from them?
+
+---
+
+I do like that better, go ahead and change it.

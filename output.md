@@ -1519,3 +1519,7 @@ Restructured wrath-and-mercy.md:
 - Updated category-overview blurb: "Some atrocities can be substantially explained... others are harder to grapple with..."
 - Promoted Beth-shemesh men (1 Sam 6:19) from honorable mention to main list of Category G to fill the gap left by moving Sabbath-breaker.
 - Refreshed Category G honorable mentions with man of God from Judah killed by lion (1 Kings 13) and Gehazi (2 Kings 5).
+
+---
+
+Tightened the opening paragraph of wrath-and-mercy.md. Distinguished Open Theism (allows God to respond, regret, revise plans, but holds God's moral character unchanging) from Process Theology (where the "growing God" view actually lives). Kept the rhetorical move acknowledging that God in some sense does respond and change in Scripture, but drew the line at character rather than at all change.
