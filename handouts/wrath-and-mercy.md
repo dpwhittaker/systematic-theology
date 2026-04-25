@@ -65,6 +65,8 @@ That verb — *hacharamtihah*, "I devoted to destruction" — is the same root (
 
 **The trajectory:** Slavery → servitude with protections → release. Vengeance → cities of refuge → "turn the other cheek." Women as property → women with legal protections → "there is neither male nor female" (Gal 3:28). Every Mosaic law points in the same direction. God didn't impose the destination on a people who couldn't survive it. He set the trajectory and walked with them.
 
+===
+
 ## Category D: "God Uses Then Punishes" — or Double Redemption?
 
 *Surface reading: God raises up empires to punish Israel, then punishes those empires for the violence He directed — a cosmic double bind. But God doesn't create evil empires; they already exist, driven by their own greed. God takes what man meant for evil and uses it for good (Gen 50:20). The "double punishment" is actually double redemption — God refines Israel through exile, then judges the instrument for its own genuine sins of cruelty and arrogance, which were never commanded.*

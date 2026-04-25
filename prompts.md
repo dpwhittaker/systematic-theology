@@ -305,3 +305,7 @@ remove a word or two on page 1 so that Honorable Mentions fit. The smoking gun i
 ---
 
 end 2 with "still fighting Amalekites."
+
+---
+
+page break before Category D

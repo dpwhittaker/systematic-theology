@@ -1575,3 +1575,7 @@ Trimmed Cat A items so HM fits on page 1, leaving "The smoking-gun parallel — 
 - Item 2: "still fighting an Amalekite remnant" → "still fighting Amalekites."
 - Item 6: dropped redundant trailing sentence (already covered by italic intro)
 - Item 10: "the same rhetorical move every ANE king made to legitimize his reign" → "every ANE king's move to legitimize his reign"
+
+---
+
+Added === page break before Category D. Result: 9 pages (odd). Cat D now has its own page (p4 at 90%); Cat C is alone on p3 at 71%; Conclusion is alone on p9 at 27%. Asked user whether to add more breaks for clean 10-page layout, or trim further to return to 8.
