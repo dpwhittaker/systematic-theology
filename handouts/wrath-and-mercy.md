@@ -22,7 +22,7 @@ He has not. Even an Open Theist — who allows that God genuinely responds, regr
 10. **Saul's Wars** (1 Sam 14:47–48) — A summary statement that Saul "fought against all his enemies on every side... and wherever he turned he routed them." Generic conquest hyperbole — every ANE king's move to legitimize his reign.
 
 **Honorable mentions:** The ban on Ai (Josh 8:24–29); the categorical list of seven Canaanite nations (Deut 7:1); David's wars and the slaughter at Rabbah (2 Sam 8; 12:31).
-
+===
 **The smoking-gun parallel — the Mesha Stele.** In 1868 a basalt slab was discovered at Dhiban, in modern Jordan. It was inscribed around 840 BCE by King Mesha of Moab — the same Mesha named in 2 Kings 3. Recounting his capture of the Israelite town of Nebo, Mesha writes:
 
 > "And Chemosh said to me, 'Go, take Nebo from Israel.' So I went by night and fought against it from the break of dawn till noon, and I took it and slew all of them — seven thousand men, male foreigners, women, female foreigners, and slave girls — for I had devoted them to destruction (החרמתה) for Ashtar-Chemosh. And I took from there the vessels of YHWH and dragged them before Chemosh."
