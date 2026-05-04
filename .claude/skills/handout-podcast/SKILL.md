@@ -92,46 +92,74 @@ Only add the headphone marker once per handout — don't append a new emoji on e
 
 ### 3. Browser session
 
-Always start with `mcp__claude-in-chrome__tabs_context_mcp` to get fresh tab state. Then:
+Always start with `mcp__claude-in-chrome__tabs_context_mcp` to get fresh tab state, then `tabs_create_mcp` to spawn a clean tab for this run. Don't reuse a tab the user already has open. Then:
 
 - **First invocation** (no `notebook_url` in manifest):
   - Navigate to `https://notebooklm.google.com/`
-  - Click "Create new" / "+ Create" / whatever the current label is
-  - Upload `handouts/<name>.md` as a source (drag-and-drop is brittle through the MCP — prefer the file-picker; use `mcp__claude-in-chrome__file_upload`)
-  - Wait for the source to finish processing (NotebookLM shows a spinner / "Sources" count updates)
-  - Capture the notebook URL from the address bar; save into manifest
+  - Confirm logged-in state — the page will say "Google Account: …" with the user's email. If Google redirects to `accounts.google.com`, **stop and ask the user to sign in manually**. Don't try to type credentials.
+  - Click "+ Create new" (top right). The button labelled "Create new notebook" on the empty-state tile sometimes doesn't trigger; the top-right button is more reliable.
+  - URL becomes `notebook/<id>?addSource=true` and the source-upload modal opens.
+  - **Upload the handout — do not use `Upload files`.** That button opens a native OS file picker that the MCP cannot drive (no `input[type=file]` is injected into the DOM). Use the **`Copied text`** path instead:
+    1. Click the "Copied text" button in the source modal.
+    2. Put the file on the Windows clipboard: `cat handouts/<name>.md | /mnt/c/Windows/System32/clip.exe`.
+    3. Click into the textarea (find by query "Paste text here textarea" or label "Pasted text").
+    4. Send `ctrl+v` via `mcp__claude-in-chrome__computer` `key` action.
+    5. Click "Insert".
+  - Wait ~5 seconds for processing. The page title will change from "Untitled notebook" to an auto-generated title derived from the content.
+  - Capture the notebook URL from the address bar (`notebook/<uuid>`, drop the `?addSource=true`); save into manifest.
 - **Subsequent invocations**: navigate directly to the saved `notebook_url`. Confirm the source is still listed.
 
-If Google login is required, the page will redirect to `accounts.google.com`. **Do not try to type credentials.** Stop and ask the user to sign in manually in the browser, then continue.
+### 4. Kick off both generations
 
-### 4. Generate the long deep dive
+The Studio panel on the right has tiles: Audio Overview, Slide Deck, Video Overview, Mind Map, Reports, Flashcards, Quiz, Infographic, Data Table. Each tile has a sibling "Customize" button (chevron/arrow icon).
 
-- Open the Audio Overview / Studio panel.
-- Use the **Customize** option (don't accept defaults).
-- Customize prompt: roughly *"Long, comprehensive deep dive of about 25-30 minutes. Cover every section. Don't rush. Spend significant time on the most contested theological points. Two-host conversational format."*
-- Length setting: pick whatever is currently the longest option (e.g. "Longer" / "Long").
-- Click Generate.
-- Generation takes 8-15 minutes. **Use `ScheduleWakeup` with delaySeconds=600** (10 min) to come back. Don't poll in a tight loop. When you wake up, check status; if still generating, sleep again (delaySeconds=300).
-- When complete: download the file. NotebookLM serves it as `.wav` via a direct link or an in-app download button.
-- Save to `audio/<slug>/deepdive-long-NNN.<ext>`.
+⚠️ **Clicking the Audio Overview tile itself starts a default-length generation immediately**, with no customize step. To get the customize panel, click the *sibling* "Customize Audio Overview" button (one with the chevron / arrow), not the main tile.
 
-### 5. Generate the medium deep dive
+NotebookLM allows multiple Audio Overview generations queued at once. The fastest path is to fire both in sequence and let them generate in parallel:
 
-Same flow as step 4, with:
-- Customize prompt: *"Focused deep dive of about 12-15 minutes. Cover the central thesis and the key biblical passages. Skip exhaustive surveys; focus on the main argument. Two-host conversational format."*
-- Length setting: "Default" / "Standard".
-- Save to `audio/<slug>/deepdive-medium-NNN.<ext>`.
+**Medium (default-length) overview:**
+- Click the Audio Overview tile directly. This kicks off a default-length Deep Dive immediately. You'll see "Generating Audio Overview... Come back in a few minutes" appear in the studio panel.
+- This is your **medium** entry. Default length runs ~10-15 min final audio.
 
-### 6. Update the manifest
+**Long custom overview:**
+- Click "Customize Audio Overview" (the chevron button next to the tile).
+- Customize panel exposes:
+  - **Format**: Deep Dive (default ✓), Brief, Critique, Debate. Keep Deep Dive.
+  - **Choose language**: English (or appropriate).
+  - **Length**: Short / Default / Long. Click **Long**.
+  - **Focus prompt** ("What should the AI hosts focus on in this episode?"): paste a comprehensive prompt naming the contested theological points the handout covers — by name, so the hosts spend time on them. E.g. *"Comprehensive deep dive covering every section of the handout. Don't rush — spend significant time on [list specific contested points from this handout]. Walk through the major biblical passages slowly. Audience: thoughtful Christians, no formal seminary training. Two-host conversational format."*
+- Click "Generate".
+- A second "Generating Audio Overview..." entry appears in the studio panel.
+
+Now both are queued. Generation takes 8-15 minutes each, running concurrently.
+
+### 5. Wait for completion
+
+⚠️ `ScheduleWakeup` only applies in `/loop` dynamic mode. In a regular interactive session, **stop and tell the user to ping you in 15-20 minutes**. Don't poll in a tight loop and don't burn cache trying to "wait" — your context survives quietly between user turns.
+
+When the user pings you back: navigate to the notebook URL and check the Audio Overview entries in the studio panel. Completed entries change from "Generating Audio Overview..." to a play button + title + duration.
+
+### 6. Download both files
+
+For each completed Audio Overview:
+- Click the entry to open it.
+- Find the download / "More options" menu — usually a 3-dot button on the player.
+- Click the download option. NotebookLM serves the audio as `.wav`.
+- The browser will prompt for a download. The MCP can't drive the native save dialog. Instead, intercept the download URL:
+  - The download link is usually a blob or an authenticated Google endpoint. Use `mcp__claude-in-chrome__javascript_tool` to read the `<audio>` element's `src` attribute or to find anchor `<a download>` hrefs.
+  - If the URL is a blob, fetch it via JS and write the bytes — but cross-origin restrictions usually prevent this. Easier: use the browser's actual download to land it in `~/Downloads/` (Windows side: `/mnt/c/Users/David/Downloads/`), then `mv` it into place.
+- Save to `audio/<slug>/deepdive-long-NNN.<ext>` and `deepdive-medium-NNN.<ext>` based on which one was generated with the long custom prompt vs default.
+
+### 7. Update the manifest
 
 Append both new entries with `generated_at`, `duration_seconds` (probe with `ffprobe` if available), `customize_prompt`, and the file name. Write back to `audio/<slug>/manifest.json` with stable formatting (2-space indent).
 
-### 7. Update web links
+### 8. Update web links
 
 - Edit `handouts/<name>.md`: insert/prepend the new audio entries under `## Audio Overviews`.
 - Edit `handouts/index.md`: ensure a 🎧 link exists for this handout (idempotent — don't double-add).
 
-### 8. Commit and push
+### 9. Commit and push
 
 ```
 git add audio/<slug>/ handouts/<name>.md handouts/index.md
@@ -143,11 +171,15 @@ Audio files are tracked in git for now (small enough, served as static assets). 
 
 ## Gotchas
 
-- **The UI changes.** Selectors, button labels, panel layouts. Use `mcp__claude-in-chrome__read_page` and look at the actual DOM rather than guessing.
-- **Generation is slow.** Always use `ScheduleWakeup` for the wait; don't burn cache polling.
+- **The UI changes.** Selectors, button labels, panel layouts. Use `mcp__claude-in-chrome__read_page` and `find` to locate elements; don't hard-code refs.
+- **Native file pickers can't be driven.** The "Upload files" button opens an OS picker the MCP can't see. Use the "Copied text" path with the Windows clipboard (`clip.exe`) instead.
+- **Localhost fetches from notebooklm.google.com hang.** Mixed-content blocking + Chrome's localhost handling means a `fetch('http://127.0.0.1:8000/...')` from a Google page will time out the JavaScript bridge for 45+ seconds. Don't try.
+- **Tile click ≠ customize.** Clicking the Audio Overview tile fires a default-length generation immediately. The customize panel only opens via the sibling "Customize Audio Overview" chevron button.
+- **NotebookLM accepts parallel queued generations** — useful for firing the medium and long versions in one shot rather than waiting for the first to finish.
+- **Generation is slow.** 8-15 min per overview. In an interactive session, stop and ask the user to ping you when it's likely done. `ScheduleWakeup` is only valid in `/loop` mode.
 - **Daily quota.** The free NotebookLM tier limits Audio Overview generations per day. If generation refuses, surface the error and stop — don't retry blindly.
-- **Tab management.** Don't reuse tab IDs across sessions. Always fetch fresh context.
-- **Modal dialogs lock the browser.** Don't click anything that triggers a confirm/alert. If you do, the MCP session is dead and the user has to dismiss it manually.
+- **Tab management.** Don't reuse tab IDs across sessions. Always `tabs_context_mcp` first, then `tabs_create_mcp` for a fresh tab.
+- **Modal dialogs lock the browser.** Don't click anything that triggers a JS confirm/alert. If you do, the MCP session is dead and the user has to dismiss it manually.
 - **Audio files are large.** `.wav` files run 30-100 MB each. Don't try to read or transcribe them. Just place them.
 - **Don't re-record.** If a generation fails partway, leave the existing files alone and start a new round with the next sequence number.
 
