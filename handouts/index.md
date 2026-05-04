@@ -25,6 +25,10 @@ These handouts are designed for group study, personal reference, and printed use
 - [The Holy Spirit: Who He Is and What He Does](#handouts/pneumatology.md) — A pastoral study of what the Spirit actually does, with honest exegesis of the passages that divide Christians most
 - [Baptism in the Spirit: Do We Need a Second Baptism?](#handouts/baptism-in-the-spirit.md) — Sealed once, filled continually — a Tabernacle framework for the Spirit baptism debate
 
+## End Times
+
+- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife, asking whether "dying and going to heaven" reflects the biblical hope or a Greek import
+
 ## Ethics
 
 - [Homosexuality and Scripture: The Primary Texts](#handouts/homosexuality-and-scripture.md) — The major passages cited in contemporary Christian debate, with traditional and affirming interpretive positions laid out without drawn conclusions
