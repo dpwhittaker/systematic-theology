@@ -1620,3 +1620,36 @@ Revised intro for flow. From four somewhat-disconnected paragraphs (question / O
 3. Pivot to structure: "wrath" isn't one thing, categories follow the easy-to-hard arc
 
 Pagination held — 8 pages, even, page 1 still ends with HM.
+
+---
+
+## Deep Dive: Heaven, Hell, Resurrection, and New Earth
+
+Compiled comprehensive biblical analysis of every major verse mentioning heaven or hell, compared and contrasted with physical resurrection and new earth passages.
+
+**Key findings:**
+1. **"Heaven" verses** almost universally describe either (a) the intermediate state between death and resurrection, or (b) something stored in heaven that comes to earth. None describe the final destiny of believers as disembodied existence in heaven.
+2. **"Hell" verses** use four distinct terms: Sheol (grave), Hades (realm of dead), Gehenna (garbage dump — Jesus' primary term), and Lake of Fire (Revelation). Jesus' Gehenna imagery from Isaiah 66:24 describes corpses, not living beings.
+3. **Resurrection verses** are emphatic about physical bodies — "in my flesh I shall see God" (Job), "give life to your mortal bodies" (Romans 8), "transform our lowly body" (Phil 3).
+4. **New earth verses** consistently describe God coming DOWN to earth, not humanity going up to heaven. New Jerusalem "comes down out of heaven." Believers "reign on the earth."
+5. **The rapture word** *apantesin* ("to meet") is a technical term for going out to escort a dignitary back into your city — not leaving with him. Citizens go out to welcome the King and bring him home.
+6. **Zechariah 14 + Acts 1:** Jesus' feet land on the Mount of Olives. He returns the same way He left. Physical. Earthly. King over all the earth.
+
+Conclusion: The "going to heaven when you die" framework is more Plato than Paul. The biblical hope is overwhelmingly physical resurrection, earthly kingdom, new creation — with heaven as intermediate state, not final destination.
+
+## Handout Created: Heaven, Hell, and Resurrection
+
+Created handouts/heaven-hell-resurrection.md — ~450 lines, structured in 10 sections:
+
+I. The Question We Rarely Ask
+II. What the Bible Says About Heaven (every major passage, categorized as intermediate state / stored in heaven / heavenly origin)
+III. What the Bible Says About Hell (Sheol, Hades, Gehenna, Tartarus, Lake of Fire vocabulary; three views on final punishment)
+IV. What the Bible Says About Resurrection (OT, Jesus' teaching, Paul's teaching, Jesus' resurrection body as prototype)
+V. What the Bible Says About the New Earth (Prophets, Paul, Peter, Revelation)
+VI. The Rapture Question (apantesin analysis, three views, Matthew 24 "taken" reversal)
+VII. The Kingdom: Heaven or Earth? (summary table, Zechariah 14 + Acts 1)
+VIII. How Did We Get Here? The Greek Detour (Plato's shadow, shift in church history, Hebrew original)
+IX. Putting It All Together (five-act biblical story, what happens when you die, diagram)
+X. For Further Study
+
+Linked from data/eschatology/eschatology.md.

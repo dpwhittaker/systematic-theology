@@ -98,6 +98,10 @@ Three major positions on Revelation 20's "thousand years":
 
 All three are held by orthodox Christians. The debates are about interpretation, not orthodoxy.
 
+## Handout
+
+[Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md 'Drill') — A deep dive into every major passage about heaven, hell, resurrection, and new earth, asking whether "dying and going to heaven" reflects the biblical hope or a Greek philosophical import.
+
 ## The Heart of End Times
 
 Ultimately, end times theology answers: **Does God win?**

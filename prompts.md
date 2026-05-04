@@ -329,3 +329,9 @@ Remove that page break before F and add one before Natural Consequences
 ---
 
 The Introduction seems a little disjointed. Revise to make it flow better
+
+---
+
+## 2026-03-07: Heaven, Hell, Resurrection Handout
+
+I'm thinking about adding a handout on heaven and hell. First let's do a deep dive. List every verse in a handout that mentions heaven or hell. Compare and contrast with verses that talk about a physical resurrection or a new earth. Will we be raptured into heaven or will Jesus take the throne of His kingdom on Earth?
