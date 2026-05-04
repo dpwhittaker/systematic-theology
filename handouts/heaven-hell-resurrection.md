@@ -2,6 +2,11 @@
 
 A study of what the Bible actually says about the afterlife — examining every major passage about heaven, hell, resurrection, and new earth, and asking whether the popular Christian view of "dying and going to heaven" reflects the biblical hope or a Greek philosophical import.
 
+## Audio Overviews
+
+- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](../audio/heaven-hell-resurrection/deepdive-long-001.m4a)
+- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](../audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
+
 ---
 
 ## Guardrails: What All Christians Affirm

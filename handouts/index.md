@@ -27,7 +27,7 @@ These handouts are designed for group study, personal reference, and printed use
 
 ## End Times
 
-- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife, asking whether "dying and going to heaven" reflects the biblical hope or a Greek import
+- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife, asking whether "dying and going to heaven" reflects the biblical hope or a Greek import [🎧](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
 
 ## Ethics
 

@@ -1,0 +1,30 @@
+{
+  "handout": "heaven-hell-resurrection.md",
+  "title": "Heaven, Hell, and Resurrection: Where Are We Going?",
+  "notebook_url": "https://notebooklm.google.com/notebook/e3d006fe-574f-48e8-8005-2292c674d0ac",
+  "notebook_title": "Beyond the Waiting Room: The Biblical Hope of Resurrection",
+  "entries": [
+    {
+      "kind": "deepdive-long",
+      "file": "deepdive-long-001.m4a",
+      "notebooklm_title": "Heaven is just the waiting room",
+      "generated_at": "2026-05-04T02:08:00Z",
+      "duration_seconds": 3388,
+      "duration_human": "56:28",
+      "length_setting": "Long",
+      "format": "Deep Dive",
+      "customize_prompt": "Comprehensive deep dive covering every section of the handout. Don't rush — spend significant time on the contested theological points: the apantesin rapture analysis, the three views on hell (eternal conscious torment, annihilationism, eternal separation), the Six Distinctions in \"Glorified, Not Deified\", the prepared-vessel argument from Hebrews 10:5, the tabernacle/temple imagery in 2 Corinthians 5, and the Phil 3:21 power-clause connection to Romans 8:11. Walk through the major biblical passages slowly. Audience: thoughtful Christians from mixed Baptist/Pentecostal backgrounds, no formal seminary training. Two-host conversational format."
+    },
+    {
+      "kind": "deepdive-medium",
+      "file": "deepdive-medium-001.m4a",
+      "notebooklm_title": "Heaven is Not Your Final Destination",
+      "generated_at": "2026-05-04T02:10:00Z",
+      "duration_seconds": 1385,
+      "duration_human": "23:05",
+      "length_setting": "Default",
+      "format": "Deep Dive",
+      "customize_prompt": null
+    }
+  ]
+}
