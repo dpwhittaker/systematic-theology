@@ -291,7 +291,7 @@ This is the elephant in the room. And it has dogged Christian theology for two t
 
 The biblical witness is consistent: however high the resurrection lifts us, **the Creator/creature distinction is never collapsed**. So how do we hold "raised like Jesus / filled with God's fullness" together with "still creatures forever"?
 
-### Five Distinctions That Hold the Line
+### Six Distinctions That Hold the Line
 
 **1. Native vs. derivative.** Christ has divinity as His own nature, eternally — what theologians call *autotheos*, "God of Himself." We have divine life *derivatively* — by adoption, by gift, by participation in Him. He is the source; we are recipients. He is the vine; we are branches drawing life from the vine (John 15:5).
 
@@ -306,6 +306,14 @@ The biblical witness is consistent: however high the resurrection lifts us, **th
 > The one who conquers, I will grant him to sit with me on my throne, as I also conquered and sat down with my Father on his throne. (**Revelation 3:21**, ESV)
 
 He shares His throne. He does not vacate it. We sit *with* Him because He is the one with the right to sit there.
+
+**6. Designed vessel vs. redeemed vessel.** Jesus was conceived by the Holy Spirit (Luke 1:35: "the child to be born will be called holy") in a body uniquely prepared for Him:
+
+> When Christ came into the world, he said, "Sacrifices and offerings you have not desired, but a body have you prepared for me." (**Hebrews 10:5**, ESV)
+
+He lived without sin (Hebrews 4:15; 1 John 3:5) — the second Adam who succeeded where the first failed (Romans 5:18-19). His humanity was the *designed* vessel for the fullness of God dwelling bodily. We are inheritors of Adam, redeemed by His work and ultimately glorified into sinlessness — but our sinlessness will always be *derived from Him*, never *native to us*. He didn't *become* sinless; He *was* sinless. We will never attain what He had at conception.
+
+This is the distinction even a sceptic of pre-existence cannot escape. Drop every other distinction on this list and just hold this one — virgin conception, sinless vessel, the fullness of God dwelling bodily in Him alone — and the line still holds. We can never become the prepared vessel He was. There is a class of beings that contains exactly one member, and we will never enter it.
 
 ### The Marriage Image
 
