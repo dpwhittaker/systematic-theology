@@ -53,7 +53,15 @@ Jesus says "today" — but three days later He told Mary, "I have not yet ascend
 
 > For we know that if the tent that is our earthly home is destroyed, we have a building from God, a house not made with hands, eternal in the heavens. For in this tent we groan, longing to put on our heavenly dwelling, if indeed by putting it on we may not be found naked. For while we are still in this tent, we groan, being burdened—not that we would be unclothed, but that we would be further clothed, so that what is mortal may be swallowed up by life. He who has prepared us for this very thing is God, who has given us the Spirit as a guarantee. So we are always of good courage. We know that while we are at home in the body we are away from the Lord, for we walk by faith, not by sight. Yes, we are of good courage, and we would rather be away from the body and at home with the Lord. (**2 Corinthians 5:1-8**, ESV)
 
-Paul prefers being "with the Lord" to bodily life — but he calls this disembodied state being "naked" and "unclothed." He doesn't *want* to be disembodied. He wants to be "further clothed, so that what is mortal may be swallowed up by life." The hope is not escaping the body but receiving a *better* body.
+Paul's vocabulary is loaded. The "tent" (*skenos*) is the same root as *skene* — the **tabernacle**, Israel's portable wilderness sanctuary. The "building from God, a house not made with hands, eternal in the heavens" echoes the **temple** — God's permanent dwelling in Jerusalem. Paul is mapping our existence onto Israel's worship history: we live in a tent, awaiting a temple.
+
+Read this way, three states emerge:
+
+1. **Tent / clothed** — *now*: a real body, but temporary, like the tabernacle.
+2. **No tent / "naked," "unclothed"** — *the intermediate state*: away from the body, "with the Lord," but incomplete — Paul's word for a condition he doesn't actually want.
+3. **Building / "further clothed"** — *the resurrection*: a permanent, glorified body on the new earth, "what is mortal swallowed up by life" — temple replacing tabernacle.
+
+The hope isn't escape from the body. It's the upgrade from tabernacle to temple — from temporary to permanent dwelling, with mortality itself swallowed up by life.
 
 > My desire is to depart and be with Christ, for that is far better. (**Philippians 1:23**, ESV)
 
