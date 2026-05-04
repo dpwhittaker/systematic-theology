@@ -278,7 +278,58 @@ Neither ghost nor resuscitated corpse. Something new — physical yet glorified.
 
 ---
 
-## V. What the Bible Says About the New Earth
+## V. Glorified, Not Deified: The Elephant in the Room
+
+If we will be raised by the same Spirit who raised Jesus (Romans 8:11) — if our bodies will be like His glorious body (Philippians 3:21) — if we are "filled with all the fullness of God" (Ephesians 3:19) — does that mean we become gods? Lesser deities, divine beings of some sort, "little gods" with a small *g*?
+
+This is the elephant in the room. And it has dogged Christian theology for two thousand years. Several movements have stumbled here:
+
+- **Word of Faith** (Kenneth Hagin, Kenneth Copeland): Born-again believers are taught they are "as much an incarnation as Jesus of Nazareth" — sons of God in the same sense He is.
+- **Mormon exaltation**: Faithful Latter-day Saints will become gods of their own worlds, eternally progressing in divine status.
+- **Jehovah's Witnesses**: The blurring works in reverse. Christ is reduced to "a god" (John 1:1, NWT) — a created being highly exalted; an elevated tier of "divine creatures" emerges, undoing the absolute Creator/creature line from above rather than below.
+- **Hellenistic apotheosis**: Greek heroes and Roman emperors posthumously declared gods. Some early Christians read Christ's resurrection through this lens; orthodoxy resisted.
+
+The biblical witness is consistent: however high the resurrection lifts us, **the Creator/creature distinction is never collapsed**. So how do we hold "raised like Jesus / filled with God's fullness" together with "still creatures forever"?
+
+### Five Distinctions That Hold the Line
+
+**1. Native vs. derivative.** Christ has divinity as His own nature, eternally — what theologians call *autotheos*, "God of Himself." We have divine life *derivatively* — by adoption, by gift, by participation in Him. He is the source; we are recipients. He is the vine; we are branches drawing life from the vine (John 15:5).
+
+**2. Essence vs. energies.** This Eastern Orthodox distinction is helpful: we participate in God's *operations* (grace, glory, love, life), not His *essence*. We never become part of the Trinity. Iron held in fire takes on the fire's heat and light without ceasing to be iron and without becoming fire itself.
+
+**3. Image vs. equality.** Genesis 1:27 says we bear God's image. Romans 8:29 says we are conformed to Christ's image. But image is not equality. A coin bears Caesar's likeness without being Caesar. The image is real, the resemblance permanent — and the asymmetry between original and image is also permanent.
+
+**4. Worshipers vs. the worshiped.** Even glorified, resurrected, Spirit-filled saints worship; they are not worshiped. When John tries to worship the angel in Revelation 19:10 and again in 22:9, the angel rebukes him: "You must not do that! ... Worship God." Glorified humans never become objects of worship. The triune God alone receives that — forever.
+
+**5. Reigning with vs. reigning as.** Revelation 5:10 and 22:5 say the redeemed reign on the earth, forever. But they reign *with* Christ (Romans 8:17 — "fellow heirs with Christ"), not *as* Christ in His own right. He sits on the throne; we sit beside Him at His invitation:
+
+> The one who conquers, I will grant him to sit with me on my throne, as I also conquered and sat down with my Father on his throne. (**Revelation 3:21**, ESV)
+
+He shares His throne. He does not vacate it. We sit *with* Him because He is the one with the right to sit there.
+
+### The Marriage Image
+
+Paul reaches for marriage to picture the union (Ephesians 5:31-32). A wife shares her husband's name, home, fortune, and status. She becomes "one flesh" with him. Everything he has is hers by participation. She inherits his life. But she is not him. Their union is real; their identities remain distinct.
+
+> This mystery is profound, and I am saying that it refers to Christ and the church. (**Ephesians 5:32**, ESV)
+
+We are bound to Christ in a union deeper than marriage — yet, as in marriage, the two remain two even as they become one.
+
+### The Prototype Distinction
+
+Here is the cleanest way to hold it together: when Scripture says we will be "like Him" (1 John 3:2), the prototype is His **glorified humanity**, not His divinity.
+
+Jesus is fully God *and* fully man. In His resurrection, His humanity was exalted — given a glorified body, freed from death, brought to the Father's right hand. *That* is what we follow Him into.
+
+His divine nature is not the prototype, because we have no analog. We are not pre-existent. We do not share the divine essence. We are not eternally generated from the Father. The "whole fullness of deity" that dwells in Him bodily (Colossians 2:9) is *His* — and we participate in it only through the Spirit He sends, never by becoming what He uniquely is.
+
+So: yes, we are raised in the same way Jesus was raised. We will share His glorified human life. We will be filled with all the fullness of God. We will reign with Him on the renewed earth, eternally.
+
+But we are not gods. We are creatures — redeemed, glorified, eternally united to the One who is God. And in that union — *in Him* (Colossians 2:10) — we find more life than any "becoming gods" theology has ever offered.
+
+---
+
+## VI. What the Bible Says About the New Earth
 
 If the question is "Where will we spend eternity?" the Bible's answer is not "heaven." It is "a renewed earth, with God."
 
@@ -348,7 +399,7 @@ On the earth. Not in heaven. The saints reign on the earth.
 
 ---
 
-## VI. The Rapture Question: Up or Down?
+## VII. The Rapture Question: Up or Down?
 
 The critical passage is 1 Thessalonians 4:16-17:
 
@@ -397,7 +448,7 @@ In the flood, who was "taken"? The wicked — swept away by judgment. Who was "l
 
 ---
 
-## VII. The Kingdom: Heaven or Earth?
+## VIII. The Kingdom: Heaven or Earth?
 
 ### Where Does God's Story End?
 
@@ -434,7 +485,7 @@ The kingdom of *the world*. Not "the world is abandoned and we go to heaven." Th
 
 ---
 
-## VIII. How Did We Get Here? The Greek Detour
+## IX. How Did We Get Here? The Greek Detour
 
 If the Bible so clearly points to resurrection and new earth, how did "dying and going to heaven" become the default Christian belief?
 
@@ -484,7 +535,7 @@ The hope is not the soul escaping the body to float in an immaterial heaven. The
 
 ---
 
-## IX. Putting It All Together
+## X. Putting It All Together
 
 ### The Biblical Story in Five Acts
 
@@ -534,7 +585,7 @@ Not "all new things." "All things made *new*."
 
 ---
 
-## X. For Further Study
+## XI. For Further Study
 
 **Bodily resurrection and new creation:** N.T. Wright, *Surprised by Hope: Rethinking Heaven, the Resurrection, and the Mission of the Church* — the definitive modern treatment. Also: *The Resurrection of the Son of God* (Wright's academic work). J. Richard Middleton, *A New Heaven and a New Earth: Reclaiming Biblical Eschatology*.
 
