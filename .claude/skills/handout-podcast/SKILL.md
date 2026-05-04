@@ -25,10 +25,10 @@ User invokes `/handout-podcast <handout-name>` or types something like:
 audio/
   <handout-slug>/
     manifest.json
-    deepdive-long-001.wav    (or .mp3 — whatever NotebookLM serves)
-    deepdive-medium-001.wav
-    deepdive-long-002.wav    (added on next invocation)
-    deepdive-medium-002.wav
+    deepdive-long-001.m4a
+    deepdive-medium-001.m4a
+    deepdive-long-002.m4a    (added on next invocation)
+    deepdive-medium-002.m4a
     ...
 ```
 
@@ -44,9 +44,13 @@ audio/
   "entries": [
     {
       "kind": "deepdive-long",
-      "file": "deepdive-long-001.wav",
-      "generated_at": "2026-05-03T22:14:00Z",
-      "duration_seconds": 1789,
+      "file": "deepdive-long-001.m4a",
+      "notebooklm_title": "...",
+      "generated_at": "2026-05-04T02:08:00Z",
+      "duration_seconds": 3388,
+      "duration_human": "56:28",
+      "length_setting": "Long",
+      "format": "Deep Dive",
       "customize_prompt": "..."
     }
   ]
@@ -60,8 +64,8 @@ At the top of `handouts/<name>.md`, immediately after the H1 line and the one-pa
 ```markdown
 ## Audio Overviews
 
-- **Deep Dive (long)** — May 3, 2026 · ~30 min · [listen](../audio/<slug>/deepdive-long-001.wav)
-- **Deep Dive (medium)** — May 3, 2026 · ~13 min · [listen](../audio/<slug>/deepdive-medium-001.wav)
+- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](../audio/<slug>/deepdive-long-001.m4a)
+- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](../audio/<slug>/deepdive-medium-001.m4a)
 ```
 
 If the section exists from a prior invocation, *prepend* the new entries (newest first), don't replace.
@@ -71,7 +75,7 @@ If the section exists from a prior invocation, *prepend* the new entries (newest
 In `handouts/index.md`, append a 🎧 marker after the handout's bullet linking to its first long audio:
 
 ```markdown
-- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — ... [🎧](../audio/heaven-hell-resurrection/deepdive-long-001.wav)
+- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — ... [🎧](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
 ```
 
 Only add the headphone marker once per handout — don't append a new emoji on each invocation.
@@ -142,13 +146,26 @@ When the user pings you back: navigate to the notebook URL and check the Audio O
 ### 6. Download both files
 
 For each completed Audio Overview:
-- Click the entry to open it.
-- Find the download / "More options" menu — usually a 3-dot button on the player.
-- Click the download option. NotebookLM serves the audio as `.wav`.
-- The browser will prompt for a download. The MCP can't drive the native save dialog. Instead, intercept the download URL:
-  - The download link is usually a blob or an authenticated Google endpoint. Use `mcp__claude-in-chrome__javascript_tool` to read the `<audio>` element's `src` attribute or to find anchor `<a download>` hrefs.
-  - If the URL is a blob, fetch it via JS and write the bytes — but cross-origin restrictions usually prevent this. Easier: use the browser's actual download to land it in `~/Downloads/` (Windows side: `/mnt/c/Users/David/Downloads/`), then `mv` it into place.
-- Save to `audio/<slug>/deepdive-long-NNN.<ext>` and `deepdive-medium-NNN.<ext>` based on which one was generated with the long custom prompt vs default.
+- Click the entry's 3-dot "More" menu (next to the title in the studio panel).
+- Click "Download" from the menu.
+- The download lands in `/mnt/c/Users/David/Downloads/` automatically — no save dialog appears (Chrome routes downloads straight to the default folder). The MCP also opens an "Untitled" tab as a side effect; ignore it.
+- File format is **`.m4a`** (NotebookLM doesn't serve `.wav`). Filename is derived from the auto-generated overview title (e.g. `Heaven_is_just_the_waiting_room.m4a`).
+- Disambiguate which file is which: the "View custom prompt" menu item only appears on entries that had a custom prompt. Use that, or compare durations (custom-with-Long ~50 min; Default ~20 min).
+- Move into place:
+  ```
+  mv "/mnt/c/Users/David/Downloads/<auto-title>.m4a" \
+     "audio/<slug>/deepdive-{long,medium}-NNN.m4a"
+  ```
+
+**Transcode before committing.** NotebookLM exports at ~256 kbps stereo. The Long file commonly exceeds GitHub's 100 MB per-file push limit. Transcode to mono 64 kbps AAC, which preserves spoken-word quality and brings the typical Long overview from ~109 MB down to ~28 MB:
+
+```
+ffmpeg -hide_banner -loglevel error -i deepdive-long-001.m4a \
+  -ac 1 -b:a 64k -movflags +faststart deepdive-long-001-compressed.m4a
+mv deepdive-long-001-compressed.m4a deepdive-long-001.m4a
+```
+
+Apply the same to the medium file. Probe duration with `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 <file>` before/after — duration shouldn't change, only file size.
 
 ### 7. Update the manifest
 
@@ -180,7 +197,7 @@ Audio files are tracked in git for now (small enough, served as static assets). 
 - **Daily quota.** The free NotebookLM tier limits Audio Overview generations per day. If generation refuses, surface the error and stop — don't retry blindly.
 - **Tab management.** Don't reuse tab IDs across sessions. Always `tabs_context_mcp` first, then `tabs_create_mcp` for a fresh tab.
 - **Modal dialogs lock the browser.** Don't click anything that triggers a JS confirm/alert. If you do, the MCP session is dead and the user has to dismiss it manually.
-- **Audio files are large.** `.wav` files run 30-100 MB each. Don't try to read or transcribe them. Just place them.
+- **Audio files are large.** Raw NotebookLM exports run ~256 kbps stereo `.m4a` — a Long Deep Dive can hit 100+ MB and fail GitHub's per-file push limit. Always transcode to mono 64 kbps before commit (see step 6). Don't try to read or transcribe the audio; just place and transcode.
 - **Don't re-record.** If a generation fails partway, leave the existing files alone and start a new round with the next sequence number.
 
 ## When to stop and ask
