@@ -51,25 +51,25 @@ These passages describe what happens *between* death and resurrection. They are 
 
 Jesus says "today" — but three days later He told Mary, "I have not yet ascended to the Father" (John 20:17). Whatever "Paradise" is, it isn't the Father's throne room. And Jesus didn't stay there — He rose bodily.
 
-> We would rather be away from the body and at home with the Lord. (**2 Corinthians 5:8**, ESV)
+> For in this tent we groan, longing to put on our heavenly dwelling, if indeed by putting it on we may not be found naked. For while we are still in this tent, we groan, being burdened—not that we would be unclothed, but that we would be further clothed, so that what is mortal may be swallowed up by life. He who has prepared us for this very thing is God, who has given us the Spirit as a guarantee. So we are always of good courage. We know that while we are at home in the body we are away from the Lord, for we walk by faith, not by sight. Yes, we are of good courage, and we would rather be away from the body and at home with the Lord. (**2 Corinthians 5:2-8**, ESV)
 
-Paul says "with the Lord" — but read the context. He calls this disembodied state being "naked" (v. 3) and "unclothed" (v. 4). He doesn't *want* to be disembodied. He wants to be "further clothed, so that what is mortal may be swallowed up by life" (v. 4). The hope is not escaping the body but receiving a *better* body.
+Paul prefers being "with the Lord" to bodily life — but he calls this disembodied state being "naked" and "unclothed." He doesn't *want* to be disembodied. He wants to be "further clothed, so that what is mortal may be swallowed up by life." The hope is not escaping the body but receiving a *better* body.
 
 > My desire is to depart and be with Christ, for that is far better. (**Philippians 1:23**, ESV)
 
 "With Christ" — wherever He is. This is the intermediate state. Paul knows it's better than suffering in prison. But he also knows the *real* hope is resurrection (Philippians 3:20-21).
 
-> I saw under the altar the souls of those who had been slain... They were each given a white robe and told to rest a little longer. (**Revelation 6:9-11**, ESV)
+> I saw under the altar the souls of those who had been slain for the word of God and for the witness they had borne. They cried out with a loud voice, "O Sovereign Lord, holy and true, how long before you will judge and avenge our blood on those who dwell on the earth?" Then they were each given a white robe and told to rest a little longer, until the number of their fellow servants and their brothers should be complete, who were to be killed as they had been. (**Revelation 6:9-11**, ESV)
 
-Martyrs in heaven — but they're *waiting*. They cry out, "How long?" They are told to rest. This is not the final destination. They are in the queue for resurrection.
+Martyrs in heaven — but they're *waiting*. They cry "How long?" They are told to rest. This is not the final destination. They are in the queue for resurrection.
 
 ### Things "Stored" in Heaven — Coming Down to Us
 
 These passages describe heaven as a *vault* where God keeps our future blessings safe — not as the place where we go to collect them.
 
-> An inheritance that is imperishable, undefiled, and unfading, kept in heaven for you. (**1 Peter 1:4**, ESV)
+> An inheritance that is imperishable, undefiled, and unfading, kept in heaven for you, who by God's power are being guarded through faith for a salvation ready to be revealed in the last time. (**1 Peter 1:4-5**, ESV)
 
-*Kept* in heaven — stored there for safekeeping. But read the next verse: this inheritance is "ready to be revealed in the last time" (v. 5). It comes to us at the end. Like a gift in a safe, waiting to be delivered.
+*Kept* in heaven — stored there for safekeeping. And "ready to be revealed in the last time" — it comes to us at the end. Like a gift in a safe, waiting to be delivered.
 
 > The hope laid up for you in heaven. (**Colossians 1:5**, ESV)
 
@@ -288,9 +288,9 @@ Enduring. Permanent. The new earth is not a temporary arrangement.
 
 ### Paul
 
-> The creation itself will be set free from its bondage to corruption and obtain the freedom of the glory of the children of God. (**Romans 8:21**, ESV)
+> The creation itself will be set free from its bondage to corruption and obtain the freedom of the glory of the children of God. For we know that the whole creation has been groaning together in the pains of childbirth until now. (**Romans 8:21-22**, ESV)
 
-Creation *set free*. Not destroyed. Liberated. The earth groans for redemption the way a pregnant woman groans for delivery (v. 22) — the groaning leads to *new life*, not death.
+Creation *set free*. Not destroyed. Liberated. The earth groans for redemption the way a pregnant woman groans for delivery — the groaning leads to *new life*, not death.
 
 > Through him to reconcile to himself *all things*, whether on earth or in heaven, making peace by the blood of his cross. (**Colossians 1:20**, ESV)
 
