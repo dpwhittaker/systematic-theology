@@ -93,7 +93,7 @@ A statement about security and priorities — not a real estate listing. Heaven 
 
 This is one of the most beloved "heaven" passages. But look at what Jesus actually says: He goes to prepare a place, and then *He comes back*. "I will come again and will take you to myself." The movement is not us-to-heaven. It is Christ-back-to-us.
 
-> Our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body. (**Philippians 3:20-21**, ESV)
+> Our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body, by the power that enables him even to subject all things to himself. (**Philippians 3:20-21**, ESV)
 
 Our citizenship is *in* heaven — like having your legal residence in one country while living abroad. But what we're waiting for comes *from* heaven: the Savior who transforms our bodies. The destination isn't heaven. The deliverer comes from there to us.
 
@@ -260,9 +260,11 @@ Redemption *of* our bodies. Not *from* our bodies.
 
 "Put on" — clothing language. The body is upgraded, not discarded. You don't throw away your body; you put new life *over* it.
 
-> The Lord Jesus Christ... will *transform our lowly body* to be like his glorious body. (**Philippians 3:20-21**, ESV)
+> The Lord Jesus Christ... will *transform our lowly body* to be like his glorious body, by the power that enables him even to subject all things to himself. (**Philippians 3:20-21**, ESV)
 
-Transform. Same body. Glorified. Not a replacement — a transformation.
+Transform. Same body. Glorified. Not a replacement — a transformation. And note the agency: it happens "by the power that enables him even to subject all things to himself." The same power that raised Jesus, exalted Him, and brings all creation under His reign is what transforms our bodies. We are raised in the same manner Jesus was raised — and Romans 8:11 names that power explicitly: "He who raised Christ Jesus from the dead will also give life to your mortal bodies through his **Spirit** who dwells in you."
+
+This presses a deeper question. Paul says of Christ: "in him the whole fullness of deity dwells bodily" (Colossians 2:9) — and in the very next verse: "and you have been filled in him" (Colossians 2:10). Are we filled the same way Jesus is filled? The answer is careful: Christ holds the fullness *as His own nature*; we hold it *by participation in Him*. But it is the same fullness — "that you may be filled with all the fullness of God" (Ephesians 3:19). The Spirit indwelling believers now is the down-payment (Ephesians 1:14) on what will be fully manifest in our resurrection bodies, made like His glorious body.
 
 ### Jesus' Resurrection Body: The Prototype
 
