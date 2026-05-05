@@ -1028,6 +1028,7 @@ async function loadHandout(path) {
         const lines = markdown.split('\n');
         let html = '';
         let inList = false;
+        let listIndents = [];
         let inBlockquote = false;
         let blockquoteContent = [];
         let inTable = false;
@@ -1126,13 +1127,28 @@ async function loadHandout(path) {
             else if (line.trim() === '---') {
                 html += '<hr>\n';
             }
-            // List items
-            else if (line.match(/^[-*]\s/)) {
+            // List items (with nested-list support via indentation)
+            else if (line.match(/^(\s*)[-*]\s/)) {
+                const m = line.match(/^(\s*)[-*]\s(.*)$/);
+                const indent = m[1].length;
+                const content = m[2];
                 if (!inList) {
                     html += '<ul>\n';
                     inList = true;
+                    listIndents = [indent];
+                } else if (indent > listIndents[listIndents.length - 1]) {
+                    // Open a nested <ul> inside the previous <li> by stripping its
+                    // trailing </li> and reopening it after the nested list closes.
+                    if (html.endsWith('</li>\n')) html = html.slice(0, -6) + '\n<ul>\n';
+                    else html += '<ul>\n';
+                    listIndents.push(indent);
+                } else {
+                    while (listIndents.length > 1 && indent < listIndents[listIndents.length - 1]) {
+                        html += '</ul></li>\n';
+                        listIndents.pop();
+                    }
                 }
-                html += '<li>' + line.substring(2) + '</li>\n';
+                html += '<li>' + content + '</li>\n';
             }
             // Empty lines
             else if (line.trim() === '') {
@@ -1146,6 +1162,10 @@ async function loadHandout(path) {
 
         // Close any open tags
         if (inList) {
+            while (listIndents.length > 1) {
+                html += '</ul></li>\n';
+                listIndents.pop();
+            }
             html += '</ul>\n';
         }
         if (inBlockquote) {
