@@ -1,4 +1,10 @@
+---
+tags: [Reference]
+---
+
 # Systematic Theology: A Hebraic Re-examination
+
+The HUD: catechism, scripture index, doctrinal map, handouts. A dual-purpose research notebook + interactive teaching display rooted in a Hebraic re-reading of standard systematic theology.
 
 **Live Site:** [https://dpwhittaker.github.io/systematic-theology](https://dpwhittaker.github.io/systematic-theology)
 
