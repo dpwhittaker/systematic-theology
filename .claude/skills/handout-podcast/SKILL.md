@@ -64,21 +64,25 @@ At the top of `handouts/<name>.md`, immediately after the H1 line and the one-pa
 ```markdown
 ## Audio Overviews
 
-- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](../audio/<slug>/deepdive-long-001.m4a)
-- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](../audio/<slug>/deepdive-medium-001.m4a)
+- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](audio/<slug>/deepdive-long-001.m4a)
+- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](audio/<slug>/deepdive-medium-001.m4a)
 ```
+
+⚠️ **Path is `audio/...`, not `../audio/...`.** The handouts viewer renders the page at URL `/theology/#handouts/<name>.md`, which means the browser resolves relative URLs against `/theology/`. `../audio/...` would resolve to `/audio/...` — outside the proxy's `/theology/` prefix, leading to a fall-through 404. `audio/...` resolves to `/theology/audio/...` which the proxy correctly forwards to the static server.
 
 If the section exists from a prior invocation, *prepend* the new entries (newest first), don't replace.
 
-### Index page link
+### Index page links
 
-In `handouts/index.md`, append a 🎧 marker after the handout's bullet linking to its first long audio:
+In `handouts/index.md`, list each generated audio file as a sub-bullet under the handout, with a 🎧 marker. Each invocation appends new sub-bullets (newest first):
 
 ```markdown
-- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — ... [🎧](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
+- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife...
+  - 🎧 [Deep Dive (long, 56 min)](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
+  - 🎧 [Deep Dive (medium, 23 min)](audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
 ```
 
-Only add the headphone marker once per handout — don't append a new emoji on each invocation.
+If the manifest shows non-audio media (slide decks, video overviews, mind maps), list those as sub-bullets too with appropriate icons (e.g. 🎬 for video, 🗺️ for mind map). The pattern is: one bullet per handout, with all generated media as sub-bullets underneath.
 
 ## Steps
 
@@ -173,8 +177,8 @@ Append both new entries with `generated_at`, `duration_seconds` (probe with `ffp
 
 ### 8. Update web links
 
-- Edit `handouts/<name>.md`: insert/prepend the new audio entries under `## Audio Overviews`.
-- Edit `handouts/index.md`: ensure a 🎧 link exists for this handout (idempotent — don't double-add).
+- Edit `handouts/<name>.md`: insert/prepend the new audio entries under `## Audio Overviews`. Use `audio/...` paths (not `../audio/...`).
+- Edit `handouts/index.md`: append sub-bullets under the handout's bullet, one per generated media file (🎧 for audio, other icons for other media). Don't deduplicate within a round, but don't re-add entries from prior rounds either.
 
 ### 9. Commit and push
 
@@ -198,6 +202,8 @@ Audio files are tracked in git for now (small enough, served as static assets). 
 - **Tab management.** Don't reuse tab IDs across sessions. Always `tabs_context_mcp` first, then `tabs_create_mcp` for a fresh tab.
 - **Modal dialogs lock the browser.** Don't click anything that triggers a JS confirm/alert. If you do, the MCP session is dead and the user has to dismiss it manually.
 - **Audio files are large.** Raw NotebookLM exports run ~256 kbps stereo `.m4a` — a Long Deep Dive can hit 100+ MB and fail GitHub's per-file push limit. Always transcode to mono 64 kbps before commit (see step 6). Don't try to read or transcribe the audio; just place and transcode.
+- **Range requests are required for streaming.** `scripts/save_server.py` was extended (commit `b80b529`-ish) with a `_handle_range_get` path that returns `206 Partial Content` for any GET that includes a `Range:` header. Without 206 responses, browsers' `<audio>` and `<video>` elements hang on load. If the spinner-of-death returns, the first thing to check is `curl -s -D - -r 0-99 http://127.0.0.1:8000/audio/<file>.m4a` — should be `HTTP/1.0 206`, not `200`.
+- **Relative paths and the `/theology/` proxy.** Audio links written as `../audio/...` resolve outside the proxy prefix and 404 silently. Use `audio/<slug>/<file>.m4a` (no `../`).
 - **Don't re-record.** If a generation fails partway, leave the existing files alone and start a new round with the next sequence number.
 
 ## When to stop and ask

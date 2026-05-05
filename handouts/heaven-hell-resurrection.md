@@ -4,8 +4,8 @@ A study of what the Bible actually says about the afterlife — examining every 
 
 ## Audio Overviews
 
-- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](../audio/heaven-hell-resurrection/deepdive-long-001.m4a)
-- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](../audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
+- **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
+- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
 
 ---
 

@@ -65,8 +65,65 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         parsed = urlparse(self.path)
         if parsed.path == "/api/list-generations":
             self._handle_list_generations(parse_qs(parsed.query))
+        elif self.headers.get("Range"):
+            self._handle_range_get()
         else:
             super().do_GET()
+
+    def _handle_range_get(self):
+        """Serve a single Range request as 206 Partial Content.
+
+        Required for audio/video streaming — without 206 responses the
+        browser's media element hangs while loading. Falls through to
+        the default handler if the Range header is malformed or the
+        file isn't a regular file.
+        """
+        path = self.translate_path(self.path)
+        if not os.path.isfile(path):
+            super().do_GET()
+            return
+
+        m = re.match(r"bytes=(\d+)-(\d*)$", self.headers["Range"].strip())
+        if not m:
+            super().do_GET()
+            return
+
+        try:
+            f = open(path, "rb")
+        except OSError:
+            self.send_error(404)
+            return
+
+        try:
+            size = os.fstat(f.fileno()).st_size
+            start = int(m.group(1))
+            end = int(m.group(2)) if m.group(2) else size - 1
+            end = min(end, size - 1)
+            if start > end or start >= size:
+                self.send_response(416)
+                self.send_header("Content-Range", f"bytes */{size}")
+                self.end_headers()
+                return
+
+            length = end - start + 1
+            f.seek(start)
+
+            self.send_response(206)
+            self.send_header("Content-Type", self.guess_type(path))
+            self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
+            self.send_header("Content-Length", str(length))
+            self.send_header("Accept-Ranges", "bytes")
+            self.end_headers()
+
+            remaining = length
+            while remaining > 0:
+                chunk = f.read(min(remaining, 64 * 1024))
+                if not chunk:
+                    break
+                self.wfile.write(chunk)
+                remaining -= len(chunk)
+        finally:
+            f.close()
 
     def do_PUT(self):
         parsed = urlparse(self.path)
@@ -348,7 +405,11 @@ def log_message(self, format, *args):
 
 
 if __name__ == "__main__":
-    server = http.server.HTTPServer((BIND, PORT), Handler)
+    # ThreadingHTTPServer (Py3.7+) handles each request in its own thread, so
+    # one slow or stuck client (or a long-running /api/regenerate-* call) can't
+    # block the whole site. Daemon threads die with the process.
+    server = http.server.ThreadingHTTPServer((BIND, PORT), Handler)
+    server.daemon_threads = True
     print(f"Serving {PROJECT_ROOT} on http://{BIND}:{PORT}")
     print("API routes: /api/save, /api/list-generations, /api/regenerate-image, /api/regenerate-audio")
     server.serve_forever()
