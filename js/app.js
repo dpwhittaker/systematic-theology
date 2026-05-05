@@ -245,6 +245,8 @@ function render() {
     const topic = topicCache[state.currentTopicId];
     if (!topic) return;
 
+    document.title = topic.title ? `${topic.title} — Systematic Theology` : 'Systematic Theology HUD';
+
     // Breadcrumb row (shortest path from TOC to current)
     // Special case: TOC page shows only its title
     let breadcrumbToShow;
@@ -1000,6 +1002,11 @@ async function loadHandout(path) {
         const response = await fetch(path);
         if (!response.ok) throw new Error(`Failed to load ${path}`);
         let markdown = await response.text();
+
+        // Update browser tab title from the first H1 (or fall back to the filename)
+        const h1Match = markdown.match(/^#\s+(.+)$/m);
+        const handoutTitle = h1Match ? h1Match[1].trim() : path.split('/').pop().replace(/\.md$/, '');
+        document.title = `${handoutTitle} — Systematic Theology`;
 
         // Storyboard: use dedicated editor instead of generic handout renderer
         if (path.startsWith('storyboards/') && path.endsWith('.md') && window.StoryboardEditor) {
