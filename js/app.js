@@ -1101,8 +1101,13 @@ async function loadHandout(path) {
                 continue;
             }
 
-            // Close list if we're in one and hit a non-list line (and it's not empty)
-            if (inList && !line.match(/^[-*]\s/) && line.trim() !== '') {
+            // Close list if we're in one and hit a non-list line (and it's not empty).
+            // Indented bullets (^\s+[-*]\s) are still list items — don't close on them.
+            if (inList && !line.match(/^\s*[-*]\s/) && line.trim() !== '') {
+                while (listIndents.length > 1) {
+                    html += '</ul></li>\n';
+                    listIndents.pop();
+                }
                 html += '</ul>\n';
                 inList = false;
             }
