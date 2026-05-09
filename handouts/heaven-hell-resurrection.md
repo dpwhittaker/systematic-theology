@@ -6,6 +6,7 @@ A study of what the Bible actually says about the afterlife — examining every 
 
 - **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
 - **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
+- **Infographic** — May 7, 2026 · [SVG](handouts/infographics/heaven-hell-resurrection.svg) · [PNG](handouts/infographics/heaven-hell-resurrection.png)
 
 ---
 
@@ -162,6 +163,24 @@ Jesus is quoting Isaiah 66:24. Look up the original:
 
 Isaiah describes *corpses* — dead bodies being consumed by worms and fire. Not living beings writhing in eternal agony. The image is a garbage dump, not a torture chamber.
 
+**"Weeping and Gnashing of Teeth":**
+
+The phrase appears seven times in the New Testament — exclusively in the words of Jesus, six times in Matthew and once in Luke (Matthew 8:12; 13:42, 50; 22:13; 24:51; 25:30; Luke 13:28). It is paired inconsistently with two incompatible images: "outer darkness" (Matthew 8:12; 22:13; 25:30) and "fiery furnace" (Matthew 13:42, 50). Both cannot be literal in the same judgment scene. The mixed imagery itself is a clue.
+
+The Old Testament backdrop is illuminating. Wherever "gnashing of teeth" appears in the Hebrew Bible, it describes the wicked's hostile rage *toward another* — never pain endured by the gnasher.
+
+> They gnashed at me with their teeth. (**Psalm 35:16**, ESV)
+
+> The wicked plots against the righteous and gnashes his teeth at him. (**Psalm 37:12**, ESV)
+
+> The wicked man sees it and is angry; he gnashes his teeth and melts away. (**Psalm 112:10**, ESV)
+
+> ...gnashed their teeth at him. (**Acts 7:54**, ESV — of Stephen's accusers)
+
+Psalm 112:10 is especially telling: the wicked man "shall gnash his teeth and melt away." Rage culminating in destruction, not rage as endless self-torment. Combine that with Luke 13:28's accent — "you yourselves [are] cast out" while seeing Abraham, Isaac, and Jacob in the kingdom — and a coherent reading emerges. The imagery describes the **rage and grief of the excluded**, not a metaphysical schematic of their inner suffering. Jesus is not telling us what hell *feels like*. He is telling us what those outside the Kingdom *look like* from the inside.
+
+This will matter when we ask, in a moment, what Jesus is *doing* in these texts.
+
 **The Eternal Punishment Passages:**
 
 > Then he will say to those on his left, "Depart from me, you cursed, into the eternal fire prepared for the devil and his angels."... And these will go away into eternal punishment, but the righteous into eternal life. (**Matthew 25:41, 46**, ESV)
@@ -208,6 +227,82 @@ The wicked are destroyed — they cease to exist after judgment. "Eternal" descr
 
 **3. Eternal Separation (Relational)**
 Hell is the experience of existing apart from God — the source of all light, love, goodness, and joy. The suffering is not physical fire but relational emptiness. C.S. Lewis (*The Great Divorce*): "The doors of hell are locked from the inside." This view may complement either of the above rather than replacing them.
+
+### A Fourth Move: What Jesus Did Not Tell Us
+
+The three views above all answer the same question: *what does the wicked's final state actually consist in — torment, destruction, or separation?* The debate is real, the disagreement is honest, and Scripture does not give us the data to settle it with confidence between Bible-believing readers. But a fourth observation cuts across all three views and may explain *why* the data is so thin.
+
+**Notice what Jesus actually does in the hell-texts.**
+
+He uses **mixed imagery** (fire *and* darkness, both irreducible to literal mechanism). He centers **exclusion** (cast out, door shut, "depart from me"). He describes the wicked from the **outside** — their rage, their gnashing, their grief — never from the *inside* of their suffering. His most vivid hell-language is in **parables**: the wedding feast, the talents, the dragnet, the weeds. The argument is *from* the parables, not *of* them.
+
+And the **vivid hell-imagery — fire, darkness, furnace, weeping, gnashing — is addressed almost exclusively to insiders, not outsiders**.
+
+- The Sermon on the Mount — to disciples and crowds already following Jesus.
+- The kingdom parables of Matthew 13 — explained privately to the disciples.
+- The Olivet Discourse of Matthew 24-25 — to the disciples, on the Mount of Olives.
+- The fire-and-branch warning of John 15:6 — to the disciples in the Upper Room.
+- Hebrews 10:26-31 — to the gathered church, warned against apostasy.
+- 1 Corinthians 6:9-10 and Galatians 5:21 — to baptized Christians at Corinth and in Galatia.
+- Revelation 21:8 — to the seven churches of Asia Minor.
+
+The vivid imagery functions as **pastoral warning to covenant insiders** — *don't drift out, stay in the Kingdom* — not as a **map of unbelievers' destinations**.
+
+**The natural objection: doesn't Jesus also warn outsiders?**
+
+He does. John's Gospel is the test case — most of John is Jesus arguing with Pharisees and unbelieving crowds. But notice *how* He warns them.
+
+> Where I am going, you cannot come... unless you believe that I am he **you will die in your sins**. (**John 8:21-24**, ESV)
+
+> Whoever does not believe is **condemned already**... whoever does not obey the Son shall **not see life**, but the **wrath of God remains on him**. (**John 3:18, 36**, ESV)
+
+> An hour is coming when all who are in the tombs will hear his voice and come out, those who have done good to the resurrection of life, and those who have done evil to the **resurrection of judgment**. (**John 5:28-29**, ESV)
+
+> The word that I have spoken **will judge him on the last day**. (**John 12:48**, ESV)
+
+What is **present** in these warnings: the bare fact of judgment, exclusion ("you cannot come," "die in your sins"), perishing (*apollumi*), wrath that "remains."
+
+What is **conspicuously absent**: Gehenna, fiery furnace, outer darkness, weeping and gnashing, eternal-punishment formulas, any description of mechanism, duration, or experience. None of these appear when Jesus speaks to outsiders. They are reserved entirely for His warnings to those already inside the covenant community.
+
+The pattern is consistent. To outsiders, Jesus warns of **what they will not have** — life, the Father, the Kingdom, His company. To insiders, He warns about **what being cast out looks like** — weeping, gnashing, fire, darkness. In both cases, the wicked are described **from the outside** — as those without life (to outsiders) or as those cast out and angry (to insiders) — and **never from the inside** of their suffering.
+
+This is the heart of the fourth move. Jesus consistently refuses to give a metaphysical map of the wicked's inner experience — to *anyone*, in *any* audience. Once you see this, the entire eternal-conscious-torment-versus-annihilation-versus-separation debate looks like the church arguing about a question Jesus deflected, by reading insider-imagery and outsider-warnings alike as if they were maps of inner experience.
+
+**Notice also what Jesus refuses to do.**
+
+When asked "Lord, will those who are saved be few?" He answers, "Strive to enter through the narrow door" (Luke 13:23-24, ESV). He refuses the headcount question and pivots to action.
+
+When the disciples want to call down fire on the Samaritan village, He rebukes them (Luke 9:54-56). The instinct to specify others' damnation is the disciples' instinct, not His.
+
+When the disciples ask about the timing of the Kingdom, He answers, "It is not for you to know times or seasons that the Father has fixed by his own authority. But you will receive power..." (Acts 1:7-8, ESV). The pattern is consistent: do not speculate about what God has not told you. Receive power. Get on with the mission.
+
+When He stands above Jerusalem, knowing exactly where her people are headed, He does not describe their fate. He weeps over the city (Luke 19:41-44). His response to the lost is grief, not explanation.
+
+And when Paul stares at the question of his unbelieving Israelite kin, his response is not theological systematization but missionary anguish:
+
+> I have great sorrow and unceasing anguish in my heart. For I could wish that I myself were accursed and cut off from Christ for the sake of my brothers, my kinsmen according to the flesh. (**Romans 9:2-3**, ESV)
+
+**This is the fourth move.**
+
+Jesus appears to have been **deliberately silent** about the mechanism, duration, and inner experience of final judgment. He told us:
+
+- The Kingdom is real and is coming.
+- Some are inside it; some are excluded.
+- The excluded are angry and grieving — described from outside, never inside.
+
+He did not give us a metaphysical map. He gave us a mission.
+
+> The Son of Man came to seek and save the lost. (**Luke 19:10**, ESV)
+
+> For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. (**John 3:17**, ESV)
+
+The function of all the warning language — the fire, the darkness, the weeping, the gnashing — is not to make us confident cartographers of hell. It is to make us **grieve like Jesus grieved over Jerusalem** and to **go bring the Kingdom of God to those who have not yet entered it**.
+
+The obvious objection is whether this guts evangelistic urgency. The answer is that Jesus evangelized without that motivation. The mission flows from "the Kingdom is good and people belong inside it," not from "the alternative is bad and people must be rescued from it." The latter is not false, but it is not where the gospel's center of gravity sits in Jesus's own mouth. He did not threaten people into the Kingdom. He invited them, healed them, fed them, ate with them, and wept when they would not come.
+
+The three views remain honest disagreements among Bible-believing Christians. The fourth move says: *that may be the point.* Our energy is not for mapping the borders of judgment. It is for the Kingdom's advance — through us — into every life not yet inside it.
+
+> Your kingdom come, your will be done, on earth as it is in heaven. (**Matthew 6:10**, ESV)
 
 ---
 

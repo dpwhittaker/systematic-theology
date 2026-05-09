@@ -30,6 +30,8 @@ These handouts are designed for group study, personal reference, and printed use
 - [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife, asking whether "dying and going to heaven" reflects the biblical hope or a Greek import
   - 🎧 [Deep Dive (long, 56 min)](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
   - 🎧 [Deep Dive (medium, 23 min)](audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
+  - 🖼️ [Infographic (SVG)](handouts/infographics/heaven-hell-resurrection.svg) · [PNG](handouts/infographics/heaven-hell-resurrection.png)
+- [Where Are We Going? — A Discussion Guide](#handouts/where-are-we-going-discussion.md) — Socratic walkthrough of the same two questions (heaven and hell), built for group discussion: passages, questions, then synthesis
 
 ## Ethics
 

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" font-family="'Atkinson Hyperlegible', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="heavenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#f5dc8c"/>
+    </linearGradient>
+    <linearGradient id="kingdomGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2f1f"/>
+      <stop offset="55%" stop-color="#13573a"/>
+      <stop offset="100%" stop-color="#0d3d28"/>
+    </linearGradient>
+    <linearGradient id="cityGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff5b8"/>
+      <stop offset="100%" stop-color="#ffc857"/>
+    </linearGradient>
+    <linearGradient id="hellGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0d05"/>
+    </linearGradient>
+    <radialGradient id="emberGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ff7a3c" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ff7a3c" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrowDown" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L14,7 L0,14 L4,7 Z" fill="#ffd700"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L14,7 L0,14 L4,7 Z" fill="#7ed59d"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="1800" fill="#ffffff"/>
+
+  <!-- ============ TITLE ============ -->
+  <g>
+    <text x="600" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#0d0d0d">Heaven, Hell, and Resurrection</text>
+    <text x="600" y="98" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-style="italic" fill="#444">Where Are We Going?</text>
+    <text x="600" y="130" text-anchor="middle" font-size="13" letter-spacing="2" fill="#666">WHAT THE BIBLE ACTUALLY SAYS ABOUT THE AFTERLIFE</text>
+    <line x1="380" y1="148" x2="820" y2="148" stroke="#bbb" stroke-width="1"/>
+    <text x="600" y="170" text-anchor="middle" font-size="13" font-style="italic" fill="#555">popular: dying souls float up to heaven  ·  biblical: God comes down, dead are raised, earth renewed</text>
+  </g>
+
+  <!-- ============ HEAVEN PANEL ============ -->
+  <g>
+    <rect x="40" y="195" width="1120" height="425" fill="url(#heavenGrad)" stroke="#c9a32b" stroke-width="2" rx="10"/>
+    <!-- Banner -->
+    <text x="60" y="248" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#5b4400">HEAVEN</text>
+    <text x="60" y="278" font-size="15" font-style="italic" fill="#6e5300">"the waiting room, not the destination"</text>
+    <!-- right-side label -->
+    <text x="1140" y="248" text-anchor="end" font-size="13" letter-spacing="2" fill="#7a5a00">PART I</text>
+    <text x="1140" y="270" text-anchor="end" font-size="12" font-style="italic" fill="#7a5a00">heaven verses fall into 3 categories — none describe</text>
+    <text x="1140" y="285" text-anchor="end" font-size="12" font-style="italic" fill="#7a5a00">final destiny as disembodied souls</text>
+
+    <!-- Three columns -->
+    <!-- Col 1 -->
+    <g transform="translate(70,310)">
+      <rect width="345" height="280" fill="#ffffff" fill-opacity="0.72" stroke="#9e7a14" stroke-width="1" rx="6"/>
+      <circle cx="38" cy="40" r="22" fill="#c9a32b"/>
+      <text x="38" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">1</text>
+      <text x="76" y="35" font-size="16" font-weight="700" fill="#3a2c00">INTERMEDIATE STATE</text>
+      <text x="76" y="55" font-size="12" font-style="italic" fill="#5e4a00">between death and resurrection</text>
+      <line x1="20" y1="78" x2="325" y2="78" stroke="#c9a32b" stroke-width="0.7"/>
+      <g font-size="12" fill="#222">
+        <text x="20" y="98"><tspan font-weight="700">Luke 23:43</tspan> — "today...Paradise"</text>
+        <text x="20" y="118"><tspan font-weight="700">2 Cor 5:1-8</tspan> — tent → building</text>
+        <text x="34" y="135" font-style="italic" fill="#555">tabernacle → temple, not body → spirit</text>
+        <text x="20" y="158"><tspan font-weight="700">Phil 1:23</tspan> — "depart and be with Christ"</text>
+        <text x="20" y="178"><tspan font-weight="700">Rev 6:9-11</tspan> — martyrs cry "How long?"</text>
+        <text x="34" y="195" font-style="italic" fill="#555">they wait. they are not finished.</text>
+      </g>
+      <rect x="20" y="218" width="305" height="48" fill="#fff5d4" stroke="#c9a32b" rx="4"/>
+      <text x="172" y="238" text-anchor="middle" font-size="11" font-weight="700" fill="#5b4400">REAL · CONSCIOUS · TEMPORARY</text>
+      <text x="172" y="256" text-anchor="middle" font-size="11" font-style="italic" fill="#5b4400">Paul calls it "naked / unclothed"</text>
+    </g>
+
+    <!-- Col 2 -->
+    <g transform="translate(427,310)">
+      <rect width="345" height="280" fill="#ffffff" fill-opacity="0.72" stroke="#9e7a14" stroke-width="1" rx="6"/>
+      <circle cx="38" cy="40" r="22" fill="#c9a32b"/>
+      <text x="38" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">2</text>
+      <text x="76" y="35" font-size="16" font-weight="700" fill="#3a2c00">STORED IN HEAVEN</text>
+      <text x="76" y="55" font-size="12" font-style="italic" fill="#5e4a00">heaven as vault, not address</text>
+      <line x1="20" y1="78" x2="325" y2="78" stroke="#c9a32b" stroke-width="0.7"/>
+      <g font-size="12" fill="#222">
+        <text x="20" y="98"><tspan font-weight="700">1 Pet 1:4-5</tspan> — inheritance kept...</text>
+        <text x="34" y="115" font-style="italic" fill="#555">"ready to be revealed in the last time"</text>
+        <text x="20" y="138"><tspan font-weight="700">Col 1:5</tspan> — hope laid up</text>
+        <text x="20" y="158"><tspan font-weight="700">Matt 6:20</tspan> — treasures stored</text>
+        <text x="34" y="175" font-style="italic" fill="#555">heaven = safest vault in universe</text>
+      </g>
+      <!-- vault icon -->
+      <g transform="translate(135,193)">
+        <rect x="0" y="0" width="75" height="52" fill="#c9a32b" stroke="#5b4400" stroke-width="2" rx="4"/>
+        <circle cx="37.5" cy="26" r="14" fill="#fff5d4" stroke="#5b4400" stroke-width="1.5"/>
+        <circle cx="37.5" cy="26" r="3.5" fill="#5b4400"/>
+        <line x1="37.5" y1="12" x2="37.5" y2="40" stroke="#5b4400" stroke-width="1.2"/>
+        <line x1="23.5" y1="26" x2="51.5" y2="26" stroke="#5b4400" stroke-width="1.2"/>
+      </g>
+      <text x="172" y="262" text-anchor="middle" font-size="11" font-weight="700" fill="#5b4400">DELIVERED TO US AT THE END</text>
+    </g>
+
+    <!-- Col 3 -->
+    <g transform="translate(785,310)">
+      <rect width="345" height="280" fill="#ffffff" fill-opacity="0.72" stroke="#9e7a14" stroke-width="1" rx="6"/>
+      <circle cx="38" cy="40" r="22" fill="#c9a32b"/>
+      <text x="38" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">3</text>
+      <text x="76" y="35" font-size="16" font-weight="700" fill="#3a2c00">HEAVENLY ORIGIN</text>
+      <text x="76" y="55" font-size="12" font-style="italic" fill="#5e4a00">things that come <tspan font-weight="700">from</tspan> heaven <tspan font-weight="700">to</tspan> earth</text>
+      <line x1="20" y1="78" x2="325" y2="78" stroke="#c9a32b" stroke-width="0.7"/>
+      <g font-size="12" fill="#222">
+        <text x="20" y="98"><tspan font-weight="700">John 14:2-3</tspan> — "I will come again"</text>
+        <text x="34" y="115" font-style="italic" fill="#555">Christ comes back to us, not us to Him</text>
+        <text x="20" y="138"><tspan font-weight="700">Phil 3:20-21</tspan> — Savior comes from heaven</text>
+        <text x="34" y="155" font-style="italic" fill="#555">citizenship there; deliverer comes here</text>
+        <text x="20" y="178"><tspan font-weight="700">Heb 11:16</tspan> — a city God prepared</text>
+        <text x="34" y="195" font-style="italic" fill="#555">that city descends in Rev 21:2</text>
+      </g>
+      <text x="172" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#5b4400">DIRECTION: ↓ DOWN, NOT ↑ UP</text>
+    </g>
+
+    <text x="600" y="608" text-anchor="middle" font-size="13" font-style="italic" fill="#3a2c00">"Heaven is the waiting room. It is not the address."</text>
+  </g>
+
+  <!-- ============ CONNECTOR: WAITING → RESURRECTION ============ -->
+  <g>
+    <line x1="600" y1="625" x2="600" y2="660" stroke="#13573a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <text x="600" y="650" text-anchor="middle" font-size="11" font-weight="700" fill="#13573a" letter-spacing="2">WHEN CHRIST RETURNS ↓</text>
+  </g>
+
+  <!-- ============ MIDDLE PANEL: RESURRECTION / NEW EARTH ============ -->
+  <g>
+    <rect x="40" y="670" width="1120" height="700" fill="url(#kingdomGrad)" rx="10"/>
+    <text x="60" y="725" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#ffd700">RESURRECTION &amp; NEW EARTH</text>
+    <text x="60" y="755" font-size="15" font-style="italic" fill="#e8d28c">heaven comes down — God dwells with us — bodies are raised</text>
+    <text x="1140" y="725" text-anchor="end" font-size="13" letter-spacing="2" fill="#ffd700">PART II</text>
+    <text x="1140" y="747" text-anchor="end" font-size="12" font-style="italic" fill="#e8d28c">where Scripture's energy actually lives</text>
+
+    <!-- Central diagram: God comes DOWN, dead rise UP, meet in middle -->
+    <g transform="translate(0,775)">
+      <!-- Heaven cloud at top (small) -->
+      <g transform="translate(425,0)">
+        <rect x="0" y="0" width="350" height="58" fill="url(#cityGrad)" stroke="#ffd700" stroke-width="1.5" rx="6"/>
+        <text x="175" y="25" text-anchor="middle" font-size="13" font-weight="700" fill="#3a2c00">NEW JERUSALEM</text>
+        <text x="175" y="45" text-anchor="middle" font-size="11" font-style="italic" fill="#5b4400">"coming down out of heaven from God" — Rev 21:2</text>
+      </g>
+      <!-- Down arrows -->
+      <g stroke="#ffd700" stroke-width="3" fill="none" marker-end="url(#arrowDown)">
+        <line x1="490" y1="62" x2="490" y2="118"/>
+        <line x1="600" y1="62" x2="600" y2="118"/>
+        <line x1="710" y1="62" x2="710" y2="118"/>
+      </g>
+      <!-- Earth band (renewed) -->
+      <g transform="translate(60,128)">
+        <rect width="1080" height="78" fill="#1f7a4d" stroke="#7ed59d" stroke-width="1.5" rx="6"/>
+        <text x="540" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#fff8e1">EARTH RENEWED — God dwells with humanity (Rev 21:3)</text>
+        <text x="540" y="56" text-anchor="middle" font-size="13" font-style="italic" fill="#cdebd5">building, planting, feasting, reigning · resurrection bodies in a resurrection world · Rev 5:10 "they shall reign on the earth"</text>
+      </g>
+      <!-- Up arrows from graves -->
+      <g stroke="#7ed59d" stroke-width="3" fill="none" marker-end="url(#arrowGreen)">
+        <line x1="200" y1="288" x2="200" y2="222"/>
+        <line x1="320" y1="288" x2="320" y2="222"/>
+        <line x1="440" y1="288" x2="440" y2="222"/>
+      </g>
+      <text x="320" y="310" text-anchor="middle" font-size="12" font-weight="700" fill="#7ed59d" letter-spacing="2">DEAD RAISED IN BODIES</text>
+
+      <!-- Meeting in air (apantesin) -->
+      <g transform="translate(680,222)">
+        <rect width="460" height="108" fill="#0d3d28" stroke="#ffd700" stroke-width="1.5" rx="6"/>
+        <text x="230" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#ffd700">"CAUGHT UP TO MEET HIM"  ·  1 Thess 4:17</text>
+        <text x="230" y="48" text-anchor="middle" font-size="12" fill="#e8d28c">Greek <tspan font-style="italic">apantēsin</tspan> = civic welcoming party</text>
+        <text x="230" y="66" text-anchor="middle" font-size="12" fill="#e8d28c">citizens go OUT to meet the king...</text>
+        <text x="230" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">...and ESCORT HIM BACK to the city</text>
+        <text x="230" y="100" text-anchor="middle" font-size="11" font-style="italic" fill="#cdebd5">not evacuation — coronation parade</text>
+      </g>
+    </g>
+
+    <!-- Three sub-panels: Bodily / Glorified-not-Deified / New Earth promises -->
+    <g transform="translate(60,1112)">
+      <!-- Panel A: Bodily Resurrection -->
+      <g>
+        <rect width="345" height="240" fill="#0a2f1f" stroke="#7ed59d" stroke-width="1.2" rx="6"/>
+        <text x="20" y="32" font-size="15" font-weight="700" fill="#ffd700">BODILY · NOT DISEMBODIED</text>
+        <line x1="20" y1="44" x2="325" y2="44" stroke="#7ed59d" stroke-width="0.5"/>
+        <g font-size="11.5" fill="#e6e6e6">
+          <text x="20" y="64"><tspan font-weight="700" fill="#ffd700">Job 19:26</tspan> — "in my flesh I shall see God"</text>
+          <text x="20" y="84"><tspan font-weight="700" fill="#ffd700">Isa 26:19</tspan> — "their bodies shall rise"</text>
+          <text x="20" y="104"><tspan font-weight="700" fill="#ffd700">Dan 12:2</tspan> — "those who sleep in dust shall awake"</text>
+          <text x="20" y="124"><tspan font-weight="700" fill="#ffd700">Ezek 37</tspan> — bones, sinew, flesh; placed in land</text>
+          <text x="20" y="144"><tspan font-weight="700" fill="#ffd700">John 11:25</tspan> — "I AM the resurrection"</text>
+          <text x="34" y="160" font-style="italic" fill="#a8d8b6">Jesus didn't say "I am the ticket to heaven"</text>
+          <text x="20" y="180"><tspan font-weight="700" fill="#ffd700">Rom 8:23</tspan> — redemption OF bodies, not FROM</text>
+          <text x="20" y="200"><tspan font-weight="700" fill="#ffd700">1 Cor 15:44</tspan> — <tspan font-style="italic">soma pneumatikon</tspan>: spiritual</text>
+          <text x="34" y="216" fill="#a8d8b6"><tspan font-style="italic">body</tspan>, not "spirit without body"</text>
+        </g>
+      </g>
+      <!-- Panel B: Glorified not Deified -->
+      <g transform="translate(367,0)">
+        <rect width="345" height="240" fill="#0a2f1f" stroke="#7ed59d" stroke-width="1.2" rx="6"/>
+        <text x="20" y="32" font-size="15" font-weight="700" fill="#ffd700">GLORIFIED · NOT DEIFIED</text>
+        <line x1="20" y1="44" x2="325" y2="44" stroke="#7ed59d" stroke-width="0.5"/>
+        <text x="20" y="62" font-size="11" font-style="italic" fill="#a8d8b6">raised like Christ ≠ becoming gods</text>
+        <g font-size="11.5" fill="#e6e6e6">
+          <text x="20" y="84"><tspan font-weight="700" fill="#ffd700">1.</tspan> native vs. derivative — vine &amp; branches (Jn 15:5)</text>
+          <text x="20" y="104"><tspan font-weight="700" fill="#ffd700">2.</tspan> essence vs. energies — iron in fire (2 Pet 1:4)</text>
+          <text x="20" y="124"><tspan font-weight="700" fill="#ffd700">3.</tspan> image vs. equality — coin ≠ Caesar (Rom 8:29)</text>
+          <text x="20" y="144"><tspan font-weight="700" fill="#ffd700">4.</tspan> worshipers, not worshiped (Rev 22:9)</text>
+          <text x="20" y="164"><tspan font-weight="700" fill="#ffd700">5.</tspan> reigning <tspan font-style="italic">with</tspan>, not <tspan font-style="italic">as</tspan> (Rev 3:21)</text>
+          <text x="20" y="184"><tspan font-weight="700" fill="#ffd700">6.</tspan> designed vessel vs. redeemed vessel (Heb 10:5)</text>
+          <text x="34" y="200" font-style="italic" fill="#a8d8b6">virgin conception, sinless from conception</text>
+        </g>
+        <rect x="20" y="208" width="305" height="24" fill="#13573a" stroke="#ffd700" stroke-width="0.7" rx="3"/>
+        <text x="172.5" y="225" text-anchor="middle" font-size="11" font-weight="700" fill="#fff8e1">creature/Creator line never collapses</text>
+      </g>
+      <!-- Panel C: New Earth -->
+      <g transform="translate(734,0)">
+        <rect width="345" height="240" fill="#0a2f1f" stroke="#7ed59d" stroke-width="1.2" rx="6"/>
+        <text x="20" y="32" font-size="15" font-weight="700" fill="#ffd700">NEW EARTH · NOT EVACUATION</text>
+        <line x1="20" y1="44" x2="325" y2="44" stroke="#7ed59d" stroke-width="0.5"/>
+        <g font-size="11.5" fill="#e6e6e6">
+          <text x="20" y="64"><tspan font-weight="700" fill="#ffd700">Isa 65:21</tspan> — "build houses · plant vineyards"</text>
+          <text x="20" y="84"><tspan font-weight="700" fill="#ffd700">Rom 8:21</tspan> — creation set free, not destroyed</text>
+          <text x="20" y="104"><tspan font-weight="700" fill="#ffd700">Col 1:20</tspan> — "all things" reconciled</text>
+          <text x="20" y="124"><tspan font-weight="700" fill="#ffd700">2 Pet 3:13</tspan> — new earth where righteousness dwells</text>
+          <text x="20" y="144"><tspan font-weight="700" fill="#ffd700">Rev 21:2-3</tspan> — God's dwelling WITH man</text>
+          <text x="20" y="164"><tspan font-weight="700" fill="#ffd700">Rev 21:24</tspan> — nations · kings · culture</text>
+          <text x="20" y="184"><tspan font-weight="700" fill="#ffd700">Rev 22:1-2</tspan> — river · tree of life · Eden++</text>
+          <text x="20" y="204"><tspan font-weight="700" fill="#ffd700">Zech 14:4</tspan> — His feet on the Mt. of Olives</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ CONNECTOR ============ -->
+  <g>
+    <line x1="600" y1="1378" x2="600" y2="1410" stroke="#7a3a1a" stroke-width="3" marker-end="url(#arrowDown)"/>
+    <text x="600" y="1402" text-anchor="middle" font-size="11" font-weight="700" fill="#7a3a1a" letter-spacing="2">WHAT ABOUT THE WICKED?</text>
+  </g>
+
+  <!-- ============ HELL PANEL ============ -->
+  <g>
+    <rect x="40" y="1418" width="1120" height="345" fill="url(#hellGrad)" rx="10"/>
+    <ellipse cx="220" cy="1620" rx="180" ry="60" fill="url(#emberGrad)"/>
+    <ellipse cx="980" cy="1640" rx="160" ry="50" fill="url(#emberGrad)"/>
+
+    <text x="60" y="1470" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#e8a87c">HELL</text>
+    <text x="60" y="1498" font-size="15" font-style="italic" fill="#c89070">destruction, not eternal torture-chamber</text>
+    <text x="1140" y="1470" text-anchor="end" font-size="13" letter-spacing="2" fill="#e8a87c">PART III</text>
+    <text x="1140" y="1492" text-anchor="end" font-size="12" font-style="italic" fill="#c89070">four words → four meanings · three orthodox views</text>
+
+    <!-- Vocabulary row -->
+    <g transform="translate(60,1515)">
+      <rect width="528" height="138" fill="#241510" stroke="#7a3a1a" stroke-width="1" rx="5"/>
+      <text x="14" y="22" font-size="13" font-weight="700" fill="#e8a87c">FOUR WORDS · TRANSLATED "HELL"</text>
+      <g font-size="11.5" fill="#e0c8b8">
+        <text x="14" y="46"><tspan font-weight="700" fill="#ffb380">1. SHEOL</tspan> (Heb) · the grave · all dead</text>
+        <text x="28" y="62" font-style="italic" fill="#b89890">silence, not torment (Eccl 9:10)</text>
+        <text x="14" y="84"><tspan font-weight="700" fill="#ffb380">2. HADES</tspan> (Gr) · NT equivalent</text>
+        <text x="28" y="100" font-style="italic" fill="#b89890">itself destroyed in Rev 20:14</text>
+        <text x="14" y="122"><tspan font-weight="700" fill="#ffb380">3. GEHENNA</tspan> · Jerusalem garbage dump</text>
+      </g>
+      <g font-size="11.5" fill="#e0c8b8" transform="translate(268,0)">
+        <text x="14" y="46"><tspan font-weight="700" fill="#ffb380">4. TARTARUS</tspan> · fallen angels only</text>
+        <text x="28" y="62" font-style="italic" fill="#b89890">2 Pet 2:4 — not a human destination</text>
+        <line x1="0" y1="74" x2="248" y2="74" stroke="#7a3a1a" stroke-width="0.7" stroke-dasharray="3,2"/>
+        <text x="14" y="92"><tspan font-weight="700" fill="#ffb380">LAKE OF FIRE</tspan> · "the second death"</text>
+        <text x="28" y="108" font-style="italic" fill="#b89890">Rev 20:14 — the final dying</text>
+        <text x="14" y="128"><tspan font-weight="700" fill="#ffb380">apollumi</tspan> = destroy (Matt 10:28)</text>
+      </g>
+    </g>
+
+    <!-- Three views -->
+    <g transform="translate(610,1515)">
+      <rect width="530" height="138" fill="#241510" stroke="#7a3a1a" stroke-width="1" rx="5"/>
+      <text x="14" y="22" font-size="13" font-weight="700" fill="#e8a87c">THREE ORTHODOX VIEWS</text>
+      <g font-size="11" fill="#e0c8b8">
+        <text x="14" y="44"><tspan font-weight="700" fill="#ffb380">A · Eternal Conscious Torment</tspan></text>
+        <text x="14" y="60" fill="#b89890">forever suffering · Augustine, Calvin</text>
+        <text x="14" y="76" fill="#b89890">strongest text: Rev 14:11</text>
+        <text x="14" y="100"><tspan font-weight="700" fill="#ffb380">B · Annihilation / Conditional Immortality</tspan></text>
+        <text x="14" y="116" fill="#b89890">destroyed, cease to exist</text>
+        <text x="14" y="130" fill="#b89890">Stott, Fudge · Matt 10:28; 2 Thess 1:9</text>
+      </g>
+      <g font-size="11" fill="#e0c8b8" transform="translate(268,0)">
+        <text x="14" y="44"><tspan font-weight="700" fill="#ffb380">C · Eternal Separation (Relational)</tspan></text>
+        <text x="14" y="60" fill="#b89890">existence apart from God · C.S. Lewis</text>
+        <text x="14" y="76" fill="#b89890">may complement A or B</text>
+        <text x="14" y="100" font-style="italic" fill="#b89890">"eternal" (aionios) often =</text>
+        <text x="14" y="116" font-style="italic" fill="#b89890">permanent <tspan font-style="normal" font-weight="700" fill="#ffb380">result</tspan>, not endless <tspan font-style="normal" font-weight="700" fill="#ffb380">process</tspan></text>
+        <text x="14" y="130" font-style="italic" fill="#b89890">cf. eternal redemption / judgment</text>
+      </g>
+    </g>
+
+    <!-- Bottom emphasis bar -->
+    <g transform="translate(60,1673)">
+      <rect width="1080" height="74" fill="#3a2418" stroke="#e8a87c" stroke-width="1.2" rx="5"/>
+      <text x="540" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#ffd1a8" letter-spacing="2">RICH MAN &amp; LAZARUS · GEHENNA · LAKE OF FIRE</text>
+      <text x="540" y="48" text-anchor="middle" font-size="12" fill="#e0c8b8">parable using stock Jewish imagery · Jesus' point: listen to Moses &amp; Prophets <tspan font-style="italic">now</tspan> (Luke 16:31)</text>
+      <text x="540" y="66" text-anchor="middle" font-size="12" fill="#e0c8b8">"Sodom &amp; Gomorrah" (Jude 7) — fire's <tspan font-weight="700" fill="#ffd1a8">result</tspan> is eternal · Sodom isn't still burning</text>
+    </g>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <g transform="translate(0,1768)">
+    <line x1="60" y1="0" x2="1140" y2="0" stroke="#999" stroke-width="0.5"/>
+    <text x="60" y="20" font-size="11" fill="#444"><tspan font-weight="700">Source:</tspan> handouts/heaven-hell-resurrection.md  ·  systematictheology · all Scripture refs ESV unless noted</text>
+    <text x="1140" y="20" text-anchor="end" font-size="11" font-style="italic" fill="#444">Not escape from creation. Its redemption.</text>
+  </g>
+</svg>
