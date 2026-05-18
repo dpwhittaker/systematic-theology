@@ -131,6 +131,12 @@ But "submission" here cannot be read against the grain of Genesis 2. The wife Pa
 ===
 ## VII. Synthesis: Equal-but-Different, Precisely Defined
 
+The whole picture compresses into a single line:
+
+> **A wife should submit to a husband who would die for her — and in that submission, expose the desires of his that are not focused on the Kingdom (that is, on everyone else).**
+
+Both halves are load-bearing. *Submit* — because the Christ-church icon requires the asymmetric posture. *To a husband who would die for her* — because the only headship Scripture authorizes is the cruciform kind, and a husband unwilling to die for her has forfeited the role he is asking her to honor. *Expose the desires not focused on the Kingdom* — because that is what *ezer kenegdo* actually does: the counterweight makes visible the conquest-drift, the self-interest, the small ambitions that creep in whenever male initiative is left unopposed. Submission without exposure becomes silent complicity. Exposure without submission becomes rivalry. The biblical marriage is the union of the two: a trusting posture from which the wife names what the husband cannot see in himself, oriented by the Kingdom and the good of everyone else.
+
 After all of this, what can be said with precision? The egalitarian wins are real and should not be surrendered. The complementarian instincts are also real and should not be dismissed. The settled biblical picture is neither of the two slogans the modern church usually fights about — *not* a flat interchangeability of sexes in every role, *not* a hierarchy of value in which women are spiritually or intellectually subordinate. It is a third thing, harder to slogan-ize but more faithful to the text.
 
 **In the family:**

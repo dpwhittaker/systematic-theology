@@ -1685,3 +1685,13 @@ Threaded the "ezer kenegdo = help that opposes" reading through the women-in-fam
 4. §VI.6 (female counterweight) — extended to name ezer kenegdo as canonical pattern: Israel-as-wife, Mary-as-yes-opposing-Eve's-no, church-as-bride. Female pole consistently meets/balances/corrects male initiating-conquering motion across the whole story.
 
 5. §VII synthesis — new bullet "Asymmetric as counterweight — ezer kenegdo" sits alongside the existing headship/submission and childbearing bullets. Names submission-plus-opposition as the design feature, not a contradiction.
+
+---
+
+Added user's one-line distillation as the opening thesis of §VII, set off as a blockquote, with a short paragraph unpacking why both halves are load-bearing:
+
+- *Submit* — Christ-church icon requires asymmetric posture
+- *To a husband who would die for her* — only cruciform headship is authorized; husband unwilling to die has forfeited the role
+- *Expose desires not focused on the Kingdom* — what ezer kenegdo actually does; counterweight makes visible the conquest-drift, self-interest, small ambitions that creep in when male initiative is unopposed
+
+Submission without exposure = silent complicity. Exposure without submission = rivalry. Biblical marriage = union of both.

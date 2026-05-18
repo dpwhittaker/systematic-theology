@@ -343,3 +343,7 @@ next topic: Women in the family and ministry. Following the basic hermeneutic of
 ---
 
 ezer kenegdo - the help that opposes. Man is incompolete - he cannot be the ruler God intends without an opposing force balancing his push for raw conquest with a spirit that longs for relationship. Integrate this concept into the creation narrative, and anywhere else it fits.
+
+---
+
+That is powerful. Perhaps a summary would be Women should submit to men that would die for her, and in that submission should expose the man's desires that are not focused on the Kingdom (everyone else).
