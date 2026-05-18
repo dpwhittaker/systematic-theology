@@ -1653,3 +1653,21 @@ IX. Putting It All Together (five-act biblical story, what happens when you die,
 X. For Further Study
 
 Linked from data/eschatology/eschatology.md.
+
+---
+
+Created handout `handouts/women-in-family-and-ministry.md` and linked it from `handouts/index.md` under Ethics.
+
+The handout grants the user's framing — modern cultural-context exegesis of 1 Cor 14, 1 Tim 2 (Artemis cult), Eph 5 (subverted household codes), kephalē-as-source, etc. — as baseline. From there it maps the residual asymmetries that survive even the most generous egalitarian reading, organized as:
+
+I. Creation Asymmetry (Gen 1–2: equal image, asymmetric formation, naming, ezer kenegdo, representative responsibility)
+II. Headship in Marriage (Eph 5, Col 3, 1 Pet 3, 1 Cor 11:3 — mutual submission qualifies but does not erase the named asymmetry)
+III. Childbearing and Embodied Difference (1 Tim 2:15, Titus 2, Prov 31, the theological density of the maternal vocation)
+IV. The Teaching and Authority Restriction (1 Tim 2:11–15 — Paul's appeal is to creation order and the fall, not to Ephesian culture)
+V. Eldership and the Apostolic Pattern (1 Tim 3, Titus 1, the Twelve, Junia/Phoebe/Priscilla as real but bounded counterweights)
+VI. Symbolic and Liturgical Asymmetry (God as Father/Husband/Bridegroom, church as bride, male Incarnation, male priesthood)
+VII. Synthesis: equal-but-different precisely defined — broad equality of gifts and ministries, narrow asymmetry in marriage headship and the settled eldership office. Names exactly what hard egalitarians and hard complementarians each have to suppress, and stakes a mediating position grounded in creation rather than culture.
+
+Further Study section follows the established inline-semicolon format: egalitarian case, complementarian case, mediating/historical, key exegetical studies, primary theological texts.
+
+Page breaks (===) placed as initial guesses — needs the standard PDF + analyze-pdf-pages pass before finalizing.
