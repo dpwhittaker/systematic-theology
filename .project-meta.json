@@ -2,5 +2,8 @@
   "name": "systematic-theology",
   "createdAt": "2026-05-04T01:50:16-05:00",
   "openUrl": "/theology/",
+  "proxyTarget": "http://127.0.0.1:8000",
+  "proxyPrefix": "/theology",
+  "stripPrefix": true,
   "extraUnits": ["systematic-theology.service"]
 }

@@ -1671,3 +1671,17 @@ VII. Synthesis: equal-but-different precisely defined — broad equality of gift
 Further Study section follows the established inline-semicolon format: egalitarian case, complementarian case, mediating/historical, key exegetical studies, primary theological texts.
 
 Page breaks (===) placed as initial guesses — needs the standard PDF + analyze-pdf-pages pass before finalizing.
+
+---
+
+Threaded the "ezer kenegdo = help that opposes" reading through the women-in-family-and-ministry handout in four places:
+
+1. §I.5 expanded — full treatment of kenegdo from neged ("opposite, over against, facing"), reframes ezer kenegdo as "rescuing strength that stands opposite." Man left alone tilts toward raw conquest without relation; God builds a counterweight whose role is dialectical, not deferential. Asymmetry of direction (she made for his need) preserved; nature of the help reframed as opposition-in-trust.
+
+2. §I summary — headship reframed: not "default ruler with optional companion" but "diagnosed-incomplete creature who needs a counterweight built specifically to resist the worst tendencies of male rule." Connects creation-order grounding to the shape that grounding actually produces.
+
+3. §II summary — wife's submission cannot dissolve the very opposition God designed her to provide. Submission and opposition are not contradictions; the wife "trusts by leaning in while still pulling against him where his conquest instincts need pulling against." Husband's sacrificial-love command targets exactly the tyranny ezer kenegdo exists to oppose.
+
+4. §VI.6 (female counterweight) — extended to name ezer kenegdo as canonical pattern: Israel-as-wife, Mary-as-yes-opposing-Eve's-no, church-as-bride. Female pole consistently meets/balances/corrects male initiating-conquering motion across the whole story.
+
+5. §VII synthesis — new bullet "Asymmetric as counterweight — ezer kenegdo" sits alongside the existing headship/submission and childbearing bullets. Names submission-plus-opposition as the design feature, not a contradiction.

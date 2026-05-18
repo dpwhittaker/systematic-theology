@@ -339,3 +339,7 @@ I'm thinking about adding a handout on heaven and hell. First let's do a deep di
 ---
 
 next topic: Women in the family and ministry. Following the basic hermeneutic of this series, I think it's pretty clear that women will end up roughly equal to men. The passages that seem to denigrate them below men (e.g. Corinthians) are speaking to a rare culture where women are educated, but educated in the temple of Athena/Aphrodite. They are not permitted to speak in synagogue among men who are educated in Tanakh. My audience will simply agree with these facts and find them boring. I want to focus in on passages where, even in light of the most modern scholarship, there are still differences (even equal-but-different differences) between men and women. Let's try to precisely define the role of women in the family and ministry in a way that upholds their equality with men in the broad strokes, but also defines their different roles from men in the details.
+
+---
+
+ezer kenegdo - the help that opposes. Man is incompolete - he cannot be the ruler God intends without an opposing force balancing his push for raw conquest with a spirit that longs for relationship. Integrate this concept into the creation narrative, and anywhere else it fits.
