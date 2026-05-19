@@ -1731,3 +1731,30 @@ Significant repositioning of the handout. Added §V "Interlude: The Dating Doubl
    - Final paragraph: "broad equality of gifts and ministries, narrow asymmetry in marriage and in the canonical symbolic grammar, with the eldership pattern as an open question that the broader apostolic pattern leans into but cannot fully decide." Explicit acknowledgment that "the eldership question is less settled than older readings claimed, and honesty requires saying so."
 
 7. **Further Study** — added Kroeger, Sandra Glahn's *Nobody's Mother* (current Artemis-cult scholarship), Köstenberger/Schreiner/Baldwin (counter-case with Baldwin's lexical database), Bauer/Pagels/DeConick/Strack-Stemberger (methodological background on retrojection).
+
+---
+
+Drafted new §VII "Pastor, Elder, Overseer: One Office in Three Lenses." Renumbered Symbolic Asymmetry → §VIII, Synthesis → §IX. Threaded the implications through §IV closing, §VI closing, §IX synthesis, and Further Study.
+
+**§VII content (11 numbered items):**
+
+1. Three Greek terms — presbyteros (person), episkopos (function), poimēn (image) — naming one office under different lenses
+2. Smoking-gun same-office passages (Acts 20:17,28; Titus 1:5–7; 1 Pet 5:1–2; Phil 1:1; 1 Tim 3 + 5:17)
+3. Synthesis: elder = overseer = shepherd; no separate "pastor" class in NT
+4. Eph 4:11 Granville Sharp construction — shepherds-and-teachers as combined class, not separate gifts
+5. Plurality as structural feature of NT eldership (Acts 14:23, Titus 1:5, James 5:14, Phil 1:1)
+6. First-among-equals teaching elder (1 Tim 5:17) — recognized for labor, not promoted above council
+7. Deacons as separate office, not under-eldership; Phoebe as precedent
+8. Historical accretions producing modern Senior Pastor model — Reformation teaching/ruling elder split, frontier circuit-rider, 20th-c. professionalization, mega-church CEO import (Drucker/Buford/Leadership Network), American executive instinct
+9. Ezer kenegdo at the church level — counterweight function distributed across plural eldership, horizontal accountability, apostolic-band-shape not marriage-shape
+10. **The "teaching pastor" edge case — three configurations:**
+    - (a) Lead elder who teaches most — collapses into women-elder question
+    - (b) **Paid staff teaching pastor outside elder council — face but not head.** Novel category; maps onto NT prophet-teacher role (Philip's daughters, Anna, 1 Cor 11:5 women prophets, Priscilla). 1 Tim 2:12 targets *didaskein + authentein*; strip the *authentein* (governance) and what remains is *didaskein* (teaching), which the NT freely grants to women. Almost no biblical objection survives §V. Honest caveat: pulpit carries functional authority even without vote-rights, so symbolic-grammar argument of §VIII applies with reduced force.
+    - (c) Itinerant/visiting preacher — unambiguously open; Priscilla model
+11. What the eldership is and is not — crystallized
+
+**§VII closing — what survives, what doesn't:** CEO/Board model was secretly carrying much of the complementarian intuition. Once dissolved into actual biblical collegial eldership, the "woman pastor" question splits into three configurations with different answers. Configuration (b) — face but not head — faces very thin biblical objection. The Bible patterns plural male eldership with primary-teaching specialization, alongside open prophetic/teaching ministry by women.
+
+**§IX synthesis updated:** New bullets for diaconate (open), pastor/elder distinction, three configurations (a/b/c) each with its own answer. Hard complementarian now has to surrender (i) the 1 Tim 2:12 universal-decree move AND (ii) the Senior Pastor/CEO assumption.
+
+**Further Study** — added Strauch, Merkle, Hammett, Newton/Schmucker for eldership; Peterson, Wells, Jethani for the pastor-as-CEO critique.

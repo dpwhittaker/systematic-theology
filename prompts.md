@@ -351,3 +351,7 @@ That is powerful. Perhaps a summary would be Women should submit to men that wou
 ---
 
 Do it. These are cornerstone verses and we have significantly changed our understanding of them. Look for other places in the handout where this change in viewpoint should also alter our wording or entire position.
+
+---
+
+Yes, draft a new section. Deal with the "teaching pastor" edge case - a pastor whose sole function is preaching - the "face" but not the "head" of the church.
