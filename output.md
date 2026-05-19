@@ -1695,3 +1695,39 @@ Added user's one-line distillation as the opening thesis of §VII, set off as a 
 - *Expose desires not focused on the Kingdom* — what ezer kenegdo actually does; counterweight makes visible the conquest-drift, self-interest, small ambitions that creep in when male initiative is unopposed
 
 Submission without exposure = silent complicity. Exposure without submission = rivalry. Biblical marriage = union of both.
+
+---
+
+Significant repositioning of the handout. Added §V "Interlude: The Dating Double Standard" and propagated the implications through §IV, §VI (formerly §V), §VII (formerly §VI), §VIII (formerly §VII), the intro, and Further Study.
+
+**Key changes:**
+
+1. **Intro** — added a flag that the position will shift mid-handout because of the methodological move in §V.
+
+2. **§IV (Teaching/Authority Restriction)** —
+   - Italic intro rewritten. No longer says "Paul gave a structural argument and we can't pretend otherwise"; now says both readings will be walked through.
+   - §IV.4 ("appeal to creation, not culture") completely reframed as "appeal to creation — and what it might be correcting." Names the Kroeger thesis, the Nag Hammadi Eve-instructress texts, the proto-gnostic streams Paul himself names as present in Ephesus.
+   - §IV.5 ("appeal to the fall") reframed — Eve's "deception" reads against the Gnostic stream that called the same scene enlightenment.
+   - New §IV.7 — "Saved through childbearing" as anti-cult correction (1 Tim 4:3 anti-marriage opponents).
+   - Closing paragraph: "less than the older complementarian reading claimed, and the revision matters." 1 Tim 2:12 no longer functions as a universal decree.
+
+3. **§V — new section: "Interlude: The Dating Double Standard"** — full case for the methodological asymmetry:
+   - Rabbinic literature compiled 200–600 CE, but routinely retrojected to 1st c. (Hillel, Shammai, Gamaliel)
+   - Nag Hammadi compiled 2nd–4th c., but refused the same retrojection
+   - Lists the 1st-c. attestations Paul himself provides for proto-gnostic streams at Ephesus and in its orbit (Simon Magus, Nicolaitans, Cerinthus, anti-marriage asceticism, falsely-called gnosis, myths and genealogies, docetism in 1–2 John)
+   - Acknowledges what's defensible about the rabbinic-vs-Gnostic asymmetry (institutional continuity, genre) and what isn't (Bauer/Pagels-era critique, confessional self-interest, sourcing politics)
+   - Concedes that the Baldwin authentein database still constrains the Kroeger lexical case
+   - Notes Corinth/Aphrodite parallel for 1 Cor 11 and 1 Cor 14
+
+4. **§VI (Eldership)** —
+   - Italic intro completely rewritten. The Pastorals' "husband of one wife" qualifications are now read inside the same Ephesian polemic, not as universal decrees.
+   - Closing paragraph: the apostolic-pattern case for male eldership now has to rest on the Twelve, the broader pattern, and the symbolic grammar of §VII — not on 1 Tim 3 as a free-standing decree. "Real weakening of the traditional complementarian case, and naming it honestly is part of what reading these texts in their actual first-century environment costs us."
+
+5. **§VII (Symbolic Asymmetry)** — closing strengthened to explicitly identify this section as where the universal residue actually lives, since it is not occasion-bound.
+
+6. **§VIII (Synthesis)** —
+   - "In ministry" bullets rewritten. New bullet explicitly stating the Pastorals' restrictions are occasion-specific. New bullet stating the broader pattern remains but is "a pattern, not a prohibition." New bullet locating the universal residue in the symbolic grammar.
+   - "Shape of the disagreement" rewritten — hard egalitarian still has to account for pattern + embodied difference + symbolic grammar; hard complementarian surrenders the easy 1 Tim 2:12 proof-text move.
+   - Final paragraph: "broad equality of gifts and ministries, narrow asymmetry in marriage and in the canonical symbolic grammar, with the eldership pattern as an open question that the broader apostolic pattern leans into but cannot fully decide." Explicit acknowledgment that "the eldership question is less settled than older readings claimed, and honesty requires saying so."
+
+7. **Further Study** — added Kroeger, Sandra Glahn's *Nobody's Mother* (current Artemis-cult scholarship), Köstenberger/Schreiner/Baldwin (counter-case with Baldwin's lexical database), Bauer/Pagels/DeConick/Strack-Stemberger (methodological background on retrojection).

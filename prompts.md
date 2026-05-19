@@ -347,3 +347,7 @@ ezer kenegdo - the help that opposes. Man is incompolete - he cannot be the rule
 ---
 
 That is powerful. Perhaps a summary would be Women should submit to men that would die for her, and in that submission should expose the man's desires that are not focused on the Kingdom (everyone else).
+
+---
+
+Do it. These are cornerstone verses and we have significantly changed our understanding of them. Look for other places in the handout where this change in viewpoint should also alter our wording or entire position.
