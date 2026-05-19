@@ -1758,3 +1758,25 @@ Drafted new §VII "Pastor, Elder, Overseer: One Office in Three Lenses." Renumbe
 **§IX synthesis updated:** New bullets for diaconate (open), pastor/elder distinction, three configurations (a/b/c) each with its own answer. Hard complementarian now has to surrender (i) the 1 Tim 2:12 universal-decree move AND (ii) the Senior Pastor/CEO assumption.
 
 **Further Study** — added Strauch, Merkle, Hammett, Newton/Schmucker for eldership; Peterson, Wells, Jethani for the pastor-as-CEO critique.
+
+---
+
+Added two new sections to the women handout. Structure now eleven sections:
+
+I. Creation Asymmetry
+II. Headship in Marriage
+**III. The Active Bride: What the Church Actually Does in the Kingdom** [NEW]
+IV. Childbearing and Embodied Difference
+V. The Teaching and Authority Restriction
+VI. Interlude: The Dating Double Standard
+VII. Eldership and the Apostolic Pattern
+VIII. Pastor, Elder, Overseer: One Office in Three Lenses
+IX. Symbolic and Liturgical Asymmetry
+**X. Trajectory: Real, Bounded, and Pointed at Mutuality** [NEW]
+XI. Synthesis
+
+§III "The Active Bride" reads the Eph 5 icon in both directions. The church-side of the Christ-church analogy is not "passive recipient" — it is the Spirit-empowered agent of the Kingdom: discerning, planting, governing, deciding doctrine (Acts 15), holding keys, suffering, evangelizing, creating. Twelve numbered items walking through Acts 13 Antioch sending, Jerusalem Council co-attribution with the Spirit, church planting without direct supervision, council-based doctrinal development, binding/loosing keys, "greater works than these," persecution and witness with deposited authority, Mary's agentic yes + Magnificat, Priscilla correcting Apollos, the eshet chayil running her enterprise, women acting decisively without husband-mediation (Deborah, Esther, Huldah, Junia, Phoebe, Lydia), and the eschatological bride speaking the last word of the canon (Rev 22:17). Closing applies this to the marriage icon: wife's role includes discernment, initiative, doctrinal voice, mission, keys, co-creativity, and speaking against husband's drift. The icon's asymmetry is preserved; the bride-side's content is expanded.
+
+§X "Trajectory" both defines and constrains the mainline trajectory hermeneutic. Eleven items: trajectory is real in Scripture itself; the women-trajectory evidence traced through the canon and history; N.T. Wright's five-act framework as sophisticated trajectory hermeneutics; trajectory does NOT terminate at female dominance (Gal 3:28 = neither, not female); Acts 15 as paradigm of trajectory with rails; trajectory must be Spirit-discerned not culturally extrapolated; canonical constraints (symbolic grammar §IX, embodied difference §IV, bidirectional icon §II–III, eschatological telos); slavery as the egalitarian's strongest analogy with its limits; the slippery-slope concern named honestly; the complementarian symmetric error of denying any trajectory exists; final destination — mutuality with iconic-distinctness preserved.
+
+Renumbered all §V–§IX cross-references (became §VI–§X). Updated intro to flag both new sections. Added bullet to synthesis "In the family" for agentic-bride reading. Added trajectory paragraph to synthesis closing. Added Wright, Webb, Vanhoozer, McCaulley, Newbigin, Coakley, Hays to Further Study.

@@ -355,3 +355,7 @@ Do it. These are cornerstone verses and we have significantly changed our unders
 ---
 
 Yes, draft a new section. Deal with the "teaching pastor" edge case - a pastor whose sole function is preaching - the "face" but not the "head" of the church.
+
+---
+
+Two more sections: 1) Christ is to church as husband is to wife - this is usually read as Jesus leads the church, so men lead the household. But let's look at the opposite direction. If women are to participate in their marriage in the same way the church is to participate in Jesus's Kingdom, what does that tell us?  The church isn't a passive, submissive participant in the Kingdom of God taking orders from Jesus, it's been given guidelines and actively seeks out new ways to spread the Kingdom. Likewise a wife might understand where her husband wants the family to go, but has full agency to actively push the family in that direction. 2) Trajectory - the "Mainline" church often points to trajectory - women were offered more and more freedoms and even leadership roles as the timeline progressed and the culture became more accepting of it. If you plot that on a graph and project it to the 21st century, then women are completely free and able to take all leadership roles - maybe even should become the dominant figure in the family and ministry, depending on how you define your axes. Let's both define and constrain this angle.
