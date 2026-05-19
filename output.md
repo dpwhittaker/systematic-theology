@@ -1780,3 +1780,29 @@ XI. Synthesis
 §X "Trajectory" both defines and constrains the mainline trajectory hermeneutic. Eleven items: trajectory is real in Scripture itself; the women-trajectory evidence traced through the canon and history; N.T. Wright's five-act framework as sophisticated trajectory hermeneutics; trajectory does NOT terminate at female dominance (Gal 3:28 = neither, not female); Acts 15 as paradigm of trajectory with rails; trajectory must be Spirit-discerned not culturally extrapolated; canonical constraints (symbolic grammar §IX, embodied difference §IV, bidirectional icon §II–III, eschatological telos); slavery as the egalitarian's strongest analogy with its limits; the slippery-slope concern named honestly; the complementarian symmetric error of denying any trajectory exists; final destination — mutuality with iconic-distinctness preserved.
 
 Renumbered all §V–§IX cross-references (became §VI–§X). Updated intro to flag both new sections. Added bullet to synthesis "In the family" for agentic-bride reading. Added trajectory paragraph to synthesis closing. Added Wright, Webb, Vanhoozer, McCaulley, Newbigin, Coakley, Hays to Further Study.
+
+---
+
+Created handouts/active-bride-discussion.md — full Socratic class handout based on §III of women-in-family-and-ministry. Modeled on where-are-we-going-discussion format (verse blockquotes, context paragraphs, numbered discussion questions, synthesis only after the work).
+
+13 parts:
+
+1. The Conventional Reading — Eph 5, Col 3, 1 Pet 3 quoted. Establishes the conventional reading strongly. Sets up the trap: "if the husband-wife relationship pictures the Christ-church relationship, we need to know what the church actually does."
+2. What Did Jesus Tell the Church to Do? — Matt 28:18-20, Acts 1:8, Acts 1:9 ascension. Questions about employee-vs-heir posture, micromanagement vs deposited authorization.
+3. The Church Decides — Acts 15:6-7, 12, 22, 28. Co-attribution with the Spirit. Questions about debate, listening, discernment, applying this to marriage decision-making.
+4. The Church Plants Itself — Acts 11:19-21 (anonymous refugees plant Antioch), Acts 13:1-3 (Antioch commissions Paul). Initiative without supervision.
+5. "Greater Works Than These" — John 14:12.
+6. The Keys — Matt 16:18-19, 18:18, 1 Cor 5:1-5. Real binding/loosing authority.
+7. Mary's "Yes" — Luke 1:34-38 + Magnificat. The agency that asks the question first and sings the revolutionary song after.
+8. Priscilla, Phoebe, Junia, Lydia, Nympha, Chloe — five women's actual ministries quoted with context. Notes Priscilla-named-first pattern, Phoebe as diakonos/prostatis/Romans courier, Junia's apostolic standing, Lydia "prevailing upon" Paul.
+9. The Eshet Chayil — Prov 31:10-28. The active-bride pattern already in Wisdom literature.
+10. Deborah, Esther, Huldah — public authority, husbands as marital identifiers only.
+11. The Last Voice — Rev 22:17. The Bride speaks the final invitation alongside the Spirit.
+12. Synthesis — read the icon in both directions. Asymmetry preserved, content expanded. Husband = depositor/initiator/cruciform; wife = agent/executor/Spirit-empowered/voiced.
+13. Bringing It Home — three reflection questions for personal application.
+
+38 numbered discussion questions throughout. Every verse quoted in full before any question that requires it. Contextual setup paragraphs explain Greek terms (kephale, ezer, diakonos, prostatis, eshet chayil, chayil, didaskein, authentein), name order (Priscilla-Aquila), backstories where useful (Acts 6/Stephen scattering leading to Antioch plant, Esther's husband being the very king she must risk approaching, Huldah validating Scripture for Josiah).
+
+Closing matches the format of the existing Socratic discussion handout: bulleted summary, suggested further reading (McCaulley, Newbigin, Gorman, Wright, Coakley, Custis James), and a final paragraph commending the discussion-aloud-in-community format.
+
+Linked from handouts/index.md under Ethics.
