@@ -1806,3 +1806,21 @@ Created handouts/active-bride-discussion.md — full Socratic class handout base
 Closing matches the format of the existing Socratic discussion handout: bulleted summary, suggested further reading (McCaulley, Newbigin, Gorman, Wright, Coakley, Custis James), and a final paragraph commending the discussion-aloud-in-community format.
 
 Linked from handouts/index.md under Ethics.
+
+---
+
+Expanded active-bride-discussion.md to cover all the components from the user's class group-chat teaser — the husband-side of the icon (Christ as empowerer), which the handout had under-developed relative to the wife-side.
+
+New Part 12 "What the Husband Gives: Reading the Christ-Side Again" — opens with the full Eph 5:25-29 (extending past v25 to surface the purpose clauses: "that he might sanctify her... present her in splendor... that she might be holy"). Three movements, each grounded in scripture quoted in full:
+
+A. Christ empowered the church with the Holy Spirit (John 14:16-17, 16:13, Acts 1:8) → husband empowers/equips/resources/backs the wife rather than merely directing her. Q33-34.
+B. Christ freed the church from the bondage of its past (Luke 4:18, Rom 6:6, Gal 5:1, 2 Cor 3:17) → husband's self-giving liberates the wife from wounds/shame/fear and aims at her splendor (Eph 5:27). Q35-36.
+C. Christ delegated authority — interpret, bind/loose, even write (Matt 16:19, Acts 15:28, 2 Pet 1:20-21) → husband trusts wife to interpret and co-write the household's actual life, not enforce a rulebook. Q37.
+
+Punchline directly answers the user's personal question: the icon's deepest question to the husband is not "how do I lead her?" but "how do I empower my wife to go into the world and make disciples?" Q38 asks each husband to name three concrete empowering actions.
+
+Also strengthened Part 6 (The Keys) with the "interpret, even write our own laws" dimension — rabbinic bind/loose = forbid/permit, the church interpreting (Acts 15 loosing Gentiles) and writing (the apostles composing the NT). Reworked Q16 to name legislative authority.
+
+Renumbered: old Part 12 Synthesis → Part 13 (Q33-35 → 39-41), old Part 13 Bringing It Home → Part 14 (Q36-38 → 42-44). Now 14 parts, 44 questions, verified contiguous.
+
+Threaded the empowerment angle into the synthesis bullets: husband as Christ-figure is now "depositor, initiator, the one who dies — AND the one who empowers, frees, authorizes, and sends." Closing line: "The wife is the Active Bride. The icon requires it — and the husband's job is to empower it."

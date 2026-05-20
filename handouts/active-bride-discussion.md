@@ -130,11 +130,11 @@ Jesus delegates real, binding authority to His church. This is not symbolic. Rea
 
 > It is actually reported that there is sexual immorality among you... Let him who has done this be removed from among you... When you are assembled in the name of the Lord Jesus and my spirit is present, with the power of our Lord Jesus, **you are to deliver this man to Satan**... (**1 Corinthians 5:1–5**, ESV, abridged)
 
-**Context:** 1 Corinthians 5 — Paul does not himself excommunicate the offender. He commands the Corinthian church to do it. The church holds the keys. The church exercises them.
+**Context:** "Bind and loose" was rabbinic legal language — the authority to *forbid* (bind) and *permit* (loose), to interpret the law and render binding rulings. Jesus hands this authority to His church, and the church *used* it: it interpreted the Law afresh (Acts 15 *loosed* the Gentiles from circumcision), it rendered binding decisions, and it even *wrote* — the apostles composed the documents we now call the New Testament, the church's own Spirit-breathed Scripture. 1 Corinthians 5 shows the enforcement side: Paul does not himself excommunicate the offender; he commands the Corinthian church to do it. The church interprets, decides, writes, and enforces.
 
 **Discussion:**
 
-16. Jesus gives the keys to the church. The church *binds and looses*. Heaven ratifies what the church decides. Does that sound like an institution that just waits for orders, or an institution that has been entrusted with real responsibility?
+16. Jesus gives the keys to the church. The church *binds and looses* — forbids and permits, interprets the law, renders binding rulings, and even writes new Scripture. Heaven ratifies what the church decides. Does that sound like an institution that just waits for orders, or one entrusted with real legislative authority?
 
 17. Notice 1 Corinthians 5: Paul *commands* the Corinthian church to exercise discipline themselves — he rebukes them for *not* having done it already (v. 2). The church bears authority for its own internal life. What does this do to the conventional picture of the church as passive recipient?
 
@@ -282,7 +282,77 @@ Read the final invitation of the Bible.
 
 ---
 
-## Part 12 — Synthesis: Reading the Icon in Both Directions
+## Part 12 — What the Husband Gives: Reading the Christ-Side Again
+
+We have spent eleven sections on what the *church* does. Now turn the camera around. The same sentence that commands the wife's submission keeps going — and what it describes the husband (Christ) *doing* is the part the conventional reading rushes past. Read the rest of it.
+
+> Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish. In the same way husbands should love their wives as their own bodies. He who loves his wife loves himself. For no one ever hated his own flesh, but nourishes and cherishes it, just as Christ does the church... (**Ephesians 5:25–29**, ESV)
+
+**Context:** Notice the *purpose clauses* — "that he might sanctify her," "so that he might present her in splendor," "that she might be holy." Christ's self-giving is not aimed at her compliance. It is aimed at her *glory*. In Paul's own grammar, the entire point of the husband's sacrifice is the wife's flourishing, freedom, and splendor. So ask the question the conventional reading skips: what did Christ actually *give* the church? Three things stand out, and each one redefines the husband's job.
+
+### A. Christ empowered the church with the Holy Spirit
+
+> And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth... (**John 14:16–17**, ESV)
+
+> When the Spirit of truth comes, he will guide you into all the truth... (**John 16:13**, ESV)
+
+> But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth. (**Acts 1:8**, ESV)
+
+**Context:** Christ did not hand the church a mission and walk away empty-handed. He *equipped* it — with His own Spirit, with power, with gifts, with guidance into all truth. The church's agency is not self-generated; it is *granted, resourced, and empowered* by the One who is its head.
+
+**Discussion:**
+
+33. Christ's headship includes *empowering* the church with everything it needs for the mission. If the husband is the Christ-figure, what is his analog to "giving the Spirit"? How does a husband *empower* his wife — equip her, resource her, back her, release her gifts — rather than merely direct her?
+
+34. A head who empowers and a head who controls look very different. One pours capacity *into* the body; the other holds capacity back. Which one is Christ? Which one does the conventional "husband leads, wife follows" reading accidentally produce?
+
+### B. Christ freed the church from the bondage of its past
+
+> The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives and recovering of sight to the blind, to set at liberty those who are oppressed. (**Luke 4:18**, ESV)
+
+> We know that our old self was crucified with him in order that the body of sin might be brought to nothing, so that we would no longer be enslaved to sin. (**Romans 6:6**, ESV)
+
+> For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery. (**Galatians 5:1**, ESV)
+
+> Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. (**2 Corinthians 3:17**, ESV)
+
+**Context:** Christ's self-giving in Eph 5:25 is *for* the church's liberation — He gave Himself "that he might sanctify her... present her in splendor." His death frees the church *from* its bondage (sin, shame, the law's condemnation, the past) and *for* its mission and glory.
+
+**Discussion:**
+
+35. Christ gave His life so the church could be *freed from the bondage of its past*. If the husband is the Christ-figure, what does it mean for a husband to give himself up so that his wife is freed — from old wounds, shame, fear, whatever has held her captive? Is the husband's job to keep her small and safe, or to set her free and send her out?
+
+36. Ephesians 5:27 says the goal is to present her "in splendor... holy and without blemish." The husband's sacrificial love is aimed at his wife's *splendor*. How does that reframe headship? Whose glory is the husband actually working toward?
+
+### C. Christ delegated authority — to interpret, bind and loose, even to write
+
+> I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven. (**Matthew 16:19**, ESV — see Part 6)
+
+> For it has seemed good to the Holy Spirit and to us to lay on you no greater burden than these requirements... (**Acts 15:28**, ESV — see Part 3)
+
+> ...no prophecy of Scripture comes from someone's own interpretation. For no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit. (**2 Peter 1:20–21**, ESV)
+
+**Context:** Christ did not hand the church a finished rulebook and demand compliance. He gave it the Spirit and the authority to *interpret* (Acts 15 loosed the Gentiles from circumcision), to *bind and loose* (forbid and permit), and even to *write* — the apostles composed the very Scriptures we now obey. The church was trusted as a co-author of its own law, under the Spirit, not merely an enforcer of pre-written statutes.
+
+**Discussion:**
+
+37. Christ trusted the church to interpret, to render binding decisions, and even to *write* the documents that became Scripture. That is staggering delegation. What is the husband's analog? Does he hand his wife a rulebook — or does he trust her, with him and under the Spirit, to interpret, decide, and *write the actual life of the household*?
+
+### The question the conventional reading never asks the husband
+
+The conventional reading asks the husband one question: *how do I lead her?* The icon, read fully, asks a very different one. Christ's headship over the church is a headship of *empowerment* — He gives the Spirit, frees from bondage, and delegates real authority, all so the church can "go into all the world and make disciples." If the husband is the Christ-figure, his question is not *how do I keep her in line* but:
+
+> **How do I empower my wife to go into the world and make disciples?**
+
+How do I give her every resource, set her free from what binds her, back her with real authority, and *send* her — the way Christ empowered, freed, authorized, and sent the church?
+
+**Discussion:**
+
+38. Sit with that question personally. A husband who takes the icon seriously is not asking how to control his wife; he is asking how to *empower* her for Kingdom mission. Name three concrete things a husband could do this month to empower his wife the way Christ empowered the church — to equip her, free her, back her, and send her.
+
+---
+
+## Part 13 — Synthesis: Reading the Icon in Both Directions
 
 Now let us return to Ephesians 5 with everything we have read.
 
@@ -290,11 +360,11 @@ Now let us return to Ephesians 5 with everything we have read.
 
 **Discussion:**
 
-33. The icon has two sides. Husband : wife :: Christ : church. The conventional reading uses one side to define the other: *Christ leads → so the husband leads*. Run it the other direction. *The church does X → so the wife does X*. Based on what we have read tonight, what does the wife do?
+39. The icon has two sides. Husband : wife :: Christ : church. The conventional reading uses one side to define the other: *Christ leads → so the husband leads*. Run it the other direction. *The church does X → so the wife does X*. Based on what we have read tonight, what does the wife do?
 
-34. The conventional reading flattened the church-side of the icon to *passively obeys*. We have just spent ten passages watching the actual church *decide doctrine, plant itself, sing revolutionary songs, hold keys, teach, host, govern, send, buy fields, deliver sashes to merchants, judge nations, save peoples, validate Scripture, and speak the final invitation of the canon*. Is *passive obedience* an adequate description?
+40. The conventional reading flattened the church-side of the icon to *passively obeys*. We have just spent twelve passages watching the actual church *decide doctrine, plant itself, sing revolutionary songs, hold keys, teach, host, govern, send, buy fields, deliver sashes to merchants, judge nations, save peoples, validate Scripture, and speak the final invitation of the canon* — all of it empowered, freed, and authorized by Christ. Is *passive obedience* an adequate description of either side?
 
-35. The icon's *asymmetry* is real and must be preserved. The husband dies for the wife; she does not die for him. Christ initiates the covenant; the church responds. But asymmetry is not the same as passivity. What is the difference?
+41. The icon's *asymmetry* is real and must be preserved. The husband dies for the wife; she does not die for him. Christ initiates the covenant; the church responds. But asymmetry is not the same as passivity. What is the difference?
 
 ### Where this leaves us
 
@@ -304,24 +374,26 @@ He sets the trajectory by his self-giving; **she carries it out with the full ag
 
 In short:
 
-- **Husband as Christ-figure:** depositor, initiator, the one who dies, the one who promises to return
-- **Wife as church-figure:** agent, executor, the one who builds while He is away, the one who holds the keys, the one whose voice speaks the final invitation
+- **Husband as Christ-figure:** depositor, initiator, the one who dies — *and the one who empowers, frees, authorizes, and sends*. His headship is not control but empowerment: he gives her every resource (as Christ gave the Spirit), frees her from the bondage of her past (as Christ freed the church), delegates real authority (as Christ gave the keys), and sends her into the world — aiming, in everything, at her splendor.
+- **Wife as church-figure:** agent, executor, the one who builds while He is away, the one who holds the keys, the one whose voice speaks the final invitation. Empowered, freed, and authorized — she goes into the world and makes disciples.
 
-The husband leads not by daily command but by cruciform self-giving. The wife follows not by silent compliance but by Spirit-empowered, agentic, doctrinally-voiced, mission-driven execution of a shared Kingdom direction — and by the *ezer kenegdo* function of speaking against him when he drifts.
+The husband leads not by daily command but by cruciform self-giving that *empowers*. The wife follows not by silent compliance but by Spirit-empowered, agentic, doctrinally-voiced, mission-driven execution of a shared Kingdom direction — and by the *ezer kenegdo* function of speaking against him when he drifts.
 
-**The wife is the Active Bride. The icon requires it.**
+The deepest question the icon poses to the husband is not "how do I lead her?" but **"how do I empower her to go into the world and make disciples?"** — because that is precisely what Christ did for His bride.
+
+**The wife is the Active Bride. The icon requires it — and the husband's job is to empower it.**
 
 ---
 
-## Part 13 — Bringing It Home
+## Part 14 — Bringing It Home
 
 Three closing questions for personal reflection and group discussion.
 
-36. Think of a marriage you respect. How much of the wife's contribution to that marriage looks like *passive submission*, and how much looks like *agentic execution*? What words would you actually use to describe what she does?
+42. Think of a marriage you respect. How much of the wife's contribution to that marriage looks like *passive submission*, and how much looks like *agentic execution*? What words would you actually use to describe what she does?
 
-37. The conventional reading silences the *ezer kenegdo* function — the wife's calling to expose her husband's drift from the Kingdom. The active-bride reading restores it. Which is more dangerous: a wife who never questions her husband, or a wife who does? What did Jesus think of those who never questioned anything?
+43. The conventional reading silences the *ezer kenegdo* function — the wife's calling to expose her husband's drift from the Kingdom. The active-bride reading restores it. Which is more dangerous: a wife who never questions her husband, or a wife who does? What did Jesus think of those who never questioned anything?
 
-38. If you teach this view to a young couple, what do they need to hear *first*? Is it "Wife, you are an agent" — or is it "Husband, your headship is cruciform self-giving, not command authority"? Which side of the icon does the modern church more often distort?
+44. If you teach this view to a young couple, what do they need to hear *first*? Is it "Wife, you are an agent" — or is it "Husband, your headship is cruciform self-giving, not command authority"? Which side of the icon does the modern church more often distort?
 
 ---
 
