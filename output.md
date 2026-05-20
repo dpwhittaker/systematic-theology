@@ -1848,3 +1848,7 @@ Rewrote active-bride-discussion.md (full rewrite, cleaner than surgical edits gi
 3. BOTH SEXES THROUGHOUT: 27 explicit Husbands:/Wives:/Both addresses across the questions. Part 14 ends with both spouses finishing empowerment sentences aloud and trading answers.
 
 14 parts, 41 questions (was 44; merged some wife-only + husband-only into both-sexes questions), verified contiguous 1-41. All verse blockquotes and context paragraphs preserved verbatim. Updated index.md description to reflect both-directions, both-sexes framing.
+
+---
+
+Added a "Class Context" subsection to CLAUDE.md under Handout System: handouts are taught in a live in-person morning class, so session-timing references (esp. in discussion guides) use morning/daytime language, never night/evening. Scripture quotes containing "night" are exempt.

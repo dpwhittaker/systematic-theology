@@ -371,3 +371,7 @@ I just posted this teaser in our class's group chat.  Make sure all these compon
 ---
 
 Use my teaser as the opening paragraph and thread the empowerment angle through every section, where it makes sense. I want both sexes involved throughout the discussion.
+
+---
+
+Add this insight to @CLAUDE.md so you will remember in the future.

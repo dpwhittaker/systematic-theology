@@ -212,6 +212,10 @@ The unit file is at `/etc/systemd/system/systematic-theology.service` and binds 
 
 Handouts are printable/reference documents served through the same static shell as the HUD, but with a completely different CSS and no navigation UI.
 
+### Class Context
+
+These handouts are taught in a **live, in-person morning class**. When a handout references the timing of the session — most often a Socratic discussion guide ("we will spend this morning...", "everything we've seen today...") — use morning/daytime language. Never "tonight," "this evening," or "all night." Scripture quotations that happen to contain "night" (e.g. Proverbs 31's "she rises while it is yet night," Esther 4's "three days, night or day") are biblical text and are left untouched — this rule applies only to references to the class session itself.
+
 ### Architecture
 
 - **Same shell**: `index.html` serves both HUD and handout views; no separate handout HTML
