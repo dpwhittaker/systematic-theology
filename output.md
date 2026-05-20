@@ -1852,3 +1852,7 @@ Rewrote active-bride-discussion.md (full rewrite, cleaner than surgical edits gi
 ---
 
 Added a "Class Context" subsection to CLAUDE.md under Handout System: handouts are taught in a live in-person morning class, so session-timing references (esp. in discussion guides) use morning/daytime language, never night/evening. Scripture quotes containing "night" are exempt.
+
+---
+
+Extended the Huldah quote in active-bride-discussion.md Part 10 from 2 Kings 22:14-16 to 22:14-20 — now includes the full two-part oracle: national judgment for idolatry (vv16-17) and the personal word of mercy to the penitent king Josiah (vv18-20). Enriched the context paragraph: notes she delivers the definitive verdict that triggers Josiah's reform, and adds the striking fact that Jeremiah and Zephaniah were both prophesying in Jerusalem at the same time, yet the king's men came to her.

@@ -375,3 +375,7 @@ Use my teaser as the opening paragraph and thread the empowerment angle through 
 ---
 
 Add this insight to @CLAUDE.md so you will remember in the future.
+
+---
+
+For Huldah, continuing all the way to verse 20 would provide a much richer understanding of the context.
