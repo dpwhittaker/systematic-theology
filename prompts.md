@@ -379,3 +379,7 @@ Add this insight to @CLAUDE.md so you will remember in the future.
 ---
 
 For Huldah, continuing all the way to verse 20 would provide a much richer understanding of the context.
+
+---
+
+Update the "Women in Family and Ministry" handout to cover these topics as well. It should retain its current verse-by-verse flavor of exegeting the scripture, but flavor its opinion around this husband-as-empowerer narrative.

@@ -1856,3 +1856,20 @@ Added a "Class Context" subsection to CLAUDE.md under Handout System: handouts a
 ---
 
 Extended the Huldah quote in active-bride-discussion.md Part 10 from 2 Kings 22:14-16 to 22:14-20 — now includes the full two-part oracle: national judgment for idolatry (vv16-17) and the personal word of mercy to the penitent king Josiah (vv18-20). Enriched the context paragraph: notes she delivers the definitive verdict that triggers Josiah's reform, and adds the striking fact that Jeremiah and Zephaniah were both prophesying in Jerusalem at the same time, yet the king's men came to her.
+
+---
+
+Added the husband-as-empowerer narrative to the main women-in-family-and-ministry handout, keeping its verse-by-verse exegetical flavor.
+
+New §IV "The Husband as Empowerer" (inserted after §III Active Bride, pairing the head-side with the bride-side). Six scripture-grounded numbered items in the handout's house style:
+1. Eph 5:25-27 purpose clauses — self-giving aimed at the wife's splendor, not compliance
+2. John 14:16-17, 16:13, Acts 1:8 — Christ empowered the church with the Spirit; head pours capacity in, doesn't withhold
+3. Luke 4:18, Rom 6:6, Gal 5:1, 2 Cor 3:17, Eph 5:26 — Christ freed the church from bondage; head liberates, doesn't confine
+4. Matt 16:19, 18:18, Acts 15:28 — Christ delegated real authority (interpret, bind/loose, write); head delegates genuinely, doesn't supervise-and-reclaim
+5. Matt 28:18-20 — the goal is mission; the husband's question is "how do I empower her to go and make disciples?" not "how do I lead her?"
+6. Empowerment and ezer kenegdo as two halves of one design — the head funds the counterweight that keeps him honest
+"What survives" closing: headship is real and asymmetric, but its CONTENT is empowerment, not control; the conventional reading kept the asymmetry and lost the content.
+
+Renumbered old §IV-§XI to §V-§XII (sed with placeholders for body cross-refs; verified no collisions). Threaded empowerment flavor into: intro (new flag bullet for §IV), §II Headship closing (the husband's "harder command" is empowerment ordered to her splendor, governs everything that follows), and the §XII Synthesis "In the family" list (new "Headship as empowerment — head-side of the icon (§IV)" bullet paired with the active-bride bullet). Extended the "Active Bride" Further Study category to "(§III-IV)" adding Keller (Meaning of Marriage), Padgett (As Christ Submits to the Church), Custis James (Malestrom).
+
+Verified: 12 sections I-XII, all cross-references consistent, no stray placeholders or wikilinks.
