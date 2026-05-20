@@ -1824,3 +1824,27 @@ Also strengthened Part 6 (The Keys) with the "interpret, even write our own laws
 Renumbered: old Part 12 Synthesis → Part 13 (Q33-35 → 39-41), old Part 13 Bringing It Home → Part 14 (Q36-38 → 42-44). Now 14 parts, 44 questions, verified contiguous.
 
 Threaded the empowerment angle into the synthesis bullets: husband as Christ-figure is now "depositor, initiator, the one who dies — AND the one who empowers, frees, authorizes, and sends." Closing line: "The wife is the Active Bride. The icon requires it — and the husband's job is to empower it."
+
+---
+
+Rewrote active-bride-discussion.md (full rewrite, cleaner than surgical edits given the question-renumber cascade):
+
+1. OPENING: replaced the generic intro with the user's class teaser verbatim (italicized, first person, keeps "DeLisa"), lightly cleaned for print (em-dashes, → arrow). Added a framing paragraph establishing that the guide runs both questions side by side — "whatever the church does, the wife does" AND "whatever Christ gives, the husband gives" — and that husbands and wives both have homework.
+
+2. EMPOWERMENT THREADED THROUGH EVERY SECTION (no longer isolated in old Part 12):
+   - Part 2: Christ empowers before sending (Acts 1:8 "power" precedes "witnesses"); delegating vs empowering
+   - Part 3: the Spirit was GIVEN to enable Acts 15 discernment; husband empowering her discernment
+   - Part 4: Acts 13 = empowerment flowing outward (set apart, sent); husband sends and backs vs contains
+   - Part 5: "greater works BECAUSE I am going to the Father" — stepping back unleashes; husband making room
+   - Part 6: Christ GIVES the keys, doesn't keep them; husband delegating real authority; sin of under-using delegated authority
+   - Part 7: Mary Spirit-empowered ("power of the Most High overshadow you") exactly as the church; God empowers before sending
+   - Part 8: the MEN who empower — Aquila beside Priscilla, Paul resourcing Phoebe, apostles recognizing Junia; husband as Paul-commending-Phoebe vs obstacle
+   - Part 9: Prov 31:11 "her husband trusts in her" = the green light; trust as release vs oversight as leash
+   - Part 10: husband as Lappidoth who steps back; secure head doesn't micromanage
+   - Part 11: Spirit+Bride duet as the culmination of the empowerment arc
+   - Part 12: reframed from "turn the camera around" to "the thread pulled whole" — the three gifts (Spirit/cross/keys) gathered, cross-referencing the earlier parts where each appeared
+   - Parts 13-14: both directions, both sexes
+
+3. BOTH SEXES THROUGHOUT: 27 explicit Husbands:/Wives:/Both addresses across the questions. Part 14 ends with both spouses finishing empowerment sentences aloud and trading answers.
+
+14 parts, 41 questions (was 44; merged some wife-only + husband-only into both-sexes questions), verified contiguous 1-41. All verse blockquotes and context paragraphs preserved verbatim. Updated index.md description to reflect both-directions, both-sexes framing.

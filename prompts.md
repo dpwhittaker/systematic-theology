@@ -367,3 +367,7 @@ Ok, section 3 is going to be the entire next class. Prepare a new handout that u
 ---
 
 I just posted this teaser in our class's group chat.  Make sure all these components are given some space in the Active Bride handout.  For next week I want you to really focus on all the implications of Ephesians 5:22-25. Summary: wife is to husband as church is to Christ. We love to focus on one side of that - the husband leads, the wife follows. But there is a lot more in the church -> Christ relationship that I believe strongly applies here. Christ empowered the church with the Holy Spirit. Christ gave His life for the church so that the church could be freed from the bondage of their past. And He gave the church agency to "bind and loose" - forbid and permit actions - interpret, even write, our own laws. Viewing the husband-wife relationship in these modes is changing the way I think about my role. How can I empower DeLisa to go into the world and make disciples?
+
+---
+
+Use my teaser as the opening paragraph and thread the empowerment angle through every section, where it makes sense. I want both sexes involved throughout the discussion.

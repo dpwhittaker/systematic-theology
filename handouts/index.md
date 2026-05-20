@@ -38,7 +38,7 @@ These handouts are designed for group study, personal reference, and printed use
 
 - [Homosexuality and Scripture: The Primary Texts](#handouts/homosexuality-and-scripture.md) — The major passages cited in contemporary Christian debate, with traditional and affirming interpretive positions laid out without drawn conclusions
 - [Women in Family and Ministry: The Differences That Remain](#handouts/women-in-family-and-ministry.md) — After the cultural-context arguments are granted, the residual asymmetries between men and women — equal in dignity, distinct in calling
-- [The Active Bride — A Discussion Guide](#handouts/active-bride-discussion.md) — Socratic walkthrough of what the church-side of the Christ-church icon actually does, leading the class from passive-submission readings to agentic-execution readings of the wife's role
+- [The Active Bride — A Discussion Guide](#handouts/active-bride-discussion.md) — Socratic walkthrough of the Christ-church icon read in both directions: what the church (and so the wife) actively does, and what Christ (and so the husband) gives to empower it — for husbands and wives both
 
 ---
 
