@@ -2,7 +2,7 @@
 
 *I want us to really focus on all the implications of **Ephesians 5:22–25**. The summary is simple: the wife is to the husband as the church is to Christ. We love to focus on one side of that — the husband leads, the wife follows. But there is so much more in the church → Christ relationship that I believe strongly applies here. Christ empowered the church with the Holy Spirit. Christ gave His life for the church so that the church could be freed from the bondage of its past. And He gave the church agency to "bind and loose" — to forbid and permit actions, to interpret, even to write, our own laws. Viewing the husband-wife relationship in these modes is changing the way I think about my role. How can I empower DeLisa to go into the world and make disciples?*
 
-That is the question this guide is built around — and it cuts both ways across the room. We will spend most of tonight on one thing: **what the church actually does in relation to Christ** — because whatever the church does, the wife does. But we will keep asking the matching question right beside it: **what did Christ give so the church could do it** — because whatever Christ gives, the husband gives. Husbands and wives both have homework here. The wives will keep recognizing themselves in the active bride. The husbands will keep getting asked a harder question than *how do I lead?* — namely, *how do I empower?* Read every verse aloud. Sit with the questions before reaching for the answers. Both sides of the room are in this together.
+That is the question this guide is built around — and it cuts both ways across the room. We will spend most of this morning on one thing: **what the church actually does in relation to Christ** — because whatever the church does, the wife does. But we will keep asking the matching question right beside it: **what did Christ give so the church could do it** — because whatever Christ gives, the husband gives. Husbands and wives both have homework here. The wives will keep recognizing themselves in the active bride. The husbands will keep getting asked a harder question than *how do I lead?* — namely, *how do I empower?* Read every verse aloud. Sit with the questions before reaching for the answers. Both sides of the room are in this together.
 
 ---
 
@@ -24,7 +24,7 @@ For most of church history, Ephesians 5 has been read in one direction. Christ l
 
 2. The conventional reading often imagines the wife as a passive recipient — she trusts, she defers, she submits. Notice the verb the Christ-side of the analogy gets: *Christ loved the church and gave Himself up for her.* What verb does the church-side get in Ephesians 5:24? Is that the *only* thing the church does — and is "gave Himself up for her" the *only* thing Christ does?
 
-3. Here are the two questions we will carry all night, one for each side of the room. **Wives:** whatever the church does in relation to Christ, that is what you do — so what does the church actually do? **Husbands:** whatever Christ gives the church, that is what you give — so what did Christ actually give? We have been handed one word for each side (she *submits*; he *leads*). We are about to find out how small those two words have been.
+3. Here are the two questions we will carry through the morning, one for each side of the room. **Wives:** whatever the church does in relation to Christ, that is what you do — so what does the church actually do? **Husbands:** whatever Christ gives the church, that is what you give — so what did Christ actually give? We have been handed one word for each side (she *submits*; he *leads*). We are about to find out how small those two words have been.
 
 ---
 
@@ -282,11 +282,11 @@ Read the final invitation of the Bible.
 
 ## Part 12 — What the Husband Gives: The Thread Pulled Whole
 
-All night we have been watching two things at once — the Bride acting, and Christ empowering her to act. Now pull that second thread all the way out. The same sentence that commands the wife's submission keeps going, and what it says the husband (Christ) *does* is the part the conventional reading races past.
+All morning we have been watching two things at once — the Bride acting, and Christ empowering her to act. Now pull that second thread all the way out. The same sentence that commands the wife's submission keeps going, and what it says the husband (Christ) *does* is the part the conventional reading races past.
 
 > Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish. In the same way husbands should love their wives as their own bodies. He who loves his wife loves himself. For no one ever hated his own flesh, but nourishes and cherishes it, just as Christ does the church... (**Ephesians 5:25–29**, ESV)
 
-**Context:** Notice the *purpose clauses* — "that he might sanctify her," "so that he might present her in splendor," "that she might be holy." Christ's self-giving is not aimed at her compliance. It is aimed at her *glory*. In Paul's own grammar, the entire point of the husband's sacrifice is the wife's flourishing, freedom, and splendor. Three gifts have surfaced again and again tonight; here they are whole.
+**Context:** Notice the *purpose clauses* — "that he might sanctify her," "so that he might present her in splendor," "that she might be holy." Christ's self-giving is not aimed at her compliance. It is aimed at her *glory*. In Paul's own grammar, the entire point of the husband's sacrifice is the wife's flourishing, freedom, and splendor. Three gifts have surfaced again and again this morning; here they are whole.
 
 ### A. Christ empowered the church with the Holy Spirit (Parts 2, 4, 7)
 
@@ -340,7 +340,7 @@ Now let us return to Ephesians 5 with everything we have read.
 
 **Discussion:**
 
-35. The icon has two sides. Husband : wife :: Christ : church. The conventional reading uses one side to define the other: *Christ leads → so the husband leads*. Run it both directions at once. *The church does X → so the wife does X. Christ gives Y → so the husband gives Y.* Based on everything tonight, fill in both X and Y.
+35. The icon has two sides. Husband : wife :: Christ : church. The conventional reading uses one side to define the other: *Christ leads → so the husband leads*. Run it both directions at once. *The church does X → so the wife does X. Christ gives Y → so the husband gives Y.* Based on everything this morning, fill in both X and Y.
 
 36. We spent twelve passages watching the actual church *decide doctrine, plant itself, sing revolutionary songs, hold keys, teach, host, govern, send, judge nations, save peoples, validate Scripture, and speak the final invitation of the canon* — every bit of it *empowered, freed, and authorized* by Christ. Is *"she submits, he leads"* an adequate description of either side?
 
