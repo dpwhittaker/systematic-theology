@@ -328,6 +328,8 @@ The conventional reading asks the husband one question: *how do I lead her?* The
 
 > **How do I empower my wife to go into the world and make disciples?**
 
+And here is *why* that is the right question, not a concession. The Kingdom is not a machine to run; it is a web of relationships to enter — eternal life *is* knowing God (John 17:3), and the whole Law hangs on two relational commands (Matt 22:37–40). If the Kingdom advances by relationship, and if women are — broadly — the relational specialists, then the most strategic thing a man can do for the relational Kingdom is to release his wife into her element. Empowering her is not him settling for a smaller role; it is him putting his household's strongest player on the field instead of the bench.
+
 34. Sit with that personally — and **both** of you answer it. **Husbands:** name three concrete things you could do this month to empower your wife the way Christ empowered the church: to equip her, free her, back her, and send her. **Wives:** name three things that would actually help you go — and tell him.
 
 ---
@@ -372,6 +374,10 @@ Closing questions for personal reflection and group discussion — for both side
 40. **Husbands:** finish this sentence out loud — *"This week, one concrete way I will empower my wife to go and make disciples is ______."* **Wives:** finish this one — *"One place I sense God sending me, that I have been waiting for permission to go, is ______."* Trade answers.
 
 41. If you taught this to a newly engaged couple, what would they need to hear *first* — "Wife, you are an agent" or "Husband, your headship is empowerment, not command"? Which side of the icon does the modern church more often distort, and why?
+
+42. **The relational Kingdom.** Is it true, in your experience, that women tend to carry the relational work — in families, friendships, churches? If the Kingdom is fundamentally *relational*, what follows for how a husband should spend his influence? **Husbands:** where might you be playing a relational position your wife plays better — and what would handing it to her look like?
+
+43. **Submission, redefined — test this definition:** *a wife submits by believing her husband when he tells her she is beautiful, powerful, capable, and authorized to lead people to the Kingdom of God — and then acting on it.* **Wives:** is it harder to obey a command or to believe a commendation? Which does your husband actually ask of you? **Husbands:** what do your words over your wife tell her she is — and is it true? (Compare Ephesians 5:27: Christ presents the church *in splendor*. The church, in turn, submits by believing what He says it is — and going.)
 
 ---
 

@@ -387,3 +387,7 @@ Update the "Women in Family and Ministry" handout to cover these topics as well.
 ---
 
 Those are great. Use the "Debate" Format for #4. If you need claude-in-chrome for auth, send it to 100.89.69.109
+
+---
+
+Some insights to add to both handouts: 1) the kingdom is about relationship. Women do relationships way better than men. It makes sense that the best a man can do to advance the relational kingdom is to empower his wife to act in her element. 2) How does the wife submit? By believing her husband when he tells her she is beautiful, powerful, capable, and authorized to lead people to the kingdom of God.

@@ -1898,3 +1898,15 @@ Added two more Studio outputs to the same notebook (per user request):
 - Infographic — Editorial style, Landscape, Standard detail. Left = Active Bride, Right = Empowering Husband, Bottom = mutuality-with-distinct-roles destination.
 
 Notebook now generating 8 outputs total: 6 audio (5 custom + 1 stray default to delete), 1 cinematic video, 1 infographic. Stray default audio still pending deletion once titles render.
+
+---
+
+Added two insights to both handouts:
+
+1) Relational Kingdom → empower the relational specialist. The Kingdom is relational (John 17:3; two great commandments); women are broadly the relational specialists; so a husband's highest-leverage Kingdom move is to release his wife into her element — deploying his strongest player, not benching her.
+
+2) Submission redefined as faith/belief: the wife submits by believing her husband when he tells her she is beautiful, powerful, capable, and authorized to lead people to the Kingdom — and acting on it. Mirrors the church submitting to Christ by believing what He says it is and going. Raises the bar on the husband's words (must be true, like Christ presenting the church in splendor, Eph 5:27).
+
+Main handout (women-in-family-and-ministry.md): new §IV items 7 (relational Kingdom) and 8 (submission-as-belief); reworked §IV closing; two new §XII synthesis "In the family" bullets.
+
+Discussion guide (active-bride-discussion.md): relational-Kingdom prose beat added to Part 12 (after the "how do I empower" punchline); two new Bringing-It-Home questions Q42 (relational Kingdom) and Q43 (submission = belief). Now 43 questions, contiguous.
