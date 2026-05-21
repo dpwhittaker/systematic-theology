@@ -1910,3 +1910,12 @@ Added two insights to both handouts:
 Main handout (women-in-family-and-ministry.md): new §IV items 7 (relational Kingdom) and 8 (submission-as-belief); reworked §IV closing; two new §XII synthesis "In the family" bullets.
 
 Discussion guide (active-bride-discussion.md): relational-Kingdom prose beat added to Part 12 (after the "how do I empower" punchline); two new Bringing-It-Home questions Q42 (relational Kingdom) and Q43 (submission = belief). Now 43 questions, contiguous.
+
+---
+
+Created a fresh NotebookLM notebook ("The Active Bride and the Empowering Head", id f0d27c2f...) with the UPDATED handouts (verified item 7/8 + Q42/43 present, no mojibake) loaded as clean UTF-8 text sources. Regenerated all 7 resources, this time with NO stray default (used the Customize chevron, never the tile body):
+- 5 audio overviews: #1 Deep Dive/Long (socratic script), #2 Deep Dive/Default (Ephesians 5 word-by-word), #3 Deep Dive/Default (conversational), #4 Debate/Default (steelman — verified Debate checkmark via zoom), #5 Deep Dive/Default (Monday-morning practical).
+- 1 Cinematic Video Overview (verified Cinematic checkmark; prompt now includes the relational-Kingdom point).
+- 1 Editorial Infographic (Landscape, Standard; verified Editorial checkmark).
+
+Studio confirmed 7 cards generating. Old notebook "The Residue of Asymmetry" still holds the previous-version outputs + the stray default — left intact (can delete on request).
