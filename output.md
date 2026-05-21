@@ -1919,3 +1919,13 @@ Created a fresh NotebookLM notebook ("The Active Bride and the Empowering Head",
 - 1 Editorial Infographic (Landscape, Standard; verified Editorial checkmark).
 
 Studio confirmed 7 cards generating. Old notebook "The Residue of Asymmetry" still holds the previous-version outputs + the stray default — left intact (can delete on request).
+
+---
+
+Rewrote .claude/skills/handout-podcast/SKILL.md with this session's learnings:
+- Fixed the core bug: old step 4 told you to click the Audio Overview TILE for the "medium" entry — that fires an instant uncustomized default (the stray I had to delete). Now: always use the "Customize <X>" chevron, never the tile.
+- Replaced the clip.exe source-upload method (mangles UTF-8) with the tailnet raw-md URL + fetch()+TextDecoder('utf-8') + clipboard.writeText bridge, and documented the charset/mojibake trap (dev server serves .md without charset → innerText is Latin-1 mojibake) plus the "Document is not focused" clipboard gotcha and the cross-origin-fetch constraint.
+- Added the browser-auth reality: connect to an already-signed-in browser via list_connected_browsers → ask user → switch_browser/select_browser; nlm CLI as a painful WSL2 alternative.
+- Added format/style ref-click unreliability (verify ✓ by zoom, click tile by coordinate) — bit me on Debate and Editorial.
+- Added Video Overview (Cinematic) and Infographic (Editorial) flows + the lay-audience preamble convention + form_input for prompts + concurrent-generation note + refs-renumber/tab-id instability + cleanup (remove source / stray default) procedures.
+- Broadened frontmatter description to cover audio + video + infographic, browser-driven.

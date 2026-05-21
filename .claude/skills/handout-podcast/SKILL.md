@@ -1,216 +1,139 @@
 ---
 name: handout-podcast
-description: Generate NotebookLM Audio Overview "podcasts" (deep-dive format) from a handout. First invocation creates a notebook and uploads the handout; every invocation generates one long and one medium audio overview, downloads them, and links them from the handout page and the handouts index. Subsequent invocations append new entries — never overwrite previous ones.
+description: Generate NotebookLM Studio media (Audio Overviews, cinematic Video Overview, Editorial Infographic) from one or more handouts. Browser-driven via claude-in-chrome against an already-signed-in NotebookLM tab — NotebookLM has no public API. First invocation creates a notebook and adds the handout(s) as sources; each invocation generates the requested media, optionally downloads audio, and links it from the handout page and the handouts index. Append new entries — never overwrite previous ones.
 ---
 
-# Handout Podcast Generation
+# Handout Podcast / Studio-Media Generation
 
-Generate two-host "deep dive" Audio Overviews from a handout via NotebookLM, then place them under `audio/<handout-slug>/` and link from `handouts/<name>.md` and `handouts/index.md`.
+Generate NotebookLM Studio outputs from handout(s): two-host **Audio Overviews** (Deep Dive / Debate / Brief / Critique), a **cinematic Video Overview**, and an **Editorial Infographic**. Audio is downloaded, transcoded, placed under `audio/<slug>/`, and linked from `handouts/<name>.md` + `handouts/index.md`. Video/infographic stay in NotebookLM (no clean download path yet) and are linked by notebook URL.
 
-NotebookLM has no public API. Everything here runs through the live browser UI via the `mcp__claude-in-chrome__*` tools. Treat the UI selectors, button labels, and customize-flow as things to discover at runtime — they change. The shape of the output (file layout, manifest, web links) is what this skill commits to; the path to get there is whatever the current NotebookLM UI requires.
+NotebookLM has no public API. Everything runs through the live browser UI via `mcp__claude-in-chrome__*`. **UI selectors, button labels, and element refs change constantly — discover them at runtime with `find` / `read_page`, and re-`find` after every dialog reopen (refs renumber).** The output contract (file layout, manifest, web links) is what this skill commits to; the path through the UI is whatever the current NotebookLM requires.
 
 ## Trigger
 
-User invokes `/handout-podcast <handout-name>` or types something like:
-- "make a podcast from heaven-hell-resurrection"
-- "generate audio for the wrath-and-mercy handout"
+`/handout-podcast <handout-name> [media...]` or "make a podcast from <handout>", "generate audio/video/infographic for <handout>". `<handout-name>` is the basename without `.md`. Multiple handouts can share one notebook (this session put both `women-in-family-and-ministry` and `active-bride-discussion` in one).
 
-`<handout-name>` is the basename without `.md` (e.g. `heaven-hell-resurrection`).
+## Authentication — connect to an already-signed-in browser
 
-## Output contract
+**Do not try to authenticate `nlm`/Google yourself.** The reliable path is to drive a Chrome that is *already* logged into NotebookLM via the claude-in-chrome extension:
 
-### File layout
+1. `mcp__claude-in-chrome__list_connected_browsers`.
+2. **You must ask the user which browser to use** (the tool mandates it) — list every browser + the "open a confirmation screen in every connected Chrome" option. If they pick the broadcast option, call `switch_browser` (waits for them to click Connect); otherwise `select_browser` with the chosen deviceId.
+3. `tabs_context_mcp` then `tabs_create_mcp` for a clean tab. Navigate to `https://notebooklm.google.com/`. Confirm the dashboard renders (notebook tiles, "Google Account: …"). If it redirects to `accounts.google.com`, **stop and ask the user to sign in** — never type credentials.
 
-```
-audio/
-  <handout-slug>/
-    manifest.json
-    deepdive-long-001.m4a
-    deepdive-medium-001.m4a
-    deepdive-long-002.m4a    (added on next invocation)
-    deepdive-medium-002.m4a
-    ...
-```
+`nlm` CLI (`uv tool install notebooklm-mcp-cli`) is an *alternative* for scripted create/upload/download, but its auth is painful in this WSL2 setup: `nlm login` wants a local GUI Chrome (none in WSL2); `--wsl` launches the *Windows-host* Chrome (the user may not be at that desktop); CDP mode (`--cdp-url`) needs a debug Chrome exposed on the target host. If you ever get `nlm` authed, `nlm audio create` / `nlm download audio` are far less fiddly than the UI. Until then, drive the browser.
 
-### Manifest format
+## Loading sources WITHOUT retyping (and the charset trap)
 
-`audio/<slug>/manifest.json`:
+Handout files live on the WSL2 disk; the browser's file picker can't see them (native OS picker, undrivable). Don't paste by retyping either — it loses fidelity. Use the **tailnet raw-markdown URL + clipboard bridge**:
 
-```json
-{
-  "handout": "heaven-hell-resurrection.md",
-  "title": "Heaven, Hell, and Resurrection: Where Are We Going?",
-  "notebook_url": "https://notebooklm.google.com/notebook/<id>",
-  "entries": [
-    {
-      "kind": "deepdive-long",
-      "file": "deepdive-long-001.m4a",
-      "notebooklm_title": "...",
-      "generated_at": "2026-05-04T02:08:00Z",
-      "duration_seconds": 3388,
-      "duration_human": "56:28",
-      "length_setting": "Long",
-      "format": "Deep Dive",
-      "customize_prompt": "..."
-    }
-  ]
-}
+The dev server serves the repo over the tailnet at `https://desktop-uqt6i2t.tail9fb1cb.ts.net/theology/handouts/<name>.md` (reachable from any tailnet peer, including the user's browser host; **not** reachable from inside WSL2 itself, and **not** by NotebookLM's own URL-fetcher since the site is tailnet-private — so "Website" source won't work).
+
+In a **second browser tab navigated to that raw-md URL** (same-origin fetch is allowed there; a fetch from the notebooklm.google.com tab is cross-origin and CORS-blocked):
+
+```js
+// CRITICAL: fetch + TextDecoder('utf-8'). Do NOT use document.body.innerText.
+// The dev server sends .md without a charset, so the browser decodes Latin-1
+// and every em-dash/Greek char becomes mojibake (— → â€", kephalē → kephalÄ").
+const r = await fetch(location.href, {cache:'no-store'});
+const t = (new TextDecoder('utf-8').decode(await r.arrayBuffer())).replace(/\s+$/,'') + '\n';
+await navigator.clipboard.writeText(t);   // throws "Document is not focused"
 ```
 
-### Handout-page link block
+`navigator.clipboard.writeText` fails with **"Document is not focused"** unless the tab has focus — do a `computer left_click` on the page body in the *same* batch right before the JS. Verify the result includes a real em-dash and no mojibake (`t.includes('—') && !t.includes('â€')`) before trusting it.
 
-At the top of `handouts/<name>.md`, immediately after the H1 line and the one-paragraph subtitle, insert (or append to) an `## Audio Overviews` block:
+Then in the NotebookLM tab: **Add sources → "Copied text"** (the `Upload files` native picker is undrivable; "Website" can't reach the tailnet). Click the textarea, `ctrl+v`, screenshot to confirm the tail rendered with correct characters, click **Insert**. Repeat per handout.
 
+> The old `cat handouts/x.md | clip.exe` trick mangles UTF-8 (clip.exe expects UTF-16LE) — same mojibake problem. The fetch+TextDecoder+clipboard.writeText path above is the fix and is verified.
+
+NotebookLM auto-titles each source and auto-names the notebook from the first source. Capture the notebook URL (`notebook/<uuid>`, drop `?addSource=true`) into the manifest.
+
+## Generating Studio media
+
+The Studio panel (right) has tiles: Audio Overview, Slide Deck, Video Overview, Mind Map, Reports, Flashcards, Quiz, Infographic, Data Table. Each tile has a **sibling "Customize <X>" chevron button**.
+
+⚠️ **Never click the tile body — it fires an instant, uncustomized default generation (a stray you'll have to delete).** Always open the chevron ("Customize Audio Overview" / "Customize Video Overview" / "Customize Infographic"). *(The previous version of this skill told you to click the tile for the "medium" entry — that was the bug. Don't.)*
+
+⚠️ **Format/style selection by `ref` is unreliable.** Clicking a format radio via its `find` ref often does *not* move the selection (overlay transparency / ref mismap) — this bit hard on Debate and on the infographic style. Always **zoom the option row to confirm the checkmark moved**; if it didn't, click the option **tile by coordinate** and re-zoom. The instructions textarea, by contrast, is reliable via `form_input` on its ref.
+
+**Custom-prompt convention.** Every prompt opens with a reusable lay-audience preamble, then the task:
+
+> AUDIENCE: a live adult class of laypeople with NO theological or seminary training, from many Christian denominations. Be precise and serious but use only plain language any adult understands; define any unavoidable term (e.g. "exegesis," "complementarian") in one sentence. Assume no knowledge of Greek, church history, or theological labels. — *then the per-episode task.*
+
+NotebookLM (PRO) **runs many generations concurrently** — audio + video + infographic all at once. Fire them all, don't wait between.
+
+### Audio Overview
+
+Open "Customize Audio Overview". Controls: **Format** (Deep Dive ✓default / Brief / Critique / **Debate**), **Length** (Short / Default / Long), **instructions textarea**, **Generate**. Per overview: re-`find` the four controls, click format (verify by zoom), click length, `form_input` the prompt, Generate. For **Debate**, expect the ref-click to miss — click the Debate tile by coordinate and confirm the ✓ before generating.
+
+### Video Overview (cinematic)
+
+Open "Customize Video Overview". Format: **Cinematic** (✓default, "rich, immersive… engaging visuals and storytelling") / Explainer / Brief. Fill the "How would you like the video customized?" textarea, confirm Cinematic ✓, Generate. Cinematic **takes a while** (often 15–25 min).
+
+### Infographic (Editorial)
+
+Open "Customize Infographic". Orientation (**Landscape** good for class/print / Portrait / Square), **visual style carousel** (Sketch Note / Anime / **Editorial** / Instructional / Bento Grid…), **Level of detail** (Concise / **Standard** / Detailed), description textarea. Editorial is the cleanest, most text-forward style for a theology framework. The style ref-click is unreliable → click the **Editorial thumbnail by coordinate**, zoom to confirm the ✓, then Generate.
+
+## Output contract (audio)
+
+```
+audio/<handout-slug>/
+  manifest.json
+  deepdive-long-001.m4a
+  deepdive-medium-001.m4a       (added on next invocation: -002, …)
+```
+
+`manifest.json`: `{handout, title, notebook_url, entries:[{kind, file, notebooklm_title, generated_at, duration_seconds, duration_human, length_setting, format, customize_prompt}]}`. For video/infographic, record entries with `kind:"video-cinematic"`/`"infographic-editorial"` and the `notebook_url` (no local file).
+
+**Handout page** — after the H1 + subtitle, an `## Audio Overviews` block; **prepend** newest first on later rounds:
 ```markdown
 ## Audio Overviews
-
 - **Deep Dive (long)** — May 4, 2026 · 56 min · [listen](audio/<slug>/deepdive-long-001.m4a)
-- **Deep Dive (medium)** — May 4, 2026 · 23 min · [listen](audio/<slug>/deepdive-medium-001.m4a)
+```
+⚠️ Path is `audio/...`, **not** `../audio/...`. The viewer renders at `/theology/#handouts/<name>.md`, so relative URLs resolve against `/theology/`; `../audio/...` → `/audio/...` → 404. `audio/...` → `/theology/audio/...` ✓.
+
+**Index page** (`handouts/index.md`) — sub-bullets under the handout's bullet: 🎧 audio, 🎬 video, 🖼️ infographic. Append newest-first; don't re-add prior rounds.
+
+## Download (audio) + transcode
+
+Browser path: the completed entry's 3-dot **More → Download** lands in `/mnt/c/Users/David/Downloads/` (no save dialog; ignore the stray "Untitled" tab). Format is `.m4a`, filename from the auto-title. Disambiguate long vs medium by "View custom prompt" (only the custom one has it) or by duration. (`nlm download audio <notebook> <artifact-id>` if `nlm` is authed.)
+
+**Transcode before commit** — raw exports are ~256 kbps stereo; a Long file can exceed GitHub's 100 MB limit:
+```
+ffmpeg -hide_banner -loglevel error -i in.m4a -ac 1 -b:a 64k -movflags +faststart out.m4a
+```
+Mono 64 kbps keeps spoken-word quality (~109 MB → ~28 MB). Verify duration unchanged with `ffprobe`.
+
+Video downloads are large and have no clean UI download — leave video/infographic in NotebookLM and link by notebook URL unless the user asks otherwise.
+
+## Wait → links → commit
+
+`ScheduleWakeup` is `/loop`-only. In a normal session, **stop and ask the user to ping you in 15–20 min** (longer for video) — context survives between turns; don't poll. On return, navigate to the notebook URL; completed entries show a play button + duration. Then download/transcode audio, update `manifest.json`, edit `handouts/<name>.md` + `handouts/index.md`, and:
+```
+git add audio/<slug>/ handouts/<name>.md handouts/index.md && git commit -m "add: studio media for <name> (round NNN)" && git push
 ```
 
-⚠️ **Path is `audio/...`, not `../audio/...`.** The handouts viewer renders the page at URL `/theology/#handouts/<name>.md`, which means the browser resolves relative URLs against `/theology/`. `../audio/...` would resolve to `/audio/...` — outside the proxy's `/theology/` prefix, leading to a fall-through 404. `audio/...` resolves to `/theology/audio/...` which the proxy correctly forwards to the static server.
+## Cleanup (stray default / mojibake source)
 
-If the section exists from a prior invocation, *prepend* the new entries (newest first), don't replace.
-
-### Index page links
-
-In `handouts/index.md`, list each generated audio file as a sub-bullet under the handout, with a 🎧 marker. Each invocation appends new sub-bullets (newest first):
-
-```markdown
-- [Heaven, Hell, and Resurrection: Where Are We Going?](#handouts/heaven-hell-resurrection.md) — Every major biblical passage on the afterlife...
-  - 🎧 [Deep Dive (long, 56 min)](audio/heaven-hell-resurrection/deepdive-long-001.m4a)
-  - 🎧 [Deep Dive (medium, 23 min)](audio/heaven-hell-resurrection/deepdive-medium-001.m4a)
-```
-
-If the manifest shows non-audio media (slide decks, video overviews, mind maps), list those as sub-bullets too with appropriate icons (e.g. 🎬 for video, 🗺️ for mind map). The pattern is: one bullet per handout, with all generated media as sub-bullets underneath.
-
-## Steps
-
-### 1. Validate inputs
-
-- Confirm `handouts/<name>.md` exists.
-- Read the title from the first H1 line.
-- Compute slug = basename without `.md`.
-
-### 2. Set up output directory
-
-- `mkdir -p audio/<slug>`
-- Read existing files; determine next sequence number `N` (highest existing + 1, or 001).
-- If `audio/<slug>/manifest.json` exists, load it; otherwise initialize an empty manifest.
-
-### 3. Browser session
-
-Always start with `mcp__claude-in-chrome__tabs_context_mcp` to get fresh tab state, then `tabs_create_mcp` to spawn a clean tab for this run. Don't reuse a tab the user already has open. Then:
-
-- **First invocation** (no `notebook_url` in manifest):
-  - Navigate to `https://notebooklm.google.com/`
-  - Confirm logged-in state — the page will say "Google Account: …" with the user's email. If Google redirects to `accounts.google.com`, **stop and ask the user to sign in manually**. Don't try to type credentials.
-  - Click "+ Create new" (top right). The button labelled "Create new notebook" on the empty-state tile sometimes doesn't trigger; the top-right button is more reliable.
-  - URL becomes `notebook/<id>?addSource=true` and the source-upload modal opens.
-  - **Upload the handout — do not use `Upload files`.** That button opens a native OS file picker that the MCP cannot drive (no `input[type=file]` is injected into the DOM). Use the **`Copied text`** path instead:
-    1. Click the "Copied text" button in the source modal.
-    2. Put the file on the Windows clipboard: `cat handouts/<name>.md | /mnt/c/Windows/System32/clip.exe`.
-    3. Click into the textarea (find by query "Paste text here textarea" or label "Pasted text").
-    4. Send `ctrl+v` via `mcp__claude-in-chrome__computer` `key` action.
-    5. Click "Insert".
-  - Wait ~5 seconds for processing. The page title will change from "Untitled notebook" to an auto-generated title derived from the content.
-  - Capture the notebook URL from the address bar (`notebook/<uuid>`, drop the `?addSource=true`); save into manifest.
-- **Subsequent invocations**: navigate directly to the saved `notebook_url`. Confirm the source is still listed.
-
-### 4. Kick off both generations
-
-The Studio panel on the right has tiles: Audio Overview, Slide Deck, Video Overview, Mind Map, Reports, Flashcards, Quiz, Infographic, Data Table. Each tile has a sibling "Customize" button (chevron/arrow icon).
-
-⚠️ **Clicking the Audio Overview tile itself starts a default-length generation immediately**, with no customize step. To get the customize panel, click the *sibling* "Customize Audio Overview" button (one with the chevron / arrow), not the main tile.
-
-NotebookLM allows multiple Audio Overview generations queued at once. The fastest path is to fire both in sequence and let them generate in parallel:
-
-**Medium (default-length) overview:**
-- Click the Audio Overview tile directly. This kicks off a default-length Deep Dive immediately. You'll see "Generating Audio Overview... Come back in a few minutes" appear in the studio panel.
-- This is your **medium** entry. Default length runs ~10-15 min final audio.
-
-**Long custom overview:**
-- Click "Customize Audio Overview" (the chevron button next to the tile).
-- Customize panel exposes:
-  - **Format**: Deep Dive (default ✓), Brief, Critique, Debate. Keep Deep Dive.
-  - **Choose language**: English (or appropriate).
-  - **Length**: Short / Default / Long. Click **Long**.
-  - **Focus prompt** ("What should the AI hosts focus on in this episode?"): paste a comprehensive prompt naming the contested theological points the handout covers — by name, so the hosts spend time on them. E.g. *"Comprehensive deep dive covering every section of the handout. Don't rush — spend significant time on [list specific contested points from this handout]. Walk through the major biblical passages slowly. Audience: thoughtful Christians, no formal seminary training. Two-host conversational format."*
-- Click "Generate".
-- A second "Generating Audio Overview..." entry appears in the studio panel.
-
-Now both are queued. Generation takes 8-15 minutes each, running concurrently.
-
-### 5. Wait for completion
-
-⚠️ `ScheduleWakeup` only applies in `/loop` dynamic mode. In a regular interactive session, **stop and tell the user to ping you in 15-20 minutes**. Don't poll in a tight loop and don't burn cache trying to "wait" — your context survives quietly between user turns.
-
-When the user pings you back: navigate to the notebook URL and check the Audio Overview entries in the studio panel. Completed entries change from "Generating Audio Overview..." to a play button + title + duration.
-
-### 6. Download both files
-
-For each completed Audio Overview:
-- Click the entry's 3-dot "More" menu (next to the title in the studio panel).
-- Click "Download" from the menu.
-- The download lands in `/mnt/c/Users/David/Downloads/` automatically — no save dialog appears (Chrome routes downloads straight to the default folder). The MCP also opens an "Untitled" tab as a side effect; ignore it.
-- File format is **`.m4a`** (NotebookLM doesn't serve `.wav`). Filename is derived from the auto-generated overview title (e.g. `Heaven_is_just_the_waiting_room.m4a`).
-- Disambiguate which file is which: the "View custom prompt" menu item only appears on entries that had a custom prompt. Use that, or compare durations (custom-with-Long ~50 min; Default ~20 min).
-- Move into place:
-  ```
-  mv "/mnt/c/Users/David/Downloads/<auto-title>.m4a" \
-     "audio/<slug>/deepdive-{long,medium}-NNN.m4a"
-  ```
-
-**Transcode before committing.** NotebookLM exports at ~256 kbps stereo. The Long file commonly exceeds GitHub's 100 MB per-file push limit. Transcode to mono 64 kbps AAC, which preserves spoken-word quality and brings the typical Long overview from ~109 MB down to ~28 MB:
-
-```
-ffmpeg -hide_banner -loglevel error -i deepdive-long-001.m4a \
-  -ac 1 -b:a 64k -movflags +faststart deepdive-long-001-compressed.m4a
-mv deepdive-long-001-compressed.m4a deepdive-long-001.m4a
-```
-
-Apply the same to the medium file. Probe duration with `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 <file>` before/after — duration shouldn't change, only file size.
-
-### 7. Update the manifest
-
-Append both new entries with `generated_at`, `duration_seconds` (probe with `ffprobe` if available), `customize_prompt`, and the file name. Write back to `audio/<slug>/manifest.json` with stable formatting (2-space indent).
-
-### 8. Update web links
-
-- Edit `handouts/<name>.md`: insert/prepend the new audio entries under `## Audio Overviews`. Use `audio/...` paths (not `../audio/...`).
-- Edit `handouts/index.md`: append sub-bullets under the handout's bullet, one per generated media file (🎧 for audio, other icons for other media). Don't deduplicate within a round, but don't re-add entries from prior rounds either.
-
-### 9. Commit and push
-
-```
-git add audio/<slug>/ handouts/<name>.md handouts/index.md
-git commit -m "add: audio overviews for <name> (round NNN)"
-git push origin master
-```
-
-Audio files are tracked in git for now (small enough, served as static assets). If size becomes a problem, switch to git-lfs or a separate storage bucket — out of scope for this skill.
+- **Stray default audio** (from an accidental tile-click): wait until titles render (all read "Generating…" identically until done), then identify the generic-titled one and delete it.
+- **Mojibake source**: open the source; its body shows `â€"` / `kephalÄ"` if Latin-1-decoded. Re-add a clean one (fetch+TextDecoder), then delete the bad one.
+- **Delete a source**: hover its row → kebab (3-dot) → **Remove source** → confirm **Delete**.
 
 ## Gotchas
 
-- **The UI changes.** Selectors, button labels, panel layouts. Use `mcp__claude-in-chrome__read_page` and `find` to locate elements; don't hard-code refs.
-- **Native file pickers can't be driven.** The "Upload files" button opens an OS picker the MCP can't see. Use the "Copied text" path with the Windows clipboard (`clip.exe`) instead.
-- **Localhost fetches from notebooklm.google.com hang.** Mixed-content blocking + Chrome's localhost handling means a `fetch('http://127.0.0.1:8000/...')` from a Google page will time out the JavaScript bridge for 45+ seconds. Don't try.
-- **Tile click ≠ customize.** Clicking the Audio Overview tile fires a default-length generation immediately. The customize panel only opens via the sibling "Customize Audio Overview" chevron button.
-- **NotebookLM accepts parallel queued generations** — useful for firing the medium and long versions in one shot rather than waiting for the first to finish.
-- **Generation is slow.** 8-15 min per overview. In an interactive session, stop and ask the user to ping you when it's likely done. `ScheduleWakeup` is only valid in `/loop` mode.
-- **Daily quota.** The free NotebookLM tier limits Audio Overview generations per day. If generation refuses, surface the error and stop — don't retry blindly.
-- **Tab management.** Don't reuse tab IDs across sessions. Always `tabs_context_mcp` first, then `tabs_create_mcp` for a fresh tab.
-- **Modal dialogs lock the browser.** Don't click anything that triggers a JS confirm/alert. If you do, the MCP session is dead and the user has to dismiss it manually.
-- **Audio files are large.** Raw NotebookLM exports run ~256 kbps stereo `.m4a` — a Long Deep Dive can hit 100+ MB and fail GitHub's per-file push limit. Always transcode to mono 64 kbps before commit (see step 6). Don't try to read or transcribe the audio; just place and transcode.
-- **Range requests are required for streaming.** `scripts/save_server.py` was extended (commit `b80b529`-ish) with a `_handle_range_get` path that returns `206 Partial Content` for any GET that includes a `Range:` header. Without 206 responses, browsers' `<audio>` and `<video>` elements hang on load. If the spinner-of-death returns, the first thing to check is `curl -s -D - -r 0-99 http://127.0.0.1:8000/audio/<file>.m4a` — should be `HTTP/1.0 206`, not `200`.
-- **Relative paths and the `/theology/` proxy.** Audio links written as `../audio/...` resolve outside the proxy prefix and 404 silently. Use `audio/<slug>/<file>.m4a` (no `../`).
-- **Don't re-record.** If a generation fails partway, leave the existing files alone and start a new round with the next sequence number.
+- **Tile click = instant default.** Always use the "Customize <X>" chevron. (Was the #1 source of stray outputs.)
+- **Format/style ref-clicks miss.** Verify the ✓ by zoom; fall back to clicking the tile/thumbnail by coordinate. Debate and Editorial both needed this.
+- **Refs renumber on every dialog reopen** and **tab IDs change every session.** `tabs_context_mcp` first; re-`find` controls each open.
+- **Charset/mojibake.** Always `fetch()+TextDecoder('utf-8')`; never `innerText`; never `clip.exe` for UTF-8. Verify em-dash present + no `â€` before pasting.
+- **Clipboard needs focus.** `writeText` throws "Document is not focused" — `left_click` the page in the same batch first.
+- **Cross-origin fetch is blocked** from the notebooklm tab; run the fetch in a tab that's *on* the tailnet origin. NotebookLM's own URL-fetcher can't reach tailnet-private content either.
+- **Native file picker undrivable** — use "Copied text", not "Upload files".
+- **Concurrent generations OK** (PRO) — fire all, don't serialize.
+- **Generation is slow** — audio 5–15 min, cinematic video 15–25+ min. Don't poll; hand back to the user.
+- **Daily quota** on lower tiers — if a generation refuses, surface the error and stop.
+- **Modal JS dialogs kill the session** — never trigger a confirm/alert.
+- **Range requests for audio streaming**: the static server must return `206 Partial Content` on `Range:` GETs or `<audio>`/`<video>` hang. Check `curl -s -D - -r 0-99 http://127.0.0.1:8000/audio/<file>.m4a` → expect `206`.
 
 ## When to stop and ask
 
-- Login redirect appears.
-- A captcha or 2FA prompt appears.
-- Generation has been pending more than 30 minutes (something is wrong).
-- The handout file is over NotebookLM's per-source size limit (currently around 200k words / 500k chars).
-- The user invokes against a handout that doesn't exist.
-- After 2-3 failed UI attempts on any single step (rabbit-hole guard).
+Login/captcha/2FA prompt · generation pending >30 min · handout over NotebookLM's per-source limit (~500k chars) · handout doesn't exist · 2–3 failed UI attempts on one step (rabbit-hole guard) · which connected browser to use (always).

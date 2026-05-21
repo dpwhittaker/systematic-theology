@@ -395,3 +395,7 @@ Some insights to add to both handouts: 1) the kingdom is about relationship. Wom
 ---
 
 Upload to new project and regenerate all resources.
+
+---
+
+Let's write that podcast skill. Fill it inn with what you've learned from this session.
