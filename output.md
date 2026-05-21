@@ -1890,3 +1890,11 @@ Setup:
 5. Deep Dive, Default — "Monday morning" practical application, warm/pastoral.
 
 Note: an initial mis-click on the Audio Overview tile started one uncustomized DEFAULT overview (6 cards total generating). Will delete that stray once titles render (indistinguishable while all show "Generating...").
+
+---
+
+Added two more Studio outputs to the same notebook (per user request):
+- Cinematic Video Overview — lay-audience focus on the Ephesians 5 icon read in both directions: active bride (Deborah/Mary/Priscilla/Lydia/Huldah) + empowering husband (Spirit/freedom/authority/sending), landing on mutuality with distinct roles. Visually rich, reverent.
+- Infographic — Editorial style, Landscape, Standard detail. Left = Active Bride, Right = Empowering Husband, Bottom = mutuality-with-distinct-roles destination.
+
+Notebook now generating 8 outputs total: 6 audio (5 custom + 1 stray default to delete), 1 cinematic video, 1 infographic. Stray default audio still pending deletion once titles render.
