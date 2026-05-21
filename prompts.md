@@ -383,3 +383,7 @@ For Huldah, continuing all the way to verse 20 would provide a much richer under
 ---
 
 Update the "Women in Family and Ministry" handout to cover these topics as well. It should retain its current verse-by-verse flavor of exegeting the scripture, but flavor its opinion around this husband-as-empowerer narrative.
+
+---
+
+Those are great. Use the "Debate" Format for #4. If you need claude-in-chrome for auth, send it to 100.89.69.109

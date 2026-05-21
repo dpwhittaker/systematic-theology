@@ -1873,3 +1873,20 @@ New §IV "The Husband as Empowerer" (inserted after §III Active Bride, pairing 
 Renumbered old §IV-§XI to §V-§XII (sed with placeholders for body cross-refs; verified no collisions). Threaded empowerment flavor into: intro (new flag bullet for §IV), §II Headship closing (the husband's "harder command" is empowerment ordered to her splendor, governs everything that follows), and the §XII Synthesis "In the family" list (new "Headship as empowerment — head-side of the icon (§IV)" bullet paired with the active-bride bullet). Extended the "Active Bride" Further Study category to "(§III-IV)" adding Keller (Meaning of Marriage), Padgett (As Christ Submits to the Church), Custis James (Malestrom).
 
 Verified: 12 sections I-XII, all cross-references consistent, no stray placeholders or wikilinks.
+
+---
+
+NotebookLM Audio Overviews — executed via claude-in-chrome on the authenticated "minipc" browser (nlm CLI auth couldn't be completed cleanly in WSL2; the minipc browser was already logged into NotebookLM, so drove the UI directly).
+
+Setup:
+- Created notebook "The Residue of Asymmetry: Mutuality and Distinctness in the Kingdom" (NotebookLM auto-named it).
+- Added both handouts as "Copied text" sources, loaded over the tailnet raw-md URLs. Hit a charset bug: the dev server serves .md without UTF-8 charset, so the browser decoded as latin1 and em-dashes/Greek became mojibake. Fixed by re-fetching each via same-origin fetch + TextDecoder('utf-8') and re-pasting; deleted the mojibake source. Final sources both clean (verified em-dash present, no mojibake).
+
+5 Audio Overviews submitted (all customized, lay-audience preamble in each):
+1. Deep Dive, LONG — socratic guide as script, answered by a mixed-denomination class (5 lay voices).
+2. Deep Dive, Default — Ephesians 5:22-33 word-by-word grammatical/contextual defense of husband-as-empowerer.
+3. Deep Dive, Default — conversational two-host survey of the whole Active Bride guide.
+4. DEBATE format, Default — steelman the traditional view, then respond; believers sharing one Bible.
+5. Deep Dive, Default — "Monday morning" practical application, warm/pastoral.
+
+Note: an initial mis-click on the Audio Overview tile started one uncustomized DEFAULT overview (6 cards total generating). Will delete that stray once titles render (indistinguishable while all show "Generating...").
