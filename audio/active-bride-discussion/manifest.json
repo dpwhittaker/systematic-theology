@@ -1,0 +1,35 @@
+{
+  "handout": "active-bride-discussion.md",
+  "title": "The Active Bride — A Discussion Guide",
+  "notebook_url": "https://notebooklm.google.com/notebook/f0d27c2f-f548-4669-8d8e-dc85d4e56ef0",
+  "notebook_title": "The Active Bride and the Empowering Head",
+  "sources": [
+    "women-in-family-and-ministry.md",
+    "active-bride-discussion.md"
+  ],
+  "entries": [
+    {
+      "kind": "deepdive",
+      "file": "why-the-biblical-bride-leads.m4a",
+      "notebooklm_title": "Why the Biblical Bride Leads",
+      "format": "Deep Dive",
+      "length_setting": "Default",
+      "generated_at": "2026-05-20",
+      "duration_seconds": 1136,
+      "duration_human": "18:56",
+      "encoding": "mono 64k AAC (transcoded from NotebookLM export)"
+    },
+    {
+      "kind": "debate",
+      "file": "biblical-headship-and-active-bride.m4a",
+      "notebooklm_title": "Biblical headship and the active bride",
+      "format": "Debate",
+      "length_setting": "Default",
+      "generated_at": "2026-05-20",
+      "duration_seconds": 1233,
+      "duration_human": "20:33",
+      "customize_prompt": "Debate between two believers who share one Bible (not believers vs. skeptics): one host gives the strongest, fairest case for the traditional male-leadership/wifely-submission reading; the other responds from the sources. Lay audience, plain language.",
+      "encoding": "mono 64k AAC (transcoded from NotebookLM export)"
+    }
+  ]
+}

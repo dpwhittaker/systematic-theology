@@ -1929,3 +1929,11 @@ Rewrote .claude/skills/handout-podcast/SKILL.md with this session's learnings:
 - Added format/style ref-click unreliability (verify ✓ by zoom, click tile by coordinate) — bit me on Debate and Editorial.
 - Added Video Overview (Cinematic) and Infographic (Editorial) flows + the lay-audience preamble convention + form_input for prompts + concurrent-generation note + refs-renumber/tab-id instability + cleanup (remove source / stray default) procedures.
 - Broadened frontmatter description to cover audio + video + infographic, browser-driven.
+
+---
+
+Downloaded 2 audio overviews from the "The Active Bride and the Empowering Head" notebook via claude-in-chrome (3-dot → Download → /mnt/c/Users/David/Downloads), transcoded to mono 64k AAC, placed under audio/active-bride-discussion/:
+- why-the-biblical-bride-leads.m4a (Deep Dive, 18:56, 9.2M)
+- biblical-headship-and-active-bride.m4a (Debate, 20:33, 10M)
+
+index.md: created new heading "## Women in the Church and Family"; moved both women handouts there out of Ethics (Ethics now just Homosexuality); added 🎧 sub-bullets for both audio under the Active Bride class-handout bullet. Also added an ## Audio Overviews block to active-bride-discussion.md. Wrote audio/active-bride-discussion/manifest.json.

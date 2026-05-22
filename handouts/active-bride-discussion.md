@@ -4,6 +4,11 @@
 
 That is the question this guide is built around — and it cuts both ways across the room. We will spend most of this morning on one thing: **what the church actually does in relation to Christ** — because whatever the church does, the wife does. But we will keep asking the matching question right beside it: **what did Christ give so the church could do it** — because whatever Christ gives, the husband gives. Husbands and wives both have homework here. The wives will keep recognizing themselves in the active bride. The husbands will keep getting asked a harder question than *how do I lead?* — namely, *how do I empower?* Read every verse aloud. Sit with the questions before reaching for the answers. Both sides of the room are in this together.
 
+## Audio Overviews
+
+- 🎧 [Why the Biblical Bride Leads (Deep Dive, 19 min)](audio/active-bride-discussion/why-the-biblical-bride-leads.m4a)
+- 🎧 [Biblical Headship and the Active Bride (Debate, 21 min)](audio/active-bride-discussion/biblical-headship-and-active-bride.m4a)
+
 ---
 
 ## Part 1 — The Conventional Reading

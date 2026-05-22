@@ -37,8 +37,13 @@ These handouts are designed for group study, personal reference, and printed use
 ## Ethics
 
 - [Homosexuality and Scripture: The Primary Texts](#handouts/homosexuality-and-scripture.md) — The major passages cited in contemporary Christian debate, with traditional and affirming interpretive positions laid out without drawn conclusions
+
+## Women in the Church and Family
+
 - [Women in Family and Ministry: The Differences That Remain](#handouts/women-in-family-and-ministry.md) — After the cultural-context arguments are granted, the residual asymmetries between men and women — equal in dignity, distinct in calling
 - [The Active Bride — A Discussion Guide](#handouts/active-bride-discussion.md) — Socratic walkthrough of the Christ-church icon read in both directions: what the church (and so the wife) actively does, and what Christ (and so the husband) gives to empower it — for husbands and wives both
+  - 🎧 [Why the Biblical Bride Leads (Deep Dive, 19 min)](audio/active-bride-discussion/why-the-biblical-bride-leads.m4a)
+  - 🎧 [Biblical Headship and the Active Bride (Debate, 21 min)](audio/active-bride-discussion/biblical-headship-and-active-bride.m4a)
 
 ---
 

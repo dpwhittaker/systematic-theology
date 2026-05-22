@@ -399,3 +399,7 @@ Upload to new project and regenerate all resources.
 ---
 
 Let's write that podcast skill. Fill it inn with what you've learned from this session.
+
+---
+
+download the Biblical Headship and Active Bride audio overview, and the why the biblical bride leads. Add them to the main page under the class handout. Move both handouts under their own heading "Women in the Church and Family"
