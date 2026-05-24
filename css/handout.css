@@ -160,6 +160,17 @@ hr.page-break {
     margin: 0.2in 0;
 }
 
+/* Compact mode (opt-in via `<!-- compact -->` marker) — tighter vertical rhythm
+   for page-dense handouts. Class + element selectors outrank the base rules
+   without !important. Applies on screen and in print. No content is removed. */
+.handout-compact h2 { margin: 0.055in 0 0.025in 0; }
+.handout-compact h3 { margin: 0.04in 0 0.018in 0; }
+.handout-compact p { margin: 0.01in 0; line-height: 0.98; }
+.handout-compact blockquote { margin: 0.009in 0 0.009in 0.22in; padding: 0.009in 0 0.009in 0.13in; line-height: 0.98; }
+.handout-compact ul, .handout-compact ol { margin: 0.02in 0; }
+.handout-compact li { margin: 0; line-height: 0.98; }
+.handout-compact hr { margin: 0.025in 0; }
+
 /* Print-specific */
 @media print {
     body {

@@ -403,3 +403,9 @@ Let's write that podcast skill. Fill it inn with what you've learned from this s
 ---
 
 download the Biblical Headship and Active Bride audio overview, and the why the biblical bride leads. Add them to the main page under the class handout. Move both handouts under their own heading "Women in the Church and Family"
+
+---
+
+page break analysis of docratic handout
+can you get it to 8 pages without losing any content?
+look for lines with few words that can be lost by stating previous line more simply

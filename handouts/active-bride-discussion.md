@@ -1,5 +1,7 @@
 # The Active Bride — A Discussion Guide
 
+<!-- compact -->
+
 *I want us to really focus on all the implications of **Ephesians 5:22–25**. The summary is simple: the wife is to the husband as the church is to Christ. We love to focus on one side of that — the husband leads, the wife follows. But there is so much more in the church → Christ relationship that I believe strongly applies here. Christ empowered the church with the Holy Spirit. Christ gave His life for the church so that the church could be freed from the bondage of its past. And He gave the church agency to "bind and loose" — to forbid and permit actions, to interpret, even to write, our own laws. Viewing the husband-wife relationship in these modes is changing the way I think about my role. How can I empower DeLisa to go into the world and make disciples?*
 
 That is the question this guide is built around — and it cuts both ways across the room. We will spend most of this morning on one thing: **what the church actually does in relation to Christ** — because whatever the church does, the wife does. But we will keep asking the matching question right beside it: **what did Christ give so the church could do it** — because whatever Christ gives, the husband gives. Husbands and wives both have homework here. The wives will keep recognizing themselves in the active bride. The husbands will keep getting asked a harder question than *how do I lead?* — namely, *how do I empower?* Read every verse aloud. Sit with the questions before reaching for the answers. Both sides of the room are in this together.
@@ -27,9 +29,9 @@ For most of church history, Ephesians 5 has been read in one direction. Christ l
 
 1. Three independent letters, three submission commands. Whatever Paul and Peter mean, they mean it more than once. State the conventional reading as strongly as you can: *what is the wife's role in this picture, and what does she do all day?*
 
-2. The conventional reading often imagines the wife as a passive recipient — she trusts, she defers, she submits. Notice the verb the Christ-side of the analogy gets: *Christ loved the church and gave Himself up for her.* What verb does the church-side get in Ephesians 5:24? Is that the *only* thing the church does — and is "gave Himself up for her" the *only* thing Christ does?
+2. The conventional reading imagines the wife as a passive recipient — she trusts, defers, submits. Notice the verb the Christ-side gets: *Christ loved the church and gave Himself up for her.* What verb does the church-side get in Ephesians 5:24? Is that the *only* thing the church does — and is "gave Himself up" the *only* thing Christ does?
 
-3. Here are the two questions we will carry through the morning, one for each side of the room. **Wives:** whatever the church does in relation to Christ, that is what you do — so what does the church actually do? **Husbands:** whatever Christ gives the church, that is what you give — so what did Christ actually give? We have been handed one word for each side (she *submits*; he *leads*). We are about to find out how small those two words have been.
+3. Two questions we'll carry through the morning, one per side of the room. **Wives:** whatever the church does in relation to Christ is what you do — so what does the church actually do? **Husbands:** whatever Christ gives the church is what you give — so what did Christ actually give? We've been handed one word each (she *submits*; he *leads*); we're about to find how small those two words have been.
 
 ---
 
@@ -47,7 +49,7 @@ Before the church does anything, Jesus speaks. Look at what He tells them, what 
 
 > And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight. (**Acts 1:9**, ESV)
 
-**Context:** Acts 1:9 is the last time Jesus speaks to the disciples in person before the rest of the New Testament unfolds. After this, the church has the Spirit (Acts 2), the deposited teaching, and a commission. It does not have Jesus standing next to them telling them what to do each morning. But notice He does not send them empty-handed — *"you will receive power"* comes before *"you will be my witnesses."* He empowers, then commissions, then steps back.
+**Context:** Acts 1:9 is the last time Jesus speaks to the disciples in person before the rest of the New Testament unfolds. After this the church has the Spirit (Acts 2), the deposited teaching, and a commission — but not Jesus standing beside them telling them what to do each morning. And He does not send them empty-handed: *"you will receive power"* comes before *"you will be my witnesses."* He empowers, then commissions, then steps back.
 
 **Discussion:**
 
@@ -247,19 +249,19 @@ Three Old Testament women who exercise massive public authority. Read what they 
 
 > She sent and summoned Barak the son of Abinoam from Kedesh-naphtali and said to him, "Has not the LORD, the God of Israel, commanded you, 'Go, gather your men at Mount Tabor...'" (**Judges 4:6**, ESV)
 
-**Context:** Deborah is the *judge* — the recognized political and spiritual authority over all Israel. She summons the male general Barak and commands him in YHWH's name. Her husband Lappidoth is named once (4:4) and never appears again. He is mentioned only as a marital identifier, not as an authorizer or supervisor.
+**Context:** Deborah is the *judge* — the political and spiritual authority over all Israel. She summons the male general Barak and commands him in YHWH's name. Her husband Lappidoth is named once (4:4) and never appears again — a marital identifier, not an authorizer.
 
 ### Esther
 
 > Then Esther told them to reply to Mordecai, "Go, gather all the Jews to be found in Susa, and hold a fast on my behalf, and do not eat or drink for three days, night or day. I and my young women will also fast as you do. Then I will go to the king, though it is against the law, and **if I perish, I perish**." (**Esther 4:15–16**, ESV)
 
-**Context:** Esther independently decides to risk her life. She does not consult her husband (the king — he is the one she has to risk approaching). She instructs Mordecai to gather the Jews and fast. She is the agent in this story; the men around her receive *her* directives.
+**Context:** Esther independently decides to risk her life — without consulting her husband (the king, the very one she must risk approaching). She instructs Mordecai to gather the Jews and fast. She is the agent here; the men around her receive *her* directives.
 
 ### Huldah
 
 > So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asaiah went to **Huldah the prophetess**, the wife of Shallum... and they talked with her. And she said to them, "Thus says the LORD, the God of Israel: 'Tell the man who sent you to me, Thus says the LORD, Behold, I will bring disaster upon this place and upon its inhabitants, all the words of the book that the king of Judah has read. Because they have forsaken me and have made offerings to other gods, that they might provoke me to anger with all the work of their hands, therefore my wrath will be kindled against this place, and it will not be quenched. But to the king of Judah, who sent you to inquire of the LORD, thus shall you say to him, Thus says the LORD, the God of Israel: Regarding the words that you have heard, because your heart was penitent, and you humbled yourself before the LORD, when you heard how I spoke against this place and against its inhabitants, that they should become a desolation and a curse, and you have torn your clothes and wept before me, I also have heard you, declares the LORD. Therefore, behold, I will gather you to your fathers, and you shall be gathered to your grave in peace, and your eyes shall not see all the disaster that I will bring upon this place.'" (**2 Kings 22:14–20**, ESV)
 
-**Context:** A scroll has been found in the temple. King Josiah needs to know if it is genuine Scripture. The high priest, royal officials, and the king's scribe — the most powerful men in Judah — go to *Huldah*, and she delivers a full two-part oracle: national judgment on Judah for idolatry (vv. 16–17), then a personal word of mercy to the penitent king (vv. 18–20). Hers is the definitive verdict — it validates the scroll and becomes the basis for Josiah's sweeping reform, the recovery of biblical religion in Judah. Note who is *not* consulted: Jeremiah and Zephaniah were both prophesying in Jerusalem at this very time, yet the king's men came to *her*. Her husband Shallum is named only as a marital identifier.
+**Context:** A scroll has been found in the temple; King Josiah needs to know if it is genuine Scripture. The high priest, royal officials, and the king's scribe — the most powerful men in Judah — go to *Huldah*, and she delivers a two-part oracle: national judgment for idolatry (vv. 16–17), then mercy to the penitent king (vv. 18–20). Hers is the definitive verdict — it validates the scroll and grounds Josiah's sweeping reform. Note who is *not* consulted: Jeremiah and Zephaniah were prophesying in Jerusalem at this very time, yet the king's men came to *her*. Her husband Shallum is only a marital identifier.
 
 **Discussion:**
 
@@ -287,11 +289,11 @@ Read the final invitation of the Bible.
 
 ## Part 12 — What the Husband Gives: The Thread Pulled Whole
 
-All morning we have been watching two things at once — the Bride acting, and Christ empowering her to act. Now pull that second thread all the way out. The same sentence that commands the wife's submission keeps going, and what it says the husband (Christ) *does* is the part the conventional reading races past.
+All morning we have watched two things at once — the Bride acting, and Christ empowering her to act. Now pull that second thread out. The sentence that commands the wife's submission keeps going, and what it says the husband (Christ) *does* is the part the conventional reading races past.
 
 > Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish. In the same way husbands should love their wives as their own bodies. He who loves his wife loves himself. For no one ever hated his own flesh, but nourishes and cherishes it, just as Christ does the church... (**Ephesians 5:25–29**, ESV)
 
-**Context:** Notice the *purpose clauses* — "that he might sanctify her," "so that he might present her in splendor," "that she might be holy." Christ's self-giving is not aimed at her compliance. It is aimed at her *glory*. In Paul's own grammar, the entire point of the husband's sacrifice is the wife's flourishing, freedom, and splendor. Three gifts have surfaced again and again this morning; here they are whole.
+**Context:** Notice the *purpose clauses* — "that he might sanctify her," "present her in splendor," "that she might be holy." Christ's self-giving is aimed not at her compliance but at her *glory*; in Paul's grammar the whole point of the husband's sacrifice is the wife's flourishing. Three gifts have surfaced all morning; here they are whole.
 
 ### A. Christ empowered the church with the Holy Spirit (Parts 2, 4, 7)
 
@@ -321,11 +323,11 @@ Christ gave the church the Spirit and the authority to interpret, render binding
 
 **Discussion:**
 
-31. Three gifts: **the Spirit** (empowerment), **the cross** (liberation), **the keys** (delegated authority). **Husbands:** take them one at a time. (a) How do you *empower* your wife — pour capacity into her? (b) How does your self-giving *free* her from what has bound her — old wounds, shame, fear? (c) What authority have you actually *delegated* to her? Be specific on all three.
+31. Three gifts: **the Spirit** (empowerment), **the cross** (liberation), **the keys** (delegated authority). **Husbands**, one at a time: (a) how do you *empower* your wife — pour capacity into her? (b) how does your self-giving *free* her from what binds her — old wounds, shame, fear? (c) what authority have you actually *delegated*? Be specific on all three.
 
 32. **Wives:** name what you most need from your husband under each heading — to be empowered, to be freed, to be entrusted. Which of the three is most missing right now? **Husbands:** listen to the answer without defending.
 
-33. Ephesians 5:27 says the husband's whole aim is to present his wife "in splendor... holy and without blemish." **Both:** is the marriage you are building aimed at her *splendor* — or merely at her *compliance*? What is the visible difference between a husband working toward his wife's glory and one working toward his own comfort?
+33. Ephesians 5:27 says the husband's whole aim is to present his wife "in splendor... holy and without blemish." **Both:** is the marriage you are building aimed at her *splendor* or merely at her *compliance*? What's the visible difference between a husband working toward his wife's glory and one working toward his own comfort?
 
 ### The question the conventional reading never asks the husband
 
@@ -333,7 +335,7 @@ The conventional reading asks the husband one question: *how do I lead her?* The
 
 > **How do I empower my wife to go into the world and make disciples?**
 
-And here is *why* that is the right question, not a concession. The Kingdom is not a machine to run; it is a web of relationships to enter — eternal life *is* knowing God (John 17:3), and the whole Law hangs on two relational commands (Matt 22:37–40). If the Kingdom advances by relationship, and if women are — broadly — the relational specialists, then the most strategic thing a man can do for the relational Kingdom is to release his wife into her element. Empowering her is not him settling for a smaller role; it is him putting his household's strongest player on the field instead of the bench.
+And here is *why* that's the right question, not a concession. The Kingdom is not a machine to run but a web of relationships to enter — eternal life *is* knowing God (John 17:3), and the whole Law hangs on two relational commands (Matt 22:37–40). If the Kingdom advances by relationship, and women are — broadly — the relational specialists, the most strategic thing a man can do is release his wife into her element: putting his household's strongest player on the field, not the bench.
 
 34. Sit with that personally — and **both** of you answer it. **Husbands:** name three concrete things you could do this month to empower your wife the way Christ empowered the church: to equip her, free her, back her, and send her. **Wives:** name three things that would actually help you go — and tell him.
 
@@ -347,20 +349,20 @@ Now let us return to Ephesians 5 with everything we have read.
 
 **Discussion:**
 
-35. The icon has two sides. Husband : wife :: Christ : church. The conventional reading uses one side to define the other: *Christ leads → so the husband leads*. Run it both directions at once. *The church does X → so the wife does X. Christ gives Y → so the husband gives Y.* Based on everything this morning, fill in both X and Y.
+35. The icon has two sides. Husband : wife :: Christ : church. The conventional reading runs it one way: *Christ leads → the husband leads*. Run it both ways: *the church does X → the wife does X; Christ gives Y → the husband gives Y.* From everything this morning, fill in both X and Y.
 
-36. We spent twelve passages watching the actual church *decide doctrine, plant itself, sing revolutionary songs, hold keys, teach, host, govern, send, judge nations, save peoples, validate Scripture, and speak the final invitation of the canon* — every bit of it *empowered, freed, and authorized* by Christ. Is *"she submits, he leads"* an adequate description of either side?
+36. We spent twelve passages watching the church *decide doctrine, plant itself, sing revolutionary songs, hold keys, teach, host, govern, send, judge nations, save peoples, validate Scripture, and speak the canon's final invitation* — all of it *empowered, freed, and authorized* by Christ. Is *"she submits, he leads"* adequate for either side?
 
-37. The icon's *asymmetry* is real and must be preserved — the husband dies for the wife; she does not die for him; Christ initiates, the church responds. But asymmetry is not passivity, and headship is not control. **Both sides:** state the difference in your own words.
+37. The icon's *asymmetry* is real — the husband dies for the wife, not she for him; Christ initiates, the church responds. But asymmetry is not passivity, and headship is not control. **Both sides:** state the difference in your own words.
 
 ### Where this leaves us
 
 Reading the icon in both directions does not dissolve the asymmetry — it specifies what the asymmetry actually contains:
 
-- **Husband as Christ-figure:** initiator, the one who dies — *and the one who empowers, frees, authorizes, and sends*. His headship is not control but empowerment: he gives her every resource (as Christ gave the Spirit), frees her from the bondage of her past (as Christ freed the church), delegates real authority (as Christ gave the keys), and sends her into the world — aiming, in everything, at her splendor.
-- **Wife as church-figure:** agent, executor, the one who builds while He is away, who holds the keys, whose voice speaks the final invitation. Empowered, freed, and authorized — she goes into the world and makes disciples.
+- **Husband as Christ-figure:** initiator, the one who dies — *and the one who empowers, frees, authorizes, and sends*. Headship is not control but empowerment: he gives her every resource (as Christ gave the Spirit), frees her from her past (as Christ freed the church), delegates real authority (the keys), and sends her out — aiming, in everything, at her splendor.
+- **Wife as church-figure:** agent and executor, who builds while He is away, holds the keys, and speaks the final invitation. Empowered, freed, and authorized — she goes into the world and makes disciples.
 
-The husband leads not by daily command but by cruciform self-giving that *empowers*. The wife follows not by silent compliance but by Spirit-empowered, agentic, mission-driven execution of a shared Kingdom direction — and by the *ezer kenegdo* function of speaking against him when he drifts.
+The husband leads not by daily command but by cruciform self-giving that *empowers*. The wife follows not by silent compliance but by Spirit-empowered, mission-driven execution of a shared Kingdom direction — and by the *ezer kenegdo* work of speaking against him when he drifts.
 
 The deepest question the icon poses to the husband is not "how do I lead her?" but **"how do I empower her to go into the world and make disciples?"** — because that is precisely what Christ did for His bride.
 
@@ -374,7 +376,7 @@ Closing questions for personal reflection and group discussion — for both side
 
 38. Think of a marriage you respect. How much of the wife's contribution looks like *passive submission*, and how much looks like *agentic execution she has been empowered for*? What words would you actually use to describe what she does?
 
-39. The conventional reading silences the *ezer kenegdo* function — the wife's calling to expose her husband's drift from the Kingdom. The active-bride reading restores it. **Husbands:** when your wife questions your direction, do you receive it as the gift it is, or resent it? **Wives:** do you speak, or stay quiet to keep the peace? What did Jesus think of those who never questioned anything?
+39. The conventional reading silences the *ezer kenegdo* function — the wife's calling to expose her husband's drift from the Kingdom; the active-bride reading restores it. **Husbands:** when your wife questions your direction, do you receive it as a gift or resent it? **Wives:** do you speak, or stay quiet to keep the peace? What did Jesus think of those who never questioned anything?
 
 40. **Husbands:** finish this sentence out loud — *"This week, one concrete way I will empower my wife to go and make disciples is ______."* **Wives:** finish this one — *"One place I sense God sending me, that I have been waiting for permission to go, is ______."* Trade answers.
 
@@ -382,20 +384,14 @@ Closing questions for personal reflection and group discussion — for both side
 
 42. **The relational Kingdom.** Is it true, in your experience, that women tend to carry the relational work — in families, friendships, churches? If the Kingdom is fundamentally *relational*, what follows for how a husband should spend his influence? **Husbands:** where might you be playing a relational position your wife plays better — and what would handing it to her look like?
 
-43. **Submission, redefined — test this definition:** *a wife submits by believing her husband when he tells her she is beautiful, powerful, capable, and authorized to lead people to the Kingdom of God — and then acting on it.* **Wives:** is it harder to obey a command or to believe a commendation? Which does your husband actually ask of you? **Husbands:** what do your words over your wife tell her she is — and is it true? (Compare Ephesians 5:27: Christ presents the church *in splendor*. The church, in turn, submits by believing what He says it is — and going.)
+43. **Submission, redefined — test this definition:** *a wife submits by believing her husband when he tells her she is beautiful, powerful, capable, and authorized to lead people to the Kingdom of God — and then acting on it.* **Wives:** is it harder to obey a command or to believe a commendation? Which does your husband actually ask of you? **Husbands:** what do your words over your wife tell her she is — and is it true? (Compare Eph 5:27: Christ presents the church *in splendor*; the church submits by believing what He says it is — and going.)
 
 ---
 
 ## Suggested Further Reading
 
-- Esau McCaulley, *Reading While Black* — the church as Spirit-empowered agent across cultures
-- Lesslie Newbigin, *The Open Secret* and *The Gospel in a Pluralist Society* — the church as bearer of the mission, not passive recipient
-- Michael Gorman, *Becoming the Gospel* — participatory Pauline ecclesiology
-- N.T. Wright, *Surprised by Hope* — the agentic role of the church in the Kingdom
-- Sarah Coakley, *God, Sexuality, and the Self* — Mary's agentic *yes* in patristic and feminist theology
-- Carolyn Custis James, *Half the Church* and *Malestrom* — the *ezer kenegdo* recovery
-- The companion handout: *Women in Family and Ministry: The Differences That Remain* §III for the full theological treatment
+**The church as Spirit-empowered agent:** Esau McCaulley, *Reading While Black*; Lesslie Newbigin, *The Open Secret* and *The Gospel in a Pluralist Society*; Michael Gorman, *Becoming the Gospel*; N.T. Wright, *Surprised by Hope*. **Women's agency and the *ezer* recovery:** Sarah Coakley, *God, Sexuality, and the Self* (Mary's agentic *yes*); Carolyn Custis James, *Half the Church* and *Malestrom*. **Full treatment:** the companion handout *Women in Family and Ministry: The Differences That Remain*, §III.
 
 ---
 
-*This handout is the discussion-form companion to §III of "Women in Family and Ministry." It is meant to be worked through aloud, in community, with everyone holding a Bible — husbands and wives both answering. Stop, read the verses, ask the questions, let people sit with the discomfort. The goal is not to land at a predetermined conclusion but to discover what the text actually says: about the church and therefore the wife, and about Christ and therefore the husband.*
+*The discussion-form companion to §III of "Women in Family and Ministry." Work through it aloud, everyone holding a Bible, husbands and wives both answering — not toward a predetermined conclusion but to discover what the text says: about the church and therefore the wife, about Christ and therefore the husband.*

@@ -1008,6 +1008,11 @@ async function loadHandout(path) {
         const handoutTitle = h1Match ? h1Match[1].trim() : path.split('/').pop().replace(/\.md$/, '');
         document.title = `${handoutTitle} — Systematic Theology`;
 
+        // Opt-in compact spacing: a handout with a `<!-- compact -->` marker renders
+        // with tighter vertical rhythm (for fitting page-dense handouts). Scoped to
+        // #card-body so other handouts are unaffected.
+        els.cardBody.classList.toggle('handout-compact', /<!--\s*compact\s*-->/.test(markdown));
+
         // Storyboard: use dedicated editor instead of generic handout renderer
         if (path.startsWith('storyboards/') && path.endsWith('.md') && window.StoryboardEditor) {
             const blocks = window.StoryboardEditor.parse(markdown);

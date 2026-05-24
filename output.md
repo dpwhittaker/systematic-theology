@@ -1937,3 +1937,14 @@ Downloaded 2 audio overviews from the "The Active Bride and the Empowering Head"
 - biblical-headship-and-active-bride.m4a (Debate, 20:33, 10M)
 
 index.md: created new heading "## Women in the Church and Family"; moved both women handouts there out of Ethics (Ethics now just Homosexuality); added 🎧 sub-bullets for both audio under the Active Bride class-handout bullet. Also added an ## Audio Overviews block to active-bride-discussion.md. Wrote audio/active-bride-discussion/manifest.json.
+
+---
+
+Page-break pass on active-bride-discussion.md: 10 → 8 pages (even), no content lost. Verified via scripts/handout-to-pdf.js + analyze-pdf-pages.py.
+
+Method (all lossless):
+1. Opt-in compact mode: `<!-- compact -->` marker → loadHandout toggles `.handout-compact` on #card-body; new scoped CSS tightens h2/h3/p/blockquote/ul/li/hr margins + line-height 0.98. Scoped, so other handouts' tuned pagination is untouched.
+2. Inlined the "Suggested Further Reading" bullet list into semicolon-separated category paragraphs (CLAUDE.md reference format).
+3. Concision rewording across wordy questions/context paragraphs (Parts 1–2, 8–14) — tightened phrasing, dewidowed orphan lines, same meaning.
+
+Final: pages 1–8 at 81–100% full; page 6 flagged 100% but PDF inspection shows text ends 38.8pt above the bottom (inside the 18pt margin) — full, not clipped. Even count is ideal for double-sided.
