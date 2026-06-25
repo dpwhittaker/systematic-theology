@@ -12,3 +12,4 @@ voices/results.json
 
 # TTS test audio (large binary artifacts)
 *.wav
+.develop-sessions.json
