@@ -5,5 +5,10 @@
   "proxyTarget": "http://127.0.0.1:8000",
   "proxyPrefix": "/theology",
   "stripPrefix": true,
-  "extraUnits": ["systematic-theology.service"]
+  "extraUnits": ["systematic-theology.service"],
+  "routes": [
+    { "match": "handouts/**/*.md", "to": "/#:path" },
+    { "match": "storyboards/**/*.md", "to": "/#:path" },
+    { "match": "data/**/*.md", "to": "/#:splat/:name" }
+  ]
 }
