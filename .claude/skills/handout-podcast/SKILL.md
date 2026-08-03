@@ -21,13 +21,15 @@ NotebookLM has no public API. Everything runs through the live browser UI via `m
 2. **You must ask the user which browser to use** (the tool mandates it) — list every browser + the "open a confirmation screen in every connected Chrome" option. If they pick the broadcast option, call `switch_browser` (waits for them to click Connect); otherwise `select_browser` with the chosen deviceId.
 3. `tabs_context_mcp` then `tabs_create_mcp` for a clean tab. Navigate to `https://notebooklm.google.com/`. Confirm the dashboard renders (notebook tiles, "Google Account: …"). If it redirects to `accounts.google.com`, **stop and ask the user to sign in** — never type credentials.
 
-`nlm` CLI (`uv tool install notebooklm-mcp-cli`) is an *alternative* for scripted create/upload/download, but its auth is painful in this WSL2 setup: `nlm login` wants a local GUI Chrome (none in WSL2); `--wsl` launches the *Windows-host* Chrome (the user may not be at that desktop); CDP mode (`--cdp-url`) needs a debug Chrome exposed on the target host. If you ever get `nlm` authed, `nlm audio create` / `nlm download audio` are far less fiddly than the UI. Until then, drive the browser.
+`nlm` CLI (`uv tool install notebooklm-mcp-cli`) is an *alternative* for scripted create/upload/download. Its auth used to be impractical here because the host had no GUI Chrome; that is no longer true — the host runs a desktop session with `google-chrome` installed, so `nlm login` can open a real browser locally. `nlm audio create` / `nlm download audio` are far less fiddly than driving the UI, so **it is worth retrying `nlm` before falling back to the browser flow below.**
 
 ## Loading sources WITHOUT retyping (and the charset trap)
 
-Handout files live on the WSL2 disk; the browser's file picker can't see them (native OS picker, undrivable). Don't paste by retyping either — it loses fidelity. Use the **tailnet raw-markdown URL + clipboard bridge**:
+The file picker is a native OS dialog and can't be driven, and retyping loses fidelity. Use the **tailnet raw-markdown URL + clipboard bridge**:
 
-The dev server serves the repo over the tailnet at `https://desktop-uqt6i2t.tail9fb1cb.ts.net/theology/handouts/<name>.md` (reachable from any tailnet peer, including the user's browser host; **not** reachable from inside WSL2 itself, and **not** by NotebookLM's own URL-fetcher since the site is tailnet-private — so "Website" source won't work).
+The dev server serves the repo over the tailnet at `https://<gpu-host>/theology/handouts/<name>.md` — substitute the gpu-server's Tailscale MagicDNS name (deliberately not committed; get it from `tailscale status`). Reachable from any tailnet peer including the host itself, but **not** by NotebookLM's own URL-fetcher, since the site is tailnet-private — so "Website" source won't work.
+
+> If the browser you're driving is on *this* host, the file picker is no longer an absolute blocker — a local Chrome can reach the handout files on disk directly. The clipboard bridge below is still the reliable path when driving a browser on another device.
 
 In a **second browser tab navigated to that raw-md URL** (same-origin fetch is allowed there; a fetch from the notebooklm.google.com tab is cross-origin and CORS-blocked):
 
@@ -96,7 +98,7 @@ audio/<handout-slug>/
 
 ## Download (audio) + transcode
 
-Browser path: the completed entry's 3-dot **More → Download** lands in `/mnt/c/Users/David/Downloads/` (no save dialog; ignore the stray "Untitled" tab). Format is `.m4a`, filename from the auto-title. Disambiguate long vs medium by "View custom prompt" (only the custom one has it) or by duration. (`nlm download audio <notebook> <artifact-id>` if `nlm` is authed.)
+Browser path: the completed entry's 3-dot **More → Download** lands in the download directory of whichever machine that browser runs on — `~/Downloads` when it's a local Chrome on this host (no save dialog; ignore the stray "Untitled" tab). Format is `.m4a`, filename from the auto-title. Disambiguate long vs medium by "View custom prompt" (only the custom one has it) or by duration. (`nlm download audio <notebook> <artifact-id>` if `nlm` is authed.)
 
 **Transcode before commit** — raw exports are ~256 kbps stereo; a Long file can exceed GitHub's 100 MB limit:
 ```

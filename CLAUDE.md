@@ -174,19 +174,17 @@ Recommended upgrades: Roboto Mono, Fira Code, or Atkinson Hyperlegible for bette
 
 ### Running the Application
 
-This is a static site with no build process. The dev server is managed by systemd as `systematic-theology.service` and starts automatically at Windows boot (via the existing `\Boot WSL at startup` Task Scheduler entry → WSL2 → systemd). **No manual startup is needed — it should already be running.** To check / control:
+This is a static site with no build process. The dev server is managed by systemd as `systematic-theology.service`, which is `enable`d and `Restart=always`, so it comes back on its own after a reboot. **No manual startup is needed — it should already be running.** To check / control:
 ```bash
 systemctl status systematic-theology.service
 sudo systemctl restart systematic-theology.service   # after edits that need a server reload (rare — static files don't need it)
 journalctl -u systematic-theology.service -f          # tail logs
 ```
-The unit file is at `/etc/systemd/system/systematic-theology.service` and binds `127.0.0.1:8000` as user `david` with `Restart=always`. Then open: http://localhost:8000
+The unit file is at `/etc/systemd/system/systematic-theology.service` (source copy in this repo) and binds `127.0.0.1:8000` as user `david` with `Restart=always`. Then open: http://localhost:8000
 
-**Port 8000 is also the backend for Tailscale HTTPS serving.** The Windows tailscale daemon runs a persistent `tailscale serve --https=443 http://localhost:8000` config that fronts this same port with a publicly trusted Let's Encrypt cert and exposes the site to the tailnet over HTTPS. Both the TLS side and the Python backend now survive reboots and WSL2 restarts. Don't tear down port 8000 casually if other devices on the tailnet are using the site.
+**Port 8000 is the site's only backend.** On the dev host it's fronted by a path-based reverse proxy that serves it at `/theology/` with the prefix stripped, and TLS terminates in front of that. Nothing in this repo depends on which proxy is used — the contract is just "something forwards to `127.0.0.1:8000`". Don't tear down port 8000 casually if other devices on the tailnet are using the site.
 
-**WSL2 networking note:** this machine runs WSL2 in `networkingMode=Mirrored` (see `/mnt/c/Users/David/.wslconfig`), so Windows and WSL2 share the network stack. Any Windows-side process binding port 8000 will conflict with the WSL2 systemd unit (and vice versa). If the service fails with `EADDRINUSE`, check the Windows side first: `/mnt/c/Windows/System32/netstat.exe -ano | grep :8000`.
-
-**Self-loopback gotcha:** curl-ing the tailnet HTTPS hostname from inside WSL2 fails with "connection refused" — the 443 bind lives on the Windows tailscale virtual interface, which WSL2 can't route to directly. Test from another tailnet peer, from Windows (`/mnt/c/Windows/System32/curl.exe ...`), or just hit `http://127.0.0.1:8000/` locally. This is expected, not broken.
+**If the unit fails with `EADDRINUSE`,** something else grabbed 8000 — find it with `ss -tlnp | grep :8000` and kill the orphan rather than moving the port.
 
 **Current exposure:** tailnet-private only. Public exposure via Tailscale Funnel or Cloudflare Tunnel was evaluated and deferred — we're keeping the site behind the tailnet for now. If that changes, Funnel is a one-command flip (same FQDN, reuses the existing `tailscale serve` config).
 
@@ -331,15 +329,9 @@ Each category is one paragraph line. Apply this format to all reference/further-
 
 ## GPU / ML Workloads
 
-This machine IS the GPU server. Claude Code runs natively inside the WSL2 environment (Ubuntu 24.04), which owns the GPU, the ML tools, and the Python venv. No SSH, no `wsl bash -c` wrapper — just run commands directly.
+Media generation for this project (SDXL slide art, TTS narration) runs on the local GPU.
 
-### Hardware
-
-- **OS:** Ubuntu 24.04 on WSL2 (Windows 11 host)
-- **GPU:** RTX 4080 16GB (CUDA via WSL2 passthrough)
-- **CPU:** Intel i7-14700K, 14 cores / 28 threads
-- **RAM:** 46GB
-- **Sudo:** Passwordless
+**Host specifics — OS, GPU, driver/CUDA versions, venv location, nvidia-smi path — live in the global `~/.claude/CLAUDE.md`, not here.** They were duplicated in this file once and silently went stale through a machine rebuild; don't reintroduce them. What follows is only what's specific to *this project's* media work.
 
 ### Running ML Commands
 
@@ -353,15 +345,12 @@ The RTX 4080 is fast enough (~3s/image for SDXL, <30s for short TTS) that most i
 
 ### Installed Software
 
-- Python 3.12 (venv at `~/ml-env` — always `source ~/ml-env/bin/activate` before running Python)
-- CUDA Toolkit 12.8 (paths in `~/.bashrc`)
-- PyTorch 2.11.0+cu128 (CUDA confirmed working)
-- nvidia-smi at `/usr/lib/wsl/lib/nvidia-smi`
+- Python venv at `~/ml-env` — always `source ~/ml-env/bin/activate` before running Python. PyTorch + CUDA versions are recorded in the global `~/.claude/CLAUDE.md`.
 - Stable Diffusion XL (`stabilityai/stable-diffusion-xl-base-1.0` via `diffusers`, fp16, cached in `~/.cache/huggingface/`)
 - Dia TTS (repo at `~/dia/`, pinned to commit `2811af1` pre-Dia2; installed with `--no-deps` to avoid torch downgrade)
-- Tortoise TTS (separate venv at `~/tortoise-env/`; `transformers==4.31.0` with patched tokenizers version check)
+- Tortoise TTS (its own venv, kept separate because it pins `transformers==4.31.0` with a patched tokenizers version check — do not merge it into `~/ml-env`)
 - VibeVoice (repo at `~/VibeVoice/`, requires flash-attn)
-- flash-attn 2.8.3 (compiled from source for CUDA 12.8)
+- flash-attn (compiled from source; the host's default gcc may be newer than the CUDA toolkit accepts, so the build needs `CC`/`CXX` pinned to an older gcc — see the global `~/.claude/CLAUDE.md`)
 - Dia2 TTS (repo at `~/dia2/`, uses its own `uv`-managed venv at `~/dia2/.venv/`; run via `cd ~/dia2 && .venv/bin/python3`)
 - ElevenLabs TTS (cloud API, see below)
 - ffmpeg 6.1.1 (system package, required by whisper/torchcodec/Dia2)
@@ -435,7 +424,7 @@ Storyboards are routed through the same `loadHandout()` path as handouts (detect
 
 ### Image Generation
 
-Scripts live in `scripts/` and write directly to `storyboards/images/`. Run directly from WSL:
+Scripts live in `scripts/` and write directly to `storyboards/images/`. Run them directly:
 
 ```bash
 source ~/ml-env/bin/activate && python3 scripts/gen_bap_slides.py
