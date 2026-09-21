@@ -1,5 +1,5 @@
 ---
-tags: [Reference]
+tags: [Bible]
 ---
 
 # Systematic Theology: A Hebraic Re-examination
